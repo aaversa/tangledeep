@@ -1,0 +1,1539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1072258463713606}
+  m_IsPrefabParent: 1
+--- !u!1 &1072258463713606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224984659593103870}
+  - component: {fileID: 222089389566998666}
+  - component: {fileID: 114644716609674130}
+  - component: {fileID: 114411661282194474}
+  m_Layer: 5
+  m_Name: Job13Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1454749675994054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224459790930146418}
+  - component: {fileID: 114077784925713016}
+  - component: {fileID: 114439936909146510}
+  - component: {fileID: 114162836724010086}
+  - component: {fileID: 114307966000346148}
+  - component: {fileID: 222749373571403702}
+  - component: {fileID: 114293506683322608}
+  m_Layer: 0
+  m_Name: Job13GameObject
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1539730808250052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224726036586044658}
+  - component: {fileID: 222562107673077668}
+  - component: {fileID: 114897715848685140}
+  m_Layer: 5
+  m_Name: Job13Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114077784925713016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454749675994054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08151f98e19a462e9f1bb733aca71cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimations:
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: Idle
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300000, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.25
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300002, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300004, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300006, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.25
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300008, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300010, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: Walk
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: -0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300012, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300014, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300016, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300018, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300020, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300022, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: Attack
+    isAttackAnimation: 1
+    animationHandlesOrientation: 0
+    completionLogic: Stop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300024, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300026, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300028, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300030, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300032, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300034, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300034, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.001
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: IdleSide
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300000, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.25
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300002, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300004, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300006, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.25
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300008, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300010, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: WalkSide
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300012, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300014, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300016, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300018, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300020, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300022, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: AttackSide
+    isAttackAnimation: 1
+    animationHandlesOrientation: 0
+    completionLogic: Stop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300024, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300026, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300028, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300030, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300032, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300034, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300034, guid: 6d2042f49aaf7bf46a567002dec2d4e0, type: 3}
+      spriteTime: 0.001
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: IdleTop
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300000, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.25
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300002, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300004, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300006, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.25
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300008, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300010, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.2
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: WalkTop
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300012, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300014, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300016, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300018, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300020, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300022, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: AttackTop
+    isAttackAnimation: 1
+    animationHandlesOrientation: 0
+    completionLogic: Stop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300024, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300026, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300028, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300030, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300032, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300034, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.05
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300034, guid: 4e026bb1fafa2d64c9b90186b12535a2, type: 3}
+      spriteTime: 0.001
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: UseItem
+    isAttackAnimation: 1
+    animationHandlesOrientation: 0
+    completionLogic: Stop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300036, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.45
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300036, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+      spriteTime: 0.001
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  debugRevealData: 0
+  speedMultiplier: 1
+  startRotation: 0
+  animPlaying:
+    enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    varyAnimStartTimer: 0
+    animName: 
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: 
+    startScale: 0
+    ignoreScale: 0
+    startOpacity: 0
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites: []
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  spriteTimer: 0
+  srFound: 0
+  IsUIElement: 1
+  alphaSetExternally: 0
+  spriteIndex: 0
+  animComplete: 0
+  defaultDirection: 2
+  rotationAngleOffset: 0
+  allFramePosOffset: {x: 0, y: 0}
+  timeAtFrameStart: 0
+  calcGameWaitTime: 0
+  spriteFacingDirection: 0
+  opacityMod: 0
+  hitOrAttackState: 0
+  directionFlippedFromAnimation: 0
+  curSpriteTime: 0
+  updatedAtLeastOnce: 0
+  validAnimationSet: 0
+--- !u!114 &114162836724010086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454749675994054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593ac2f2e80e90f40b31c93905ad67ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cues:
+  - cueName: EquipItem
+    clips:
+    - {fileID: 8300000, guid: aa73deab9abba2a4bae2f4a4413ebb43, type: 3}
+    volume: 0.65
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Stairs
+    clips:
+    - {fileID: 0}
+    volume: 0
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Found Item
+    clips:
+    - {fileID: 8300000, guid: 4551738290ff0ab4097195f36225c839, type: 3}
+    volume: 0
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Error
+    clips:
+    - {fileID: 8300000, guid: 1ac0aabcfadb9e34d8623df3d00fc2cf, type: 3}
+    volume: 0.55
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Pickup
+    clips:
+    - {fileID: 8300000, guid: 01dfebc61e97f1d459c3d572ae1348c8, type: 3}
+    volume: 0.9
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Footstep
+    clips:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    volume: 1
+    randomVolumeVar: 0
+    pitchMod: 0.3
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 5
+--- !u!114 &114293506683322608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454749675994054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300018, guid: 7595196d053194844901292db990512d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114307966000346148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454749675994054}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19ced47e94a87f4689fe689a8a490ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114411661282194474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072258463713606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: HoverJobInfo
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 12
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: SelectJob
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 12
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &114439936909146510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454749675994054}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fcd24bcc410456d85817e2bb82a4da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  sortOrderOffset: 0
+  permanentYOffset: 0
+  permanentXOffset: 0
+  spriteHeight: 0
+  spriteWidth: 0
+  fadingOut: 0
+  fadingIn: 0
+  debugRevealData: 0
+  startXFlippedAtRandom: 0
+  defaultCollidable: 0
+  remember: 0
+  rememberTurns: 0
+  turnsSinceLastSeen: 0
+  inSight: 0
+  dirFacing: {x: 0, y: 0}
+  destructible: 0
+  footstepSounds:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  extraHeightTiles: 0
+  diagonalBlock: 0
+  diagonalLBlock: 0
+  fxAnimatableComponent: {fileID: 0}
+  hasFXAnimatable: 0
+  sr: {fileID: 0}
+  srFound: 0
+  spriteEffect: 0
+  rotateStatusOverlayCounter: 0
+  statusOverlayIndex: 0
+  forceColor: {r: 1, g: 1, b: 1, a: 1}
+  usePublicForceColor: 0
+  terrainTile: 0
+  overlappingTransparentObject: 0
+--- !u!114 &114644716609674130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072258463713606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 6d88ceed307ba7c45bf769e64092a03a, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114897715848685140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539730808250052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: b2c32e0548fbcca40b39c4061f5e4dc0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &222089389566998666
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072258463713606}
+--- !u!222 &222562107673077668
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539730808250052}
+--- !u!222 &222749373571403702
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454749675994054}
+--- !u!224 &224459790930146418
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1454749675994054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224984659593103870}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -9.999985}
+  m_SizeDelta: {x: 232, y: 296}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224726036586044658
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539730808250052}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224984659593103870}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 232, y: 296}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224984659593103870
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072258463713606}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.000005, y: 1.000005, z: 1.000005}
+  m_Children:
+  - {fileID: 224726036586044658}
+  - {fileID: 224459790930146418}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 730, y: 111.75}
+  m_SizeDelta: {x: 210, y: 210}
+  m_Pivot: {x: 0.5, y: 0.5}

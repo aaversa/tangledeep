@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>	
+	<NPC>
+		<DisplayName>npc_jumpintoriver_name</DisplayName>
+		<RefName>npc_jumpintoriver</RefName>
+		<DialogRef>dialog_jumpintoriver</DialogRef>
+		<Prefab>NPCSparkles</Prefab>
+		<PlayerCollidable>0</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<HoverDisplay>1</HoverDisplay>
+		<NoBumpToTalk />
+	</NPC>
+
+	<NPC>
+		<RefName>npc_dummyriver</RefName>
+		<Prefab>Transparent</Prefab>
+		<PlayerCollidable>0</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<HoverDisplay>0</HoverDisplay>
+		<NoBumpToTalk />
+	</NPC>
+
+	<NPC>
+		<DisplayName>mon_mon_banditwarlord_name</DisplayName>		
+		<RefName>npc_friendly_dirtbeak</RefName>
+		<Prefab>MonsterBanditWarlord</Prefab>
+		<DialogRef>dialog_friendly_dirtbeak_shara</DialogRef>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+	</NPC>	
+
+	<NPC>
+		<DisplayName>exp_fisherman_name</DisplayName>		
+		<RefName>npc_fisherman</RefName>
+		<Prefab>NPCWanderer</Prefab>
+		<DialogRef>dialog_wanderer</DialogRef>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+	</NPC>
+
+	<NPC>
+		<DisplayName>exp_randomshop1_name</DisplayName>		
+		<RefName>npc_randomshop1</RefName>
+		<DialogRef>md_randomshop</DialogRef>
+		<Prefab>NPCRaccoonMerchant</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<ShopRef>shop_randomany</ShopRef>
+		<DoNotRestockShop>1</DoNotRestockShop>
+	</NPC>
+	<NPC>
+		<DisplayName>exp_randomshop2_name</DisplayName>		
+		<RefName>npc_randomshop2</RefName>
+		<DialogRef>md_randomshop</DialogRef>
+		<Prefab>NPCRaccoonMerchant2</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<ShopRef>shop_randomany</ShopRef>
+		<DoNotRestockShop>1</DoNotRestockShop>
+	</NPC>
+	<NPC>
+		<DisplayName>exp_randomshop3_name</DisplayName>		
+		<RefName>npc_randomshop3</RefName>
+		<DialogRef>md_randomshop</DialogRef>
+		<Prefab>NPCRaccoonMerchant3</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<ShopRef>shop_randomany</ShopRef>
+		<DoNotRestockShop>1</DoNotRestockShop>
+	</NPC>
+	<NPC>
+		<DisplayName>exp_randomshop4_name</DisplayName>		
+		<RefName>npc_randomshop4</RefName>
+		<DialogRef>md_randomshop</DialogRef>
+		<Prefab>NPCRaccoonMerchant4</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<ShopRef>shop_randomany</ShopRef>
+		<DoNotRestockShop>1</DoNotRestockShop>
+	</NPC>
+	<NPC>
+		<DisplayName>exp_randomshop5_name</DisplayName>		
+		<RefName>npc_randomshop5</RefName>
+		<DialogRef>md_randomshop</DialogRef>
+		<Prefab>NPCRaccoonMerchant5</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<ShopRef>shop_randomany</ShopRef>
+		<DoNotRestockShop>1</DoNotRestockShop>
+	</NPC>
+	<NPC>
+		<DisplayName>exp_randomshop6_name</DisplayName>		
+		<RefName>npc_randomshop6</RefName>
+		<DialogRef>md_randomshop</DialogRef>
+		<Prefab>NPCRaccoonMerchant6</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+		<ShopRef>shop_randomany</ShopRef>
+		<DoNotRestockShop>1</DoNotRestockShop>
+	</NPC>
+
+	<NPC>
+		<DisplayName>exp_weaponmaster_statue_name</DisplayName>		
+		<RefName>npc_weaponmaster_statue</RefName>
+		<DialogRef>weaponmaster_statue</DialogRef>
+		<Prefab>WeaponMasterStatue</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+	</NPC>	
+
+	<NPC>
+		<DisplayName>exp_armormaster_statue_name</DisplayName>		
+		<RefName>npc_armormaster_statue</RefName>
+		<DialogRef>armormaster_statue</DialogRef>
+		<Prefab>ArmorMasterStatue</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+	</NPC>
+
+	<NPC>
+		<DisplayName>exp_minidreamcaster_name</DisplayName>		
+		<RefName>npc_minidreamcaster</RefName>
+		<DialogRef>md_mini_dreamcaster</DialogRef>
+		<Prefab>MiniDreamcaster</Prefab>		
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+	</NPC>	
+</DOCUMENT>

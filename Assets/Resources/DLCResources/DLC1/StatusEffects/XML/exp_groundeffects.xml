@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>
+		<DName>exp_skill_shockwave_name</DName>
+		<Rf>exp_ground_shockwave</Rf>
+		<ATags>GROUNDBASEDEFFECT,PLAYANIMONEMPTY,PERTARGETANIM,SIMULTANEOUSANIM</ATags>		
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+			<STARTTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_shockwave_name</Disp>
+			<ERef>eff_shockwavedmg</ERef>
+			<DamageType>LIGHTNING</DamageType>
+			<AtkSp>1.35|3</AtkSp>
+			<Anim>LightningStrikeEffect,0.05</Anim>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />	
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>status_weakerphasmaburns</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_phasmaburning_name</Disp>
+			<ERef>eff_weakphasmaburning</ERef>
+			<AtkSp>0.3</AtkSp>
+			<AtkWp>0.3</AtkWp>	
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+			<NoDodgePossible />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_electile_name</DName>
+		<Rf>status_electile_half</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_elec_weaker</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_paralyzed</StatusRef>
+			<Duration>2</Duration>
+			<TriggerPerTurns>2</TriggerPerTurns>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>effect_spinblade_name</DName>
+		<Rf>status_playerspinblade2</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_spinblade_name</Disp>
+			<ERef>playerspinblade3</ERef>
+			<SCdm>EnhanceWildChildDamage</SCdm>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>1|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>			
+			<Trg1 />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>effect_spinblade_name</DName>
+		<Rf>status_spinblade2</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_spinblade_name</Disp>
+			<ERef>spinblade2</ERef>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>1.33|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>			
+			<Trg1 />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_addwatervapordodge</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_addwatervapordodge</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>MYFACTION</Faction>
+			<StatusRef>status_watervapordodge</StatusRef>
+			<Duration>2</Duration>
+			<TriggerPerTurns>1</TriggerPerTurns>
+			<Silent />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>status_addsparkscrit</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_addsparkscrit</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>MYFACTION</Faction>
+			<StatusRef>status_extracrit</StatusRef>
+			<Duration>9</Duration>
+			<TriggerPerTurns>1</TriggerPerTurns>
+			<Silent />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>status_addorbmeleedamage</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_addmeleedamage</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>MYFACTION</Faction>
+			<StatusRef>status_extrameleedamage</StatusRef>
+			<Duration>6</Duration>
+			<TriggerPerTurns>1</TriggerPerTurns>
+			<Silent />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>pickup_combat_biography</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>pickup_combatbook</ERef>			
+			<Sscr>CombatBiographyPickup</Sscr>
+			<Targ>LOCAL</Targ>
+			<Faction>MYFACTION</Faction>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_sealandroot</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<EffRef>eff_shadowtrapaddroot</EffRef>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_sealfromground</ERef>
+			<StatusRef>status_sealed</StatusRef>
+			<Targ>LOCAL</Targ>	
+			<Faction>NOTMYFACTION</Faction>		
+			<Anim>InkBrushSystem,0.05</Anim>
+			<Duration>3</Duration>
+			<Trg1 />
+		</AEff>			
+	</SE>
+
+	<SE>
+		<DName>obj_holyfire_name</DName>
+		<Rf>status_holyfire</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>obj_holyfire_name</Disp>
+			<ERef>eff_holyfiredamage</ERef>		
+			<AtkWp>1.25|3</AtkWp>	
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>effect_eff_inferno_name</DName>
+		<Rf>status_oilslickfire</Rf>
+		<ATags>GROUNDBASEDEFFECT,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_inferno_name</Disp>
+			<ERef>eff_oilslickfire</ERef>					
+			<AtkWp>0.4|3</AtkWp>			
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<DamageItem />
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>status_status_confused50_name</DName>
+		<Rf>confusetrap</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>confusetrap_adder</ERef>
+			<StatusRef>status_confused50</StatusRef>
+			<Anim>ConfusionEffect,0.05</Anim>
+			<Script_ExtraPerActorFunction>PlaySmokeSpewEffect</Script_ExtraPerActorFunction>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>4</Duration>
+			<TriggerPerTurns>4</TriggerPerTurns>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>status_dungeonice</Rf>
+		<ISpr>FrozenEffect</ISpr>		
+		<ShowIcon />
+		<Run>
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Flag>FREEZING</Flag>
+		<EffRef>eff_frozengroundslow</EffRef>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_evokeiceshards1_name</Disp>
+			<ERef>eff_evokeiceshards2_dungeon</ERef>
+			<TCurHP>0.15|10</TCurHP>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>						
+			<Trg1 />
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>effect_eff_shadowtile_name</DName>
+		<Rf>status_godshadowtrap</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>		
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_shadowtile_name</Disp>
+			<ERef>eff_godshadowtiledamage</ERef>
+			<DamageType>SHADOW</DamageType>
+			<AtkWp>0.9|3</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<Anim>ShadowSpikeAttack,0.1</Anim>
+		</AEff>
+		<EffRef>eff_shadowtrapaddroot_shorter</EffRef>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addshadowvuln6</ERef>
+			<StatusRef>resistshadow15</StatusRef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<Duration>6</Duration>					
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_lightningstorm_name</DName>
+		<Rf>status_godlightning</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<STARTTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_lightningstorm_name</Disp>
+			<ERef>godlightningdmg</ERef>
+			<Anim>LightningStrikeEffectBig,0.08</Anim>
+			<AtkWp>1.8|10</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_icetrap_name</DName>
+		<Rf>status_icetrapwithdamage</Rf>
+		<TeachPlayerAbility>skill_playericetraps</TeachPlayerAbility>
+		<ShowIcon />
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Flag>FREEZING</Flag>
+		<EffRef>addbigfreezeground</EffRef>
+		<EffRef>eff_evokeiceshards1_local</EffRef>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_monflameserpent_name</DName>
+		<Rf>status_50powerflameserpent</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_monflameserpent_name</Disp>
+			<ERef>eff_50powerflameserpentdmg</ERef>		
+			<AtkWp>0.4|3</AtkWp>	
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>		
+</DOCUMENT>

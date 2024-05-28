@@ -1,0 +1,2042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>
+		<Rf>BoostPlayerCoreStats1</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>boost_str_permanent1</ERef>
+			<Targ>LOCAL_HEROONLY</Targ>
+			<Stat>STRENGTH</Stat>
+			<StatData>ALL</StatData>
+			<Anim>FervirGrandRecovery,0.1</Anim>
+			<AtkWp>0|1</AtkWp>
+			<Faction>PLAYER</Faction>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>boost_swift_permanent1</ERef>
+			<Targ>LOCAL_HEROONLY</Targ>
+			<Stat>SWIFTNESS</Stat>
+			<StatData>ALL</StatData>
+			<AtkWp>0|1</AtkWp>
+			<Faction>PLAYER</Faction>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>boost_spirit_permanent1</ERef>
+			<Targ>LOCAL_HEROONLY</Targ>
+			<Stat>SPIRIT</Stat>
+			<StatData>ALL</StatData>
+			<AtkWp>0|1</AtkWp>
+			<Faction>PLAYER</Faction>
+		</AEff>	
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>boost_disc_permanent1</ERef>
+			<Targ>LOCAL_HEROONLY</Targ>
+			<Stat>DISCIPLINE</Stat>
+			<StatData>ALL</StatData>
+			<AtkWp>0|1</AtkWp>
+			<Faction>PLAYER</Faction>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>boost_guile_permanent1</ERef>
+			<Targ>LOCAL_HEROONLY</Targ>
+			<Stat>GUILE</Stat>
+			<StatData>ALL</StatData>
+			<AtkWp>0|1</AtkWp>
+			<Faction>PLAYER</Faction>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<DName>status_status_thornslow_name</DName>
+		<Rf>status_thornslow</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<CombatOnly />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>eff_thornslow</ERef>
+			<AtkWp>0|-50</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>ALL</StatData>
+			<TriggerPerTurns>4</TriggerPerTurns>
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>item_bomb_caltrops_name</DName>
+		<Rf>status_caltrops</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>	
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>item_bomb_caltrops_name</Disp>
+			<ERef>caltropsbleed</ERef>
+			<AtkLv>3|10</AtkLv>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<DamageItem />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>eff_caltropsslow</ERef>
+			<AtkWp>0|-50</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>ALL</StatData>
+			<TriggerPerTurns>3</TriggerPerTurns>
+		</AEff>		
+	</SE>		
+
+	<SE>
+		<DName>status_status_bedofthorns_conda_name</DName>
+		<Rf>status_bedofthorns_conda</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_mildbleeddmg_name</Disp>
+			<ERef>bedofthorns_conda</ERef>
+			<AtkWp>0.25|3</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			
+			<Trg1 />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_bedofthorns</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_bedofthorns_name</Disp>
+			<ERef>bedofthorns</ERef>
+			<AtkSp>0.25|2</AtkSp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>
+			<Trg1 />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_bedofthorns_2</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_bedofthorns_name</Disp>
+			<ERef>bedofthorns2</ERef>
+			<AtkSp>0.33|5</AtkSp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>
+			<Trg1 />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_oakspike_thorns_name</DName>
+		<Rf>status_oakspike_thorns</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_oakspike_thorns_name</Disp>
+			<ERef>oakspike_thorns</ERef>
+			<AtkSp>0.25|5</AtkSp>
+			<AtkWp>0.25</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>
+			<Trg1 />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>status_status_bedofthorns_conda_name</DName>
+		<Rf>status_bedofthorns2</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_mildbleeddmg_name</Disp>
+			<ERef>bedofthorns3</ERef>
+			<AtkSp>0.45|5</AtkSp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>
+			<Trg1 />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+	</SE>		
+	<SE>
+		<DName>abil_skill_bedofflames_name</DName>
+		<Rf>status_bedofflames</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_bedofflames_name</Disp>
+			<ERef>ember_bed</ERef>
+			
+			<AtkWp>0.6|2</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>effect_alchemyfiredamage_name</DName>
+		<Rf>status_alchemyfire</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_alchemyfiredamage_name</Disp>
+			<ERef>alchemyfiredamage</ERef>
+			<Rnd>28|45</Rnd>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<CeilingValue>9999</CeilingValue>
+		</AEff>
+	</SE>
+	<SE>
+		<DName>effect_alchemygas_name</DName>
+		<Rf>status_alchemygas</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_alchemygas_name</Disp>
+			<ERef>alchemygas</ERef>
+			
+			<AtkWp>0.6|3</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addaciddebuff50</ERef>
+			<StatusRef>status_aciddebuff</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>4</Duration>
+			<ProcChance>0.5</ProcChance>
+			<Trg1 />
+		</AEff>		
+	</SE>			
+	<SE>
+		<DName>abil_skill_creepingdeath_name</DName>
+		<Rf>status_creepingdeath</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>	
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_mildbleeddmg_name</Disp>
+			<ERef>creepingdeathdamage</ERef>
+			<Anim>GrowEffect,0.5</Anim>
+			<AtkSp>0.6|5</AtkSp>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>
+			<TriggerPerTurns>0</TriggerPerTurns>
+			<SpriteEffectRef>SpikeEffect</SpriteEffectRef>
+			<AnimLength>0.05</AnimLength>			
+		</AEff>
+	</SE>		
+	<SE>
+		<DName>status_status_firebreath1_name</DName>
+		<Rf>status_firebreath1</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_firebreath1_name</Disp>
+			<ERef>firebreathgrounddmg</ERef>
+			<Anim>SimpleFireEffect,0.07</Anim>
+			<AtkLv>2|23</AtkLv>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>effect_manabomb_dmg_name</DName>
+		<Rf>status_manabomb</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>	
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_manabomb_dmg_name</Disp>
+			<ERef>manabomb_dmg</ERef>
+			<Anim>BigExplosionEffect,0.25</Anim>
+			<AtkSp>0.9|4</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>manabomb_def_debuff</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_mutagendefdown</StatusRef>
+			<BattleText>effect_evokeacid2_btxt</BattleText>
+		</AEff>	
+	</SE>
+
+	<SE>
+		<DName>abil_skill_fireburst_name</DName>
+		<Rf>status_fireburst</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_fireburst_name</Disp>
+			<ERef>fireburstgrounddmg</ERef>
+			<Anim>BigExplosionEffect,0.25</Anim>
+			<AtkWp>1.75|4</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+		</AEff>
+	</SE>		
+	<SE>
+		<DName>abil_skill_monflameserpent_name</DName>
+		<Rf>status_flameserpent</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_monflameserpent_name</Disp>
+			<ERef>eff_flameserpentdmg</ERef>
+			<AtkWp>0.5|4</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>effect_eff_poisonclouddmg_name</DName>
+		<Rf>status_sludgecloud</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_poisonclouddmg_name</Disp>
+			<ERef>eff_poisonclouddmg</ERef>
+			<DamageType>POISON</DamageType>
+			<AtkWp>1.1|5</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />	
+		</AEff>		
+	</SE>	
+	<SE>
+		<DName>effect_eff_poisonclouddmg2_name</DName>
+		<Rf>status_poisoncloud</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_poisonclouddmg2_name</Disp>
+			<ERef>eff_poisonclouddmg2</ERef>
+			<DamageType>POISON</DamageType>
+			<AtkWp>0.35|5</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />	
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>effect_acidpoolgrounddmg_name</DName>
+		<Rf>status_acidpool</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_acidpoolgrounddmg_name</Disp>
+			<ERef>acidpoolgrounddmg</ERef>
+			<DamageType>POISON</DamageType>
+			<AtkWp>0.25|4</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />	
+		</AEff>		
+	</SE>	
+	<SE>
+		<DName>status_status_smokecloud_name</DName>
+		<Rf>status_smokecloud</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_smokeblindaddstatus</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_smokeblind</StatusRef>
+			<Duration>4</Duration>
+			<TriggerPerTurns>12</TriggerPerTurns>
+		</AEff>		
+	</SE>	
+	<SE>
+		<DName>abil_skill_lightningstorm_name</DName>
+		<Rf>status_crystallightningstorm</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_lightningstorm1grounddmg_name</Disp>
+			<ERef>lightningstorm1grounddmg</ERef>
+			<Anim>LightningStrikeEffect,0.08</Anim>
+			<AtkWp>0.65</AtkWp>
+			<AtkSp>0.65|5</AtkSp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_playerthunderstorm_name</DName>
+		<Rf>status_playertstorm</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_player_tstorm_dmg_name</Disp>
+			<ERef>player_tstorm_dmg</ERef>
+			<Anim>LightningStrikeEffect,0.08</Anim>
+			<AtkWp>0.55</AtkWp>
+			<AtkSp>0.55|5</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>ENEMY</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_lightningstorm_name</DName>
+		<Rf>status_lightningstorm1</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<STARTTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_lightningstorm_name</Disp>
+			<ERef>lightningstorm1strikedmg</ERef>
+			<Anim>LightningStrikeEffect,0.01</Anim>
+			<AtkWp>2.2|10</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>abil_skill_lightningstorm_name</DName>
+		<Rf>status_lightningstorm1s</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<STARTTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_lightningstorm_name</Disp>
+			<ERef>lightningstorm2strikedmg</ERef>
+			<Anim>LightningStrikeEffectQuiet,0.01</Anim>
+			<AtkWp>1.5|10</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>		
+	<SE>
+		<DName>status_status_addfireburn_name</DName>
+		<Rf>status_addfireburn</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_addfireburnsground</ERef>
+			<StatusRef>status_fireburns2</StatusRef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>4</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>effect_eff_acidtileground_name</DName>
+		<Rf>status_acidtiledamage</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_acidtileground_name</Disp>
+			<ERef>eff_acidtileground</ERef>
+			<DamageType>POISON</DamageType>
+			<AtkSp>0.5|3</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />		
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_aciddebuffadder</ERef>
+			<StatusRef>status_aciddebuff</StatusRef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>3</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>effect_eff_shadowtile_name</DName>
+		<Rf>status_monshadowtrap</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_shadowtile_name</Disp>
+			<ERef>eff_shadowtile</ERef>
+			<DamageType>SHADOW</DamageType>
+			<AtkSp>1.15|3</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<Anim>ShadowSpikeAttack,0.1</Anim>
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_shadowtrapaddroot</ERef>
+			<StatusRef>status_rooted</StatusRef>
+			<Targ>LOCAL</Targ>	
+			<Faction>NOTMYFACTION</Faction>		
+			<Duration>3</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>	
+	<SE>
+		<DName>effect_eff_shadowtile_name</DName>
+		<Rf>status_shadowtrap</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>		
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_shadowtile_name</Disp>
+			<ERef>eff_shadowtiledamage</ERef>
+			<DamageType>SHADOW</DamageType>
+			<AtkSp>0.75|3</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<Anim>ShadowSpikeAttack,0.1</Anim>
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_shadowtrapaddroot_shorter</ERef>
+			<StatusRef>status_rooted</StatusRef>
+			<Targ>LOCAL</Targ>	
+			<Faction>NOTMYFACTION</Faction>		
+			<Duration>2</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>effect_eff_floorspikesdmg_name</DName>
+		<Rf>status_floorspikes</Rf>
+		
+		<StatusIconRef>SkillIcons_36</StatusIconRef>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_floorspikesdmg_name</Disp>
+			<ERef>eff_floorspikesdmg</ERef>
+			<TMaxHP>0.1|2</TMaxHP>
+			<Targ>SINGLE</Targ>
+			
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_phasmaburns</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_phasmaburning_name</Disp>
+			<ERef>eff_phasmaburning</ERef>
+			<TMaxHP>0.2|2</TMaxHP>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			
+			<Trg1 />
+			<NoDodgePossible />
+		</AEff>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>reducesummontime</ERef>
+			<Sscr>ReduceSummonTime</Sscr>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>effect_eff_lavaburning_name</DName>
+		<Rf>status_lavaburns</Rf>		
+		<StatusIconRef>SkillIcons_36</StatusIconRef>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_lavaburning_name</Disp>
+			<ERef>eff_lavaburning</ERef>
+			<SCdm>LavaBurns</SCdm>
+			
+			<TMaxHP>0.1|2</TMaxHP>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+			<NoDodgePossible />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>status_status_mudtile_name</DName>
+		<Rf>status_mudtile</Rf>
+		<StatusIconRef>SkillIcons_34</StatusIconRef>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>mudtileroot</ERef>
+			<ProcChance>0.43</ProcChance>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_rooted</StatusRef>
+			<Duration>2</Duration>
+			<TriggerPerTurns>3</TriggerPerTurns>
+		</AEff>
+	</SE>
+	<SE>
+		<DName>abil_skill_blessedhammer_name</DName>
+		<Rf>status_blessedhammer</Rf>
+		<SGrnd />		
+		<ATags>PERTARGETANIM</ATags>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_blessedhammer_name</Disp>
+			<ERef>blessedhammer</ERef>
+			<SCdm>BlessedHammer</SCdm>
+			<Anim>FervirBluntEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>0.55|3</AtkWp>
+			<AtkSp>0.55</AtkSp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>effect_electrifire_name</DName>
+		<Rf>status_electricfire</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_electrifire_name</Disp>
+			<ERef>electrifire</ERef>
+			<AtkWp>0.7|7</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>effect_eff_inferno_name</DName>
+		<Rf>status_inferno</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_inferno_name</Disp>
+			<ERef>eff_inferno</ERef>					
+			<AtkWp>1.75|3</AtkWp>			
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_flameslash_name</DName>
+		<Rf>status_flameslash</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_flameslash_name</Disp>
+			<ERef>eff_flameslashdmg</ERef>
+			<AtkWp>0.9|3</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>effect_acidpoolgrounddmg_name</DName>
+		<Rf>status_acidpooldamage</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_acidpoolgrounddmg_name</Disp>
+			<ERef>eff_acidtilegrounddmg</ERef>
+			<DamageType>POISON</DamageType>
+			<Rnd>18|30</Rnd>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />		
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_acidpooladder</ERef>
+			<StatusRef>status_aciddebuff</StatusRef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>3</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>status_status_champbomb_name</DName>
+		<Rf>status_champbomb</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_champbombblastdmg_name</Disp>
+			<ERef>champbombblastdmg</ERef>
+			<Anim>BigExplosionEffect,0.25</Anim>
+			<AtkWp>1.75|4</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+		</AEff>
+	</SE>	
+	<SE>
+		<DName>status_status_phoenixwing_name</DName>
+		<Rf>status_phoenixwing</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM,MONSTERAFFECTED,REQHEROTRIGGER</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_phoenixwing_name</Disp>
+			<ERef>phoenixtile</ERef>
+			<WDmt />
+			<Script_TriggerCondition>PhoenixWingCheck</Script_TriggerCondition>
+			<Anim>FervirCrescentSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>0.85|4</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>			
+			<Trg1 />
+		</AEff>
+	</SE>		
+	<SE>
+		<DName>status_status_bedofthorns_conda_name</DName>
+		<Rf>status_mossbedofthorns</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM,SIMULTANEOUSANIM</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_mildbleeddmg_name</Disp>
+			<ERef>mossthornsdamage</ERef>
+			<AtkWp>0.5|3</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>status_status_frozenground_name</DName>
+		<Rf>status_frozenground</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<Flag>FREEZING</Flag>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>eff_frozengroundslowlocal</ERef>
+			<AtkWp>0|-50</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>ALL</StatData>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_addicevuln</ERef>
+			<StatusRef>status_icedebuff</StatusRef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>5</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>abil_skill_relentlesscurrent_name</DName>
+		<Rf>status_rcurrent</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_relentlesscurrent_name</Disp>
+			<ERef>rcurrent</ERef>
+			<Anim>WaterExplosion,0.35</Anim>
+			<AtkWp>1.3</AtkWp>
+			<AtkSp>1.3|5</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addbigfreezeground_special</ERef>
+			<TCon>REQ_ORIG_STATUS</TCon>
+			<ReqStatus>emblem_sworddanceremblem_tier2_icefreeze</ReqStatus>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_bigfreeze</StatusRef>
+			<TriggerPerTurns>4</TriggerPerTurns>
+			<Duration>2</Duration>						
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>abil_skill_mortarfire_name</DName>
+		<Rf>status_playermortarfire</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM,PERTARGETANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_mortarfire_name</Disp>
+			<ERef>eff_playermortar_dmg</ERef>
+			<SCdm>EnhanceWildChildDamage</SCdm>
+			<Anim>BigExplosionEffect,0.15</Anim>
+			<AtkWp>0.8</AtkWp>
+			<AtkSp>0.8|5</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_playerfirebreath_name</DName>
+		<Rf>status_playerfirebreath</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM,PLAYANIMONEMPTY,PERTARGETANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_playerfirebreath_name</Disp>
+			<ERef>playerfirebreath_dmg</ERef>
+			<SCdm>EnhanceWildChildDamage</SCdm>
+			<Anim>SimpleFireEffect,0.05</Anim>
+			<AtkWp>0.6</AtkWp>
+			<AtkSp>0.6|4</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_playerclawrake_name</DName>
+		<Rf>status_playerclawrake</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM,PLAYANIMONEMPTY,PERTARGETANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_playerclawrake_name</Disp>
+			<ERef>playerclawrake_dmg</ERef>
+			<SCdm>EnhanceWildChildDamage</SCdm>
+			<Anim>FervirClawEffectSystem,0.15</Anim>
+			<Eq>$AttackerWeaponPower * 0.5 * $UserHPMissing3x + rnd(3,7)</Eq>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>			
+			<Trg1 />
+		</AEff>
+	</SE>		
+
+	<SE>
+		<DName>effect_moonbeam_dmg_name</DName>
+		<Rf>status_moonbeam</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>PERTARGETANIM</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_moonbeam_dmg_name</Disp>
+			<ERef>moonbeam_dmg</ERef>
+			<Script_ProcessActorsPreEffect>MoonbeamConvertToBuff</Script_ProcessActorsPreEffect>
+			<Anim>HolyBolt,0.35</Anim>
+			<AtkWp>0.65|5</AtkWp>
+			<AtkSp>0.65</AtkSp>
+			<Targ>LOCAL</Targ>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_relentlesscurrent_name</DName>
+		<Rf>status_rcurrent_weaker</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_relentlesscurrent_name</Disp>
+			<ERef>rcurrent_2</ERef>
+			<Anim>WaterProjectile,0.35,1</Anim>
+			<AtkWp>0.8</AtkWp>
+			<AtkSp>0.8|5</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_hailofarrows_2_name</DName>
+		<Rf>status_hailofarrows</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>		
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_hailofarrows_2_name</Disp>
+			<ERef>hailofarrowsdmg</ERef>			
+			<WDmt />
+			<CanCrit />
+			<Anim>ArrowRain,0.05</Anim>
+			<AtkWp>2.1|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_bowmastery4_name</DName>
+		<Rf>status_arrowstorm_dmg</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>		
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_bowmastery4_name</Disp>
+			<ERef>arrowstorm_dmg</ERef>
+			<WDmt />
+			<CanCrit />
+			<Anim>ArrowRain,0.18</Anim>
+			<AtkWp>1.5|3</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>status_status_beartrap_name</DName>
+		<Rf>status_beartrap</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_shadowtrap</ERef>
+			<StatusRef>status_rooted</StatusRef>
+			<Targ>LOCAL</Targ>	
+			<Faction>NOTMYFACTION</Faction>		
+			<Duration>3</Duration>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>status_status_beartrap_name</DName>
+		<Rf>status_beartrap_bleeder</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<EffRef>eff_shadowtrap</EffRef>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addmildbleed_local</ERef>
+			<StatusRef>mildbleed</StatusRef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>3</Duration>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_triplebolt_name</DName>
+		<Rf>status_triplebolt</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM</ATags>		
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>tripleboltdmg</ERef>
+			<Anim>LightningBolt,0.2</Anim>
+			<IsProjectile />
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_electrified</StatusRef>
+			<Duration>10</Duration>
+		</AEff>
+	</SE>
+	<SE>
+		<DName>status_status_healthpowerup_name</DName>
+		<Rf>status_healthpowerup</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM,REQHEROTRIGGER</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>powerupheal</ERef>
+			<Targ>LOCAL</Targ>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>			
+			<Anim>FervirRecoveryQuiet,0.1</Anim>
+			<MaxStat>0.16</MaxStat>
+			<SpiritMod>1</SpiritMod>
+			<Faction>PLAYER</Faction>
+			<BaseAmount>1</BaseAmount>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_adddefupforwildchild</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>PLAYER</Faction>
+			<TCon>REQ_ORIG_STATUS</TCon>
+			<ReqStatus>emblem_wildchildemblem_tier0_technique</ReqStatus>
+			<StatusRef>status_defenseup4</StatusRef>
+			<Duration>9</Duration>
+		</AEff>			
+	</SE>		
+	<SE>
+		<DName>status_status_energypowerup_name</DName>
+		<Rf>status_energypowerup</Rf>
+		<ATags>PERTARGETANIM,REQHEROTRIGGER</ATags>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>energypowerupheal</ERef>
+			<Anim>FervirRecoveryQuiet,0.15</Anim>
+			<Targ>LOCAL</Targ>
+			<Stat>ENERGY</Stat>
+			<StatData>CUR</StatData>			
+			<Faction>PLAYER</Faction>
+			<TCon>PLAYERONLY</TCon>
+			<SpiritMod>1</SpiritMod>
+			<BaseAmount>1</BaseAmount>
+			<MaxStat>0.2</MaxStat>
+			<Trg1 />
+		</AEff>
+		<EffRef>eff_adddefupforwildchild</EffRef>
+	</SE>
+	<SE>
+		<DName>status_status_staminapowerup_name</DName>
+		<Rf>status_staminapowerup</Rf>
+		<ATags>PERTARGETANIM,REQHEROTRIGGER</ATags>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>stampowerupheal</ERef>
+			<Targ>LOCAL</Targ>
+			<Anim>FervirRecoveryQuiet,0.15</Anim>	
+			<Stat>STAMINA</Stat>
+			<StatData>CUR</StatData>			
+			<Faction>PLAYER</Faction>
+			<TCon>PLAYERONLY</TCon>
+			<BaseAmount>1</BaseAmount>
+			<MaxStat>0.2</MaxStat>
+			<SpiritMod>1</SpiritMod>
+			<Trg1 />
+		</AEff>
+		<EffRef>eff_adddefupforwildchild</EffRef>
+	</SE>
+	<SE>
+		<DName>abil_skill_flameslash_name</DName>
+		<Rf>status_champfire</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_blazegrounddmg_name</Disp>
+			<ERef>eff_blazegrounddmg</ERef>
+			<AtkWp>0.6|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>effect_shadowblade_name</DName>
+		<Rf>status_shadowblade</Rf>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_shadowblade_name</Disp>
+			<ERef>shadowblade</ERef>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>0.9|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>SHADOW</DamageType>
+			<Trg1 />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>status_status_spinblade_name</DName>
+		<Rf>status_spinblade</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_spinblade_name</Disp>
+			<ERef>spinblade</ERef>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>1|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			
+			<Trg1 />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>status_status_spinblade_name</DName>
+		<Rf>status_iceshard</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_iceshard_name</Disp>
+			<ERef>iceshard</ERef>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<Rnd>10|24</Rnd>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			
+			<Trg1 />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>	
+	<SE>
+		<DName>effect_icebladedmg_name</DName>
+		<Rf>status_icedagger</Rf>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ATags>PERTARGETANIM,GROUNDBASEDEFFECT</ATags>
+		
+		<Flag>FREEZING</Flag>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_icebladedmg_name</Disp>
+			<ERef>icebladedmg</ERef>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>1.5|5</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>effect_icebladedmg_name</DName>
+		<Rf>status_icedaggermonster</Rf>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ATags>PERTARGETANIM,GROUNDBASEDEFFECT</ATags>
+		
+		<Flag>FREEZING</Flag>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_icebladedmg_name</Disp>
+			<ERef>icebladedmgweaker</ERef>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>1|5</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+	<SE>
+		<DName>effect_icebladedmg_name</DName>
+		<Rf>status_playericedagger</Rf>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_icebladedmg_name</Disp>
+			<ERef>playericebladedmg</ERef>			
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>1|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+		<EffRef>addbigfreezeground_special</EffRef>
+	</SE>
+
+	<SE>
+		<DName>effect_icebladedmg_name</DName>
+		<Rf>status_playericedagger_2</Rf>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_icebladedmg_name</Disp>
+			<ERef>playericebladedmg2</ERef>
+			<Anim>FervirSlashEffect,0.1</Anim>
+			<CanCrit />
+			<AtkWp>0.85|5</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_hotstreak_2_name</DName>
+		<Rf>status_hotstreak</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_hotstreak_2_name</Disp>
+			<ERef>eff_hotstreakdmg</ERef>
+			<AtkWp>0.35|4</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>abil_skill_fireclaw_name</DName>
+		<Rf>status_fireclaw</Rf>		
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_monflameserpent_name</Disp>
+			<ERef>fireclawdamage</ERef>
+			<AtkWp>0.75|4</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+	<SE>
+		<DName>status_status_icetrap_name</DName>
+		<Rf>status_icetrap</Rf>
+		<TeachPlayerAbility>skill_playericetraps</TeachPlayerAbility>
+		<ShowIcon />
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Flag>FREEZING</Flag>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addbigfreezeground</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_bigfreeze</StatusRef>
+			<Duration>3</Duration>						
+		</AEff>	
+	</SE>
+	<SE>
+		<DName>abil_skill_laserfield2_name</DName>
+		<Rf>status_shockhp</Rf>
+		<ATags>PERTARGETANIM</ATags>
+		<SGrnd />
+		<Pos />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_laserfieldgrounddmg_name</Disp>
+			<ERef>laserfieldgrounddmg</ERef>
+			<Anim>LightningStrikeEffect,0.15</Anim>
+			<TMaxHP>0.2|30</TMaxHP>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_poisoncloud_name</DName>
+		<Rf>status_evokepoisoncloud</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>poisonaura_inflict_local</ERef>
+			<StatusRef>poison_dmg_30</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>3</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_acidcloud_name</DName>
+		<Rf>status_acidcloud</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addacidcloudstatus</ERef>
+			<StatusRef>poison3</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>6</Duration>
+			<Trg1 />
+		</AEff>		
+	</SE>		
+	<SE>
+		<DName>status_status_toxicfumes_name</DName>
+		<Rf>status_toxicfumes</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_toxicfumesadd</ERef>
+			<StatusRef>poison2</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>5</Duration>
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>status_status_electile_name</DName>
+		<Rf>status_electile</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_elec</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_paralyzed</StatusRef>
+			<Duration>4</Duration>
+			<TriggerPerTurns>4</TriggerPerTurns>
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>status_sleeptile_name</DName>
+		<Rf>sleeptile</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>eff_addsleep</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_asleep</StatusRef>
+			<Duration>8</Duration>
+			<TriggerPerTurns>10</TriggerPerTurns>
+			<Script_ExtraPerActorFunction>PlaySmokeSpewEffect</Script_ExtraPerActorFunction>
+		</AEff>		
+	</SE>
+	<SE>
+		<DName>status_monsterspirit_name</DName>
+		<Rf>monsterspirit</Rf>
+		<ATags>REQHEROTRIGGER</ATags>
+		<Pos />
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>blankpowerup</ERef>
+			<Targ>LOCAL</Targ>
+			<Anim>FervirRecoveryQuiet,0.15</Anim>	
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<Rnd>1|3</Rnd>
+			<Faction>PLAYER</Faction>
+			<TCon>PLAYERONLY</TCon>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>status_status_iceslow_name</DName>
+		<Rf>status_evokeiceslow_local</Rf>
+		<ShowIcon />
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<Flag>FREEZING</Flag>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_evokeiceshards1_name</Disp>
+			<ERef>eff_evokeiceshards1_local</ERef>
+			<AtkSp>1.1|7</AtkSp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>eff_iceslow_local</ERef>
+			<Anim>IceShatter2x,0.25</Anim>
+			<AtkWp>0|-100</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>ALL</StatData>					
+			<TriggerPerTurns>2</TriggerPerTurns>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>status_status_strengthbuff_name</DName>
+		<Rf>status_powerup_strength_permanent</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>strength_boost_permanent</ERef>
+			<Targ>LOCAL</Targ>
+			<Stat>STRENGTH</Stat>
+			<StatData>ALL</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>	
+			<Rnd>1|4</Rnd>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+			<ChangeSubtypes />
+		</AEff>
+	</SE>		
+
+	<SE>
+		<DName>status_status_powerup_guile_permanent_name</DName>
+		<Rf>status_powerup_guile_permanent</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>guile_boost_permanent</ERef>
+			<Targ>LOCAL</Targ>
+			<Stat>GUILE</Stat>
+			<StatData>ALL</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>
+			<Rnd>1|4</Rnd>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+			<ChangeSubtypes />
+		</AEff>
+	</SE>		
+
+	<SE>
+		<DName>status_status_powerup_spirit_permanent_name</DName>
+		<Rf>status_powerup_spirit_permanent</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>spirit_boost_permanent</ERef>
+			<Targ>LOCAL</Targ>
+			<Stat>SPIRIT</Stat>
+			<StatData>ALL</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>	
+			<Rnd>1|4</Rnd>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+			<ChangeSubtypes />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>status_status_powerup_discipline_permanent_name</DName>
+		<Rf>status_powerup_discipline_permanent</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>discipline_boost_permanent</ERef>
+			<Targ>LOCAL</Targ>
+			<Stat>DISCIPLINE</Stat>
+			<StatData>ALL</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>
+			<Rnd>1|4</Rnd>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+			<ChangeSubtypes />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_powerup_swiftness_permanent_name</DName>
+		<Rf>status_powerup_swiftness_permanent</Rf>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>swiftness_boost_permanent</ERef>
+			<Targ>LOCAL</Targ>
+			<Stat>SWIFTNESS</Stat>
+			<StatData>ALL</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>	
+			<Rnd>1|4</Rnd>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+			<ChangeSubtypes />
+		</AEff>
+	</SE>			
+
+	<SE>
+		<DName>abil_skill_blessedpool_name</DName>
+		<Rf>status_blessedpool</Rf>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>eff_blessedpoolheal</ERef>						
+			<TMaxHP>0.03</TMaxHP>
+			<Rnd>4|7</Rnd>
+			<Targ>LOCAL</Targ>
+			<Faction>MYFACTION</Faction>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>			
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_healthherbpowerup_name</DName>
+		<Rf>status_healthherbpowerup</Rf>		
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>herb_powerupheal</ERef>
+			<Targ>LOCAL</Targ>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>	
+			<Faction>PLAYER</Faction>
+			<MaxStat>0.08</MaxStat>
+			<SpiritMod>1</SpiritMod>
+			<Trg1 />
+		</AEff>
+		<EffRef>eff_adddefupforwildchild</EffRef>
+	</SE>		
+	<SE>
+		<DName>status_status_energyherbpowerup_name</DName>
+		<Rf>status_energyherbpowerup</Rf>
+		<ATags>PERTARGETANIM</ATags>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>herb_energypowerupheal</ERef>
+			<Anim>FervirRecoveryQuiet,0.15</Anim>
+			<Targ>LOCAL</Targ>
+			<Stat>ENERGY</Stat>
+			<StatData>CUR</StatData>			
+			<Faction>PLAYER</Faction>
+			<TCon>PLAYERONLY</TCon>
+			<BaseAmount>1</BaseAmount>
+			<MaxStat>0.1</MaxStat>
+			<SpiritMod>1</SpiritMod>
+			<Trg1 />
+		</AEff>
+		<EffRef>eff_adddefupforwildchild</EffRef>
+	</SE>
+	<SE>
+		<DName>status_status_staminaherbpowerup_name</DName>
+		<Rf>status_staminaherbpowerup</Rf>
+		<ATags>PERTARGETANIM</ATags>
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>herb_stampowerupheal</ERef>
+			<Targ>LOCAL</Targ>
+			<Anim>FervirRecoveryQuiet,0.15</Anim>	
+			<Stat>STAMINA</Stat>
+			<StatData>CUR</StatData>			
+			<Faction>PLAYER</Faction>
+			<TCon>PLAYERONLY</TCon>
+			<BaseAmount>1</BaseAmount>
+			<MaxStat>0.1</MaxStat>
+			<SpiritMod>1</SpiritMod>
+			<Trg1 />
+		</AEff>
+		<EffRef>eff_adddefupforwildchild</EffRef>
+	</SE>	
+
+	<SE>
+		<DName>effect_acidpoolgrounddmg_name</DName>
+		<Rf>status_acidpool2</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_acidpoolgrounddmg_name</Disp>
+			<ERef>acidpoolgrounddmg2</ERef>
+			<DamageType>POISON</DamageType>
+			<AtkWp>1.25|5</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />	
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>abil_skill_monflameserpent_name</DName>
+		<Rf>status_powerflameserpent</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_monflameserpent_name</Disp>
+			<ERef>eff_powerflameserpentdmg</ERef>		
+			<AtkWp>0.75|3</AtkWp>	
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_fireburst_name</DName>
+		<Rf>status_weakerfireburst</Rf>
+		<Direction>NORTH</Direction>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_fireburst_name</Disp>
+			<ERef>weakerfireburstgrounddmg</ERef>
+			<Anim>BigExplosionEffect,0.25</Anim>
+			<AtkWp>1|4</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>status_summonchampfire</Rf>		
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>		
+			<Type>SUMMONACTOR</Type>
+			<ERef>summonchampfire_local</ERef>			
+			<ARef>obj_bifangfire</ARef>
+			<SDur>2</SDur>			
+			<Anchor>SELF</Anchor>
+			<AnchorRange>4</AnchorRange>
+			<SummonOnCollidable />
+			<SummonOnSummoner />
+			<SummonNoStacking />
+			<SummonActorPerTile />
+		</AEff>
+	</SE>	
+
+</DOCUMENT>

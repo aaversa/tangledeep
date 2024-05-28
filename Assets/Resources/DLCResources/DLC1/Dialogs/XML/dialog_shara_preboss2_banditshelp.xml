@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Dialog>
+		<RefName>dialog_shara_preboss2_banditshelp</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>BanditNeutralPortrait</ShowFace>
+			<Text>dialog_shara_preboss2_banditshelp_1</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main2</BranchRef>
+			</Button>			
+		</TextBranch>	
+
+		<TextBranch>
+			<BranchName>main2</BranchName>
+			<ShowFace>SharaSmugPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_banditshelp_2</Text>
+			<Button>
+				<Name>(close)</Name>
+				<DialogEventScript>SharaBoss2_EnableFight</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>
+		</TextBranch>		
+	</Dialog>
+</DOCUMENT>

@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>
+		<Rf>emblem_brigand_tier0_stealthbonus</Rf>
+		<PermaBuffNoRun />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>stealth_60</ERef>
+			<AlterStealth>0.4</AlterStealth>
+		</AEff>			
+	</SE>		
+
+	<SE>
+		<Rf>emblem_brigand_tier1_bleeddef</Rf>
+		<Pos />
+		<Run>
+			<PLAYER_CAUSE_STATUS />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>bleed_lower_def_onaddstatus</ERef>
+			<Targ>DEFENDER</Targ>
+			<Sscr>AddDefensePenaltyForBleedingTarget</Sscr>
+		</AEff>
+	</SE>	
+	<SE>
+		<Rf>emblem_brigand_tier2_autokill</Rf>
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>			
+		<StackDur />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>autokill</ERef>
+			<Sscr>InstantKillTarget</Sscr>
+			<ProcChance>0.04</ProcChance>
+			<Targ>DEFENDER</Targ>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>emblem_brigand_tier2_stealthstun</Rf>
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>brigand_stealthstun</ERef>
+			<StatusRef>status_tempstun</StatusRef>
+			<Script_TriggerCondition>TargetOnlyNonHostileMonster</Script_TriggerCondition>
+			<Targ>DEFENDER</Targ>
+			<Duration>2</Duration>
+		</AEff>
+	</SE>		
+
+	<SE>
+		<Rf>emblem_floramancer_tier1_thornbuff</Rf>
+		<Pos />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<StackEff />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_thornskindmg_ranged_name</Disp>
+			<ERef>thornskindmg_ranged</ERef>
+			
+			<ProcChance>0.5</ProcChance>
+			<TCon>NOTMELEE</TCon>
+			<Targ>ATTACKER</Targ>
+			<BuffrDmg>0.4</BuffrDmg>
+			<FloorValue>1</FloorValue>			
+		</AEff>		
+	</SE>
+	<SE>
+		<Rf>emblem_sworddanceremblem_tier0_wildhorse</Rf>
+		<Pos />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>	
+		<StackEff />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addthundercharge_wh</ERef>
+			<Script_TriggerCondition>PlayerUsedWildHorse</Script_TriggerCondition>
+			<Targ>SELF</Targ>
+			<StatusRef>status_tlioncharge</StatusRef>
+			<Duration>99</Duration>
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addparry4_wh</ERef>
+			<Script_TriggerCondition>PlayerUsedWildHorse</Script_TriggerCondition>
+			<Targ>SELF</Targ>
+			<StatusRef>status_parry4</StatusRef>
+			<Silent />
+			<Duration>99</Duration>
+		</AEff>				
+	</SE>	
+
+	<SE>
+		<Rf>emblem_sworddanceremblem_tier0_attackstep</Rf>
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackEff />
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>boostattack_move</ERef>
+			<Script_TriggerCondition>TriggerOnlyAfterStep</Script_TriggerCondition>
+			<TCon>ATTACKER_MELEEWEAPON</TCon>
+			<BaseDmg>0.2</BaseDmg>
+		</AEff>			
+	</SE>	
+
+	<SE>
+		<Rf>emblem_sworddanceremblem_tier1_flames</Rf>
+		<Pos />
+		<Run>
+			<CAUSE_DAMAGE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<Sscr>PenetrateHalfResistancesWithFire</Sscr>
+			<ERef>flame_pierceres</ERef>
+			<Targ>SELF</Targ>
+			<DontTouchAffectedList />
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>emblem_spellshaperemblem_tier0_elemental</Rf>
+		<PermaBuff />	
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>elemdmg_ss_6</ERef>
+			<Silent />
+			<FireDmg>0.06</FireDmg>
+			<DarkDmg>0.06</DarkDmg>
+			<IceDmg>0.06</IceDmg>
+			<AcidDmg>0.06</AcidDmg>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>emblem_spellshaperemblem_tier1_randomlash</Rf>
+		<Pos />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackEff />
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>materialize_elem_reaction</ERef>									
+			<ARef>obj_mossthorns</ARef>
+			<Script_PreSummon>SelectRandomMaterializedElement</Script_PreSummon>
+			<SDur>10</SDur>			
+			<Anchor>SELF</Anchor>
+			<ProcChance>0.25</ProcChance>
+			<ExpandRandomSummonRange />
+			<AnchorRange>4</AnchorRange>
+			<SummonOnCollidable />
+			<SummonNoStacking />
+			<SummonActorPerTile />
+			<MaxRandomSummonRange>1</MaxRandomSummonRange>
+			<NumRandomSummons>1</NumRandomSummons>
+		</AEff>		
+	</SE>	
+	<SE>
+		<Rf>emblem_spellshaperemblem_tier2_elemreact</Rf>
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>emblem_elem_resbuff</ERef>	
+			<Script_PreRunConditional>SpellshaperEmblemElemShield</Script_PreRunConditional>
+			<StatusRef>resistpoison12</StatusRef>
+			<Targ>SELF</Targ>
+			<Duration>6</Duration>
+			<DontTouchAffectedList />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>emblem_soulkeeperemblem_tier2_echopull</Rf>
+		<Pos />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>	
+		<StackDur />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>emblem_echopull</ERef>
+			<Targ>SELF</Targ>
+			<Sscr>PullMonsterEchoes</Sscr>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>emblem_soulkeeperemblem_tier2_soulshade</Rf>
+		<Pos />
+		<Run>
+			<ONCRIT />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>crit_soulshade</ERef>
+			<TPT>5</TPT>
+			<Targ>ORIGINATING</Targ>
+			<AType>MONSTER</AType>
+			<ARef>mon_soulshade</ARef>
+			<SDur>15</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>4</AnchorRange>
+			<ScaleWithLevel />
+			<Silent />
+			<MaxRandomSummonRange>2</MaxRandomSummonRange>
+			<SummonNoStacking />
+		</AEff>			
+	</SE>		
+
+	<SE>
+		<Rf>emblem_paladinemblem_tier0_divinedmg</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>paladin_dmg_upgrade</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<paladinsmiteevil2>1.15</paladinsmiteevil2>
+				<divinefury>1.15</divinefury>
+				<blessedhammer>1.15</blessedhammer>
+				<paladinsmiteevil>1.15</paladinsmiteevil>								
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>emblem_paladinemblem_tier2_critwrath</Rf>
+		<Pos />
+		<Run>
+			<ONCRIT />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>	
+			<Type>ADDSTATUS</Type>
+			<ERef>addwrathcharge_critver</ERef>
+			<StatusRef>wrathcharge</StatusRef>
+			<ProcChance>1.0</ProcChance>
+			<Targ>ORIGINATING</Targ>
+			<Duration>99</Duration>		
+			<TPT>3</TPT>
+		</AEff>
+	</SE>				
+
+	<SE>
+		<Rf>emblem_wildchildemblem_tier0_claws</Rf>
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackEff />
+		<ReqWeaponType>CLAW</ReqWeaponType>
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>clawdamageboost</ERef>
+			<Targ>SELF</Targ>
+			<AtkWp>0.15</AtkWp>
+		</AEff>			
+	</SE>
+
+	<SE>
+		<Rf>emblem_wildchildemblem_tier1_forage</Rf>
+		<PermaBuff />
+		<StackDur />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>wildchild_forage</ERef>
+			<AlterEffectValues>
+				<herb_energypowerupheal>1.25</herb_energypowerupheal>
+				<herb_powerupheal>1.25</herb_powerupheal>
+				<herb_stampowerupheal>1.25</herb_stampowerupheal>
+			</AlterEffectValues>		
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>emblem_wildchildemblem_tier2_monpowers</Rf>
+		<PermaBuff />	
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>wildchild_monpower</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<player_tstorm_damage>1.15</player_tstorm_damage>
+				<biteflurry>1.15</biteflurry>
+				<player_vinepulldmg>1.15</player_vinepulldmg>
+				<playerclawrake_dmg>1.15</playerclawrake_dmg>
+				<eff_playermortar_dmg>1.15</eff_playermortar_dmg>
+				<playerfirebreath_dmg>1.15</playerfirebreath_dmg>
+				<eff_player_rocktoss>1.15</eff_player_rocktoss>
+			</AlterEffectValues>
+		</AEff>			
+	</SE>			
+	
+	<SE>
+		<Rf>emblem_edgethaneemblem_tier0_lowhp</Rf>
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>ground_dmg_mitigate</ERef>
+			<TCon>ORIG_BELOWHEALTH</TCon>
+			<OrigBelowHealth>0.51</OrigBelowHealth>
+			<Sscr>ReduceGroundDamageViaThane</Sscr>
+			<DontTouchAffectedList />
+		</AEff>			
+	</SE>
+
+	<SE>
+		<Rf>emblem_edgethaneemblem_tier0_song</Rf>
+		<Pos />
+		<Run>
+			<THANESONG_LEVELUP />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>emblem_thane_energyheal</ERef>
+			<Targ>SELF</Targ>
+			<Stat>ENERGY</Stat>
+			<StatData>CUR</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>	
+			<MaxStat>0.08</MaxStat>
+			<SpiritMod>1</SpiritMod>
+			<BaseAmount>1</BaseAmount>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>emblem_thane_staminaheal</ERef>
+			<Targ>SELF</Targ>
+			<Stat>STAMINA</Stat>
+			<StatData>CUR</StatData>
+			<Anim>FervirRecoveryQuiet,0.1</Anim>
+			<MaxStat>0.08</MaxStat>
+			<SpiritMod>1</SpiritMod>
+			<BaseAmount>1</BaseAmount>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>emblem_edgethaneemblem_tier1_lowhp</Rf>
+		<Pos />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>hasted5</ERef>
+			<Power>5</Power>
+			<TCon>ORIG_BELOWHEALTH</TCon>
+			<OrigBelowHealth>0.51</OrigBelowHealth>
+			<AtkWp>0|5</AtkWp>
+			<Targ>SELF</Targ>
+			<Stat>CHARGETIME</Stat>
+			<StatData>ALL</StatData>						
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>emblem_edgethaneemblem_tier1_song</Rf>
+		<Pos />
+		<Run>
+			<THANESONG_LEVELUP />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>emblem_thane_addcrit</ERef>
+			<Duration>5</Duration>		
+			<StatusRef>critchanceup1</StatusRef>
+			<Targ>SELF</Targ>
+			<Trg1 />
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>emblem_edgethaneemblem_tier2_lowhp</Rf>
+		<Pos />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>emblem_thane_addres18</ERef>
+			<Duration>2</Duration>		
+			<TCon>ORIG_BELOWHEALTH</TCon>
+			<OrigBelowHealth>0.501</OrigBelowHealth>
+			<StatusRef>status_ragedef18</StatusRef>
+			<Targ>SELF</Targ>
+			<Trg1 />
+			<Silent />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>emblem_edgethaneemblem_tier2_song</Rf>
+		<Pos />
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<THANESONG_LEVELUP />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>emblem_thane_stunshout</ERef>
+			<Duration>3</Duration>		
+			<StatusRef>status_basicstun</StatusRef>
+			<Script_TriggerCondition>IsThaneSongAtMaxLevel</Script_TriggerCondition>
+			<Targ>ADJACENT</Targ>
+			<AdjacentRange>2</AdjacentRange>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<CenterSpriteOnOriginatingActor />
+			<Anim>FemaleSoundEmanation,0.15</Anim>
+		</AEff>		
+	</SE>	
+
+
+	<SE>
+		<Rf>emblem_gambleremblem_tier0_heal</Rf>
+		<Pos />
+		<Run>
+			<ONHEAL />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackEff />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>gamblerdoublehealing</ERef>
+			<ProcChance>0.15</ProcChance>
+			<Sscr>DoubleHealingEffects</Sscr>
+		</AEff>					
+	</SE>
+
+	<SE>
+		<Rf>emblem_gambleremblem_tier0_items</Rf>		
+		<Run>
+			<PROCESSDAMAGE_ATTACKER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackEff />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>gamblerdoubleitemdmg</ERef>
+			<ProcChance>0.15</ProcChance>
+			<Sscr>DoubleItemDamage</Sscr>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>		
+
+	<SE>
+		<Rf>emblem_gambleremblem_tier1_crit</Rf>
+		<Pos />
+		<Run>
+			<TAKEDAMAGE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>	
+		<StackDur />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>gambleremblem_addcritbuff</ERef>
+			<Sscr>AddCritBuffAfterBigHit</Sscr>
+		</AEff>				
+	</SE>		
+
+	<SE>
+		<Rf>emblem_gambleremblem_tier1_luck</Rf>
+		<Pos />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />		
+		<StackEff />
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>gambler_coindef</ERef>
+			<AlterDamagePercent>0</AlterDamagePercent>
+			<ProcChance>0.18</ProcChance>
+			<ReactCondition>NOTMELEE</ReactCondition>
+			<Sscr>CoinBurstFromRangedAttack</Sscr>						
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>emblem_gambleremblem_tier2_cards</Rf>
+		<Pos />
+		<ATags>PERTARGETANIM</ATags>
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_gambleremblem_cardtoss_name</Disp>
+			<ERef>gambleremblem_cardtoss</ERef>
+			<IsProjectile />
+      		<ProjectileMoveType>TOSS</ProjectileMoveType>
+      		<ProjectileTossHeight>1.5</ProjectileTossHeight>	
+			<Script_DamageModifier>GamblerTossCard</Script_DamageModifier>
+			<Anim>CardTossEffect,0.1</Anim>
+			<TCon>CARD_IN_HAND</TCon>      			
+			<ProcChance>0.25</ProcChance>
+			<Targ>DEFENDER</Targ>
+			<AtkWp>1</AtkWp>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>emblem_budokaemblem_tier0_fear</Rf>
+		<Pos />
+		<Run>
+			<ONCRIT />
+			<KILLENEMY_NOT_WORTHLESS />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>budokaemblem_causefear</ERef>
+			<StatusRef>status_fear50</StatusRef>
+			<ProcChance>0.33</ProcChance>
+			<Targ>MULTIPLERANDOMNEARBY</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Script_ExtraPerActorFunction>RandomFearEffect</Script_ExtraPerActorFunction>
+			<RandomTargetRange>3</RandomTargetRange>
+			<ChanceToHitSpecificTarget>0.4</ChanceToHitSpecificTarget>
+			<Duration>3</Duration>
+		</AEff>			
+	</SE>	
+
+	<SE>
+		<Rf>emblem_budokaemblem_tier1_elemental</Rf>
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ReqWeaponType>NATURAL</ReqWeaponType>
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>elemfists_budokaemblem</ERef>
+			<ScriptAttackModifier>SplitElementalDamageForBudoka</ScriptAttackModifier>
+			<BaseDmg>0.15</BaseDmg>
+			<TCon>ANY</TCon>
+		</AEff>					
+	</SE>
+
+	<SE>
+		<Rf>emblem_budokaemblem_tier1_tough</Rf>
+		<PermaBuff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>elemres_6all</ERef>
+			<Silent />
+			<FireRes>-0.06</FireRes>
+			<DarkRes>-0.06</DarkRes>
+			<BoltRes>-0.06</BoltRes>
+			<IceRes>-0.06</IceRes>
+			<AcidRes>-0.06</AcidRes>
+		</AEff>	
+	</SE>
+
+	<SE>
+		<Rf>emblem_budokaemblem_tier2_qi</Rf>
+		<Pos />
+		<Run>
+			<USEABILITY />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>	
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_qistrike_name</Disp>
+			<ERef>qistrike_weaker</ERef>
+			<Script_DamageModifier>StrikeVitalPoint</Script_DamageModifier>
+			<CanCrit />
+			<IsProjectile />
+			<Targ>RANDOMNEARBY</Targ>
+			<Faction>ENEMY</Faction>
+			<RandomTargetRange>2</RandomTargetRange>
+			<Anim>QiStrikeEffect,0.2</Anim>
+			<DamageType>LIGHTNING</DamageType>
+			<AtkWp>0.7</AtkWp>
+			<AtkSp>0.25|8</AtkSp>
+			<Trg1 />
+			<ProcChance>0.33</ProcChance>
+			<Script_TriggerCondition>OnlyTriggerFromBudokaTech</Script_TriggerCondition>
+		</AEff>				
+	</SE>
+
+	<SE>
+		<Rf>emblem_husynemblem_tier0_energy</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>lightningdmg_12</ERef>
+			<Silent />
+			<ChangeLightningDamage>0.12</ChangeLightningDamage>
+		</AEff>			
+	</SE>				
+
+	<SE>
+		<Rf>emblem_husynemblem_tier1_weapon</Rf>
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ReqWeaponType>SPEAR</ReqWeaponType>
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>speardamageboost</ERef>
+			<Targ>SELF</Targ>
+			<AtkWp>0.15</AtkWp>
+		</AEff>		
+	</SE>		
+
+	<SE>
+		<Rf>emblem_hunteremblem_tier0_arrows</Rf>
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<ReqWeaponType>BOW</ReqWeaponType>
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>empower_crit5</ERef>
+			<AlterCritFlat>0.05</AlterCritFlat>						
+		</AEff>			
+	</SE>
+
+	<SE>
+		<Rf>emblem_hunteremblem_tier2_tech</Rf>
+		<PermaBuff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>hunter_dmgboost</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<hailofarrowsdmg>1.18</hailofarrowsdmg>
+				<eff_staticshock>1.18</eff_staticshock>
+			</AlterEffectValues>
+		</AEff>
+	</SE>
+	
+	<SE>
+		<Rf>hunteremblem_tracking_dmgbonus</Rf>
+		<ExcludeFromHotbarCheck />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_tracked_selfdamage_name</Disp>
+			<ERef>tracked_selfdamage</ERef>
+			<Targ>SELF</Targ>
+			<TCurHP>0.02</TCurHP>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>emblem_hunter_stealth</Rf>
+		<StackEff />
+		<ExcludeFromHotbarCheck />
+		<Pos />	
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>hunter_stalkstealth</ERef>
+			<AlterStealth>0.2</AlterStealth>
+		</AEff>
+	</SE>	
+
+</DOCUMENT>

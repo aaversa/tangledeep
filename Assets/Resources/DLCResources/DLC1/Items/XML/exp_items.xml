@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<CONSUMABLE>
+		<DisplayName>exp_item_sharaorb_name</DisplayName>
+		<RefName>item_sharaorb</RefName>
+		<Description>exp_item_sharaorb_desc</Description>
+		<ChallengeValue>999</ChallengeValue>
+		<ShopPrice>1000</ShopPrice>
+		<SpriteRef>assorteditems_405</SpriteRef>
+		<ItemTag>VALUABLES</ItemTag>
+		<Legendary>1</Legendary>
+	</CONSUMABLE>
+
+	<WEAPON>
+		<DisplayName>item_weapon_sword6_name</DisplayName>
+		<RefName>weapon_sword6</RefName>
+		<Description>item_weapon_sword6_desc</Description>
+		<WeaponType>SWORD</WeaponType>
+		<CV>2.05</CV>
+		<Power>34</Power>
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirSwordEffect</ImpactEffect>
+		<SpriteRef>assorteditems_18</SpriteRef>
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_staff6_name</DisplayName>
+		<RefName>weapon_staff6</RefName>
+		<Description>item_weapon_staff6_desc</Description>
+		<WeaponType>STAFF</WeaponType>
+		<CV>2.05</CV>
+		<Power>31</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>ProjectileImpactEffect</ImpactEffect>
+		<SwingEffect>BasicEnergyProjectile</SwingEffect>
+		<SpriteRef>assorteditems_35</SpriteRef>
+		<Range>3</Range>
+		<Ranged />
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_axe6_name</DisplayName>
+		<RefName>weapon_axe6</RefName>
+		<Description>item_weapon_axe6_desc</Description>
+		<WeaponType>AXE</WeaponType>
+		<CV>2.05</CV>
+		<Power>32</Power>
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirAxeEffect</ImpactEffect>
+		<SpriteRef>assorteditems_52</SpriteRef>
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_dagger6_name</DisplayName>
+		<RefName>weapon_dagger6</RefName>
+		<Description>item_weapon_dagger6_desc</Description>
+		<WeaponType>DAGGER</WeaponType>
+		<CV>2.05</CV>
+		<Power>29</Power>
+		<FlavorDamageType>PIERCE</FlavorDamageType>
+		<ImpactEffect>FervirPierceEffect</ImpactEffect>
+		<SpriteRef>assorteditems_97</SpriteRef>
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_claw6_name</DisplayName>
+		<RefName>weapon_claw6</RefName>
+		<Description>item_weapon_claw6_desc</Description>
+		<WeaponType>CLAW</WeaponType>
+		<CV>2.05</CV>
+		<Power>29.4</Power>
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirClawEffect</ImpactEffect>
+		<SpriteRef>assorteditems_95</SpriteRef>		
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_bow6_name</DisplayName>
+		<RefName>weapon_bow6</RefName>
+		<Description>item_weapon_bow6_desc</Description>
+		<WeaponType>BOW</WeaponType>
+		<EquipmentFlag>MELEEPENALTY</EquipmentFlag>
+		<CV>2.05</CV>
+		<Power>26.9</Power>
+		<FlavorDamageType>PIERCE</FlavorDamageType>
+		<SwingEffect>LargeArrowEffect</SwingEffect>
+		<SpriteRef>assorteditems_110</SpriteRef>
+		<Range>4</Range>
+		<Ranged />
+		<TwoHand />
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_mace6_name</DisplayName>
+		<RefName>weapon_mace6</RefName>
+		<Description>item_weapon_mace6_desc</Description>
+		<WeaponType>MACE</WeaponType>
+		<CV>2.05</CV>
+		<Power>34.8</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirBluntEffect</ImpactEffect>
+		<SpriteRef>assorteditems_51</SpriteRef>
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_spear6_name</DisplayName>
+		<RefName>weapon_spear6</RefName>
+		<Description>item_weapon_spear6_desc</Description>
+		<WeaponType>SPEAR</WeaponType>
+		<EquipmentFlag>RANGEPENALTY</EquipmentFlag>
+		<CV>2.05</CV>
+		<Power>32</Power>
+		<FlavorDamageType>PIERCE</FlavorDamageType>
+		<SpriteRef>assorteditems_90</SpriteRef>
+		<ImpactEffect>FervirPierceEffect</ImpactEffect>
+		<Range>2</Range>
+	</WEAPON>
+
+	<WEAPON>
+		<DisplayName>item_weapon_2hsword6_name</DisplayName>
+		<RefName>weapon_2hsword6</RefName>
+		<Description>item_weapon_2hsword6_desc</Description>
+		<WeaponType>SWORD</WeaponType>
+		<CV>2.05</CV>
+		<Power>40</Power>
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<TwoHand />
+		<ImpactEffect>FervirSwordEffect</ImpactEffect>
+		<SpriteRef>assorteditems_19</SpriteRef>
+	</WEAPON>
+
+	<ARMOR>
+		<DisplayName>item_armor_heavyarmor5_name</DisplayName>
+		<RefName>armor_heavyarmor5</RefName>
+		<Description>item_armor_heavyarmor5_desc</Description>
+		<ArmorType>HEAVY</ArmorType>
+		<SpriteRef>assorteditems_252</SpriteRef>
+		<CV>1.95</CV>
+		<Resist>
+			<ResistDamageType>PHYSICAL</ResistDamageType>
+			<ResistMultiplier>0.72</ResistMultiplier>
+			<ResistFlatOffset>14</ResistFlatOffset>
+		</Resist>
+	</ARMOR>
+
+	<ARMOR>
+		<DisplayName>item_armor_mediumarmor5_name</DisplayName>
+		<RefName>armor_mediumarmor5</RefName>
+		<Description>item_armor_mediumarmor5_desc</Description>
+		<ArmorType>MEDIUM</ArmorType>
+		<SpriteRef>assorteditems_228</SpriteRef>
+		<CV>1.95</CV>
+		<AutoMod>mm_dodge7</AutoMod>
+		<Resist>
+			<ResistDamageType>PHYSICAL</ResistDamageType>
+			<ResistMultiplier>0.82</ResistMultiplier>
+			<ResistFlatOffset>9</ResistFlatOffset>
+		</Resist>
+	</ARMOR>
+
+	<ARMOR>
+		<DisplayName>item_armor_lightarmor5_name</DisplayName>
+		<RefName>armor_lightarmor5</RefName>
+		<Description>item_armor_lightarmor5_desc</Description>
+		<ArmorType>LIGHT</ArmorType>
+		<SpriteRef>assorteditems_192</SpriteRef>
+		<CV>1.95</CV>
+		<AutoMod>mm_dodge18</AutoMod>
+	</ARMOR>
+
+	<OFFHAND>
+		<DisplayName>item_armor_shield6_name</DisplayName>
+		<RefName>armor_shield6</RefName>
+		<Description>item_armor_shield6_desc</Description>
+		<SpriteRef>assorteditems_170</SpriteRef>
+		<CV>2.0</CV>
+		<BlockChance>.32</BlockChance>
+		<Resist>
+			<ResistDamageType>PHYSICAL</ResistDamageType>
+			<ResistFlatOffset>14</ResistFlatOffset>
+			<ResistMultiplier>0.93</ResistMultiplier>
+		</Resist>
+	</OFFHAND>
+
+	<CONSUMABLE>
+		<DisplayName>exp_item_gem8_name</DisplayName>
+		<RefName>item_gem8</RefName>
+		<Description>item_item_gem8_desc</Description>
+		<CV>1.9</CV>
+		<SalePrice>1000</SalePrice>
+		<ShopPrice>2000</ShopPrice>
+		<SpriteRef>assorteditems_566</SpriteRef>
+		<ItemTag>VALUABLES</ItemTag>
+		<ItemTag>GEM</ItemTag>
+	</CONSUMABLE>
+
+	<CONSUMABLE>
+		<DisplayName>exp_item_gem9_name</DisplayName>
+		<RefName>item_gem9</RefName>
+		<Description>item_item_gem9_desc</Description>
+		<CV>2.1</CV>
+		<SalePrice>1500</SalePrice>
+		<ShopPrice>3000</ShopPrice>
+		<SpriteRef>assorteditems_567</SpriteRef>
+		<ItemTag>VALUABLES</ItemTag>
+		<ItemTag>GEM</ItemTag>
+	</CONSUMABLE>
+
+	<WEAPON>
+		<DisplayName>exp_item_weapon0_name</DisplayName>
+		<RefName>weapon_sword0</RefName>
+		<Description>item_weapon_shortsword_desc</Description>
+		<WeaponType>SWORD</WeaponType>
+		<CV>1.0</CV>
+		<Power>13</Power>
+		<SalePrice>20</SalePrice>
+		<ShopPrice>40</ShopPrice>
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirSwordEffect</ImpactEffect>
+		<SpriteRef>assorteditems_0</SpriteRef>
+	</WEAPON>
+	
+	<WEAPON>
+		<RefName>exp_weapon_shovel</RefName>
+		<CV>999</CV>
+		<Power>98</Power>		
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirSwordEffect</ImpactEffect>
+	</WEAPON>
+
+	<WEAPON>
+		<RefName>exp_weapon_chonkfrogpunch</RefName>		
+		<ChallengeValue>999</ChallengeValue>
+		<EquipmentSlot>WEAPON</EquipmentSlot>
+		<Power>32</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirPunchEffectSystem</ImpactEffect>
+	</WEAPON>
+
+	<ARMOR>
+		<RefName>exp_armor_waterarmor</RefName>		
+		<EquipmentSlot>ARMOR</EquipmentSlot>
+		<ResistMessage>1</ResistMessage>
+		<ChallengeValue>999</ChallengeValue>
+		<Resist>
+			<ResistDamageType>WATER</ResistDamageType>
+			<ResistMultiplier>0.5</ResistMultiplier>
+		</Resist>
+	</ARMOR>
+
+	<WEAPON>
+		<RefName>exp_weapon_shrimpshot</RefName>
+		
+		<WeaponType>SLING</WeaponType>
+		<EquipmentFlag>RANGEPENALTY</EquipmentFlag>
+		<CV>999.0</CV>
+		<Power>14</Power>		
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<SwingEffect>SmallRockEffect</SwingEffect>
+		<Range>3</Range>
+		<Ranged />
+	</WEAPON>	
+
+	<EMBLEM>
+		<DisplayName>exp1_obj_dominator_head_name</DisplayName>
+		<RefName>exp1_obj_dominator_head</RefName>
+		<Description>exp1_obj_dominator_head_desc</Description>
+		<CV>1.9</CV>
+		<SalePrice>0</SalePrice>
+		<ShopPrice>0</ShopPrice>
+		<SpriteRef>assorteditems_632</SpriteRef>
+		<DefaultActorData>permabound|1</DefaultActorData>
+	</EMBLEM>
+
+	<WEAPON>
+		<RefName>weapon_cv200pierce</RefName>
+		<CV>999</CV>
+		<Power>125</Power>		
+		<FlavorDamageType>PIERCE</FlavorDamageType>
+		<ImpactEffect>FervirPierceEffect</ImpactEffect>
+	</WEAPON>
+
+	<CONSUMABLE>
+		<DisplayName>exp_bomb_minibombs_name</DisplayName>
+		<RefName>bomb_minibombs</RefName>
+		<Description>exp_bomb_minibombs_desc</Description>
+		<EffDesc>exp_bomb_minibombs_effectdesc</EffDesc>
+		<NTag>25%</NTag>
+		<ChallengeValue>1.2</ChallengeValue>
+		<ShopPrice>120</ShopPrice>
+		<SpriteRef>assorteditems_376</SpriteRef>
+		<ItemTag>OFFENSE</ItemTag>
+		<Dmg />
+		<ItemPower>skill_minibombs</ItemPower>
+	</CONSUMABLE>
+
+	<CONSUMABLE>
+		<DisplayName>exp_bomb_oildrum_name</DisplayName>
+		<RefName>bomb_oildrum</RefName>
+		<Description>exp_bomb_oildrum_desc</Description>
+		<EffDesc>exp_bomb_oildrum_effectdesc</EffDesc>
+		<NTag>6</NTag>
+		<NTag>30%</NTag>
+		<NTag>40%</NTag>
+		<ChallengeValue>1.2</ChallengeValue>
+		<ShopPrice>120</ShopPrice>
+		<SpriteRef>assorteditems_396</SpriteRef>
+		<ItemTag>OFFENSE</ItemTag>
+		<ItemTag>SUMMON</ItemTag>
+		<Dmg />
+		<ItemPower>skill_summonoil</ItemPower>
+	</CONSUMABLE>
+
+	<CONSUMABLE>
+		<DisplayName>item_bomb_confusetraps_name</DisplayName>
+		<RefName>bomb_confusetraps</RefName>
+		<Description>item_bomb_confusetraps_desc</Description>
+		<EffDesc>item_bomb_confusetraps_effectdesc</EffDesc>
+		<CV>1.1</CV>
+		<NTag>8</NTag>
+		<NTag>4</NTag>
+		<SpriteRef>assorteditems_412</SpriteRef>
+		<ShopPrice>200</ShopPrice>
+		<ItemPower>skill_confusetraps</ItemPower>
+		<ItemTag>SUMMON</ItemTag>
+	</CONSUMABLE>
+
+	<WEAPON>
+		<RefName>weapon_tentaclerock</RefName>
+		<WeaponType>SLING</WeaponType>
+		<EquipmentFlag>RANGEPENALTY</EquipmentFlag>
+		<CV>999.0</CV>
+		<Power>7.3</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<SwingEffect>SmallRockEffect</SwingEffect>
+		<Range>3</Range>
+		<Ranged />
+	</WEAPON>	
+
+	<ACCESSORY>
+		<RefName>acc_physicalabsorb</RefName>
+		<CV>999.0</CV>
+		<Resist>
+			<ResistDamageType>PHYSICAL</ResistDamageType>
+			<ResistAbsorb>1</ResistAbsorb>
+		</Resist>
+	</ACCESSORY>
+
+	
+</DOCUMENT>

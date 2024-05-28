@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 2499585566
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 42112ed736b92d2dcaf6b04e162278ce
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0dade847ade8e932804962bc9249ae59
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8d1359148ee9b344e97149dfa607fc38, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 462c2bb4753875d459378b93e0fe774e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/ShepPrefabs/Switch_RadialMenu.prefab
+Dependencies:
+- C:/TangledeepSwitch/TangledeepSwitchFall2018/AssetBundles/Switch/radialmenu_assets

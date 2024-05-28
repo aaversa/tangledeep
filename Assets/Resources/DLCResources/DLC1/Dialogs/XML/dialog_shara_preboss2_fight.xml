@@ -1,0 +1,139 @@
+	<Dialog>
+		<RefName>dialog_shara_preboss2_fight</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>MadScientistNeutralPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_1</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main2</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main2</BranchName>
+			<ShowFace>BanditSurprisedPortrait</ShowFace>
+			<Text>dialog_shara_preboss2_fight_2</Text>
+			<Button>
+				<Name>(more)</Name>
+				<DialogEventScript>SharaBoss2_PreFight_Part1</DialogEventScript>
+				<BranchRef>main2</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main3</BranchName>
+			<ShowFace>SharaSurprisePortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_3</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main4</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main4</BranchName>
+			<ShowFace>MadScientistNeutralPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_4</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main5</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main5</BranchName>
+			<ShowFace>SharaSurprisePortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_5</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main6</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main6</BranchName>
+			<ShowFace>MadScientistNeutralPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_6</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main7</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main7</BranchName>
+			<ShowFace>SharaAngryPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_7</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main8</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main8</BranchName>
+			<ShowFace>MadScientistNeutralPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_8</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main9</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main9</BranchName>
+			<ShowFace>SharaAngryPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_9</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main10</BranchRef>
+			</Button>
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main10</BranchName>
+			<ShowFace>MadScientistNeutralPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_10</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main11</BranchRef>
+			</Button>
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main11</BranchName>
+			<ShowFace>MadScientistNeutralPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_11</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main12</BranchRef>
+			</Button>
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main12</BranchName>
+			<ShowFace>SharaAngryPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_12</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>main_final</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main_final</BranchName>
+			<ShowFace>SharaSmugPortrait</ShowFace> 
+			<Text>dialog_shara_preboss2_fight_13</Text>
+			<Button>
+				<Name>(close)</Name>
+				<DialogEventScript>SharaBoss2_PreFight_Part2</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>
+		</TextBranch>
+	</Dialog>

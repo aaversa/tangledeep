@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Floor>
+		<Level>370</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<CustomName>exp_robotdungeon_cname1</CustomName>
+		<DontConnectToAnything />
+		<EvenMonsterDistribution />
+		<UnbreakableWalls />
+		<LayoutType>DRAGON_ROBOT</LayoutType>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<MusicCue>finallevels</MusicCue>
+		<Size>68</Size>
+		<FastTravel />
+		<NoSpawner />
+		<NoRewardPopup />
+		<SpawnTable>robotdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<StairsDownToLevel>371</StairsDownToLevel>
+		<Script_OnMonsterSpawn>AssignSlimeEggPartsToMonster</Script_OnMonsterSpawn>
+		<Script_OnEnterMap>SpawnInitialEggParts</Script_OnEnterMap>
+		<ParallaxBackground>dungeon_dragon_bg_parallax,-0.25,-0.25,40</ParallaxBackground>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>chancetolockdoor|25</MetaData>
+		<MetaData>chanceforwallsasholes|0</MetaData>
+		<MetaData>chanceforeggpart|33</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>		
+		<MetaData>forcefields|1</MetaData>
+		<ScaleMonstersToMinimumLevel>14</ScaleMonstersToMinimumLevel>
+	</Floor>
+	<Floor>
+		<Level>371</Level>
+		<ExcludeFromRumors />
+		<NoRewardPopup />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<CustomName>exp_robotdungeon_cname2</CustomName>
+		<EvenMonsterDistribution />
+		<UnbreakableWalls />
+		<LayoutType>DRAGON_ROBOT</LayoutType>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<MusicCue>finallevels</MusicCue>
+		<Size>68</Size>
+		<NoSpawner />
+		<SpawnTable>robotdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>370</StairsUpToLevel>
+		<StairsDownToLevel>372</StairsDownToLevel>
+		<Script_OnMonsterSpawn>AssignSlimeEggPartsToMonster</Script_OnMonsterSpawn>
+		<ParallaxBackground>dungeon_dragon_bg_parallax,-0.25,-0.25,40</ParallaxBackground>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>chancetolockdoor|25</MetaData>
+		<MetaData>chanceforwallsasholes|20</MetaData>
+		<MetaData>chanceforeggpart|50</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>forcefields|1</MetaData>
+		<ScaleMonstersToMinimumLevel>14</ScaleMonstersToMinimumLevel>
+	</Floor>
+	<Floor>
+		<Level>372</Level>
+		<ExcludeFromRumors />
+		<NoRewardPopup />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<CustomName>exp_robotdungeon_cname3</CustomName>
+		<EvenMonsterDistribution />
+		<UnbreakableWalls />
+		<LayoutType>DRAGON_ROBOT</LayoutType>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<MusicCue>finallevels</MusicCue>
+		<Size>68</Size>
+		<NoSpawner />
+		<SpawnTable>robotdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>371</StairsUpToLevel>
+		<StairsDownToLevel>373</StairsDownToLevel>
+		<Script_OnMonsterSpawn>AssignSlimeEggPartsToMonster</Script_OnMonsterSpawn>
+		<ParallaxBackground>dungeon_dragon_bg_parallax,-0.25,-0.25,40</ParallaxBackground>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>chancetolockdoor|40</MetaData>
+		<MetaData>chanceforwallsasholes|60</MetaData>
+		<MetaData>chanceforeggpart|50</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>forcefields|1</MetaData>
+		<ScaleMonstersToMinimumLevel>14</ScaleMonstersToMinimumLevel>
+	</Floor>
+	<Floor>
+		<Level>373</Level>
+		<ExcludeFromRumors />
+		<NoRewardPopup />
+		<ChallengeValue>2.0</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<CustomName>exp_robotdungeon_cname4</CustomName>
+		<EvenMonsterDistribution />
+		<LayoutType>DRAGON_ROBOT_BRIDGE</LayoutType>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<MusicCue>finallevels</MusicCue>
+		<UnbreakableWalls />
+		<Size>68</Size>
+		<NoSpawner />
+		<SpawnTable>robotdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>372</StairsUpToLevel>
+		<StairsDownToLevel>374</StairsDownToLevel>
+		<Script_OnMonsterSpawn>AssignSlimeEggPartsToMonster</Script_OnMonsterSpawn>
+		<ParallaxBackground>dungeon_dragon_bg_parallax,-0.25,-0.25,40</ParallaxBackground>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>chancetolockdoor|40</MetaData>
+		<MetaData>chanceforwallsasholes|60</MetaData>
+		<MetaData>chanceforeggpart|50</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>forcefields|1</MetaData>
+		<ScaleMonstersToMinimumLevel>14</ScaleMonstersToMinimumLevel>
+	</Floor>
+
+	<Floor>
+		<Level>374</Level>
+		<ExcludeFromRumors />
+		<NoRewardPopup />
+		<ChallengeValue>2.0</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<CustomName>exp_robotdungeon_cname5</CustomName>
+		<SpecialRoomTemplate>robotdragon_bossfight</SpecialRoomTemplate>
+		<EvenMonsterDistribution />
+		<MusicCue>dragondread</MusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_robot</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<CueName>finalboss_phase2</CueName>
+		</AlternateMusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_robot</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>			
+		<LayoutType>SPECIAL</LayoutType>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>20</Size>
+		<RevealAll />
+		<NoSpawner />
+		<SpawnTable>robotdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<ParallaxBackground>dungeon_dragon_bg_parallax,-0.25,-0.25,40</ParallaxBackground>
+		<Script_OnMonsterSpawn>AssignSlimeEggPartsToMonster</Script_OnMonsterSpawn>
+		<Script_OnEnterMap>RobotDragonBossFight</Script_OnEnterMap>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>chanceforeggpart|100</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>forcefields|1</MetaData>
+		<ScaleMonstersToMinimumLevel>14</ScaleMonstersToMinimumLevel>
+	</Floor>
+
+	<!-- Bandit levels -->
+	<Floor>
+		<Level>375</Level>
+		<ExcludeFromRumors />		
+		<FastTravel />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<DontConnectToAnything />
+		<CustomName>exp_banditdungeon_cname1</CustomName>
+		<EvenMonsterDistribution />		
+		<Rivers>2</Rivers>
+		<LayoutType>KEEP</LayoutType>
+	 	<MinMonsters>14</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		
+		<Size>38</Size>	
+		<NoRewardPopup />
+		<NoSpawner />		
+		<SpawnTable>banditdungeon_1</SpawnTable>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<MetaData>vertical|1</MetaData>
+		<MetaData>dont_create_startarea|1</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<Script_OnEnterMap>SetupSwitchToGateLinks</Script_OnEnterMap>
+		<Script_PreBeautify>VerifyStairsAreAccessible</Script_PreBeautify>
+	</Floor>
+
+	<Floor>
+		<Level>376</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<LayoutType>BANDITDUNGEON_HUB</LayoutType>
+		<CustomName>exp_banditdungeon_cname2</CustomName>
+		<DontConnectToAnything />
+		<DeepSideAreaFloor />
+		<EvenMonsterDistribution />		
+		<Rivers>1</Rivers>
+	 	<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<Size>40</Size>		
+		<UnbreakableWalls />
+		<NoRewardPopup />
+		<NoSpawner />		
+		<SpawnTable>banditdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>dont_create_startarea|1</MetaData>
+		<MetaData>numfountains|0</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<Script_OnEnterMap>SetupSwitchToGateLinks</Script_OnEnterMap>
+	</Floor>
+
+	<Floor>
+		<Level>377</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.9</ChallengeValue>
+		<LayoutType>BANDITDUNGEON_HUB</LayoutType>	
+		<DontConnectToAnything />
+		<DeepSideAreaFloor />
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<CustomName>exp_banditdungeon_cname3</CustomName>
+		<NoSpawner />
+		<NoRewardPopup />
+		<EvenMonsterDistribution />
+		<UnbreakableWalls />
+		<Size>50</Size>
+		<MinMonsters>16</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<SpawnTable>banditdungeon_2</SpawnTable>
+		<MusicCue>hardmysterydungeon</MusicCue>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>dont_create_startarea|1</MetaData>
+		<MetaData>numfountains|0</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<Script_OnEnterMap>SetupSwitchToGateLinks</Script_OnEnterMap>
+	</Floor>	
+
+	<Floor>
+		<Level>378</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>2.0</ChallengeValue>
+		<LayoutType>SPECIAL</LayoutType>	
+		<DontConnectToAnything />
+		<DeepSideAreaFloor />
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<CustomName>exp_banditdungeon_cname4</CustomName>
+		<SpecialRoomTemplate>banditdragon_bossfight</SpecialRoomTemplate>
+		<NoSpawner />
+		<NoRewardPopup />
+		<MusicCue>dragondread</MusicCue>
+		<UnbreakableWalls />
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_bandit</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<CueName>dragonboss</CueName>
+		</AlternateMusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_bandit</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>		
+		<Size>21</Size>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>banditdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<Script_OnEnterMap>BanditDragonBossFightIntro</Script_OnEnterMap>
+		<Script_PostBuild>MarkMonstersAsChampions</Script_PostBuild>
+	</Floor>	
+
+
+	<!-- Frog levels -->
+
+	<Floor>
+		<Level>380</Level>
+		<ExcludeFromRumors />		
+		<NoRewardPopup />
+		<ChallengeValue>1.6</ChallengeValue>
+		<Tileset>MOSS</Tileset>
+		<DontConnectToAnything />
+		<EvenMonsterDistribution />
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>42</Size>
+		<NoSpawner />
+		<FastTravel />
+		<SpawnTable>frogdungeon_1</SpawnTable>
+		<StairsDownToLevel>381</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<CustomName>exp_frogdungeon_cname1</CustomName>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CellChanceToStartAlive>0.45</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.3</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>	
+		<AddStumps>0.03</AddStumps>	
+		<Script_OnEnterMap>FrogDragonDungeonInitialDialog</Script_OnEnterMap>
+		<Script_PreBeautify>BuildSwampWaterAndMud</Script_PreBeautify>
+		<Script_PostBuild>SeedMapWithHiddenMonsters</Script_PostBuild>
+		<Script_OnTurnEnd>CheckAndExecuteMonsterTrapsNextToPlayer</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>GiveMonsterMudImmunity</Script_OnMonsterSpawn>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<MetaData>seedtiles|18</MetaData>
+		<MetaData>minseeddistance|5</MetaData>
+		<MetaData>minpropogatecycles|2</MetaData>
+		<MetaData>maxpropogatecycles|3</MetaData>
+		<MetaData>chanceskipwater|43</MetaData>
+		<MetaData>edgemuckchance|66</MetaData>
+		<MetaData>mudchance|65</MetaData>
+		<MetaData>numhiddenmonsters|10</MetaData>
+		<MetaData>numhiddenchests|3</MetaData>
+		<MetaData>minmonsterdistance|3</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>381</Level>
+		<ExcludeFromRumors />
+		<NoRewardPopup />
+		<ChallengeValue>1.65</ChallengeValue>
+		<Tileset>MOSS</Tileset>
+		<EvenMonsterDistribution />
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>14</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>42</Size>
+		<NoSpawner />
+		<SpawnTable>frogdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<Rivers>1</Rivers>
+		<StairsUpToLevel>380</StairsUpToLevel>
+		<StairsDownToLevel>382</StairsDownToLevel>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CustomName>exp_frogdungeon_cname2</CustomName>
+		<CellChanceToStartAlive>0.5</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.3</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>	
+		<Script_PreBeautify>BuildSwampWaterAndMud</Script_PreBeautify>
+		<Script_PostBuild>SeedMapWithHiddenMonsters</Script_PostBuild>
+		<Script_OnTurnEnd>CheckAndExecuteMonsterTrapsNextToPlayer</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>GiveMonsterMudImmunity</Script_OnMonsterSpawn>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<MetaData>seedtiles|15</MetaData>
+		<MetaData>minseeddistance|6</MetaData>
+		<MetaData>minpropogatecycles|2</MetaData>
+		<MetaData>maxpropogatecycles|4</MetaData>
+		<MetaData>chanceskipwater|43</MetaData>
+		<MetaData>edgemuckchance|40</MetaData>
+		<MetaData>mudchance|75</MetaData>
+		<MetaData>numhiddenmonsters|15</MetaData>
+		<MetaData>numhiddenchests|5</MetaData>
+		<MetaData>minmonsterdistance|3</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>382</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.7</ChallengeValue>
+		<LayoutType>STANDARD</LayoutType>
+		<Tileset>MOSS</Tileset>
+		<CustomName>exp_frogdungeon_cname3</CustomName>
+		<EvenMonsterDistribution />
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>14</MaxMonsters>
+		<Size>44</Size>
+		<MinRooms>15</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<MaxCorridors>1</MaxCorridors>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>frogdungeon_3</SpawnTable>
+		<StairsUpToLevel>381</StairsUpToLevel>		
+		<StairsDownToLevel>383</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<NoSpawner />
+		<DeepSideAreaFloor />
+		<NoRewardPopup />
+		<MusicCue>hardmysterydungeon</MusicCue>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<Script_PreBeautify>BuildSwampRooms</Script_PreBeautify>
+		<Script_PostBuild>SeedMapWithHiddenMonstersAndExtras</Script_PostBuild>
+		<Script_OnTurnEnd>CheckAndExecuteMonsterTrapsNextToPlayer</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>GiveMonsterMudImmunity</Script_OnMonsterSpawn>
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>minroomsize|6</MetaData>	
+		<MetaData>seedtiles|15</MetaData>
+		<MetaData>minseeddistance|5</MetaData>
+		<MetaData>minpropogatecycles|1</MetaData>
+		<MetaData>maxpropogatecycles|3</MetaData>
+		<MetaData>chanceskipwater|43</MetaData>
+		<MetaData>edgemuckchance|40</MetaData>
+		<MetaData>mudchance|75</MetaData>
+		<MetaData>numhiddenmonsters|9</MetaData>
+		<MetaData>numhiddenchests|2</MetaData>	
+		<MetaData>wallstomuck|1</MetaData>	
+		<MetaData>boundsformonsterspawn|3</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+	</Floor>	
+
+	<Floor>
+		<Level>383</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.75</ChallengeValue>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>MOSS</Tileset>
+		<CustomName>exp_frogdungeon_cname4</CustomName>
+		<Size>25</Size>
+		<SpawnTable>frogdungeon_3</SpawnTable>
+		<StairsUpToLevel>382</StairsUpToLevel>		
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<UnbreakableWalls />
+		<NoSpawner />
+		<RevealAll />
+		<BossArea />
+		<NoRewardPopup />
+		<MusicCue>dragondread</MusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_frog</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<CueName>dragonboss</CueName>
+		</AlternateMusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_frog</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>funmerchant</CueName>
+		</AlternateMusicCue>			
+		<SpecialRoomTemplate>frogdragon_battle</SpecialRoomTemplate>
+		<Script_OnEnterMap>FrogDragonBossFight</Script_OnEnterMap>
+		<Script_PostBuild>MarkMonstersAsChampions</Script_PostBuild>
+		<Script_OnMonsterSpawn>GiveMonsterMudImmunity</Script_OnMonsterSpawn>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+	</Floor>	
+
+	<!-- Beast levels -->
+
+	<Floor>
+		<Level>385</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>TREETOPS</Tileset>
+		<DontConnectToAnything />
+		<FastTravel />
+		<NoRewardPopup />
+		<SafeArea />
+		<RevealAll />
+		<Size>16</Size>
+		<NoSpawner />
+		<MusicCue>waterway</MusicCue>
+		<SpawnTable>beastdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPECIAL</LayoutType>
+		<SpecialRoomTemplate>beastdragon_intro</SpecialRoomTemplate>
+		<CustomName>exp_beastdungeon_cname1</CustomName>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>introturns|3</MetaData>
+		<Script_OnTurnEnd>BeastDungeonIntro</Script_OnTurnEnd>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>386</Level>
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>TREETOPS</Tileset>
+		<DontConnectToAnything />
+		<NoRewardPopup />
+		<DeepSideAreaFloor />
+		<EvenMonsterDistribution />
+		<MinMonsters>0</MinMonsters>
+		<MaxMonsters>0</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>19</Size>
+		<NoSpawner />
+		<MusicCue>waterway</MusicCue>
+		<SpawnTable>beastdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPECIAL</LayoutType>
+		<SpecialRoomTemplate>beastdragon_horde1</SpecialRoomTemplate>
+		<CustomName>exp_beastdungeon_cname2</CustomName>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+		<Script_OnTurnEnd>ProcessMonsterHorde</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>FocusMonstersOnJungleCrystals</Script_OnMonsterSpawn>
+		<Script_PostBuild>SeedMapWithMonsterEggs</Script_PostBuild>
+		<Script_OnEnterMap>DisableStairsIfHordeIncomplete</Script_OnEnterMap>
+		<MetaData>turnstostart|10</MetaData>
+		<MetaData>hordeinterval|32</MetaData>
+		<MetaData>hordewaves|3</MetaData>
+		<MetaData>monstereggs|6</MetaData>
+		<MetaData>championwave2|1</MetaData>
+		<MetaData>championwave3|2</MetaData>
+		<MetaData>monsealchance|70</MetaData>
+		<MetaData>numchestrewards|2</MetaData>
+		<MetaData>numfountainrewards|2</MetaData>	
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+	</Floor>
+
+	<Floor>
+		<Level>387</Level>
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>1.85</ChallengeValue>
+		<Tileset>TREETOPS</Tileset>
+		<DontConnectToAnything />
+		<NoRewardPopup />
+		<EvenMonsterDistribution />
+		<DeepSideAreaFloor />
+		<MinMonsters>0</MinMonsters>
+		<MaxMonsters>0</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>21</Size>
+		<NoSpawner />
+		<MusicCue>waterway</MusicCue>
+		<SpawnTable>beastdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPECIAL</LayoutType>
+		<SpecialRoomTemplate>beastdragon_horde2</SpecialRoomTemplate>
+		<CustomName>exp_beastdungeon_cname3</CustomName>
+		<Script_OnTurnEnd>ProcessMonsterHorde</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>FocusMonstersOnJungleCrystals</Script_OnMonsterSpawn>
+		<Script_PostBuild>SeedMapWithMonsterEggs</Script_PostBuild>
+		<Script_OnEnterMap>DisableStairsIfHordeIncomplete</Script_OnEnterMap>
+		<MetaData>turnstostart|10</MetaData>
+		<MetaData>hordeinterval|32</MetaData>
+		<MetaData>hordewaves|4</MetaData>
+		<MetaData>monstereggs|6</MetaData>
+		<MetaData>championwave2|1</MetaData>
+		<MetaData>championwave3|2</MetaData>
+		<MetaData>championwave4|2</MetaData>
+		<MetaData>monsealchance|70</MetaData>
+		<MetaData>numchestrewards|2</MetaData>
+		<MetaData>numfountainrewards|2</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>12</ScaleMonstersToMinimumLevel>
+	</Floor>
+
+	<Floor>
+		<Level>388</Level>
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>TREETOPS</Tileset>
+		<DontConnectToAnything />
+		<NoRewardPopup />
+		<EvenMonsterDistribution />
+		<DeepSideAreaFloor />
+		<MinMonsters>0</MinMonsters>
+		<MaxMonsters>0</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<Size>21</Size>
+		<NoSpawner />
+		<MusicCue>hardmysterydungeon</MusicCue>
+		<SpawnTable>beastdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPECIAL</LayoutType>
+		<SpecialRoomTemplate>beastdragon_horde3</SpecialRoomTemplate>
+		<CustomName>exp_beastdungeon_cname4</CustomName>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<Script_OnTurnEnd>ProcessMonsterHorde</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>FocusMonstersOnJungleCrystals</Script_OnMonsterSpawn>
+		<Script_PostBuild>SeedMapWithMonsterEggs</Script_PostBuild>
+		<Script_OnEnterMap>DisableStairsIfHordeIncomplete</Script_OnEnterMap>
+		<MetaData>turnstostart|10</MetaData>
+		<MetaData>hordeinterval|32</MetaData>
+		<MetaData>hordewaves|5</MetaData>
+		<MetaData>monstereggs|7</MetaData>
+		<MetaData>championwave2|1</MetaData>
+		<MetaData>championwave3|1</MetaData>
+		<MetaData>championwave4|2</MetaData>
+		<MetaData>championwave5|2</MetaData>
+		<MetaData>monsealchance|65</MetaData>
+		<MetaData>numchestrewards|3</MetaData>
+		<MetaData>numfountainrewards|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>389</Level>
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>2.0</ChallengeValue>
+		<Tileset>TREETOPS</Tileset>
+		<DontConnectToAnything />
+		<NoRewardPopup />
+		<Size>20</Size>
+		<RevealAll />
+		<NoSpawner />
+		<SpawnTable>beastdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPECIAL</LayoutType>
+		<MusicCue>dragondread</MusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_beast</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<CueName>dragonboss</CueName>
+		</AlternateMusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_beast</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>				
+		<SpecialRoomTemplate>beastdragon_boss</SpecialRoomTemplate>
+		<CustomName>exp_beastdungeon_cname5</CustomName>
+		<Script_OnEnterMap>TyrantDragonBossFight</Script_OnEnterMap>
+		<Script_PostBuild>MarkMonstersAsChampions</Script_PostBuild>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<Script_OnTurnEnd>ProcessMonsterHorde</Script_OnTurnEnd>
+		<MetaData>turnstostart|4</MetaData>
+		<MetaData>hordeinterval|20</MetaData>
+		<MetaData>hordewaves|3</MetaData>
+		<MetaData>monsealchance|75</MetaData>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+	</Floor>
+
+	<!-- Spirit levels -->
+	<Floor>
+		<Level>390</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.8</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPIRIT_DUNGEON</LayoutType>
+		<Tileset>SAND</Tileset>
+		<CustomName>exp_spiritdungeon_cname1</CustomName>
+		<NoSpawner />
+		<FastTravel />
+		<NoRewardPopup />
+		<Size>47</Size>
+		<MusicCue>realmgods</MusicCue>
+		<MinRooms>8</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<MaxCorridors>1</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>		
+		<MinMonsters>19</MinMonsters>
+		<MaxMonsters>19</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>spiritdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<RandomWaterPools>12</RandomWaterPools>
+		<Script_OnMonsterDeath>CreateSpiritMonster</Script_OnMonsterDeath>
+		<Script_OnEnterMap>SpiritDungeonIntroCutscene</Script_OnEnterMap>
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>minroomsize|6</MetaData>
+		<MetaData>maxroomsize|12</MetaData>
+		<MetaData>forceoverlapvalue|1</MetaData>
+		<MetaData>breakmaxroomsize|1</MetaData>
+		<MetaData>randomcolumns|10</MetaData>
+		<MetaData>numtreasures|9</MetaData>
+		<MetaData>numfountains|6</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>391</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.85</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPIRIT_DUNGEON</LayoutType>
+		<Tileset>SNOW</Tileset>
+		<CustomName>exp_spiritdungeon_cname2</CustomName>
+		<NoSpawner />
+		<NoRewardPopup />
+		<DeepSideAreaFloor />
+		<Size>46</Size>
+		<MusicCue>realmgods</MusicCue>
+		<MinRooms>9</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<MaxCorridors>1</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>		
+		<MinMonsters>19</MinMonsters>
+		<MaxMonsters>19</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>spiritdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<RandomWaterPools>11</RandomWaterPools>
+		<Script_OnMonsterDeath>CreateSpiritMonster</Script_OnMonsterDeath>
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>minroomsize|6</MetaData>
+		<MetaData>maxroomsize|11</MetaData>
+		<MetaData>forceoverlapvalue|1</MetaData>
+		<MetaData>breakmaxroomsize|1</MetaData>
+		<MetaData>randomcolumns|11</MetaData>
+		<MetaData>numtreasures|9</MetaData>
+		<MetaData>numfountains|6</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>392</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.9</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPIRIT_DUNGEON</LayoutType>
+		<Tileset>NIGHTMARISH</Tileset>
+		<CustomName>exp_spiritdungeon_cname3</CustomName>
+		<NoSpawner />
+		<NoRewardPopup />
+		<DeepSideAreaFloor />
+		<Size>40</Size>
+		<MinRooms>8</MinRooms>
+		<MaxRooms>10</MaxRooms>
+		<MaxCorridors>1</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>spiritdungeon_2</SpawnTable>
+		<MusicCue>hardmysterydungeon</MusicCue>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<RandomWaterPools>7</RandomWaterPools>
+		<Script_OnMonsterDeath>CreateSpiritMonster</Script_OnMonsterDeath>
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>minroomsize|5</MetaData>
+		<MetaData>maxroomsize|8</MetaData>
+		<MetaData>forceoverlapvalue|0</MetaData>
+		<MetaData>randomcolumns|14</MetaData>
+		<MetaData>numtreasures|7</MetaData>
+		<MetaData>numfountains|3</MetaData>
+		<MetaData>connectwater|0</MetaData>
+		<MetaData>randomelementalhazards|12</MetaData>
+	</Floor>	
+
+	<Floor>
+		<Level>393</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>2.0</ChallengeValue>
+		<LayoutType>SPECIAL</LayoutType>	
+		<DontConnectToAnything />
+		<DeepSideAreaFloor />
+		<Tileset>NIGHTMARISH</Tileset>
+		<CustomName>exp_spiritdungeon_cname4</CustomName>
+		<SpecialRoomTemplate>spiritdragon_bossfight</SpecialRoomTemplate>
+		<MusicCue>dragonboss</MusicCue>	
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_spirit</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>				
+		<NoSpawner />
+		<Size>21</Size>
+		<RevealAll />
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>spiritdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<Script_OnMonsterDeath>CreateSpiritMonster</Script_OnMonsterDeath>
+		<Script_OnEnterMap>SpiritDragonBossFight</Script_OnEnterMap>
+		<Script_PreBeautify>AddBlessedPoolsToWater</Script_PreBeautify>
+		<Script_PostBuild>MarkMonstersAsChampions</Script_PostBuild>		
+	</Floor>	
+	
+	<!-- Slime levels -->
+	<Floor>
+		<Level>394</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.8</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SLIME_DUNGEON</LayoutType>
+		<Tileset>SAND</Tileset>
+		<CustomName>exp_slimedungeon_cname1</CustomName>
+		<NoSpawner />
+		<FastTravel />
+		<SideArea />
+		<Size>25</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>slimedungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<StairsDownToLevel>395</StairsDownToLevel>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>		
+		<NoRewardPopup />
+		<MusicCue>jobtrial</MusicCue>
+		<Script_OnEnterMap>SlimeDungeonIntro</Script_OnEnterMap>
+		<Script_OnTurnEnd>UpdateSlimeDungeon</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>OnMonsterSpawnedInSlimeDungeon</Script_OnMonsterSpawn>
+		<Script_OnMonsterDeath>CheckForLieutenantDeath</Script_OnMonsterDeath>
+		<EvenMonsterDistribution />
+		<RevealAll />
+		<UnbreakableWalls />
+		<MetaData>numfountains|3</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>xoffset|1</MetaData>
+		<MetaData>yoffset|-2</MetaData>
+		<MetaData>maxlieutenants|3</MetaData>
+		<MetaData>lieutenantinterval|18</MetaData>
+		<MetaData>friendlyslimeturns|8</MetaData>
+		<MetaData>enemyslimeturns|7</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>395</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.85</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SLIME_DUNGEON</LayoutType>
+		<Tileset>SAND</Tileset>
+		<CustomName>exp_slimedungeon_cname2</CustomName>
+		<NoSpawner />
+		<SideArea />
+		<Size>27</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>slimedungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<StairsDownToLevel>396</StairsDownToLevel>
+		<StairsUpToLevel>394</StairsUpToLevel>
+		<DeepSideAreaFloor />
+		<NoRewardPopup />
+		<MusicCue>jobtrial</MusicCue>
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<Script_OnTurnEnd>UpdateSlimeDungeon</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>OnMonsterSpawnedInSlimeDungeon</Script_OnMonsterSpawn>
+		<EvenMonsterDistribution />
+		<RevealAll />
+		<UnbreakableWalls />
+		<MetaData>numfountains|4</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>maxlieutenants|4</MetaData>
+		<MetaData>lieutenantinterval|17</MetaData>
+		<MetaData>friendlyslimeturns|8</MetaData>
+		<MetaData>enemyslimeturns|7</MetaData>	
+		<MetaData>yoffset|-1</MetaData>
+		<MetaData>goldkeys|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>396</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.85</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SLIME_DUNGEON</LayoutType>
+		<Tileset>SAND</Tileset>
+		<CustomName>exp_slimedungeon_cname3</CustomName>
+		<NoSpawner />
+		<SideArea />
+		<Size>29</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>slimedungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<StairsDownToLevel>397</StairsDownToLevel>
+		<StairsUpToLevel>395</StairsUpToLevel>
+		<DeepSideAreaFloor />
+		<NoRewardPopup />
+		<MusicCue>jobtrial</MusicCue>	
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<Script_OnTurnEnd>UpdateSlimeDungeon</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>OnMonsterSpawnedInSlimeDungeon</Script_OnMonsterSpawn>
+		<EvenMonsterDistribution />
+		<RevealAll />
+		<UnbreakableWalls />
+		<MetaData>numfountains|4</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>maxlieutenants|5</MetaData>
+		<MetaData>lieutenantinterval|16</MetaData>
+		<MetaData>friendlyslimeturns|8</MetaData>
+		<MetaData>enemyslimeturns|8</MetaData>
+		<MetaData>yoffset|-2</MetaData>
+		<MetaData>xoffset|1</MetaData>		
+		<MetaData>goldkeys|2</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>397</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.85</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SLIME_DUNGEON</LayoutType>
+		<Tileset>SAND</Tileset>
+		<CustomName>exp_slimedungeon_cname4</CustomName>
+		<NoSpawner />
+		<SideArea />
+		<Size>23</Size>
+		<MinMonsters>19</MinMonsters>
+		<MaxMonsters>19</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>slimedungeon_2</SpawnTable>
+		<MusicCue>dragondread</MusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_jelly</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>dragonboss</CueName>
+		</AlternateMusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>dragon_jelly</ReqPlayerFlag>
+			<ReqPlayerFlagValue>4</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>		
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>scaleuptoplayerlevel|1</MetaData>
+		<StairsUpToLevel>396</StairsUpToLevel>
+		<DeepSideAreaFloor />
+		<NoRewardPopup />
+		<UnbreakableWalls />
+		<ScaleMonstersToMinimumLevel>13</ScaleMonstersToMinimumLevel>
+		<Script_OnEnterMap>SlimeDungeonFinalAreaIntro</Script_OnEnterMap>
+		<Script_OnTurnEnd>UpdateSlimeDungeonBossArea</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>OnMonsterSpawnedInSlimeDungeon</Script_OnMonsterSpawn>
+		<EvenMonsterDistribution />
+		<MetaData>xoffset|1</MetaData>
+		<MetaData>yoffset|-2</MetaData>
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>friendlyslimeturns|8</MetaData>
+		<MetaData>enemyslimeturns|7</MetaData>		
+		<MetaData>maxlieutenants|3</MetaData>
+		<MetaData>lieutenantinterval|25</MetaData>
+		<MetaData>turnstoboss|51</MetaData>
+	</Floor>		
+
+	<!-- ITEM WORLD STUFF -->
+
+	<Floor>
+		<Level>361</Level>
+		<ChallengeValue>1.8</ChallengeValue>
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPIRIT_DUNGEON</LayoutType>
+		<Tileset>SAND</Tileset>
+		<CustomName>exp_spiritdungeon_cname1</CustomName>
+		<NoSpawner />
+		<SideArea />
+		<Size>42</Size>
+		<ItemWorld />		
+		<MinRooms>8</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<MaxCorridors>1</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>		
+		<MinMonsters>16</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>spiritdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<RandomWaterPools>11</RandomWaterPools>
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>minroomsize|6</MetaData>
+		<MetaData>maxroomsize|12</MetaData>
+		<MetaData>forceoverlapvalue|1</MetaData>
+		<MetaData>breakmaxroomsize|1</MetaData>
+		<MetaData>randomcolumns|10</MetaData>
+		<MetaData>numtreasures|9</MetaData>
+		<MetaData>numfountains|6</MetaData>
+		<MetaData>spiritdungeon|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>362</Level>
+		<ExcludeFromRumors />
+		<SideArea />
+		<ItemWorld />
+		<ChallengeValue>1.65</ChallengeValue>
+		<Tileset>MOSS</Tileset>
+		<EvenMonsterDistribution />
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>14</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>42</Size>
+		<NoSpawner />
+		<SpawnTable>frogdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<Rivers>1</Rivers>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CellChanceToStartAlive>0.5</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.3</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>	
+		<Script_PreBeautify>BuildSwampWaterAndMud</Script_PreBeautify>
+		<Script_PostBuild>SeedMapWithHiddenMonsters</Script_PostBuild>
+		<Script_OnTurnEnd>CheckAndExecuteMonsterTrapsNextToPlayer</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>GiveMonsterMudImmunity</Script_OnMonsterSpawn>
+		<MetaData>seedtiles|15</MetaData>
+		<MetaData>minseeddistance|6</MetaData>
+		<MetaData>minpropogatecycles|2</MetaData>
+		<MetaData>maxpropogatecycles|4</MetaData>
+		<MetaData>chanceskipwater|43</MetaData>
+		<MetaData>edgemuckchance|40</MetaData>
+		<MetaData>mudchance|75</MetaData>
+		<MetaData>numhiddenmonsters|15</MetaData>
+		<MetaData>numhiddenchests|5</MetaData>
+		<MetaData>minmonsterdistance|3</MetaData>
+		<MetaData>frogdungeon|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>363</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.7</ChallengeValue>
+		<LayoutType>STANDARD</LayoutType>
+		<Tileset>MOSS</Tileset>
+		<EvenMonsterDistribution />
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>14</MaxMonsters>
+		<Size>44</Size>
+		<ItemWorld />
+		<MinRooms>15</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<MaxCorridors>1</MaxCorridors>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>frogdungeon_3</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<NoSpawner />
+		<Script_PreBeautify>BuildSwampRooms</Script_PreBeautify>
+		<Script_PostBuild>SeedMapWithHiddenMonstersAndExtras</Script_PostBuild>
+		<Script_OnTurnEnd>CheckAndExecuteMonsterTrapsNextToPlayer</Script_OnTurnEnd>
+		<Script_OnMonsterSpawn>GiveMonsterMudImmunity</Script_OnMonsterSpawn>
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>minroomsize|6</MetaData>	
+		<MetaData>seedtiles|15</MetaData>
+		<MetaData>minseeddistance|5</MetaData>
+		<MetaData>minpropogatecycles|1</MetaData>
+		<MetaData>maxpropogatecycles|3</MetaData>
+		<MetaData>chanceskipwater|43</MetaData>
+		<MetaData>edgemuckchance|40</MetaData>
+		<MetaData>mudchance|75</MetaData>
+		<MetaData>numhiddenmonsters|9</MetaData>
+		<MetaData>numhiddenchests|2</MetaData>	
+		<MetaData>wallstomuck|1</MetaData>	
+		<MetaData>boundsformonsterspawn|3</MetaData>
+		<MetaData>frogdungeon|1</MetaData>
+	</Floor>	
+
+	<Floor>
+		<Level>364</Level>
+		<ItemWorld />
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<DontConnectToAnything />
+		<CustomName>exp_banditdungeon_cname1</CustomName>
+		<EvenMonsterDistribution />		
+		<UnbreakableWalls />
+		<Rivers>2</Rivers>
+		<LayoutType>KEEP</LayoutType>
+	 	<MinMonsters>14</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>38</Size>		
+		<NoSpawner />		
+		<SpawnTable>banditdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<MetaData>vertical|1</MetaData>
+		<MetaData>dont_create_startarea|1</MetaData>
+		<Script_OnEnterMap>SetupSwitchToGateLinks</Script_OnEnterMap>
+		<Script_PreBeautify>VerifyStairsAreAccessible</Script_PreBeautify>
+		<MetaData>banditdungeon|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>365</Level>
+		<ItemWorld />
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<CustomName>exp_banditdungeon_cname2</CustomName>
+		<DontConnectToAnything />
+		<DeepSideAreaFloor />
+		<EvenMonsterDistribution />		
+		<UnbreakableWalls />
+		<Rivers>1</Rivers>
+		<LayoutType>KEEP</LayoutType>
+	 	<MinMonsters>15</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<Size>40</Size>		
+		<NoSpawner />		
+		<SpawnTable>banditdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<MetaData>horizontal|1</MetaData>
+		<MetaData>dont_create_startarea|1</MetaData>
+		<Script_OnEnterMap>SetupSwitchToGateLinks</Script_OnEnterMap>
+		<Script_PreBeautify>VerifyStairsAreAccessible</Script_PreBeautify>
+		<MetaData>banditdungeon|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>366</Level>
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<CustomName>exp_robotdungeon_cname2</CustomName>
+		<EvenMonsterDistribution />
+		<LayoutType>DRAGON_ROBOT</LayoutType>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>68</Size>
+		<ItemWorld />
+		<NoSpawner />
+		<SpawnTable>robotdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>370</StairsUpToLevel>
+		<StairsDownToLevel>372</StairsDownToLevel>
+		<Script_OnMonsterSpawn>AssignSlimeEggPartsToMonster</Script_OnMonsterSpawn>
+		<ParallaxBackground>dungeon_dragon_bg_parallax,-0.25,-0.25,40</ParallaxBackground>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>chancetolockdoor|25</MetaData>
+		<MetaData>chanceforwallsasholes|20</MetaData>
+		<MetaData>chanceforeggpart|50</MetaData>
+		<MetaData>robotdungeon|1</MetaData>
+		<MetaData>forcefields|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>367</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.9</ChallengeValue>
+		<ItemWorld />
+		<DontConnectToAnything />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>SPIRIT_DUNGEON</LayoutType>
+		<Tileset>NIGHTMARISH</Tileset>
+		<CustomName>exp_spiritdungeon_cname3</CustomName>
+		<NoSpawner />
+		<Size>40</Size>
+		<MinRooms>8</MinRooms>
+		<MaxRooms>10</MaxRooms>
+		<MaxCorridors>1</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>spiritdungeon_2</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<RandomWaterPools>7</RandomWaterPools>
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>minroomsize|5</MetaData>
+		<MetaData>maxroomsize|8</MetaData>
+		<MetaData>forceoverlapvalue|0</MetaData>
+		<MetaData>randomcolumns|14</MetaData>
+		<MetaData>numtreasures|7</MetaData>
+		<MetaData>numfountains|3</MetaData>
+		<MetaData>connectwater|0</MetaData>
+		<MetaData>randomelementalhazards|12</MetaData>
+		<MetaData>spiritdungeon|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>368</Level>
+		<ExcludeFromRumors />
+		<SideArea />
+		<ChallengeValue>2.0</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<ItemWorld />
+		<CustomName>exp_robotdungeon_cname4</CustomName>
+		<EvenMonsterDistribution />
+		<LayoutType>DRAGON_ROBOT_BRIDGE</LayoutType>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<Size>68</Size>
+		<NoSpawner />
+		<SpawnTable>robotdungeon_1</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>372</StairsUpToLevel>
+		<Script_OnMonsterSpawn>AssignSlimeEggPartsToMonster</Script_OnMonsterSpawn>
+		<ParallaxBackground>dungeon_dragon_bg_parallax,-0.25,-0.25,40</ParallaxBackground>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>chancetolockdoor|40</MetaData>
+		<MetaData>chanceforwallsasholes|60</MetaData>
+		<MetaData>chanceforeggpart|50</MetaData>
+		<MetaData>robotdungeon|1</MetaData>
+		<MetaData>forcefields|1</MetaData>
+	</Floor>	
+</DOCUMENT>

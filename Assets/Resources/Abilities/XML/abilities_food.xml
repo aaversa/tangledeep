@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Abil>
+		<DName>item_food_fruitcobbler_name</DName>
+		<RefName>skill_fruitcobbler</RefName>
+		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addfoodfull20</ERef>
+			<StatusRef>status_foodfull</StatusRef>
+			<Duration>16</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Silent />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>cobblerheal1</ERef>
+			<Anim>FervirGrandRecovery,0.4</Anim>	
+			<Targ>ORIGINATING</Targ>
+			<MaxStat>0.25</MaxStat>
+			<Rnd>3|7</Rnd>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>cobblerheal2</ERef>
+			<Targ>ORIGINATING</Targ>
+			<MaxStat>0.25</MaxStat>
+			<Rnd>3|7</Rnd>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>ENERGY</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>cobblerheal3</ERef>
+			<Targ>ORIGINATING</Targ>
+			<MaxStat>0.25</MaxStat>
+			<Rnd>3|7</Rnd>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>STAMINA</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>				
+	</Abil>		
+	<Abil>
+		<DName>abil_skill_nigiri_name</DName>
+		<RefName>skill_nigiri</RefName>
+		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AbilEffectRef>addfoodfull20</AbilEffectRef>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>onigiriheal</ERef>
+      <Targ>ORIGINATING</Targ>
+			<Anim>FervirGrandRecovery,0.4</Anim>
+			<MaxStat>0.4</MaxStat>
+			<Rnd>3|7</Rnd>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+	</Abil>	
+	<Abil>
+		<DName>item_food_smoothie_name</DName>
+		<RefName>skill_smoothie</RefName>
+		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>REMOVESTATUS</Type>
+			<ERef>removenegs</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirRecovery,0.3</Anim>
+			<RemoveAllNegative />
+		</AEff>	
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addfoodfull6</ERef>
+			<StatusRef>status_foodfull</StatusRef>
+			<Duration>6</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Silent />			
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addcarrotimmuneneg</ERef>
+			<StatusRef>status_immunenegative</StatusRef>
+			<Duration>8</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirRecovery,0.3</Anim>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>item_food_chocobar_name</DName>
+		<RefName>skill_chocobar</RefName>
+		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<ChargeTime>200</ChargeTime>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addfoodfull8</ERef>
+			<StatusRef>status_foodfull</StatusRef>
+			<Duration>8</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Silent />			
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addct50</ERef>
+			<StatusRef>addct50</StatusRef>
+			<Anim>FervirRecovery,0.25</Anim>
+			<Duration>1</Duration>
+			<Targ>ORIGINATING</Targ>
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>item_food_legofturkey_name</DName>
+		<RefName>skill_legofturkey</RefName>
+		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addfoodheal10</ERef>
+			<StatusRef>status_foodheal</StatusRef>
+			<Duration>5</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirRecovery,0.3</Anim>
+		</AEff>
+		<AbilEffectRef>addfoodfull20</AbilEffectRef>
+	</Abil>
+
+
+	<Abil>
+		<DName>item_food_chickendinner_name</DName>
+		<RefName>skill_chickendinner</RefName>
+		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addfoodheal1</ERef>
+			<StatusRef>status_slowfoodhealthheal</StatusRef>
+			<Duration>10</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirRecovery,0.3</Anim>
+		</AEff>
+		<AbilEffectRef>addfoodfull20</AbilEffectRef>
+	</Abil>
+
+	<Abil>
+		<DName>item_food_milk_name</DName>
+		<RefName>skill_milk</RefName>
+		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>milk</ERef>
+			<StatusRef>status_strengthbuff</StatusRef>
+			<Duration>12</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirBuff,0.3</Anim>
+			<BattleText>effect_milk_btxt</BattleText>
+		</AEff>
+		<AbilEffectRef>addfoodfull6</AbilEffectRef>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_campfiremeat_name</DName>
+		<RefName>skill_campfiremeat</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>campfiremeat</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirGrandRecovery,0.4</Anim>
+			<MaxStat>0.66</MaxStat>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AbilEffectRef>addfoodfull20</AbilEffectRef>	
+	</Abil>
+	<Abil>
+		<DName>abil_skill_campfirecheese_name</DName>
+		<RefName>skill_campfirecheese</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>campfirecheese</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirGrandRecovery,0.3</Anim>
+			<MaxStat>1</MaxStat>
+			<Stat>STAMINA</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_campfirereduction</ERef>
+			<Targ>ORIGINATING</Targ>		
+			<StatusRef>status_campfirereduction</StatusRef>
+			<Duration>7</Duration>
+		</AEff>
+		<AbilEffectRef>addfoodfull6</AbilEffectRef>	
+	</Abil>
+	<Abil>
+		<DName>abil_skill_campfiredessert_name</DName>
+		<RefName>skill_campfiredessert</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>campfiredessert</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirGrandRecovery,0.3</Anim>
+			<MaxStat>1</MaxStat>
+			<Stat>ENERGY</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AbilEffectRef>addfoodfull6</AbilEffectRef>	
+		<AbilEffectRef>add_campfirereduction</AbilEffectRef>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_campfirefruit_name</DName>
+		<RefName>skill_campfirefruit</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>energy33withanim</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirGrandRecovery,0.4</Anim>
+			<MaxStat>0.33</MaxStat>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>ENERGY</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>heal33noanim</ERef>
+			<Targ>ORIGINATING</Targ>
+			<MaxStat>0.33</MaxStat>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>stamina33noanim</ERef>
+			<Targ>ORIGINATING</Targ>
+			<MaxStat>0.33</MaxStat>
+		  <EffectTag>FOODHEAL</EffectTag>
+			<Stat>STAMINA</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AbilEffectRef>addfoodfull20</AbilEffectRef>	
+	</Abil>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>spice_rosepetals</ERef>
+		<StatusRef>romantic</StatusRef>
+		<Targ>ORIGINATING</Targ>
+		<Duration>3</Duration>
+	</EffectScript>	
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>spice_staranise</ERef>
+		<StatusRef>elemdamageup1</StatusRef>
+		<Targ>ORIGINATING</Targ>
+		<Duration>12</Duration>
+	</EffectScript>	
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>spice_nutmeg</ERef>
+		<StatusRef>status_tempmmelembuff1</StatusRef>
+		<Targ>ORIGINATING</Targ>
+		<Duration>12</Duration>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>spice_garlic</ERef>
+		<StatusRef>jpgainup1</StatusRef>
+		<Targ>ORIGINATING</Targ>
+		<Duration>30</Duration>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>spice_cinnamon</ERef>
+		<StatusRef>weakhpregen</StatusRef>
+		<Targ>ORIGINATING</Targ>
+		<Duration>10</Duration>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>spice_cilantro</ERef>
+		<StatusRef>critchanceup1</StatusRef>
+		<Targ>ORIGINATING</Targ>
+		<Duration>12</Duration>
+	</EffectScript>
+	<Abil>
+		<DName>abil_skill_infuseflaskapple_name</DName>
+		<RefName>skill_infuseflaskapple</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>flaskbuffapple</ERef>
+			<Script_Special>FlaskBuffApple</Script_Special>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirGrandRecovery,0.3</Anim>
+			<BattleText>effect_flaskbuffapple_btxt</BattleText>			
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_schematistkit_name</DName>
+		<RefName>skill_schematistkit</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>potionbuffschematist</ERef>
+			<Script_Special>PotionBuffSchematist</Script_Special>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirGrandRecovery,0.3</Anim>
+			<BattleText>effect_potionbuffschematist_btxt</BattleText>			
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>item_consumable_flavor_enhance_name</DName>
+		<RefName>skill_megainfuseflask</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>flaskbuffmega</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Duration>99</Duration>
+			<StatusRef>status_flask_megaflavor</StatusRef>
+			<Anim>FervirRecovery,0.3</Anim>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>item_food_lemondelight_name</DName>
+		<RefName>skill_lemondelight</RefName>
+		
+<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_slowenergy_lemon</ERef>
+			<StatusRef>status_slowfoodenergyheal</StatusRef>
+			<Duration>15</Duration>
+			<Targ>ORIGINATING</Targ>
+			<Anim>FervirRecovery,0.3</Anim>
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_slowstamina_lemon</ERef>
+			<StatusRef>status_slowfoodstaminaheal</StatusRef>
+			<Duration>15</Duration>
+			<Targ>ORIGINATING</Targ>
+		</AEff>		
+		<AbilEffectRef>addfoodfull6</AbilEffectRef>
+	</Abil>
+		
+	<Abil>
+		<DName>item_sesamebuns_name</DName>
+		<RefName>skill_reducecooldowns</RefName>		
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>reducecooldowns2</ERef>
+			<Script_Special>ReduceCooldownsByTwo</Script_Special>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>
+</DOCUMENT>

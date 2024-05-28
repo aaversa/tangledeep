@@ -1,0 +1,852 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1484901639752256}
+  m_IsPrefabParent: 1
+--- !u!1 &1168859400206024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224110679556273276}
+  - component: {fileID: 222110650849376986}
+  - component: {fileID: 114857795548962954}
+  m_Layer: 5
+  m_Name: NewLoadingText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1484901639752256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224742063277049886}
+  - component: {fileID: 114039367788373908}
+  - component: {fileID: 114897384270130778}
+  m_Layer: 0
+  m_Name: LoadingWaiter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1721487774085350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224855107125371784}
+  - component: {fileID: 114810568943086366}
+  - component: {fileID: 114731730265266748}
+  - component: {fileID: 222696653320781634}
+  - component: {fileID: 114863708862449064}
+  m_Layer: 0
+  m_Name: LoadingFrog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1874490318057076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224861585509154804}
+  - component: {fileID: 114676902474740134}
+  - component: {fileID: 222896683866927382}
+  - component: {fileID: 114235327918127092}
+  - component: {fileID: 114995667857454296}
+  m_Layer: 0
+  m_Name: NewLoadingCharacter
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114039367788373908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484901639752256}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: -40
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: -20
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+--- !u!114 &114235327918127092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874490318057076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114676902474740134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874490318057076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f19ced47e94a87f4689fe689a8a490ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114731730265266748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721487774085350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08151f98e19a462e9f1bb733aca71cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimations:
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    varyAnimStartTimer: 0
+    animName: Idle
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300000, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300002, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300004, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.15
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300006, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.18
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300008, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.08
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300010, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.08
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: TakeDamage
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300012, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300014, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300016, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300018, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300000, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+      spriteTime: 0.5
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  debugRevealData: 0
+  speedMultiplier: 1
+  startRotation: 0
+  animPlaying:
+    enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    varyAnimStartTimer: 0
+    animName: 
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: 
+    startScale: 0
+    ignoreScale: 0
+    startOpacity: 0
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites: []
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  spriteTimer: 0
+  srFound: 0
+  IsUIElement: 1
+  spriteIndex: 0
+  animComplete: 0
+  defaultDirection: 2
+  rotationAngleOffset: 0
+  allFramePosOffset: {x: 0, y: 0}
+  timeAtFrameStart: 0
+  calcGameWaitTime: 0
+  spriteFacingDirection: 0
+  opacityMod: 0
+  hitOrAttackState: 0
+  directionFlippedFromAnimation: 0
+  curSpriteTime: 0
+--- !u!114 &114810568943086366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721487774085350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fcd24bcc410456d85817e2bb82a4da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  sortOrderOffset: 0
+  permanentYOffset: 0
+  permanentXOffset: 0
+  spriteHeight: 0
+  spriteWidth: 0
+  fadingOut: 0
+  fadingIn: 0
+  debugRevealData: 0
+  startXFlippedAtRandom: 0
+  defaultCollidable: 1
+  remember: 0
+  rememberTurns: 0
+  turnsSinceLastSeen: 0
+  inSight: 0
+  dirFacing: {x: 0, y: 0}
+  destructible: 0
+  footstepSounds: []
+  shouldBeVisible: 1
+  extraHeightTiles: 0
+  diagonalBlock: 0
+  diagonalLBlock: 0
+  sr: {fileID: 0}
+  srFound: 0
+  visible: 0
+  spriteEffect: 0
+  rotateStatusOverlayCounter: 0
+  statusOverlayIndex: 0
+  forceColor: {r: 0, g: 0, b: 0, a: 0}
+  usePublicForceColor: 0
+  terrainTile: 0
+  overlappingTransparentObject: 0
+--- !u!114 &114857795548962954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168859400206024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: Now Loading...
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3f0507d2644017f4eb24cd53488a07aa, type: 2}
+  m_sharedMaterial: {fileID: 21158060938614554, guid: 3f0507d2644017f4eb24cd53488a07aa,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 1
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 48
+  m_fontSizeBase: 48
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 48
+  m_fontStyle: 0
+  m_textAlignment: 514
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 114857795548962954}
+    characterCount: 14
+    spriteCount: 0
+    spaceCount: 1
+    wordCount: 2
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 1
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 1
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &114863708862449064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721487774085350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300016, guid: 09ece13dd3f364932a4facda5cbc2579, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114897384270130778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484901639752256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab3c680052fddd046a8b1101616256a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bouncyString: {fileID: 114857795548962954}
+  fTextBounceHeight: 11
+  animatedHero: {fileID: 114995667857454296}
+  strEnglishNowLoading: Now Loading...
+  strJapaneseNowLoading: "\u30ED\u30FC\u30C7\u30A3\u30F3\u30B0\u4E2D"
+--- !u!114 &114995667857454296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874490318057076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08151f98e19a462e9f1bb733aca71cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimations:
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 1
+    varyAnimStartTimer: 0
+    animName: WalkSide
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 0}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 0}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 0}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 0}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 0}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 0}
+      spriteTime: 0.1
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  debugRevealData: 0
+  speedMultiplier: 1
+  startRotation: 0
+  animPlaying:
+    enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    varyAnimStartTimer: 0
+    animName: 
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: 
+    startScale: 0
+    ignoreScale: 0
+    startOpacity: 0
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites: []
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  spriteTimer: 0
+  srFound: 0
+  IsUIElement: 1
+  spriteIndex: 0
+  animComplete: 0
+  defaultDirection: 2
+  rotationAngleOffset: 0
+  allFramePosOffset: {x: 0, y: 0}
+  timeAtFrameStart: 0
+  calcGameWaitTime: 0
+  spriteFacingDirection: 0
+  opacityMod: 0
+  hitOrAttackState: 0
+  directionFlippedFromAnimation: 0
+  curSpriteTime: 0
+--- !u!222 &222110650849376986
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168859400206024}
+--- !u!222 &222696653320781634
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721487774085350}
+--- !u!222 &222896683866927382
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874490318057076}
+--- !u!224 &224110679556273276
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1168859400206024}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224742063277049886}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -83, y: -30}
+  m_SizeDelta: {x: 400, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224742063277049886
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1484901639752256}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224861585509154804}
+  - {fileID: 224110679556273276}
+  - {fileID: 224855107125371784}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -192, y: 128}
+  m_SizeDelta: {x: 200, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224855107125371784
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721487774085350}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224742063277049886}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 140, y: -50}
+  m_SizeDelta: {x: 82, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224861585509154804
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874490318057076}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224742063277049886}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -77, y: -120}
+  m_SizeDelta: {x: 140, y: 108}
+  m_Pivot: {x: 0.5, y: 0.5}

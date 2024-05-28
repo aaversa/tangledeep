@@ -1,0 +1,3978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<String>		
+		<RefName>introtext1</RefName>
+		<Content>For untold generations, my people have lived deep within the earth, surrounded by #cg#verdant subterranean forests#ec#, #cc#sparkling waters#ec#, and #cy#crystalline luminance#ec#.&#xA;&#xA;We all have a special connection to this world, a bond with nature we call #cy#the Touch#ec#.&#xA;</Content>
+	</String>
+	<String>		
+		<RefName>introtext2</RefName>
+		<Content>Some are born with an abundance of #cy#Touch#ec#, which fills them with a sense of #cy#adventure#ec#; an urge to explore the #cc#wilds#ec# beyond our #cg#Home#ec#.&#xA;&#xA;All with the #cy#Touch#ec# inherit the appearance of animals.&#xA;</Content>
+	</String>
+	<String>		
+		<RefName>introtext3</RefName>
+		<Content>And sometimes, when we fully experience the #cy#Touch#ec#, we are drawn to #cg#Tangledeep#ec#...&#xA;&#xA;An ever-changing labyrinth that leads #cy#upward#ec# to a world that #cy#no one has ever seen#ec#.&#xA;&#xA;</Content>
+	</String>
+	<String>		
+		<RefName>introtext4</RefName>
+		<Content>I have never felt the #cy#Touch#ec#, unlike many others in my home of #cy#Riverstone Camp#ec#. Yet there is so much I want to learn about #cg#Tangledeep#ec#...&#xA;&#xA;Today, I have decided: #cy#I will go there#ec# and find my own answers.&#xA;</Content>
+	</String>	
+	<String>
+		<RefName>intro_brigand</RefName>
+		<Content>They say people like me belong in the wilds.&#xA;So what if I don't play by the rules? I know right from wrong.&#xA;I'll go where I want, I always have.&#xA;Today, I'm going to get rich!</Content>
+	</String>
+	<String>
+		<RefName>intro_floramancer</RefName>
+		<Content>I've been waiting to get out here for so long!&#xA;I can hear them, all of them, singing, laughing, sharing stories.&#xA;Tangledeep is so noisy and alive!&#xA;Today, I'm going to make new friends, and they'll tell me everything.</Content>
+	</String>
+	<String>
+		<RefName>intro_sworddancer</RefName>
+		<Content>Every step is measured, every cut long planned,&#xA;And my enemies lost ten moves ago.&#xA;Life is balance, grace, and motion.&#xA;Today, all the pieces fall into place.</Content>
+	</String>
+	<String>
+		<RefName>intro_spellshaper</RefName>
+		<Content>The length of all my training, the depth of my research.&#xA;This is the work that defines me.&#xA;The world is square, but there are endless angles inside.&#xA;Today, I will be measured against the unknown.</Content>
+	</String>
+	<String>
+		<RefName>intro_paladin</RefName>
+		<Content>I have never doubted that Faith is Strength.&#xA;My home, my people, they mean so much to me.&#xA;But I have a duty and I have been chosen.&#xA;Today, I will answer the call.</Content>
+	</String>
+	<String>
+		<RefName>intro_budoka</RefName>
+		<Content>Rain drops are soft, yet,&#xA;Who can withstand the typhoon?&#xA;I'm both calm and storm.&#xA;Today, I will finally know myself.</Content>
+	</String>
+	<String>
+		<RefName>intro_hunter</RefName>
+		<Content>Tangledeep is nature's bounty. It's a gift.&#xA;I am ever thankful. Nature is my life and breath.&#xA;But I'm tired of thieves, bandits, and villains dirtying my air.&#xA;Today, I'm gonna clean up this mess.</Content>
+	</String>
+	<String>
+		<RefName>intro_gambler</RefName>
+		<Content>Tossing the dice and spinning the wheel,&#xA;I'm ready for the big score, and Tangledeep's got it.&#xA;I make the smart bets and there's no one luckier, but&#xA;Today might be my last!</Content>
+	</String>
+	<String>
+		<RefName>intro_husyn</RefName>
+		<Content>I serve no master, but I was built, not born.&#xA;No one knows anything, least of all me!&#xA;Even though I've always felt welcomed by home and family,&#xA;Tomorrow is where I belong.</Content>
+	</String>
+	<String>
+		<RefName>intro_soulkeeper</RefName>
+		<Content>Some live in the present; others, the future.&#xA;But I am interested in the echoes of yesterday.&#xA;There are so many memories of this world.&#xA;Today, I will find who they belong to.</Content>
+	</String>
+	<String>
+		<RefName>intro_edgethane</RefName>
+		<Content>I grew up listening to tales of legendary heroes.&#xA;I learned that glory comes only through adversity.&#xA;In my odyssey into Tangledeep, I will overcome every challenge.&#xA;Today, I will sing the songs of my own adventure!</Content>
+	</String>	
+	<String>
+		<RefName>intro_wildchild</RefName>
+		<Content>The ways of civilization are so foreign.&#xA;Why do people restrain themselves from the Touch's embrace?&#xA;I prefer the company of monsters.&#xA;Today, I will conquer the place of my birth!</Content>
+	</String>	
+	<String>
+		<RefName>log_corralmonster_hatefood</RefName>
+		<Content>#cr#Yuck!#ec# #cy#^tag1^#ec# hated the #cy#^tag2^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_corralmonster_lovefood</RefName>
+		<Content>#cg#YUM!#ec# #cy#^tag1^#ec# loved the delicious #cy#^tag2^#ec# and wants more!</Content>
+	</String>
+	<String>
+		<RefName>log_corralmonster_monsterchow</RefName>
+		<Content>#cy#^tag1^#ec# goes absolutely wild and devours the #cy#^tag2^#ec#! They look #cg#happier and more beautiful#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_corralmonster_monsterchow_sick</RefName>
+		<Content>#cy#^tag1^#ec# has outgrown the taste of #cy#^tag2^#ec#! Try #cg#another food instead#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_corralmonster_neutralfood</RefName>
+		<Content>#cy#^tag1^#ec# ate the #cy#^tag2^#ec#. It was OK.</Content>
+	</String>
+	<String>
+		<RefName>log_corralmonster_happychangefromfood</RefName>
+		<Content>#cy#^tag1^#ec# loves being fed! Their #cg#happiness level#ec# is now ^tag2^.</Content>
+	</String>	
+	<String>
+		<RefName>log_corral_groom1</RefName>
+		<Content>#cy#Brush brush... clip clip...#ec# #cy#^tag1^#ec# loves the attention! They #cg#look better now#ec#, too!</Content>
+	</String>
+	<String>
+		<RefName>log_corral_groom2</RefName>
+		<Content>#cy#Bath Time!#ec# #cc#Scrub scrub...#ec# #cy#^tag1^#ec# doesn't like baths, but they #cg#look much better now#ec#!</Content>
+	</String>
+	<String>
+		<RefName>corral_rarity_0</RefName>
+		<Content>Common</Content>
+	</String>		
+	<String>
+		<RefName>corral_rarity_1</RefName>
+		<Content>Uncommon</Content>
+	</String>		
+	<String>
+		<RefName>corral_rarity_2</RefName>
+		<Content>Rare</Content>
+	</String>		
+	<String>
+		<RefName>corral_rarity_3</RefName>
+		<Content>Very Rare</Content>
+	</String>		
+	<String>
+		<RefName>corral_rarity_4</RefName>
+		<Content>Mythical</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_0</RefName>
+		<Content>Repulsive</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_1</RefName>
+		<Content>Super Ugly</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_2</RefName>
+		<Content>Ugly</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_3</RefName>
+		<Content>Plain</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_4</RefName>
+		<Content>Pretty</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_5</RefName>
+		<Content>Lovely</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_6</RefName>
+		<Content>Stunning!</Content>
+	</String>
+	<String>
+		<RefName>corral_beauty_7</RefName>
+		<Content>Jaw-Dropping!</Content>
+	</String>
+	<String>
+		<RefName>corral_happy_0</RefName>
+		<Content>Miserable</Content>
+	</String>
+	<String>
+		<RefName>corral_happy_1</RefName>
+		<Content>Unhappy</Content>
+	</String>
+	<String>
+		<RefName>corral_happy_2</RefName>
+		<Content>Discontent</Content>
+	</String>
+	<String>
+		<RefName>corral_happy_3</RefName>
+		<Content>Neutral</Content>
+	</String>
+	<String>
+		<RefName>corral_happy_4</RefName>
+		<Content>Content</Content>
+	</String>
+	<String>
+		<RefName>corral_happy_5</RefName>
+		<Content>Happy</Content>
+	</String>
+	<String>
+		<RefName>corral_happy_6</RefName>
+		<Content>Joyous</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_header_happiness</RefName>
+		<Content>Happiness</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_header_weight</RefName>
+		<Content>Weight</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_header_rarity</RefName>
+		<Content>Rarity</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_header_beauty</RefName>
+		<Content>Beauty</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_feedmonster_header</RefName>
+		<Content>Select Food for ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_groommonster_header</RefName>
+		<Content>Select Grooming for ^tag1^&#xA;Your Money:</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_groommonster_service1</RefName>
+		<Content>BRUSH AND TRIM</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_groommonster_service2</RefName>
+		<Content>BATHE AND STYLE</Content>
+	</String>	
+	<String>
+		<RefName>ui_corral_feedmonster_confirmbutton</RefName>
+		<Content>FEED MONSTER</Content>
+	</String>
+	<String>
+		<RefName>error_corral_maxgroom</RefName>
+		<Content>^tag1^ has already been #cy#fully groomed#ec#!</Content>
+	</String>		
+	<String>
+		<RefName>unit_weight</RefName>
+		<Content>kg</Content>
+	</String>
+	<String>
+		<RefName>corral_monster_descline1</RefName>
+		<Content>^tag1^, Level: #cy#^tag2^#ec# HP: #cg#^tag3^#ec# (Family: #cc#^tag4^#ec#)</Content>
+	</String>
+	<String>
+		<RefName>corral_mon_subheader</RefName>
+		<Content>Captured By: </Content>
+	</String>
+	<String>
+		<RefName>misc_parents</RefName>
+		<Content>Parents: </Content>
+	</String>	
+	<String>
+		<RefName>generic_family</RefName>
+		<Content>Family</Content>
+	</String>
+	<String>
+		<RefName>modedescription_heroic</RefName>
+		<Content>&#xA;#co#Heroic Mode#ec#&#xA;If you reach 0 HP, the game ends (#cr#permadeath#ec#).&#xA;Only banked goods and town progress will be saved.&#xA;This is #co#challenging#ec#, but also #cy#the intended way to experience Tangledeep#ec#!&#xA;&#xA;</Content>
+	</String>
+	<String>
+		<RefName>modedescription_adventure</RefName>
+		<Content>#cg#Adventure Mode#ec#&#xA;If you reach 0 HP, you will #cg#return to town#ec#.&#xA;You will lose half of: your money, unspent JP, and XP progress.&#xA;Recommended for #cg#roguelike beginners#ec#.&#xA;&#xA;</Content>
+	</String>
+	<String>
+		<RefName>modedescription_hardcore</RefName>
+		<Content>#cr#Hardcore Mode#ec#&#xA;If you reach 0 HP, the game ends (#cr#permadeath#ec#).&#xA;All traces of your adventure are permanently #cr#erased#ec#.&#xA;#cy#Previous meta data on this slot will be erased upon starting.#ec#&#xA;Recommended only for #cr#seasoned players#ec#!&#xA;&#xA;</Content>
+	</String>	
+	<String>
+		<RefName>confirm_corral_releasemonster</RefName>
+		<Content>#cy#Are you SURE you want to release ^tag1^? You'll #ec##cr#never see them again...#ec#</Content>
+	</String>
+	<String>
+		<RefName>misc_groom1_popup1</RefName>
+		<Content>BRUSH</Content>
+	</String>
+	<String>
+		<RefName>misc_groom1_popup2</RefName>
+		<Content>CLIP</Content>
+	</String>
+	<String>
+		<RefName>misc_groom1_popup3</RefName>
+		<Content>TRIM</Content>
+	</String>
+	<String>
+		<RefName>misc_groom2_popup1</RefName>
+		<Content>SPLISH</Content>
+	</String>
+	<String>
+		<RefName>misc_groom2_popup2</RefName>
+		<Content>SPLASH</Content>
+	</String>
+	<String>
+		<RefName>misc_groom2_popup3</RefName>
+		<Content>SCRUB</Content>
+	</String>
+	<String>
+		<RefName>misc_groom2_popup4</RefName>
+		<Content>SCRUB</Content>
+	</String>
+	<String>
+		<RefName>misc_groom2_popup5</RefName>
+		<Content>SCRUB</Content>
+	</String>
+	<String>
+		<RefName>log_corral_laidegg</RefName>
+		<Content>#cc#What's this?!#ec# #cy#^tag1^ laid an egg!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_corral_fetcheditem</RefName>
+		<Content>#cc#What's this?!#ec# #cy#^tag1^ fetched an item!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_corral_madepotion</RefName>
+		<Content>#cc#What's this?!#ec# #cy#^tag1^ created a potion from its essence!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_corral_pickup</RefName>
+		<Content>You picked up ^tag2^!</Content>
+	</String>
+	<String>
+		<RefName>ui_item_rank</RefName>
+		<Content>Item Rank</Content>
+	</String>
+	<String>
+		<RefName>log_error_abilityweapontype</RefName>
+		<Content>#cy#You must equip a weapon of type ^tag1^ in your main hand to use#ec# #cc#^tag2^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_error_cantuseabilities</RefName>
+		<Content>#cy#You cannot use abilities while #ec# #cr#SEALED#ec##cy#!#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_error_nocrystal</RefName>
+		<Content>#cy#You cannot use ^tag1^ without a Runic Crystal#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_error_abilityrequiremelee</RefName>
+		<Content>#cy#You must equip a melee weapon to use#ec# #cc#^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_error_abilityrequireranged</RefName>
+		<Content>#cy#You must equip a ranged weapon to use#ec# #cc#^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>misc_crit</RefName>
+		<Content>(#cr#CRIT!#ec#)</Content>
+	</String>
+	<String>
+		<RefName>misc_loses</RefName>
+		<Content>loses</Content>
+	</String>
+	<String>
+		<RefName>misc_hpfrom</RefName>
+		<Content>HP from</Content>
+	</String>
+	<String>
+		<RefName>log_lose_hp_fromeffect</RefName>
+		<Content>#cc#^tag3^#ec# deals ^tag2^ damage to #co#^tag1^#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_lose_hp_fromeffect_user</RefName>
+		<Content>^tag4^ hits #co#^tag1^#ec# for ^tag2^ ^tag5^ damage with ^tag3^!</Content>
+	</String>	
+	<String>
+		<RefName>misc_eatingsounds</RefName>
+		<Content>CHOMP</Content>
+	</String>
+	<String>
+		<RefName>misc_button_exit_normalcase</RefName>
+		<Content>Exit</Content>
+	</String>
+	<String>
+		<RefName>log_mallet_monsterhighhp</RefName>
+		<Content>You strike #cy#^tag1^#ec#, but it's #cr#not weakened enough#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_mallet_monsterstrong</RefName>
+		<Content>You strike #cy#^tag1^#ec#, but it's #cr#too powerful to be knocked out#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_mallet_crystal</RefName>
+		<Content>You strike #cy#^tag1^#ec#, but nothing happens...</Content>
+	</String>
+	<String>
+		<RefName>log_monsterchargeability</RefName>
+		<Content>#cr#^tag1^#ec# #cy#prepares an ability...#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_monster_cantmove</RefName>
+		<Content>^tag1^ #cy#can't move#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_monsterexplode</RefName>
+		<Content>#cy#^tag1^#ec# #cr#IS ABOUT TO EXPLODE!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_pairoffhand</RefName>
+		<Content>#cy#^tag1^#ec# will now auto-equip when #cy#^tag2^#ec# is equipped!</Content>
+	</String>
+	<String>
+		<RefName>log_unpairoffhand</RefName>
+		<Content>#cy#^tag1^#ec# is now unpaired from #cy#^tag2^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_removeitemmod</RefName>
+		<Content>#cy#^tag1^#ec# glows as the Dreamcaster #cy#dismantles a magical property#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_extractitemmod_destroyitem</RefName>
+		<Content>#cy#^tag1^#ec# glows #cr#red-hot#ec# and disintegrates as the Dreamcaster #cc#extracts a magical property#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>ui_itemworld_removemod</RefName>
+		<Content>Cost to Remove/Extract Modifier:</Content>
+	</String>
+	<String>
+		<RefName>misc_itemworld_orbcost</RefName>
+		<Content>Minimum ^tag1^  Orb(s)</Content>
+	</String>
+	<String>
+		<RefName>misc_itemworld_orbcost_definite</RefName>
+		<Content>#cy#Orb Cost: ^tag5^ Orbs#ec#</Content>
+	</String>	
+	<String>
+		<RefName>log_error_itemupgrade</RefName>
+		<Content>#cy#^tag1^#ec# has already been upgraded to its #cg#maximum potential#ec#.</Content>
+	</String>
+	<String>
+		<RefName>ui_itemworld_noupgrade</RefName>
+		<Content>No further upgrade</Content>
+	</String>
+	<String>
+		<RefName>ui_itemworld_upgrade</RefName>
+		<Content>Guaranteed Upgrade:</Content>
+	</String>
+	<String>
+		<RefName>ui_shieldinfo</RefName>
+		<Content>#cg#^tag1^#ec# Block Chance, #cg#^tag2^#ec# Dmg Blocked</Content>
+	</String>
+	<String>
+		<RefName>ui_log_learnweaponmastery1</RefName>
+		<Content>#cy#Jorito#ec# shows you the technique...</Content>
+	</String>
+	<String>
+		<RefName>ui_log_learnweaponmastery2</RefName>
+		<Content>#cy#You have learned #ec##cg#^tag1^#ec##cy#!#ec#</Content>
+	</String>
+	<String>
+		<RefName>ui_eq_paired</RefName>
+		<Content>Paired With: </Content>
+	</String>
+	<String>
+		<RefName>ui_button_pairwith</RefName>
+		<Content>Pair With Weapon</Content>
+	</String>
+	<String>
+		<RefName>ui_button_unpairwith</RefName>
+		<Content>Unpair</Content>
+	</String>	
+	<String>
+		<RefName>log_dodge_water</RefName>
+		<Content>#cy#^tag2^#ec# has a hard time aiming at #cy#^tag1^#ec# in the water!</Content>
+	</String>
+	<String>
+		<RefName>log_error_cannotremovemods</RefName>
+		<Content>#cy#^tag1^#ec# does not have any #cy#removable#ec# magical properties.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_tealeaf</RefName>
+		<Content>#cg#Tea Leaf#ec#: Restores 15 Stamina and Energy over time.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_citrus</RefName>
+		<Content>#cg#Citrus#ec#: Boosts attack and defense by 10% for 5 turns.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_caramel</RefName>
+		<Content>#cy#Caramel#ec#: Gain +4 CT per turn for 5 turns.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_greenapple</RefName>
+		<Content>#cy#Green Apple#ec#: Increases dodge chance by 15% for 5 turns.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_basil</RefName>
+		<Content>#cc#Basil#ec#: Heals 6% additional max HP over time.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_vanilla</RefName>
+		<Content>#cc#Vanilla#ec#: Heals 3% of max HP instantly.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_apple</RefName>
+		<Content>#cy#Applecan#ec#: Effect duration increased by 1 turn.</Content>
+	</String>
+	<String>
+		<RefName>effect_infuse_schematist</RefName>
+		<Content>#cy#Schematist#ec#: Non-flask potion healing increased by 25%.</Content>
+	</String>		
+	<String>
+		<RefName>misc_infusions</RefName>
+		<Content>Flask Infusions</Content>
+	</String>	
+	<String>
+		<RefName>itemdream_property_fire</RefName>
+		<Content>Monster Fire Dmg/Res Up</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_shadow</RefName>
+		<Content>Monster Shadow Dmg/Res Up</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_water</RefName>
+		<Content>Monster Water Dmg/Res Up</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_poison</RefName>
+		<Content>Monster Poison Dmg/Res Up</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_lightning</RefName>
+		<Content>Monster Light Dmg/Res Up</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_ranged</RefName>
+		<Content>More Ranged Monsters</Content>
+	</String>	
+	<String>
+		<RefName>itemdream_property_melee</RefName>
+		<Content>Stronger Monster Melee Attacks</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_legendary</RefName>
+		<Content>More and Stronger Champions</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_health</RefName>
+		<Content>Monster Health Up</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_gilded</RefName>
+		<Content>Monsters May Drop Coins</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_gearset</RefName>
+		<Content>Greater Set Item Chance</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_critical</RefName>
+		<Content>Monster Crit % Up</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_dense</RefName>
+		<Content>Greater Monster Density</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_nochampions</RefName>
+		<Content>No Champions</Content>
+	</String>
+	<String>
+		<RefName>itemdream_property_morechampions</RefName>
+		<Content>50% More Champions</Content>
+	</String>
+	<String>
+		<RefName>log_healer_chant</RefName>
+		<Content>#cy#Percy#ec# lazily mutters an incantation...</Content>
+	</String>
+	<String>
+		<RefName>log_healtofull</RefName>
+		<Content>#cy#^tag1^#ec# is #cg#fully healed#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_harvestfoodfromtree</RefName>
+		<Content>You harvest #cy#^tag1^#ec# from your ^tag2^!</Content>
+	</String>
+	<String>
+		<RefName>log_error_foodfull</RefName>
+		<Content>You are #cr#too full#ec# to eat more!</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_neutral</RefName>
+		<Content>Neutral</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_negative1</RefName>
+		<Content>#cy#Dislike#ec#</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_negative2</RefName>
+		<Content>#cr#Strongly Dislike#ec#</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_negative3</RefName>
+		<Content>#cr#Hostile#ec#</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_positive1</RefName>
+		<Content>#cg#Like#ec#</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_positive2</RefName>
+		<Content>#cg#Strongly Like#ec#</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_positive3</RefName>
+		<Content>#cg#Love#ec#</Content>
+	</String>
+	<String>
+		<RefName>corral_relationship_positive4</RefName>
+		<Content>#cp#True Love#ec#</Content>
+	</String>	
+	<String>
+		<RefName>misc_xp_level</RefName>
+		<Content>Level</Content>
+	</String>
+	<String>
+		<RefName>ui_button_groom</RefName>
+		<Content>GROOM</Content>
+	</String>
+	<String>
+		<RefName>ui_button_info</RefName>
+		<Content>STATS</Content>
+	</String>	
+	<String>
+		<RefName>ui_button_back</RefName>
+		<Content>BACK TO LIST</Content>
+	</String>
+	<String>
+		<RefName>ui_button_release</RefName>
+		<Content>RELEASE</Content>
+	</String>
+	<String>
+		<RefName>ui_button_feed</RefName>
+		<Content>FEED</Content>
+	</String>
+	<String>
+		<RefName>ui_button_getmonsterpet</RefName>
+		<Content>BUDDY UP</Content>
+	</String>
+	<String>
+		<RefName>ui_button_returnmonsterpet</RefName>
+		<Content>PUT BACK</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_monpowers</RefName>
+		<Content>POWERS:</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_parents</RefName>
+		<Content>PARENTS:</Content>
+	</String>	
+	<String>
+		<RefName>ui_equipment_weaponpower</RefName>
+		<Content>WEAPON POWER</Content>
+	</String>
+
+	<String>
+		<RefName>ui_misc_corestats</RefName>
+		<Content>CORE STATS</Content>
+	</String>
+
+	<String>
+		<RefName>stat_critchance</RefName>
+		<Content>Critical Chance</Content>
+	</String>
+
+	<String>
+		<RefName>stat_chargetime</RefName>
+		<Content>Charge Time</Content>
+	</String>
+	<String>
+		<RefName>stat_visionrange</RefName>
+		<Content>Vision Range</Content>
+	</String>
+
+	<String>
+		<RefName>stat_accuracy</RefName>
+		<Content>Accuracy</Content>
+	</String>	
+
+	<String>
+		<RefName>stat_powerupdrop</RefName>
+		<Content>Powerup Drop</Content>
+	</String>
+
+	<String>
+		<RefName>stat_parrychance</RefName>
+		<Content>Parry Chance</Content>
+	</String>
+
+  <String>
+    <RefName>stat_dodgechance</RefName>
+    <Content>Dodge Chance</Content>
+  </String>
+
+  <String>
+    <RefName>stat_blockchance</RefName>
+    <Content>Block Chance</Content>
+  </String>
+
+  <String>
+		<RefName>stat_alldamage</RefName>
+		<Content>All Damage Mod</Content>
+	</String>	
+
+	<String>
+		<RefName>stat_alldefense</RefName>
+		<Content>All Defense Mod</Content>
+	</String>	
+
+	<String>
+		<RefName>stat_spiritpower</RefName>
+		<Content>Spirit Power</Content>
+	</String>	
+	<String>
+		<RefName>stat_energy</RefName>
+		<Content>Energy</Content>
+	</String>
+	<String>
+		<RefName>stat_stamina</RefName>
+		<Content>Stamina</Content>
+	</String>		
+	<String>
+		<RefName>stat_health</RefName>
+		<Content>Health</Content>
+	</String>			
+	<String>
+		<RefName>stat_strength</RefName>
+		<Content>Strength</Content>
+	</String>
+	<String>
+		<RefName>stat_swiftness</RefName>
+		<Content>Swiftness</Content>
+	</String>
+	<String>
+		<RefName>stat_discipline</RefName>
+		<Content>Discipline</Content>
+	</String>
+	<String>
+		<RefName>stat_spirit</RefName>
+		<Content>Spirit</Content>
+	</String>
+	<String>
+		<RefName>stat_guile</RefName>
+		<Content>Guile</Content>
+	</String>
+	<String>
+		<RefName>log_corral_error_nomonster</RefName>
+		<Content>You don't have a #cy#knocked-out#ec# monster...</Content>
+	</String>
+	<String>
+		<RefName>log_corral_bringmonster</RefName>
+		<Content>You hand over #cy#^tag1^#ec# to Jesse.</Content>
+	</String>
+	<String>
+		<RefName>log_corral_error_full</RefName>
+		<Content>Your corral is #cr#full#ec#; you can't knock out any more monsters!</Content>
+	</String>
+	<String>
+		<RefName>log_corral_error_fullforpet</RefName>
+		<Content>Your corral is #cr#full#ec#; there's no room to put ^tag1^ back!</Content>
+	</String>	
+	<String>
+		<RefName>ui_corral_feelings</RefName>
+		<Content>Feelings Toward #cc#^tag1^#ec#:</Content>
+	</String>
+	<String>
+		<RefName>prompt_namemonster</RefName>
+		<Content>What is this monster's name?</Content>
+	</String>
+	<String>
+		<RefName>log_error_alreadyhavepet</RefName>
+		<Content>You can only have #cy#one monster corral pet#ec# out at a time.</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_buddyup</RefName>
+		<Content>You retrieve your friend #cy#^tag1^#ec# from the corral. It's ready for adventure!</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_returnpet</RefName>
+		<Content>You return your friend #cy#^tag1^#ec# to the corral, safe and sound.</Content>
+	</String>
+	<String>
+		<RefName>misc_romantic</RefName>
+		<Content>Romantic</Content>
+	</String>
+	<String>
+		<RefName>misc_garlic</RefName>
+		<Content>Garlic</Content>
+	</String>
+	<String>
+		<RefName>misc_nutmeg</RefName>
+		<Content>Nutmeg</Content>
+	</String>
+	<String>
+		<RefName>misc_cinnamon</RefName>
+		<Content>Cinnamon</Content>
+	</String>
+	<String>
+		<RefName>misc_staranise</RefName>
+		<Content>Star Anise</Content>
+	</String>
+	<String>
+		<RefName>misc_cilantro</RefName>
+		<Content>Cilantro</Content>
+	</String>	
+	<String>
+		<RefName>ui_button_confirm_breed</RefName>
+		<Content>CONFIRM PAIRING</Content>
+	</String>
+	<String>
+		<RefName>ui_breed_header</RefName>
+		<Content>Select Two Monsters</Content>
+	</String>
+	<String>
+		<RefName>log_corral_relationship</RefName>
+		<Content>#cy#^tag1^#ec# and #cy#^tag2^#ec# enjoy a #cp#delicious meal#ec# together!</Content>
+	</String>
+	<String>
+		<RefName>ui_monsterbreed_1</RefName>
+		<Content>This meal will help these monsters #cy#get along better#ec#!</Content>
+	</String>
+	<String>
+		<RefName>ui_monsterbreed_2</RefName>
+		<Content>This meal will help these monsters #cg#develop their friendship#ec#!</Content>
+	</String>
+	<String>
+		<RefName>ui_monsterbreed_3</RefName>
+		<Content>#cp#Something special#ec# could happen if these monsters share this meal!</Content>
+	</String>
+	<String>
+		<RefName>log_corral_newlybredmonsterincorral</RefName>
+		<Content>#cy#^tag1^#ec# hatches from an egg in the corral!</Content>
+	</String>
+	<String>
+		<RefName>misc_turns</RefName>
+		<Content>Turns</Content>
+	</String>
+	<String>
+		<RefName>misc_hp</RefName>
+		<Content>HP</Content>
+	</String>
+	<String>
+		<RefName>treenames_food_a</RefName>
+		<Content>Verdant Fruitleaf</Content>
+	</String>
+	<String>
+		<RefName>treenames_food_b</RefName>
+		<Content>Mighty Grainshade</Content>
+	</String>
+	<String>
+		<RefName>treenames_spices</RefName>
+		<Content>Flowering Spicebark</Content>
+	</String>
+	<String>
+		<RefName>treenames_cashcrop</RefName>
+		<Content>Shining Dazzleleaf</Content>
+	</String>
+	<String>
+		<RefName>misc_rarity_0</RefName>
+		<Content>Common</Content>
+	</String>
+	<String>
+		<RefName>misc_rarity_1</RefName>
+		<Content>Uncommon</Content>
+	</String>
+	<String>
+		<RefName>misc_rarity_2</RefName>
+		<Content>Magical</Content>
+	</String>
+	<String>
+		<RefName>misc_rarity_3</RefName>
+		<Content>Rare</Content>
+	</String>
+	<String>
+		<RefName>misc_rarity_4a</RefName>
+		<Content>Artifact</Content>
+	</String>	
+	<String>
+		<RefName>misc_rarity_4b</RefName>
+		<Content>Legendary</Content>
+	</String>
+	<String>
+		<RefName>misc_rarity_5</RefName>
+		<Content>Gear Set</Content>
+	</String>
+	<String>
+		<RefName>log_error_wallbreaker_town</RefName>
+		<Content>#cy#You can't break walls here!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_error_wallbreaker_mapedge</RefName>
+		<Content>The shovel #cy#shatters#ec# when thrust into solid bedrock!</Content>
+	</String>
+	<String>
+		<RefName>log_flask_full</RefName>
+		<Content>Your #cy#healing flask#ec# is #cy#FULL#ec#. It #cr#can't hold any more#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_timepassing</RefName>
+		<Content>Time passes as your adventure enters #cy#Day ^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_event_goldfrog_died</RefName>
+		<Content>The #cy#^tag1^#ec# explodes into a #ca#shower of coins#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_combat_empowerhammer</RefName>
+		<Content>The #cy#Blessed Hammer#ec# is empowered with Wrath!</Content>
+	</String>
+	<String>
+		<RefName>ui_loading</RefName>
+		<Content>Now Loading...</Content>
+	</String>
+	<String>
+		<RefName>log_grove_planttree</RefName>
+		<Content>You #cy#plant the seed#ec# in the ground. Check back later!</Content>
+	</String>
+	<String>
+		<RefName>loading_resources</RefName>
+		<Content>Loading game data</Content>
+	</String>	
+	<String>
+		<RefName>creating_map</RefName>
+		<Content>Creating world...</Content>
+	</String>
+	<String>
+		<RefName>log_player_randomwarp</RefName>
+		<Content>The #cy#Vanishing#ec# equipment used by #cy#^tag1^#ec# warps them away!</Content>
+	</String>
+	<String>
+		<RefName>iw_header_selectitem</RefName>
+		<Content>Select #cy#Item Dream#ec# to Enter</Content>
+	</String>
+	<String>
+		<RefName>iw_header_selectorb</RefName>
+		<Content>Select #cy#Orb of Reverie#ec# to Use</Content>
+	</String>
+	<String>
+		<RefName>ui_hover_orb_readout</RefName>
+		<Content>May bestow a magical property when used in the Dreamcaster on equipment of type #ec##cc#^tag1^#ec##cy#:</Content>
+	</String>
+	<String>
+		<RefName>ui_hover_orb_readout_generic</RefName>
+		<Content>May bestow a random magical property when used in the Dreamcaster.</Content>
+	</String>
+	<String>
+		<RefName>ui_hover_orb_readout_nightmare</RefName>
+		<Content>May bestow a powerful magical property when used in the Dreamcaster.</Content>
+	</String>	
+	<String>
+		<RefName>log_iw_need_orb</RefName>
+		<Content>An #cy#Orb of Reverie#ec# is required to use the #cy#Dreamcaster#ec#.</Content>
+	</String>
+	<String>
+		<RefName>item_special_orb</RefName>
+		<Content>Lucid Orb</Content>
+	</String>
+	<String>
+		<RefName>item_special_orb_shard</RefName>
+		<Content>Lucid Orb Shard</Content>
+	</String>	
+	<String>
+		<RefName>info_weaponproperties_spear</RefName>
+		<Content>On crit: Root your target</Content>
+	</String>
+	<String>
+		<RefName>info_weaponproperties_bow</RefName>
+		<Content>Damage based on Swiftness</Content>
+	</String>
+	<String>
+		<RefName>info_weaponproperties_staff</RefName>
+		<Content>Damage based on Spirit and Discipline</Content>
+	</String>
+	<String>
+		<RefName>info_weaponproperties_sword</RefName>
+		<Content>Parry chance up; riposte after parrying&#xA;On crit: Parry next attack</Content>
+	</String>
+
+	<String>
+		<RefName>info_weaponproperties_claw</RefName>
+		<Content>Deals extra damage based on HP lost recently; dual-wield bonus.&#xA;On crit: Gain 5% max HP (vs non-Trivial enemies)</Content>
+	</String>
+	<String>
+		<RefName>log_midas_convertjptogold</RefName>
+		<Content>#cg#^tag1^#ec#jp is converted to #cy#^tag2^g#ec#!</Content>
+	</String>
+	<String>
+		<RefName>info_weaponproperties_axe</RefName>
+		<Content>Hits all adjacent enemies&#xA;On crit: Break defense</Content>
+	</String>
+	<String>
+		<RefName>info_weaponproperties_dagger</RefName>
+		<Content>Damage based on Guile, Strength; Deals extra damage with consecutive hits on same target&#xA;On crit: Gain 60 CT</Content>
+	</String>
+	<String>
+		<RefName>info_weaponproperties_mace</RefName>
+		<Content>Chance to stun your target&#xA;On crit: Crush %HP damage</Content>
+	</String>
+	<String>
+		<RefName>ui_quantity_monstertrainjp</RefName>
+		<Content>How much #cg#JP#ec# will you spend?</Content>
+	</String>
+	<String>
+		<RefName>grove_tree_plantinfo</RefName>
+		<Content>#cy#^tag2^#ec# days have passed since planted by #cc#^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>treeage_seed</RefName>
+		<Content>Seed</Content>
+	</String>
+	<String>
+		<RefName>treeage_seedling</RefName>
+		<Content>Seedling</Content>
+	</String>	
+	<String>
+		<RefName>treeage_sapling</RefName>
+		<Content>Sapling</Content>
+	</String>
+	<String>
+		<RefName>treeage_adult</RefName>
+		<Content>Adult</Content>
+	</String>
+	<String>
+		<RefName>eq_slot_weapon</RefName>
+		<Content>Weapon</Content>
+	</String>
+	<String>
+		<RefName>eq_slot_weapon_plural</RefName>
+		<Content>Weapons</Content>
+	</String>	
+	<String>
+		<RefName>eq_slot_offhand</RefName>
+		<Content>Offhand</Content>
+	</String>
+	<String>
+		<RefName>eq_slot_offhand_plural</RefName>
+		<Content>Offhand</Content>
+	</String>	
+	<String>
+		<RefName>eq_slot_armor</RefName>
+		<Content>Armor</Content>
+	</String>
+	<String>
+		<RefName>eq_slot_armor_plural</RefName>
+		<Content>Armor</Content>
+	</String>	
+
+	<String>
+		<RefName>eq_slot_emblem</RefName>
+		<Content>Emblem</Content>
+	</String>
+
+	<String>
+		<RefName>eq_slot_emblem_plural</RefName>
+		<Content>Emblems</Content>
+	</String>	
+
+	<String>
+		<RefName>eq_slot_accessory1</RefName>
+		<Content>Accessory 1</Content>
+	</String>
+
+	<String>
+		<RefName>eq_slot_accessory2</RefName>
+		<Content>Accessory 2</Content>
+	</String>	
+
+	<String>
+		<RefName>eq_slot_accessory</RefName>
+		<Content>Accessory</Content>
+	</String>
+	<String>
+		<RefName>eq_slot_accessory_plural</RefName>
+		<Content>Accessories</Content>
+	</String>	
+	<String>
+		<RefName>eq_slot_any</RefName>
+		<Content>Any</Content>
+	</String>
+	<String>
+		<RefName>ui_rotate_info</RefName>
+		<Content>(Rotate with ^tag1^, mousewheel)</Content>
+	</String>
+	<String>
+		<RefName>ui_rotate_direction_info</RefName>
+		<Content>(Use direction controls to rotate)</Content>
+	</String>
+	<String>
+		<RefName>misc_dmg_fire</RefName>
+		<Content>Fire</Content>
+	</String>
+	<String>
+		<RefName>misc_dmg_water</RefName>
+		<Content>Water</Content>
+	</String>
+	<String>
+		<RefName>misc_dmg_lightning</RefName>
+		<Content>Lightning</Content>
+	</String>
+	<String>
+		<RefName>misc_dmg_shadow</RefName>
+		<Content>Shadow</Content>
+	</String>
+	<String>
+		<RefName>misc_dmg_poison</RefName>
+		<Content>Poison</Content>
+	</String>
+	<String>
+		<RefName>misc_dmg_physical</RefName>
+		<Content>Physical</Content>
+	</String>
+	<String>
+		<RefName>ui_percent_resist</RefName>
+		<Content>#cy#^tag1^#ec#% dmg from ^tag2^</Content>
+	</String>
+	<String>
+		<RefName>ui_flat_resist</RefName>
+		<Content>#cy#^tag1^#ec# dmg from ^tag2^</Content>
+	</String>
+	<String>
+		<RefName>log_maps_rebuilt</RefName>
+		<Content>#cy#The game world has been rebuilt, but your hero and town progress have been preserved.#ec#</Content>
+	</String>
+	<String>
+		<RefName>newgameplus_start</RefName>
+		<Content>You prepare for #cr#greater challenges#ec# ahead...</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_foodlikes</RefName>
+		<Content>#cg#Favorite Foods#ec#</Content>
+	</String>
+	<String>
+		<RefName>ui_corral_fooddislikes</RefName>
+		<Content>#cr#Hated Foods#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_standonstairs</RefName>
+		<Content>You stand on the stairway to ^tag1^.</Content>		
+	</String>
+	<String>
+		<RefName>log_learn_recipe</RefName>
+		<Content>Wrote a new recipe in your journal: ^tag1^!</Content>
+	</String>
+	<String>
+		<RefName>job_brigand</RefName>
+		<Content>Brigand</Content>
+	</String>
+	<String>
+		<RefName>job_floramancer</RefName>
+		<Content>Floramancer</Content>
+	</String>	
+	<String>
+		<RefName>job_sworddancer</RefName>
+		<Content>Sword Dancer</Content>
+	</String>	
+	<String>
+		<RefName>job_paladin</RefName>
+		<Content>Paladin</Content>
+	</String>
+	<String>
+		<RefName>job_spellshaper</RefName>
+		<Content>Spellshaper</Content>
+	</String>
+	<String>
+		<RefName>job_budoka</RefName>
+		<Content>Budoka</Content>
+	</String>
+	<String>
+		<RefName>job_hunter</RefName>
+		<Content>Hunter</Content>
+	</String>
+	<String>
+		<RefName>job_husyn</RefName>
+		<Content>HuSyn</Content>
+	</String>
+	<String>
+		<RefName>job_gambler</RefName>
+		<Content>Gambler</Content>
+	</String>
+	<String>
+		<RefName>job_soulkeeper</RefName>
+		<Content>Soulkeeper</Content>
+	</String>
+	<String>
+		<RefName>job_edgethane</RefName>
+		<Content>Edge Thane</Content>
+	</String>
+	<String>
+		<RefName>job_wildchild</RefName>
+		<Content>Wild Child</Content>
+	</String>	
+	<String>
+		<RefName>log_song_extended</RefName>
+		<Content>#cg#Your #ec##cc#^tag1^#ec##cg# grows in spirit and intensity!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_songmight_extra_attack</RefName>
+		<Content>Your intensified #cg#Song of Might#ec# grants you an #cy#extra attack#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_heal_songspirit</RefName>
+		<Content>Your intensified #cg#Song of Spirit#ec# heals you for #cg#^tag1^#ec# HP!</Content>
+	</String>
+	<String>
+		<RefName>log_item_dungeonmap</RefName>
+		<Content>#cy#This floor of the dungeon has been revealed!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_thane_survival3</RefName>
+		<Content>Your will to fight grows stronger, and #cy#ALL COOLDOWNS#ec# are reset!</Content>
+	</String>
+	<String>
+		<RefName>log_error_thaneverse</RefName>
+		<Content>You cannot sing the #cc#^tag1^#ec# when you #cr#don't have a Song active!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_abandon_rumor</RefName>
+		<Content>You #cr#abandon#ec# the rumor: #cy#^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_error_itemworld_open</RefName>
+		<Content>#cr#You cannot enter an item world when one is already open!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_bank_deposit_money</RefName>
+		<Content>You give the banker #cy#^tag1^g#ec# (plus a #cy#200g#ec# fee.)</Content>
+	</String>
+	<String>
+		<RefName>log_bank_withdraw_money</RefName>
+		<Content>You withdraw #cy#^tag1^g#ec# from the bank.</Content>
+	</String>
+	<String>
+		<RefName>log_error_banker_fee</RefName>
+		<Content>You need at least #cy#200g#ec# to cover the deposit fee!</Content>
+	</String>	
+	<String>
+		<RefName>confirm_sell_all_common</RefName>
+		<Content>#cy#Are you sure you want to sell all #ec#COMMON#cy# unequipped gear and valuables? This does NOT include consumables, favorited items, paired offhand gear, or hotkeyed weapons.</Content>
+	</String>
+	<String>
+		<RefName>confirm_sell_all_magical</RefName>
+		<Content>#cy#Are you sure you want to sell #ec##cc#ALL UNEQUIPPED GEAR#ec##cy# and valuables? This does NOT include consumables, favorited items, paired offhand gear, or hotkeyed weapons.</Content>
+	</String>	
+	<String>
+		<RefName>log_bought_monster_mallet</RefName>
+		<Content>Purchased a #cy#Monster Mallet#ec# for #cy#200g#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_combat_razorwinds</RefName>
+		<Content>Razor sharp #cg#winds#ec# shred ^tag1^ for ^tag2^ damage!</Content>
+	</String>
+	<String>
+		<RefName>ui_current_statuses</RefName>
+		<Content>Current Status Effects:</Content>
+	</String>
+	<String>
+		<RefName>misc_current</RefName>
+		<Content>Current</Content>
+	</String>
+	<String>
+		<RefName>log_monster_feared</RefName>
+		<Content>^tag1^ is #cr#overtaken by fear#ec#! It cannot #cy#dodge, block, or parry#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_monster_cantrun</RefName>
+		<Content>^tag1^ has #cy#no place to run#ec#...</Content>
+	</String>
+	<String>
+		<RefName>log_monster_resist_fear</RefName>
+		<Content>^tag1^ #cy#fights through its fear#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>ui_dreamcaster_nomoremods</RefName>
+		<Content>No additional mods possible!</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_addmod_cost</RefName>
+		<Content>Transmute Gold: ^tag1^g&#xA;(^tag2^% Extra Magic Chance)</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_addmod_jp_cost</RefName>
+		<Content>Transmute JP: ^tag1^&#xA;(^tag2^% Chance to Add Skill Mod)</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_player_gold</RefName>
+		<Content>Gold: ^tag1^g</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_player_jp</RefName>
+		<Content>JP: ^tag1^</Content>
+	</String>	
+	<String>
+		<RefName>ui_job_innate_bonuses</RefName>
+		<Content>Innate Bonuses</Content>
+	</String>
+	<String>
+		<RefName>ui_job_innate_bonus1</RefName>
+		<Content>Tier 1 Passive Bonus</Content>
+	</String>
+	<String>
+		<RefName>ui_job_innate_bonus2</RefName>
+		<Content>Tier 2 Passive Bonus</Content>
+	</String>
+	<String>
+		<RefName>ui_job_innate_bonus3</RefName>
+		<Content>Tier 3 Passive Bonus</Content>
+	</String>
+	<String>
+		<RefName>ui_job_bonus2_jp_req</RefName>
+		<Content>(Spend 1000+ JP)</Content>
+	</String>
+	<String>
+		<RefName>ui_job_bonus3_jp_req</RefName>
+		<Content>(Learn all abilities)</Content>
+	</String>
+	<String>
+		<RefName>misc_stairs_info</RefName>
+		<Content>Stairs to ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>misc_portal_info</RefName>
+		<Content>Portal to ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>misc_powerup</RefName>
+		<Content>Powerup</Content>
+	</String>	
+	<String>
+		<RefName>misc_echo_pickup</RefName>
+		<Content>(Echo of ^tag1^)</Content>
+	</String>
+	<String>
+		<RefName>log_percy_jobchange</RefName>
+		<Content>#cy#Percy#ec# waves his hands around slowly...</Content>
+	</String>
+	<String>
+		<RefName>log_player_jobschanged</RefName>
+		<Content>#cy#CONGRATULATIONS!#ec# You are now a #cg#^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>quest_title_boss_gang</RefName>
+		<Content>#cr#Defeat the ^tag1^ Gang!#ec#</Content>
+	</String>
+	<String>
+		<RefName>quest_desc_boss_gang</RefName>
+		<Content>Boss monster ^tag1^ and its minions have claimed #cy#^tag2^#ec#. You must defeat them!</Content>
+	</String>	
+	<String>
+		<RefName>misc_rewards</RefName>
+		<Content>REWARDS</Content>
+	</String>
+	<String>
+		<RefName>misc_changeclothes</RefName>
+		<Content>Select an outfit!</Content>
+	</String>
+	<String>
+		<RefName>misc_changeclothes_to</RefName>
+		<Content>Change outfit to </Content>
+	</String>
+	<String>
+		<RefName>weapontype_natural</RefName>
+		<Content>Natural Wpn</Content>
+	</String>
+	<String>
+		<RefName>weapontype_bow</RefName>
+		<Content>Bow</Content>
+	</String>
+	<String>
+		<RefName>weapontype_sword</RefName>
+		<Content>Sword</Content>
+	</String>	
+	<String>
+		<RefName>weapontype_claw</RefName>
+		<Content>Claw</Content>
+	</String>		
+	<String>
+		<RefName>weapontype_spear</RefName>
+		<Content>Spear</Content>
+	</String>
+	<String>
+		<RefName>weapontype_axe</RefName>
+		<Content>Axe</Content>
+	</String>
+	<String>
+		<RefName>weapontype_mace</RefName>
+		<Content>Mace</Content>
+	</String>
+	<String>
+		<RefName>weapontype_staff</RefName>
+		<Content>Staff</Content>
+	</String>
+	<String>
+		<RefName>weapontype_special</RefName>
+		<Content>Special</Content>
+	</String>
+	<String>
+		<RefName>weapontype_dagger</RefName>
+		<Content>Dagger</Content>
+	</String>	
+	<String>
+		<RefName>weapontype_sling</RefName>
+		<Content>Sling</Content>
+	</String>
+	<String>
+		<RefName>weapontype_any</RefName>
+		<Content>Any</Content>
+	</String>	
+	<String>
+		<RefName>ui_dreamcaster_floors</RefName>
+		<Content>Floors</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_affinity</RefName>
+		<Content>Affinity</Content>
+	</String>	
+	<String>
+		<RefName>ui_dreamcaster_difficulty</RefName>
+		<Content>Difficulty</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_start</RefName>
+		<Content>Starting Level</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_final</RefName>
+		<Content>Final Level</Content>
+	</String>	
+	<String>
+		<RefName>ui_ct_bonus</RefName>
+		<Content>CT Bonus: ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>misc_free_turn</RefName>
+		<Content>Does not take a turn!</Content>
+	</String>
+	<String>
+		<RefName>ui_skill_display_ct</RefName>
+		<Content>Returns #cy#^tag1^#ec# charge time</Content>
+	</String>
+	<String>
+		<RefName>ui_skill_learned</RefName>
+		<Content>Mastered!</Content>
+	</String>
+	<String>
+		<RefName>misc_snakeeyes</RefName>
+		<Content>SNAKE EYES!</Content>
+	</String>
+	<String>
+		<RefName>misc_lucky</RefName>
+		<Content>LUCKY!</Content>
+	</String>	
+	<String>
+		<RefName>misc_maximum</RefName>
+		<Content>MAXIMUM!</Content>
+	</String>
+	<String>
+		<RefName>log_player_rolldice</RefName>
+		<Content>#cg#^tag1^#ec# rolls the dice... #cy#(^tag2^)#ec# and #cy#(^tag3^)#ec#!</Content>
+	</String>
+	<String>
+		<RefName>misc_skillorb</RefName>
+		<Content>Skill Orb</Content>
+	</String>
+	<String>
+		<RefName>ui_unspent_jp</RefName>
+		<Content>Unspent JP</Content>
+	</String>
+	<String>
+		<RefName>log_mon_clean_debuffs</RefName>
+		<Content>#co#^tag1^#ec# removes #cy#all negative status effects#ec# from #co#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_mon_clean_buffs</RefName>
+		<Content>#co#^tag1^#ec# #cr#removes all positives status effects#ec# from #co#^tag2^#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_monster_mallet_wakeup</RefName>
+		<Content>The knocked-out ^tag1^ #cy#wakes up#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_sleeping_wakeup</RefName>
+		<Content>^tag1^ #cc#wakes up#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_monster_mallet_knockout</RefName>
+		<Content>#cy#You KNOCK OUT ^tag1^!#ec#</Content>
+	</String>
+	<String>
+		<RefName>difficulty_0</RefName>
+		<Content>Worthless</Content>
+	</String>
+	<String>
+		<RefName>difficulty_1</RefName>
+		<Content>Trivial</Content>
+	</String>	
+	<String>
+		<RefName>difficulty_2</RefName>
+		<Content>Very Easy</Content>
+	</String>	
+	<String>
+		<RefName>difficulty_3</RefName>
+		<Content>Easy</Content>
+	</String>
+	<String>
+		<RefName>difficulty_4</RefName>
+		<Content>Below Average</Content>
+	</String>
+	<String>
+		<RefName>difficulty_4_soft</RefName>
+		<Content>Easier</Content>
+	</String>	
+	<String>
+		<RefName>difficulty_5</RefName>
+		<Content>Average</Content>
+	</String>
+	<String>
+		<RefName>difficulty_6</RefName>
+		<Content>Tricky</Content>
+	</String>
+	<String>
+		<RefName>difficulty_7</RefName>
+		<Content>Hard</Content>
+	</String>
+	<String>
+		<RefName>difficulty_8</RefName>
+		<Content>Very Hard</Content>
+	</String>
+	<String>
+		<RefName>difficulty_9</RefName>
+		<Content>Impossible</Content>
+	</String>
+	<String>
+		<RefName>difficulty_10</RefName>
+		<Content>IMPOSSIBLE</Content>
+	</String>
+	<String>
+		<RefName>examine_monster_attitude_hostile</RefName>
+		<Content>Hostile</Content>
+	</String>
+	<String>
+		<RefName>examine_monster_attitude_curious</RefName>
+		<Content>Curious</Content>
+	</String>
+	<String>
+		<RefName>examine_monster_attitude_aggressive</RefName>
+		<Content>Aggressive</Content>
+	</String>
+	<String>
+		<RefName>champion_difficulty_1</RefName>
+		<Content>Champion</Content>
+	</String>
+	<String>
+		<RefName>champion_difficulty_2</RefName>
+		<Content>King</Content>
+	</String>
+	<String>
+		<RefName>champion_difficulty_3</RefName>
+		<Content>Miniboss</Content>
+	</String>
+	<String>
+		<RefName>champion_difficulty_4</RefName>
+		<Content>*LEGEND*</Content>
+	</String>
+	<String>
+		<RefName>mon_nightmare_prince_disp</RefName>
+		<Content>~ NIGHTMARE PRINCE ~</Content>
+	</String>
+	<String>
+		<RefName>mon_nightmare_king_disp</RefName>
+		<Content>~ NIGHTMARE QUEEN ~</Content>
+	</String>
+	<String>
+		<RefName>mon_memory_king_disp</RefName>
+		<Content>~ Memory King ~</Content>
+	</String>	
+	<String>
+		<RefName>log_xpring_disappear</RefName>
+		<Content>Your ^tag1^ #cy#vanishes#ec# into thin air!</Content>
+	</String>
+	<String>
+		<RefName>name_nightmareprince_lair</RefName>
+		<Content>Nightmare Prince's Lair</Content>
+	</String>
+	<String>
+		<RefName>log_monster_clearstatus</RefName>
+		<Content>^tag1^ is cleared of ALL negative status effects!</Content>
+	</String>
+	<String>
+		<RefName>log_error_crystal_seal</RefName>
+		<Content>The #cy#Dream Crystal Aura#ec# is #cr#SEALING#ec# your abilities!</Content>
+	</String>
+	<String>
+		<RefName>ui_gamestart_selectmode</RefName>
+		<Content>Select which #cy#game mode#ec# to play.&#xA;This #cr#CANNOT be changed#ec# once the game has started!</Content>
+	</String>
+	<String>
+		<RefName>log_receive_shadow_orb</RefName>
+		<Content>#cy#Mir#ec# combines the red orb shards and hands you an #cr#Orb of Nightmares#ec#.</Content>
+	</String>
+	<String>
+		<RefName>item_nightmare_orb</RefName>
+		<Content>Orb of Nightmares</Content>
+	</String>
+	<String>
+		<RefName>log_nightmareking_taunt1</RefName>
+		<Content>#cr#Nightmare Queen#ec#: 'You cannot escape... I smell your fear.'</Content>
+	</String>
+	<String>
+		<RefName>log_nightmareking_taunt2</RefName>
+		<Content>#cr#Nightmare Queen#ec#: 'As your life wanes, I grow stronger.'</Content>
+	</String>
+	<String>
+		<RefName>log_immune_paralyze</RefName>
+		<Content>#cy#^tag1^#ec# is #cg#IMMUNE#ec# to paralysis!</Content>
+	</String>
+	<String>
+		<RefName>misc_item_dream</RefName>
+		<Content>Item Dream</Content>
+	</String>
+	<String>
+		<RefName>misc_dream</RefName>
+		<Content>Dream</Content>
+	</String>	
+	<String>
+		<RefName>misc_item_dream_specificfloor</RefName>
+		<Content>Item Dream ^tag1^F</Content>
+	</String>
+	<String>
+		<RefName>misc_item_nightmare_specificfloor</RefName>
+		<Content>Item Nightmare ^tag1^F</Content>
+	</String>	
+	<String>
+		<RefName>mon_coolfrog</RefName>
+		<Content>Coolfrog</Content>
+	</String>
+	<String>
+		<RefName>ui_sort_az</RefName>
+		<Content>A-Z</Content>
+	</String>
+	<String>
+		<RefName>ui_sort_value</RefName>
+		<Content>VALUE</Content>
+	</String>
+	<String>
+		<RefName>ui_sort_rarity</RefName>
+		<Content>RARITY</Content>
+	</String>
+	<String>
+		<RefName>ui_sort_rank</RefName>
+		<Content>RANK</Content>
+	</String>
+	<String>
+		<RefName>ui_money</RefName>
+		<Content>Money</Content>
+	</String>
+	<String>
+		<RefName>ui_pandora_opened</RefName>
+		<Content>Pandora Boxes</Content>
+	</String>	
+	<String>
+		<RefName>log_error_flaskinuse</RefName>
+		<Content>You're #cy#already drinking#ec# from your flask!</Content>
+	</String>
+	<String>
+		<RefName>log_ineffective_attack</RefName>
+		<Content>#cy#^tag1^'s#ec##ec# weapon element seems #cr#INEFFECTIVE#ec#...</Content>
+	</String>
+	<String>
+		<RefName>log_flora_compost</RefName>
+		<Content>Your #cg#Floraconda#ec# crumbles into inanimate leaves. The #cg#cycle of nature#ec# replenishes you for #cy#^tag1^#ec# HP!</Content>
+	</String>
+
+	<String>
+		<RefName>log_actorheal_noeffect</RefName>
+		<Content>#cy#^tag1^#ec# heals #cc#^tag2^#ec# for #cg#^tag3^#ec# HP!</Content>
+	</String>
+
+	<String>
+		<RefName>log_actorheal_effect</RefName>
+		<Content>#cy#^tag1^#ec# #cc#^tag4^#ec# heals #cc#^tag2^#ec# for #cg#^tag3^#ec# HP!</Content>
+	</String>
+
+	<String>
+		<RefName>log_actor_gainstat_start</RefName>
+		<Content>#cy#^tag1^#ec# gains</Content>
+	</String>
+	<String>
+		<RefName>log_actor_losestat_start</RefName>
+		<Content>#cy#^tag1^#ec# loses</Content>
+	</String>	
+	<String>
+		<RefName>log_gainstatus_single</RefName>
+		<Content>#cy#^tag1^#ec# gains condition</Content>
+	</String>
+	<String>
+		<RefName>log_gainstatus_single_withtag</RefName>
+		<Content>#cy#^tag1^#ec# gains condition #cc#^tag2^!#ec#</Content>
+	</String>	
+	<String>
+		<RefName>log_gainstatus_multiple</RefName>
+		<Content>#cy#^tag1^#ec# gains conditions</Content>
+	</String>	
+	<String>
+		<RefName>ui_stats_base</RefName>
+		<Content>Base Stat</Content>
+	</String>
+	<String>
+		<RefName>ui_stats_modified</RefName>
+		<Content>Modified Stat</Content>
+	</String>
+	<String>
+		<RefName>misc_moneysymbol</RefName>
+		<Content>g</Content>
+	</String>
+	<String>
+		<RefName>misc_and</RefName>
+		<Content>and</Content>
+	</String>
+	<String>
+		<RefName>misc_tokens</RefName>
+		<Content>tokens</Content>
+	</String>
+	<String>
+		<RefName>dialog_buypetinsurance</RefName>
+		<Content>Buy Pet Insurance</Content>
+	</String>
+	<String>
+		<RefName>log_purchase_petinsurance</RefName>
+		<Content>You purchased #cy#Pet Insurance#ec# from Jesse!</Content>
+	</String>
+	<String>
+		<RefName>log_petdied_insured</RefName>
+		<Content>#cy#^tag1^#ec# is rescued by #cg#Jesse#ec# and brought back to the #cy#Corral#ec#!</Content>
+	</String>
+	<String>
+		<RefName>ui_insured</RefName>
+		<Content>Insured</Content>
+	</String>
+	<String>
+		<RefName>gambler_darts</RefName>
+		<Content>DARTS!</Content>
+	</String>
+	<String>
+		<RefName>gambler_icedarts</RefName>
+		<Content>ICE DARTS!</Content>
+	</String>	
+	<String>
+		<RefName>gambler_heal</RefName>
+		<Content>MAX HEAL!</Content>
+	</String>
+	<String>
+		<RefName>gambler_lucky</RefName>
+		<Content>LUCKY DODGER!</Content>
+	</String>		
+	<String>
+		<RefName>gambler_death</RefName>
+		<Content>REAPER!</Content>
+	</String>
+	<String>
+		<RefName>gambler_curse</RefName>
+		<Content>CURSES!</Content>
+	</String>
+	<String>
+		<RefName>misc_hotkey</RefName>
+		<Content>Hotkey</Content>
+	</String>
+	<String>
+		<RefName>misc_snackbag</RefName>
+		<Content>Snack Bag</Content>
+	</String>
+	<String>
+		<RefName>desc_snackbag</RefName>
+		<Content>View all of your #cg#healing food#ec# and #cc#potions#ec#.</Content>
+	</String>
+	<String>
+		<RefName>misc_drop</RefName>
+		<Content>DROP</Content>
+	</String>
+	<String>
+		<RefName>misc_deposit</RefName>
+		<Content>DEPOSIT</Content>
+	</String>
+	<String>
+		<RefName>misc_sellitem</RefName>
+		<Content>SELL</Content>
+	</String>
+	<String>
+		<RefName>misc_deposit_cost</RefName>
+		<Content>DEPOSIT COST</Content>
+	</String>	
+	<String>
+		<RefName>misc_withdraw</RefName>
+		<Content>WITHDRAW</Content>
+	</String>
+	<String>
+		<RefName>log_playerdropitem</RefName>
+		<Content>#cy#You dropped the #ec##cc#^tag1^#ec##cy#^tag2^on the ground.</Content>
+	</String>
+	<String>
+		<RefName>log_player_deposititem</RefName>
+		<Content>You put #cc#^tag1^#ec# in the bank for a fee of ^tag2^!</Content>
+	</String>
+	<String>
+		<RefName>log_player_sellitem</RefName>
+		<Content>You sell #cc#^tag1^#ec# for ^tag2^!</Content>
+	</String>
+	<String>
+		<RefName>log_player_stockfoodcart</RefName>
+		<Content>You add #cc#^tag1^#ec# to the Food Cart. #cy#Check back tomorrow#ec# to collect profit!</Content>
+	</String>	
+	<String>
+		<RefName>log_player_withdrawitem</RefName>
+		<Content>You withdraw #cc#^tag1^#ec# from the bank!</Content>
+	</String>	
+	<String>
+		<RefName>log_flowcondenser</RefName>
+		<Content>Your staff #cy#absorbs Flow#ec#, and you gain #cy#^tag1^#ec# #cc#ENERGY#ec#!</Content>
+	</String>
+	<String>
+		<RefName>misc_scorpiontail</RefName>
+		<Content>SCORPION TAIL!</Content>
+	</String>
+	<String>
+		<RefName>log_doubleattack</RefName>
+		<Content>DBL HIT!</Content>
+	</String>
+	<String>
+		<RefName>log_bowmastery3_interrupt</RefName>
+		<Content>You stop #cy#^tag1^'s#ec# #cc#^tag2^#ec# with a #cg#well-placed arrow#ec#!</Content>
+	</String>
+	<String>
+		<RefName>pet_behavior_follow_close</RefName>
+		<Content>Follow me #cy#very closely#ec#.</Content>
+	</String>
+	<String>
+		<RefName>pet_behavior_follow_wander</RefName>
+		<Content>You can #cg#wander#ec# around me.</Content>
+	</String>
+	<String>
+		<RefName>pet_behavior_abilities_no</RefName>
+		<Content>#cr#Do not#ec# use your abilities.</Content>
+	</String>
+		<String>
+		<RefName>pet_behavior_abilities_yes</RefName>
+		<Content>Please #cg#use your abilities#ec#.</Content>
+	</String>
+	<String>
+		<RefName>pet_behavior_cometome</RefName>
+		<Content>Come to me #cr#immediately#ec#!</Content>
+	</String>
+  <String>
+    <RefName>pet_behavior_cometome_cooldown</RefName>
+    <Content>#cr#Can call pet again in #ec#^tag1^#cr# round(s)#ec#</Content>
+  </String>
+	<String>
+		<RefName>log_pet_call</RefName>
+		<Content>You whistle to #cy#^tag1^#ec#, "Come to me!"</Content>
+	</String>
+  <String>
+    <RefName>log_pet_call_cooldown</RefName>
+    <Content>You whistle to #cy#^tag1^#ec#, but it's too tired to jump to you!</Content>
+  </String>
+  <String>
+		<RefName>log_pet_command</RefName>
+		<Content>You say to #cy#^tag1^#ec#: "^tag2^"</Content>
+	</String>
+  <String>
+		<RefName>log_player_immune_effect</RefName>
+		<Content>You are #cg#immune#ec# to the #cy#status effect#ec#!</Content>
+	</String>
+	<String>
+		<RefName>armor_light_desc</RefName>
+		<Content>+5 CT gain, move more quietly.</Content>
+	</String>
+	<String>
+		<RefName>armor_medium_desc</RefName>
+		<Content>Minimum 10% chance to dodge skills.</Content>
+	</String>
+	<String>
+		<RefName>armor_heavy_desc</RefName>
+		<Content>Louder movement that may attract monsters.</Content>
+	</String>
+	<String>
+		<RefName>log_skill_dodge</RefName>
+		<Content>You #cc#swiftly dodge#ec# the attack!</Content>
+	</String>
+	<String>
+		<RefName>log_fuse_lucidorbshards</RefName>
+		<Content>Three #cc#Lucid Orb Shards#ec# in your inventory #cy#combine#ec# to create a #cc#^tag1^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>ui_req_weapon</RefName>
+		<Content>Required Weapon Type</Content>
+	</String>
+	<String>
+		<RefName>log_steelresolve_stun</RefName>
+		<Content>You shake off the #cy#stun#ec# with #cg#Steel Resolve#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_steelresolve_crit</RefName>
+		<Content>You shrug off a #cr#CRITICAL HIT#ec# with #cg#Steel Resolve#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_ability_hp_loss</RefName>
+		<Content>You lose #cr#^tag1^#ec# Health from using #cy#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_ability_hp_gain</RefName>
+		<Content>You gain #cg#^tag1^#ec# Health!</Content>
+	</String>	
+	<String>
+		<RefName>mon_want_popup</RefName>
+		<Content>I WANT THAT!</Content>
+	</String>	
+	<String>
+		<RefName>mon_hungry_beg</RefName>
+		<ContenT>I WANT FOOD</ContenT>
+	</String>
+	<String>
+		<RefName>log_monster_angry_looter</RefName>
+		<Content>^tag1^ wants ^tag2^'s #cy#shiny treasure#ec#!</Content>
+	</String>
+	<String>
+		<RefName>desc_dreamitem</RefName>
+		<Content>Disappears if you leave the Item Dream.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_doublecritical</RefName>
+		<Content>Double chance to critically hit.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_nocritical</RefName>
+		<Content>No critical hits allowed.</Content>
+	</String>	
+	<String>
+		<RefName>itemdream_aura_meleeplus50</RefName>
+		<Content>Melee attacks gain +50% damage.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_rangedplus50</RefName>
+		<Content>Ranged attacks gain +50% damage.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_elementalplus50</RefName>
+		<Content>Elemental attacks gain +50% damage.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_monsterregen5</RefName>
+		<Content>Monsters regenerate 5% Health per turn.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_playersealed</RefName>
+		<Content>Hero cannot use abilities (Sealed).</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_monsterclearstatus</RefName>
+		<Content>Clears negative status effects from monsters.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_toughmonsters</RefName>
+		<Content>Monsters deal 25% more damage and take 25% less.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_explodeondeath</RefName>
+		<Content>Monsters explode at 0 Health.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_doublehealing</RefName>
+		<Content>All healing effects are doubled.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_resourceminus50</RefName>
+		<Content>Abilities cost half as much Stamina / Energy.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_bonusgold</RefName>
+		<Content>Earn +50% gold from monsters.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_bonusxp</RefName>
+		<Content>Earn +50% XP from monsters.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_aura_bonusjp</RefName>
+		<Content>Earn +50% JP from monsters.</Content>
+	</String>
+	<String>
+		<RefName>learned_monster_skill</RefName>
+		<Content>LEARNED SKILL!</Content>
+	</String>
+	<String>
+		<RefName>misc_miss</RefName>
+		<Content>MISS!</Content>
+	</String>
+	<String>
+		<RefName>log_almost_learned_skill</RefName>
+		<Content>You #cg#almost learn#ec# a #cy#Monster Skill#ec#. Maybe if you saw #cy#^tag1^#ec# #cg#again#ec#...</Content>
+	</String>	
+	<String>
+		<RefName>log_actor_resisteffect</RefName>
+		<Content>^tag1^ #cg#resists#ec# the #cy#^tag2^#ec# condition!</Content>
+	</String>
+	<String>
+		<RefName>log_actor_immovable</RefName>
+		<Content>#cg#^tag1^'s#ec# mass makes them #cy#IMMOVABLE#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_prepare_parry</RefName>
+		<Content>#cy#You prepare to parry the next attack!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_cure_status</RefName>
+		<Content>#cy#^tag1^#ec# is cured of the condition #cr#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_cure_positive_status</RefName>
+		<Content>#cy#^tag1^#ec# is stripped of the positive effect #cr#^tag2^#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_schematist_infuse</RefName>
+		<Content>Your mastery of #cg#potions#ec# has increased! All healing potions are #cy#25% more effective#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_apple_infuse</RefName>
+		<Content>Your #cg#Healing Flask#ec# is infused with delicious apple! Its duration is #cy#extended by 1 turn#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_playerdrop_item</RefName>
+		<Content>You #cy#dropped#ec# the ^tag1^.</Content>
+	</String>
+	<String>
+		<RefName>log_error_notenoughmoney</RefName>
+		<Content>You don't have enough #cy#money#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_prompt_ability_target</RefName>
+		<Content>Select target for #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_error_dream_planks</RefName>
+		<Content>You're #cr#not in an Item Dream#ec#, so you can't #cy#build planks#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_error_no_item</RefName>
+		<Content>You don't have a #cy#^tag1^#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_error_no_rangedweapon</RefName>
+		<Content>#cr#You don't have a ranged weapon in your hotbar!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_sell_items_bulk</RefName>
+		<Content>You sold #cg#^tag1^#ec# items for #cy#^tag2^#ec#g!</Content>
+	</String>
+	<String>
+		<RefName>log_monster_pickup_item</RefName>
+		<Content>#co#^tag1^#ec# scoops up #cy#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_monster_wantsitem1</RefName>
+		<Content>^tag1^ #cy#can't get enough#ec# ^tag2^!</Content>
+	</String>
+	<String>
+		<RefName>log_monster_wantsitem2</RefName>
+		<Content>^tag1^ says, "#cy#I must have more ^tag2^!#ec#"</Content>
+	</String>
+	<String>
+		<RefName>log_monster_wantsitem3</RefName>
+		<Content>^tag1^ #cy#anxiously searches for more#ec# ^tag2^!</Content>
+	</String>
+	<String>
+		<RefName>log_monster_gotwanteditem</RefName>
+		<Content>#cy#Its bizarre desires satisfied, ^tag1^ vanishes into thin air, taking a single ^tag2^ with it!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_error_tent_notintown</RefName>
+		<Content>#cy#You can only use the#ec# #cg#^tag1^#ec##cy# in a town area.#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_error_noshield</RefName>
+		<Content>#cc#^tag1^#ec# requires an #cy#offhand with block chance#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_noprojectile</RefName>
+		<Content>#cc#^tag1^#ec# requires an #cy#projectile weapon#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_error_nocards</RefName>
+		<Content>You need #cy#cards#ec# in your #cy#hand#ec# to use #cc#^tag1^#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_error_flask_empty</RefName>
+		<Content>Your #cy#healing flask#ec# is #cr#empty#ec#! Step on a #cg#Fountain#ec# to refill it.</Content>
+	</String>
+	<String>
+		<RefName>log_quest_failed</RefName>
+		<Content>#cr#You have failed the quest#ec#: #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_cancel_portal</RefName>
+		<Content>You #cy#cancel#ec# the #cc#Escape Portal#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_error_portalintown</RefName>
+		<Content>#cy#You're already in town#ec#!</Content>
+	</String>
+	<String>
+		<RefName>ui_option_returndungeon</RefName>
+		<Content>Back to Tangledeep</Content>
+	</String>
+	<String>
+		<RefName>ui_option_returndream</RefName>
+		<Content>Back to Item Dream</Content>
+	</String>
+	<String>
+		<RefName>ui_option_staytown</RefName>
+		<Content>#cy#Stay in Town#ec#</Content>
+	</String>
+	<String>
+		<RefName>ui_prompt_travel</RefName>
+		<Content>Select your travel option.</Content>
+	</String>
+	<String>
+		<RefName>log_error_cooldown</RefName>
+		<Content>#cc#^tag1^#ec# is cooling down for another #cy#^tag2^#ec# turns.</Content>
+	</String>
+	<String>
+		<RefName>log_error_lowechoes</RefName>
+		<Content>#cc#^tag1^#ec# requires #cs#^tag2^ Echoes#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_lowstamina</RefName>
+		<Content>#cc#^tag1^#ec# requires #cg#^tag2^ Stamina#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_lowenergy</RefName>
+		<Content>#cc#^tag1^#ec# requires #cg#^tag2^ Energy#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_lowhealth</RefName>
+		<Content>#cc#^tag1^#ec# requires #cg#^tag2^ Health#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_gain_jp</RefName>
+		<Content>Gained #cy#^tag1^#ec# JP!</Content>
+	</String>
+	<String>
+		<RefName>log_gain_experience</RefName>
+		<Content>Gained #cc#^tag1^#ec# XP!</Content>
+	</String>	
+	<String>
+		<RefName>log_monster_died</RefName>
+		<Content>^tag1^ is defeated! Gained #cc#^tag2^#ec# XP, #cg#^tag3^#ec# JP, and #cy#^tag4^#ec#g!</Content>
+	</String>
+	<String>
+		<RefName>experience_abbreviation</RefName>
+		<Content>XP</Content>		
+	</String>
+	<String>
+		<RefName>jobpoints_abbreviation</RefName>
+		<Content>JP</Content>		
+	</String>
+	<String>
+		<RefName>log_toggle_ability_off</RefName>
+		<Content>You stop using #cc#^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_ability_used</RefName>
+		<Content>^tag1^ uses #cc#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>misc_stunned</RefName>
+		<Content>Stunned!</Content>
+	</String>
+	<String>
+		<RefName>misc_rooted</RefName>
+		<Content>Rooted!</Content>
+	</String>
+	<String>
+		<RefName>misc_disarmed</RefName>
+		<Content>Paralyze!</Content>
+	</String>		
+	<String>
+		<RefName>log_error_stunned</RefName>
+		<Content>You #cy#try to act#ec#, but you're #cr#Stunned#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_rooted</RefName>
+		<Content>You #cy#try to move#ec#, but you're #cr#rooted in place#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_disarmed</RefName>
+		<Content>You #cy#try to attack#ec#, but you #cr#can't use your weapon#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_require_key</RefName>
+		<Content>You need a #cy#^tag1^#ec# to open that.</Content>
+	</String>
+	<String>
+		<RefName>log_use_key</RefName>
+		<Content>You use the #cy#^tag1^#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>ui_option_backtotown</RefName>
+		<Content>Back to Town</Content>
+	</String>
+	<String>
+		<RefName>log_event_knockedout</RefName>
+		<Content>You have been #cr#KNOCKED OUT#ec#...</Content>
+	</String>
+	<String>
+		<RefName>desc_die_adventuremode</RefName>
+		<Content>As you fall unconscious, you lose #cy#^tag1^#ec#g, half #cg#unspent JP#ec#, and half #cc#XP progress#ec# toward the next level.</Content>
+	</String>
+	<String>
+		<RefName>desc_knockout_actor</RefName>
+		<Content>You were #cr#knocked out#ec# by #cc#^tag1^#ec# in #cy#^tag2^#ec#</Content>
+	</String>
+	<String>
+		<RefName>desc_defeated_actor</RefName>
+		<Content>You were #cr#defeated#ec# by #cc#^tag1^#ec# in #cy#^tag2^#ec#</Content>
+	</String>	
+	<String>
+		<RefName>log_event_playerdied</RefName>
+		<Content>#cr#Your adventure has ended.#ec#</Content>
+	</String>
+	<String>
+		<RefName>desc_died_heroic</RefName>
+		<Content>#cy#^tag1^#ec# was lost in Tangledeep, but perhaps a memory of you will live on.</Content>
+	</String>
+	<String>
+		<RefName>desc_died_joblevel</RefName>
+		<Content>Your Job and Level: #cy#^tag1^#ec#, Level #cy#^tag2^#ec#</Content>
+	</String>
+	<String>
+		<RefName>desc_died_stepstaken</RefName>
+		<Content>Steps Taken: #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>desc_died_monstersdefeated</RefName>
+		<Content>Monsters Vanquished: #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>desc_died_championsdefeated</RefName>
+		<Content>Champions Defeated: #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>desc_died_highestfloor</RefName>
+		<Content>Highest Floor Reached: #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>desc_died_numhealingitems</RefName>
+		<Content>You were defeated with #cr#^tag1^#ec# curative items in your backpack.</Content>
+	</String>
+	<String>
+		<RefName>desc_died_check_log</RefName>
+		<Content>Don't forget to view the #cy#combat log#ec# for the circumstances of your adventure's end!</Content>
+	</String>		
+	<String>
+		<RefName>desc_died_hardcore</RefName>
+		<Content>#cy#^tag1^#ec# was lost in Tangledeep, and never heard from again. Your journey has been #cr#forgotten#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_findmoney</RefName>
+		<Content>You found #cy#^tag1^#ec#g on the ground!</Content>
+	</String>
+	<String>
+		<RefName>log_digest_intro</RefName>
+		<Content>You flip through the #cy#Dungeon Digest#ec# to learn more about this area.</Content>
+	</String>
+	<String>
+		<RefName>log_digest_monsters</RefName>
+		<Content>There are #cy#^tag1^#ec# monster(s) wandering around.</Content>
+	</String>
+	<String>
+		<RefName>log_digest_champion</RefName>
+		<Content>A #co#champion#ec# named #cc#^tag1^#ec# (#cy#^tag2^#ec#) is located at #cg#^tag3^#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_digest_legitem</RefName>
+		<Content>A #cp#legendary item#ec# called ^tag1^ is in the possession of #cy#^tag2^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_misc_gainresistance</RefName>
+		<Content>#cc#^tag1^#ec# gains #cr#major resistance#ec# to #cy#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_finalboss_gainadaptation</RefName>
+		<Content>#cy#Shara#ec# says, "The #cg#adaptive defenses#ec# of the Supervisor awaken within me!"</Content>
+	</String>
+	<String>
+		<RefName>ui_dreamcaster_challengerewards</RefName>
+		<Content>Challenge/Rewards:</Content>
+	</String>	
+	<String>
+		<RefName>log_casino_earnchips</RefName>
+		<Content>#cg#You receive #ec##cy#^tag1^ Casino Tokens#ec#!</Content>
+	</String>
+	<String>
+		<RefName>ui_shop_money_normal</RefName>
+		<Content>Your Money: ^tag1^g</Content>
+	</String>
+	<String>
+		<RefName>ui_shop_money_casino</RefName>
+		<Content>Your Tokens: ^tag1^</Content>
+	</String>	
+	<String>
+		<RefName>ui_shop_sell</RefName>
+		<Content>What to sell?</Content>
+	</String>
+	<String>
+		<RefName>ui_shop_deposit</RefName>
+		<Content>What to deposit?</Content>
+	</String>
+	<String>
+		<RefName>ui_shop_withdraw</RefName>
+		<Content>What to withdraw?</Content>
+	</String>
+	<String>
+		<RefName>log_shop_purchase_normal</RefName>
+		<Content>Purchased #cy#^tag1^#ec# ^tag2^for #cy#^tag3^#ec#g!</Content>
+	</String>
+	<String>
+		<RefName>log_shop_purchase_casino</RefName>
+		<Content>Purchased #cy#^tag1^#ec# ^tag2^for #cy#^tag3^#ec# tokens!</Content>
+	</String>	
+	<String>
+		<RefName>ui_misc_cost</RefName>
+		<Content>COST:</Content>
+	</String>
+	<String>
+		<RefName>log_fate_miss</RefName>
+		<Content>Fate determines that #cy#^tag1^#ec# will dodge your attack!</Content>
+	</String>
+	<String>
+		<RefName>casino_lose</RefName>
+		<Content>YOU LOSE!</Content>
+	</String>
+	<String>
+		<RefName>casino_tie</RefName>
+		<Content>TIE!</Content>
+	</String>
+	<String>
+		<RefName>casino_win</RefName>
+		<Content>YOU WIN!</Content>
+	</String>
+	<String>
+		<RefName>casino_win_gold</RefName>
+		<Content>Got ^tag1^ gold!</Content>
+	</String>
+	<String>
+		<RefName>casino_win_tokens</RefName>
+		<Content>Got ^tag1^ tokens!</Content>
+	</String>	
+	<String>
+		<RefName>log_item_recycle</RefName>
+		<Content>Another #cy#^tag1^#ec# appears in your #cy#inventory#ec#!</Content>
+	</String>
+	<String>
+		<RefName>itemdream_monsterdeath_0</RefName>
+		<Content>Bury me with my money.</Content>
+	</String>
+	<String>
+		<RefName>itemdream_monsterdeath_1</RefName>
+		<Content>You have defeated me.</Content>
+	</String>	
+	<String>
+		<RefName>ui_select_feats</RefName>
+		<Content>Select two #cy#feats#ec#. These are permanent bonuses!&#xA;</Content>
+	</String>
+	<String>
+		<RefName>ui_feats_random</RefName>
+		<Content>#cc#PICK FOR ME:#ec# Get two feats at random!</Content>
+	</String>	
+	<String>
+		<RefName>ui_misc_finished</RefName>
+		<Content>FINISHED</Content>
+	</String>
+	<String>
+		<RefName>gamemods_item_limit_9stacks</RefName>
+		<Content>#cr#DIFFICULTY UP:#ec# You may only have 9 stacks of a consumable</Content>
+	</String>
+	<String>
+		<RefName>log_carry_limit</RefName>
+		<Content>You #cr#cannot carry#ec# any more ^tag1^!</Content>
+	</String>
+	<String>
+		<RefName>log_damage_cap_reduce</RefName>
+		<Content>#cy#^tag1^#ec# ignores #cr#^tag2^#ec# damage!</Content>
+	</String>
+	<String>
+		<RefName>ending_cutscene_text1</RefName>
+		<Content>A whole new world...</Content>
+	</String>
+	<String>
+		<RefName>ending_cutscene_text2</RefName>
+		<Content>The air is fresh,&#xA;the water shines blue.</Content>
+	</String>
+	<String>
+		<RefName>ending_cutscene_text3</RefName>
+		<Content>Never could I have imagined&#xA;such beauty awaited us here.</Content>
+	</String>
+	<String>
+		<RefName>ending_cutscene_text4</RefName>
+		<Content>There's so much to explore.&#xA;My adventure is just beginning!</Content>
+	</String>
+	<String>
+		<RefName>credits_team</RefName>
+		<Content>#cy#Developed and Published#ec# by #cg#Impact Gameworks#ec#&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;#cy#Lead Programming, Design, Music#ec#&#xA;Andrew Aversa&#xA;&#xA;#cy#Programming, Writing#ec#&#xA;Jim Shepard&#xA;&#xA;#cy#Character Art, Icons, Battle Effects#ec#&#xA;John Pantaleon&#xA;&#xA;#cy#Environmental Art, UI, Cutscenes#ec#&#xA;Andrew Luers&#xA;&#xA;#cy#Item and Food Art#ec#&#xA;Lachlan Cartland&#xA;&#xA;#cy#Additional Music#ec#&#xA;Hiroki Kikuta&#xA;&#xA;#cy#Additional Music#ec#&#xA;Grant Kirkhope&#xA;&#xA;#cy#Additional Writing#ec#&#xA;Andrew Aversa, Scott Hagelgans&#xA;&#xA;#cy#Executive Producer#ec#&#xA;Freehold Games&#xA;&#xA;&#xA;&#xA;#cy#SPECIAL THANKS#ec#&#xA;&#xA;&#xA;&#xA;Patrick Lipo, Jeramy Cooke, Matthew Breit&#xA;Aaron Wu, StrixNebulosa, AshaMarie</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_0</RefName>
+		<Content>&#xA;</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_0_title</RefName>
+		<Content>#cy#KICKSTARTER - LEGENDS#ec#&#xA;&#xA;#cg#* Amuys *#ec#&#xA;&#xA;#cg#* Drew Walker *#ec#</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_1</RefName>
+		<Content>Alex "Seaflame" Boyer|Boar Games|Chad Seiter|Dane P.|DoubleByte|Ferg|Jillian Aversa|KrDragon|Kyle Stillwell|Narrev|TLWB|Tom Treutlein|Wesley Cho</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_1_title</RefName>
+		<Content>#cy#KICKSTARTER - ANCIENT HEROES#ec#</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_2</RefName>
+		<Content>Aaron Haun|Aaron M. Mason|Alex (Jeezuspeacez) Hillebrand|Chris "aether" DiMilia|Daniel 'Doppelganger' Hamilton|David Lam|Deia Vengen|Derek Huelsman|Docjekyll (Chris Johnson)|Dr. David Eby|DraikTempest|Gareth Coker|Henry Rivera - AKA ActionHank|James Eaton|Jarrod Hammond|Jason Comstock|Kevin Hill - ChronoSoft|Matthew Morrow|Max Brustkern|Mil'Bereth|Moppet52|Nick Howland|Pantheria and Anton|Pete "MagiTycho" Kolts|Picopotus|Quill Smith|Razakai|Silverfang1387|Tung "Jimmy" Nguyen|Whangam|Xenon Odyssey|magemam</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_2_title</RefName>
+		<Content>#cy#KICKSTARTER - GRANDMASTERS#ec#</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_3</RefName>
+		<Content>Aaron Adrignola|Amy Hsieh and Jeremy Feder|Andreus Pash|Andrew Piseck|Ben Crowe|BenGates|Calbert Warner|Catie Vercammen-Grandjean|Chris Guinnup|Chris Wade (Sando15)|ClearRabbit|Cliff Bailey|Cort Stratton|DaPortlyJester|David Magoss|David Owen|Dickie Chapin|Doug Perry|Elizabeth Carter (ladyWildfire)|Emeraldspore|Erisubeth|Gaelmydd|Gavin Whyte|GeoHawke|GuitarJoe48|Hans "Fluffybottom" Nilsen|Ian Bowes (spelk)|Ian W Alexander|Jacob Rudolph|Jake McKnight|Jan Holtrichter|Jarel Jones|Jarinex|Jason Ingersoll|Jeff Morrow|Jenner B|Jesse Dotson|Jethro Logan|Joe Valdez|Joel Holcombe|John Moralis|Jon Warner|Jon-Paul Palacio|Jorrith Schaap|Justin "SwordSaint" Marquez|K41N|Kahandran|Kaleb Elwert|Karl Marx|Keven Arseneault|Kevin Beltz|Larry Oji (Liontamer)|Mara McKenzie|Marco Schropp|Mark Erik Dalhuisen|Master Frake|Matt McGuire|Matt Sever|Matthew "Utoxin" Walker|Michael 'gunks' DenHerder|Michael Aversa|Michael Howie|Michael St. George Matatics|Michel van den Brink|Mighty Pulpo|Mike Provant|Mirzero|Nathan Green|Nevin "Alestane" Flanagan|Noah Gordon|NorNogaAdmin|OverlordDarkWolf|Paper Coelacanth|Pyro(Jason) Severino|RedSword|Rich 'methecooldude' Smith|RidoKilos|Robert Tye|Ryan Fitzgerald|Ryan Thompson|Sean "Kadino" Sweeney|Sean "Sieglien" McCormick|Sergei "Bezo" Lempert|Slick Vic|Stefan 'Yami' Schutz|Steve "FiZ" VanSickle|Steven Rychetnik|Talrose|Taylor "Mirby" Brown|Thomas Nelson | TJourney|Tim Forcier|Tim Zemke|Traumblebert|Vezak|Wolfgang Knebel|Xtopher Bury|Yuta Suka|Zab|Zach Van Stanley|Zephiira|Zephyr Arsland|Zeugma|big giant circles|jocloud31|sleeparrow</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_3_title</RefName>
+		<Content>#cy#KICKSTARTER - GRAND CHAMPIONS#ec#</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_4</RefName>
+		<Content>Ala|Alucard2004|Andrew Hawkins|Andrew M. LaTour|AnionCat|Anna Dunster (DWLlama)|Anonymous|ArgusGlitch|Arovin|Arturo Hoffstadt Urrutia|Ashaba|Blembob|Brian Kompara|Broga|C Emmerich|Cay Blomqvist|Charles "Neocount" Chiodi|Chester C.|Chewy|Chris Geiger|Chumpy|Cindy B|Civarity|Cyflan|David McLaughlin|Demonnic|Devilspinky77|Disdonn Plays|DocMGM|Ehrich, Cyndi, and Faine|FranklinsAce|GaidinX|Gillis Thunderhead aka phil|GrumpyGamer|Heckoreck|Ian Hammond|Indigo Rogue|James Morse|Jamie Mason|Jeremiah Cunkle|Jesse Allen Reed|Jirosu|Joao de Oliveira|Joey Hewitt|John "Trip" McGee|John Uicker|Jonathan QUACH|Joseph Parsley|Josh Dionne|Josh Jones and Jarred Dodds|Josh Lee|Josh Winter|Jubell Johnson|Justin Goettig|Justin P. Singh|Justin Wahlne|Jutetrea|Jorgen Tjerno|Kalleina|Kevin North|Knuckle|Kristopher "Lawnchairs" Clark|Kyle Riff|Lars Viklund|LordRoto|Marisa "Darkeiko"|Matt (Twpsyn) Hill|Matt Ritchie|Michael Carr|Michael Milliken|Nathan Armstrong|Nearandaway|Nicholas de Leeuw|Nick Kowalski|Noah Radant|Ohmz and Avarinne|Orphean SA|Orshelack|Patashu|Paul Henkel|Paul Stanley|Quinn O'Hara-Brantner|ROT8|Renaud Marshall|Robes|Roger Yates|Rogueliker|Ross Annesley|SBAITSO486|Sam Denne|Seizui|Shadower|Sjourn|Starlo|Stevie Strickland|Stevo357sig|Storm|SunderCats|Taylor Sharrar|TehAkarf|Thomas Albert|Tim77|Tom Kilger|Tom LaTulipe|Tommie aka HereToHeckle|Tommy Di Stefano|Travels the Hunted|Tylup|UmatillaCowboy|Vagrant Wolf|Wade Bowers|William Prevett|Wilson Chung|Wingi|Wojciech Gebczyk|Yargoth|Zac Changnon|Zok|byuker86|chaplainzax|deansher|rantobi|shaf</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_4_title</RefName>
+		<Content>#cy#KICKSTARTER - CHAMPIONS#ec#</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_5</RefName>
+		<Content>10KStreams|@igowen|@livejamie|A. Lingawi|A. M. Wegener|A.G.|ADaniel|AML|AarekMG|Aaron Chapin|Aaron Larson|Aaron R. Cioffi|Abhilash Sarhadi|AbsMechanik|Accelerator Ray|Adam "8T" Tannir|Adam "Marker" Skinner|Adam Frisby|Adam Moeller|Adam R. Vierra|Adam Seats|Aerys Urrax|AgentCid|Ah Map|Al "Goob" Lewis|Al Lewis Torres|Alan Cheung|Aldaroc|Alejandro Garita|Alessandro Rodriguez|Alex "MTF" Halldin|Alex "Teldurn" Hakobian|Alex Andrew|Alex Finch|Alex Jotov|Alex4554|Alexander Martin|Alexander Motnenko|Alexandre Dachary|Alfred Maler|Allison Berryman|Alvar Hyvonen|Amber + Pete|Anders Howard|Andreas Loeckher|Andrew "Cadence" LaBombarda|Andrew "Lil' Drum" Lehman|Andrew "Spiff" Jorgensen|Andrew Conk|Andrew Folk|Andrew Judd|Andrew Sadowski|Andrew Winson|Anonymous|Anonymous|Antor|Arararagi|Argl|Arisa Scott|Armbreakfire|Arron Washington|Arsen Tigor|Asaad Bakhashwain|Asherman|Asier Delcroath|Astrid Portner|Aurelien ZELTY|Austin Neidrich|Awkward Malevolence|B GOTO|Baggy Pantalons|Bahnmor|Baja Blast|Balblair|Barac Wiley|Barry McCann|Bart Van Damme|Basile Copin|Ben Schmitt|Benjamin John Duckworth|Big Will|Bitter|Bkuuzin|Bloody_Lemon|BlueFarce|BlueManaBanana|Bob and Kirsten Kuo|Boreal Games|Bpock|Brad Butland (Agent B13 Gaming)|Bradee-oh|Bradywan|Brandon "Merkules" Merkley|Brandon Komplin|Brandon Kriesch|Brandon Yohn|Braude|Brawler Yukon|Brendan Moore|Brendon O'Reilly|Brennan Anderson|Brian Connolly|Brian Mooney|Brian O.|Brian Pitt|Brian Rubin|Brian Thalman|Brux|Bryan Nese|Bryan Reason|Burak Kofte|C. Brian Bucklew|C. Reinstein|Calan Green|Caleb Jackson|Caleb Kinkaid|Calvin Moy|Cameron Youngs|CapnWinters|Captain Norway|Carinth|Casey P. Benson|Cat Vaughter|Causal Bit Games|Celerity|Cena Ringwald|Chad Price|Chant Rodem|Charles Winfree|Chase 'Talcerase' Eichhorst|Chris "Pesti" S.|Chris Buldo|Chris Carter|Chris Castillo|Chris Danford|Chris Galecki|Chris Johnson|Chris Kummel|Chris Lilley|Chris Stewart|Chris Wade|Christian Roy|Christian Ternus|Christine Chen|Christopher "Ludwig van Larx" Gray|Christopher Babic|Christopher Bright|Christopher Colton|Christopher Groom|Christopher Mangum|Chuck Stewart|Cid Skyheart|Claudia|Clay Gardner|Clegmir|Cliff Kelley|Clroy Lukes|Clutz35|Cmat|Cmdr Chubby Henparty|CocoaRex|ColdCandor|Combat Bahb|Conny Soderstrom|Conrad Yonosenada|Cory J|Coubain|Crateria|Crazy Lou|Curious Quail|Cybermouse|DJ Kooky|DJ Tunamelt|DJEaton|DKRaptor|Daan Reid|Dabombber|Dachshundofdoom|Damir Fatusic|Damon Eric English|Dan Hughes|Dan Spitzley|Dan Summers|Daniel Henninger|Daniel Jay-Dixon|Daniel Rutz|Danielle Morgan Lapis|Danny Stracener|Darby S McGrath|Darko Romanov|Darren Hart|Daryl Markey|DataVortex|Dave Hng|Dave Rupee|Davi Costa Clemente|David Bergen|David Blosser|David E. Olvera|David Green|David L. Springer|David LaSalle|David Mussan-Levy|David Perry|David Plater|Deadlybeast|Dennis Lee|Dennis van der Wal (Snuk the Great)|Derek Devereaux Smith|Devlin Sharpknife|Dick Voisine|Dis|Disdanes|Dmauro7|Dogemon|Dominic Aquilina|Dominique Hervochon|Don Smeltz|Donovan Williams|Dr. Matthew White|Dr. Zachary Moore-Smith|Draconus|Duatha|Dubonzi|DuckInADungeon|DukeOfSuffolk|Dustin "Dusk Branscum|Dustin Fink|Dylan Jones|Dylan Michael Robinson|Dylan Staggs|Ecutexas|Edmond Aggabao|Eduard Lukhmanov|Elizabeth Davidson|Elliot Bartelt|Elvoc|Elzie Ann|Emery "DaMonz" Monzerol|Emir Kotan|Emong|Endcurry|Eric "Spazticus" Payawal|Eric Buchmann|Eric Jeffrey Tan|Eric Romero|Eric Silverman|Eric Zamidar|Erik Carter|Erik Johnson|Eruntalan|Ethan Bartolic|Evan F.|Fabien C.|Felix Lopez|Fenway Brandon|Fergie|FireInk|Forte H.B.|Frances McGregor|Frank Schindewolf|Frisky|From Marcos with love|Frost Aegis|Fabio "OtakuDash" Nunes|Gabriel|Gabriel 'Gohla' Konat|Gabriel Luis Alves Lima|Garion|Garrett Bastian|Garrow Bedrossian|Gary Williams|Gatsby3k|Gavin "gav422" Cowles|Gavin 'Jac0byterebel' Ewan|Gene Hostetler|Geoffrey Riutta|Gerardo 'Gerry' Padilla|Giacomo Russo|Glen H. Barratt|GodRJa|Grandexar|Grawn|Greg Day|Greg Velichansky|Gregory Fisher|Gullwhacker|Guy "Danger Pecs" Shuford|Gwendolyn Aerlin|GwynnFyrion|Halthrax|Handsome Dan|Hapanpappa|Heather Hintze|Hepco|Herbert Leier (Codebox)|Hiroyuki Adachi|Hog8oy|Homer L Dyer IV|Huksplutty|Hybrys|ISS|Ian Martyn|Ichiro Ota|Imano Ob|Innes (Surge)|Isaac Sloat|Ivan de Neymet Franco|J Clark|J Smith|J.J. Hart|JB|JDD|JT|Jacob Diaz|Jacob Kraus|Jacob Lundberg|Jake 'Jamous' Reed-George|James James|James R. Rogers|James Schatz|James Wilson|Jamsus|Jason F. Broadley|Jason Hall|Jason Ruvinsky|Jason Sartin|Jason Wetzel|Jay "MFSTATE" Kim|Jazaram|Jean-Marc Giffin|Jeff "BigTaro" Geisperger|Jeff Greig|Jegan22280|Jen Walker|Jeremy "justmutantjed" Dinsmore|Jeremy Steimel|Jerker Mantelius|Jesse "temuchin" Loner|Jesse Jurman|Jessica H|Jessica Wilbert|Jim Heney|Jimmy Slaughter|JintoLyn|Jo White|Joakim Davies|Joe Bruno|Joe Hart|Joe Saint|Joe Zack|Johann Belet|John "Rbandboy" Shipley|John Achor|John Coia|John Duffield|John Fiebrich|John Komala|John O'Meara|JohnMark Lau|Jon Moore|Jon Spengler|Jon Wetterberg|Jonas Karlsson|Jonathan "Buddha" Davis|Jonathan Barone|Jonathan C. Cantwell|Jonathan Creason|Jonathan Young|Jordan "DJ Rebirth" Jacobs|Jordan Daly-Frey|Jordan Joyner|Jorgen Mikkel Johansen Bals|Jose Luis Osorio|Joseph Gerbensky (Media Hunter)|Joshua Allen|Joshua Prysock|Juha Keratar|Justin Huber|Justin Mitchell|Justin Nelson|Justin Yeo|Jyri Jarvinen|KSWu, KLY, and CailtynWu|Kaithe Rocelin|Kalman M Nanes|Kame Sanjo|Karma|Karsing Fung|Keith "1tactician" Duggins|Keith Donoghue|Ken Harris|Kenneth "Paco Jones" Whelan|Kerviel|Kevin "Heponwana" Nelson|Kevin Eby (AirmanKJE)|Kevin Lundberg|Kevin Vitz-Wong|Khuuj|Kieron (Cabbage) Stoff|Kindle|KingIsaacLinksr|KingJoshington|Kingsley|Kirk Fredrichs|Kirk J Iles|Klbarrus|Kole Hicks|Koumakan|Kragor001|Kristian Sims|Kristoffer A Giere|Kriyab|Kryptronics|Kurtis 'Wuumaster' McNaughton|Kyle Fox|Kyle Frazier|Kyle Overby|Kyle Robinson|Kyle Willey|Larkcrown|Larry Behrendt|Lars Ivar Igesund|Lawrence Mastin|Leaves|Lee "Fretshark" Neikirk|Lee Rosenbaum|Lee Stewart|Legendary Kapik|Leonard Stafford|Leslie L|LiKApo|Liam 'Jaws4President' Byrne|Lindsey|Lisa B|Liz Friedman|Loki Tarrishar|Lord Nightmare|Lucas Dutton|Lucas Moura Ferreira Torres Lima|Luiz Felipe Beneton|Luke Ridsdale|Luke T. Parkinson|Lynchburgh|M.A.R.K|MaXiMuS|Maclin Sweeney|MadAnt69|Madjack|Madmanguruman (Adam L.)|Magican |Mahaku|Mahare|Marc A. A.|Marc Castells Guell|Marc Nurnberger|Marcial Dragone|Mardelitron|Mario Liebisch|Mark|Mark 'fusion2004' Oleson|Mark Robinson-Horejsi|Mark Weston|Marshall Stuart|Martin Faaborg|Mat "TempesT" Wajda|Matt "Anubins" Robinson|Matt Bennett|Matt Beyer|Matt Leffler|Matt McCoy|Matt Pfaff|Matt Unrue (aedriam)|Matthew Carithers|Matthew F.|Maurog|Max Juchheim|Max_Goat|Maxcorps|Maxwell "Feynt" Hunt|Mazedude|Melissa F. George|MelonSoda|Mevious|Michael "Adarkchylde" Johnsen|Michael "Contest" Williams|Michael 'Darangen' Boyd|Michael Day|Michael Espy|Michael Fiolo-Miller|Michael Frederick (Master167)|Michael Hannemann|Michael K. Kowalski|Michael Oldakowski|Michael Pagel|Michaela Nachtigall|Miguel "Redington" Soto|Mika Panhelainen|Mike Lapinsky|Mike Porco|Mike Worth|Mil|Miran Walter|Mitch Stankowski|Mitch8128|Mitdeglaives|Mogan|Mollok|Moog|Mort|Morten Buhl|Mr B|Mukenin|Myth|MythicalRedFox|Mario Nicoletti|NOX_623|Naar|Nadav Ben Dov|Nadia "Atarun" Cerezo|Namworth|Nathan Griffith|Nathaniel Ridder|Nathias|Natron77|Neojade|NewPath57|Nicholas Messenger|Nick "Dasflipz" Phillips|Nico D.|Nico Gilfert|Nigel 'NiJ' Brown|Nik Ekonomakis|Nobu-Heat|Noir Reve de Diamant|None|Nonomancer|Norlack|NuggetPls|Oliver Minall|Olympian|Ophir G.|Optim1sm|Orangatuan|Owen "Theldion" Brown|Owen West|Ozzycar|POINTSMAN76|Pablo "Hersho" Dominguez|Pakratos|Pam "HarvestCraft" Collins|Pang Zhi Han|Paris "konvay" Schuette|Patrick "Hacky" Sarmiento|Patrick Amthor|Patrick Burns|Pauli "Pave" Haarnimo|Peter "Doktor Gun" Nelson|Peter Cullen Bryan|Peter F.|Peter Hosey|Peter Johnson|Peter Nilsson|Peter T|Peter200lx|Phae|Phazius|Phil Ken Sebben|Phil McClelland|Philip Wels|Philis|Phillip and Amanda Skaggs|Pieter van Os (pu_freak)|Plank|Predundant|Preocts and Traveldog|ProjectMQ|Pyrodon|Pal Trefall|RJ|RJ Wooten|Rabite|Radnor Wargbane, AKA Brian Anderson|Rahul Chandra|Raitzeno|RareBirdAlert|Ray Eggert|Raycat Rakittra|Rebecca Blackwell Read|Rexxed|Rhys D|Richard "Skuldlove" Friedler|Richard Campen|Richard Easterling|Richard Leiva|Richard M. Hopple, Jr.|Richard P Wang|Richard Poteat|Ricky Sekulich|Rob Ferguson|Rob Roberts|Robert Kuba|Robert Lanning|Robin "SubWolf" Beckett|Rockabilly Joe|Roger C. Walker II|Roger Trombone|Roguish Riddle|Roland (HolySerpent) Santos Jr.|Roland Quiros|Rolf S. from Bocholt|Rolo Kipp|Ronkoteus|Royall Spence|Ru13Y|Russell Berry|Ryan 'AfroRyan' Fisher|Ryan Arana (aranasaurus)|Ryan Evans|Ryan Harrison|Ryan Kent|Ryan Magley|Ryan Phillips|Rylai|Rylee Otway|Ryuutai|Samantha Laine (haveacigarrr)|Samuel "Iron Curtain" Abram|Samuel Bair|Sandra "Zeba" Wood|Sara Decklever|Sarah Hester|Satoshi Mitsuta|Savvyhead|Scot Schneebeli|Scott "FenixDown" Hagelgans|Scott Philip McClellan|Scott Viger|Scott Zuris|ScottT|Sean Lyons|Sean M. Dunstan|Sean Mansell|Seth Anderson|Seth-Rah|Seto Konowa|Shane and Kate Bell (ShakeNBake)|Shariq "DarkeSword" Ansari|Shawn Williams|Shell Moniz|Sherry Massey|Shigarui Grayson|Shiro Hara|Shmiddy Lunchenbox|Shoebacca|Sickley|Silton|Sjors 'Frikandel' Both|Skezatchi|Skoddie|Skye Bennet|Slarti Bartfast|Smear Merchant|SnakeBagel|SpacePope|Stearns|Stefan Winkler|Stephanie Meier|StephanieKiller629|Stephen Barbieri|Stephen Meyerink|Stephen Patch|Steve Lord|Steve Pordon|Steven J Read|Steven Rutherford|Steven Savage|Stirdog|Stone Cleric Productions|Strawbridge|Stuart Craig|Stuart Hwang|Stuart Marlantes|Superpotroast|Swashbucklr|SwitzX|TA|TAnguYA|Tamrick|Ted Presley (LoneWulfXIII)|Teemu Aulanko|Teksterzzz|Tempest 'wingedcatgirl'|Tetsuothecat|The Big Lubetzki|The Jaybird|TheRealMrZippy|TheShaggyFreak|Thea Walther|Thevalcrist|Theyla|Thor Holtan|Thulsey|Tim "Lord Gek" Jordan|Tim Connolly|Tim Habersack|Tim Huston|Tim MacNeil|Tim Noyce|Tim Sims|Timo Tobolla|Tofulover3|Tom Atkinson|Tom Fitzsimons|Tom Smith|Tomi Laaksonen|Tony 'Camps' Santi|TooMuchAbstraction|Torbjorn A O Johansson|Torzelan|Treads|Trent Stollery|Trevor Downs|Trip Space-Parasite|Trishaz|TukeArt|Tyranic-Moron|Tyrel Souza|UAFBum|Ugore|Ultima Strike|Untimely Brigand|Usagi|Vanguard|Varis|Veedor|Vesko Gavrilov|Victor Ngo|Viking|Vincent Graymore|Vincent PIERRES|Vincent Talbot-Asselin|Vincent-Younha|Vitor "Beico" Costa|VolticSurge|Wargame.com|Warren P Nelson|Wattttt|Wayne Arthurton|Wendy Smiseck|Wesley Mayle|Wilbert Roget, II|William Eckhardt|William Nelson|Wind|Wizard.Exe|Wolfstroke|Wyatt Derp|Xavier Ekkel|Xenoriddley|Y. H. Lee|Yoriki Yamaguchi|ZQ|Zach Brooks|Zach Bush|Zachary Knox|Zachary Werheim|Zack "Metaknightmare" Levine|Zack Lim|Zageron|Zak Millar|Zer0|ZetaGilgamesh|Zhylaw|ZombyWoof|[NAME REDACTED]|[R]Tyrannus|algorythm|arquetech|baram.|bisonbison|bjornzor|bl00dy|brdi|bum198|cabalist|cake|coandco|darahalian|dmboogie|gatherer818|geemuboi|gyrogearloose|heartosis|hjlavery|iJester82|infamousneo|iod|irskep|juzam|kaupmees|kirbsah|kniiight|lubi|madstrategist|mnemos|morenfin|mwood999|neiba|nerowski|ontoclasm|pavel|peetsnack|pimento|piyo da|prototype00|psam|sandsharkattack|shaboogen|sir_nuts|ster|swthumper|tailorian|the chimerical collective|the_Dakta|thenoble1|thtrnerd221|verbim|wcorwin|whod99|wordmuncher|yngwi|yoshis88|zenfrazier</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_5_title</RefName>
+		<Content>#cy#KICKSTARTER - ADVENTURERS#ec#</Content>
+	</String>	
+	<String>
+		<RefName>credits_backers_6</RefName>
+		<Content>256 Pi|BardicKnowledge|Brad "InsertTokenz" Toker|Christian Byrd|ComputerDruid|DC Bueller|Daniel Reed Ferrara|Dominick L.|FattyBehrX3|Kegy Kegelton|LtSterling|NPC|Nick Hangen|ObnoxiousBoyMan|Ray Reigadas|garfu|keiiii</Content>
+	</String>
+	<String>
+		<RefName>credits_backers_6_title</RefName>
+		<Content>#cy#KICKSTARTER - FLEDGLING HEROES#ec#</Content>
+	</String>	
+	<String>
+		<RefName>credits_backers_7</RefName>
+		<Content>Chris Niewiarowski|Daniel Karbelius|Halley's Call|Matthew Donatelli|Sean "sonicmega" Chiplock|TaranWanderer|Timmy Petersson (FishOfPain)|Todd Enyeart</Content>
+	</String>	
+	<String>
+		<RefName>credits_backers_7_title</RefName>
+		<Content>#cy#KICKSTARTER - SHOPKEEPERS#ec#</Content>
+	</String>	
+	<String>
+		<RefName>credits_final</RefName>
+		<Content>&#xA;&#xA;#cy#.... AND YOU!#ec#&#xA;&#xA;&#xA;&#xA;&#xA;Thank you for playing!&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;- the end -&#xA;</Content>
+	</String>
+	<String>
+		<RefName>key_layout_wasd</RefName>
+		<Content>WASD + Mouse</Content>
+	</String>
+	<String>
+		<RefName>key_layout_full</RefName>
+		<Content>Full Keyboard (Arrow Keys+Numpad)</Content>
+	</String>
+	<String>
+		<RefName>ui_option_ok</RefName>
+		<Content>OK</Content>
+	</String>	
+	<String>
+		<RefName>dialog_firsttime_keysetup</RefName>
+		<Content>#cc#FIRST TIME SETUP#ec#&#xA;&#xA;Please select your preferred #cy#control style#ec#.&#xA;(This can be changed and customized later.)&#xA;&#xA;Controllers are auto-detected and usable!&#xA;</Content>
+	</String>
+	<String>
+		<RefName>help_player_victorious</RefName>
+		<Content>#cg##big#CONGRATULATIONS!#endbig##ec#&#xA;&#xA;Now that you have beaten the game, you can #cy#Continue#ec# your save slot to continue exploring Tangledeep. Your game is saved right before you reached the top.&#xA;&#xA;You have also unlocked #cg#NEW GAME+#ec# mode for this slot! To use this, select #cy#New Game#ec# on your victorious save slot, and then confirm #cg#NEW GAME+#ec#.&#xA;&#xA;You will keep all of your experience, skills, and items, but Tangledeep will be re-created with much harder challenges... and #cy#more treasure#ec#!&#xA;</Content>
+	</String>
+	<String>
+		<RefName>newgameplus_option_new</RefName>
+		<Content>Would you like to begin a #cy#NEW GAME+#ec# save? Your existing character and meta progress #cg#will be saved#ec#, and you will start in a new world with #cr#much harder monsters#ec#... (#cg#and more rare treasure!#ec#)</Content>
+	</String>
+	<String>
+		<RefName>newgameplus_option_existing</RefName>
+		<Content>Would you like to #cy#RESTART#ec# your NEW GAME+ world? Your existing character and meta progress #cg#will be saved#ec#, but the world will be #cg#completely reset#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>misc_victory</RefName>
+		<Content>GAME CLEARED!</Content>
+	</String>
+	<String>
+		<RefName>save_slot_string</RefName>
+		<Content>^tag1^, ^tag2^ (Level ^tag3^). ^tag4^. ^tag5^&#xA;#cy#Days Passed:#ec# ^tag6^, #cc#Playtime:#ec# ^tag7^</Content>
+	</String>
+	<String>
+		<RefName>misc_days_passed</RefName>
+		<Content>Days Passed</Content>
+	</String>
+	<String>
+		<RefName>misc_daymarker</RefName>
+		<Content>Day ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>saveslot_highestfloor</RefName>
+		<Content>Highest Floor</Content>
+	</String>
+  <String>
+    <RefName>highest_floor_ever</RefName>
+    <Content>Highest Floor Ever</Content>
+  </String>
+  <String>
+    <RefName>monsters_defeated</RefName>
+    <Content>Monsters Defeated</Content>
+  </String>
+  <String>
+    <RefName>champions_defeated</RefName>
+    <Content>Champions Bested</Content>
+  </String>
+  <String>
+    <RefName>steps_taken</RefName>
+    <Content>Steps Taken</Content>
+  </String>
+  <String>
+    <RefName>favorite_job</RefName>
+    <Content>Favorite Job</Content>
+  </String>
+  <String>
+    <RefName>playtime</RefName>
+    <Content>Playtime</Content>
+  </String>
+  <String>
+    <RefName>total_characters</RefName>
+    <Content>Total Characters</Content>
+  </String>
+  <String>
+		<RefName>npc_give_item</RefName>
+		<Content>#cg#^tag1^#ec# gives you ^tag2^!</Content>
+	</String>
+	<String>
+		<RefName>poker_flush</RefName>
+		<Content>Flush</Content>
+	</String>
+	<String>
+		<RefName>poker_highcard</RefName>
+		<Content>High Card</Content>
+	</String>
+	<String>
+		<RefName>poker_fourofakind</RefName>
+		<Content>Four of a Kind</Content>
+	</String>	
+	<String>
+		<RefName>poker_threeofakind</RefName>
+		<Content>Three of a Kind</Content>
+	</String>	
+	<String>
+		<RefName>poker_onepair</RefName>
+		<Content>One Pair</Content>
+	</String>	
+	<String>
+		<RefName>poker_twopair</RefName>
+		<Content>Two Pair</Content>
+	</String>
+	<String>
+		<RefName>poker_straight</RefName>
+		<Content>Straight</Content>
+	</String>
+	<String>
+		<RefName>poker_fullhouse</RefName>
+		<Content>Full House</Content>
+	</String>
+	<String>
+		<RefName>poker_straightflush</RefName>
+		<Content>Straight Flush</Content>
+	</String>
+	<String>
+		<RefName>poker_royalflush</RefName>
+		<Content>Royal Flush</Content>
+	</String>
+	<String>
+		<RefName>log_poker_flush</RefName>
+		<Content>All #cy#MONSTERS#ec# on this floor have #cc#FALLEN ASLEEP#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_poker_best</RefName>
+		<Content>All #cy#MONSTERS#ec# on this floor now have #cr#1 Health#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>poker_handeffects_flush</RefName>
+		<Content>Heal to full, gain increased crit chance, gain Super Haste, and put all monsters on this floor to sleep!</Content>
+	</String>
+	<String>
+		<RefName>poker_handeffects_highcard</RefName>
+		<Content>Throw a card charged with powerful lightning at a random nearby enemy! Damage increases with hand size.</Content>
+	</String>
+	<String>
+		<RefName>poker_handeffects_fourofakind</RefName>
+		<Content>Heal to full, gain increased crit chance, gain Super Haste, put all monsters on this floor to sleep and reduce them to 1 HP!</Content>
+	</String>	
+	<String>
+		<RefName>poker_handeffects_threeofakind</RefName>
+		<Content>Gain "Super Haste", giving you lots of free turns!</Content>
+	</String>	
+	<String>
+		<RefName>poker_handeffects_onepair</RefName>
+		<Content>Gain "Sharp Eyes", increasing crit chance for attacks and abilities.</Content>
+	</String>	
+	<String>
+		<RefName>poker_handeffects_twopair</RefName>
+		<Content>Summon two pairs of Mini Panthox to fight on your behalf for 70 turns!</Content>
+	</String>
+	<String>
+		<RefName>poker_handeffects_straight</RefName>
+		<Content>Heal to full, gain increased crit chance, and Super Haste!</Content>
+	</String>
+	<String>
+		<RefName>poker_handeffects_fullhouse</RefName>
+		<Content>Heal to full, gain increased crit chance, gain Super Haste, put all monsters on this floor to sleep and reduce them to 1 HP!</Content>
+	</String>
+	<String>
+		<RefName>poker_handeffects_straightflush</RefName>
+		<Content>Heal to full, gain increased crit chance, gain Super Haste, put all monsters on this floor to sleep and reduce them to 1 HP!</Content>
+	</String>
+	<String>
+		<RefName>poker_handeffects_royalflush</RefName>
+		<Content>Heal to full, gain increased crit chance, gain Super Haste, put all monsters on this floor to sleep and reduce them to 1 HP!</Content>
+	</String>
+	<String>
+		<RefName>log_resist_charm</RefName>
+		<Content>^tag1^ #cy#resists#ec# your persuasion!</Content>
+	</String>
+	<String>
+		<RefName>log_lucky_eatmore</RefName>
+		<Content>#co#LUCKY!#ec# You can #cg#eat more#ec# immediately!</Content>
+	</String>
+	<String>
+		<RefName>log_gem_reflect</RefName>
+		<Content>Your gem armor #cc#reflects#ec# the attack!</Content>
+	</String>
+	<String>
+		<RefName>log_ascetic_destroy</RefName>
+		<Content>You #cy#destroy the attack#ec# with your #cc#wrapped hand#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_mirrors_seethrough</RefName>
+		<Content>Your #cp#Armillary Mirrors#ec# shine, and you #cy#see through#ec# the illusion!</Content>
+	</String>
+	<String>
+		<RefName>log_grow_thorns</RefName>
+		<Content>The #cy#^tag1^#ec# grows a thick #cg#layer of thorns#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_reaper</RefName>
+		<Content>The #cr#grim reaper#ec# comes for #cy#^tag1^#ec#...</Content>
+	</String>
+	<String>
+		<RefName>log_reaper_damage</RefName>
+		<Content>The #cr#grim reaper#ec# comes for #cy#^tag1^#ec#, taking #cy#^tag2^#ec# Health!</Content>
+	</String>
+	<String>
+		<RefName>log_target_slowed</RefName>
+		<Content>^tag1^ is #cr#slowed#ec#!</Content>
+	</String>
+	<String>
+		<RefName>misc_fullheal</RefName>
+		<Content>FULL HEAL!</Content>
+	</String>
+	<String>
+		<RefName>log_percy_effect</RefName>
+		<Content>#cg#Percy#ec# lazily mutters an #cy#incantation#ec#...</Content>
+	</String>
+	<String>
+		<RefName>log_percy_buff</RefName>
+		<Content>#cy#You feel power surging through your body!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_tipsy</RefName>
+		<Content>You feel #cc#tipsy#ec#, and move the wrong way...</Content>
+	</String>
+	<String>
+		<RefName>log_extraturn</RefName>
+		<Content>#cy#EXTRA TURN! Monsters won't act!#ec#</Content>
+	</String>
+	<String>
+		<RefName>misc_extraturn</RefName>
+		<Content>Extra Turn</Content>
+	</String>
+	<String>
+		<RefName>log_julia_freeitems</RefName>
+		<Content>#cy#Julia#ec# hands you several #cg#healing items#ec# for your jouney!</Content>
+	</String>
+	<String>
+		<RefName>log_monsterdeath_unknown</RefName>
+		<Content>#cy#^tag1^#ec# is #cr#defeated#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_mon_exclamation</RefName>
+		<Content>^tag1^ exclaims:</Content>
+	</String>
+	<String>
+		<RefName>log_explosion_dmg</RefName>
+		<Content>The #cr#explosion#ec# ^tag1^ #cy#^tag2^#ec# for #co#^tag3^#ec# Health!</Content>
+	</String>
+	<String>
+		<RefName>log_cheatdeath</RefName>
+		<Content>#cr#Death approaches#ec#, but you #cy#avoid its grasp#ec#! All negative statuses are #cg#removed#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_phoenixpendant</RefName>
+		<Content>Your ^tag1^ explodes, showering you in #cg#healing flames#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_youdied</RefName>
+		<Content>YOU HAVE #cr#FALLEN#ec#...</Content>
+	</String>
+	<String>
+		<RefName>log_reborn</RefName>
+		<Content>REVIVED!</Content>
+	</String>
+	<String>
+		<RefName>log_monster_avenger</RefName>
+		<Content>#cr#^tag1^ is enraged at the defeat of ^tag2^!#ec#</Content>
+	</String>
+	<String>
+		<RefName>popup_atk_up</RefName>
+		<Content>ATK UP!</Content>
+	</String>
+	<String>
+		<RefName>confirm_reset_keybinds</RefName>
+		<Content>#cy#Are you sure you want to reset your keybindings to#ec# #co#^tag1^#ec##cy#? Your custom keybindings will be #ec##cr#overwritten#ec##cy#.#ec#.</Content>
+	</String>
+	<String>
+		<RefName>log_game_loaded</RefName>
+		<Content>#cg#Saved game loaded!#ec#</Content>
+	</String>
+	<String>
+		<RefName>error_cannot_save</RefName>
+		<Content>#cr#Error saving game - please check output log!#ec#</Content>
+	</String>
+	<String>
+		<RefName>ui_restart_samechar</RefName>
+		<Content>Restart Same Character</Content>
+	</String>
+	<String>
+		<RefName>ui_backtotitle</RefName>
+		<Content>Back to Title</Content>
+	</String>	
+	<String>
+		<RefName>log_summon_disappear</RefName>
+		<Content>The #cy#^tag1^#ec# vanishes!</Content>
+	</String>
+
+	<String>
+		<RefName>desc_unarmed_attack1</RefName>
+		<Content>Second Punch</Content>
+	</String>
+	<String>
+		<RefName>desc_unarmed_attack2</RefName>
+		<Content>Extra Kick</Content>
+	</String>	
+	<String>
+		<RefName>desc_dualwield_penalty</RefName>
+		<Content>Dual Wield Penalty</Content>
+	</String>
+	<String>
+		<RefName>desc_weaponproperty_range</RefName>
+		<Content>Range</Content>
+	</String>
+	<String>
+		<RefName>desc_weaponproperty_projectile</RefName>
+		<Content>Projectile</Content>
+	</String>
+	<String>
+		<RefName>desc_weaponproperty_2handed</RefName>
+		<Content>Two-handed</Content>
+	</String>
+	<String>
+		<RefName>misc_armor</RefName>
+		<Content>Armor</Content>
+	</String>
+	<String>
+		<RefName>misc_abbreviation_resistance</RefName>
+		<Content>Res</Content>
+	</String>
+	<String>
+		<RefName>misc_reduce_damage_elem</RefName>
+		<Content>^tag1^dmg from ^tag2^</Content>
+	</String>
+	<String>
+		<RefName>misc_resist_elemental</RefName>
+		<Content>^tag1^ resist elemental dmg</Content>
+	</String>
+	<String>
+		<RefName>misc_modify_elemental</RefName>
+		<Content>^tag1^ elemental dmg</Content>
+	</String>
+	<String>
+		<RefName>desc_grants_skill</RefName>
+		<Content>Grants Ability: ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>log_release_monster</RefName>
+		<Content>#cy#^tag1^#ec# wanders out into the wild, never to be seen again.</Content>
+	</String>
+	<String>
+    <RefName>skill_sheet_no_abilities_active</RefName>
+    <Content>Spend JP to purchase Active abilities. These are the tools you use to explore and survive in Tangledeep! Each job has unique active abilities, which you can combine to create a hero that matches your playstyle.</Content>
+  </String>
+
+	<String>
+    <RefName>skill_sheet_no_abilities_passive</RefName>
+    <Content>Support abilities increase your power and utility. They work passively, without a need to toggle them on or off. Each job has unique support abilities, and you can combine abilities from multiple jobs as you progress.</Content>
+  </String>	
+
+	<String>
+		<RefName>log_error_monsterletter_nopet</RefName>
+		<Content>You can't use that without a #cg#monster pet#ec# from the #cy#corral#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_monsterletter_pethasskill</RefName>
+		<Content>#cc#^tag1^#ec# #cr#already knows#ec# that ability!</Content>
+	</String>	
+	<String>
+		<RefName>log_pet_learnedability</RefName>
+		<Content>Your pet #cc#^tag1^#ec# learns the monster ability #cy#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_uniqueequip</RefName>
+		<Content>You can only equip #cy#one of those#ec# at a time!</Content>
+	</String>
+	<String>
+		<RefName>log_equipped_item</RefName>
+		<Content>Equipped #cs#^tag1^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_unequipped_item</RefName>
+		<Content>Unequipped #cs#^tag1^#ec#.</Content>
+	</String>	
+	<String>
+		<RefName>log_easteregg_kenshiro</RefName>
+		<Content>#cy#Omae wo mou, shindeiru.#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_absorb_shard</RefName>
+		<Content>#cy#^tag1^ absorbs magical energy through ^tag2^!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_lava_fire_damage_up</RefName>
+		<Content>#cr#The lava intensifies the fire damage!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_water_lightning_damage_up</RefName>
+		<Content>#cy#The water intensifies the lightning damage!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_mud_lightning_damage_down</RefName>
+		<Content>#cy#The mud weakens the lightning damage!#ec#</Content>
+	</String>	
+	<String>
+		<RefName>log_conduit_lightning_damage_up</RefName>
+		<Content>#cy#The conduit intensifies the lightning damage!#ec#</Content>
+	</String>		
+	<String>
+		<RefName>log_water_fire_damage_down</RefName>
+		<Content>#cy#The water weakens the fire damage!#ec#</Content>
+	</String>	
+	<String>
+		<RefName>log_fire_water_damage_down</RefName>
+		<Content>#cy#The lava weakens the water damage!#ec#</Content>
+	</String>	
+	<String>
+		<RefName>log_damage_absorb</RefName>
+		<Content>^tag1^ #cg#absorbs#ec# the damage!</Content>
+	</String>
+	<String>
+		<RefName>log_dmg_noeffect_wraith</RefName>
+		<Content>Your attacks have #cr#no effect#ec# on anything but the #cy#^tag1^!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_harvest_robot</RefName>
+		<Content>You harvest #cy#Stamina and Energy#ec# from the destroyed machine!</Content>
+	</String>
+	<String>
+		<RefName>log_attack_miss</RefName>
+		<Content>^tag1^ tries to attack ^tag2^ but #cy#misses#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_negate_crit_divine</RefName>
+		<Content>^tag1^'s #cy#critical hit#ec# is negated by ^tag2^'s #cc#divine protection#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_parry</RefName>
+		<Content>^tag1^ #cg#parries#ec# ^tag2^'s attack!</Content>
+	</String>
+	<String>
+		<RefName>log_block</RefName>
+		<Content>^tag1^ #cs#blocks#ec# ^tag2^'s attack!</Content>
+	</String>	
+	<String>
+		<RefName>log_budoka_easteregg</RefName>
+		<Content>#cg#It's useless. My fighting style is invincible!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_attack_catch</RefName>
+		<Content>^tag1^ #cy#catches#ec# the attack and #cy#throws it back#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_attack_reflect</RefName>
+		<Content>^tag1^ #cy#reflects#ec# the attack!</Content>
+	</String>
+	<String>
+		<RefName>log_attack_counter</RefName>
+		<Content>^tag1^ deftly #cy#counters#ec# the attack!</Content>
+	</String>
+	<String>
+		<RefName>log_flameserpent_extraburn</RefName>
+		<Content>Your #cr#^tag1^#ec# strikes #cy#^tag2^#ec# for an extra #co#^tag3^#ec# damage!</Content>
+	</String>
+	<String>
+		<RefName>log_gain_chargetime</RefName>
+		<Content>You gain #cy#^tag1^#ec# charge time!</Content>
+	</String>
+	<String>
+		<RefName>log_axe_shatter</RefName>
+		<Content>^tag1^'s defenses are #cr#shattered#ec# from the blow!</Content>
+	</String>
+	<String>
+		<RefName>log_def_rooted</RefName>
+		<Content>^tag1^ is #cr#rooted#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_restore_energy_skill</RefName>
+		<Content>You restore #cc#^tag1^#ec# Energy through #cy#^tag2^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_standard_attack</RefName>
+		<Content>#co#^tag1^#ec# ^tag2^ ^tag3^ for ^tag4^ damage! ^tag5^ ^tag6^</Content>
+	</String>
+
+	<String>
+		<RefName>log_offhand_attack</RefName>
+		<Content>(Offhand Wpn)</Content>
+	</String>
+
+	<String>
+		<RefName>log_standard_attack_block</RefName>
+		<Content>#co#^tag1^#ec# ^tag2^ ^tag3^ for ^tag4^ damage! (#cs#BLOCK#ec#) ^tag5^ ^tag6^</Content>
+	</String>
+
+	<String>
+		<RefName>log_attack_trip_flail</RefName>
+		<Content>#cy#^tag1^#ec#'s ^tag3^ trips #cc#^tag2^#ec#! ^tag2^ is #cy#rooted#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_stun_reel</RefName>
+		<Content>#cy#^tag1^#ec# #cr#reels from the blow#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_cook_campfire</RefName>
+		<Content>You spend the night cooking some delicious #cy#^tag1^#ec#...</Content>
+	</String>
+	<String>
+		<RefName>log_abil_needstarget</RefName>
+		<Content>^tag1^ #cr#requires#ec# a target!</Content>
+	</String>
+	<String>
+		<RefName>log_gambler_hand_full</RefName>
+		<Content>Your #cy#poker hand#ec# is #cr#full#ec##cy#...</Content>
+	</String>
+	<String>
+		<RefName>log_enough_jp_learn</RefName>
+		<Content>#cy#You have enough JP to learn an ability!#ec# #cg#(Press ^tag1^)#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_auto_equip</RefName>
+		<Content>You #cg#equip#ec# the newly-obtained #cc#^tag1^#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_ingredients</RefName>
+		<Content>You don't have the #cy#right ingredients#ec#.</Content>
+	</String>
+	<String>
+		<RefName>casino_blackjack_start</RefName>
+		<Content>DEAL CARDS</Content>		
+	</String>
+	<String>
+		<RefName>casino_blackjack_hit</RefName>
+		<Content>HIT ME!</Content>
+	</String>
+	<String>
+		<RefName>casino_blackjack_stay</RefName>
+		<Content>STAY</Content>
+	</String>
+	<String>
+		<RefName>casino_ceelo_start</RefName>
+		<Content>START GAME</Content>
+	</String>
+	<String>
+		<RefName>casino_ceelo_roll</RefName>
+		<Content>ROLL DICE</Content>
+	</String>	
+	<String>
+		<RefName>casino_slots_introtext</RefName>
+		<Content>How about a #cc#spin#ec#?</Content>
+	</String>
+	<String>
+		<RefName>casino_blackjack_introtext</RefName>
+		<Content>How about a #cc#round of cards#ec#?</Content>
+	</String>		
+	<String>
+		<RefName>casino_ceelo_introtext</RefName>
+		<Content>How about we #cc#roll the dice#ec#?</Content>
+	</String>	
+	<String>
+		<RefName>casino_bet</RefName>
+		<Content>Your Bet: #cy#^tag1^#ec#g</Content>
+	</String>
+	<String>
+		<RefName>casino_generic_waiting</RefName>
+		<Content>Waiting to play...</Content>
+	</String>
+
+	<String>
+		<RefName>casino_ceelo_waitrolls</RefName>
+		<Content>Keep rolling the dice!</Content>
+	</String>
+
+	<String>
+		<RefName>casino_blackjack_dealerhand</RefName>
+		<Content>DEALER HAND:</Content>
+	</String>
+	<String>
+		<RefName>casino_blackjack_playerhand</RefName>
+		<Content>YOUR HAND:</Content>
+	</String>
+	<String>
+		<RefName>casino_ceelo_dealerrolls</RefName>
+		<Content>DEALER ROLLS:</Content>
+	</String>
+	<String>
+		<RefName>casino_ceelo_playerrolls</RefName>
+		<Content>YOUR ROLLS:</Content>
+	</String>		
+	<String>
+		<RefName>casino_blackjack_prompt</RefName>
+		<Content>What'll it be, chum?</Content>
+	</String>
+	<String>
+		<RefName>casino_blackjack_max</RefName>
+		<Content>That's... #cg#that's not fair#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>casino_instant_win</RefName>
+		<Content>INSTANT WIN!</Content>
+	</String>
+	<String>
+		<RefName>casino_instant_lose</RefName>
+		<Content>INSTANT LOSE!</Content>
+	</String>	
+	<String>
+		<RefName>casino_score</RefName>
+		<Content>SCORE:</Content>
+	</String>
+	<String>
+		<RefName>casino_ceelo_reroll</RefName>
+		<Content>(Must reroll!)</Content>
+	</String>
+	<String>
+		<RefName>casino_ceelo_dice_off_table</RefName>
+		<Content>DICE OFF TABLE!</Content>
+	</String>	
+	<String>
+		<RefName>ui_job_locked</RefName>
+		<Content>#cy#You have not yet unlocked this job!#ec#</Content>
+	</String>
+	<String>
+		<RefName>ui_feat_locked</RefName>
+		<Content>Feat not yet unlocked!</Content>
+	</String>	
+	<String>
+		<RefName>misc_feats_plural</RefName>
+		<Content>Feats</Content>
+	</String>
+	<String>
+		<RefName>log_job_unlocked</RefName>
+		<Content>#cy#You have unlocked the #ec##cg#^tag1^#ec##cy# job!#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_feat_unlocked</RefName>
+		<Content>#cy#You have unlocked the #ec##cc#^tag1^#ec##cy# character feat!#ec#</Content>
+	</String>	
+	<String>
+		<RefName>ui_skillsheet_header_leftcolumn</RefName>
+		<Content>^tag1^ Abilities</Content>
+	</String>
+	<String>
+		<RefName>ui_skillsheet_header_rightcolumn</RefName>
+		<Content>Innate Abilities</Content>
+	</String>	
+	<String>
+		<RefName>ui_skillsheet_learnabilities</RefName>
+		<Content>Learn Abilities</Content>
+	</String>
+	<String>
+		<RefName>ui_skillsheet_setabilities</RefName>
+		<Content>Slot Abilities</Content>
+	</String>	
+	<String>
+		<RefName>ui_skillsheet_monsterabilities</RefName>
+		<Content>Monster Abilities</Content>
+	</String>	
+	<String>
+		<RefName>ui_misc_viewall</RefName>
+		<Content>View All</Content>
+	</String>
+	<String>
+		<RefName>log_bigmode</RefName>
+		<Content>#cy#BIG MODE!#ec# Every monster is now #cg#very big#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_spinmode</RefName>
+		<Content>An #cc#echoing voice#ec# says, #cy#"Let's go for a ride!"#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_costumeparty</RefName>
+		<Content>#cy#COSTUME PARTY!#ec# Every monster is wearing #cc#a random costume#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>dialog_grove_harvest</RefName>
+		<Content>Since your last visit, your trees have produced #cy#^tag1^#ec# goods. Do you want to #cc#harvest all goods#ec# directly to your inventory?</Content>
+	</String>
+	<String>
+		<RefName>log_tree_chop</RefName>
+		<Content>With a mighty swing, the #cg#tree#ec# comes crashing down!</Content>
+	</String>
+	<String>
+		<RefName>misc_chop_down</RefName>
+		<Content>Chop It Down</Content>
+	</String>
+	<String>
+		<RefName>misc_cooldown_abbreviation</RefName>
+		<Content>CD</Content>
+	</String>
+	<String>
+		<RefName>misc_cooldown_remaining</RefName>
+		<Content>CD Left</Content>
+	</String>	
+	<String>
+		<RefName>misc_echoes_required</RefName>
+		<Content>Echoes Needed</Content>
+	</String>
+	<String>
+		<RefName>stat_strength_desc</RefName>
+		<Content>Your physical power, hardiness, and constitution.</Content>
+	</String>
+	<String>
+		<RefName>misc_base_melee_power</RefName>
+		<Content>Base Melee Pwr</Content>
+	</String>
+	<String>
+		<RefName>misc_dagger_damage</RefName>
+		<Content>Dagger Damage</Content>
+	</String>
+	<String>
+		<RefName>misc_physical_defense</RefName>
+		<Content>Physical Defense</Content>
+	</String>	
+	<String>
+		<RefName>stat_swiftness_desc</RefName>
+		<Content>Your dexterity, reflexes, and overall speed.</Content>
+	</String>
+	<String>
+		<RefName>misc_base_ranged_power</RefName>
+		<Content>Base Ranged Pwr</Content>
+	</String>
+	<String>
+		<RefName>misc_crit_damage</RefName>
+		<Content>Crit Damage</Content>
+	</String>
+	<String>
+		<RefName>misc_ct_gain</RefName>
+		<Content>CT Gain</Content>
+	</String>
+	<String>
+		<RefName>stat_spirit_desc</RefName>
+		<Content>Your attunement to Flow and your own inner Qi.</Content>
+	</String>
+	<String>
+		<RefName>misc_staff_damage</RefName>
+		<Content>Staff Damage</Content>
+	</String>
+	<String>
+		<RefName>misc_powerup_healing</RefName>
+		<Content>Powerup Healing</Content>
+	</String>
+	<String>
+		<RefName>stat_discipline_desc</RefName>
+		<Content>Your mental fortitude, willpower, and focus.</Content>
+	</String>
+	<String>
+		<RefName>misc_elemental_resist</RefName>
+		<Content>Elemental Resist</Content>
+	</String>
+	<String>
+		<RefName>misc_buff_duration</RefName>
+		<Content>Buff Duration</Content>
+	</String>
+	<String>
+		<RefName>misc_pet_health</RefName>
+		<Content>Pet Health</Content>
+	</String>
+	<String>
+		<RefName>stat_discipline_guile</RefName>
+		<Content>Your ability to spot opportunities and act unpredictably.</Content>
+	</String>
+	<String>
+		<RefName>misc_basedamage</RefName>
+		<Content>Base Damage</Content>
+	</String>	
+	<String>
+		<RefName>ui_misc_healovertime_description</RefName>
+		<Content>Restores ^tag1^ ^tag2^ over ^tag3^ turns.</Content>
+	</String>
+	<String>
+		<RefName>ui_misc_healinstant_description</RefName>
+		<Content>Restores ^tag1^ ^tag2^</Content>
+	</String>	
+	<String>
+		<RefName>desc_battle_power</RefName>
+		<Content>Base damage dealt with attacks, as well as many abilities.</Content>
+	</String>
+	<String>
+		<RefName>desc_spirit_power</RefName>
+		<Content>Base damage dealt by many abilities and status effects.</Content>
+	</String>	
+	<String>
+		<RefName>desc_critical_chance</RefName>
+		<Content>Chance to deal bonus damage with regular physical attacks. Depending on your weapon, crits may have a bonus effect.</Content>
+	</String>
+	<String>
+		<RefName>desc_chargetime</RefName>
+		<Content>Extra charge generated per turn. When you hit 100, you get a free turn where monsters don't move.</Content>
+	</String>
+	<String>
+		<RefName>desc_powerup_drop</RefName>
+		<Content>Base chance for monsters to drop a powerup. Decreases at range. Powerups instantly restore Energy or Stamina.</Content>
+	</String>	
+	<String>
+		<RefName>desc_boost_alldamage</RefName>
+		<Content>Increased damage dealt by ALL attacks, effects, and abilities. This stacks with individual element damage bonuses.</Content>
+	</String>
+	<String>
+		<RefName>desc_boost_alldefense</RefName>
+		<Content>Your resistance to ALL damage, no matter the type or source. This stacks with individual element resists.</Content>
+	</String>
+  <String>
+    <RefName>desc_health</RefName>
+    <Content>Your ability to withstand wounds taken in battle. Should it reach zero, your adventure will end.</Content>
+  </String>
+  <String>
+    <RefName>desc_health_softcore</RefName>
+    <Content>Your ability to withstand wounds taken in battle. Should it reach zero, you will fall unconscious and be returned to Riverstone.</Content>
+  </String>
+  <String>
+    <RefName>desc_health_ironman</RefName>
+    <Content>Your ability to withstand wounds taken in battle. Should it reach zero, your adventure and the campaign will end.</Content>
+  </String>
+  <String>
+    <RefName>desc_stamina</RefName>
+    <Content>A resource used to power most physical and movement-based abilities. Restore it with food, potions, and powerups spawned in battle.</Content>
+  </String>
+  <String>
+    <RefName>desc_energy</RefName>
+    <Content>A resource used to power most elemental and magic abilities. Restore it with food, potions, and powerups spawned in battle.</Content>
+  </String>
+  <String>
+    <RefName>desc_crit_damage</RefName>
+    <Content>Additional damage dealt when you score a critical hit. Abilities deal less crit damage than basic attacks.</Content>
+  </String>
+  <String>
+    <RefName>desc_parry</RefName>
+    <Content>The chance you will deflect a melee attack with your weapon, avoiding all damage. This chance is #cy#halved#ec# against #cc#ranged#ec# attacks.</Content>
+  </String>
+  <String>
+    <RefName>desc_block_chance</RefName>
+    <Content>The chance you will block an incoming attack. Blocking usually requires a shield. </Content>
+  </String>
+  <String>
+    <RefName>desc_dodge_chance</RefName>
+    <Content>The chance you will dodge an incoming attack, avoiding all damage.</Content>
+  </String>
+  <String>
+    <RefName>desc_element_physical</RefName>
+    <Content>Your ability to deal additional Physical#elementicon# damage, and resist incoming physical damage. Physical#elementicon# damage is usually dealt via weapons and a monster's claws or teeth.</Content>
+  </String>
+  <String>
+    <RefName>desc_element_fire</RefName>
+    <Content>Your attunement to Fire#elementicon# as defined by the amount of damage you resist and extra damage you deal. Fire#elementicon# damage is usually delivered via abilities or enchanted weapons.</Content>
+  </String>
+  <String>
+    <RefName>desc_element_poison</RefName>
+    <Content>Your attunement to Poison#elementicon# as defined by the amount of damage you resist and extra damage you deal. Poison#elementicon# damage is usually delivered via abilities or enchanted weapons.</Content>
+  </String>
+  <String>
+    <RefName>desc_element_water</RefName>
+    <Content>Your attunement to Water#elementicon# as defined by the amount of damage you resist and extra damage you deal. Water#elementicon# damage is usually delivered via abilities or enchanted weapons.</Content>
+  </String>
+  <String>
+    <RefName>desc_element_lightning</RefName>
+    <Content>Your attunement to Lightning#elementicon# as defined by the amount of damage you resist and extra damage you deal. Lightning#elementicon# damage is usually delivered via abilities or enchanted weapons.</Content>
+  </String>
+  <String>
+    <RefName>desc_element_shadow</RefName>
+    <Content>Your attunement to Shadow#elementicon# as defined by the amount of damage you resist and extra damage you deal. Shadow#elementicon# damage is usually delivered via abilities or enchanted weapons.</Content>
+  </String>
+  <String>
+    <RefName>desc_highest_floor</RefName>
+    <Content>The deepest floor that #heroname# has explored in Tangledeep.</Content>
+  </String>
+  <String>
+    <RefName>desc_highest_floor_ever</RefName>
+    <Content>The deepest floor ever explored by adventurers in your current campaign.</Content>
+  </String>
+  <String>
+    <RefName>desc_days_passed</RefName>
+    <Content>The number of in-game days that have passed since the start of the campaign. Most shops and the Orchard in Riverstone will update as the days pass.</Content>
+  </String>
+  <String>
+    <RefName>desc_monsters_killed</RefName>
+    <Content>The number of monsters #heroname# has defeated in battle.</Content>
+  </String>
+  <String>
+    <RefName>desc_champs_killed</RefName>
+    <Content>The number of Champion monsters #heroname# has defeated in battle.</Content>
+  </String>
+  <String>
+    <RefName>desc_steps_taken</RefName>
+    <Content>The number of steps #heroname# has taken on her adventures.</Content>
+  </String>
+  <String>
+    <RefName>desc_favorite_job</RefName>
+    <Content>The job that #heroname# favors most based on your choices.</Content>
+  </String>
+  <String>
+    <RefName>desc_total_characters</RefName>
+    <Content>The total number of adventurers you have created in this campaign.</Content>
+  </String>
+  <String>
+    <RefName>desc_playtime</RefName>
+    <Content>Total time played on this campaign.</Content>
+  </String>
+  <String>
+    <RefName>desc_pandora_boxes</RefName>
+    <Content>The number of Pandora's Chests that #heroname# has opened. Each opened box increases the difficulty of monsters in Tangledeep!</Content>
+  </String>
+  <String>
+		<RefName>misc_free_exciting</RefName>
+		<Content>FREE!</Content>
+	</String>
+	<String>
+		<RefName>ui_current_gear</RefName>
+		<Content>Currently Equipped Gear</Content>
+	</String>
+	<String>
+		<RefName>misc_newitem_changes</RefName>
+		<Content>New Item Changes</Content>
+	</String>
+	<String>
+		<RefName>misc_quest_heard</RefName>
+		<Content>Tell Me!</Content>
+	</String>
+	<String>
+		<RefName>dialog_healmeplease</RefName>
+		<Content>Heal Me Please</Content>
+	</String>
+	<String>
+		<RefName>dialog_changejob</RefName>
+		<Content>Change My Job</Content>
+	</String>
+	<String>
+		<RefName>dialog_blessingofwisdom</RefName>
+		<Content>Blessing of Wisdom</Content>
+	</String>
+	<String>
+		<RefName>dialog_blessingofmastery</RefName>
+		<Content>Blessing of Mastery</Content>
+	</String>
+	<String>
+		<RefName>dialog_blessingofpower</RefName>
+		<Content>Blessing of Power</Content>
+	</String>
+	<String>
+		<RefName>dialog_blessingofprotection</RefName>
+		<Content>Blessing of Protection</Content>
+	</String>			
+	<String>
+		<RefName>prompt_saveslot_newcharacter</RefName>
+		<Content>Select a save slot to use for your #cy#new character#ec#.</Content>
+	</String>
+	<String>
+		<RefName>prompt_selectanotherslot</RefName>
+		<Content>Select Another Slot</Content>
+	</String>
+	<String>
+		<RefName>warning_existingdata</RefName>
+		<Content>#cr##big#THIS SLOT HAS CHARACTER DATA IN IT!#endbig##ec#&#xA;&#xA;#cy#Are your SURE you want to start a new game and#ec# #cr#OVERWRITE#ec# #cy#this character?!&#xA;&#xA;(Meta progress #cy#will not be erased#ec#.)&#xA;</Content>
+	</String>
+	<String>
+		<RefName>prompt_confirm_overwrite</RefName>
+		<Content>YES, Overwrite Character in Slot ^tag1^</Content>		
+	</String>
+	<String>
+		<RefName>prompt_saveslot_clear</RefName>
+		<Content>Select which save data you would like to #cy#clear#ec#.</Content>		
+	</String>
+	<String>
+		<RefName>prompt_saveslot_continue</RefName>
+		<Content>Select which saved game you would like to #cy#continue#ec#.</Content>		
+	</String>	
+	<String>
+		<RefName>misc_saveslot_info</RefName>
+		<Content>#cc#SAVE SLOT ^tag1^#ec#:</Content>
+	</String>
+	<String>
+		<RefName>misc_nocharacterdata</RefName>
+		<Content>NO CHARACTER DATA</Content>
+	</String>
+	<String>
+		<RefName>misc_nodataatall</RefName>
+		<Content>NO DATA</Content>
+	</String>
+	<String>
+		<RefName>misc_pulled</RefName>
+		<Content>PULLED!</Content>
+	</String>
+	<String>
+		<RefName>log_switch_weapon_fists</RefName>
+		<Content>Switched #cy#weapon#ec# to #cy#your fists#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_switch_weapon</RefName>
+		<Content>Switched #cy#weapon#ec# to ^tag1^!</Content>
+	</String>	
+	<String>
+		<RefName>ui_options_resolution</RefName>
+		<Content>Resolution</Content>
+	</String>
+	<String>
+		<RefName>ui_options_deadzone</RefName>
+		<Content>Button Dead Zone</Content>
+	</String>	
+	<String>
+		<RefName>ui_options_framecap</RefName>
+		<Content>Frame Cap</Content>
+	</String>
+	<String>
+		<RefName>ui_options_textspeed</RefName>
+		<Content>Text Speed</Content>
+	</String>
+	<String>
+		<RefName>ui_options_battletextspeed</RefName>
+		<Content>Battle Text</Content>
+	</String>
+	<String>
+		<RefName>ui_options_cursorrepeatdelay</RefName>
+		<Content>Cursor Repeat Delay</Content>
+	</String>
+	<String>
+		<RefName>misc_milliseconds_abbreviation</RefName>
+		<Content>ms</Content>
+	</String>
+	<String>
+		<RefName>Cursor Repeat Delay</RefName>
+		<Content>Battle Text</Content>
+	</String>	
+	<String>
+		<RefName>misc_speed_0</RefName>
+		<Content>Slow</Content>
+	</String>
+	<String>
+		<RefName>misc_speed_1</RefName>
+		<Content>Medium</Content>
+	</String>		
+	<String>
+		<RefName>misc_speed_2</RefName>
+		<Content>Fast</Content>
+	</String>		
+	<String>
+		<RefName>misc_speed_3</RefName>
+		<Content>Very Fast</Content>
+	</String>		
+	<String>
+		<RefName>misc_speed_instant</RefName>
+		<Content>Instant</Content>
+	</String>
+	<String>
+		<RefName>ui_select_hotbar_skill</RefName>
+		<Content>Select a skill on the hotbar.</Content>
+	</String>	
+	<String>
+		<RefName>misc_combo</RefName>
+		<Content>Combo</Content>
+	</String>
+	<String>
+		<RefName>misc_protected</RefName>
+		<Content>Protected</Content>
+	</String>
+	<String>
+		<RefName>skill_bomber</RefName>
+		<Content>Bomber</Content>
+	</String>
+	<String>
+		<RefName>misc_ranged_attack</RefName>
+		<Content>Ranged Attack</Content>
+	</String>
+	<String>
+		<RefName>misc_ranged_attack_desc</RefName>
+		<Content>Attack with ranged weapon.</Content>
+	</String>
+	<String>
+		<RefName>misc_dungeon_name</RefName>
+		<Content>The Dungeon</Content>
+	</String>
+	<String>
+		<RefName>ui_item_partofset</RefName>
+		<Content>Part of Set</Content>
+	</String>
+	<String>
+		<RefName>stat_dodge</RefName>
+		<Content>Dodge</Content>
+	</String>
+	<String>
+		<RefName>ui_armordefense_desc</RefName>
+		<Content>^tag1^ Physical Res, ^tag2^ Phys Dmg Taken</Content>
+	</String>
+	<String>
+		<RefName>misc_weaponpower_short</RefName>
+		<Content>Power</Content>
+	</String>
+	<String>
+		<RefName>misc_generic_damage</RefName>
+		<Content>Damage</Content>		
+	</String>
+	<String>
+		<RefName>misc_generic_defense</RefName>
+		<Content>Defense</Content>
+	</String>
+	<String>
+		<RefName>misc_nothing</RefName>
+		<Content>Nothing</Content>
+	</String>
+	<String>
+		<RefName>ui_button_job</RefName>
+		<Content>Job</Content>
+	</String>
+	<String>
+		<RefName>ui_button_sortaz</RefName>
+		<Content>A-Z</Content>
+	</String>
+	<String>
+		<RefName>ui_button_equipped</RefName>
+		<Content>Equipped</Content>
+	</String>	
+	<String>
+		<RefName>ui_passive_abilities</RefName>
+		<Content>Support Abilities</Content>
+	</String>
+	<String>
+		<RefName>ui_cooking_recipe</RefName>
+		<Content>Recipe</Content>
+	</String>
+	<String>
+		<RefName>misc_craft_requires</RefName>
+		<Content>Requires</Content>
+	</String>
+	<String>
+		<RefName>cooked_food</RefName>
+		<Content>#cg#Success!#cg# You cooked: #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>misc_gold</RefName>
+		<Content>gold</Content>
+	</String>
+	<String>
+		<RefName>quest_desc_elemental_slay</RefName>
+		<Content>I have a challenge for you. Defeat ^tag1^ #cg#^tag2^#ec# using the power of ^tag3^. You only need to land the #cy#finishing blow#ec# with that element.</Content>
+	</String>
+	<String>
+		<RefName>quest_title_slaymon</RefName>
+		<Content>#cr#Defeat ^tag1^!#ec#</Content>
+	</String>
+	<String>
+		<RefName>quest_desc_slaymon</RefName>
+		<Content>^tag1^ is terrorizing #cy#^tag2^#ec#. End their evil reign once and for all!</Content>
+	</String>
+	<String>
+		<RefName>quest_near_location</RefName>
+		<Content>#cy#^tag1^#ec# near #cg#^tag2^#ec#</Content>
+	</String>
+	<String>
+		<RefName>quest_rewards_consumablepack</RefName>
+		<Content>A pack of restorative items</Content>
+	</String>
+	<String>
+		<RefName>log_reward_itempack</RefName>
+		<Content>You receive a #cg#pack of restorative items#ec#: #cy#^tag1^#ec#</Content>
+	</String>
+	<String>
+		<RefName>misc_celebrate</RefName>
+		<Content>Hooray!</Content>
+	</String>
+	<String>
+		<RefName>misc_completed_quest</RefName>
+		<Content>Completed Quest</Content>
+	</String>
+	<String>
+		<RefName>eq_armortype_light</RefName>
+		<Content>Light Armor</Content>
+	</String>
+	<String>
+		<RefName>eq_armortype_medium</RefName>
+		<Content>Medium Armor</Content>
+	</String>
+	<String>
+		<RefName>eq_armortype_heavy</RefName>
+		<Content>Heavy Armor</Content>
+	</String>		
+	<String>
+		<RefName>log_monsters_remaining</RefName>
+		<Content>Monsters Remaining: #cy#^tag1^#ec#.</Content>
+	</String>
+	<String>
+		<RefName>charsheet_tab1</RefName>
+		<Content>CORE STATS</Content>
+	</String>
+	<String>
+		<RefName>charsheet_tab2</RefName>
+		<Content>ADVENTURE</Content>
+	</String>	
+	<String>
+		<RefName>log_throw_gold</RefName>
+		<Content>You throw #cy#^tag1^g#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_nocampfireportal</RefName>
+		<Content>You #cr#can't use your portal#ec# here...</Content>
+	</String>
+	<String>
+		<RefName>log_sacrifice_level_forgoods</RefName>
+		<Content>Percy #cr#removes one experience level#ec# from you, and showers you with #cy#healing items and Flask charges#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_confidence_buff</RefName>
+		<Content>#cy#Your confidence surges, and your #ec##cg#^tag1^#ec##cy# increases!</Content>
+	</String>
+	<String>
+		<RefName>monsterpedia_stats1</RefName>
+		<Content>Base Level: #cy#^tag1^#ec#&#xA;Family: #cg#^tag2^#ec#&#xA;</Content>
+	</String>
+	<String>
+		<RefName>monsterpedia_stats2</RefName>
+		<Content>Number Defeated: #cy#^tag1^#ec#&#xA;&#xA;</Content>
+	</String>
+	<String>
+		<RefName>monsterpedia_stats3</RefName>
+		<Content>Base Health: #cy#^tag1^#ec#&#xA;Highest Stat: #cy#^tag2^#ec# (^tag3^)&#xA;Aggro Range: #cy#^tag4^#ec#&#xA;&#xA;</Content>
+	</String>			
+	<String>
+		<RefName>monsterpedia_stats4</RefName>
+		<Content>Weapon Power: #cr#^tag1^#ec#&#xA;Abilities: #cc#^tag2^#ec#&#xA;&#xA;</Content>
+	</String>	
+	<String>
+		<RefName>monsterpedia_stats5</RefName>
+		<Content>Attributes: ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>monsterpedia_playerlearn</RefName>
+		<Content>Wild Child Skill: #cy#^tag5^#ec#</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_alwaysmoveabils</RefName>
+		<Content>Always Jumps</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_berserker</RefName>
+		<Content>Berserker</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_callforhelp</RefName>
+		<Content>Calls For Help</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_cantact</RefName>
+		<Content>Cannot Act</Content>
+	</String>	
+	<String>
+		<RefName>monster_attr_cantattack</RefName>
+		<Content>Cannot Attack</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_combinable</RefName>
+		<Content>Combines With Others</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_flying</RefName>
+		<Content>Flying</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_greedy</RefName>
+		<Content>Greedy</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_healer</RefName>
+		<Content>Healer</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_lazy</RefName>
+		<Content>Lazy</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_startasleep</RefName>
+		<Content>Sleepy</Content>
+	</String>			
+	<String>
+		<RefName>monster_attr_lovesbattles</RefName>
+		<Content>Attracted To Noise</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_loveslava</RefName>
+		<Content>Immune to Lava</Content>
+	</String>	
+	<String>
+		<RefName>monster_attr_lovesmud</RefName>
+		<Content>Immune to Mud</Content>
+	</String>	
+	<String>
+		<RefName>monster_attr_loveselec</RefName>
+		<Content>Immune to Electric Tiles</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_predator</RefName>
+		<Content>Prefers Low Health Targets</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_pacifist</RefName>
+		<Content>Pacifist</Content>
+	</String>		
+	<String>
+		<RefName>monster_attr_ronin</RefName>
+		<Content>Likes to Wander</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_sniper</RefName>
+		<Content>Fights at Range</Content>
+	</String>	
+	<String>
+		<RefName>monster_attr_stalker</RefName>
+		<Content>Hunts At Distance</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_supporter</RefName>
+		<Content>Supports Other Monsters</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_gangsup</RefName>
+		<Content>Prefers To Attack In Groups</Content>
+	</String>
+	<String>
+		<RefName>monster_attr_timid</RefName>
+		<Content>Runs At Low Health</Content>
+	</String>		
+	<String>
+		<RefName>log_fill_flask</RefName>
+		<Content>You fill up your flask with #cy#healing water#ec#.</Content>
+	</String>
+	<String>
+		<RefName>misc_filled_flask</RefName>
+		<Content>FILLED FLASK</Content>
+	</String>
+	<String>
+		<RefName>log_heal_jpcost_toohigh</RefName>
+		<Content>You #cr#don't have enough JP#ec# for Percy's healing services.</Content>
+	</String>
+	<String>
+		<RefName>log_heal_goldcost_toohigh</RefName>
+		<Content>You #cr#don't have enough gold#ec# for Percy's healing services.</Content>
+	</String>	
+	<String>
+		<RefName>ui_pet_combat_bonus</RefName>
+		<Content>Combat Bonus</Content>
+	</String>
+	<String>
+		<RefName>ui_pet_resist_bonus</RefName>
+		<Content>Elemental Resistance</Content>
+	</String>	
+	<String>
+		<RefName>monsterpedia_default_text</RefName>
+		<Content>Defeat monsters to learn more about them! The more of each monster type you defeat, the more information will be revealed.</Content>
+	</String>
+	<String>
+		<RefName>log_lifesap_dmg</RefName>
+		<Content>#co#^tag1^#ec# saps #cy#^tag4^#ec# (#cr#^tag2^#ec#) of #cc#^tag3^'s#ec# current Health!</Content>
+	</String>
+	<String>
+		<RefName>log_pet_automove</RefName>
+		<Content>#cy#^tag1^#ec# appears next to you in a poof of smoke!</Content>
+	</String>
+	<String>
+    		<RefName>ui_options_music_volume</RefName>
+    		<Content>Music Volume: ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>ui_options_sfx_volume</RefName>
+		<Content>SFX Volume: ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>ui_options_footsteps_volume</RefName>
+	    	<Content>Footsteps Volume: ^tag1^</Content>
+	</String>
+	<String>
+		<RefName>log_notenoughorbs_modify</RefName>
+		<Content>You #cr#don't have enough Orbs of Reverie#ec# for that item modification. (You need at least #cy#^tag1^#ec# orbs.)</Content>
+	</String>
+
+	<String>
+		<RefName>log_error_bank_maxitems</RefName>
+		<Content>You're already at the #cr#bank storage limit#ec#: #cy#^tag1^ items#ec#.</Content>
+	</String>
+
+	<String>
+		<RefName>log_error_bankupgrade_nogold</RefName>
+		<Content>"Erm, I'm sorry sir, but you #cr#don't have enough gold#ec# for a storage upgrade."</Content>
+	</String>
+
+	<String>
+		<RefName>log_bank_storage_upgrade</RefName>
+		<Content>Your #cy#item storage limit#ec# has been upgraded from #cy#^tag1^#ec# to #cg#^tag2^ items#ec#!</Content>
+	</String>
+	<String>
+		<RefName>foodcart_heading</RefName>
+		<Content>#cy#Local Market Trends#ec#</Content>
+	</String>
+	<String>
+		<RefName>foodcart_demand</RefName>
+		<Content>#cg#Popular Food#ec#: ^tag2^</Content>
+	</String>
+	<String>
+		<RefName>foodcart_price</RefName>
+		<Content>#cg#Market Price#ec#: #cy#^tag2^#ec#</Content>
+	</String>	
+	<String>
+		<RefName>foodcart_sales</RefName>
+		<Content>#cy#PROFIT!#ec# Earned **#cy#^tag2^g#ec#** from the sale of #cy#^tag3^#ec# food items. (Remember to #cg#restock the cart#ec#!)</Content>
+	</String>
+
+	<String>
+		<RefName>dialog_strange_itemdream</RefName>
+		<Content>#cr#WARNING#ec#: Anomalous energy readings detected. Dream generated from #cy#unknown source#ec#. Severe caution advised.</Content>
+	</String>
+
+	<String>
+		<RefName>misc_mud_effect</RefName>
+		<Content>chance to root on step</Content>
+	</String>
+	<String>
+		<RefName>misc_lava_effect</RefName>
+		<Content>heavy fire damage on step</Content>
+	</String>
+	<String>
+		<RefName>misc_water_effect</RefName>
+		<Content>increases ranged dodge</Content>
+	</String>	
+	<String>
+		<RefName>misc_electric_effect</RefName>
+		<Content>causes paralysis on step</Content>
+	</String>	
+	<String>
+		<RefName>log_deadlyvoid_dmg</RefName>
+		<Content>The #cr#Deadly Void#ec# hits you for #cy#^tag1^#ec# damage!</Content>
+	</String>
+
+	<String>
+		<RefName>log_skipturn_equip</RefName>
+		<Content>You spend a turn #cy#changing equipment#ec#...</Content>
+	</String>
+
+	<String>
+		<RefName>misc_rescue</RefName>
+		<Content>Pet Rescued</Content>
+	</String>	
+	<String>
+		<RefName>misc_shop_single</RefName>
+		<Content>#cy#SALE VALUE: ^tag1^g#ec#</Content>
+	</String>
+	<String>
+		<RefName>misc_shop_stack</RefName>
+		<Content>#cy#SALE VALUE: ^tag1^g (Each), ^tag2^g (All)#ec#</Content>
+	</String>	
+	<String>
+		<RefName>itemtype_consumable</RefName>
+		<Content>Consumable</Content>
+	</String>
+	<String>
+		<RefName>log_error_jobtrial_passives</RefName>
+		<Content>Before attempting the #cg#Job Trial#ec#, you must first unequip #cr#all passives#ec# not learned from your current job!</Content>
+	</String>	
+	<String>
+		<RefName>log_error_jobtrial_consumable</RefName>
+		<Content>You #cr#CANNOT#ec# use any more items during your #cy#^tag1^#ec# #cg#Job Trial#ec#!</Content>
+	</String>
+	<String>
+		<RefName>log_error_jobtrial_changejob</RefName>
+		<Content>You #cr#CANNOT#ec# change jobs during your #cy#^tag1^#ec# #cg#Job Trial#ec#!</Content>
+	</String>	
+	<String>
+		<RefName>log_error_jobtrial_ability</RefName>
+		<Content>You #cr#CANNOT#ec# use this ability during your #cy#^tag1^#ec# #cg#Job Trial#ec#!</Content>
+	</String>
+
+	<String>
+		<RefName>log_error_jobtrial_jp</RefName>
+		<Content>You need #cr#^tag1^ more#ec# JP to attempt the #cg#Job Trial#ec#!</Content>
+	</String>
+
+	<String>
+		<RefName>log_jobtrial_consumable_count</RefName>
+		<Content>#cy#Consumables Used During#ec# #cg#Job Trial#ec#: ^tag1^ / ^tag2^</Content>
+	</String>
+	<String>
+		<RefName>log_failed_trial</RefName>
+		<Content>You have #cr#FAILED#ec# your #cy#^tag1^#ec# #cg#Job Trial#ec#...</Content>
+	</String>		
+	<String>
+		<RefName>jobtrial_requirements_0</RefName>
+		<Content>** #cy#Find and destroy all 4 #ec##cc#Trial Crystals#ec##cy#!#ec# **</Content>
+	</String>
+	<String>
+		<RefName>jobtrial_requirements_1</RefName>
+		<Content>** #cy#Defeat ALL #ec##cr#monsters#ec##cy# roaming the arena!#ec# **</Content>
+	</String>	
+	<String>
+		<RefName>jobtrial_requirements_2</RefName>
+		<Content>** #cy#Defeat ALL #ec##cr#monsters#ec##cy# roaming the first floor!#ec# **&#xA;** #cy#Find the #ec##cg#Trial Relic#ec##cy# on the second floor, then return to the first!#ec# **</Content>
+	</String>	
+	<String>
+		<RefName>misc_item_bound</RefName>
+		<Content>#cy#This item cannot be dropped, banked, or sold.#ec#</Content>
+	</String>
+	<String>
+		<RefName>log_addemblem_power</RefName>
+		<Content>Your ^tag1^ shimmers with increased power!</Content>
+	</String>
+
+	<String>
+		<RefName>log_pet_healtofull_recycle</RefName>
+		<Content>Your pet #cg#^tag1^#ec# is filled with determination!</Content>
+	</String>
+
+	<String>
+		<RefName>log_status_reflected</RefName>
+		<Content>#co#^tag2^'s#ec# #cc#Emblem#ec# reflects the status effect!</Content>
+	</String>
+
+	<String>
+		<RefName>misc_reflected</RefName>
+		<Content>Reflected</Content>
+	</String>
+
+	<String>
+		<RefName>itemdream_property_monstertype</RefName>
+		<Content>Encounter more monsters of type ^tag1^</Content>
+	</String>
+</DOCUMENT>
+
+

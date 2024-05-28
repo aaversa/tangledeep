@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+
+	<StatusEffect>
+		<RefName>status_playermadestatus1</RefName>
+		<DisplayName>This is the displayname</DisplayName>
+		<Description>This is the description</Description>
+		<CombatLogText>This is the log text</CombatLogText>
+		<ShowIcon>1</ShowIcon>
+		<StatusIconRef>SkillIcons_81</StatusIconRef>
+		<RefreshDurationOnCast>1</RefreshDurationOnCast>
+		<DurStatus>
+			<TURNEND>1</TURNEND>
+		</DurStatus>
+		<IsPositive>1</IsPositive>
+	</StatusEffect>
+
+</DOCUMENT>

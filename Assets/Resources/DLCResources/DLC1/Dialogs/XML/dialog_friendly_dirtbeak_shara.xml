@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Dialog>
+		<RefName>dialog_friendly_dirtbeak_shara</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+
+		<TextBranch>
+			<AlternateBranch>
+				<AltBranchRef>intro_postboss1</AltBranchRef>
+				<BranchReqFlag>boss1fight</BranchReqFlag>
+				<BranchReqFlagValue>3</BranchReqFlagValue>
+			</AlternateBranch>
+
+			<BranchName>intro</BranchName>
+			<ShowFace>DirtbeakPortrait</ShowFace>
+			<Text>dialog_friendly_dirtbeak_shara_1</Text>
+			<Button>
+				<Name>dialog_friendly_dirtbeak_shara_1_response</Name>
+				<BranchRef>dirtbeak_whine</BranchRef>
+			</Button>
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>dirtbeak_whine</BranchName>
+			<ShowFace>DirtbeakPortrait</ShowFace>
+			<Text>dialog_friendly_dirtbeak_shara_2</Text>
+			<Button>
+				<Name>dialog_friendly_dirtbeak_shara_2_response</Name>
+				<BranchRef>dirtbeak_whine2</BranchRef>
+			</Button>
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>dirtbeak_whine2</BranchName>
+			<ShowFace>DirtbeakPortrait</ShowFace>
+			<Text>dialog_friendly_dirtbeak_shara_3</Text>
+			<Button>
+				<Name>dialog_friendly_dirtbeak_shara_3_response</Name>
+				<BranchRef>shara_response1</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>shara_response1</BranchName>
+			<ShowFace>SharaPortrait</ShowFace>
+			<Text>dialog_friendly_dirtbeak_shara_4</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>dirtbeak_ready</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>dirtbeak_ready</BranchName>
+			<ShowFace>DirtbeakPortrait</ShowFace>
+			<Text>dialog_friendly_dirtbeak_shara_5</Text>
+			<Button>
+				<Name>(more)</Name>
+				<BranchRef>shara_response2</BranchRef>
+			</Button>
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>shara_response2</BranchName>
+			<ShowFace>SharaPortrait</ShowFace>
+			<AddPlayerFlag>
+                <FlagName>exp_friendlydirtbeak1_talk</FlagName>
+                <FlagValue>1</FlagValue>					
+			</AddPlayerFlag>
+
+			<Text>dialog_friendly_dirtbeak_shara_6</Text>
+			<Button>
+				<Name>(close)</Name>
+				<DialogEventScript>FadeAndRemoveDirtbeakFromMap</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>
+		</TextBranch>	
+
+		<!-- Jump to this if talking to Dirtbeak after the fight -->
+
+		<TextBranch>
+			<BranchName>intro_postboss1</BranchName>
+			<ShowFace>DirtbeakPortrait</ShowFace>
+			<Text>dialog_friendly_dirtbeak_shara_7</Text>
+			<Button>
+				<Name>(close)</Name>
+				<BranchRef>exit</BranchRef>
+			</Button>	
+		</TextBranch>	
+
+	</Dialog>
+</DOCUMENT>

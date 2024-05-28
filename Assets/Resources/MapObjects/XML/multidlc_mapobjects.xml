@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Destructible>
+		<DName>exp_obj_blackhole_name</DName>
+		<RefName>obj_blackhole</RefName>
+		<Prefab>BlackHole</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_blackhole</StatusRef>
+		<VFX>FervirShadowHit</VFX>
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+	</Destructible>		
+	
+	<Destructible>
+		<DName>des_obj_flameslash_dname</DName>
+		<RefName>obj_axeflameslash</RefName>
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_axeflameslash</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>FireBurst</VFX>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_sludge_dname</DName>
+		<RefName>obj_slowersludge</RefName>
+		<Prefab>AcidTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Spread>ADJACENT</Spread>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_sludgecloud</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>AcidSplash</VFX>
+	</Destructible>		
+
+	<Destructible>
+		<DName>effect_eff_inferno_name</DName>	
+		<RefName>obj_tyrant_staticflame</RefName>
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		<Faction>ENEMY</Faction>
+		
+		<Hvr>1</Hvr>
+		<StatusRef>status_tyrantinferno</StatusRef>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>status_status_spinblade_name</DName>
+		<RefName>obj_spinblade2</RefName>
+		<Prefab>Spin Blade</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_spinblade2</StatusRef>
+		<ShowDirection>1</ShowDirection>
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+		<VFX>MetalPoof</VFX>
+	</Destructible>	
+
+	<Destructible>
+		<DName>exp_enemycaltrops_name</DName>
+		<RefName>obj_moncaltrops</RefName>
+		<Prefab>EnemyCaltrops</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_enemycaltrops</StatusRef>
+		<Hvr>1</Hvr>
+		<VFX>SpikeEffect</VFX>
+	</Destructible>		
+</DOCUMENT>

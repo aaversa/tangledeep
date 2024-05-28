@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000012933720786}
+  m_IsPrefabParent: 1
+--- !u!1 &1000012933720786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013276311026}
+  - component: {fileID: 212000010541221960}
+  - component: {fileID: 114000011798552886}
+  - component: {fileID: 114000011642033808}
+  - component: {fileID: 114114637979188432}
+  m_Layer: 0
+  m_Name: NewItemsDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000013276311026
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012933720786}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.64519, y: 32.51801, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000011642033808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012933720786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08151f98e19a462e9f1bb733aca71cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimations:
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    varyAnimStartTimer: 0
+    animName: Default
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300000, guid: 16e1fe3d428452e47a7b0fa41fa75c06, type: 3}
+      spriteTime: 0.9
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300000, guid: 16e1fe3d428452e47a7b0fa41fa75c06, type: 3}
+      spriteTime: 0.5
+      scale: 1
+      ignoreScale: 0
+      opacity: 0
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  debugRevealData: 0
+  speedMultiplier: 1
+  startRotation: 0
+  animPlaying:
+    enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    varyAnimStartTimer: 0
+    animName: Default
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Stop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: -0.3
+      offsetY: 0.6
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0.4
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300024, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: -0.25
+      offsetY: -0.5
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300024, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      ignoreScale: 0
+      opacity: 0.5
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0.7
+      offsetY: 0.6
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      ignoreScale: 0
+      opacity: 0
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  spriteTimer: 0
+  srFound: 0
+  IsUIElement: 0
+  alphaSetExternally: 0
+  spriteIndex: 0
+  animComplete: 0
+  defaultDirection: 0
+  rotationAngleOffset: 0
+  allFramePosOffset: {x: 0, y: 0}
+  timeAtFrameStart: 0
+  calcGameWaitTime: 0
+  spriteFacingDirection: 0
+  opacityMod: 0
+  hitOrAttackState: 0
+  directionFlippedFromAnimation: 0
+  curSpriteTime: 0
+  updatedAtLeastOnce: 0
+  validAnimationSet: 0
+--- !u!114 &114000011798552886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012933720786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e5f8a0fae7a4945a2eee39c62daf62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useForPoolingOnly: 0
+  refName: NewItemsDisplay
+  onDeathCreateSpriteEffect: 
+  spriteParent: {fileID: 0}
+  followObject: {fileID: 0}
+  onlyExtDestroy: 0
+  animInitialized: 0
+  offset: {x: 0.05, y: 0}
+  baseRotation: 0
+  randomColor: 0
+  stackToTargetLocation: 0
+--- !u!114 &114114637979188432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012933720786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 085e99f48ebd18c41a514bc44e0b55a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &212000010541221960
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012933720786}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: de3ed7f52228a0e4c8e735fd6178c66f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 865565775
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 16e1fe3d428452e47a7b0fa41fa75c06, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1

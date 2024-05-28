@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>
+		<DName>exp_skill_voidshield_displayname</DName>
+		<Rf>status_voidshield</Rf>
+		<Description>exp_status_flowshield_desc</Description>
+		<Icon>SkillIcons_207</Icon>
+		<ISpr>ShadowAura</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<Script_RunOnAdd>SetVoidShieldHealth</Script_RunOnAdd>
+		<DestroyStatusOnRemove>voidshield_destroy_fx</DestroyStatusOnRemove>
+		<DestroyStatusOnRemove>voidshieldbolts</DestroyStatusOnRemove>
+		<DestroyStatusOnAdd>exp_dmgup_25</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>status_flowshield</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>bubbleshield</DestroyStatusOnAdd>
+		<ShowIcon />
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<EffRef>flowshield_eff</EffRef>
+	</SE>
+
+	<SE>
+		<Rf>voidshieldbolts</Rf>
+		<Pos />
+		<ATags>PERTARGETANIM</ATags>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<ERef>randomvoidbolt</ERef>
+			<CanCrit />
+			<Disp>exp_skill_voidbolt_displayname</Disp>
+			<Targ>RANDOMNEARBY</Targ>
+			<RandomTargetRange>3</RandomTargetRange>
+			<DamageType>PHYSICAL</DamageType>
+			<Eq>$AttackerWeaponPower + $AttackerWeaponPower * (1-$AtkHealthPercent)</Eq>
+			<PlayAnimation />
+			<IsProjectile />
+			<AnimLength>0.2</AnimLength>
+			<SpriteEffectRef>ShadowBolt</SpriteEffectRef>
+			<Faction>NOTMYFACTION</Faction>			
+			<ProcChance>0.15</ProcChance>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>voidshield_destroy_fx</Rf>
+		<Pos />		
+		<Run>
+			<ONREMOVE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>voidshield_destroy_fx</ERef>
+			<Sscr>VoidShieldDestroyedEffect</Sscr>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>flowshield_destroy_fx</Rf>
+		<Pos />		
+		<Run>
+			<ONREMOVE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>flowshield_destroy_fx</ERef>
+			<Sscr>FlowShieldDestroyedEffect</Sscr>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>exp_misc_dominated</DName>
+		<Rf>exp_status_dominated</Rf>
+		<Script_RunOnAdd>AddCharmedToSelf</Script_RunOnAdd>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>dominated_transferhealth</ERef>
+			<Disp>exp_skill_dominate_displayname</Disp>
+			<Targ>SELF</Targ>
+			<Sscr>TransferDominatedHealth</Sscr>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>exp_status_truehover</Rf>
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>truehover_reduce_grounddamage</ERef>
+			<Targ>SELF</Targ>
+			<Sscr>TrueHoverReduceGroundDamage</Sscr>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>		
+
+	<SE>
+		<Rf>exp_status_commandingpresence</Rf>		
+		<ATags>PERTARGETANIM</ATags>
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<Script_PreRunConditional>ScaleProcChancePerDominatedCreatures</Script_PreRunConditional>
+			<ERef>procdominate_attack</ERef>
+			<StatusRef>exp_status_dominated</StatusRef>
+			<ProcChance>.04</ProcChance>
+			<Targ>DEFENDER</Targ>
+			<TPT>1</TPT>
+			<Duration>99</Duration>
+		</AEff>	
+	</SE>		
+
+	<SE>
+		<Rf>exp_status_collectivestrength</Rf>		
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>collectivestrength_boost</ERef>
+			<ScriptAttackModifier>CollectiveStrengthBoost</ScriptAttackModifier>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<Rf>exp_status_charisma</Rf>		
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>proc_dominate_onattack</ERef>
+			<Script_TriggerCondition>OnlyAffectBanditAttacker</Script_TriggerCondition>
+			<StatusRef>exp_status_dominated</StatusRef>
+			<ProcChance>.15</ProcChance>
+			<Targ>ATTACKER</Targ>
+			<TPT>3</TPT>
+			<Duration>99</Duration>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>exp_skill_voidbolt_displayname</DName>
+		<Rf>exp_status_essencedrain</Rf>
+		<ISpr>HauntedEffect</ISpr>
+		<ShowIcon />
+		<Icon>SkillIcons_32</Icon>
+		
+		<Flag>POISON</Flag>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_voidbolt_displayname</Disp>
+			<ERef>voidbolt_poison_dmg</ERef>
+			<TMaxHP>0.02|2</TMaxHP>
+			<FloorValue>1</FloorValue>
+			<Targ>SELF</Targ>		
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>exp_skill_essencestorm_name</DName>
+		<Rf>exp_status_essencestorm</Rf>
+		<Description>exp_status_essencestorm_desc</Description>
+		<Icon>SkillIcons_84</Icon>	
+		<ISpr>ElectrifiedEffect</ISpr>	
+		
+		
+		<ShowIcon />
+		<Pos />
+		<Script_RunOnAdd>SetEssenceStormAmmo</Script_RunOnAdd>
+		<AnimTags />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_essencestorm_name</Disp>
+			<ERef>essencestorm</ERef>
+			<IsProjectile />
+			<Anim>QiStrikeEffect,0.15</Anim>
+			<Script_DamageModifier>ReduceEssenceStormAmmo</Script_DamageModifier>
+			<AtkSp>0.6|2</AtkSp>
+			<Faction>ENEMY</Faction>
+			<Targ>RANDOMNEARBY</Targ>
+			<RandomTargetRange>3</RandomTargetRange>
+			
+			<FloorValue>1</FloorValue>			
+			<CanCrit />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>exp_status_eshieldpower</Rf>		
+		<Run>
+			<ON_SHIELD_SHATTER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AnimTags />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>proc_add_dmgup_25</ERef>
+			<StatusRef>exp_dmgup_25</StatusRef>
+			<Targ>SELF</Targ>
+			<Duration>11</Duration>
+			<Anim>FervirBuff,0.1</Anim>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>exp_skill_eshieldpower_name</DName>
+		<Rf>exp_dmgup_25</Rf>
+		<Description>exp_status_dmgup_25_desc</Description>
+		<NTag>+25%</NTag>
+		<ISpr>AttackUpEffect</ISpr>
+		<Icon>SkillIcons_143</Icon>
+		
+		<Pos />
+		<ShowIcon />
+		
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>dmgup_25</ERef>
+			<ChangePercentAllDamage>0.25</ChangePercentAllDamage>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<Rf>dualwielderstatbonus</Rf>
+		<PermaBuff />
+		<EffRef>spirit15</EffRef>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>swiftness15</ERef>
+			<Targ>SELF</Targ>
+			<Stat>SWIFTNESS</Stat>
+			<StatData>MAX</StatData>
+			<AtkWp>0|15</AtkWp>
+			<ReverseOnEnd />
+			<ChangeSubtypes />
+			<Silent />
+		</AEff>		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>discipline10</ERef>
+			<Targ>SELF</Targ>
+			<Stat>DISCIPLINE</Stat>
+			<StatData>MAX</StatData>
+			<AtkWp>0|10</AtkWp>
+			<ReverseOnEnd />
+			<ChangeSubtypes />
+			<Silent />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>exp_mapobj_watervapor_name</DName>
+		<Desc>status_status_dodge25_temp_desc</Desc>
+		<NTag>+15%</NTag>
+		<Rf>status_watervapordodge</Rf>
+		<ShowIcon />
+		<NoDurationExtension />
+		<Icon>SkillIcons_108</Icon>
+		<ExcludeFromHotbarCheck />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />
+		<EffRef>dodge15</EffRef>
+	</SE>
+
+	<SE>
+		<DName>exp_mapobj_sparks_name</DName>
+		<Rf>status_extracrit</Rf>	
+		<Desc>exp_status_extracrit_desc</Desc>
+		<NTag>+8%</NTag>
+		<ShowIcon />
+		<StackEff />
+		<Icon>SkillIcons_106</Icon>
+		<Instanim />
+		<ExcludeFromHotbarCheck />
+		<Pos />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Eat>
+			<ATTACK />
+		</Eat>
+		<EffRef>addcrit8</EffRef>
+	</SE>
+
+	<SE>
+		<DName>exp_mapobj_shadoworb_name</DName>
+		<Rf>status_extrameleedamage</Rf>
+		<Desc>exp_status_shadoworb_desc</Desc>
+		<NTag>+10%</NTag>
+		<ShowIcon />
+		<Icon>SkillIcons_106</Icon>
+		<StackEff />
+		<ExcludeFromHotbarCheck />
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>	
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>shadoworb_bonus_melee</ERef>
+			<BaseDmg>0.1</BaseDmg>
+			<TCon>MELEE</TCon>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>exp_status_brushstroke_name</DName>
+		<Rf>brushstroke_charge</Rf>
+		<Icon>SkillIcons_226</Icon>
+		<ExcludeFromHotbarCheck />
+		<Desc>exp_status_brushstroke_desc</Desc>
+		<ShowIcon />		
+		<Pos />
+		<StackEff />
+		<RefreshDuration>1</RefreshDuration>
+		<MaxStacks>6</MaxStacks>
+		<ExcludeFromHotbarCheck />
+		<Run>
+			<PERMANENT />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>	
+	</SE>
+
+	<SE>
+		<Rf>status_inkcollector</Rf>		
+		<Pos />
+		<NoRemovalOrImmunity />
+		<ExcludeFromHotbarCheck />
+		<Run>
+			<ONCRIT />
+			<KILLENEMY_NOT_WORTHLESS />
+			<ATTACKDODGE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>inkcollector_generate</ERef>
+			<StatusRef>brushstroke_charge</StatusRef>
+			<Duration>99</Duration>
+			<Script_TriggerCondition>InkCollectorCondition</Script_TriggerCondition>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>exp_skill_retort_name</DName>
+		<Rf>status_retort</Rf>
+		<Pos />
+		<Desc>exp_skill_retort_extradesc</Desc>	
+		<NTag>10</NTag>
+		<NTag>3</NTag>
+		
+		<Icon>SkillIcons_227</Icon>
+		<ATags>PERTARGETANIM</ATags>
+		<ShowIcon />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Eat>
+			<ATTACKED />		
+		</Eat>
+		<EffRef>spiritwalkdodge</EffRef>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>retort_addseal</ERef>
+			<StatusRef>status_sealed</StatusRef>
+			<Duration>3</Duration>
+			<Targ>ATTACKER</Targ>
+			<Anim>FervirDebuff,0.1</Anim>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_passivevanishingdodge</Rf>
+		<PermaBuffNoRun />
+		<Script_FighterBelowQuarterHealth>AddVanishingDodgeHalfHealth</Script_FighterBelowQuarterHealth>
+	</SE>	
+
+	<SE>
+		<DName>exp_skill_vanishingdodge_name</DName>
+		<Rf>vanishing_lowhealthdodge</Rf>
+		<Desc>status_status_dodge25_temp_desc</Desc>
+		<NTag>+50%</NTag>
+		<ISpr>MovementUpEffect</ISpr>
+		<ShowIcon />
+		<Icon>SkillIcons_229</Icon>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Pos />
+		<EffRef>blinkingdodge50</EffRef>
+	</SE>	
+
+	<SE>		
+		<Rf>status_museofmelee</Rf>
+		<ATags>PERTARGETANIM</ATags>
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackEff />
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<StatusRef>randomdebuff</StatusRef>
+			<Script_ExtraPerActorFunction>UseRandomElementalDebuff</Script_ExtraPerActorFunction>
+			<ERef>museofmelee_proc</ERef>
+			<Targ>DEFENDER</Targ>
+			<Duration>3</Duration>
+			<TCon>MELEE</TCon>
+			<ProcChance>0.15</ProcChance>
+			<Anim>FervirDebuff,0.1,1</Anim>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>waterdebuff30_name</DName>
+		<Rf>waterdebuff30</Rf>
+		<ShowIcon />
+		<ISpr>DefenseDownEffect</ISpr>
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>waterresdebuff30</ERef>
+			<IceRes>0.3</IceRes>
+		</AEff>	
+	</SE>
+
+	<SE>
+		<DName>lightningdebuff30_name</DName>
+		<Rf>lightningdebuff30</Rf>
+		<ShowIcon />
+		<ISpr>DefenseDownEffect</ISpr>
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>lightresdebuff30</ERef>
+			<BoltRes>0.3</BoltRes>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<DName>shadowdebuff30_name</DName>
+		<Rf>shadowdebuff30</Rf>
+		<ShowIcon />
+		<ISpr>DefenseDownEffect</ISpr>
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>shadowresdebuff30</ERef>
+			<DarkRes>0.3</DarkRes>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<Rf>emblem_dualwielderemblem_tier0_dualwield</Rf>
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>dualwieldattack</ERef>
+			<TCon>ATTACKER_DUALWIELD</TCon>
+			<BaseDmg>0.15</BaseDmg>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>emblem_dualwielderemblem_tier1_shadow</Rf>
+		<Pos />
+		<Run>
+			<CAUSE_DAMAGE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>shadow_pierceres</ERef>
+			<Sscr>PenetrateResistancesWithShadow</Sscr>			
+			<Targ>SELF</Targ>
+			<DontTouchAffectedList />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>status_dodgebuffstatus_name</DName>
+		<Rf>activedodge33</Rf>
+		<Desc>status_dodgebuffstatus_desc</Desc>
+		<ShowIcon />
+		<Icon>SkillIcons_108</Icon>
+		<ISpr>MovementUpEffect</ISpr>
+		<Pos />
+		<ATags>PERTARGETANIM</ATags>
+		<ExcludeFromHotbarCheck />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<EffRef>dodge33</EffRef>
+	</SE>
+
+	<SE>
+		<Rf>emblem_dualwielderemblem_tier2_dodge</Rf>		
+		<Pos />
+		<Run>
+			<ATTACKDODGE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>reduce_allcooldowns</ERef>
+			<Sscr>ReduceCooldownsByOneTurn</Sscr>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>emblem_dualwielderemblem_tier2_brush</Rf>
+		<Run>
+			<ONMOVE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addbrushstroke</ERef>
+			<StatusRef>brushstroke_charge</StatusRef>
+			<Duration>99</Duration>
+			<ProcChance>0.1</ProcChance>
+			<Silent />
+		</AEff>
+	</SE>
+
+  <SE>
+    <Rf>remap_dualwielder_inkstorm1</Rf>
+    <PermaBuffNoRun />
+    <StackEff />
+    <AEff>
+      <Type>ABILITYCOSTMODIFIER</Type>
+      <ERef>remapinkstorm</ERef>
+      <abilityrefs>skill_inkstorm</abilityrefs>
+      <Targ>SELF</Targ>      
+      <abilityremap>skill_inkstorm_2</abilityremap>
+    </AEff>
+  </SE>
+
+  <SE>
+    <Rf>remap_dualwielder_waterscroll1</Rf>
+    <PermaBuffNoRun />
+    <StackEff />
+    <AEff>
+      <Type>ABILITYCOSTMODIFIER</Type>
+      <ERef>remapwaterscroll</ERef>
+      <abilityrefs>skill_waterscroll</abilityrefs>
+      <Targ>SELF</Targ>      
+      <abilityremap>skill_waterscroll_2</abilityremap>
+    </AEff>
+  </SE>	
+
+  <SE>
+    <Rf>remap_dualwielder_glide1</Rf>
+    <PermaBuffNoRun />
+    <StackEff />
+    <AEff>
+      <Type>ABILITYCOSTMODIFIER</Type>
+      <ERef>remapglide</ERef>
+      <abilityrefs>skill_glide</abilityrefs>
+      <Targ>SELF</Targ>      
+      <abilityremap>skill_glide_2</abilityremap>
+    </AEff>
+  </SE>	  
+
+	<SE>
+		<Rf>dangermagnet</Rf>
+		<PermaBuffNoRun />
+		<Script_RunOnAdd>AddDangerMagnetFlag</Script_RunOnAdd>
+	</SE>
+
+	<SE>
+		<Rf>extrarewards</Rf>
+		<Dur>
+			<TURNEND />
+		</Dur>		
+	</SE>
+
+	<SE>
+		<DName>exp_skill_chakrashift_name</DName>
+		<Rf>chakrashift</Rf>
+		<Desc>status_atkdownns_desc</Desc>
+		<NTag>+10%</NTag>
+		
+		<Icon>SkillIcons_16</Icon>
+		<ShowIcon />	
+		<Pos />	
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>damageup10</ERef>
+			<ChangePercentAllDamage>0.1</ChangePercentAllDamage>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>se_boostallpaladinskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallpaladinskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<paladinsmiteevil2>1.2</paladinsmiteevil2>
+				<divinefury>1.2</divinefury>
+				<blessedhammer>1.2</blessedhammer>
+				<paladinsmiteevil>1.2</paladinsmiteevil>
+				<shieldslamdmg>1.2</shieldslamdmg>								
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>se_boostallsoulkeeperskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallsoulkeeperskills</ERef>
+
+			<Silent />
+			<AlterEffectValues>
+				<aetherslash>1.25</aetherslash>
+				<echoboltsdamage>1.25</echoboltsdamage>
+				<partinggiftburst>1.25</partinggiftburst>
+				<aetherslash2>1.25</aetherslash2>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>se_boostallhunterskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallhunterskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<icemissiledamage>1.25</icemissiledamage>
+				<tripleboltdmg>1.25</tripleboltdmg>
+				<addmildbleed_local>1.25</addmildbleed_local>
+				<hailofarrowsdmg>1.25</hailofarrowsdmg>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>se_boostallbudokaskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallbudokaskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<hundredfists>1.25</hundredfists>
+				<hundredfistssplash>1.25</hundredfistssplash>
+				<qistrike>1.25</qistrike>
+				<tornadokick>1.25</tornadokick>
+				<palmthrust2_impact_damage>1.25</palmthrust2_impact_damage>
+				<palmthrust_impact_damage>1.25</palmthrust_impact_damage>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>se_boostallhusynskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallhusynskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<photoncannon>1.25</photoncannon>
+				<staticfielddamage>1.25</staticfielddamage>
+				<crystalshiftdamage>1.25</crystalshiftdamage>
+				<crystalshiftdamage_2>1.25</crystalshiftdamage_2>
+				<reactiveexplosion>1.25</reactiveexplosion>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>se_boostallfloramancerskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallfloramancerskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<creepingdeathdamage>1.2</creepingdeathdamage>
+				<bedofthorns2>1.2</bedofthorns2>
+				<bedofthorns>1.2</bedofthorns>
+				<eff_thornsplosion>1.2</eff_thornsplosion>
+				<eff_thornsplosion_2>1.2</eff_thornsplosion_2>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>se_boostallspellshaperskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallspellshaperskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<evokefire1>1.2</evokefire1>
+				<evokeice1>1.2</evokeice1>
+				<evokeshadow1>1.2</evokeshadow1>
+				<evokeacid1>1.2</evokeacid1>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>se_boostallbrigandskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallbrigandskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<playercloakanddagger>1.2</playercloakanddagger>
+				<cddamage>1.2</cddamage>
+				<cddamage2>1.2</cddamage2>
+				<cloakdaggerbleeddmg>1.2</cloakdaggerbleeddmg>
+				<fireburstgrounddmg>1.2</fireburstgrounddmg>
+				<shadowbleeddmg>1.2</shadowbleeddmg>
+				<eff_masslacerate>1.2</eff_masslacerate>
+				<mildbleeddmg>1.2</mildbleeddmg>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>se_boostalledgethaneskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostalledgethaneskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<highland_charge2_dmg>1.3</highland_charge2_dmg>
+				<verse_elements_damage>1.3</verse_elements_damage>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>se_boostallgamblerskills</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostallgamblerskills</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<gamblerhighcard>1.2</gamblerhighcard>
+				<effect_gamblerdarts_name>1.2</effect_gamblerdarts_name>
+				<effect_gamblerwaterdarts_name>1.2</effect_gamblerwaterdarts_name>
+				<doubledowndamage>1.2</doubledowndamage>
+				<eff_hotstreakdmg>1.2</eff_hotstreakdmg>
+				<giltoss>1.2</giltoss>
+				<gamblerdarts2>1.2</gamblerdarts2>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>exp_status_resilient</Rf>
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>monsterundying_chance</ERef>	
+			<Sscr>SetDamageToZero</Sscr>
+			<ProcChance>0.33</ProcChance>
+			<Targ>SELF</Targ>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>skill_expmon_batterup_name</DName>
+		<Rf>autoprojectileattack</Rf>
+		<ShowIcon />
+		<ATags>PERTARGETANIM</ATags>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Run>
+			<ONMOVE />
+		</Run>
+		<Pos />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_batterup_name</Disp>
+			<ERef>batterup</ERef>
+			<IsProjectile />
+			<Anim>MediumRockEffect,0.15</Anim>
+			<AtkWp>0.9|2</AtkWp>
+			<Faction>NOTMYFACTION</Faction>
+			<Targ>RANDOMNEARBY</Targ>
+			<RandomTargetRange>4</RandomTargetRange>				
+			<CanCrit />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>resistnegative50</Rf>
+		<PermaBuffNoRun />
+		<AEff>
+			<Type>IMMUNESTATUS</Type>
+			<ERef>resist_all_negative_50</ERef>
+			<ChanceToResist>0.5</ChanceToResist>
+			<ResistAnyNegative />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>skill_expmon_glitterskin_name</DName>
+		<Rf>glitterskin</Rf>
+		<Desc>glitterskin_status_desc</Desc>
+		<NTag>50%</NTag>
+		<NTag>4</NTag>
+		<Direction>TRUENEUTRAL</Direction>
+		<ATags>PERTARGETANIM</ATags>
+		<ShowIcon />
+		<Icon>SkillIcons_244</Icon>
+		<ISpr>BlingEffect</ISpr>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>bblind_fasttrigger</ERef>
+			<StatusRef>blind50</StatusRef>
+			<Targ>ATTACKER</Targ>
+			<TCon>MELEE</TCon>
+			<Duration>4</Duration>			
+			<Anim>ProjectileImpactEffect,0.1</Anim>
+			<TPT>2</TPT>
+			<BattleText>effect_addsmokeblindadj_btxt</BattleText>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<Rf>stickywarp</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<TURNEND />
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>stickytotarget</ERef>
+			<Sscr>CheckIfTongueIsStillValid</Sscr>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>adhesivetongue</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>procadhesivetongue</ERef>
+			<Targ>DEFENDER</Targ>
+			<TCon>MELEE</TCon>			
+			<Duration>99</Duration>
+			<Script_ExtraPerActorFunction>StickTongueToTarget</Script_ExtraPerActorFunction>
+			<StatusRef>adhesivetongue_target</StatusRef>
+			<TPT>2</TPT>
+			<BattleText>exp_popup_misc_sticky</BattleText>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>skill_expmon_adhesivetongue_name</DName>
+		<Rf>adhesivetongue_target</Rf>
+		<NoRemovalOrImmunity />
+		<Desc>status_status_divineboltdebuff_desc</Desc>
+		<NTag>-25%</NTag>
+		<ShowIcon />
+		<ISpr>DefenseDownEffect</ISpr>
+		<Icon>SkillIcons_110</Icon>
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Flag>LOWERDEFENSE</Flag>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>reducedef25</ERef>
+			<ChangePercentAllMitigation>0.25</ChangePercentAllMitigation>			
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>tonguechecker</Rf>
+		<NoRemovalOrImmunity />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>tonguechecker</ERef>
+			<Sscr>CheckIfTongueAttackerIsStuckToUs</Sscr>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>permadodge25</Rf>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<EffRef>dodge25</EffRef>
+	</SE>	
+
+	<SE>
+		<DName>skill_expmon_stickyshot_name</DName>
+		<Rf>status_stickyslow</Rf>
+		<Desc>status_status_shaken_desc</Desc>
+		<NTag>25</NTag>
+		<ISpr>ClockSlowEffect</ISpr>
+		<Icon>SkillIcons_34</Icon>		
+		<ShowIcon />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>selfslow</ERef>
+			<AtkWp>0|-25</AtkWp>
+			<Targ>SELF</Targ>
+			<Stat>CHARGETIME</Stat>
+			<StatData>CUR</StatData>
+			<Trg1 />
+		</AEff>	
+	</SE>			
+
+	<SE>
+		<Rf>passive_scare</Rf>		
+		<Pos />		
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<NoRemovalOrImmunity />		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>scare_monsters</ERef>			
+			<StatusRef>status_fear50</StatusRef>			
+			<ProcChance>0.5</ProcChance>
+			<TCon>ATTACKER_ISMONSTER</TCon>
+			<Targ>ATTACKER</Targ>
+			<TPT>4</TPT>
+			<Duration>3</Duration>
+			<BattleText>misc_scaryface</BattleText>
+		</AEff>	
+	</SE>
+
+	<SE>
+		<Rf>dominate_healondeath</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<AnimTags />
+		<Run>
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>	
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>domhealthheal</ERef>
+			<Targ>HERO_ANYWHERE</Targ>
+			<Anim>FervirRecovery,0.1</Anim>
+			<MaxStat>0.15</MaxStat>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>domstamheal</ERef>
+			<Targ>HERO_ANYWHERE</Targ>
+			<MaxStat>0.15</MaxStat>
+			<Stat>STAMINA</Stat>
+			<StatData>CUR</StatData>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>domenergyheal</ERef>
+			<Targ>HERO_ANYWHERE</Targ>
+			<MaxStat>0.15</MaxStat>
+			<Stat>ENERGY</Stat>
+			<StatData>CUR</StatData>
+		</AEff>
+	</SE>			
+
+	<SE>
+		<Rf>divinepower</Rf>		
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>divinepower_check</ERef>
+			<Sscr>CheckForDivineStagPowerBuff</Sscr>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>skill_expmon_divinepower_name</DName>
+		<Rf>spiritstag_divineaura</Rf>
+		<ISpr>GoldAura</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<ShowIcon />
+		<Pos />
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CENTERED,SIMULTANEOUSANIM,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>		
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_holyhitsummon</ERef>						
+			
+			<ARef>obj_holyfire</ARef>
+			<SDur>5</SDur>			
+			<SummonOnCollidable />
+			<SummonNoStacking />
+			<SummonActorPerTile />
+			<SummonOnBreakables />
+			<MaxRandomSummonRange>1</MaxRandomSummonRange>
+			<Targ>SELF</Targ>
+			<TPT>7</TPT>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_mmspirit25</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>spirit25</ERef>
+			<Targ>SELF</Targ>
+			<Stat>SPIRIT</Stat>
+			<AtkWp>0|25</AtkWp>
+			<StatData>MAX</StatData>
+			<ReverseOnEnd />
+			<ChangeSubtypes />
+			<Silent />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_mmdisc25</Rf>
+		<PermaStackBuff />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>disc25</ERef>
+			<Targ>SELF</Targ>
+			<Stat>DISCIPLINE</Stat>
+			<StatData>MAX</StatData>
+			<AtkWp>0|25</AtkWp>
+			<ReverseOnEnd />
+			<ChangeSubtypes />
+			<Silent />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_mmstrength25</Rf>
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>strength25</ERef>
+			<Targ>SELF</Targ>
+			<Stat>STRENGTH</Stat>
+			<StatData>MAX</StatData>
+			<AtkWp>0|25</AtkWp>
+			<ReverseOnEnd />
+			<ChangeSubtypes />
+			<Silent />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>exp_status_combatbiography_boost_name</DName>
+		<Rf>calligrapherskill50</Rf>
+		<RefreshDuration>1</RefreshDuration>
+		<ShowIcon />
+		<Icon>SkillIcons_232</Icon>
+		<Description></Description>
+		<NTag>calligrapherskill50_desc</NTag>
+		<Pos />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>eff_boostcalligrapher</ERef>
+			<Silent />
+			<AlterEffectValues>
+				<waterscroll_damage>1.5</waterscroll_damage>
+				<lightningscroll_damage>1.5</lightningscroll_damage>
+				<shadowscroll_damage>1.5</shadowscroll_damage>
+				<inkstorm>1.5</inkstorm>
+				<inkstorm_2>1.5</inkstorm_2>
+				<waterscroll_damage_2>1.5</waterscroll_damage_2>
+			</AlterEffectValues>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>skill_expmon_healovertime_name</DName>
+		<Rf>mon_healovertime</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>healself5per_conditional</ERef>
+			<Targ>SELF</Targ>
+			<Stat>HEALTH</Stat>
+			<Script_TriggerCondition>TriggerOnlyIfUndamagedForABit</Script_TriggerCondition>
+			<StatData>CUR</StatData>
+			<MaxStat>0.05</MaxStat>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>waterfighter</Rf>
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+			<PROCESSDAMAGE_ATTACKER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>improvecombat_inwater</ERef>
+			<Sscr>ImproveCombatInWater</Sscr>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>attackstep_generator</Rf>
+		<Pos />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<StackDur />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>boostattack_addstatus</ERef>
+			<StatusRef>boostattack_after_move</StatusRef>
+			<Script_TriggerCondition>TriggerOnlyAfterStep</Script_TriggerCondition>
+			<Duration>2</Duration>
+			<Targ>SELF</Targ>
+			<Silent />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_mutagenberserk_name</DName>
+		<Rf>boostattack_after_move</Rf>
+		<Description>boostattack_after_move_desc</Description>
+		<NTag>20%</NTag>
+		<Icon>SkillIcons_106</Icon>
+		<ISpr>AttackUpEffect</ISpr>		
+		<ShowIcon />
+		<Pos />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>boostattack_move_nonu</ERef>
+			<TCon>ATTACKER_MELEEWEAPON</TCon>
+			<BaseDmg>0.2</BaseDmg>
+		</AEff>					
+	</SE>
+
+	<SE>
+		<DName>skill_expmon_healovertime_name</DName>
+		<Rf>simpleregen</Rf>
+		<ShowIcon />
+		<ISpr>RegenerateEffect</ISpr>
+		<Icon>SkillIcons_79</Icon>
+		<ExcludeFromHotbarCheck />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />		
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>fourpcheal</ERef>
+			<Targ>SELF</Targ>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<MaxStat>0.04</MaxStat>
+			<BaseAmount>5</BaseAmount>
+		</AEff>
+	</SE>	
+
+	<SE>		
+		<Rf>exp_status_empowerkill2</Rf>
+		<AnimTags />		
+		<Pos />
+		<Run>
+			<KILLENEMY_NOT_TRIVIAL />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>renamemonster</ERef>
+			<Sscr>SpecialEmpowerMonster</Sscr>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>boostmaxhealth</ERef>
+			<MaxStat>0.25</MaxStat>
+			<Stat>HEALTH</Stat>
+			<StatData>TRUEMAX</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>booststrength10</ERef>
+			<MaxStat>0.1</MaxStat>
+			<Stat>STRENGTH</Stat>
+			<StatData>TRUEMAX</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>boostdisc10</ERef>
+
+			<MaxStat>0.1</MaxStat>
+			<Stat>DISCIPLINE</Stat>
+			<StatData>TRUEMAX</StatData>
+			<ChangeSubtypes />
+		</AEff>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>actualperma_empower_buff</ERef>
+			<ChangePercentAllDamage>0.1</ChangePercentAllDamage>		
+		</AEff>		
+		<EffRef>healhealthfull_enemyonly</EffRef>	
+	</SE>	
+
+	<SE>
+		<DName>effect_adddustinthewind_btxt</DName>
+		<Rf>status_spinbladeparry</Rf>
+		<Desc>status_status_dustinthewind_desc</Desc>
+		<NTag>+10%</NTag>
+		<Icon>SkillIcons_245</Icon>		
+		<ShowIcon />
+		<Pos />
+		<ISpr>DefenseUpEffect</ISpr>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>spinbladeparry</ERef>
+			<Eq>0.1</Eq>
+			<AlterParryFlat>0.1</AlterParryFlat>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>mmod_mm_spiritual_name</DName>
+		<Rf>spiritpower20temp</Rf>
+		<Desc>status_song_spirit_1_desc</Desc>
+		<NTag>+20%</NTag>
+		<Pos />
+		<ShowIcon />
+		<Icon>SkillIcons_150</Icon>
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<EffRef>spiritpowermult20</EffRef>
+	</SE>	
+
+	<SE>
+		<Rf>status_slowonhit</Rf>
+		<Run>
+			<ATTACK />
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<NoRemovalOrImmunity />
+		<Pos />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>attackerslow</ERef>
+			<AtkWp>0|-50</AtkWp>
+			<Targ>ATTACKER</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>CUR</StatData>
+			<TCon>MELEE</TCon>
+			<Trg1 />
+			<BattleText>exp_misc_slowed</BattleText>
+		</AEff>	
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>defender</ERef>
+			<AtkWp>0|-100</AtkWp>
+			<Targ>DEFENDER</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>CUR</StatData>
+			<Trg1 />
+			<BattleText>exp_misc_slowed</BattleText>
+		</AEff>			
+	</SE>	
+
+	<SE>
+		<Rf>status_dropfires</Rf>		
+		<Run>
+			<ONMOVE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_firestep</ERef>						
+			<Silent />
+			
+			<ARef>obj_tyrant_staticflame</ARef>
+			<SDur>12</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<SummonOnSummoner />
+			<SummonNoStacking />
+			<FMaxDelayBeforeSummon>0.14</FMaxDelayBeforeSummon>
+			<MaxRandomSummonRange>0</MaxRandomSummonRange>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>godfirereact</Rf>
+		<Pos />
+		<Run>
+			<ATTACKED />
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<NoRemovalOrImmunity />
+		<AEff>
+			<Type>SUMMONACTOR</Type>			
+			<ERef>summonmovefire_attack</ERef>
+			
+			<ARef>obj_weakerenemyflameserpent_moving</ARef>
+			<SDur>4</SDur>
+			<Anchor>SELF</Anchor>			
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<SummonNoStacking />
+			<Targ>DEFENDER</Targ>			
+			<TPT>2</TPT>
+		</AEff>
+
+	</SE>	
+
+	<SE>
+		<Rf>status_makelightning3</Rf>
+		<Pos />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>summonlightning3</ERef>
+			
+			<ARef>obj_godlightningsummoner</ARef>
+			<SDur>2</SDur>			
+			<Anchor>SELF</Anchor>
+			<AnchorRange>4</AnchorRange>
+			<SummonOnCollidable />
+			<SummonNoStacking />
+			<MaxRandomSummonRange>4</MaxRandomSummonRange>
+			<NumRandomSummons>9</NumRandomSummons>
+			<SummonActorPerTile />
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>oncast_elementalbolt</Rf>		
+		<StackDur />
+		<Run>
+			<USEABILITY />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AnimTags />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<ERef>elementalbolts1</ERef>
+			<Disp>mm_elemental_bolt_name</Disp>
+			<Script_TriggerCondition>PreviousAbilityWasElementalDamage</Script_TriggerCondition>
+			<Script_DamageModifier>SetDamageTypeToLastUsedSkill</Script_DamageModifier>
+			<ProcChance>0.33</ProcChance>
+			<Targ>RANDOMNEARBY</Targ>
+			<AtkSp>0.75|1</AtkSp>
+			<RandomTargetRange>3</RandomTargetRange>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>QiStrikeEffect,0.15</Anim>
+			<IsProjectile />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>oncast_elementalbolt2</Rf>		
+		<StackDur />
+		<Run>
+			<USEABILITY />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AnimTags />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<ERef>elementalbolts2</ERef>
+			<Disp>mm_elemental_bolt2_name</Disp>
+			<Script_TriggerCondition>PreviousAbilityWasElementalDamage</Script_TriggerCondition>
+			<Script_DamageModifier>SetDamageTypeToLastUsedSkill</Script_DamageModifier>
+			<ProcChance>0.33</ProcChance>
+			<Targ>RANDOMNEARBY</Targ>
+			<AtkSp>1.25|1</AtkSp>
+			<RandomTargetRange>3</RandomTargetRange>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>QiStrikeEffect,0.15</Anim>		
+			<IsProjectile />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>status_perfectshadowvulnonhit</Rf>		
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<ATags>PERTARGETANIM</ATags>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addshadowdebuff100</ERef>
+			<StatusRef>status_shadowdebuff</StatusRef>
+			
+			<Targ>DEFENDER</Targ>
+			<Duration>4</Duration>
+			<Anim>FervirShadowHit,0.12</Anim>
+			<TPT>1</TPT>
+		</AEff>
+	</SE>	
+
+</DOCUMENT>

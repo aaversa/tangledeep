@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>	
+	<Shop>
+		<RefName>shop_randomany</RefName>
+		<ShopData>
+			<Reference>casino_1</Reference>
+			<ValueMult>1</ValueMult>
+			<MinLevel>1</MinLevel>
+			<MaxLevel>99</MaxLevel>
+			<MinItems>25</MinItems>
+			<MaxItems>30</MaxItems>
+			<MagicChance>0.75</MagicChance>
+			<MaxMagicMods>3</MaxMagicMods>
+			<ChallengeValue>0.1</ChallengeValue>
+			<AdaptChallengeValue>1</AdaptChallengeValue>
+			<ChanceToUseBaseTable>0</ChanceToUseBaseTable>
+			<SpecialTables>
+				<legendary>10</legendary>
+				<equipment>120</equipment>
+				<consumables>200</consumables>
+			</SpecialTables>
+		</ShopData>
+	</Shop>
+</DOCUMENT>

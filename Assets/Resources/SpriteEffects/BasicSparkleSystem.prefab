@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013226296236}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013226296236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000014232905338}
+  - component: {fileID: 114000013855139004}
+  - component: {fileID: 114000013956073182}
+  m_Layer: 0
+  m_Name: BasicSparkleSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000014232905338
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013226296236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013855139004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013226296236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbfcc75de3ad54e4bb9b4313ab5bdd6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mySpriteEffects:
+  - spriteEffect: SingleSparkle
+    randomSpawnXMin: -0.6
+    randomSpawnXMax: 0.6
+    randomSpawnYMin: -0.6
+    randomSpawnYMax: 0.6
+  numEffectTriggers: 10
+  sequential: 1
+  animDelay: 0.5
+  overrideIndividualAudio: 0
+  lifetime: 60
+  refName: BasicSparkleSystem
+  alwaysFlipAxes: 1
+  randomlyFlipSpriteX: 0
+  randomlyFlipSpriteY: 0
+  loopAtEnd: 0
+  setChildToParent: 0
+  spawnTowardEdges: 0
+  sparkleSystem: 0
+  rotationVariance: 0
+  enforceRotationOnChildren: 0
+--- !u!114 &114000013956073182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013226296236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593ac2f2e80e90f40b31c93905ad67ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cues: []

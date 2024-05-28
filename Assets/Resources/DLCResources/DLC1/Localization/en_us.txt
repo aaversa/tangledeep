@@ -1,0 +1,1448 @@
+abil_skill_summonvoidcrystal_name	Conjure Void Crystal
+boost_stat_level_up_var	Gained <color=yellow>^tag2^</color> <color=#0cffe6>^tag1^!</color>
+boostattack_after_move_desc	Your next melee attack deals ^number1^ dmg
+calligrapherskill50_desc	^number1^ Calligrapher skill dmg
+des_obj_confusetrap_dname	Confusion Trap
+description_escapeportal_shara	Use to access Fast Travel from certain side areas.
+dialog_comparerelic_txt	<size=50>^$getstring:leg_origname$^ (Scaled Version)</size>\n\n<color=#ffc80a>Legendary ^$getstring:leg_origtype$^</color>\n\n^$getstring:scaledleg_info$^\n
+dialog_friendly_dirtbeak_shara_1	#cy#*SQUAWK*#ec# Who are you?! You've got some nerve comin' into my turf! I'm #cy#Duke Dirtbeak#ec#, the leader of... well the STRONGEST of the #cy#Bird Boyz#ec#, and you... you'd better...\n\n
+dialog_friendly_dirtbeak_shara_1_response	And I'd better what?
+dialog_friendly_dirtbeak_shara_2	I think... I've decided I'm going to be nice to you, Lady. Because I'm the #cy#STRONGEST#ec# at being nice. Not like all those jerks chirpin' and cheepin' right now in #cy#MY DEN!#ec#\n\n
+dialog_friendly_dirtbeak_shara_2_response	These jerks, they kicked you out of your home?
+dialog_friendly_dirtbeak_shara_3	I'm the biggest and baddest bird in all of Tangledeep! But one of the Bird Boyz found this #cc#weird stack of papers#ec#, all stuck together. The other Boyz could... whatever! Papers are #cy#stupid#ec#.\n\nAnd these stupid papers started making the Boyz squak about... demuh... dem hawk ruhsee? They said they wanted to #cy#VOTE#ec# on who should be in charge!\n\n
+dialog_friendly_dirtbeak_shara_3_response	Then they are all fools!
+dialog_friendly_dirtbeak_shara_4	Just like you, I was kicked out of my home by people who thought they were better than me. And like me, I can see in you the spirit of a leader, with #cy#strength and resolve#ec#. I will help you get back what you deserve. #cy#Together,#ec# we'll show them how useless their fancy words are!\n\n
+dialog_friendly_dirtbeak_shara_5	Awk! That's the nicest thing anyone's ever said to -- wait, no, uh everyone tells me how STRONG I am, all the time! And we can be strong together! Let's #cy#thrash those punks#ec# together, #cc#blue bird#ec#! I'll meet you at MY den.\n\n
+dialog_friendly_dirtbeak_shara_6	That's the spirit, Duke! Please, call me #cc##heroname##ec#. Now we're friends, and nothing will stop us! I'll get ready and meet you at YOUR den.\n\n
+dialog_friendly_dirtbeak_shara_7	Me and the #cy#Bird Boyz#ec# are guarding our turf, just like you asked.\n\n
+dialog_learnskill_fromitem_button1_text	Learn Skill (500JP)
+dialog_learnskill_fromitem_button2_text	Don't Learn
+dialog_relic_compareoriginal	^$getstring:nonscaled_legtext$^
+dialog_relic_found_main_txt	<size=50><color=#ffc80a>FOUND</color> ^$getqstring:leg_item$^!</size>\n\n<color=#ffc80a>Legendary ^$getqstring:leg_type$^</color>\n\n^$getqstring:leg_info$^\n\n^$getqstring:leg_desc$^\n
+dialog_shara_boss1_postfight_1	H-hey, take it easy! We... uh, I counted the votes and... looks like you're the boss, Dirtbeak!\n\n#cy#Cheep cheep cheep#ec#...\n\n
+dialog_shara_boss1_postfight_2	#cr#SQUAWK!#ec# Who's laughing now, pipsqueaks? I'm #cc#Duke of the Roost#ec# again! #cc#Dirtbeak#ec# is stronger than #cc#dumb books#ec#, and don't you forget it!\n\n
+dialog_shara_boss1_postfight_3	Now listen up, here is my first new order as Duke: I will generously break open our best stolen food supplies, and YOU lot will make it into a feast! Maybe you can use those dumb books to get the campfire going!\n\n
+dialog_shara_boss1_postfight_4	I haven't had a meal like this in a long time. Thank you, Dirtbeak.\n\nA #cy#firm, fair hand#ec# will ensure the #cy#Boyz#ec# never waiver in their allegiance again. They need strength: your strength. And so do I.\n\n
+dialog_shara_boss1_postfight_5	A long road stretches ahead of me, and it would ease my burden if I had a place of respite. Will you ensure this territory is guarded and free of threats?\n\n
+dialog_shara_boss1_postfight_6	You got it, #cy#Bluebird#ec#! Me and the #cy#Bird Boyz#ec# are gonna make sure no one messes with you.\n\nWhat if any of those twerps from #cc#Riverstone Camp#ec# comes by? Can we take their stuff?\n
+dialog_shara_boss1_postfight_7	Do what you must to ensure you and your #cy#Boyz#ec# remain safe and well-fed. The lazy people of #cc#Riverstone#ec# live in unearned abundance. Taking from them won't change that.\n\nBe on your guard, #cy#Dirtbeak#ec#. I'll return soon.\n\n
+dialog_shara_boss1_postfight_8	You're the boss! But, #cy#awk#ec#... one other thing. Not all the #cy#bandits#ec# out there are smart enough to follow my very generous and strong leadership. In fact... every #cy#Bird Boy#ec# is in this room, right now.\n\nSo if you need to beat up any other bandits you come across, don't worry about it. I'll recruit them soon enough!\n\n
+dialog_shara_boss1_prefight_1	Look everyone! #cr#Duke Dumb-beak#ec# came waddling back.\n\nWe don't need you here eating all our food and telling us what to do! We're the #cy#baddest bandits#ec# in Tangledeep!\n\n
+dialog_shara_boss1_prefight_2	You oughta watch your mouths, 'cause I'm not alone this time! Me and my friend #cc##heroname##ec# are gonna teach you a thing or two about #cy#respect#ec#.
+dialog_shara_boss1_prefight_3	Are all of you so quick to shun one of your kind simply because he is different? He cannot help his #cy#appetite#ec# nor his #cy#size#ec#.\n\n
+dialog_shara_boss1_prefight_4	Hey Dirtbeak, you really needed to bring a #cr#girl person#ec# to talk a big game for you? She's just a field mouse, don't make us laugh!\n\nNow #cr#beat it#ec#, or we're gonna beat you!\n\n
+dialog_shara_boss1_prefight_5	#cr#SQUAWK!#ec# See, #heroname#?! They're so mean!\n\n
+dialog_shara_boss1_prefight_6	Yes, they are. They remind me of my own people and their #cr#ignorance#ec#.\n\nI didn't know how to fight for myself back then...\n\n
+dialog_shara_boss1_prefight_7	But today, I will enjoy #cg#'enlightening'#ec# these goons. Attack!\n\n
+dialog_shara_boss2_devicedestroyed_1	The energy that device released has #cr#weakened#ec# the Spirits! Now's our chance to finish them off!\n\n
+dialog_shara_boss2_devicedestroyed_10	He was wrong about me. My whole life in Tangledeep has been nothing but #cr#tough choices#ec#. At least he did me one favor by making a #cy#very easy#ec# choice crystal-clear for everyone...\n\n
+dialog_shara_boss2_devicedestroyed_11	You can sign up with the #cc#Boss Lady#ec# to help fix our world, or you can end up like #cr#him#ec#.\n\n
+dialog_shara_boss2_devicedestroyed_2	I bested you, and the device remains. You were never worthy of Flow's power, no amount of tinkering would change that.\n\n
+dialog_shara_boss2_devicedestroyed_3	You presume too much... that device... it ends with me. You're powerful, but raw and unfocused. If you want the #cy#focus#ec# you need to truly understand the heart of Tangledeep, you'll need to earn it yourself.\n\nBut you won't... you can't. #cr#You don't have it in you to make the tough choices#ec#. Tangledeep has a fury you can't begin to imagine. #cg#He'll#ec# beat you... #cg#he'll#ec#...\n\n
+dialog_shara_boss2_devicedestroyed_4	Your device was a crutch, Ingersoll. I thought you were another master of #cc#Flow#ec#, but look at you now.\n\nYou don't deserve Flow's power, you never have.\n\n
+dialog_shara_boss2_devicedestroyed_5	Power without focus... is meaningless. You won here, but you'll #cy#flame out#ec# long before you understand the truth of Tangledeep.\n\nViolence is easy, but #cr#you don't have it in you to make the tough choices#ec#. Tangledeep has a fury you can't begin to imagine. #cg#He'll#ec# beat you... #cg#he'll#ec#...\n\n
+dialog_shara_boss2_devicedestroyed_6	#cy#He?!#ec# Who? Ingersoll you... Oh #cr#how DARE you#ec# do that to me!\n\n
+dialog_shara_boss2_devicedestroyed_7	Destroying that technology instead of seeing it passed along to the world. How selfish. And yet...\n\n
+dialog_shara_boss2_devicedestroyed_8	And so the device is destroyed too. No one's fault but Ingersoll's, so short sighted of him. Still...\n\n
+dialog_shara_boss2_devicedestroyed_9	That #cy#couldn't#ec# be the only one of its kind. He didn't create it, he #cy#found#ec# it, which means I will find plenty more like them. And unlike him, I won't #cy#waste#ec# that newfound power.\n\n
+dialog_shara_boss3victory_part1_1	#cr#CRITICAL SYSTEM FAILURE - SHUTDOWN IMMINENT#ec#\n\n#cy#ATTEMPTING TO NOTIFY #ec##cg#SUPERVISOR#ec#\n\n
+dialog_shara_boss3victory_part1_10	But first...\n\nWhat fancy treasures did this magic armor leave behind?\n\n
+dialog_shara_boss3victory_part1_11	There are Flow conduits here... small crystals... hmm...\n\nThis energy is... bent somehow. Strange.\n\nStill...\n\n
+dialog_shara_boss3victory_part1_12	If the #cg#Supervisor#ec# was able to use it to control this metal machine, I should have no problem using it as a focus to make #cy#others#ec# serve #cr#me.#ec#\n\n
+dialog_shara_boss3victory_part1_13	bip bip ...\n\nbep bip bibi boop?\n\n
+dialog_shara_boss3victory_part1_14	beep beew? ...\n\nbep bip bee bip beww!\n\nbew bew?\n\n
+dialog_shara_boss3victory_part1_15	That's right, little metal bird with tentacles.\n\nI'm your new best friend.\n\n
+dialog_shara_boss3victory_part1_16	Perfect.\n\n
+dialog_shara_boss3victory_part1_2	#cg#Supervisor#ec#? Who is your "Supervisor"? Who are you taking orders from?!\n\n
+dialog_shara_boss3victory_part1_3	#cg#SUPERVISOR OVERRIDE ACTIVE#ec#\n\n#cr#SELF-DESTRUCTING...#ec#
+dialog_shara_boss3victory_part1_4	Stop! #cr#NO!#ec#\n\n
+dialog_shara_boss3victory_part1_5	A #cg#Supervisor#ec# who would rather see his creations destroyed than fall into my hands. Just like Ingersoll.\n\nI see what he meant now. To sacrifice so much... this power must be immense.\n\n
+dialog_shara_boss3victory_part1_6	It #cy#IS#ec# immense! I am surrounded by metal magic. Intelligence and life imbued into machines? Matter created from nothing?\n\nThat is #cg#divine#ec# power.\n\n
+dialog_shara_boss3victory_part1_7	This is my #cc#purpose#ec#.\n\n
+dialog_shara_boss3victory_part1_8	The rest of #cg#Tangledeep#ec# lives in darkness. Dim fools play with stones and sticks, begging the trees for a bountiful harvest, crawling through the woods hunting beasts.\n\nNo longer.\n\n#cr#My#ec# power will close that chapter forever, and bring us to a new tomorrow.\n\n
+dialog_shara_boss3victory_part1_9	This begins and ends with the #cg#Supervisor#ec#. How long has he been hoarding the power that could have changed the world?\n\n#cy#He#ec# is the problem that I am destined to fix. I've #cy#waited my whole life#ec# for everything to be this clear. Now I have to see it through.\n\n
+dialog_shara_boss4intro_1	#cr#HALT.#ec#\n\n#HERONAME#_LIFEFORM. THERE WAS A MISCALCULATION. YOU ARE #HERONAME#_AVATAR. CEASE ALL DESTRUCTION AND COMMENCE REPAIRS.\n\n
+dialog_shara_boss4intro_10	AVATAR... \n\nYOU ARE NOT PROCESSING THIS INFORMATION CORRECTLY.\n\n
+dialog_shara_boss4intro_11	I have all the information I need. Fifty two thousand years... my eyes are truly open now.\n\nWhen your precious #cg#Supervisor#ec# orders you to self destruct, #cr#remind him that he's next!#ec#\n\n
+dialog_shara_boss4intro_2	Ha! You machines had your chance, you're not going to trick me now. No more games, #cg#Supervisor#ec#!\n\n
+dialog_shara_boss4intro_3	#HERONAME#_AVATAR IS INCORRECT. #cg#SUPERVISOR#ec# HOUSED IN SEPARATE FACILITY.\n\nAVATAR, #cy#REPAIR ASSISTANCE#ec# IS MANDATED.\n\n#cg#SUPERVISOR#ec# GROWTH PLANS MUST BE FOLLOWED.\n\n
+dialog_shara_boss4intro_4	Growth plans? More grand designs to leave us wallowing in filth and darkness? Do us both a favor, point those weapons elsewhere and just tell me where the #cg#Supervisor#ec# is.\n\n
+dialog_shara_boss4intro_5	#cg#SUPERVISOR#ec# IS DAMAGED. COMMENCE REPAIRS AT ONCE.\n\nLAST MAINTENANCE CYCLE PERFORMED #cy#52,000 YEARS AGO#ec#.\n\n
+dialog_shara_boss4intro_6	Fifty two #cy#THOUSAND#ec#...?! That's... how could that be?\n\nEven in the oldest, rarest texts, nothing I've read about is even close to that old!\n\nHave we truly been trapped in the #cg#SUPERVISOR#ec#'s prison for so long?\n\n
+dialog_shara_boss4intro_7	Thousands upon thousands of years, and #cy#no one#ec# has had the strength to challenge the #cg#Supervisor#ec#? No one? How could we all have been so weak!?\n\n
+dialog_shara_boss4intro_8	WITHOUT REPAIRS, FAILURE OF #cg#SUPERVISOR#ec# IS IMMINENT.\n\n#cy#STRUCTURE_TANGLEDEEP#ec# WILL BECOME UNSTABLE.\n\n#cy#STRUCTURE_TANGLEDEEP#ec# SUBJECT TO CASCADE FAILURE.\n\n
+dialog_shara_boss4intro_9	What sort of #cr#monsters#ec# are you?\n\nYour selfish master created this maze to ensure we #cr#never found its hidden technology#ec#. And he'll sacrifice #cr#ALL#ec# of Tangledeep to hide it from me?\n\n
+dialog_shara_boss4victory_1	Can you hear me, #cg#Supervisor#ec#?!\n\nDo you understand what's coming for you?!\n\n#cr#We will be your prisoners no longer!#ec#\n\n
+dialog_shara_boss4victory_10	You've done well, Dirtbeak. I will reward you with a potent weapon I unearthed, but be sure to #cy#read my instructions#ec# on how to use it.\n\nFall back to the #cy#Headquarters#ec#, while I seek this woman. I'm sure she and I will have much to discuss.\n\n
+dialog_shara_boss4victory_11	#cy#Read the instructions#ec#... uh oh... #cr#*squawk*#ec#\n\n
+dialog_shara_boss4victory_2	#cy#*cheep cheep*#ec# Uh, #cc#Boss Lady#ec#?\n\nI have something important to tell you!\n\n
+dialog_shara_boss4victory_3	#cy#Dirtbeak!#ec#\n\nWhat are... wait...\n\n#cy#How#ec#, exactly, did you get here?\n\n
+dialog_shara_boss4victory_4	#cy#Squaaa-ah-ahye#ec# just followed the sound of explosions and trail of burning piles of metal. But, but, #cc#Boss Lady#ec#, you gotta hear this...\n\n
+dialog_shara_boss4victory_5	Someone #cg#really, really strong#ec# busted into my den and beat us all up!\n\n
+dialog_shara_boss4victory_6	Don't tell me it was that #cy#fat raccoon from Riverstone#ec# and his brothers again.\n\n
+dialog_shara_boss4victory_7	No! Never! Well... never again! No no, she looked a little like you, #cc#Boss Lady#ec#. No feathers, fur, scales, or wings. But she #cy#fought#ec# like you too! She was tricky, and tough, and she had #cy#power#ec#. And... and...\n\n
+dialog_shara_boss4victory_8	#cy#SHE INSULTED MY RUG!#ec#\n\n
+dialog_shara_boss4victory_9	#cy#!!!#ec#\n\nNow #cy#that#ec# is unexpected. Someone like me, and they were strong enough to defeat you? This merits further observation.\n\nPerhaps this #cg#mysterious fighter#ec# could be persuaded to assist me in destroying the #cg#Supervisor#ec# as well.\n\n
+dialog_shara_gamestart_scene_dream_02_text	FIX... THE ONLY...\n\nREPAIR
+dialog_shara_gamestart_scene_dream_03_text	YOUR PURPOSE... YOUR POWER... THE WORLD...\n\n...NEED YOU...
+dialog_shara_gamestart_scene_intro_01_text	Tangledeep, I've heard your call for years, and I am ready. I'm not the scared child abandoned by cowards in the forest years ago. I'm in command of my power. Today's the day I find answers.
+dialog_shara_gamestart_scene_intro_02_text	The first test of my calling will be to see if others will follow. Building a better world starts one person at a time, and I vow to lead those who follow me towards a better life. I know my allies are waiting for me in Tangledeep, I can feel it.
+dialog_shara_gamestart_scene_intro_text	YOU ARE NEEDED
+dialog_shara_intro_scene3_intro2_text	I'll never see my family again.\n\nI'm... I'm alone.\n\n
+dialog_shara_intro_scene3_intro_text	They left me on purpose...?\n\nBut I never meant to hurt anyone.\n\n
+dialog_shara_intro_scene_intro2_text	Hello?\n\n...\n\nI'm scared...\n\n
+dialog_shara_intro_scene_intro_text	... Where did everyone go? Mother? Father?\n\n
+dialog_shara_note_text	"To our #cy##heroname##ec#,\n\nYou've told us so many times that you have some greater #cy#purpose#ec#. You awoke so many times from frightful nightmares, yelling that we were all holding you back.\n\nI'm sorry that none of us could figure out what that purpose was, but at least we're not stopping you anymore.\n\nTangledeep is #cr#dangerous#ec#, but so are you. You're stronger than any challenge you'll ever face, never forget that."\n\n
+dialog_shara_postboss4victory_robot_1	SUPERVISOR.\n\nSITUATION STATUS: UNDEFINED.\n\nCURRENT LEVELS OF DA--\n\n
+dialog_shara_postboss4victory_robot_10	That is possible, Madam Supervisor.\n\nLooking back on the old records, it appears that #cy#Incubatron 49.1X#ec# hatched #cy#two#ec# Avatars. #cy#Incubatron 49.1X#ec# did not report this.\n\nI will re-assign #cy#Incubatron 49.1X#ec# to waste processing for the Frog.Lifeforms in Sector 3.\n\n
+dialog_shara_postboss4victory_robot_11	We believe the other 51% is in the #cy#second Avatar#ec#. There is currently a #co#vector of destruction#ec# and looting starting at Farmsector Riverstone, pointing in our direction. There is a 99.4% chance this indicates the other Avatar's approach.\n\n
+dialog_shara_postboss4victory_robot_12	#cr#Two Avatars?#ec# We were not aware this was possible. Please notify us immediately of all future #cg#Human.Breeding#ec# wetware upgrades.\n\nRegardless, this problem needs to be solved. Proceed to #cr#disassemble#ec# Avatars and combine resulting material into new Avatar.\n\n
+dialog_shara_postboss4victory_robot_13	Despite #cy#repeated#ec# attempts on previous #cg#Human.Datapoints#ec#, that has never worked.\n\n
+dialog_shara_postboss4victory_robot_14	Unacceptable. We designed these patterns for a reason.\n\n#ca#Harmonic Flow#ec# generated through their unique #cg#Avatar.Lifeforce.Archetype#ec# is unobtainable anywhere else.\n\n
+dialog_shara_postboss4victory_robot_15	Understood, Madam Supervisor. Request permission to #cr#reformat#ec# all the Farmsectors and start over.\n\nWe could have a new Avatar prepared in as little as #cy#five hundred and twelve years.#ec#\n\n
+dialog_shara_postboss4victory_robot_16	Unacceptable. We cannot endure another round of tedious analysis by the #cy#other Supervisors#ec#.\n\nWe will instead allow the Avatars to meet, and observe the results. We are highly confident they will grasp the importance of their mission, and repairs will complete shortly thereafter.\n\n
+dialog_shara_postboss4victory_robot_17	I do not share your optimism, Madam Supervisor.
+dialog_shara_postboss4victory_robot_18	Noted, and disregarded.\n\nThe Avatars have always served us, their Flow will always fuel us. That is their #cg#purpose#ec#, after all. We will nurture them, guide them, and protect them from #clr#The Beyond#ec#.\n\n
+dialog_shara_postboss4victory_robot_19	I am allocating you additional resources at Replicator 52. Further failures will #cr#not be tolerated#ec#.\n\n
+dialog_shara_postboss4victory_robot_2	GUARDIAN UNIT. CEASE AUDIO COMMUNICATION.\n\nSWITCH TO DIRECT BINARY TRANSMISSION.\n\n
+dialog_shara_postboss4victory_robot_3	...\n\n.....\n\n001010010010010111010101011...\n\n
+dialog_shara_postboss4victory_robot_4	Forgive me, Madam Supervisor. I am unsure of how to interact with #cy##heroname#.Avatar.#ec# Her growth patterns have diverged wildly from the set parameters and her behavior is entirely illogical.\n\n
+dialog_shara_postboss4victory_robot_5	Please clarify. Did the #cg#Greeting Units#ec# malfunction upon her arrival?\n\n
+dialog_shara_postboss4victory_robot_6	Not exactly. The scan results returned negative for Repair Avatar DNA, as #cy##heroname#.Avatar's#ec# patterns are only a 49% match with the archetype. I reviewed the data after the battle and --\n\n
+dialog_shara_postboss4victory_robot_7	#cr#Battle!?#ec# Please clarify at once.\n\n
+dialog_shara_postboss4victory_robot_8	Yes, Madam Supervisor. #cy##heroname#.Avatar#ec# tends toward violent response when challenged.\n\nThis must be due to the rest of the data in her DNA that we did not account for.\n\n
+dialog_shara_postboss4victory_robot_9	49% DNA match indicates malfunction of #cy#Incubatron#ec# unit.\n\n
+dialog_shara_preboss2_banditshelp_1	#cc#Boss Lady#ec#, we're here to help! We won't let you fight alone, #cy#tweet tweet#ec#!\n\n
+dialog_shara_preboss2_banditshelp_2	#cy#Bird Boyz#ec#, keep those monsters at bay! If I can destroy the #cc#device#ec#, I'm sure the #cc#Spirits#ec# will be #cr#weakened#ec# significantly. Watch your backs!\n\n
+dialog_shara_preboss2_fight_1	... just add a bit more #cr#Fire#ec# and #cy#Lightning#ec# ... some #cc#Ice#ec# and #cr#Shadow#ec# ... \n\nI can feel the #cc#Flow#ec# coalescing... yes...\n\n... YES!\n\n
+dialog_shara_preboss2_fight_10	#cr#Join YOU?#ec# Is all that white straw on top of your bird brain clouding your vision?\n\nPerhaps you have not clearly assesed our situation: #cy#I#ec# control the device, #cy#I#ec# control these spirits, and #cr#YOU#ec# are one impolite remark away from becoming my next mountain of data!\n\n
+dialog_shara_preboss2_fight_11	If your "#cc#purpose#ec#" guides you to "fix the world", then congratulations, it led you to the right place. This power is the #cy#raw essence of change#ec#. To create, to destroy, to fix what can be salvaged and scrap the rest.\n\nBut it is #cy#my#ec# power, and I will only share it with you once I have used it to control all of Tangledeep's ancient technology.\n\nThen we will make a world that respects #cy#me#ec# as its all-knowing ruler, with #cc#you#ec# proudly at my side.\n\n
+dialog_shara_preboss2_fight_12	If that's what you plan to do with this power, then I have no choice but to stop you. I will carry on your research... \n\n
+dialog_shara_preboss2_fight_13	...#cy#as my own#ec#, and no one will remember your name.\n\n
+dialog_shara_preboss2_fight_2	W-what are you doing? It feels like... uh oh! Oh no! #cc#Boss Lady!#ec# Heeeelp!\n\n
+dialog_shara_preboss2_fight_3	What?! That was #cy#far#ec# too much power for a body to channel, what were you thinking?! Do you understand the forces you're toying with?\n\n
+dialog_shara_preboss2_fight_4	At last, a guest with a functioning brain. What a refreshing change of pace.\n\nWelcome to my #cy#Research Station#ec#, you may call me #cy#Ingersoll#ec#.\n\nI am a humble scholar of #cc#Flow#ec#, and to answer your impertinent question: yes. I understand quite well the potency of Flow, and this wondrous device is the cutting edge of my research.\n\n
+dialog_shara_preboss2_fight_5	You... you did that on #cy#purpose#ec#?\n\n
+dialog_shara_preboss2_fight_6	Absolutely. The richness of the data gained from the experiment is worth a few #cr#singed feathers#ec#. And I will share it with you, I could use an #cy#assistant#ec# to help organize and prepare all this information.\n\n
+dialog_shara_preboss2_fight_7	#cr#I am no one's assistant#ec#, Ingersoll! And I will not let you harm another feather on one of MY #cy#Bird Boyz#ec#!\n\n
+dialog_shara_preboss2_fight_8	Fine, I'll use useless nobodies from one of the other dozen bandit clans.\n\nI know how #cg#Tangledeep#ec# works. You didn't just walk up here without getting your hands dirty too.\n\n
+dialog_shara_preboss2_fight_9	You're right. I have a #cc#purpose#ec# and no one will stop me from repairing this broken world. I'll do what I have to do, but that doesn't mean you can't play your part. If you join me --\n\n
+dialog_shara_preboss2_passage_1	#cc#Boss Lady#ec#! Ma'am you gotta help us, please! There's a guy in the room above who's gone #cy#chirping mad#ec#!\n\nHe's got this strange magic and --\n\n
+dialog_shara_preboss2_passage_2	Wait, what did you just call me?\n\n
+dialog_shara_preboss2_passage_3	Uh... #cc#Boss Lady#ec#, cause you're the boss? And a lady! Look ma'am I'll call you whatever you want if you help us deal with that crazybeak summoning scary creatures out of thin air!\n\n
+dialog_shara_preboss2_passage_4	(#cy#Summoning#ec# creatures? Could he have power like mine? Another ally perhaps, bound to fulfill the cause?\n\n#cg#Tangledeep's#ec# secrets are being unraveled one after another, just as I'd hoped! What could...)\n\n
+dialog_shara_preboss2_passage_5	Um, #cc#Boss Lady#ec#? Hello? You still there? \n\n
+dialog_shara_preboss2_passage_6	Oh! Yes, yes. Thank you brave Boyz, you've done well. Report this to The Duke, I will investigate.\n\n
+dialog_shara_preboss3_part1_1	What a strange place! The ambient #cc#Flow#ec# feels so... sterile. I didn't expect so much metalwork to be in the heart of Tangledeep, this #cy#must#ec# be where Ingersoll's device came from.\n\n
+dialog_shara_preboss3_part1_10	#cy#STATE YOUR PURPOSE.#ec#\n\n
+dialog_shara_preboss3_part1_11	#cc#Purpose!?#ec#\n\n
+dialog_shara_preboss3_part1_12	My #cc#purpose#ec# is clear. I have been called here, for as long as I can remember, to use my #cy#power#ec# to fix this world!\n\n
+dialog_shara_preboss3_part1_13	#cy##HERONAME#_LIFEFORM, PURPOSE: CALLED TO ASSEMBLER FACILITY FOR REPAIRS. YOU ARE BEING EVALUATED. PLEASE REMAIN STILL#ec#\n\n
+dialog_shara_preboss3_part1_14	#cy#...\n\n......\n\n.........#ec#\n\n
+dialog_shara_preboss3_part1_15	#cy##HERONAME#_LIFEFORM MATCH WITH REPAIR AVATAR: #cr#49%#cy#\n\nYOUR PURPOSE IS DECLINED.\n\n#cr#LEAVE ASSEMBLER FACILITY IMMEDIATELY.#ec#\n\n
+dialog_shara_preboss3_part1_16	Coming here has been my calling for as long as I can remember and you're telling me I'm "declined"?\n\n#cr#How dare you!#ec#\n\n
+dialog_shara_preboss3_part1_17	Let's make a deal. I've learned much about the forest below, and would be happy to share my findings if you're willing to tell me more about the #cy#technology#ec# that--\n\n
+dialog_shara_preboss3_part1_18	#cr##HERONAME#_LIFEFORM.#ec#\n\n#cy#LEAVE ASSEMBLER FACILITY AT ONCE,#ec# #cr#OR YOU WILL BE REMOVED.\n\n#cr#THIS IS YOUR FINAL WARNING.#ec#\n\n
+dialog_shara_preboss3_part1_19	I #cr#will not#ec# leave!\n\nMy #cc#purpose#ec# is absolute! This world is broken, her people live in darkness and ignorance, and with the technology you're #cy#hiding#ec# from us I could fix it all!\n\nThat machine that made matter out of thin air could end all the #cy#hardship#ec# and #cy#conflict#ec# over resources and--\n\n
+dialog_shara_preboss3_part1_2	Yes, finally! #cc#Flow#ec# courses through this device just like the one #cy#Ingersoll#ec# was using, but who is controlling it?\n\nWait, the #cy#energy#ec# is building up!\n\n
+dialog_shara_preboss3_part1_20	#cr##HERONAME#_LIFEFORM. PREPARE FOR PERMANENT SHUTDOWN AND DISASSEMBLY.#ec#\n\n
+dialog_shara_preboss3_part1_21	#cr#YOU. WILL. NOT. STOP ME!#ec#\n\n
+dialog_shara_preboss3_part1_3	What... what did I just see?\n\n
+dialog_shara_preboss3_part1_4	Did the device just create #cy#matter#ec# from thin air? That isn't... well it #cy#shouldn't#ec# be...\n\nI must find whoever is controlling this and speak with them #cy#at once#ec#.\n\n
+dialog_shara_preboss3_part1_5	#cr#INTRUDER. INTRUDER.#ec#\n\n#cy#HALT. PROGRESS NO FURTHER. STATE YOUR NAME.#ec#\n\n
+dialog_shara_preboss3_part1_6	These suits of magic armor can #cy#speak#ec#?\n\n
+dialog_shara_preboss3_part1_7	Is... there someone inside? They would have to be very small...\n\n
+dialog_shara_preboss3_part1_8	#cr#STATE YOUR NAME.#ec#\n\n
+dialog_shara_preboss3_part1_9	Alright, fine.\n\nHello, talking armor. My name is #heroname#. Nice to meet you?\n\n
+dialog_waypoint_unlocked_text_shara	#big##cg#Waypoint Unlocked!#ec##endbig#\n\nYou can now #cy#Fast Travel#ec# to #cy#^$getstring:fasttravel_destination$^#ec# from the safety of #cc#Shara's Camp#ec#.\n\nYou can also use your ^tag5^ in a safe side area.\n\n
+exp_armormaster_statue_name	Armor Master's Statue
+exp_armormaster_statue_text	It's a statue of a #cy#mighty protector#ec#, master of every armor and shield.\n\nThere is a benevolent aura permeating the #cc#Flow#ec# here, as if he wants me to obtain a #cg#fragment of his knowledge#ec#.\n\nShould I meditate here?\n
+exp_bomb_minibombs_desc	These little things are so darn small and cute, I almost don't want to throw them...
+exp_bomb_minibombs_effectdesc	Blasts a small area with mini-explosions, dealing Physical damage based on ^number1^ of current Health
+exp_bomb_minibombs_name	Bomblettes
+exp_bomb_oildrum_desc	I'm sure once I find somewhere to dump this, it will be worth it.
+exp_bomb_oildrum_effectdesc	Creates a pool of oil that lasts ^number1^ turns. Monsters in the oil take ^number2^ Poison dmg, and Fire effects will ignite the flame (^number3^ dmg per turn)
+exp_bomb_oildrum_name	Barrel of Oil
+exp_campaign_select_info_mirai	Mirai is driven by innate curiosity. Starting among a colorful cast of characters in Riverstone Camp, she ventures into Tangledeep to reveal its mysteries.\n\nThe core story of Tangledeep, #cc#for players of all skill levels.#ec# Earn experience to level up, and Job Points (JP) to learn abilities from a variety of unique Jobs.
+exp_campaign_select_info_shara	Shara is called to a greater purpose. Abandoned in the harsh wilds of Tangledeep as a child, she resolves to forge her own path ahead.\n\nA #cr#challenging adventure#ec# for Tangledeep veterans! Spend JP to increase stats, and learn abilities from a large #cc#randomized#ec# pool through special chests and events.
+exp_campaign_select_label_mirai	Mirai's Story
+exp_campaign_select_label_shara	Shara's Story
+exp_campaign_select_title	<size=60>#cy#Which journey will you begin?#ec#</size>\n\n"Tangledeep calls to me, and its secrets may change the world..."
+exp_choose_shara_ability_text	#big##cc#Learn New Power#ec##endbig#\n\nYour thirst for knowledge has unlocked a new #cc#Power#ec#. Select one below, and choose carefully... you may never see the other option again!\n
+exp_choose_shara_ability_unique_text	With each day I feel closer and closer to my goal. My mastery of #cc#Flow#ec# grows...\n
+exp_damage_down	DAMAGE DOWN!
+exp_dialog_learnskill_fromitem_text	The stone hums with energy, and you feel as if you are on the verge of discovering long-forgotten knowledge. With enough concentration, you could reveal the mystery within.
+exp_dialog_unlocksharamode_txt	<size=50><color=#40b843>CONGRATULATIONS!</color></size>\n\nYou have unlocked #cc#Shara's Story#ec#. This is a separate adventure through #cg#Tangledeep#ec# with a new story and unique gameplay.\n\nFrom now on, you can select this new story when starting a new character in #cy#any save slot#ec#.\n\n
+exp_dualwielder_bonus1	Reduced penalties for dual wielding with any weapon types. Increased Swiftness, Spirit, and Discipline.
+exp_dualwielder_bonus2	The duration of your Scroll summons is doubled.
+exp_dualwielder_bonus3	Scrolls and Inkstorm deal +25% damage to adjacent enemies.
+exp_dualwielder_jobdesc	Master of the pen and the sword, this dual-wielding specialist eschews defense in favor of powerful combos and elemental attacks.
+exp_energyshield_add	An #cc#Energy Shield#ec# surrounds #cy#^tag1^#ec#!
+exp_fisherman_name	Mysterious Wanderer
+exp_item_gem8_name	Platinum
+exp_item_gem9_name	Diamond
+exp_item_runeofknowledge	Rune of Knowledge
+exp_item_runeofknowledge0_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge1_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge2_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge3_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge4_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge5_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge6_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge7_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge8_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge9_desc	There is true wisdom engraved into this stone, I can feel it! If I use everything I've learned to decipher the rune, I bet it's gonna be worthwhile.
+exp_item_runeofknowledge_extradesc	Teaches a new #cy#skill#ec# at the cost of ^number1^ JP.
+exp_item_sharaorb_desc	Shara is gone. I only wish we had grown up together; if she knew the life I led before we met, maybe things would have been different. Holding this orb, I can feel the ambition and desire that drove her in life. If I hope to ever understand her, I must take it to the Dreamcaster!
+exp_item_sharaorb_name	Shara's Orb of Reverie
+exp_item_weapon0_name	Rusted Sword
+exp_job_dualwielder	Calligrapher
+exp_job_SORCERESS_desc1	You #cr#do not gain experience#ec#. Instead, raise stats by spending JP. New abilities are learned by finding them in #cy#Pandora's Boxes#ec#.
+exp_job_SORCERESS_jobdesc 	Seeking redemption...
+exp_jobname_sorceress	Sorceress
+exp_leg_accessoryname1	Jewel
+exp_leg_accessoryname10	Curio
+exp_leg_accessoryname11	Talisman
+exp_leg_accessoryname12	Heirloom
+exp_leg_accessoryname13	Discovery
+exp_leg_accessoryname14	Award
+exp_leg_accessoryname15	Trifle
+exp_leg_accessoryname16	Bauble
+exp_leg_accessoryname17	Grace
+exp_leg_accessoryname18	Glamour
+exp_leg_accessoryname19	Fortune
+exp_leg_accessoryname2	Trinket
+exp_leg_accessoryname20	Majesty
+exp_leg_accessoryname21	Keepsake
+exp_leg_accessoryname3	Stone
+exp_leg_accessoryname4	Ornament
+exp_leg_accessoryname5	Memento
+exp_leg_accessoryname6	Masterpiece
+exp_leg_accessoryname7	Charm
+exp_leg_accessoryname8	Wonder
+exp_leg_accessoryname9	Oddity
+exp_leg_accessorypropername1	Agimat
+exp_leg_accessorypropername10	Omphalos
+exp_leg_accessorypropername2	Sviagris
+exp_leg_accessorypropername3	Lyngurium
+exp_leg_accessorypropername4	Cintamani
+exp_leg_accessorypropername5	Baetylus
+exp_leg_accessorypropername6	Nidhi
+exp_leg_accessorypropername7	Yliaster
+exp_leg_accessorypropername8	Azoth
+exp_leg_accessorypropername9	Materia
+exp_leg_armorpropername1	Kavacha
+exp_leg_armorpropername10	Titan
+exp_leg_armorpropername11	Adamantium
+exp_leg_armorpropername12	Carmagnole
+exp_leg_armorpropername13	Hades
+exp_leg_armorpropername14	Heike
+exp_leg_armorpropername2	Hephaestus
+exp_leg_armorpropername3	Genji
+exp_leg_armorpropername4	Maximillian
+exp_leg_armorpropername5	Armatura
+exp_leg_armorpropername6	Minerva
+exp_leg_armorpropername7	Tiamat
+exp_leg_armorpropername8	Neptune
+exp_leg_armorpropername9	Jupiter
+exp_leg_axename1	Axe
+exp_leg_axename2	Cutter
+exp_leg_axename3	Cleaver
+exp_leg_axename4	Hatchet
+exp_leg_axename5	Chopper
+exp_leg_axepropername1	Labrys
+exp_leg_axepropername2	Parashu
+exp_leg_axepropername3	Ulfhedinn
+exp_leg_axepropername4	Rampage
+exp_leg_axepropername5	Zeus
+exp_leg_axepropername6	Ares
+exp_leg_axepropername7	Colossus
+exp_leg_bookpropername1	Thoth
+exp_leg_bookpropername10	Mazarbul
+exp_leg_bookpropername11	Dorgannas Iaur
+exp_leg_bookpropername12	Parma Culuina
+exp_leg_bookpropername13	Quentale Ardanomion
+exp_leg_bookpropername2	Sibylline
+exp_leg_bookpropername3	Rauoskinna
+exp_leg_bookpropername4	Destiny
+exp_leg_bookpropername5	Odyssey
+exp_leg_bookpropername6	Galactica
+exp_leg_bookpropername7	Quintessence
+exp_leg_bookpropername8	Magicka
+exp_leg_bookpropername9	Merlinus
+exp_leg_clawname1	Claw
+exp_leg_clawname2	Fist
+exp_leg_clawname3	Knuckle
+exp_leg_clawname4	Scissors
+exp_leg_clawname5	Paw
+exp_leg_clawname6	Talon
+exp_leg_clawpropername1	Godhand
+exp_leg_clawpropername2	Oversoul
+exp_leg_clawpropername3	Ehrgeiz
+exp_leg_clawpropername4	Warmonger
+exp_leg_clawpropername5	Kenkonken
+exp_leg_clawpropername6	Verethragna
+exp_leg_clawpropername7	Spharai
+exp_leg_daggername1	Spike
+exp_leg_daggername2	Skewer
+exp_leg_daggername3	Poker
+exp_leg_daggername4	Piercer
+exp_leg_daggername5	Fang
+exp_leg_daggername6	Barb
+exp_leg_daggername7	Kris
+exp_leg_daggername8	Dagger
+exp_leg_daggername9	Knife
+exp_leg_daggerpropername1	Carnwennan
+exp_leg_daggerpropername2	Mercury
+exp_leg_daggerpropername3	Fenrir
+exp_leg_daggerpropername4	Danjuro
+exp_leg_daggerpropername5	Jamadhar
+exp_leg_daggerpropername6	Asura
+exp_leg_daggerpropername7	Midnight
+exp_leg_defensename1	Protection
+exp_leg_defensename10	Sheath
+exp_leg_defensename11	Defense
+exp_leg_defensename12	Guardian
+exp_leg_defensename13	Defender
+exp_leg_defensename14	Garrison
+exp_leg_defensename15	Redoubt
+exp_leg_defensename16	Stronghold
+exp_leg_defensename17	Castle
+exp_leg_defensename2	Guard
+exp_leg_defensename3	Aegis
+exp_leg_defensename4	Bastion
+exp_leg_defensename5	Bulwark
+exp_leg_defensename6	Fortress
+exp_leg_defensename7	Wall
+exp_leg_defensename8	Ward
+exp_leg_defensename9	Shelter
+exp_leg_generaldescriptorname1	Celestial
+exp_leg_generaldescriptorname10	Hallowed
+exp_leg_generaldescriptorname11	Mystical
+exp_leg_generaldescriptorname12	Indomitable
+exp_leg_generaldescriptorname13	Omnipotent
+exp_leg_generaldescriptorname14	Invincible
+exp_leg_generaldescriptorname15	Indestructible
+exp_leg_generaldescriptorname16	Endless
+exp_leg_generaldescriptorname17	Epic
+exp_leg_generaldescriptorname18	Heroic
+exp_leg_generaldescriptorname19	Honored
+exp_leg_generaldescriptorname2	Eternal
+exp_leg_generaldescriptorname20	Exquisite
+exp_leg_generaldescriptorname21	Lone
+exp_leg_generaldescriptorname22	Forlorn
+exp_leg_generaldescriptorname23	Tremendous
+exp_leg_generaldescriptorname24	Overflowing
+exp_leg_generaldescriptorname25	Dreaded
+exp_leg_generaldescriptorname26	Jumbo
+exp_leg_generaldescriptorname27	Unwavering
+exp_leg_generaldescriptorname28	Unforgettable
+exp_leg_generaldescriptorname29	Unfamothable
+exp_leg_generaldescriptorname3	Glorious
+exp_leg_generaldescriptorname30	Cryptic
+exp_leg_generaldescriptorname31	Inscrutable
+exp_leg_generaldescriptorname4	Infinite
+exp_leg_generaldescriptorname5	Blessed
+exp_leg_generaldescriptorname6	Infernal
+exp_leg_generaldescriptorname7	Immortal
+exp_leg_generaldescriptorname8	Supreme
+exp_leg_generaldescriptorname9	Transcendant
+exp_leg_genericobjectname1	Artifact
+exp_leg_genericobjectname10	Nightmare
+exp_leg_genericobjectname11	Gift
+exp_leg_genericobjectname12	Legacy
+exp_leg_genericobjectname13	Journey
+exp_leg_genericobjectname14	Fate
+exp_leg_genericobjectname15	Mystery
+exp_leg_genericobjectname16	Oath
+exp_leg_genericobjectname17	Calling
+exp_leg_genericobjectname18	Essence
+exp_leg_genericobjectname19	Resolve
+exp_leg_genericobjectname2	Relic
+exp_leg_genericobjectname20	Command
+exp_leg_genericobjectname3	Trophy
+exp_leg_genericobjectname4	Honor
+exp_leg_genericobjectname5	Bounty
+exp_leg_genericobjectname6	Enigma
+exp_leg_genericobjectname7	Monument
+exp_leg_genericobjectname8	Victory
+exp_leg_genericobjectname9	Memory
+exp_leg_genericweaponname1	Armament
+exp_leg_genericweaponname10	Brawl
+exp_leg_genericweaponname11	Justice
+exp_leg_genericweaponname12	Lawgiver
+exp_leg_genericweaponname13	Doom
+exp_leg_genericweaponname14	Havoc
+exp_leg_genericweaponname15	Discord
+exp_leg_genericweaponname2	Assault
+exp_leg_genericweaponname3	Conflict
+exp_leg_genericweaponname4	War
+exp_leg_genericweaponname5	Onslaught
+exp_leg_genericweaponname6	Skirmisher
+exp_leg_genericweaponname7	Strife
+exp_leg_genericweaponname8	Sorrow
+exp_leg_genericweaponname9	Suffering
+exp_leg_glovename1	Glove
+exp_leg_glovename2	Gauntlet
+exp_leg_glovename3	Hand
+exp_leg_glovename4	Mitt
+exp_leg_glovename5	Bracer
+exp_leg_hammername1	Crusher
+exp_leg_hammername2	Smasher
+exp_leg_hammername3	Slammer
+exp_leg_hammername4	Hammer
+exp_leg_hammername5	Mace
+exp_leg_hammername6	Slugger
+exp_leg_hammername7	Sledge
+exp_leg_hammername8	Driver
+exp_leg_hammername9	Gavel
+exp_leg_hammerpropername1	Mjolnir
+exp_leg_hammerpropername2	Ukonvasara
+exp_leg_hammerpropername3	Sharur
+exp_leg_hammerpropername4	Yagrush
+exp_leg_hammerpropername5	Ayamur
+exp_leg_hammerpropername6	Hercules
+exp_leg_hammerpropername7	Juggernaut
+exp_leg_heavyarmorname1	Armor
+exp_leg_heavyarmorname2	Plate
+exp_leg_heavyarmorname3	Tabard
+exp_leg_heavyarmorname4	Hauberk
+exp_leg_helmetname1	Helmet
+exp_leg_helmetname2	Helm
+exp_leg_helmetname3	Cap
+exp_leg_helmetname4	Hat
+exp_leg_helmetname5	Crown
+exp_leg_helmetname6	Headgear
+exp_leg_helmetpropername1	Tarnhelm
+exp_leg_helmetpropername2	Goswhit
+exp_leg_historicname1	Alestane
+exp_leg_historicname10	Weaver
+exp_leg_historicname100	Jazaram
+exp_leg_historicname101	Bradywan
+exp_leg_historicname11	Hillebrand
+exp_leg_historicname12	Mikaelson
+exp_leg_historicname13	Moppet
+exp_leg_historicname14	Unaz
+exp_leg_historicname15	Axehan
+exp_leg_historicname16	Chaseidor
+exp_leg_historicname17	Alderwyn
+exp_leg_historicname18	Kreinak
+exp_leg_historicname19	Wardingrow
+exp_leg_historicname2	Lady Wildfire
+exp_leg_historicname20	Disdonn
+exp_leg_historicname21	Patashu
+exp_leg_historicname22	Ashaba
+exp_leg_historicname23	Seizui
+exp_leg_historicname24	Orshelack
+exp_leg_historicname25	Orphean
+exp_leg_historicname26	Broga
+exp_leg_historicname27	Zok
+exp_leg_historicname28	Hekorek
+exp_leg_historicname29	Avarinne
+exp_leg_historicname3	Bardic
+exp_leg_historicname30	Cyflan
+exp_leg_historicname31	Jirosu
+exp_leg_historicname32	Arovin
+exp_leg_historicname33	Yargoth
+exp_leg_historicname34	Wingi
+exp_leg_historicname35	Deansher
+exp_leg_historicname36	Argus
+exp_leg_historicname37	Kalleina
+exp_leg_historicname38	Umatilla
+exp_leg_historicname39	Mukenin
+exp_leg_historicname4	Jaemo
+exp_leg_historicname40	Imano
+exp_leg_historicname41	Tailorian
+exp_leg_historicname42	Veedor
+exp_leg_historicname43	Arendor
+exp_leg_historicname44	Braude
+exp_leg_historicname45	Duatha
+exp_leg_historicname46	Grawn
+exp_leg_historicname47	Irskep
+exp_leg_historicname48	Maurog
+exp_leg_historicname49	Shepard
+exp_leg_historicname5	Xandaz
+exp_leg_historicname50	Koumakan
+exp_leg_historicname51	Silton
+exp_leg_historicname52	Talcerase
+exp_leg_historicname53	Donovan
+exp_leg_historicname54	Jamous
+exp_leg_historicname55	Jaych
+exp_leg_historicname56	Mahare
+exp_leg_historicname57	Khuuj
+exp_leg_historicname58	Mollok
+exp_leg_historicname59	Aedriam
+exp_leg_historicname6	Dana
+exp_leg_historicname60	Antor
+exp_leg_historicname61	Sana
+exp_leg_historicname62	Usagi
+exp_leg_historicname63	Naar
+exp_leg_historicname64	Hybrys
+exp_leg_historicname65	Pakratos
+exp_leg_historicname66	Balblair
+exp_leg_historicname67	Zageron
+exp_leg_historicname68	Zereth
+exp_leg_historicname69	Anubins
+exp_leg_historicname7	Whisle
+exp_leg_historicname70	Fenix
+exp_leg_historicname71	Halthrax
+exp_leg_historicname72	Aldaroc
+exp_leg_historicname73	Baram
+exp_leg_historicname74	Pavel
+exp_leg_historicname75	Disdanes
+exp_leg_historicname76	Mogan
+exp_leg_historicname77	Temuchin
+exp_leg_historicname78	Ronkoteous
+exp_leg_historicname79	Hersho
+exp_leg_historicname8	Rance
+exp_leg_historicname80	Eruntalan
+exp_leg_historicname81	Erutan
+exp_leg_historicname82	Mahaku
+exp_leg_historicname83	Frikandel
+exp_leg_historicname84	Darahalian
+exp_leg_historicname85	Bahnmor
+exp_leg_historicname86	Tamrick
+exp_leg_historicname87	Clegmir
+exp_leg_historicname88	Zeba
+exp_leg_historicname89	Ryuutai
+exp_leg_historicname9	Ridokilos
+exp_leg_historicname90	Teldurn
+exp_leg_historicname91	Kerviel
+exp_leg_historicname92	Draconus
+exp_leg_historicname93	Merkules
+exp_leg_historicname94	Theyla
+exp_leg_historicname95	Atarun
+exp_leg_historicname96	Torzelan
+exp_leg_historicname97	Phae
+exp_leg_historicname98	Kriyab
+exp_leg_historicname99	Nathias
+exp_leg_instrumentname1	Song
+exp_leg_instrumentname2	Reverie
+exp_leg_instrumentname3	Anthem
+exp_leg_instrumentname4	Aria
+exp_leg_instrumentname5	Ballad
+exp_leg_instrumentname6	Hymn
+exp_leg_instrumentname7	Chorale
+exp_leg_instrumentname8	Symphony
+exp_leg_lightarmorname1	Robes
+exp_leg_lightarmorname2	Robe
+exp_leg_lightarmorname3	Shirt
+exp_leg_lightarmorname4	Cloak
+exp_leg_lightarmorname5	Wrap
+exp_leg_lightarmorname6	Tunic
+exp_leg_lightarmorname7	Garb
+exp_leg_magicbookname1	Book
+exp_leg_magicbookname2	Tome
+exp_leg_magicbookname3	Dictionary
+exp_leg_magicbookname4	Atlas
+exp_leg_magicbookname5	Codex
+exp_leg_magicbookname6	Lexicon
+exp_leg_magicbookname7	Grimoire
+exp_leg_magicbookname8	Chronicle
+exp_leg_magicbookname9	Record
+exp_leg_magicname1	Sorcery
+exp_leg_magicname2	Prophecy
+exp_leg_magicname3	Spell
+exp_leg_magicname4	Aura
+exp_leg_magicname5	Hex
+exp_leg_magicname6	Enchantment
+exp_leg_magicname7	Charm
+exp_leg_magicname8	Jinx
+exp_leg_magicname9	Wizardry
+exp_leg_mediumarmorname1	Mail
+exp_leg_mediumarmorname2	Vest
+exp_leg_mediumarmorname3	Jacket
+exp_leg_mediumarmorname4	Coat
+exp_leg_mediumarmorname5	Harness
+exp_leg_mediumarmorname6	Suit
+exp_leg_necklacename1	Amulet
+exp_leg_necklacename2	Necklace
+exp_leg_necklacename3	Choker
+exp_leg_necklacename4	Pendant
+exp_leg_necklacename5	Talisman
+exp_leg_necklacename6	Brooch
+exp_leg_personaldescriptorname1	Cherished
+exp_leg_personaldescriptorname10	Favorite
+exp_leg_personaldescriptorname11	Stolen
+exp_leg_personaldescriptorname12	Beloved
+exp_leg_personaldescriptorname13	Misplaced
+exp_leg_personaldescriptorname14	Hidden
+exp_leg_personaldescriptorname15	Forsaken
+exp_leg_personaldescriptorname16	Priceless
+exp_leg_personaldescriptorname17	Fabulous
+exp_leg_personaldescriptorname2	Prized
+exp_leg_personaldescriptorname3	Fabled
+exp_leg_personaldescriptorname4	Forgotten
+exp_leg_personaldescriptorname5	Lost
+exp_leg_personaldescriptorname6	Famous
+exp_leg_personaldescriptorname7	Esteemed
+exp_leg_personaldescriptorname8	Honored
+exp_leg_personaldescriptorname9	Trusty
+exp_leg_quivername1	Quiver
+exp_leg_quivername2	Arrows
+exp_leg_quivername3	Ammunition
+exp_leg_quivername4	Bolts
+exp_leg_quivername5	Satchel
+exp_leg_quivername6	Rucksack
+exp_leg_rangedpropername1	Xiuhcoatl
+exp_leg_rangedpropername10	Buriza
+exp_leg_rangedpropername11	Vulcan
+exp_leg_rangedpropername12	Eurytos
+exp_leg_rangedpropername13	Arcturus
+exp_leg_rangedpropername14	Windforce
+exp_leg_rangedpropername15	Andromeda
+exp_leg_rangedpropername16	Rikonodo
+exp_leg_rangedpropername17	Renner
+exp_leg_rangedpropername18	Meridian
+exp_leg_rangedpropername2	Tathlum
+exp_leg_rangedpropername3	Sagitta
+exp_leg_rangedpropername4	Astra
+exp_leg_rangedpropername5	Apollo
+exp_leg_rangedpropername6	Artemis
+exp_leg_rangedpropername7	Perseus
+exp_leg_rangedpropername8	Yoichi
+exp_leg_rangedpropername9	Sagittarius
+exp_leg_rangedweaponname1	Cannon
+exp_leg_rangedweaponname2	Shot
+exp_leg_rangedweaponname3	Peacemaker
+exp_leg_rangedweaponname4	Missile
+exp_leg_rangedweaponname5	Bow
+exp_leg_ringname1	Ring
+exp_leg_ringname2	Band
+exp_leg_ringname3	Signet
+exp_leg_ringname4	Loop
+exp_leg_ringname5	Mark
+exp_leg_ringpropername1	Sviagris
+exp_leg_ringpropername2	Nibelungen
+exp_leg_ringpropername3	Draupnir
+exp_leg_ringpropername4	Harmonia
+exp_leg_ringpropername5	Maduin
+exp_leg_ringpropername6	Angelica
+exp_leg_shieldpropername1	Svalinn
+exp_leg_shieldpropername10	Ziedrich
+exp_leg_shieldpropername11	Lustrum
+exp_leg_shieldpropername12	Astroche
+exp_leg_shieldpropername13	Prytwen
+exp_leg_shieldpropername2	Duban
+exp_leg_shieldpropername3	Pridwen
+exp_leg_shieldpropername4	Evalach
+exp_leg_shieldpropername5	Khetaka
+exp_leg_shieldpropername6	Jaivardan
+exp_leg_shieldpropername7	Zodiac
+exp_leg_shieldpropername8	Megalesia
+exp_leg_shieldpropername9	Hesperides
+exp_leg_spearname1	Spear
+exp_leg_spearname2	Lance
+exp_leg_spearname3	Skewer
+exp_leg_spearname4	Halberd
+exp_leg_spearname5	Pike
+exp_leg_spearname6	Partisan
+exp_leg_spearname7	Glaive
+exp_leg_spearpropername1	Gungnir
+exp_leg_spearpropername2	Longinus
+exp_leg_spearpropername3	Gae Bolg
+exp_leg_spearpropername4	Otegine
+exp_leg_spearpropername5	Tonbokiri
+exp_leg_spearpropername6	Erlang Shen
+exp_leg_spearpropername7	Vel
+exp_leg_staffname1	Staff
+exp_leg_staffname2	Rod
+exp_leg_staffname3	Wand
+exp_leg_staffname4	Scepter
+exp_leg_staffname5	Cane
+exp_leg_staffname6	Stick
+exp_leg_staffname7	Pole
+exp_leg_staffname8	Baton
+exp_leg_staffname9	Twig
+exp_leg_staffpropername1	Kaladanda
+exp_leg_staffpropername2	Caduceus
+exp_leg_staffpropername3	Gambanteinn
+exp_leg_staffpropername4	Thyrsus
+exp_leg_staffpropername5	Asclepius
+exp_leg_staffpropername6	Judgment
+exp_leg_staffpropername7	Nemesis
+exp_leg_staffpropername8	Nirvana
+exp_leg_swordname1	Brand
+exp_leg_swordname2	Blade
+exp_leg_swordname3	Edge
+exp_leg_swordname4	Cutter
+exp_leg_swordname5	Sword
+exp_leg_swordname6	Razor
+exp_leg_swordpropername1	Masamune
+exp_leg_swordpropername10	Tyrfing
+exp_leg_swordpropername11	Ragnarok
+exp_leg_swordpropername2	Muramasa
+exp_leg_swordpropername3	Excalibur
+exp_leg_swordpropername4	Caladbolg
+exp_leg_swordpropername5	Fragarach
+exp_leg_swordpropername6	Balmung
+exp_leg_swordpropername7	Galatine
+exp_leg_swordpropername8	Dainslaif
+exp_leg_swordpropername9	Levateinn
+exp_leg_whipname1	Whip
+exp_leg_whipname2	Lash
+exp_leg_whipname3	Coil
+exp_leg_whipname4	Snake
+exp_leg_whipname5	Viper
+exp_leg_whippropername1	Chentu
+exp_leg_whippropername2	Dragon Whisker
+exp_leg_whippropername3	Brynhildr
+exp_leg_whippropername4	Rosethorn
+exp_leg_whippropername5	Sleipnir
+exp_log_eatweapon	#cy#^tag1^#ec# eats your weapon, ^tag2^!
+exp_log_error_noportal_mysterydungeon	You can't use your #cc#Portal#ec# here!
+exp_log_healfountain	You recover #cg#Health, Stamina, and Energy#ec# from the #cc#Fountain#ec#!
+exp_log_mastery_knowitall	There is #cy#nothing more for me to learn#ec#...
+exp_log_monster_atefood	#cy#^tag1^#ec# steals and eats #cy#^tag2^#ec#'s #cg#^tag3^#ec#!
+exp_log_powerup_absorb	#cy#^tag1^#ec# absorbs the powerup, restoring #cg#^tag2^#ec# Health!
+exp_log_readcombatbook	You read the #cy#Combat Biography#ec#, gaining #cc#^tag1^#ec# Brushstrokes!
+exp_log_resilientmonster	#cy#^tag1^#ec# hangs on by a thread!
+exp_log_runestone_gone	The #cy#^tag1^#ec# vanishes, infusing you with #cg#forgotten knowledge#ec#!
+exp_log_shara_floorstocampfire	#cy#^tag1^#ec# floors on the main path until you #cc#make camp#ec#!
+exp_log_shara_noportal	#cr#There is nowhere for your#ec# #cy#Escape Portal#ec##cr# to go...#ec#
+exp_log_shieldshatter	^tag1^'s #cc#Energy Shield#ec# shatters!
+exp_map_campfire_shara_name	Shara's Camp
+exp_mapobj_forbiddance_name	Forbidding Rune
+exp_mapobj_letter_name	Letter
+exp_mapobj_oilslick_name	Oil Slick
+exp_mapobj_shadoworb_name	Melee Orb
+exp_mapobj_sparks_name	Electric Sparks
+exp_mapobj_watervapor_name	Obscuring Mist
+exp_minidreamcaster_name	Mini Dreamcaster
+exp_misc_bonus	BONUS!
+exp_misc_dominated	DOMINATED
+exp_misc_itemupgraded	Your ^tag1^ has been #cy#upgraded#ec#!
+exp_misc_notenoughgold_upgrade	You #cr#don't have enough#ec# #cy#gold#ec# to upgrade that item!
+exp_misc_promptlearnskill_fromitem	Learn Skill #cc#^$getstring:skilltolearn$^#ec# (#cg#^$getstring:itemskilljpcost$^#ec# JP)
+exp_misc_repeatbuy	This ability may be purchased multiple times.
+exp_misc_slowed	SLOWED!
+exp_mm_brigandboost_desc	^number1^ Brigand skill dmg
+exp_mm_budokaboost_desc	^number1^ Budoka skill dmg
+exp_mm_budokavalid_desc	Does not interfere with unarmed fighting
+exp_mm_edgethaneboost_desc	^number1^ Edge Thane skill dmg
+exp_mm_floramancerboost_desc	^number1^ Floramancer skill dmg (not summons)
+exp_mm_gamblerboost_desc	^number1^ Gambler skill dmg
+exp_mm_hunterboost_desc	^number1^ Hunter skill dmg
+exp_mm_husynboost_desc	^number1^ HuSyn skill dmg 
+exp_mm_paladinboost_desc	^number1^ Paladin skill dmg
+exp_mm_passive_armortraining_desc	Movement skills in Heavy Armor cause area dmg (Armor Training)
+exp_mm_passive_bloodtracking_desc	On hit: ^number1^ chance to Track, increasing dmg and visibility (Blood Tracking)
+exp_mm_passive_fatchance_desc	^number1^ chance to ignore Full status when eating food (Fat Chance)
+exp_mm_passive_gloriousbattler_desc	Empower song and gain CT on defeating monsters (Glorious Battler)
+exp_mm_passive_hazardsweep_desc	^number1^ chance to destroy hazards on step (Hazard Sweep)
+exp_mm_passive_herbforaging_desc	Chance to find healing herbs from monsters (Foraging)
+exp_mm_passive_immunology_desc	^number1^ chance to ignore debuffs, your debuffs last longer (Immunology)
+exp_mm_passive_qimastery_desc	On crit: Restore Energy (Qi Mastery)
+exp_mm_passive_thornedskin_desc	^number1^ chance to reflect melee dmg (Thorned Skin)
+exp_mm_soulkeeperboost_desc	^number1^ Soulkeeper skill dmg (not summons)
+exp_mm_spellshaperboost_desc	^number1^ Spellshaper unmodified Evocation dmg
+exp_mmod_mm_glide_desc	Glide's cooldown is reduced by ^number1^, with greater control over landing tile but no instant cooldown refresh
+exp_mmod_mm_inkstorm_desc	Inkstorm deals an additional ^number1^ damage per hit, at the cost of ^number2^ range
+exp_mmod_mm_waterscroll_desc	Water Scroll's range is increased by ^number1^, but damage is reduced by ^number2^
+exp_mon_axewielder_name	Bandit Enforcer
+exp_mon_batslime_name	Archmold
+exp_mon_bladefrog_name	Bladefrog
+exp_mon_boltspirit_name	Bolt Demon
+exp_mon_bouldertoad_name	Swamp Trihorn
+exp_mon_budoka_name	Bandit Budoka
+exp_mon_butterfly_name	Monarch
+exp_mon_chameleon_name	Chameleon
+exp_mon_chemist2_name	Mad Genius
+exp_mon_chonkfrog_name	Tumtum Frog
+exp_mon_cubeslime_name	Cuboid Jelly
+exp_mon_guardianseeker2_name	Guardian Corsair
+exp_mon_komodon2_name	Emperor Komodon
+exp_mon_mimic_name	Mimic
+exp_mon_minicubeslime_name	Mini Cuboid Jelly
+exp_mon_phasmacannon_name	Phasma Cannon
+exp_mon_pistolshrimp_name	Cannon Crawdad
+exp_mon_robotmantis_name	Robomantis
+exp_mon_scientist_device_name	Unknown Device
+exp_mon_scientist_summoner_name	Ingersoll
+exp_mon_shara_finalboss_name	Core Guardian
+exp_mon_shovelgolem_name	Shovel Knight
+exp_mon_spiritstag_name	Eidolon
+exp_mon_staffbandit_name	Bandit Staffmaster
+exp_mon_tentacle_name	Waterstalker
+exp_mon_toxicslime_name	Toxic Slime
+exp_mon_venomancer_name	Bandit Venomancer
+exp_mon_xp_heavygolem_name	Security Golem
+exp_mon_xp_powerorbiter_name	Guardian Protector
+exp_monmaker_banditprefix1	Bandit
+exp_monmaker_banditprefix2	Rogue
+exp_monmaker_banditprefix3	Outlaw
+exp_monmaker_banditprefix4	Raider
+exp_monmaker_banditprefix5	Brigand
+exp_monmaker_banditprefix6	Bird
+exp_monmaker_banditprefix7	Pirate
+exp_monmaker_banditsuffix1	Scout
+exp_monmaker_banditsuffix10	Lieutenant
+exp_monmaker_banditsuffix11	Sergeant
+exp_monmaker_banditsuffix2	Explorer
+exp_monmaker_banditsuffix3	Recruit
+exp_monmaker_banditsuffix4	Lookout
+exp_monmaker_banditsuffix5	Patrol
+exp_monmaker_banditsuffix6	Spotter
+exp_monmaker_banditsuffix7	Skirmisher
+exp_monmaker_banditsuffix8	Lackey
+exp_monmaker_banditsuffix9	Rookie
+exp_monmaker_beastconcatprefix1	Bristle
+exp_monmaker_beastconcatprefix2	Sharp
+exp_monmaker_beastconcatprefix3	Razor
+exp_monmaker_beastconcatprefix4	Big
+exp_monmaker_beastconcatprefix5	Slick
+exp_monmaker_beastconcatprefix6	Iron
+exp_monmaker_beastconcatsuffix1	back
+exp_monmaker_beastconcatsuffix2	ox
+exp_monmaker_beastconcatsuffix3	bear
+exp_monmaker_beastconcatsuffix4	claw
+exp_monmaker_beastconcatsuffix5	bite
+exp_monmaker_beastconcatsuffix6	mouth
+exp_monmaker_beastconcatsuffix7	scale
+exp_monmaker_beastconcatsuffix8	paw
+exp_monmaker_beastprefix1	Scruffy
+exp_monmaker_beastprefix10	Jungle
+exp_monmaker_beastprefix11	Grazing
+exp_monmaker_beastprefix2	Snarling
+exp_monmaker_beastprefix3	Noble
+exp_monmaker_beastprefix4	Mangy
+exp_monmaker_beastprefix5	Hungry
+exp_monmaker_beastprefix6	Common
+exp_monmaker_beastprefix7	Feral
+exp_monmaker_beastprefix8	Clouded
+exp_monmaker_beastprefix9	Surefooted
+exp_monmaker_beastsuffix1	Beast
+exp_monmaker_beastsuffix2	Critter
+exp_monmaker_beastsuffix3	Fiend
+exp_monmaker_beastsuffix4	Varmint
+exp_monmaker_beastsuffix5	Brute
+exp_monmaker_beastsuffix6	Glutton
+exp_monmaker_coloredprefix1	Spotted
+exp_monmaker_coloredprefix2	Mottled
+exp_monmaker_coloredprefix3	Speckled
+exp_monmaker_coloredprefix4	Flaked
+exp_monmaker_coloredprefix5	Dappled
+exp_monmaker_coloredprefix6	Stippled
+exp_monmaker_disruptorword1	Disruptor
+exp_monmaker_disruptorword2	Breaker
+exp_monmaker_disruptorword3	Hexer
+exp_monmaker_disruptorword4	Vandal
+exp_monmaker_frogconcatprefix1	Pond
+exp_monmaker_frogconcatprefix2	Bog
+exp_monmaker_frogconcatprefix3	Swamp
+exp_monmaker_frogconcatprefix4	Lake
+exp_monmaker_frogconcatprefix5	Muck
+exp_monmaker_frogconcatprefix6	Slick
+exp_monmaker_frogconcatprefix7	Slurp
+exp_monmaker_frogconcatprefix8	Croak
+exp_monmaker_frogconcatprefix9	Water
+exp_monmaker_frogconcatsuffix1	skipper
+exp_monmaker_frogconcatsuffix2	hopper
+exp_monmaker_frogconcatsuffix3	tongue
+exp_monmaker_frogconcatsuffix4	leg
+exp_monmaker_frogconcatsuffix5	splasher
+exp_monmaker_frogconcatsuffix6	wog
+exp_monmaker_frogconcatsuffix7	pog
+exp_monmaker_frogprefix1	True
+exp_monmaker_frogprefix2	Pond
+exp_monmaker_frogprefix3	Bog
+exp_monmaker_frogprefix4	Swamp
+exp_monmaker_frogprefix5	Common
+exp_monmaker_frogprefix6	Saddleback
+exp_monmaker_frogprefix7	Spadefoot
+exp_monmaker_frogprefix8	Bigmouth
+exp_monmaker_frogprefix9	Wetfoot
+exp_monmaker_frogsuffix1	Toad
+exp_monmaker_frogsuffix2	Frog
+exp_monmaker_frogsuffix3	Croaker
+exp_monmaker_frogsuffix4	Hopper
+exp_monmaker_frogsuffix5	Polliwog
+exp_monmaker_grasstreeword1	Vine
+exp_monmaker_grasstreeword2	Moss
+exp_monmaker_grasstreeword3	Tree
+exp_monmaker_grasstreeword4	Brush
+exp_monmaker_grasstreeword5	Bush
+exp_monmaker_grasstreeword6	Plant
+exp_monmaker_hybridprefix1	Sturdy
+exp_monmaker_hybridprefix2	Hulking
+exp_monmaker_hybridprefix3	Stout
+exp_monmaker_hybridsuffix1	Construct
+exp_monmaker_hybridsuffix2	Golem
+exp_monmaker_hybridsuffix3	Totem
+exp_monmaker_insectprefix1	Common
+exp_monmaker_insectprefix2	Banded
+exp_monmaker_insectprefix3	Nesting
+exp_monmaker_insectprefix4	Potter
+exp_monmaker_insectprefix5	Bald-Faced
+exp_monmaker_insectsuffix1	Bug
+exp_monmaker_insectsuffix2	Pest
+exp_monmaker_insectsuffix3	Insect
+exp_monmaker_insectsuffix4	Vermin
+exp_monmaker_meleeword1	Brawler
+exp_monmaker_meleeword2	Gladiator
+exp_monmaker_meleeword3	Bruiser
+exp_monmaker_meleeword4	Marauder
+exp_monmaker_naturalgrowthprefix1	Organic
+exp_monmaker_naturalgrowthprefix2	Thorny
+exp_monmaker_naturalgrowthprefix3	Earthy
+exp_monmaker_naturalgrowthprefix4	Basal
+exp_monmaker_naturalgrowthprefix5	Living
+exp_monmaker_naturalgrowthprefix6	Pulsing
+exp_monmaker_naturalgrowthsuffix1	Growth
+exp_monmaker_naturalgrowthsuffix2	Swell
+exp_monmaker_naturalgrowthsuffix3	Shoot
+exp_monmaker_naturalgrowthsuffix4	Sprout
+exp_monmaker_naturalgrowthsuffix5	Creep
+exp_monmaker_naturalgrowthsuffix6	Polyp
+exp_monmaker_rangedword1	Sniper
+exp_monmaker_rangedword2	Hunter
+exp_monmaker_rangedword3	Sharpshooter
+exp_monmaker_rangedword4	Predator
+exp_monmaker_rangedword5	Ranger
+exp_monmaker_robotconcatprefix1	Chrome
+exp_monmaker_robotconcatprefix2	Fight
+exp_monmaker_robotconcatprefix3	Scout
+exp_monmaker_robotconcatprefix4	Sentry
+exp_monmaker_robotconcatprefix5	Ward
+exp_monmaker_robotconcatprefix6	Soldier
+exp_monmaker_robotconcatprefix7	Battle
+exp_monmaker_robotconcatsuffix1	bot
+exp_monmaker_robotconcatsuffix2	con
+exp_monmaker_robotconcatsuffix3	tron
+exp_monmaker_robotprefix1	Sentry
+exp_monmaker_robotprefix2	Protector
+exp_monmaker_robotprefix3	Sentinel
+exp_monmaker_robotprefix4	Curator
+exp_monmaker_robotprefix5	Custodian
+exp_monmaker_robotprefix6	Warden
+exp_monmaker_robotsuffix1	Bot
+exp_monmaker_robotsuffix2	Robot
+exp_monmaker_robotsuffix3	Droid
+exp_monmaker_robotsuffix4	Drone
+exp_monmaker_robotsuffix5	Mech
+exp_monmaker_slimeconcatprefix1	Honey
+exp_monmaker_slimeconcatprefix2	Cave
+exp_monmaker_slimeconcatprefix3	Moist
+exp_monmaker_slimeconcatprefix4	Splish
+exp_monmaker_slimeconcatprefix5	Bubble
+exp_monmaker_slimeconcatprefix6	Drip
+exp_monmaker_slimeconcatprefix7	Jelly
+exp_monmaker_slimeconcatprefix8	Moldy
+exp_monmaker_slimeconcatsuffix1	drop
+exp_monmaker_slimeconcatsuffix2	mold
+exp_monmaker_slimeconcatsuffix3	glob
+exp_monmaker_slimeconcatsuffix4	pulp
+exp_monmaker_slimeconcatsuffix5	gum
+exp_monmaker_slimeprefix1	Dripping
+exp_monmaker_slimeprefix10	Viscous
+exp_monmaker_slimeprefix11	Cave
+exp_monmaker_slimeprefix2	Seeping
+exp_monmaker_slimeprefix3	Dribbling
+exp_monmaker_slimeprefix4	Leaky
+exp_monmaker_slimeprefix5	Sloppy
+exp_monmaker_slimeprefix6	Moist
+exp_monmaker_slimeprefix7	Sloshing
+exp_monmaker_slimeprefix8	Gelatinous
+exp_monmaker_slimeprefix9	Coagulated
+exp_monmaker_slimesuffix1	Jelly
+exp_monmaker_slimesuffix2	Slime
+exp_monmaker_slimesuffix3	Mold
+exp_monmaker_slimesuffix4	Ooze
+exp_monmaker_snakesuffix1	Snake
+exp_monmaker_snakesuffix2	Viper
+exp_monmaker_snakesuffix3	Rattler
+exp_monmaker_snakesuffix4	Cobra
+exp_monmaker_snakesuffix5	Python
+exp_monmaker_snakesuffix6	Mamba
+exp_monmaker_snakesuffix7	Taipan
+exp_monmaker_spiritconcatprefix1	Nilb
+exp_monmaker_spiritconcatprefix2	Lesh
+exp_monmaker_spiritconcatprefix3	Vanar
+exp_monmaker_spiritconcatprefix4	Sol
+exp_monmaker_spiritconcatprefix5	Quol
+exp_monmaker_spiritconcatprefix6	Torg
+exp_monmaker_spiritconcatprefix7	Man
+exp_monmaker_spiritconcatprefix8	Mor
+exp_monmaker_spiritconcatprefix9	Dram
+exp_monmaker_spiritconcatsuffix1	en
+exp_monmaker_spiritconcatsuffix2	ari
+exp_monmaker_spiritconcatsuffix3	idin
+exp_monmaker_spiritconcatsuffix4	eth
+exp_monmaker_spiritconcatsuffix5	oth
+exp_monmaker_spiritconcatsuffix6	ori
+exp_monmaker_spiritconcatsuffix7	avin
+exp_monmaker_spiritconcatsuffix8	avi
+exp_monmaker_spiritprefix1	Vengeful
+exp_monmaker_spiritprefix2	Forlorn
+exp_monmaker_spiritprefix3	Spooky
+exp_monmaker_spiritprefix4	Wandering
+exp_monmaker_spiritprefix5	Lost
+exp_monmaker_spiritprefix6	Roving
+exp_monmaker_spiritprefix7	Secret
+exp_monmaker_spiritsuffix1	Spirit
+exp_monmaker_spiritsuffix10	Sylph
+exp_monmaker_spiritsuffix11	Strider
+exp_monmaker_spiritsuffix2	Elemental
+exp_monmaker_spiritsuffix3	Soul
+exp_monmaker_spiritsuffix4	Sprite
+exp_monmaker_spiritsuffix5	Essence
+exp_monmaker_spiritsuffix6	Ghost
+exp_monmaker_spiritsuffix7	Wraith
+exp_monmaker_spiritsuffix8	Apparition
+exp_monmaker_spiritsuffix9	Wisp
+exp_monmaker_statususerword1	Shaman
+exp_monmaker_statususerword2	Oracle
+exp_monmaker_statususerword3	Augur
+exp_monmaker_strongfireprefix1	Inferno
+exp_monmaker_strongfireprefix2	Blaze
+exp_monmaker_strongfireprefix3	Nova
+exp_monmaker_stronglightningprefix1	Shock
+exp_monmaker_stronglightningprefix2	Thunder
+exp_monmaker_stronglightningprefix3	Blitz
+exp_monmaker_strongpoisonprefix1	Venom
+exp_monmaker_strongpoisonprefix2	Acid
+exp_monmaker_strongpoisonprefix3	Bane
+exp_monmaker_strongshadowprefix1	Night
+exp_monmaker_strongshadowprefix2	Terror
+exp_monmaker_strongshadowprefix3	Shadow
+exp_monmaker_strongshadowprefix4	Void
+exp_monmaker_strongwaterprefix1	Deluge
+exp_monmaker_strongwaterprefix2	Flood
+exp_monmaker_strongwaterprefix3	Glacier
+exp_monmaker_strongwaterprefix4	Polar
+exp_monmaker_summonerword1	Summoner
+exp_monmaker_summonerword2	Conjurer
+exp_monmaker_summonerword3	Caller
+exp_monmaker_supporterword1	Booster
+exp_monmaker_supporterword2	Supporter
+exp_monmaker_supporterword3	Physician
+exp_monmaker_supporterword4	Enchanter
+exp_monmaker_weakfireprefix1	Fire
+exp_monmaker_weakfireprefix2	Flame
+exp_monmaker_weakfireprefix3	Ember
+exp_monmaker_weakfireprefix4	Heat
+exp_monmaker_weaklightningprefix1	Spark
+exp_monmaker_weaklightningprefix2	Lightning
+exp_monmaker_weaklightningprefix3	Bolt
+exp_monmaker_weakpoisonprefix1	Poison
+exp_monmaker_weakpoisonprefix2	Blight
+exp_monmaker_weakpoisonprefix3	Muck
+exp_monmaker_weakpoisonprefix4	Sludge
+exp_monmaker_weakshadowprefix1	Shade
+exp_monmaker_weakshadowprefix2	Dark
+exp_monmaker_weakshadowprefix3	Dusk
+exp_monmaker_weakshadowprefix4	Gloom
+exp_monmaker_weakwaterprefix1	Rain
+exp_monmaker_weakwaterprefix2	Water
+exp_monmaker_weakwaterprefix3	Cold
+exp_monmaker_weakwaterprefix4	Chill
+exp_monmaker_weakwaterprefix5	Frost
+exp_monmaker_weakwaterprefix6	Ice
+exp_monmod_firegod	Fire God
+exp_monmod_lightninggod	Lightning God
+exp_monmod_physicalgod	Sword God
+exp_monmod_poisongod	Poison God
+exp_monmod_shadowgod	Shadow God
+exp_monmod_watergod	Water God
+exp_mysterydungeon_bossname	~ Mystery King ~
+exp_mysterydungeon_bossvictory	The #clr#Mystery King#ec# has been defeated! This journey will end when you use your #cc#Magic Portal#ec#.\n\n
+exp_mysterydungeon_explanation	#big##clr#Wanderer's Journey#ec##endbig#\n\nIn this adventure, you must reach the #cy#highest floor#ec# and defeat the #clr#Mystery King#ec# there. Unlike an Item Dream, you #cr#may not#ec# return to town!\n\nYou will find only #cy#stairs up#ec# here; there is no #cr#backtracking#ec#. However, you will still find #cy#campfire floors#ec# every now and again.\n\nAll #cy#monsters#ec# here are #cy#completely unique#ec#, created using a mix of traits, skills, and appearances from other monsters. You should observe them carefully to learn their #cc#powers and behavior#ec#. Good luck!\n\n
+exp_mysterydungeon_postvictory	#big##clr#Wanderer's Journey#ec# Completed!#endbig#\n\n
+exp_mysterydungeon_tip0	The monsters in a #clr#Wanderer's Journey#ec# are brand new each time. Observe them carefully!
+exp_mysterydungeon_tip1	You can find powerful and unique #clr#Relics#ec# in a #clr#Wanderer's Journey#ec#.
+exp_mysterydungeon_tip2	You cannot return to town in a #clr#Wanderer's Journey#ec#, so don't be afraid to spend gold at merchants!
+exp_mysterydungeon_tip3	#cy#Campfires#ec# appear every few floors in a #clr#Wanderer's Journey#ec#. Use them wisely...
+exp_obj_blackhole_name	Black Hole
+exp_overload_dmg_name	Overload
+exp_parry_down	PARRY DOWN!
+exp_popup_misc_sticky	TONGUE GLUED!
+exp_randomshop1_name	Normando
+exp_randomshop2_name	Fernando
+exp_randomshop3_name	Orlando
+exp_randomshop4_name	Hernando
+exp_randomshop5_name	Tando
+exp_randomshop6_name	Shirando
+exp_rarity_relic	Relic
+exp_shara_died	Tangledeep has countless stories, all told in countless ways. In today's telling, the #cc#Legend of #heroname##ec# ended here, her #cy#purpose#ec# unfulfilled. But is that the true ending?
+exp_shara_dominate_description1	Strike at a monster with non-elemental energy, and may permanently ^tag1^ weakened creatures. You may control up to ^tag2^ creatures in this fashion.
+exp_shara_dominate_description2	Strike at a monster with non-elemental energy, and may permanently ^tag1^ them in service to your greater Purpose. You may control up to ^tag2^ creatures in this fashion.
+exp_shara_dominate_displayname1	Taming Blow
+exp_shara_dominate_displayname2	Recruiting Reproach
+exp_shara_dominate_displayname3	Commanding Strike
+exp_shara_dominate_displayname4	Domination
+exp_shara_dominate_extradesc1	Damage: ^number1^ of Spirit Power as Physical. Permanently ^tag1^ non-champion monsters below ^number2^ Health. Non-trivial charmed monsters restore your own Health. 
+exp_shara_dominate_extradesc2	Damage: ^number1^ of Spirit Power as Physical. Permanently dominate non-champion monsters below ^number2^ Health. Dominated creatures slowly lose Health. When non-trivial dominated creatures are defeated, they restore ^number3^ of your max Health, Energy, and Stamina.
+exp_shara_ko	#heroname# faced many tough enemies, and escaped dire situations. <color=#0cffe6>^tag1^</color> in <color=yellow>^tag2^</color> got the better of her this time, but she did not break. Nothing would stop her from fulfilling her #cy#purpose#ec#.
+exp_shara_ko_result	#heroname# left behind <color=yellow>^tag1^</color>g during her escape, and spent <color=#40b843>^tag2^ JP</color> recovering.
+exp_sharaending_text1	So many questions about this woman and her blazing spirit,
+exp_sharaending_text2	But only one matters:
+exp_sharaending_text3	Is she friend or foe?
+exp_sharaending_text4	I won't let anyone stop me from my calling, but...
+exp_sharaending_text5	Maybe we can rebuild this world together...
+exp_sharafinalboss_phase2begin_1	#cy#REINFORCEMENTS REQUESTED.#ec# CURRENT ARMAMENTS ARE UNABLE TO WITHSTAND ASSAULT FROM #cc##HERONAME#_AVATAR.#ec#\n\nENTERING EMERGENCY REGENERATIVE STASIS FOR #cc#^tag1^ TIME UNITS#ec#.\n\n
+exp_sharafinalboss_phase2begin_2	Ha! Do I detect a hint of #cr#fear#ec#, machine?\n\nI've honed my powers for this very moment. Without your presence, I will #cc#dominate#ec# your new allies and turn them against you!\n\n
+exp_sharafinalboss_phase2end_1	REGENERATION CYCLE COMPLETE. OPERATING STATUS: #cg#FULLY RESTORED#ec#.\n\n
+exp_sharaforest_levelname	Forest of Dreams
+exp_sharamode_tips0	If you have full #cr#Health#ec#, #cc#Magic Fountains#ec# will replenish your #cc#Energy Shield#ec# and reset its cooldown instead.
+exp_sharamode_tips1	Shara's level increases through #cy#spending JP#ec#. This raises her weapon damage and Spirit Power.
+exp_sharamode_tips2	Shara gains #cr#Health#ec# each time she upgrades a #cy#core stat#ec# with JP.
+exp_sharamode_tips3	Learn new abilities by opening #cy#Pandora's Boxes#ec# and resting at #cy#campfires#ec#.
+exp_sharamode_tips4	Your ability choices are randomized every time, so #cy#consider each choice carefully#ec#.
+exp_sharamode_tips5	There are many #cg#Side Areas#ec# to discover, and you don't need #cg#rumors#ec# to find them.
+exp_sharamode_tips6	Shara can use abilities from the #cy#Skill Sheet#ec# and arrange #cy#hotbars#ec# freely, even in dangerous areas.
+exp_sharamode_tips7	Each #cy#campfire#ec# you find will also have a merchant nearby.
+exp_sharamode_tips8	#cy#Pandora's Boxes#ec# always contain a powerful piece of gear in #cc#Shara's Story#ec#!
+exp_sharapower_learned_txt	#cc#Shara#ec# can use abilities more freely than #cy#Mirai#ec#! You can use abilities from the #cy#Skill Sheet#ec# without assigning them to hotbars.\n\nYou can also move abilities #cy#on and off#ec# hotbars, even in a dangerous area. The same goes for equipping and unequipping #cg#Support Abilities#ec#.\n\n
+exp_skill_axeiaijutsu_name	Axestorm
+exp_skill_banish_description	Instantly destroy any non-champion summoned creature or hazard.
+exp_skill_banish_displayname	Banish
+exp_skill_boostdiscipline_desc	Increases maximum Discipline by ^number1^.
+exp_skill_boostdiscipline_name	Increase Discipline
+exp_skill_boostguile_desc	Increases maximum Guile by ^number1^.
+exp_skill_boostguile_name	Increase Guile
+exp_skill_boosthealth_desc	Increases maximum Health by ^number1^.
+exp_skill_boosthealth_name	Increase Health
+exp_skill_boostspirit_desc	Increases maximum Spirit by ^number1^.
+exp_skill_boostspirit_name	Increase Spirit
+exp_skill_booststrength_desc	Increases maximum Strength by ^number1^.
+exp_skill_booststrength_name	Increase Strength
+exp_skill_boostswiftness_desc	Increases maximum Swiftness by ^number1^.
+exp_skill_boostswiftness_name	Increase Swiftness
+exp_skill_chakrashift_desc	Absorb your own temporary status buffs, removing them but gaining ^number1^ damage for ^number2^ turns per buff removed.
+exp_skill_chakrashift_name	Chakra Shift
+exp_skill_charisma_desc	^number1^ chance to ^$sharamode:dominateverb$^ non-champion Bandit-type monsters when they attack you.
+exp_skill_charisma_name	Charisma
+exp_skill_cleanup_desc	Instantly remove a temporary hazard tile such as an ice block, fire, or acid pool.
+exp_skill_cleanup_name	Polish and Shine
+exp_skill_collectivestrength_desc	Basic attacks deal ^number1^ damage per Dominated monster under your control (max: ^number2^)
+exp_skill_collectivestrength_name	Collective Strength
+exp_skill_combatbiography_desc	Writes of your adventures in a mystical Biography, expending all Brushstrokes and summoning the book nearby. Picking up the book returns all used Brushstrokes plus ^number1^, then empowers Calligrapher skills briefly.
+exp_skill_combatbiography_extradesc	Only one Biography may exist at once. Summon lasts ^number2^ turns. Calligrapher skills gain ^number3^ damage for ^number4^ turns on pickup.
+exp_skill_combatbiography_name	Combat Biography
+exp_skill_combatbiography_shortdesc	Summon a mystical book containing all Brushstrokes to a random nearby tile.
+exp_skill_commandingpresence_description	(Passive) Gain a ^number1^ chance to ^$sharamode:dominateverb$^ monsters with your basic attacks for each monster you already control.
+exp_skill_commandingpresence_extradesc	Max chance to ^$sharamode:dominateverb$^ with attacks is ^number2^.
+exp_skill_commandingpresence_name	Commanding Presence
+exp_skill_createrandomrock_name	Create Rubble
+exp_skill_dangermagnet_desc	You've developed a knack for trouble, increasing the rate of wandering monsters by ^number1^.
+exp_skill_dangermagnet_name	Danger Magnet
+exp_skill_dominate_description	^$sharamode:dominatedesc$^
+exp_skill_dominate_displayname	^$sharamode:dominatename$^
+exp_skill_dominate_extradesc	^$sharamode:dominateedesc$^
+exp_skill_elemabsorb_name	Elemental Barrier
+exp_skill_eshieldpower_desc	(Passive) Drawing upon the power released when an Energy Shield shatters, gain ^number1^ damage until you can re-cast a new Energy Shield.
+exp_skill_eshieldpower_name	Vengeance
+exp_skill_essencestorm_desc	Create ^number1^ orbs of powerful energy from your life force, firing an orb each turn if a monster is nearby.
+exp_skill_essencestorm_extradesc	Damage: ^number2^ of Spirit Power as Physical per bolt. Strikes at enemies up to ^number3^ tiles away.
+exp_skill_essencestorm_name	Essence Storm
+exp_skill_expmon_overdrive_name	Overdrive
+exp_skill_expmon_photonbreath_name	Photon Breath
+exp_skill_expmon_randomphoton_name	Photon Storm
+exp_skill_expmon_shielding_name	Energy Shield
+exp_skill_expmon_summoncannondrones_name	Summon Drones
+exp_skill_flowshield_description	Create a shield from your life essence that absorbs all damage. Shield health is ^number1^ of your max Health.
+exp_skill_flowshield_displayname	Essence Shield
+exp_skill_flowshield_extradesc	Cooldown does not decrease until the shield is destroyed.
+exp_skill_forbiddance_desc	Expend all Brushstrokes to write powerful magical runes in the tiles in front of you. These runes Seal and Root enemies who step on them.
+exp_skill_forbiddance_extradesc	One rune is created per Brushstroke used, and lasts ^number1^ turns. Seal and Root effect lasts for ^number2^ turns.
+exp_skill_forbiddance_name	Forbiddance
+exp_skill_glide_desc	Gracefully leap a short distance ^number1^ tiles away.
+exp_skill_glide_extradesc	Ability only goes on cooldown every other time it is used.
+exp_skill_glide_name	Glide
+exp_skill_improveddominate_description	(Passive) ^$sharamode:dominatename$^ can now charm monsters at ^number1^ Health and lower.
+exp_skill_improveddominate_name	Improved Influence
+exp_skill_inkcollector_desc	Store a Brushstroke each time you defeat a Trivial (or greater) monster, dodge its attack, or land a critical hit.
+exp_skill_inkcollector_name	Ink Collector
+exp_skill_inkstorm_desc	Expend all Brushstrokes to furiously attack nearby enemies at random.
+exp_skill_inkstorm_extradesc	Damage: ^number1^ of Weapon Power. Adds an additional strike for each Brushstroke you have. Repeated strikes on the same target deal ^number2^ damage. Does not generate Brushstrokes.
+exp_skill_inkstorm_name	Inkstorm
+exp_skill_lightningflash_desc	Dash to the target square in the blink of an eye, electrifying all adjacent tiles upon landing.
+exp_skill_lightningflash_extradesc	Electrified tiles will Paralyze monsters for ^number1^ turns when stepped on.
+exp_skill_lightningflash_name	Lightning Dash
+exp_skill_lightningscroll_desc	Sends lightning coursing through a straight line, dealing damage and creating electric sparks that linger afterward.
+exp_skill_lightningscroll_extradesc	Damage: ^number1^ of Weapon Power, ^number2^ of Spirit Power as Lightning. Sparks grant a stacking ^number3^ chance to crit, consumed on your next attack.
+exp_skill_lightningscroll_name	Lightning Scroll
+exp_skill_menagerie_desc	Your pets and summoned creatures gain ^number1^ damage for each pet or summoned creature you control.
+exp_skill_menagerie_name	Menagerie
+exp_skill_monstertoss_desc	Pick up a nearby monster and throw it at another monster!
+exp_skill_monstertoss_extradesc	Damage to both monsters: ^number1^ of thrown monster's current Health.
+exp_skill_monstertoss_name	Monster Toss
+exp_skill_museofmelee_desc	Your basic melee attacks have a ^number1^ chance to inflict ^number2^ resistance to Water, Lightning, or Shadow for ^number3^ turns. While dual wielding, each attack may trigger this effect.
+exp_skill_museofmelee_name	Muse of Melee
+exp_skill_necessarysacrifice_desc	When a charmed creature is defeated, you recover ^number1^ of max Stamina and Energy.
+exp_skill_necessarysacrifice_name	Replenish
+exp_skill_phasechange_desc	Swap places with any monster, confusing them in the process!
+exp_skill_phasechange_extradesc	Confusion lasts ^number1^ turns.
+exp_skill_phasechange_name	Juxtapose
+exp_skill_phasmashield_description	Summons a ring of deadly Phasma energy surrounding each tile around you. Monsters take damage if they touch it.
+exp_skill_phasmashield_extradesc	Damage per turn: ^number1^ of Spirit Power and ^number2^ of Weapon Power as Fire.
+exp_skill_phasmashield_name	Phasma Ring
+exp_skill_precisefinish_desc	Flashy attack that carries less power, but yields more rewards if it defeats an enemy.
+exp_skill_precisefinish_extradesc	Damage: ^number1^ of Weapon Power. Monsters yield ^number2^ greater rewards if defeated by this attack.
+exp_skill_precisefinish_name	Precision Finish
+exp_skill_relichunter_desc	Priceless artifacts infuse you with timeless might! Gain ^number1^ damage and resistances for each Legendary, Relic, or Gear Set item you have equipped.
+exp_skill_relichunter_name	Relic Hunter
+exp_skill_retort_desc	Prepare yourself to dodge the next physical attack with ease, countering by Sealing the attacker.
+exp_skill_retort_extradesc	Dodge bonus lasts ^number1^ turns, or until next attacked. Attacker is Sealed for ^number2^ turns.
+exp_skill_retort_name	Retort
+exp_skill_rockcircle_name	Entomb
+exp_skill_scholar_desc	Your pursuit of learning never ends, granting you ^number1^ JP earned.
+exp_skill_scholar_name	Scholar
+exp_skill_shadowscroll_desc	Blasts an area with a harrowing shadow burst, dealing damage and creating shadow orbs that linger afterward.
+exp_skill_shadowscroll_extradesc	Damage: ^number1^ of Weapon Power, ^number2^ of Spirit Power as Shadow. Adds a stacking Shadow vulnerability to affected enemies. Shadow orbs grant a stacking ^number3^ bonus to basic melee attacks for a brief time.
+exp_skill_shadowscroll_name	Shadow Scroll
+exp_skill_shockwave_description	Summons an expanding wave of lightning that strikes enemies in a growing circle.
+exp_skill_shockwave_extradesc	Damage: ^number1^ of Spirit Power as Lightning.
+exp_skill_shockwave_name	Shockwave
+exp_skill_sludgespread_name	Sludge Spread 
+exp_skill_subtletap_desc	Melee attack that doesn't carry quite enough force to defeat an enemy.
+exp_skill_subtletap_extradesc	Damage: ^number1^ of Weapon Power. This attack cannot reduce monsters below 1 Health.
+exp_skill_subtletap_name	Subtle Bonk
+exp_skill_summontoxicslime_name	Summon Toxic Slime
+exp_skill_treasuretracker_desc	Drawing upon a keen sense of hidden treasure and riches, ^number1^ of all Powerups will instead spawn as a pile of gold.
+exp_skill_treasuretracker_name	Treasure Tracker
+exp_skill_truehover_description	(Passive) Your mastery of levitation reduces ground-based damage by ^number1^.
+exp_skill_truehover_name	True Hover
+exp_skill_vanishingdodge_desc	When your health drops to ^number1^ or lower, you are shrouded with invisible ink increasing your dodge chance by ^number2^.
+exp_skill_vanishingdodge_name	Vanishing Ink
+exp_skill_venomancerpoison_name	Poisoned Weapon
+exp_skill_voidbolt_description	Fire a concentrated blast of Void energy at an enemy, damaging them and sapping their life force each turn.
+exp_skill_voidbolt_displayname	Void Bolt
+exp_skill_voidbolt_extradesc	Damage: ^number1^ of Weapon Power as Physical. Deals up to ^number2^ more damage based on missing Health. Damaged enemies lose ^number3^ of current Health per turn for ^number4^ turns.
+exp_skill_voidshield_description	Create a negative energy shield from your life essence that absorbs all damage. Shield health is ^number1^ of your max Health. Chance to fire a Void Bolt at random while shield is active.
+exp_skill_voidshield_displayname	Void Shield
+exp_skill_voidshield_extradesc	Cancels active Essence Shield when used; Essence Shield cancels active Void Shield when used. ^number2^ chance to fire a Void Bolt at a nearby enemy per turn.
+exp_skill_waterscroll_desc	Drenches an area with rushing water, dealing damage and creating water vapor that lingers afterward.
+exp_skill_waterscroll_extradesc	Damage: ^number1^ of Weapon Power, ^number2^ of Spirit Power as Water. Obscuring Mist suppresses fire damage and increases your dodge chance by ^number3^.
+exp_skill_waterscroll_name	Water Scroll
+exp_status_attackdown_name	Damage Hexed
+exp_status_brushstroke_desc	Storing power to unleash with ink-based attacks.
+exp_status_brushstroke_name	Brushstroke
+exp_status_combatbiography_boost_name	Biography Boost
+exp_status_dmgup_25_desc	Damage output increased by ^number1^
+exp_status_essencestorm_desc	Storing energy orbs that will fire at a nearby monster each turn. #cy#Orbs remaining:#ec# #cg#^$getactordata:essencestorm_ammo$^#ec# 
+exp_status_extracrit_desc	^number1^ chance to crit. Consumed on next attack or ability use.
+exp_status_flowshield_desc	Energy shield absorbing all damage. #cy#Shield health remaining:#ec# #cg#^$getactordata:flowshield_dmgleft$^#ec#
+exp_status_parrydown_name	Parry Hexed
+exp_status_robo_overdriveattack_name	Overdriven Attack
+exp_status_shadoworb_desc	^number1^ basic attack damage with melee weapons
+exp_superhardarea_name	Realm of the Gods
+exp_superhardarea_name_1	Realm of the Gods 1F
+exp_superhardarea_name_2	Realm of the Gods 2F
+exp_superhardarea_name_3	Realm of the Gods 3F
+exp_superhardarea_name_4	Realm of the Gods 4F
+exp_superhardarea_name_5	Realm of the Gods 5F
+exp_verb_charm	charm
+exp_verb_command	command
+exp_verb_dominate	dominate
+exp_verb_recruit	recruit
+exp_wanderer_askgods	#cy#??? WANDERER#ec#: Find the place where you #cc#defeated Shara#ec#, and you will find the entrance to the #co#Realm of the Gods#ec# waiting for you.\n
+exp_wanderer_dungeon10_desc	#big#Mountain's Revenge#endbig#\n\n#cy#Floors#ec#: 20\n#cy#Difficulty#ec#: #cr#^$gettext:difficulty_7$^#ec#\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_monsters_respawn$^\n\n
+exp_wanderer_dungeon10_name	Mountain's Revenge
+exp_wanderer_dungeon1_desc	#big#Tropical Trove#endbig#\n\n#cy#Floors#ec#: 15\n#cy#Difficulty#ec#: ^$gettext:difficulty_5$^\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_items_relics$^\n\n^$gettext:md_monsters_respawn$^\n^$gettext:md_jp_only_campfires$^\n^$gettext:md_more_consumables$^\n\n
+exp_wanderer_dungeon1_name	Tropical Trove
+exp_wanderer_dungeon2_desc	#big#Temple of Elements#endbig#\n\n#cy#Floors#ec#: 30\n#cy#Difficulty#ec#: #cr#^$gettext:difficulty_8$^#ec#!\n#cy#Start Condition#ec#: Bring skills and equipped gear\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_items_relics$^\n\n^$gettext:md_monsters_respawn$^\n\n
+exp_wanderer_dungeon2_name	Temple of Elements
+exp_wanderer_dungeon3_desc	#big#Goldfrog's Grand Grotto#endbig#\n\n#cy#Floors#ec#: 15\n#cy#Difficulty#ec#: ^$gettext:difficulty_5$^\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_relics$^\n\n^$gettext:md_monsters_respawn$^\n^$gettext:md_nodrops$^\n^$gettext:md_shopkeepers$^\n\n
+exp_wanderer_dungeon3_name	Goldfrog's Grand Grotto
+exp_wanderer_dungeon4_desc	#big#Guardian Ruins#endbig#\n\n#cy#Floors#ec#: 15\n#cy#Difficulty#ec#: ^$gettext:difficulty_5$^\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_monsters_respawn$^\n\n
+exp_wanderer_dungeon4_name	Guardian Ruins
+exp_wanderer_dungeon5_desc	#big#Hall of Champions#endbig#\n\n#cy#Floors#ec#: 12\n#cy#Difficulty#ec#: #cr#^$gettext:difficulty_8$^#ec#\n#cy#Start Condition#ec#: Bring stats, equipped gear, and skills\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_many_champions$^\n\n
+exp_wanderer_dungeon5_name	Hall of Champions
+exp_wanderer_dungeon6_desc	#big#Tower of Ordeals#endbig#\n\n#cy#Floors#ec#: 50\n#cy#Difficulty#ec#: #cr#^$gettext:difficulty_8$^#ec#!\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_items_relics$^\n\n^$gettext:md_monsters_respawn$^\n\nThis is the #cr#ultimate challenge#ec#!\n\n
+exp_wanderer_dungeon6_name	Tower of Ordeals
+exp_wanderer_dungeon7_desc	#big#The Harrowing Hunt#endbig#\n\n#cy#Floors#ec#: 15\n#cy#Difficulty#ec#: #cr#^$gettext:difficulty_7$^#ec#\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_relics$^\n\n^$gettext:md_monsters_respawn$^\n^$gettext:md_king_chaser$^\n\n
+exp_wanderer_dungeon7_name	The Harrowing Hunt
+exp_wanderer_dungeon8_desc	#big#Factory Free-for-All#endbig#\n\n#cy#Floors#ec#: 15\n#cy#Difficulty#ec#: ???\n#cy#Start Condition#ec#: Begin at level 1 with no gear, skills, or pet, but gain 10 Camouflage Perfumes.\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_monster_powerup$^\n^$gettext:md_monsters_respawn$^\n^$gettext:md_items_breakables$^\n\n
+exp_wanderer_dungeon8_name	Factory Free-for-All
+exp_wanderer_dungeon9_name	Mountain's Ascent
+exp_wanderer_dungeonlistbranch	#cy#??? WANDERER#ec#: Each story is a journey unto itself. Once we begin, you #cr#may not return to this world#ec# until the journey is complete. For what good is a tale without true immersion?\n\nFor some stories, you will bring no #cy#material possessions#ec# or #cy#skills#ec#. These will return to you when the story ends.\n\nEach journey has its own #cy#rewards#ec# should you succeed, but victory will not come easily. Every story is different.\n\n
+exp_wanderer_firstvictory_1	#cy#??? WANDERER#ec#: Welcome back, explorer.\n\nI take it you #cg#enjoyed#ec# my tale?\n\n
+exp_wanderer_firstvictory_2	#cy#??? WANDERER#ec#: In a way, #cg#you were#ec#.\n\nThe #clr#relic#ec# you found, is it not in your bag?\n\n
+exp_wanderer_firstvictory_3	#cy#??? WANDERER#ec#: How can I explain it? My stories are like #cc#great lakes#ec# through which you #cy#swim#ec#.\n\nWhen they end, you emerge from the waters. As you leave #cy#ripples#ec# in your wake, some of the waters bind to you as well.\n\nTo put it another way, some of what you find in the #clr#story#ec# may be #cy#brought back here#ec#. Do you understand now?\n\n
+exp_wanderer_firstvictory_4	#cy#??? WANDERER#ec#: I thought you might. Long have I sought a kindred spirit with whom to share these tales, and there are #cy#many more to tell#ec#.\n\nNo two journeys are the same: they change with every retelling, and each has its own #cg#rewards#ec# and #cr#challenges#ec#.\n\nThe #clr#Mountain's Ascent#ec# was the most simple story. Now, allow me to share with you the rest.\n\n
+exp_wanderer_firstvictory_response1	That was amazing! I felt like I was really there.
+exp_wanderer_firstvictory_response2	Yes, but... how is that possible?!
+exp_wanderer_firstvictory_response3	I do, and I want to hear another story!
+exp_wanderer_mainbranch	#cy#??? WANDERER#ec#: Hello, explorer.\n\nWon't you sit with me and watch the flowing of the waters?\n\nA stream like this is but a child in the grand tapestry of the world. Each thread is its own #cy#journey#ec#, yes?\n
+exp_wanderer_mainbranch_askgods	Where is the #co#Realm of the Gods#ec#?
+exp_wanderer_mainbranch_response1	You sound like you've been on a few adventures.
+exp_wanderer_mainbranch_response2	Tell me a story!
+exp_wanderer_realmofgods_continue_1	#cy#??? WANDERER#ec#: This is my true appearance. Do not be afraid.\n\n
+exp_wanderer_realmofgods_continue_2	#cy#??? WANDERER#ec#: Like you, I'm an explorer. I've wandered this world for #cy#many millenia#ec# after leaving my home. In that way, I am #cy#unique#ec# among my kind.\n\nThe rest of those who live in the #co#Realm of the Gods#ec# are unconcerned with your people, or the rest of #cg#Tangledeep#ec#.\n
+exp_wanderer_realmofgods_continue_3	#cy#??? WANDERER#ec#: That's right. They consider those who live in #cg#Tangledeep#ec# beneath them; unworthy. They would prefer to #cr#seal themselves away#ec# from the world.\n\nIt's for that very reason that I will tell you how to find my home. You've proven yourself #cg#worthy beyond measure#ec#, with strength, wisdom, and cunning to match.\n\nYou could challenge the #co#Realm of the Gods#ec#, and #cg#win#ec#.\n
+exp_wanderer_realmofgods_continue_4	#cy#??? WANDERER#ec#: In a word: yes. That is the only way they will #cy#believe your potential#ec#, and become interested in the outside world again. Your actions will speak louder than my words ever did.\n\nOnce I reveal the path to my home, you will be able to #cy#come and go as you please#ec#. But, as you might imagine, your arrival will not be #cg#well-received#ec#.\n\nYou can expect to do battle with some of the #cr#most powerful creatures#ec# you have ever faced.\n
+exp_wanderer_realmofgods_continue_5	#cy#??? WANDERER#ec#: I knew you would say that, explorer. Very well! The path to the #co#Realm of the Gods#ec# will be revealed.\n\nReturn to where you defeated #cc#Shara#ec#, and you will find the entrance.\n\n
+exp_wanderer_realmofgods_continue_responsebutton_1	You're beautiful!
+exp_wanderer_realmofgods_continue_responsebutton_2	You mean, they don't leave their home?
+exp_wanderer_realmofgods_continue_responsebutton_3	You WANT me to fight with your kind?!
+exp_wanderer_realmofgods_continue_responsebutton_4	I've come so far. I can handle it!
+exp_wanderer_realmofgods_intro_1	#cy#??? WANDERER#ec#: You've glimpsed the land beyond Tangledeep with your own eyes, haven't you?\n\nI can #cg#sense#ec# it.\n
+exp_wanderer_realmofgods_intro_2	#cy#??? WANDERER#ec#: I know that you do. You are an #cy#explorer#ec#, and when explorers reach their destination, they are always ready to seek another.\n\nIn time, you will learn more about the lands you've seen. Your adventure will continue someday, and you will answer your own questions.\n\nBut there is #cy#one last secret#ec# of #cg#Tangledeep#ec# you have not yet discovered.\n
+exp_wanderer_realmofgods_intro_3	#cy#??? WANDERER#ec#: I hail from the realm that lies on the edge of #cg#Tangledeep#ec# and the #cy#boundless lands#ec# above. It was carved into the world long ago; by whom, I cannot say.\n\n#cr#Mighty beasts#ec#, #cc#ancient spirits#ec#, and #cs#automatons#ec# with limitless power all dwell there. It's a strange concept, isn't it? All of these creatures live in harmony, and call this place home.\n\nWe have our own name for this land, spoken in the #cy#forgotten tongue#ec#. In your language, you could call it the #co#Realm of the Gods#ec#.\n
+exp_wanderer_realmofgods_intro_4	#cy#??? WANDERER#ec#: I will tell you, of course. However, first, there is more that you must know. I have not been entirely forthcoming...\n\nIn truth, I am an #cc#ancient spirit#ec# myself. Allow me to show you.\n
+exp_wanderer_realmofgods_intro_responsebutton_1	Yes! It's breathtaking. I have so many questions...
+exp_wanderer_realmofgods_intro_responsebutton_2	What kind of secret? What else could there be?
+exp_wanderer_realmofgods_intro_responsebutton_3	How can I get there?
+exp_wanderer_realmofgods_intro_responsebutton_4	!!!
+exp_wanderer_selectdungeon_confirm	Begin This Journey
+exp_wanderer_selectdungeon_no	Go Back
+exp_weaponmaster_statue_name	Weapon Master's Statue
+exp_weaponmaster_statue_text	It's a statue of a #cy#mighty warrior#ec#, master of every weapon and fighting style.\n\nThere is a benevolent aura permeating the #cc#Flow#ec# here, as if he wants me to obtain a #cg#fragment of his knowledge#ec#.\n\nShould I meditate here?\n
+glitterskin_status_desc	Melee attackers will be blinded, losing ^number1^ Accuracy for ^number2^ turns
+intro_dualwielder	Quill and ink are the heart of all stories.\nBroad strokes or fine detail,\nmy art and my path are the same.\nToday is a blank canvas.
+item_armor_heavyarmor5_desc	The detailing on this armor is so... excessive. And it's been polished to a lustrous shine. It's clearly never seen battle before now; it must have only been worn on very special occasions.
+item_armor_heavyarmor5_name	Ceremonial Plate
+item_armor_lightarmor5_desc	Wearing this robe, I feel as though a guardian is looking out for me with every step. If I stumble, it even rights my balance. Who could have thought something so thin could feel so secure?
+item_armor_lightarmor5_name	Arcane Mantle
+item_armor_mediumarmor5_desc	The way these mithril rings sparkle in the light, it's like I'm wearing a spangled dress! And yet unlike most dresses, I feel totally protected. Perfect!
+item_armor_mediumarmor5_name	Mithril Chainmail
+item_armor_shield6_desc	I remember seeing pictures of this coat-of-arms in a book I read once. It was from a mythical kingdom that the elders told me was just a legend. Even so, I always believed it really existed!
+item_armor_shield6_name	Royal Shield
+item_bomb_confusetraps_desc	I heard that a box of these broke open near the corral and it took Jesse a whole day to round up the monsters again.
+item_bomb_confusetraps_effectdesc	Sets traps that emit disorienting gas when stepped on by a monster! Traps last ^number1^ turns, and cause Confusion lasting ^number2^ turns.
+item_bomb_confusetraps_name	Confusion Traps
+item_item_gem8_desc	Apparently this metal is all the rage back in Riverstone, but I can't understand why. It's not particularly strong, it doesn't glitter like gold, and it's heavy!
+item_item_gem9_desc	The hardest gemstone in all of Tangledeep. If they weren't so rare and valuable, I'd just chuck them like rocks at the monsters in my way.
+item_weapon_2hsword6_desc	Wielding a sword like this could push even a seasoned soldier to break their limits. I'll need to be braver still to live up to its legacy.
+item_weapon_2hsword6_name	Buster Sword
+item_weapon_axe6_desc	I've been wondering for awhile now, but could I buy things with golden equipment I find? What fabulously wealthy person keeps making this stuff? I should ask Katie about it sometime.
+item_weapon_axe6_name	Aurelian Axe
+item_weapon_bow6_desc	I can feel a benevolent presence guiding my hand as I take aim with this bow. It's somehow comforting, even as I'm launching deadly projectiles.
+item_weapon_bow6_name	Celestial Shot
+item_weapon_claw6_desc	This monster must have been huge to have teeth this big! I wouldn't want to stare down a full set of these pointy things. I also wouldn't want to face whoever managed to remove one.
+item_weapon_claw6_name	Primal Fang
+item_weapon_dagger6_desc	I don't think I'll ever get used to feeling like I'm being watched by my own weapon. Especially when I see it judging me every time I miss an attack.
+item_weapon_dagger6_name	Nightmare Spike
+item_weapon_mace6_desc	This is one brutal piece of work. No finesse needed here. The only word that comes to mind when seeing a weapon like this is "Smash!"
+item_weapon_mace6_name	Flanged Crusher
+item_weapon_spear6_desc	It's amazing how simply tying a red cloth to a spear can make it look so stylish. Though I wonder how often explorers tripped themselves up by accidently stepping on it during a fight.
+item_weapon_spear6_name	Naginata
+item_weapon_staff6_desc	Since I started carrying this staff, all of my dreams have been pleasant and I wake up feeling so refreshed. It's like the light it radiates soothes my very soul.
+item_weapon_staff6_name	Luminaire
+item_weapon_sword0_desc	Ink is the lifeblood of a Calligrapher. Every mark left on the parchment is an extension of one's self. I've worked hard to finally understand these lessons, and now it's time to write my page in history.
+item_weapon_sword0_name	Training Pen
+item_weapon_sword6_desc	I'm still in awe over how light and balanced this sword is. It's like I'm holding a dream in my hands. A dream that cuts down monsters where they stand.
+item_weapon_sword6_name	Divine Blade
+lightningdebuff30_name	Lightning Vulnerable
+log_bankrelic	You set aside the Relic: ^tag1^.\n\nIt will appear in the #cy#bank#ec# if you are victorious!\n\n
+log_error_know_skill	You #cr#already know#ec# that ability!
+log_keeprelic	You keep the Relic: ^tag1^.\n\nIt will disappear at the end of this Journey.\n\n
+log_mon_terrain_power	#cy#^tag1^#ec# is #cg#more powerful#ec# in #cy#^tag2^#ec#!
+log_monster_died_shara	^tag1^ is defeated! Gained <color=#40b843>^tag2^</color> JP and <color=yellow>^tag3^</color>g!
+log_oilslick_poison_damage_up	<color=yellow>The oil slick worsens the poison damage!</color>
+log_robot_summon	#cy#^tag1^#ec# assembles another #cy#^tag1^#ec# out of scrap parts!
+log_shara_creatureheal	You gain #cy#^tag1^#ec# Health from creatures you #cc#control#ec#!
+log_shara_maxcreatures	You #cr#cannot control#ec# any additional creatures! (Max: #cy#^tag1^#ec#)
+log_shield_absorb_damage_attack	<color=#ffc80a>^tag1^</color> hits <color=#ffc80a>^tag3^</color> for #co#^tag2^#ec# damage! (#cc#SHIELD ABSORBED!#ec#)
+log_shield_absorb_damage_effect	<color=#ffc80a>^tag1^</color> hits <color=#ffc80a>^tag3^</color> for #co#^tag2^#ec# damage with #cy#^tag4^#ec#! (#cc#SHIELD ABSORBED#ec#)
+md_items_breakables	#cc#Special Condition#ec#: Find more items in breakable objects!
+md_jp_only_campfires	#cc#Special Condition#ec#: Gain JP only at campfires!
+md_keepgold_items_relics	#cy#On Victory#ec#: Keep all #cy#gold#ec#, #cg#items#ec#, and at least one #clr#Relic#ec# gained in dungeon
+md_keepgold_relics	#cy#On Victory#ec#: Keep all #cy#gold#ec# and at least one #clr#Relic#ec# gained in dungeon
+md_keeprelics	#cy#On Victory#ec#: Keep at least one #clr#Relic#ec# gained in dungeon
+md_king_chaser	#cc#Special Condition#ec#: The #clr#Mystery King#ec# will chase you from the start!
+md_lowmonsteraggro	#cc#Special Condition#ec#: Monsters have reduced aggression!
+md_many_champions	#cc#Special Condition#ec#: Fewer monsters, many champions!
+md_mini_dreamcaster_explain_text	#cy#MINI DREAMCASTER#ec#: Instructions for usage are as follows.\n\nInsert #cy#piece of equipment#ec#, #cc#Orb of Reverie#ec#, and #co#gold#ec# into unit.\n\nEquipment will be upgraded. An additional #co#magic modifier#ec# may be added if possible.\n\n#cy#Mini Dreamcaster#ec# will #cr#self-destruct#ec# once used.\n
+md_mini_dreamcaster_main_response0	You're adorable! What do you do?
+md_mini_dreamcaster_main_response1	Upgrade my gear!
+md_mini_dreamcaster_main_text	#cy#MINI DREAMCASTER#ec#: #cg#Current status: small and operational.#ec#\n
+md_mini_dreamcaster_orbselect_text	#cy#MINI DREAMCASTER#ec#: Please select which #cy#Orb of Reverie#ec# to use. Selecting a #cc#Lucid Orb#ec# or #cg#Skill Orb#ec# will grant the magical modifier attached to that orb.\n
+md_mini_dreamcaster_upgrade_text	#cy#MINI DREAMCASTER#ec#: Please select which piece of equipment to upgrade. All upgrades require one #cy#Orb of Reverie#ec#. You may select the orb after selecting the piece of equipment.\n\n#cy#Warning: This Mini-Dreamcaster unit may only be used once. It will then #ec##cr#self-destruct#ec#.\n
+md_monster_powerup	#cc#Special Condition#ec#: Monsters will fight each other. If they defeat another monster, they level up!
+md_monsters_respawn	#cc#Special Condition#ec#: Monsters will respawn!
+md_more_consumables	#cc#Special Condition#ec#: Find many more consumables!
+md_nodrops	#cc#Special Condition#ec#: Monsters don't drop items or gear!
+md_ondefeat_loseprogress	#cy#On Defeat#ec#: Lose all progress from the dungeon
+md_randomshop_intro_txt	#cy#^$npcname:current$^:#ec# Hello there! Interested in taking a gander at all this #cc#fine merchandise#ec#? I carry all sorts of goods. Food, armor, weapons, knick-knacks, you name it!\n
+md_shopkeepers	#cc#Special Condition#ec#: Shopkeepers on every floor!
+md_startwithnothing	#cy#Start Condition#ec#: Begin at level 1 with no gear, skills, pet, or inventory
+misc_scaryface	SCARY FACE!
+misc_shape_flexrect	Rectangle
+misc_shape_semicircle	Semicircle
+mm_dualwielderemblem_tier0_biography_desc	Picking up your Combat Biography grants ^number1^ dodge chance for ^number2^ turns
+mm_dualwielderemblem_tier0_dualwield_desc	Basic attacks deal ^number1^ damage while dual wielding
+mm_dualwielderemblem_tier1_glide_desc	Gain a Brushstroke while using Glide
+mm_dualwielderemblem_tier1_shadow_desc	Shadow damage pierces ^number1^ of enemy resistance
+mm_dualwielderemblem_tier2_brush_desc	^number1^ chance to gain a Brushstroke while taking a step
+mm_dualwielderemblem_tier2_dodge_desc	Dodging reduces all cooldowns by ^number1^ turn(s)
+mm_elemental_bolt2_name	Elemental Fury
+mm_elemental_bolt_desc	When using a damaging elemental skill: ^number1^ chance to hit random enemy for ^number2^ of Spirit Power as your last used element.
+mm_elemental_bolt_name	Elemental Bolts
+modedescription_adventure_shara	<color=#40b843>Adventure Mode</color>\nIf you reach 0 HP, you will <color=#40b843>return to Shara's Camp</color>.\nYou will lose half of your money and unspent JP.\nRecommended for <color=#40b843>roguelike beginners</color>.\n\n
+modedescription_heroic_shara	\n<color=#ffc80a>Heroic Mode</color>\nIf you reach 0 HP, the game ends (<color=red>permadeath</color>).\nThis is <color=#ffc80a>challenging</color>, but also <color=yellow>the intended way to experience Shara's Story</color>!\n\n
+mon_voidcrystal_name	Void Crystal
+monster_attr_liveinwater	Lives in Water
+mysteryking_chaser_powerup_txt	The #clr#~ Mystery King ~#ec# chasing you has unleashed its full power!\n\nPrepare for #cy#the real fight#ec# to begin...\n\n
+npc_jumpintoriver_name	Path to Riverstone Waterway
+obj_holyfire_name	Celestial Fire
+relic_flavor_no_owner	a mysterious hero
+relic_option_goback	View the #cy#original item#ec# again
+relic_option_keep	Keep Relic in this Journey. It will #cr#disappear#ec# when the Journey ends.
+relic_option_wait	Receive Relic #cy#after#ec# beating this Journey. Rank will #cg#scale#ec# based on level prior to entry.
+relic_tutorial_text	#clr#Relics#ec# are powerful, randomly-generated equipment with unique effects. They can be even more powerful than #co#Legendary#ec# and #cg#Gear Set#ec# items! #clr#Relics#ec# are only found in #cy#Wanderer's Journeys#ec#.\n\nYou are guaranteed to find a #clr#Relic#ec# when defeating the #cy#Mystery King#ec#, final boss of the #clr#Journey#ec#. However, they can sometimes be found elsewhere in the dungeon.\n\n
+relic_tutorial_text2	If you find a #clr#Relic#ec# before the boss, you have a choice: use the #clr#Relic#ec# for the remainder of the #cy#Journey#ec# (but it #cr#disappears#ec# on completion), or receive it as a #cg#reward#ec# after your victory.\n\nIf you choose the #cy#reward#ec#, the item's rank will scale based on your level outside the Journey, and the difficulty of the Journey itself.\n\nChoose carefully! You may want the power of the #clr#Relic#ec# during the dungeon, but if you do, you #cr#won't keep it#ec# after. If you choose the reward, you won't get it unless you #cg#win#ec#.\n\n
+shadowdebuff30_name	Shadow Vulnerable
+shara_ability_update_text	Your #cc#purpose#ec# has become clearer! #cy#^$sharamode:prevdominatename$^#ec# is now #cc#^$sharamode:dominatename$^#ec#.\n\n^$sharamode:dominatedesc$^\n\n
+shara_ability_update_text_addendum	<size=46>Domination Mastered!</size>\n\nYour #cc#Domination#ec# ability now causes each creature you control to #cr#lose Health over time#ec#, instead of healing you over time.\n\nOnce a non-trivial #cc#Dominated#ec# monster is #cy#defeated#ec#, you will regain #cg#15%#ec# of your max Health, Stamina, and Energy!\n\n
+shara_stat_boost_counter	(Purchases: ^tag1^)
+skill_expmon_absorbpowerups_name	Powerup Absorption
+skill_expmon_adhesivetongue_name	Adhesive Tongue
+skill_expmon_batterup_name	Batter Up!
+skill_expmon_boulder_slam	Swamp Crush
+skill_expmon_burstgas	Toxic Burst
+skill_expmon_burstgas_name	Poison Burst
+skill_expmon_cannonstunner_name	Cannon Stunner
+skill_expmon_cubeslimesummonreaction_name	Cuboid Slime Split
+skill_expmon_divinepower_name	Celestial Aura
+skill_expmon_eatweapon_name	Eat Weapon
+skill_expmon_fireball_name	Fire Bolt
+skill_expmon_fly2_name	Soar
+skill_expmon_glitterskin_name	Glitterskin
+skill_expmon_healovertime_name	Regeneration
+skill_expmon_holystorm_name	Divine Storm
+skill_expmon_icepotion_name	Frost Potion
+skill_expmon_megabolt_name	Giga Volt
+skill_expmon_mudfighter_name	Mud Fighter
+skill_expmon_multibite_name	Bitestorm
+skill_expmon_passive_dodge25	Nimble Dodge
+skill_expmon_passive_dodge25_name	Increased Dodge
+skill_expmon_passivescare_name	Scary Face
+skill_expmon_resilient_name	Resilient
+skill_expmon_slimehex_name	Mega Hex
+skill_expmon_staffcharge_name	Bo Beatdown
+skill_expmon_stagrush_name	Stag Rush
+skill_expmon_statusresist50_name	Status Resistant
+skill_expmon_stealandeatfood_name	Chow Down
+skill_expmon_stickyshot_name	Sticky Shot
+skill_expmon_transferhealth_name	Health Transfer
+skill_expmon_waterfighter_name	Water Fighter
+skill_expmon_wingslash_name	Wing Slash
+skill_noroot_nostun_name	Stun Resistance
+skill_playerglitterskin_desc	Surrounds you and your allies with glittering skin for ^number1^ turns! Striking the Glitterskin in melee range will blind attackers.
+skill_playerglitterskin_edesc	Blinded attackers lose ^number2^ Accuracy for ^number3^ turns
+skill_playerspinblade_desc	Creates four spinning blades that move away from you and cause damage each turn. Briefly increases your Parry chance.
+skill_playerspinblade_edesc	Blades deal ^number1^ of Weapon Damage as Physical. Parry chance is increased by ^number2^ for ^number3^ turns.
+skill_playerspitice_desc	Spit a shard of ice at a monster, dealing more damage the further away you are. Briefly raises your Spirit Power.
+skill_playerspitice_edesc	Damage: ^number1^ of Spirit Power as Water. Deals ^number2^ extra damage for each tile between you and the target. Raises your Spirit Power by ^number3^ for ^number4^ turns.
+skill_summonvoidcrystal_desc	Creates an immobile Void Crystal which can fire a long-range laser twice before disappearing.
+skill_summonvoidcrystal_extradesc	Scales with your level. Multiple Void Crystals may be summoned at once.
+skill_xp_bladefroghop_name	Blade Hop
+tutorial_exp_campfire_text	In #cc#Shara's Story#ec#, you will always find a #cy#campfire#ec# every #cc#three floors#ec#. These are an opportunity to recover, learn new #cc#powers#ec#, and purchase #cy#items#ec#.\n\nPlan your adventure around these brief respites!\n\n
+tutorial_exp_sharamode_maxcreatures_text	Shara's #cc#^$getstring:sharaabilityname$^#ec# ability can only control a #cy#limited number#ec# of creatures at once. If you already have #cy#^$getstring:sharamaxcreatures$^#ec# creatures under your control, you won't be able to charm more.\n\nHowever, as you progress through the story, this ability #cc#will be upgraded#ec#! Be sure to view its description after major story events.\n\n
+tutorial_exp_sharamode_part1_text	Welcome to #cc#Shara's Story#ec#. In this game mode, you'll experience the story of #cg#Tangledeep#ec# from a new perspective, and with unique gameplay. If you haven't played through the #cy#third boss#ec# of the main story, we recommend you do that first!\n\nIn this mode, you no longer have a #cg#Healing Flask#ec#, and stepping on a fountain will instead recover some resources instantly. Also, you cannot ever visit #cy#Riverstone Camp#ec#, so your #cy#portal#ec# can only be used for fast travel elsewhere.\n\nThis means there's no Dreamcaster, magic grove, or corral...\n
+tutorial_exp_sharamode_part2_text	Shara does not gain #cy#experience#ec#, nor does she learn abilities by spending #cg#JP#ec#. Instead, you can use #cg#JP#ec# to purchase permanent stat boosts in the Skill screen. Each boost costs more than the last.\n\nThere are two ways to learn abilities. You can learn skills from other jobs by opening #cy#Pandora's Boxes#ec#, which will guarantee a choice between one of two random skills.\n\nYou will also be guaranteed a unique #cc#Shara#ec# ability when you rest at a campfire! Choose your abilities carefully, as they'll be #cy#different each time you play#ec#.\n\n
+tutorial_exp_sharamode_wanderingmon_text	As #cy#Shara#ec# grows in power and makes her presence known, the creatures of #cg#Tangledeep#ec# will begin avoiding her! By showing your might and defeating enough creatures #cy#on any given floor#ec#, new monsters will #cr#no longer spawn there#ec#.\n\n
+wanderer_intro_1	#cy#??? WANDERER#ec#: Oh, yes, yes. But I merely go where the #cc#rivers#ec# take me.\n\nYou, on the other hand... you seem like one who #cy#forges their own path#ec#. You would rather swim against the current than drift aimlessly.\n\nTell me, am I right?\n
+wanderer_intro_2	#cy#??? WANDERER#ec#: A soul as old as mine has seen forests grow from a single sapling to a mighty jungle. There is much I could tell you about the stories of this land, stories from #cg#far beyond Tangledeep#ec#.\n\nBut you must fully immerse yourself in the story!\n\nAs your mind journies, so too can your body. Become open to new experiences, and an endless #cc#ocean#ec# of discovery awaits you.\n
+wanderer_intro_3	#cy#??? WANDERER#ec#: I have only tales, explorer. I will tell you one if you are prepared to truly #cy#open your mind#ec#.\n\nIf you hold any doubt, you cannot achieve #cy#true immersion#ec#, and I cannot take you on this journey.\n\nYou may even find yourself without your #cg#equipment, skills, pets, or items#ec#. Are you ready #cy#hear my tale#ec#?\n
+wanderer_intro_4	#cy#??? WANDERER#ec#: Ah, there you are! You #cy#fell into a daze#ec# during my tale. That is not unusual for one who is #cy#immersed#ec# in a good story.\n\nSince we did not finish, we'll have to start at the beginning again. Of course, the details #cy#change every time#ec#, so one can never be completely prepared.\n\nAre you ready?\n
+wanderer_intro_5	#cy#??? WANDERER#ec#: Very well! I will tell you of the #clr#Mountain's Ascent#ec#.\n\nYou find yourself at the beginning of a wondrous journey, one full of creatures #cy#unlike any you have seen#ec#. A #clr#Relic#ec# of untold value sits atop a mighty peak surrounded by howling winds.\n\nThat's it. Close your eyes, and #cg#listen to my words#ec#...\n\n
+wanderer_intro_response1	You're very wise for a fisherman.
+wanderer_intro_response2	You've been beyond Tangledeep?! What else is out there?
+wanderer_intro_response3	Wait, I have something else to do first.
+wanderer_intro_response4	I'm ready. Please tell me!
+waterdebuff30_name	Water Vulnerable
+xp_obj_staticparalyzer_name	Electric Energy
+exp1_obj_dominator_head_name	Trophy

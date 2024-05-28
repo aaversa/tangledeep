@@ -1,0 +1,471 @@
+abil_skill_banditdragonsoul_desc	断龙：刀之呼吸。对周围5x5方格内的敌人造成^number1^武器伤害（物理）。
+abil_skill_banditdragonsoul_edesc	也会导致流血，每回合造成^number2^武器伤害，持续^number3^回合。
+abil_skill_banditdragonsoul_extradesc	也会导致流血，每回合造成^number2^武器伤害，持续^number3^回合。
+abil_skill_banditdragonsoul_name	龙魂：强盗
+abil_skill_beastdragonsoul_desc	断龙：流星呼吸。对一群敌人造成^number1^武器伤害（火元素）。
+abil_skill_beastdragonsoul_edesc	同时眩晕所有被击中的目标^number2^回合。
+abil_skill_beastdragonsoul_extradesc	同时眩晕所有被击中的目标^number2^回合。
+abil_skill_beastdragonsoul_name	龙魂：暴君
+abil_skill_beedeath_name	蜜蜂攻击
+abil_skill_beestinger_name	黄蜂蜇刺
+abil_skill_chillonhit_weak_name	寒冰皮肤
+abil_skill_flank_name	弗兰克跳跃
+abil_skill_frogdragonsoul_desc	断龙：超级蛙跳。跳到目标敌人附近，对目标和相邻敌人造成^number1^武器伤害（物理）。
+abil_skill_frogdragonsoul_edesc	同时给予你真菌再生，每回合恢复^number2^的最大生命值，持续^number3^回合。
+abil_skill_frogdragonsoul_extradesc	同时给予你真菌再生，每回合恢复^number2^的最大生命值，持续^number3^回合。
+abil_skill_frogdragonsoul_name	龙魂：青蛙
+abil_skill_ghostaura_name	抑制光环
+abil_skill_icebullrush_name	冰球
+abil_skill_lowerdef_onattack_name	酸性攻击
+abil_skill_moldmindcontrol2_name	心灵吸取
+abil_skill_parry30_name	高级招架
+abil_skill_passivecharm_pets_name	心灵控制
+abil_skill_prismabsorber_name	棱镜吸收
+abil_skill_prismattack_name	棱镜攻击
+abil_skill_randomice_name	随机冰块
+abil_skill_robotdragonsoul_desc	断龙：光之呼吸。对你面前大片区域发射^number1^道光束，对所有目标造成至少^number2^的武器伤害（雷元素）。
+abil_skill_robotdragonsoul_edesc	怪物最多可被^number4^道光束击中，每道造成^number3^额外伤害。
+abil_skill_robotdragonsoul_extradesc	怪物最多可被^number4^道光束击中，每道造成^number3^额外伤害。
+abil_skill_robotdragonsoul_name	龙魂：机器人
+abil_skill_slimedragonsoul_desc	断龙：果冻援军。召唤^number1^只友好的史莱姆与您并肩战斗^number2^回合。
+abil_skill_slimedragonsoul_edesc	召唤出来的史莱姆不会被推动。
+abil_skill_slimedragonsoul_extradesc	召唤出来的史莱姆不会被推动。
+abil_skill_slimedragonsoul_name	龙魂：史莱姆
+abil_skill_sludgedeath2_name	死亡瘟疫
+abil_skill_snakefly_name	超肺活量
+abil_skill_spectralcrab_name	召唤幽冥螃蟹
+abil_skill_spiritdragonsoul_desc	断龙：气之呼吸。在范围内以3×3的格子造成^number1^武器伤害（毒元素）。同时召唤云雾，如果进入，会让敌人昏睡。
+abil_skill_spiritdragonsoul_edesc	云雾会造成^number2^轮昏睡。
+abil_skill_spiritdragonsoul_extradesc	云雾会造成^number2^轮昏睡。
+abil_skill_spiritdragonsoul_name	龙魂：精灵
+abil_skill_summon_metalslime_red_name	制造破界者
+abil_skill_summon_metalslime_red_shortdesc	召唤一个可以摧毁结界的破界者。
+abil_skill_whipmastery1_desc	对直线内的敌人造成^number1^武器伤害（物理）。两个格子内的敌人被束缚^number2^回合。
+abil_skill_whipmastery1_extradesc	束缚的敌人每回合受到^number3^武器伤害。
+abil_skill_whipmastery1_name	响尾蛇攻击
+abil_skill_whipmastery2_desc	皮鞭攻击有^number1^几率使敌人麻痹^number2^回合。
+abil_skill_whipmastery2_name	缠绕
+abil_skill_whipmastery3_desc	每鞭打一个目标，获得^number1^暴击几率。
+abil_skill_whipmastery3_name	灵巧手腕
+abil_skill_whipmastery4_desc	对敌人造成^number1^武器伤害（物理），并在该位置产生冲击波。冲击波每回合都会扩展，持续^number2^回合。
+abil_skill_whipmastery4_extradesc	冲击波在每回合结束时造成^number3^武器伤害（物理）。
+abil_skill_whipmastery4_name	音爆
+abil_skill_wranglersummon_name	召唤宠物
+ask_where_dragons	其他的龙在哪里？
+bandit_dragon_intro_1	这看起来一点也不像是一个#cy#“大鸟”#ec#。它一定是一条龙\n\n
+bandit_dragon_intro_2	#cr#他的#ec#... 把你的 #cy#奶酪#ec#... 给#cy#我们#ec#，要不然你就#cr#祈祷吧#ec#!\n\n
+bandit_dragon_intro_3	要求你多睡几百年会不会太过分？\n\n我比任何人都了解奶酪是多么好吃，但你也不能到处威胁和偷别人的东西。\n\n
+bandit_dragon_intro_4	#cr#他的!#ec##cy#奶酪#ec#是我的！从我这#cy#偷的#ec#。\n\n
+bandit_dragon_intro_response_1	盗贼和食物是怎么回事？！
+bandit_dragon_intro_response_2	难道是？！
+bandit_dragon_takeitems_1	无理的生物！我们现在就#cr#拿走你的食物#ec#！瓜哈哈…\n\n
+bandit_dragon_takeitems_2	你现在被绑着，还想#cy#威胁#ec#我吗？我的食物现在就#cg#安全地放在背包里#ec#，并且…\n\n#cy#嘿，等等!#ec#\n\n
+bandit_dragon_takeitems_part2_txt	那个混蛋盗贼#cy#偷走了我所有的食物#ec#！我必须拿回它们，不择手段！\n\n
+bandit_dragon_takeitems_response	不择手段！
+bandit_dungeon_unlocked_txt	这#cy#楼梯#ec#是从哪冒出来的？我很确定在和#cy#“大鸟”#ec#战斗时它不在那里...\n\n难道这是另一个#co#龙#ec#的巢穴？\n\n
+banditdragon_postdefeat_txt	又一条#co#龙#ec#被打败了！这就是为什么#cr#永远#ec#不要打我#cy#奶酪#ec#的主意。有些底线是不能触碰的！\n\n
+banditdungeon_hub_unlock_txt	那是最后一个了！也许中央大门现在开着。在继续前进之前，我最好确保自己已经做好万全准备…\n\n
+battletext_nullify	增益效果被移除！
+beast_dungeon_unlocked_txt	多么雄伟的藤蔓！我应该可以顺着往上爬。\n\n在另#co#龙#ec#的巢穴下真的有和这里一样的地方吗？\n\n只有一种方法可以验证。\n\n
+beastdungeon_firstwavestart_part2_txt	太#cr#仓促#ec#了！但如果我现在离开，这些野兽会吃光#cg#藤蔓#ec#，这样我就无法再往上爬了。\n\n我必须#cy#打败它们#ec#。最好尽快做好准备！\n\n
+beastdungeon_firstwavestart_txt	我通过空气能感觉到，这四颗#cg#藤蔓#ec#即将疯狂成长！\n\n…哦 ，远处是什么声音？\n\n
+bubbleshield_displayname	气泡护盾
+budoka_glove1_desc	类似于徒手攻击。忽略任何武器加成。最多支持^number1^魔法mods。
+budoka_glove1_name	新手包
+budoka_glove2_name	学徒包
+budoka_glove3_name	专家包
+budoka_glove4_name	大师包
+des_obj_creepingsludge_dname	瘟疫沼泽
+description_xp2_limitbreak	巨龙之力在受到伤害时增加。达到#cg#100%#ec#时，你的下一次#cy#普通攻击#ec#就可以使用强力的#co#断龙#ec#攻击！使用断龙攻击或者#cy#15#ec#回合以后，你的#co#龙之力#ec#将被重置。
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_btn_0	学习音爆（1000 JP）
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_txt	#cy#乔里托#ec#：我看到你用一根装备的#cy#皮鞭#ec#击败了#cy#^tag2^冠军#ec#。看来你已经做好了学习<#40b843>终极奥义#ec#的准备。\n\n你#cy#确定#ec# 这就是你想要掌握的<#40b843>终极奥义#ec#吗？一旦确定将#cr#永远无法再学习其它奥义。#ec#\n
+dialog_weaponmaster_chat_whip_mastery_ultimate1_txt	#cy#乔里托#ec#：在你学习<#0cffe6>音爆#ec#之前，必须先在主手装备#cy#皮鞭#ec#的情况下打败#cy#^tag1^冠军#ec#。他们可不是<#79a2ab>泛泛之辈#ec#。\n\n到目前为止，你已经使用#cy#皮鞭#ec#击败了<#40b843>^tag2^#ec#冠军。你应该继续锻炼自己。\n
+dialog_weaponmaster_chat_whipmastery_btn	<#40b843>皮鞭大师#ec#之路
+dialog_weaponmaster_chat_whipmasteryintro_btn_0	学习响尾蛇（400 JP）
+dialog_weaponmaster_chat_whipmasteryintro_txt	#cy#乔里托#ec#：#cy#皮鞭#ec#是一种使用起来非常灵活的武器，它单次攻击的威力较小，但可以一次攻击成群的敌人。它的<#40b843>秘技#ec##cy#多为范围伤害#ec#，可同时攻击多个目标。\n\n第一个秘技是<#0cffe6>响尾蛇攻击#ec#。它可以鞭打一排敌人，将他们击倒并同时缠绕他们。\n
+dialog_weaponmaster_chat_whipmasteryintro2_btn_0	学习缠绕（700 JP）
+dialog_weaponmaster_chat_whipmasteryintro2_txt	#cy#乔里托#ec#：#cy#皮鞭#ec#是一种使用起来非常灵活的武器，它单次攻击的威力较小，但可以一次攻击成群的敌人。它的<#40b843>秘技#ec##cy#多为范围伤害#ec#，可同时攻击多个目标。\n\n第二个秘技是<#0cffe6>缠绕#ec#，这是一个被动技能。装备这个技能，使用皮鞭攻击时有几率#cy#解除敌人武装#ec# （麻痹）。\n
+dialog_weaponmaster_chat_whipmasteryintro3_btn_0	学习灵巧手腕（800 JP）
+dialog_weaponmaster_chat_whipmasteryintro3_txt	#cy#乔里托#ec#：#cy#皮鞭#ec#是一种使用起来非常灵活的武器，它单次攻击的威力较小，但可以一次攻击成群的敌人。它的<#40b843>秘技#ec##cy#多为范围伤害#ec#，可同时攻击多个目标。\n\n第三个秘技是<#0cffe6>灵巧手腕#ec#，这是一个被动技能。装备这个技能，当你鞭打到多个目标时，将获得额外的#cy#暴击几率#ec#。\n
+dialog_weaponmaster_chat_whipmasteryintro4_btn_0	我准备好了，教我使用<#0cffe6>音爆#ec#吧！
+dialog_weaponmaster_chat_whipmasteryintro4_txt	#cy#乔里托#ec#：我看你已经熟练掌握#cy#皮鞭#ec#的基础技巧了。你确定要学习<#40b843>终极奥义#ec#吗？请仔细斟酌 - 你只能学习#cy#一个#ec#<#40b843>终极奥义#ec#。\n\n使用<#0cffe6>音爆#ec#,，你可以攻击邻近的敌人，制造一个#cy#冲击波#ec#，并逐渐扩散，敌人离你越远受到的伤害越高。\n
+dragonbreak_bandit_power_desc	对一群怪物使用刀之呼吸，造成^number1^武器伤害（物理）并附加流血。
+dragonbreak_beast_power_desc	将一颗流星落在一群怪物身上，造成^number1^武器伤害（火元素）并眩晕它们。
+dragonbreak_frog_power_desc	优雅地飞跃到怪物身边，对怪物和所有邻近的敌人造成^number1^武器伤害（物理）。
+dragonbreak_ready_desc	你的下一次普通攻击将触发一次强大的#co#龙断#ec#！
+dragonbreak_ready_name	垄断充能完毕！
+dragonbreak_robot_power_desc	使用光束攻击一群怪物，造成至少^number1^的武器伤害（雷元素）。
+dragonbreak_slime_power_desc	召唤^number1^个友好的史莱姆与你并肩战斗！
+dragonbreak_spirit_power_desc	对一群怪物喷洒毒气，造成^number1^武器伤害（毒元素），并在该区域覆盖催眠气体。
+exp_banditdungeon_cname1	盗贼水城（1F）
+exp_banditdungeon_cname2	盗贼水城（2F）
+exp_banditdungeon_cname3	盗贼水城（3F）
+exp_banditdungeon_cname4	贼龙巢穴
+exp_beastdungeon_cname1	上古丛林（1F）
+exp_beastdungeon_cname2	上古丛林（2F）
+exp_beastdungeon_cname3	上古丛林（3F）
+exp_beastdungeon_cname4	上古丛林（4F）
+exp_beastdungeon_cname5	上古丛林（最上层）
+exp_crafting_commongearandthreegems_to_randomgear	普通装备*1 + 同等级宝石*3 = 随机装备*1（可能是传奇品质）
+exp_crafting_gemleaves_to_gems	同等级宝石碎片*2 = 同等级宝石*1
+exp_crafting_legendaryandthreegems_to_orbs	传奇或套装*1 + 同等级宝石*3 = 梦幻宝珠*5
+exp_crafting_lucidorbandgem_to_randomlucidorb	清晰宝珠 + 宝石*1 = 随机清晰宝珠*1
+exp_crafting_orbandjobscroll_to_skillorb	梦幻宝珠*1 + 转职卷轴*1 = 随机技能宝珠*1
+exp_crafting_potions_to_elixir	超级回复药剂*2，精力，能量药剂 = 万灵药*1
+exp_crafting_sixlucidshards_to_randomlucidorb	任意清晰宝珠碎片*6 = 随机清晰宝珠*1
+exp_crafting_threecommonarmor_to_randomarmor	普通护甲*3 = 随机普通护甲*1
+exp_crafting_threecommonoffhand_to_randomoffhand	普通副手*3 = 随机普通护手*1
+exp_crafting_threecommonweapons_to_randomweapon	普通武器*3 = 随机普通武器（不同类型）*1
+exp_crafting_threegems_upgrade	同等级宝石*3 = 更高等级宝石*1
+exp_crafting_threelucidorbs_to_oneregular	任意清晰宝珠*3 = 梦幻宝珠*1
+exp_crafting_threepotions_upgrade	治疗或隐形药剂*3 = 更高等级药剂*1
+exp_crafting_threescrollsandgem_to_randomscroll	任意卷轴*3 + 宝石*1 = 随机卷轴*1
+exp_crafting_threeseeds_to_randomseed	任意种子*3 = 随机种子*1
+exp_crafting_twoaccessoriesandgem_to_randomaccessory	普通装饰品*2 + 宝石*1 = 随机普通装饰品*1
+exp_crafting_tworelics_to_randomrelic	任意遗物*2 = 随机类似威力遗物*1
+exp_crafting_tworelicsanditem_to_specificrelic	任意遗物*2 + 非遗物装备*1 = 随机遗物*1
+exp_dialog_crafting_recipeintro	这就是我所知道的所有配方。\n
+exp_dialog_frogking_town_craftinginfo	#cy#霍拉提奥：#ec#我会尽量简单地说，这样你也能理解。\n\n你给我正确的#cy#道具#ec#，我会用我的#cg#强力青蛙魔法#ec#制作一些东西给你。\n
+exp_dialog_frogking_town_dragons_1	#cy#霍拉提奥：#ec#其它#co#远古巨龙#ec#比我强大得多，你是 #cr#毫无机会#ec#击败它们的！因此，我不妨告诉你它们的所在, #cy#嘿嘿#ec#...\n\n
+exp_dialog_frogking_town_dragons_2	#cy#霍拉提奥：#ec#你可以在#co#伪装者藏身处#ec#找到其中一条。\n有一条住在#co#宁静湖#ec#。\n#co#梦之大陆#ec#也栖息着一条.\n还有一条住在#co#潮湿洞穴#ec#里。\n\n
+exp_dialog_frogking_town_intro	#cy#霍拉提奥：#ec#你现在想要什么？我可是#cg#非常非常#ec#忙的！\n
+exp_enemycaltrops_name	敌方铁蒺藜
+exp_frogdungeon_cname1	泥炭沼泽（1F）
+exp_frogdungeon_cname2	泥炭沼泽（2F）
+exp_frogdungeon_cname3	泥炭沼泽（3F）
+exp_frogdungeon_cname4	青蛙龙穴
+exp_log_eatenwhole	#cr#^tag1^#ec#吞下了整个#cy#^tag2^#ec#！
+exp_log_gateopened	你听到#cy#远处某个地方#ec#传来#cy#门#ec#被打开的声音…
+exp_log_ghostaura_wrongtarget	在#cy#幽冥鬼雾#ec#中，你的攻击只会对#cy#^tag1^#ec#起作用！
+exp_log_item_crafted	制作完成：#cy#^tag1^#ec#！
+exp_log_monsterhorde_attack	#cy#一大波#ec# #cr#怪物#ec# #cy#出现了！#ec# (第#cg#^tag1^#ec#波)
+exp_log_monsterhorde_fail	#cy#藤蔓们#ec#被#cr#摧毁了#ec#！挑战失败…
+exp_misc_eatenwhole	被吃了！
+exp_mon_banditdragon_name	盗贼之龙
+exp_mon_beastdragon_name	暴君之龙
+exp_mon_cheftoad_name	蛙之食神
+exp_mon_frogdragon_name	霍拉提奥，蛙龙
+exp_mon_hornetnest_name	黄蜂巢穴
+exp_mon_jellydragon_name	果冻龙篡位者
+exp_mon_prototype_husyn_name	原型机
+exp_mon_robotdragon_name	机械巨龙
+exp_mon_spiritdragon_name	精灵龙
+exp_mon_warhornet	大黄蜂
+exp_mon_xp_defensecrystal_name	魔法藤蔓
+exp_npc_realjellydragon_name	果冻，果冻龙
+exp_obj_floorswitch_name	开关
+exp_obj_friendlymonster_egg_name	水晶监狱
+exp_obj_metalgate_name	铁门
+exp_obj_ruined_future_obstacle_01_name	固体废料
+exp_obj_ruined_robot_scrap_heap_name	金属废料
+exp_popup_dragondefeated	击败巨龙！
+exp_popup_wave	第^tag1^波！
+exp_robotdungeon_cname1	机械迷宫（1F）
+exp_robotdungeon_cname2	机械迷宫（2F）
+exp_robotdungeon_cname3	机械迷宫（3F）
+exp_robotdungeon_cname4	机械迷宫（4F）
+exp_robotdungeon_cname5	机械迷宫（最上层）
+exp_skill_deeproar_name	原初咆哮
+exp_skill_dragon_taillash_name	神龙摆尾
+exp_skill_expmon_summonneutralizers_name	机器人大军
+exp_skill_firewave_name	火焰波
+exp_skill_gasbreath_name	催眠瓦斯
+exp_skill_icestrike_name	寒潮
+exp_skill_knifebreath_name	刀之呼吸
+exp_skill_lightningbreath_name	闪电呼吸
+exp_skill_meteorbreath_name	流星呼吸
+exp_skill_shadowbreath_name	梦魇呼吸
+exp_skill_skysnakepoison_name	猛毒
+exp_skill_slimebreath_name	史莱姆呼吸
+exp_skill_slimedragonbreak_name	史莱姆援兵
+exp_slimedungeon_cname1	史莱姆平原（1F）
+exp_slimedungeon_cname2	史莱姆平原（2F）
+exp_slimedungeon_cname3	史莱姆平原（3F）
+exp_slimedungeon_cname4	史莱姆平原（最上层）
+exp_specialmon_gatekeeper	看门人
+exp_spiritdungeon_cname1	精灵圣域（1F）
+exp_spiritdungeon_cname2	精灵圣域（2F）
+exp_spiritdungeon_cname3	精灵圣域（3F）
+exp_spiritdungeon_cname4	精灵圣域（最上层）
+exp_status_enrageattack_name	激怒
+exp_status_physicalform_name	实体形态
+exp_status_spiritform_name	灵体形态
+exp_switch_nothing	#cy#拨动了开关#ec#，但#cr#什么也没发生#ec#。
+exp_ui_boxitemheader	霍拉提奥的物品
+exp_ui_craftheader	霍拉提奥的餐食
+exp_ui_craftitems	制作物品！
+exp_ui_playeritemheader	你的物品
+exp_wanderer_dungeon11_name	永恒洞窟
+final_dragon_callout_part1_1	我的#cg#两栖类小动物#ec#朋友，这就是它们全部。所有的#co#巨龙#ec#都已经被击败了\n\n
+final_dragon_callout_part1_2	#cg#*啵 啵 啵*#ec#难以置信！真是强大的不可思议！你一定作弊了！\n\n
+final_dragon_callout_part1_3	恐怕不行，#cg#青蛙朋友#ec#！这些事情确实很难，但它们难不倒我。\n\n现在#cy#威胁#ec#消失了，我想我们可以坐下来讨论讨论了-\n\n
+final_dragon_callout_part2_1	那是什么！？\n\n听着，#cg#小家伙#ec#，如果你用魔法伤害任何一位，你都会为此付出代价。\n\n大声点！你做了什么？\n\n
+final_dragon_callout_part2_2	不，不是我干的！我#cg#*发誓*#ec#！即使我想，我的#cg#青蛙魔法#ec#也做不到。\n\n
+final_dragon_callout_part2_3	#heroname#，我想我已经知道一小部分答案了。当#cr#爆炸#ec#发生的同时，能量增强了#cy#834%#ec#并汇聚到#cy#织梦者#ec#。\n\n我们可以推断爆炸的源头是由#cy#机械#ec#产生的，再进一步，它与驱动#cy#织梦者#ec#和#cc#远古魔方#ec#的技术是一样的。\n\n我敢说我们的绿色小朋友说的是实话！\n\n
+final_dragon_callout_part2_4	所有，在某处应该有#cy#另一台#ec#强大的机器，但是为什么它现在被激活了？\n\n
+final_dragon_callout_part2_5	我做出了一个假设，也许与你最近击败#co#巨龙#ec#有一定的关联？\n\n我们对这些远古遗迹所知甚少，但有一件事情可以肯定，它们和我们一样，与#cc#波动#ec#有关联。\n\n也许是#co#巨龙#ec#的事件，让#cc#波动#ec#发生了巨大改变导致唤醒了这个#cy#未知#ec#装置！\n\n
+final_dragon_callout_part2_6	这似乎是个合理的猜测。如果你是对的，源头可能就在我之前看到许多#cy#机械machines#ec#的地方附近。\n\n我会从#cc#^$getstring:levelname$^!#ec#开始调查。\n\n
+frog_dragon_defeated_1	#cy#啊！#ec#\n\n#cg#不！#ec#我的魔法被解除了，都是你的错。#cr#你会有报应的#ec#，混蛋！\n\n
+frog_dragon_defeated_2	这就是你咆哮的样子。一只#cg#可爱的小青蛙#ec#，哈哈！\n\n我想现在是时候回去溪石营地了，是吧？\n\n
+frog_dragon_defeated_3	我#cr#诅咒你#ec#，#cg#对天发誓#ec# soul！\n\n我的#cg#青蛙魔法#ec#依旧可以施展，它们可以把那些破铜烂铁般的武器化为尘埃！\n\n
+frog_dragon_defeated_4	你有两条路可以选，#cg#容易#ec#或者#cr#复杂#ec#的，小青蛙。容易的就是我设置一个#cc#传送门#ec#，而你走进去，成为城镇的一员，提供你能力范围内的帮助。当然也许你也可以用你的青蛙魔法帮助我们离开这里。\n\n复杂的，相信我想你不会喜欢，巨大的锤子，眼冒金星，然后你会在#cy#某个地方醒来#ec#，你不会喜欢那个地方的。\n\n
+frog_dragon_defeated_5	... #cg#呃#ec# ...\n\n我想暂时去镇里生活也不错。\n\n但是！你要知道，小东西！我只是5条#co#远古巨龙#ec#中的一个，它们的力量可强大得多，你不可能击败所有的巨龙，#cg#绝不可能#ec#！\n\n
+frog_dragon_defeated_response_1	啊，可爱的小青蛙！
+frog_dragon_defeated_response_2	让我换个说法。
+frog_dragon_defeated_response_3	我们拭目以待。不管怎样，出发吧！
+frog_dragon_intro_1	这是我见过最大的青蛙！它一定是这里其它青蛙的领袖。\n\n它对#cc#溪石营地#ec#和其它地区都是巨大的威胁。兰登，如果它你是失散多年的表弟，我很抱歉！\n
+frog_dragon_intro_2	#cg#*脱口而出*#ec#你怎么敢闯入这里，并且如此无礼的对我说话！我是#co#霍拉提奥，蛙龙#ec#，你必须对我表示敬意。\n
+frog_dragon_intro_3	#cy#什么？！#ec#\n\n你-…对不起，#co#巨龙#ec#？！就是那些记载在远古传说故事中的神秘生物？\n
+frog_dragon_intro_4	故事？#cg#*呵呵呵*#ec#\n\n你们这些健忘的人类是不是已经忘记了曾经的#cy#国王#ec#？我沉睡了很久，现在是时候向我进贡了。\n
+frog_dragon_intro_5	我们没有国王。我们欢迎你和我一起回去#cc#溪河营地#ec#，而且我们会和你分享食物，但你不能威胁那里的人们，更不能索要所谓的贡品。\n
+frog_dragon_intro_6	#cr#闭嘴，蠢货！#ec#\n\n你们不但要“迎接”我这个国王。还要做的就是#cr#服从#ec#和#cr#恐惧#ec#。我会前往溪谷营地，然后提醒你们我应有的支配权。\n
+frog_dragon_intro_7	那么你必须和其它青蛙一起留在这里，我会确保这一切直到你不会再骚扰我们。|n
+frog_dragon_intro_8	#cg#*哈哈哈*#ec#\n你激怒我了，现在你将面对我的#cr#愤怒#ec#。\n\n#cr#蛙仔们，进攻！#ec#\n
+frog_dragon_intro_response_1	你能说话？！
+frog_dragon_intro_response_2	贡品？！我不这么认为。
+frog_dragon_intro_response_3	我们可不是你的青蛙。所以，我不会让你得逞的。
+frog_dragon_intro_response_4	值得一试。
+frog_dungeon_entry_txt	这里有些#cy#不一样#ec#，空气和土壤中。这里的#cc#波动#ec#更加明显...#cy#且古老#ec#。这里与我迄今为止探索过的纷乱深渊截然不同。\n\n我真的准备好探索这里了吗？我最好做好#cy#万全准备#ec#。\n\n
+frog_dungeon_unlock_txt	#cg#兰登#ec#是对的！从那些楼梯传来微风，它们通向哪里？希望没有更多的青蛙了！\n\n我想只有一种办法可以知道。\n\n
+info_weaponproperties_whip	伤害受力量和迅捷影响；攻击目标附近的人\n暴击时：目标每回合受到25%武器伤害，持续2回合。
+item_bomb_caltrops2_desc	这些就像我过去在溪石营地周围收集的针状树种子，只是看起来更尖锐一些。
+item_bomb_caltrops2_name	星形蒺藜
+item_bomb_fire3_desc	这瓶子热得我都可以在上面煮鸡蛋了。嘿，这可比生火简单多了。
+item_bomb_fire3_effectdesc	造成(等级 x ^number1^)伤害（火元素）并点燃敌人（在^number3^回合内持续造成^number2^点伤害（精神)）。
+item_bomb_fire3_name	地狱火药剂
+item_bomb_ice2_desc	仅仅是把它放在背包内就冻得我瑟瑟发抖。我必须想办法让自己暖和起来。
+item_bomb_ice2_effectdesc	召唤一团致命的冰片，造成（等级 x ^number1^)伤害（水元素）。^number2^几率触发缠绕和麻痹！
+item_bomb_ice2_name	冰霜手榴弹
+item_bomb_lightning3_desc	触摸它的外壳让我的汗毛全都竖了起来，还有点刺痛感。
+item_bomb_lightning3_effectdesc	在3x3范围内制造闪电暴雷，造成(等级 x ^number1^)伤害（雷属性）。
+item_bomb_lightning3_name	雷霆酊剂
+item_dragonsoul_frog_desc	强大#co#远古巨龙#ec#的精髓。永久解锁一个新龙魂被动技能！
+item_dragonsoul_generic	龙魂
+item_egg_metalslime_blue_name	自组史莱姆（C）
+item_egg_metalslime_red_name	自组史莱姆（M）
+item_egg_metalslime_yellow_name	自组史莱姆（Y）
+item_part_metalslime_blue_01_desc	看上去像一堆螺母包裹着史莱姆。它摇摇摆摆，颤颤巍巍。真奇怪！
+item_part_metalslime_blue_01_name	金属史莱姆（C）
+item_part_metalslime_blue_02_name	机械眼睛（C）
+item_part_metalslime_blue_03_name	史莱姆核心（C）
+item_part_metalslime_red_01_desc	一些金属碎片和粘稠的史莱姆混合在一起。它摇摇摆摆，颤颤巍巍。真奇怪！
+item_part_metalslime_red_01_name	金属史莱姆（M）
+item_part_metalslime_red_02_name	机械眼睛（M）
+item_part_metalslime_red_03_name	史莱姆核心（M）
+item_part_metalslime_yellow_01_desc	用黄色史莱姆粘在一起的金属零碎东西。它摇摇摆摆，颤颤巍巍。真奇怪！
+item_part_metalslime_yellow_01_name	金属史莱姆（Y）
+item_part_metalslime_yellow_02_name	机械眼球（Y）
+item_part_metalslime_yellow_03_name	史莱姆核心（Y）
+item_weapon_whip1_desc	当我还是个孩子的时候，我会从商店借一些绳子，假装我在用它和怪物搏斗。我没想到现在会用绳子和真正的怪物战斗！
+item_weapon_whip1_name	绳鞭
+item_weapon_whip2_desc	杰西说这个东西可以让你骑在怪物身上，但我觉得这不靠谱。谁敢去试试？
+item_weapon_whip2_name	皮质马具
+item_weapon_whip3_desc	挥舞它发出的“啪啪”声太响了！让周围的人听起来都不是很舒服。
+item_weapon_whip3_name	牛鞭
+item_weapon_whip4_desc	起初，我认为它太重了，无法挥舞，但现在我看到了它是多么灵巧。现在，只要确保不要抽到我自己。
+item_weapon_whip4_name	制作道具！
+item_weapon_whip5_desc	它身上覆盖着精致的白色皮毛。我希望高贵的生物不会因为致命武器的制造而失去生命。
+item_weapon_whip5_name	独角兽鞭
+item_weapon_whip6_desc	我觉得这鞭子会感应我的动作和思想。这听起来可能很疯狂，但这是真的！每次挥舞都感觉非常自如。
+item_weapon_whip6_name	蛇鞭
+langdon_dragon_info_button	你说我应该去哪里？
+langdon_start_dragonquest_1	#cy#兰登：#ec# #cg#*嘎鲁嘎鲁*！！！#ec#\n\n这可不是心理作用#cg#*嘎鲁*#ec# ，这片森林发生了#cr#奇怪的事情#ec#。糟糕，很糟糕。\n
+langdon_start_dragonquest_2	#cy#兰登：#ec#嗯，这很难解释。这片土地，#cg#*嘎鲁*#ec#不再是我知道的那片土地了。\n\n吃一口坏掉的水果，#cg#*嘎鲁*#ec#谁内心都会后悔把？\n
+langdon_start_dragonquest_3	#cy#兰登：#ec#不，一点线索都没有。#cg#*嘎鲁*#ec#\n\n但我的#cy#直觉#ec#告诉我#cg#纷乱深渊#ec#是一切的源头。如果我不是分身乏术，#cg#*嘎鲁*#ec#我一定马上动手前去调查。\n
+langdon_start_dragonquest_4	#cy#兰登：#ec#也许那个地方全都是和我一样的？一大群#cg#青蛙#ec#？\n\n我不知道。我不是一个爱#cg#*嘎鲁*#ec#冒险的人。如果你想亲自去调查的话，我建议你#cy#小心点#ec#。\n\n哦，对了，如果你看到#cg#*嘎鲁#ec#杰里布的话，请告诉我。她又#cy#“失踪”#ec#了，这个可爱的小宝贝。\n\n
+langdon_start_dragonquest_response_1	什么意思？
+langdon_start_dragonquest_response_2	哦...我认为是这样。知道是什么引发的吗？
+langdon_start_dragonquest_response_3	你会去哪里？
+langdon_start_dragonquest_response_4	我会的。谢谢你，兰登。
+log_absorbing_negate_crit	你用<#40b843>你的盾牌#ec#格挡了一次#cr#暴击#ec#！
+log_buffstrip	你#cg#消去#ec#了#cy#^tag1^#ec#的增益效果, #cy#^tag2^#ec#！
+log_frogs_join_battle	#cy#^tag1^#ec#说， #cy#"青蛙们，帮帮我！"#ec#
+log_ghost_putatrest	#cy#^tag1^#ec# #cg#逐渐消失了#ec#。
+log_ghost_restless	#cy#^tag2^#ec#的#cr#^tag1^#ec#出现了！
+log_jellydragon_arrivalturns	#cy#敌人头领在#ec# #cr#^tag1^回合到达！#ec#
+log_limitbreak_reached	#co#巨龙之力#ec##cy#集满#ec#！
+log_player_dragonbreak	#cg#你#ec#对#cy#^tag1^#ec#!使用了一次#co#断龙#ec#攻击!
+log_ricochet_damage	箭矢被#cy#^tag1^#ec#反弹并射中了#cy#^tag2^#ec#，造成#co#^tag3^#ec#伤害！
+log_slimefail	#cy#敌人占领了所有哨塔…让我们暂时撤退然后再试一次。#ec#
+misc_dmg_arcane	奥术之箭
+misc_hit	命中！
+misc_log_psychic_charmed	#cy#^tag1^#ec#魅惑了#cy#^tag2^#ec#！
+misc_xp2_limitbreak	#co#巨龙之力：#ec# #cy#^tag1^#ec#
+mm_budokatouch1_desc	无视^number1^物理抵抗
+mm_xp2_absorbing_desc	^number1^几率使暴击无效
+mm_xp2_absorbing_name	吸收的
+mm_xp2_arcane_desc	^number1^几率额外射出一只箭矢（元素伤害，伤害基于精神力）
+mm_xp2_arcane_name	神秘的
+mm_xp2_battlemage_desc	这把武器^number1^的攻击力增加至精神力
+mm_xp2_battlemage_name	战魔
+mm_xp2_bubble_desc	生命<= ^number1^时，获得一个可吸收(等级 x ^number2^)伤害的护盾。持续^number4^回合，^number3^回合冷却
+mm_xp2_bubble_name	气泡的
+mm_xp2_coolfrog_desc	生命<= ^number1^时，出现一只强力冰蛙。^number2^回合冷却
+mm_xp2_coolfrog_name	牛蛙的
+mm_xp2_dragons_desc	巨龙之力提升速度增加^number1^，造成^number2^点伤害
+mm_xp2_dragons_name	巨龙的
+mm_xp2_echoing_desc	^number1^几率施展两次普通攻击
+mm_xp2_echoing_name	回声的
+mm_xp2_explosions_desc	使用道具时引发爆炸，对邻近的敌人造成^number1^点伤害（物理）
+mm_xp2_explosions_name	爆炸的
+mm_xp2_grandmaster_desc	暴击伤害增加，增加值为力量的^number1^
+mm_xp2_grandmaster_name	祖父的
+mm_xp2_hydrating_desc	随着时间流失，回复药瓶补充^number1^
+mm_xp2_hydrating_name	湿润的
+mm_xp2_icicles_desc	每攻击^number1^次，对3x3区域射出一根箭矢，造成^number2^点伤害（水元素）
+mm_xp2_icicles_name	冰柱的
+mm_xp2_legends_desc	^number1^几率召唤一只冠军怪物
+mm_xp2_legends_name	传说的
+mm_xp2_manaburn_desc	消耗^number2^点精力，使普通攻击造成^number1^点伤害
+mm_xp2_manaburn_name	燃魔的
+mm_xp2_nullifying_desc	击中时，^number1^几率移除目标身上随机的增益效果
+mm_xp2_nullifying_name	消去的
+mm_xp2_ricochet_desc	暴击反射到另一个敌人，造成^number1^点伤害
+mm_xp2_ricochet_name	反射的
+mm_xp2_sapping_desc	你的暴击降低敌人伤害^number1^点，持续^number2^回合
+mm_xp2_sapping_name	削弱的
+mm_xp2_scholar_desc	使用一个技能可减低另一个技能冷却时间^number1^
+mm_xp2_scholar_name	学者的
+mm_xp2_serenity_desc	CT >= ^number2^时，^number1^点物理抗性
+mm_xp2_serenity_name	平静的
+mm_xp2_sticky_desc	自动消耗^number1^精力解除麻痹效果
+mm_xp2_sticky_name	粘性的
+mm_xp2_thewolf_desc	^number1^伤害，如果你没有召唤物^number2^防御
+mm_xp2_thewolf_name	独狼的
+mm_xp2_traps_desc	召唤的伤害类陷阱造成额外^number1^伤害
+mm_xp2_traps_name	陷阱的
+mm_xp2_vibrating_desc	每格挡^number1^次攻击，对邻近的敌人造成^number2^伤害（物理）
+mm_xp2_vibrating_name	震动的
+mm_xp2_warmth_desc	你不会被冰冻
+mm_xp2_warmth_name	温暖的
+mm_xp2_zookeeper_desc	每个你召唤的生物吸收^number1^伤害
+mm_xp2_zookeeper_name	饲养员
+mon_mon_ghostsamurai2_name	幽鬼
+mon_strongcoolfrog_name	强力冰蛙
+mon_xp_acidelemental_name	瘟疫精灵
+mon_xp_banditwrangler_name	怪物统领
+mon_xp_friendly_slime_name	友方史莱姆小队
+mon_xp_genericghost_name	复仇之魂
+mon_xp_icespirit_name	冰川精灵
+mon_xp_matterassembler_name	机器人制造者
+mon_xp_metalslime_name	金属史莱姆
+mon_xp_prismslime_name	棱镜史莱姆
+mon_xp_skysnake_name	风蛇
+mon_xp_slimedungeon_enemy_slime_1_name	敌方史莱姆小队
+mon_xp_spectralcrab_name	幽冥螃蟹
+mon_xp_treefrog_name	树蛙
+mon_xp_verminesper_name	害虫
+obj_ghostaura_cloud_name	幽冥鬼雾
+popup_jellydragon_arriveturns	^tag1^回合后出现Boss！
+popup_slimefail	战斗失败！
+response_craft_items	制作物品
+response_recipes_consumables	配方：消耗品
+response_recipes_equipment	配方：装备
+response_recipes_misc	配方：杂物
+response_recipes_orbs	配方：梦幻宝珠
+response_what_is_crafting	制作什么？
+robot_dragon_intro_1	我简直不敢相信我的眼睛。这是一台机器…#co#巨龙#ec#。这怎么可能？\n\n#cg#霍拉提奥#ec#说过有其它四条。我不认为他在撒谎。如果他知道这里有另一条强大的#co#巨龙#ec#，他应该会希望这条巨龙击败我。\n\n也许我能和这条龙谈谈。\n\n
+robot_dragon_intro_2	#co#巨龙#ec#，你能听懂我说的话吗？\n\n你的力量引发了#cg#纷乱深渊#ec#的大地震！不管你在做什么，你都应该立刻停止。\n\n
+robot_dragon_intro_3	#cy#机械巨龙侦测到新生命，开启扫描。#ec#\n\n
+robot_dragon_intro2_1	#cy#未知生物，无对应交互协议。#ec#\n\n#co#建立通信链接并等待进一步指令。#ec#\n\n
+robot_dragon_intro2_10	我…我无法否认我们的生活充满#cr#艰难和痛苦#ec#。这是事实。但克服困难带给我们#cy#快乐#ec#。我们不断奋斗获取#cy#知识#ec#并让自己不断进化。没有了这些奋斗，我们将失去#cy#目标#ec#。\n\n你想要将它从我们种类夺走吗？\n
+robot_dragon_intro2_11	是的。你们的#cy#目标#ec#与我无关。我们关心的只有#cg#保护有机生命体#ec#。我们确信现在的改造将最大限度提高安全和舒适性。\n\n#heroname#，你展现出了高超的技巧并且智力达到了很高的程度#co#机械巨龙#ec#。不过，现在是开始改造的时候了，请收起你的武器。\n\n
+robot_dragon_intro2_12	我宁愿给这个#co#怪物#ec#也不想屈服于它。如果#cc#萨拉Shara#ec#在这里，我知道她也会一样选择战斗的！\n\n
+robot_dragon_intro2_13	我们对当前#cg#溪谷营地#ec#正在活跃的#cy#神使#ec#以及造成的问题感到抱歉。\n\n这种情况不会再发生了。\n\n重申一下我们的要做的事情。毁灭你们是改造必须的一环，所以请坦然接受这一事实。#co#机械巨龙#ec#的战力远比你们强大，你们是毫无胜算的。\n
+robot_dragon_intro2_14	我拒绝，赌上我的一切。\n\n
+robot_dragon_intro2_15	我们理解了。没必要做进一步沟通了。\n\n
+robot_dragon_intro2_2	你好，#cy##heroname##ec#。你能听得懂我们说的话吗？我们正直接和你对话以便让你能理解。\n
+robot_dragon_intro2_3	是的，我能听懂。你们是怎么到这里来的？为什么你们看起来是这样的？\n\n是你们在控制这个#co#机械巨龙#ec#吗？\n\n
+robot_dragon_intro2_4	这个形态是为了让你在沟通时感到#cg#舒适#ec#。我们的实际位置目前并不重要。#cg#纷乱深渊#ec#现在处于混乱状态，我们正在进行更正。\n\n我们已经查阅了#cy#机械管理者#ec#发来的多个周期的报告。在这段时间内，我们对事态了解得更多了。我们发现这里开始出现#cg#有机智慧生命#ec#并有了#cy#独立意识#ec#。 #cy#独立意识#ec#引发了#cr#'恐惧'#ec#和#cr#'痛苦'#ec#。\n\n这并不是好事情，我们不希望这种事情的发生。\n
+robot_dragon_intro2_5	现在我们更新了计划。制造#co#机械巨龙#ec#来彻底改造#cg#纷乱深渊Tangledeep#ec#。当它的能量达到最大时，所有的#cg#有机物#ec#将被立刻回收。\n\n这个过程非常快速，不会感受到#cr#恐惧#ec#和#cr#痛苦#ec#。\n\n之后我们会重新构建#cg#纷乱深渊#ec#，确保不会再有#cy#独立意识awareness#ec#的产生。\n
+robot_dragon_intro2_6	你的意思是你们为了“保护”我们而要#cr#摧毁#ec#纷乱深渊？！\n
+robot_dragon_intro2_7	你的理解是错误的。#cg#纷乱深渊#ec#不会被摧毁，我们只是#cy#重新构建#ec#它。\n\n我们的目的始终是#cg#保护有机生命#ec#。我们认识到#cy#独立意识#ec#会妨碍到我们实现这一目的。改造会确保不会再发生这样的事情，有机生命由此可以平静的生活。\n\n
+robot_dragon_intro2_8	我们已经很平静了！我们的#cg#智慧#ec#让我们可以分享故事、创造实物和获取知识。你们不能把它们夺走，你们没有这个权力！
+robot_dragon_intro2_9	你又错了。保护#cg#有机生命#ec#是我们的责任，始终如此。\n\n这个#cg#纷乱深渊#ec#并不平静。被你们称为 #cr#'怪物'#ec#的东西已经威胁到你们的安全。你们相互窃取资源。你们被#cr#'恐惧'#ec#和#cr#'痛苦'#ec#支配。\n\n即使是你，#heroname#，也经历了无数的战斗。这是不正确的，改造势在必行。之后一切都将回归平静。\n
+robot_dungeon_unlocked_txt	从#cc#楼梯#ec#传来的能量无比巨大。这让我们想起了接触#cc#远古魔方#ec#时的感觉，但…更冰冷，就像我曾经与之对战过的机器。\n\n我已经面对过#co#五条巨龙#ec#，但我的直觉告诉我，前方的更糟糕。在继续之前，我最好确保已经做好#cg#充分准备#ec#。\n\n
+robotdragon_defeat_1	#heroname#你犯了一个严重错误。如果你摧毁#co#机械巨龙#ec#，我们将无法进一步改造#cg#纷乱深渊#ec#亦或者与你沟通。\n\n所有收集到的数据信息将丢失。\n
+robotdragon_defeat_2	很好。我们仍旧保留奋斗的权力，这本就是属于我们的。\n\n
+robotdragon_defeat_3	但没有我们，无数的真理你们将无法触及。你们缺少发现它们的能力。你们的#cy#目标#ec#永远无法实现。\n\n
+robotdragon_defeat_4	... ... ...\n\n那我会找到一个#cy#新的#ec#目标。我知道除了#cg#纷乱深渊#ec#以外还有其它世界等着我去探索。我也不会孤单。通过我的冒险，我交到了很多新朋友和盟友。他们会助我前行。\n\n不管你们出于什么目的，#cg#纷乱深渊#ec#不需要你们的干涉。我们已经准备好继续前行。\n
+robotdragon_defeat_5	你不能-\n…失败-\n…仅有的机会-\n…超过你的-\n…不要-\n…需要找到-\n
+robotdragon_defeat_6	是时候让我们成为自己命运的主人了。\n\n
+skill_creepingsludge_name	瘟疫波
+skill_encouragepet_name	喂食宠物
+skill_expmon_dragonpoison	毒之呼吸
+skill_expmon_frogsquash	超级蛙跳
+skill_expmon_prismblast_name	棱镜爆炸
+skill_expmon_spiritsummon_name	精灵援军
+skill_goldpowerhop_name	冰蛙暴扣
+skill_summonhornet_name	释放大黄蜂
+skill_summonrandombot_name	机器制造者
+slime_dungeon_unlocked_txt	那边楼梯有潮湿的气味，闻起来也不太好。\n\n可能是另一条#co#巨龙#ec#！\n\n
+slime_egg_combined_log	一个全新的#cy#^tag1^#ec#出现在你的背包内！
+slime_egg_combined_popup	调和完成！
+slime_tutorial_response_1	收到，出发！
+slime_tutorial_response_2	再来一次？
+slimeboss_gate_opens	#cr#敌方援军到达！#ec#
+slimedragon_jellyboo_intro_1	#cy#杰里布！？#ec#你在这里干什么？这里不是史莱姆该来的地方！现在，立刻和我一起回去找#cg#兰登#ec#。\n\n
+slimedragon_jellyboo_intro_2	咯咯咯。\n\n#cy##heroname#，很高兴你能来！你还好吗？我需要你的帮助。你看，我不只是只可爱粉色的史莱姆。我的真实身份是...#ec#\n\n... #cy#the#ec# #co#果冻巨龙#ec#！\n\n
+slimedragon_jellyboo_intro_3	你？一条#co#巨龙Dragon#ec#？这怎么可能？！\n\n我完全糊涂了！\n\n
+slimedragon_jellyboo_intro_4	咯咯咯。\n\n#cy#当然，当然，我来解释下。你看，我以前住在这里，统御着其它史莱姆。然后，一千年以前，一个敌对的史莱姆族系向我们宣战。我们交手了无数次，但没有分出胜负。完全僵住了。#ec#\n\n#cy#一年前，一个名叫#ec# #cc#萨拉#ec##cy#的女人改变了这一切。她给了敌人一个装置，这个装备窃取了我所有的巨龙力量。然后，敌人把我驱逐了出来，封锁了入口，接管了一切！#ec#\n\n
+slimedragon_jellyboo_intro_5	我不敢相应这发生在#cy#史莱姆洞穴#ec#的事情，而且我根本无从知晓。\n\n所以，你在被驱逐以后，就装成一个人畜无害的样子，成为#cg#兰登#ec#的宠物？\n\n
+slimedragon_jellyboo_intro_6	咯咯咯!\n\n#cy#正是如此！没有了力量，我想我最好先蛰伏一段时间，等待时机再夺回属于我的一起。这看起来遥遥无期直到所有巨龙被释放了出来。封印打破时，我悄悄溜了回去。现在我们可以一起夺回我的王位！#ec#\n\n#cy#你会帮助我的，是吗？#ec#\n\n
+slimedragon_jellyboo_intro_7	额，我本不想掺和你们史莱姆之间的争斗。但我觉得你的这个#cy#敌对史莱姆#ec#是个巨大的威胁，我们不能让它逃离这里。\n\n好吧，我加入。告诉我你的计划是？\n\n
+slimedragon_victory_1	咯咯咯。\n\n#cy##heroname#，我们成功了！侵略者走了，史莱姆大地又恢复了和平。我也可以感觉到我的力量又回来了。#ec#\n\n#cy#生活在#ec# #cc#溪石营地#ec# #cy#的人应该为此庆兴，你站在他们那边！你拥有大自然的力量！一个奇迹之女！你会是一个了不起的史莱姆。#ec#\n\n#cy#额…这只是开个玩笑！嘿嘿！#ec#
+slimedragon_victory_2	额，嘿嘿..？我很高兴帮助你解决了问题，#cy#杰里布#ec#。\n\n但你为什么看上去还是这样？如果你回复了#co#巨龙之力#ec#，难道不是应该更大些？\n\n又或者...\n
+slimedragon_victory_3	咯咯咯。\n\n#cy#啊，你难道没有注意到我闪亮的皮肤？我圆润的外表？我可爱的黏液？#ec#\n\n#cy#傻子，我已经和之前完全不同了，#heroname#！你也是是个强大的战士，但你应该好好学习一些关于史莱姆的知识。#ec#\n
+slimedragon_victory_4	好吧，当然。\n\n...\n\n那么…我现在该走了\n
+slimedragon_victory_5	啵！\n\n#cy#啵！#ec#\n\n
+slimedungeon_dragon_arrives_1	咯咯咯。\n\n#cy#你总算出现了，#ec# #cr#侵略者！#ec#\n\n#cy#你现在归还我的权力和力量还来得及。要不然，我的#ec# #cg#超强力朋友#ec# #cy#会给你上一课。#ec#\n
+slimedungeon_dragon_arrives_2	#cy#啵啵咯。#ec#\n\n#cr#博咯博咯！#ec#\n\n#co#嘎鲁，咯噜，咕咕咕咕！#ec#\n
+slimedungeon_dragon_arrives_3	额，杰里布，他说了什么？我听不懂。\n
+slimedungeon_dragon_arrives_4	#cr#！！！！！嘎鲁！#ec#\n\n#cy#他说要把你变成一坨江湖，然后把我装进玻璃杯喝掉。#ec#\n\n#cr#哦哦哦#ec##cy#，这个该死的家伙！这是你应得的！#heroname#，进攻！#ec#\n
+slimedungeon_dragon_arrives_5	（我怎么会听从一个头顶带着蝴蝶结的史莱姆的命令）\n\n好吧，#cy#侵略者#ec#，我来了！\n\n
+slimedungeon_finalarea_intro_1	咯咯咯。\n\n#cy##heroname#，这是#ec# 计划的最后一步！我们把它从敌人那里夺回来，然后...#ec#\n\n#cy#等等，那个#ec# #cr#窃取我力量#ec##cy#的史莱姆在哪里？我们即将胜利，他无处可逃。#ec#\n\n#cy#我敢打赌他正在集结力量准备最后的决战。我们最好#cy#在他来前#ec#，#ec# #cg#尽可能占领更多的哨塔#ec# ！\n
+slimedungeon_tutorial_part1_1	这是一座#cy#史莱姆哨塔#ec#。我们需要帮助我们的#cy#史莱姆友军#ec#占领它们！我们的部队将自动寻找哨塔并移动过去。\n\n每次它们靠近哨塔，它就会开始转变为#cg#我方领地#ec#。转换完毕，它将为什么带来更多史莱姆友军。如果我们能占据#cg#所有的哨塔#ec#，我们就可以进入下一个战场！\n\n不幸的是，敌人的部队也会做同样的事情。如果他们占领了所有的哨塔，我们只能重新开始这场战斗。\n\n
+slimedungeon_tutorial_part1_2	这里还有一件很重要的东西：#cg#彩色地块#ec#。当一个哨塔被转变后，彩色地块会向外扩展。\n\n如果我们的部队进入敌人地块，这些地块会#cg#有一部分转换#ec#成我们的，然后部队消失。敌方部队也是这样。\n\n战场很快会被彩色地块覆盖。请牢记这些，#heroname#!\n\n
+slimedungeon_tutorial_part1_3	当你站在彩色地块上时，你会#cy#清除它#ec#。而且任何时候你对敌人部队造成伤害，他们将#cy#失去他们的回合#ec#。使用正确的策略，你可以扭转战局，帮忙我们的部队打败敌人！\n\n不过，敌人的士兵也很强大：#cr#精英队长#ec#将和你对战。你必须尽最大的努力才能获取战斗的胜利。\n\n
+slimedungeon_tutorial_part1_4	你都理解了吗？还是再重复一次？\n\n
+slimedungeon_tutorial_part1_5	好！我相信你，#cg##heroname##ec#。我现在要跳进你的口袋，失去巨龙之力的我帮不了你太多。\n\n祝好运！\n\n
+slimedungeon_victory_txt	嘀哩嘀哩。\n\n#cy#就是这样！你做到了，#heroname#！既然你已经占据了这片领土，我们就可以去下一个战场了。#ec#\n\n#cy#不要忘了检查你的#ec# #cg#道具和素材#ec#。\n
+spirit_dragon_defeated_1	谢谢你，#cg#年轻的战士#ec#。你已经按照我说的做了，我的灵魂得到了解脱。\n\n我很快会离开这个国度，也许我们会再其它世界再次相会。\n\n
+spirit_dragon_defeated_2	希望如此，#co#巨龙#ec#。再见。\n\n
+spirit_dragon_intro_1	那一定是#co#回响巨龙#ec#的身体！现在我要做的就是在#cc#祝福之池#ec#击败它...\n\n#co#巨龙#ec#，如果你能听到我，我很抱歉必须与你作战！\n\n
+spirit_dragon_intro_2	你的勇气让你走到了这里。我很抱歉没有其它办法。\n\n
+spirit_dungeon_intro_1	你为什么来这里，凡人？这里是#co#精神圣殿#ec#。不是你应该来的地方。\n\n
+spirit_dungeon_intro_10	在#cc#祝福之池#ec#击败一个怪物？我能做到的。你等着吧，#co#巨龙#ec#。我马上会让你知道。\n\n
+spirit_dungeon_intro_2	#cy#（谁在和我说话？#cy#声音#ec#出现在我的脑海内，但我没有看到有人在这里说话）#ec#\n\n额，你好， #cg#回声#ec#。你在哪里？你叫什么？\n\n这是什么地方？\n\n
+spirit_dungeon_intro_3	我是#co#回响巨龙#ec#,，我在这个#co#国度#ec#的顶峰休养。只要你踏入其中，我就可以和你沟通。\n\n我再问一次：你为什么来这里？这里是囚禁#cy#不安灵魂#ec#的地方；封印着渴望战斗的#cr#怪物#ec#。我将这里和#cy#凡人的世界#ec#隔绝来保护你们。\n\n
+spirit_dungeon_intro_4	说来话长…我不是从#cy#凡人的世界#ec#来的。我是通过一种叫#cc#梦#ec#的方法。我本不知道怎么来这里，一条#co#小龙#ec#给了我提示。\n\n他的名字叫His name is #cg#霍拉提奥#ec#，你认识他吗？\n\n
+spirit_dungeon_intro_5	#cg#霍拉提奥#ec#？！那个愚蠢的家伙！我早该知道他会透露我们的位置。现在通道已经打开，你们的世界将陷入巨大的危机。\n\n#cy#不安灵魂#ec#们已经不受我控制！他们会不断挑起战争，我无法阻止他们。你们最后的希望是在他们发起攻击前离开。\n\n
+spirit_dungeon_intro_6	我不知道会引起这么多问题。我很抱歉！我以为你和#cg#霍拉提奥#ec#一样，是个#cr#讨厌的怪物#ec#，准备像对他一样，狠揍你一顿。\n\n但是，你是一条#co#和善的巨龙#ec#,，对吧？你为什么不能亲自阻止那些怪物哪？\n\n
+spirit_dungeon_intro_7	事情没那么就简单。当我使用力量#cy#封印#ec#这个国度的时候，巨大的反噬将我的灵魂和肉体分割了。\n\n我可以和你心灵交流，像现在这样，但我的肉体是一句#cy#无脑的野兽#ec#，在这个#co#国度#ec#毫无目的的不断徘徊。同时，我的灵魂也被#cy#困#ec#在这个地方无法离开。\n\n如果你碰到我的肉身，你会#cr#被攻击并撕碎#ec#。这就是我悲惨的命运。\n\n
+spirit_dungeon_intro_8	太可怕了！就这样决定了，#co#巨龙#ec#，我要解救你#cy#并且#ec#让这些灵魂安息。在把这些修正之前，我不会离开。\n\n告诉我我应该怎么做！\n\n
+spirit_dungeon_intro_9	你真是个勇敢的人。难怪你能打败#cg#霍拉提奥#ec#。很好，我来说明一下。\n\n要让#cg#怪物安息#ec#，你必须在它们站在#cc#祝福之池#ec#上时打败它们。如果你不是在祝福之池上击败它们，就会出现一个#cr#复仇之魂#ec#。你必须小心战斗！\n\n让灵魂安息，你就可以到达这个#co#国度#ec#的更高层。如果你能用同样的方法打败我的肉身，也许我也能重归平静。\n\n
+spirit_dungeon_unlocked_txt	哇，一场#cy#梦中梦#ec#！如果霍拉提奥说的是真的，这一定就是另一个#co#巨龙#ec#国度。\n\n
+status_all_elem_debuff_name	元素弱化
+tutorial_dragonsoul_learned_txt	你学会一个#co#断龙#ec#技能！这个特殊的#cc#被动技能#ec#不占用被动格子。但是，同时只能装备一个#co#断龙#ec#技能。\n\n装备以后，一个#co#巨龙之力#ec# 计量条会出现在头像边上。当你受到伤害时，计量条会增长。计量条满时，你的角色会发光：可以使用威力巨大的#co#断龙#ec#攻击！\n\n你只要简单的#cg#攻击一个敌人#ec#，#co#断龙#ec#技能就会自动生效。计量条充满时，如果不使用，#cy#15 回合#ec#后，你的#co#龙之力#ec#就会被重置。\n\n
+tyrant_dragon_defeated_1	你太强大了，我们无法获胜。\n\n我是领袖，惩罚我放过其他人。\n\n
+tyrant_dragon_defeated_2	没有人会被惩罚！就像我之前说的，我是来#cg#帮助你们找到一个新的家园#ec#。\n\n你们会有足够的空间去#cy#生活#ec#，并且不会伤害到任何人。\n\n不过，你可能会遇到#大鸟#ec#，但是他们会控住住自己的。\n\n
+tyrant_dragon_defeated_3	你说的是真的？太惊喜了。\n\n你是个强大且友善的生物。\n\n
+tyrant_dragon_defeated_4	你也是个坚强的生物，#co#巨龙Dragon#ec#！\n\n也会有一天我们会再次相遇。\n\n
+tyrant_dragon_enrage_txt	我以前以为它是疯的。如果不加强防御的话我会被烤熟的！\n\n
+tyrant_dragon_intro_1	他肯定是另一条#cg#巨龙#ec#。\n\n毫无疑问是他让这里的怪物陷入疯狂。如果他离开这片丛林将带来不可言喻的伤害…我不需要#cy#在这里击败他#ec#！\n\n
+tyrant_dragon_intro_2	讨厌的小东西。你进入我的森林并且攻击我们，为什么？\n\n
+tyrant_dragon_intro_3	啊，又一个会说话的？！\n\n我现在都不会感到吃惊了。\n\n你们到处游荡威胁到了溪谷营地。我不能让你们继续这样伤害我的朋友们！\n\n
+tyrant_dragon_intro_4	我们正寻找新的居住地，这里太小了。我们需要空间来居住和生活。\n\n你挡住我们的路了。\n\n
+tyrant_dragon_intro_5	等等，你需要一个新家？也许我可以帮到你。我去过纷乱深渊的很多地方，有些空间非常巨大！\n\n我可以带你去那里，然后-\n\n
+tyrant_dragon_intro_6	你来到这里还和我的孩子们战斗。我们为什么要信任你？\n\n我们将一如既往地想去哪去哪。\n\n靠边站。\n\n
+tyrant_dragon_intro_7	我知道我可能没有给你留下好的印象，但我保证，我可以帮助你。\n\n请让我为您带路。这样，您就不用伤害任何人，并且...\n\n
+tyrant_dragon_intro_8	小家伙，闭嘴！\n\n你入侵、撒谎和打扰到了我们\n\n你很勇敢，但#cr#我们会让你知道什么是害怕#ec#。\n\n
+tyrant_dragon_intro_9	... 你知道，#cy#不打不相识#ec#。\n\n
+ui_dragonsoul_slot	当你的巨龙之力达到最大值时激活。巨龙之力会因受到伤害而增加。一次只能装备一个龙魂。
+ui_misc_result	成果：
+weapontype_whip	长边
+xp2_find_frogbog_txt	#cy#提示#ec#找到#cy#^$getstring:frogbognearby$^#ec#附近的#cg#^$getstring:bogname$^#ec#!\n\n
+xp2_obj_robotbomb_name	神秘炸药
+xp2_slime_lieutenant_name	杰利中尉
+exp2_slime_tower_name	史莱姆高塔
+exp1_mon_metalslime_blue_name	破界者（C型）
+exp1_mon_metalslime_red_name	破界者（M型）
+exp1_mon_metalslime_yellow_name	破界者（Y型）

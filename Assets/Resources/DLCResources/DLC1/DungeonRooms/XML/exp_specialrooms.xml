@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+
+	<!-- Shara's homebase campfire level -->
+	<Room>
+		<RefName>shara_campfire</RefName>
+		<Rows>9</Rows>
+		<Columns>9</Columns>
+		<Row>..X.d.X..</Row>
+		<Row>....A....</Row>
+		<Row>.X.....X.</Row>
+		<Row>....p....</Row>
+		<Row>..T5.....</Row>
+		<Row>.......w.</Row>
+		<Row>XXX.X..w.</Row>
+		<Row>BB..X.ww.</Row>
+		<Row>....X.ww.</Row>
+		<CharDef>
+			<Symbol>d</Symbol>
+			<CharType>STAIRS</CharType>
+			<StairDirection>FORWARDS</StairDirection>
+		</CharDef>
+		<CharDef>
+			<Symbol>p</Symbol>
+			<CharType>PLAYERSTART</CharType>
+		</CharDef>
+		<CharDef>
+			<Symbol>w</Symbol>
+			<CharType>TERRAIN</CharType>
+			<Tag>WATER</Tag>
+			<TileType>GROUND</TileType>
+		</CharDef>
+		<CharDef>
+			<Symbol>B</Symbol>
+			<CharType>DESTRUCTIBLE</CharType>
+			<ActorRef>exp1_decorative_bookshelf</ActorRef>
+		</CharDef>
+		<CharDef>
+			<Symbol>T</Symbol>
+			<CharType>MONSTER</CharType>
+			<ActorRef>mon_targetdummy</ActorRef>
+		</CharDef>
+		<CharDef>
+			<Symbol>A</Symbol>
+			<CharType>DESTRUCTIBLE</CharType>
+			<ActorRef>obj_regenfountain</ActorRef>
+		</CharDef>
+		<CharDef>
+			<Symbol>5</Symbol>
+			<CharType>ITEM</CharType>
+			<ActorRef>weapon_shortsword</ActorRef>
+		</CharDef>		
+	</Room>
+
+</DOCUMENT>

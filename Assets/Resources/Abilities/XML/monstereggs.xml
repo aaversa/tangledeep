@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Abil>
+		<DName>item_scroll_frogs_name</DName>
+		<SDesc>abil_skill_summonmanyfrogs_shortdesc</SDesc>
+		<RefName>skill_summonmanyfrogs</RefName>
+		<Range>4</Range>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,CANROTATE,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		<Bounds>CHECKERBOARD</Bounds>
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>summon_frogs</Ref>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>rando_frogs</SummonActorRef>
+			<SummonActorPerTile />
+			<SummonDuration>14</SummonDuration>			
+			<AnchorRange>3</AnchorRange>
+			<DetachFromSummoner />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>item_bomb_terroregg_name</DName>
+		<SDesc>abil_skill_terroregg_shortdesc</SDesc>
+		<RefName>skill_terroregg</RefName>
+		<Range>3</Range>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,CANROTATE,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		<TShape>FLEXLINE</TShape>
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>summon_wraiths</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_ghostsamurai</SummonActorRef>
+			<SummonActorPerTile />
+			<SummonDuration>25</SummonDuration>
+			<ScaleWithLevel />
+			
+			<AnchorRange>3</AnchorRange>
+			<DetachFromSummoner />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_summonmossjelly_name</DName>
+		<SDesc>abil_skill_summonmossjelly_shortdesc</SDesc>
+		<RefName>skill_summonmossjelly</RefName>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchjelly</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_mossjelly</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />			
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonsalamander_name</DName>
+		<SDesc>abil_skill_summonsalamander_shortdesc</SDesc>
+		<RefName>skill_summonsalamander</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchsalamander</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_salamander</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summongrottoflyer_name</DName>
+		<SDesc>abil_skill_summongrottoflyer_shortdesc</SDesc>
+		<RefName>skill_summongrottoflyer</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchgrottoflyer</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_grottoflyer</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summoncavestalker_name</DName>
+		<SDesc>abil_skill_summoncavestalker_shortdesc</SDesc>
+		<RefName>skill_summoncavestalker</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchcavestalker</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_creepingspider</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonfungaltoad_name</DName>
+		<SDesc>abil_skill_summonfungaltoad_shortdesc</SDesc>
+		<RefName>skill_summonfungaltoad</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>						
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchfungaltoad</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_fungaltoad</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonairacudas_name</DName>
+		<SDesc>abil_skill_summonairacudas_shortdesc</SDesc>
+		<RefName>skill_summonairacudas</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchairacudas</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_pirahnas</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonpanthox_name</DName>
+		<SDesc>abil_skill_summonpanthox_shortdesc</SDesc>
+		<RefName>skill_summonpanthox</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchpanthox</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_cavelion</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_summonbogfrog_name</DName>
+		<SDesc>abil_skill_summonbogfrog_shortdesc</SDesc>
+		<RefName>skill_summonbogfrog</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchbogfrog</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_swamptoad</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_summonrockviper_name</DName>
+		<SDesc>abil_skill_summonrockviper_shortdesc</SDesc>
+		<RefName>skill_summonrockviper</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchrockviper</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_rockviper</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>		
+	<Abil>
+		<DName>abil_skill_summonelectricjelly_name</DName>
+		<SDesc>abil_skill_summonelectricjelly_shortdesc</SDesc>
+		<RefName>skill_summonelectricjelly</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchelectricjelly</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_electricjelly</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonfirejelly_name</DName>
+		<SDesc>abil_skill_summonfirejelly_shortdesc</SDesc>
+		<RefName>skill_summonfirejelly</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchfirejelly</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_firejelly</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonslimerat_name</DName>
+		<SDesc>abil_skill_summonslimerat_shortdesc</SDesc>
+		<RefName>skill_summonslimerat</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchslimerat</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_slimerat</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>	
+	<Abil>
+		<DName>abil_skill_summoncrabbid_name</DName>
+		<SDesc>abil_skill_summoncrabbid_shortdesc</SDesc>
+		<RefName>skill_summoncrabbid</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchcrabbit</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_redcrab</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonlavaviper_name</DName>
+		<SDesc>abil_skill_summonlavaviper_shortdesc</SDesc>
+		<RefName>skill_summonlavaviper</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchlavaviper</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_rockviperlava</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>	
+	<Abil>
+		<DName>abil_skill_summonmottledsandjaw_name</DName>
+		<SDesc>abil_skill_summonmottledsandjaw_shortdesc</SDesc>
+		<RefName>skill_summonmottledsandjaw</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchmottledsandjaw</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_mottledsandjaw</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>	
+	<Abil>
+		<DName>abil_skill_summonjadesalamander_name</DName>
+		<SDesc>abil_skill_summonjadesalamander_shortdesc</SDesc>
+		<RefName>skill_summonjadesalamander</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchjadesalamander</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_jadesalamander</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonvinestalker_name</DName>		
+		<SDesc>abil_skill_summonvinestalker_shortdesc</SDesc>
+		<RefName>skill_summonvinestalker</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchvinestalker</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_vinestalker</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>	
+	<Abil>
+		<DName>abil_skill_summoncraggan_name</DName>
+		<SDesc>abil_skill_summoncraggan_shortdesc</SDesc>
+		<RefName>skill_summoncraggan</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchcraggan</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_rockgolem</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonfrostedjelly_name</DName>
+		<SDesc>abil_skill_summonfrostedjelly_shortdesc</SDesc>
+		<RefName>skill_summonfrostedjelly</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchfrostedjelly</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_frostedjelly</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summondarkcavelion_name</DName>
+		<SDesc>abil_skill_summondarkcavelion_shortdesc</SDesc>
+		<RefName>skill_summondarkcavelion</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchdarkcavelion</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_darkcavelion</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonverdigrizzly_name</DName>
+		<SDesc>abil_skill_summonverdigrizzly_shortdesc</SDesc>
+		<RefName>skill_summonverdigrizzly</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchverdigrizzly</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_mossbeast</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonmonster1_name</DName>
+		<RefName>skill_summonmonster1</RefName>
+		<Description>abil_skill_summonmonster1_shortdesc</Description>
+		<SDesc>abil_skill_summonmonster1_shortdesc</SDesc>
+		<IconSprite>SkillIcons_0</IconSprite>		
+		<Range>4</Range>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>eff_summonmonsteri</Ref>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>random1</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonmonster2_name</DName>
+		<RefName>skill_summonmonster2</RefName>
+		<Description>abil_skill_summonmonster2_shortdesc</Description>
+		<SDesc>abil_skill_summonmonster2_shortdesc</SDesc>
+		<IconSprite>SkillIcons_0</IconSprite>		
+		<Range>4</Range>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>eff_summonmonsterii</Ref>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>random2</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summonmonster3_name</DName>
+		<RefName>skill_summonmonster3</RefName>
+		<Description>abil_skill_summonmonster3_shortdesc</Description>
+		<SDesc>abil_skill_summonmonster3_shortdesc</SDesc>
+		<IconSprite>SkillIcons_0</IconSprite>		
+		<Range>4</Range>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>eff_summonmonsteriii</Ref>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>random3</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>
+	<Abil>
+		<DName>abil_skill_summongoliathbeetle_name</DName>
+		<SDesc>abil_skill_summongoliathbeetle_shortdesc</SDesc>
+		<RefName>skill_summongoliathbeetle</RefName>
+		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<Ref>hatchgoliathbeetle</Ref>
+			<EffectTag>EGGHATCH</EffectTag>
+			<Anim>SummonVineEffect,0.3</Anim>
+			<SummonActorType>MONSTER</SummonActorType>
+			<SummonActorRef>mon_jadebeetle</SummonActorRef>
+			<SummonDuration>99</SummonDuration>
+			<ScaleWithLevel />
+			<DetachFromSummoner />
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>	
+</DOCUMENT>

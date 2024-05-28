@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<JOB>
+		<Name>DUALWIELDER</Name>
+		<Prefab>Calligrapher</Prefab>
+		<Difficulty>2</Difficulty>
+		<DisplayName>exp_job_dualwielder</DisplayName>
+		<Description>exp_dualwielder_jobdesc</Description>
+		<BonusDescription1>exp_dualwielder_bonus1</BonusDescription1>
+		<BonusDescription2>exp_dualwielder_bonus2</BonusDescription2>
+		<BonusDescription3>exp_dualwielder_bonus3</BonusDescription3>
+		<PortraitSprite>CalligrapherPortrait</PortraitSprite>
+		<STRENGTH>1.7</STRENGTH>
+		<SWIFTNESS>1.65</SWIFTNESS>
+		<DISCIPLINE>1.6</DISCIPLINE>
+		<GUILE>1.3</GUILE>
+		<SPIRIT>1.35</SPIRIT>
+		<StartingWeapon>weapon_sword0</StartingWeapon>
+		<StartingItem>weapon_knife</StartingItem>		
+		<JobAbility>
+			<AbilityRef>skill_dualwielderstatbonus</AbilityRef>
+			<Innate>1</Innate>
+			<JPCost>0</JPCost>
+		</JobAbility>
+		<JobAbility>
+			<AbilityRef>skill_dualwielderbonus1</AbilityRef>
+			<Innate>1</Innate>
+		</JobAbility>
+		<JobAbility>
+			<AbilityRef>skill_dualwielderbonus2</AbilityRef>
+			<Innate>1</Innate>
+		</JobAbility>
+		<JobAbility>
+			<AbilityRef>skill_dualwielderbonus3</AbilityRef>
+			<Innate>1</Innate>
+			<MasterAbility>1</MasterAbility>
+			<InnateReq>9999</InnateReq>
+		</JobAbility>
+		
+		<JobAbility>
+			<AbilityRef>skill_waterscroll</AbilityRef>
+			<JPCost>100</JPCost>	
+		</JobAbility>
+
+		<JobAbility>			
+			<AbilityRef>skill_lightningscroll</AbilityRef>
+			<JPCost>100</JPCost>	
+		</JobAbility>
+
+		<JobAbility>
+			<AbilityRef>skill_retort</AbilityRef>
+			<JPCost>75</JPCost>	
+		</JobAbility>
+
+		<JobAbility>			
+			<AbilityRef>skill_glide</AbilityRef>
+			<JPCost>100</JPCost>	
+		</JobAbility>
+
+		<JobAbility>			
+			<AbilityRef>skill_shadowscroll</AbilityRef>
+			<JPCost>350</JPCost>	
+		</JobAbility>
+
+		<JobAbility>
+			<AbilityRef>skill_forbiddance</AbilityRef>
+			<JPCost>400</JPCost>	
+		</JobAbility>
+
+		<JobAbility>
+			<AbilityRef>skill_inkstorm</AbilityRef>
+			<JPCost>400</JPCost>	
+		</JobAbility>
+
+		<JobAbility>
+			<AbilityRef>skill_combatbiography</AbilityRef>
+			<JPCost>400</JPCost>	
+		</JobAbility>		
+
+		<JobAbility>			
+			<AbilityRef>skill_vanishingdodge</AbilityRef>
+			<JPCost>600</JPCost>	
+		</JobAbility>
+
+		<JobAbility>			
+			<AbilityRef>skill_museofmelee</AbilityRef>
+			<JPCost>600</JPCost>	
+		</JobAbility>		
+
+
+		<Emblem>
+			<Tier>0</Tier>
+			<ModRef>mm_dualwielderemblem_tier0_biography</ModRef>
+		</Emblem>
+		<Emblem>
+			<Tier>0</Tier>
+			<ModRef>mm_dualwielderemblem_tier0_dualwield</ModRef>
+		</Emblem>	
+
+		<Emblem>
+			<Tier>1</Tier>
+			<ModRef>mm_dualwielderemblem_tier1_shadow</ModRef>
+		</Emblem>
+		<Emblem>
+			<Tier>1</Tier>
+			<ModRef>mm_dualwielderemblem_tier1_glide</ModRef>
+		</Emblem>	
+
+		<Emblem>
+			<Tier>2</Tier>
+			<ModRef>mm_dualwielderemblem_tier2_dodge</ModRef>
+		</Emblem>
+		<Emblem>
+			<Tier>2</Tier>
+			<ModRef>mm_dualwielderemblem_tier2_brush</ModRef>
+		</Emblem>			
+	</JOB>
+
+</DOCUMENT>

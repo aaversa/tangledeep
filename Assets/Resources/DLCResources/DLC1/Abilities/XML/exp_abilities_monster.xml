@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Abil>
+		<DName>skill_expmon_healingwave_name</DName>
+		<RefName>skill_expmon_healingwave</RefName>
+		<Range>4</Range>
+		<TShape>RECT</TShape>
+		<TRange>2</TRange>
+		<CD>12</CD>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,CENTERED,CURSORTARGET,SIMULTANEOUSANIM,LINEOFSIGHTREQ</ATags>
+		<ATarg>ALLY</ATarg>
+		<ABILITYFLAG>HEALHP</ABILITYFLAG>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>chemistheal2</ERef>
+			<Targ>ALL</Targ>
+			<Faction>MYFACTION</Faction>
+			<Anim>FervirRecovery,0.4</Anim>
+			<MaxStat>0.25</MaxStat>
+			<Rnd>3|6</Rnd>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_fireburst_name</DName>
+		<RefName>skill_expmon_fireburstweaker</RefName>
+		<Range>2</Range>
+		<CD>7</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,HEROAFFECTED,CENTERED,LINEOFSIGHTREQ,PLAYANIMONEMPTY,OVERRIDECHILDSFX,MONSTERFIXEDPOS</ATags>
+		<ChargeTurns>1</ChargeTurns>
+		<Bounds>BURST</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<SFXOverride>ArtillerySFX</SFXOverride>			
+		<AbilEffectRef>fireburstclose</AbilEffectRef>
+	</Abil>		
+	
+	<Abil>
+
+		<DName>exp_skill_createrandomrock_name</DName>
+		<RefName>skill_createrandomrock</RefName>
+		<Range>2</Range>
+		<CD>6</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,PERTARGETANIM,GROUNDONLY</ATags>
+		<ATarg>SUMMONGROUND</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>create_randomrock</ERef>
+			<AnimLength>0.1</AnimLength>
+			
+			<ARef>obj_monbreakablelavarock</ARef>
+			<SDur>15</SDur>
+			<SummonActorPerTile />
+			<MaxRandomSummonRange>2</MaxRandomSummonRange>
+			<NumRandomSummons>1</NumRandomSummons>
+			<SummonNoStacking />
+			<RandomPositionsReqLineOfSight />
+			<DoNotChangeFaction />
+			<CreateNewPositionListForRandomSummons />
+			<Anchor>SELF</Anchor>
+			<FMaxDelayBeforeSummon>0.1</FMaxDelayBeforeSummon>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_rockcircle_name</DName>
+		<RefName>skill_rockcircle</RefName>	
+		<Range>1</Range>
+		<CD>10</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<TShape>CIRCLE</TShape>
+		<ATarg>SUMMONHAZARD</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>rockcircle_summon</ERef>
+			
+			<ARef>obj_monbreakablelavarock</ARef>
+			<SDur>15</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonNoStacking />
+			<DoNotChangeFaction />
+			<AnimLength>0.1</AnimLength>
+			<FMaxDelayBeforeSummon>0.1</FMaxDelayBeforeSummon>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_resilient_name</DName>
+		<RefName>skill_expmon_resilient</RefName>
+		<Passive />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>passive_addresilient</ERef>
+			<StatusRef>exp_status_resilient</StatusRef>
+			<Targ>ORIGINATING</Targ>
+		</AEff>
+	</Abil>
+
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>exp_fireabsorb</ERef>
+		<StatusRef>resistfire_major</StatusRef>
+		<Targ>ALL</Targ>
+		<Faction>MYFACTION</Faction>
+		<Duration>10</Duration>
+		<Anim>FervirBuff,0.3</Anim>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>exp_physabsorb</ERef>
+		<StatusRef>resistphysical_major</StatusRef>
+		<Targ>ALL</Targ>
+		<Faction>MYFACTION</Faction>
+		<Duration>10</Duration>
+		<Anim>FervirBuff,0.3</Anim>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>exp_waterabsorb</ERef>
+		<StatusRef>resistwater_major</StatusRef>
+		<Targ>ALL</Targ>
+		<Faction>MYFACTION</Faction>
+		<Duration>10</Duration>
+		<Anim>FervirBuff,0.3</Anim>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>exp_lightningabsorb</ERef>
+		<StatusRef>resistlightning_major</StatusRef>
+		<Targ>ALL</Targ>
+		<Faction>MYFACTION</Faction>
+		<Duration>10</Duration>
+		<Anim>FervirBuff,0.3</Anim>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>exp_shadowabsorb</ERef>
+		<StatusRef>resistshadow_major</StatusRef>
+		<Targ>ALL</Targ>
+		<Faction>MYFACTION</Faction>
+		<Duration>10</Duration>
+		<Anim>FervirBuff,0.3</Anim>
+	</EffectScript>
+	<EffectScript>
+		<Type>ADDSTATUS</Type>
+		<ERef>exp_poisonabsorb</ERef>
+		<StatusRef>resistpoison_major</StatusRef>
+		<Targ>ALL</Targ>
+		<Faction>MYFACTION</Faction>
+		<Duration>10</Duration>
+		<Anim>FervirBuff,0.3</Anim>
+	</EffectScript>
+
+	<Abil>
+		<DName>skill_expmon_staffcharge_name</DName>
+		<RefName>skill_expmon_staffcharge</RefName>
+		<Range>2</Range>
+		<CD>7</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,HEROAFFECTED,CURSORTARGET,CENTERED,UNIQUETARGET,LINEOFSIGHTREQ,ONHITPROPERTIES</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_staffcharge_name</Disp>
+			<ERef>staffrushdown</ERef>
+			<CanCrit />
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>FlurryOfPunchesShort,0.1</Anim>	
+			<AtkWp>1.35|6</AtkWp>		
+			<CanBeParriedOrBlocked />
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addrooted3turns</ERef>
+			<StatusRef>status_rooted</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>3</Duration>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_batterup_name</DName>
+		<RefName>skill_expmon_batterup</RefName>
+		<CD>10</CD>
+		<ATags>INSTANT,MONSTERAFFECTED,PERTARGETANIM</ATags>
+		<ATarg>SELF</ATarg>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>batterup_adder</ERef>
+			<StatusRef>autoprojectileattack</StatusRef>
+			<Targ>ORIGINATING</Targ>
+			<Duration>6</Duration>
+			<Anim>FervirBuff,0.35</Anim>
+			<BattleText>skill_expmon_batterup_name</BattleText>
+		</AEff>	
+	</Abil>	
+
+	<Abil>
+		<DName>skill_expmon_eatweapon_name</DName>
+		<RefName>skill_expmon_eatweapon</RefName>
+		<CD>10</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,CURSORTARGET,CENTERED,UNIQUETARGET,CANNOT_INHERIT</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_eatweapon_name</Disp>
+			<ERef>eattheweapon</ERef>
+			<CanCrit />
+			<SCdm>EatTargetWeapon</SCdm>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>FervirLargeBiteEffect,0.5</Anim>
+			<AtkWp>1.0|3</AtkWp>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_fireball_name</DName>
+		<RefName>skill_expmon_fireball</RefName>
+		<Range>3</Range>
+		<CD>5</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_fireball_name</Disp>
+			<ERef>monfireball_damage</ERef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>FireBall,0.15</Anim>
+			<DamageType>FIRE</DamageType>
+			<AtkWp>1.1|3</AtkWp>
+			<IsProjectile />
+			<CanCrit />
+		</AEff>
+		<AbilEffectRef>addfireburns4</AbilEffectRef>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_icepotion_name</DName>
+		<RefName>skill_expmon_icepotion</RefName>
+		<Range>3</Range>
+		<CD>7</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ</ATags>
+		<TShape>RECT</TShape>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_icepotion_name</Disp>
+			<ERef>monicebolt_damage</ERef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>BluePotionSpinEffect,0.1</Anim>
+			<DamageType>WATER</DamageType>
+			<AtkWp>1.2|3</AtkWp>
+      <ProjectileMoveType>TOSS</ProjectileMoveType>
+      <ProjectileTossHeight>2.0</ProjectileTossHeight>
+			<IsProjectile />
+			<CanCrit />
+		</AEff>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>icepotionprison</ERef>
+			<Sscr>SurroundTargetWithIce</Sscr>
+      <ProjectileMoveType>TOSS</ProjectileMoveType>
+      <ProjectileTossHeight>2.0</ProjectileTossHeight>			
+			<Targ>LASTTARGET</Targ>
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>skill_expmon_burstgas_name</DName>
+		<RefName>skill_expmon_burstgas</RefName>
+		<Range>2</Range>
+		<CD>9</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CENTERED,SIMULTANEOUSANIM,GROUNDONLY,OVERRIDECHILDSFX</ATags>
+		<Bounds>BURST</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<SFXOverride>AcidCloudSFX</SFXOverride>
+		<AbilEffectRef>eff_alchemygassummon</AbilEffectRef>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_statusresist50_name</DName>
+		<RefName>skill_statusresist50</RefName>
+		<Psv>addresistnegative50,resistnegative50</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_glitterskin_name</DName>
+		<RefName>skill_expmon_glitterskin</RefName>
+		<TeachPlayerAbility>skill_playerglitterskin</TeachPlayerAbility>
+		<Range>2</Range>
+		<CD>10</CD>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,CENTERED,LINEOFSIGHTREQ</ATags>
+		<ATarg>ALLY</ATarg>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addglitterskin</ERef>
+			<Targ>ALL</Targ>
+			<Faction>MYFACTION</Faction>
+			<Anim>BlingEffectShort,0.1</Anim>
+			<StatusRef>glitterskin</StatusRef>
+			<Duration>7</Duration>
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_fly2_name</DName>
+		<RefName>skill_expmon_fly2</RefName>
+		<Range>3</Range>
+		<CD>3</CD>
+		<ATags>INSTANT,TARGETED,GROUNDTARGET,EMPTYONLY,NOLOGTEXT</ATags>
+		<ATarg>GROUND</ATarg>
+		<AbilEffectRef>flymove</AbilEffectRef>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_passive_dodge25_name</DName>
+		<RefName>skill_expmon_passive_dodge25</RefName>
+		<Psv>adddodge25,permadodge25</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_wingslash_name</DName>
+		<RefName>skill_expmon_wingslash</RefName>
+		<Range>1</Range>
+		<CD>5</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_wingslash_name</Disp>
+			<ERef>wingslash_damage</ERef>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>GreenWindEffect,0.25</Anim>
+			<DamageType>PHYSICAL</DamageType>
+			<AtkWp>1.25|3</AtkWp>
+			<CanBeParriedOrBlocked />
+			<CanCrit />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_adhesivetongue_name</DName>
+		<RefName>skill_expmon_adhesivetongue</RefName>		
+		<Psv>addadhesivetongue,adhesivetongue</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_stickyshot_name</DName>
+		<RefName>skill_expmon_stickyshot</RefName>
+		<TeachPlayerAbility>skill_playerwebshot</TeachPlayerAbility>
+		<CD>7</CD>
+		<Range>4</Range>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,LINEOFSIGHTREQ</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addstickyslow</ERef>
+			<StatusRef>status_stickyslow</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>6</Duration>
+			<IsProjectile />
+			<Anim>SpiderWebEffect,0.2</Anim>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>slowtarget50</ERef>
+			<AtkWp>0|-50</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>CUR</StatData>
+			<Anim>FervirDebuff,0.1</Anim>
+			<Trg1 />			
+		</AEff>		
+	</Abil>	
+
+	<Abil>
+		<DName>skill_expmon_passivescare_name</DName>
+		<RefName>skill_expmon_passivescare</RefName>
+		<Psv>eff_addpassive_scare,passive_scare</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_stealandeatfood_name</DName>
+		<RefName>skill_expmon_stealandeatfood</RefName>
+		<CD>4</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,CURSORTARGET,CENTERED</ATags>	
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>stealfood2</ERef>
+			<Sscr>MonsterStealFoodAndBuffSelf</Sscr>
+			<Targ>SINGLE</Targ>
+			<Anim>WallJump,0.2</Anim>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_cannonstunner_name</DName>
+		<RefName>skill_expmon_cannonstunner</RefName>
+		<CD>5</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,CURSORTARGET,CENTERED</ATags>	
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_cannonstunner_name</Disp>
+			<ERef>cannonstunnerdamage</ERef>
+			<Faction>NOTMYFACTION</Faction>
+			<SCdm>AddScreenShake</SCdm>
+			<Targ>SINGLE</Targ>
+			<CanCrit />
+			<AtkWp>1</AtkWp>
+			<DamageType>WATER</DamageType>
+			<Anim>WaterExplosion,0.25</Anim>
+			<CanBeParriedOrBlocked />
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addcannonstun</ERef>
+			<StatusRef>status_tempstun</StatusRef>			
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>2</Duration>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_stagrush_name</DName>
+		<RefName>skill_expmon_stagrush</RefName>
+		<Range>5</Range>
+		<CD>6</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,HEROAFFECTED,CURSORTARGET,CENTERED,UNIQUETARGET,LINEOFSIGHTREQ,ONHITPROPERTIES,LOCKSQUARETOTARGET</ATags>
+		<ChargeTurns>1</ChargeTurns>
+		<ATarg>ENEMY</ATarg>
+		<AbilEffectRef>vaultself</AbilEffectRef>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_stagrush_name</Disp>
+			<ERef>stagrusheff</ERef>
+			<CanCrit />
+			<Targ>SINGLE</Targ>
+			<DamageType>PHYSICAL</DamageType>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>GroundStompEffect,0.1</Anim>	
+			<AtkWp>1.4|6</AtkWp>		
+			<CanBeParriedOrBlocked />
+		</AEff>	
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_divinepower_name</DName>
+		<RefName>skill_expmon_divinepower</RefName>
+		<Psv>eff_adddivinepower,divinepower</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_holystorm_name</DName>
+		<RefName>skill_expmon_holystorm</RefName>
+		<Range>2</Range>
+		<CD>5</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,PLAYANIMONEMPTY,LINEOFSIGHTREQ</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_holystorm_name</Disp>
+			<ERef>holystorm_damage</ERef>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>EnergyMeteor,0.04</Anim>
+			<DamageType>LIGHTNING</DamageType>
+			<AtkWp>1.35|3</AtkWp>
+			<CanBeParriedOrBlocked />
+			<CanCrit />
+		</AEff>
+	</Abil>		
+
+	<Abil>
+		<DName>skill_expmon_multibite_name</DName>
+		<RefName>skill_expmon_multibite</RefName>
+		<TeachPlayerAbility>skill_flurryofbites</TeachPlayerAbility>
+		<CD>6</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,GROUNDTARGET,CENTERED</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_multibite_name</Disp>
+			<ERef>multibite</ERef>
+			<CanCrit />
+			<Targ>ALL</Targ>
+			<Script_ProcessActorsPreEffect>PickUpToThreeTargets</Script_ProcessActorsPreEffect>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>FervirLargeBiteEffect,0.2</Anim>
+			<AtkWp>0.8|3</AtkWp>
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_healovertime_name</DName>
+		<RefName>skill_expmon_healovertime</RefName>
+		<Psv>eff_addhealovertime,mon_healovertime</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_waterfighter_name</DName>
+		<RefName>skill_expmon_waterfighter</RefName>
+		<Psv>eff_waterfighter,waterfighter</Psv>
+	</Abil>	
+
+	<Abil>
+		<DName>skill_expmon_transferhealth_name</DName>
+		<RefName>skill_expmon_transferhealth</RefName>		
+		<CD>9</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,GROUNDTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ</ATags>
+		<Range>3</Range>
+		<ATarg>ALLY_ONLY</ATarg>
+		<ABILITYFLAG>HEALHP</ABILITYFLAG>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>healthtransfer</ERef>
+			<Anim>QiStrikeEffect,0.2</Anim>
+			<Script_EffectModifier>DelayedPlayHealAnimation</Script_EffectModifier>
+			<IsProjectile />
+			<Targ>ALL_EXCLUDE_HERO_ANDSELF</Targ>
+			<Faction>MYFACTION</Faction>
+			<OrigCurHP>0.25</OrigCurHP>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>hurtselffromhealing</ERef>
+			<Targ>ORIGINATING</Targ>
+			<AtkCurHP>-0.25</AtkCurHP>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>			
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addsimpleregen</ERef>
+			<StatusRef>simpleregen</StatusRef>
+			<Duration>4</Duration>
+			<Targ>ORIGINATING</Targ>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>monster_attr_berserker</DName>		
+		<RefName>skill_expmon_empowerkill_special</RefName>
+		<Psv>passiveempowerkill2,exp_status_empowerkill2</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_bladewall4_name</DName>
+		<RefName>skill_bladewall5</RefName>
+		<Range>1</Range>
+		<CD>7</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		<TShape>RECT</TShape>
+		<ATarg>SUMMONHAZARD</ATarg>
+		<AbilEffectRef>eff_summonsword1</AbilEffectRef>
+	</Abil>	
+
+	<Abil>
+		<DName>abil_skill_champnightmare_name</DName>
+		<RefName>skill_nightmaresquare</RefName>	
+		<Range>4</Range>
+		<CD>12</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,GROUNDONLY</ATags>
+		<TShape>RECT</TShape>
+		<TRange>2</TRange>
+		<ATarg>SUMMONHAZARD</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>godnightmaretrap</ERef>
+			<AnimLength>0.65</AnimLength>
+			
+			<ARef>obj_godshadowtrap</ARef>
+			<SDur>9</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<SummonOnSummoner />
+			<SummonNoStacking />
+			<FMaxDelayBeforeSummon>0.33</FMaxDelayBeforeSummon>	
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<RefName>skill_chillonhits</RefName>
+		<Psv>psvskill_chillonhits,status_slowonhit</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_iceprison2_name</DName>
+		<RefName>skill_godiceprison</RefName>	
+		<Range>5</Range>
+		<CD>9</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<TShape>RECT</TShape>
+		<ATarg>SUMMONHAZARD</ATarg>
+		<Range>4</Range>
+		<TRange>2</TRange>		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>godiceprisonsummon</ERef>
+			
+			<ARef>obj_monstericeblock</ARef>
+			<SDur>6</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonOnSummoner />
+			<SummonNoStacking />
+			<FMaxDelayBeforeSummon>0.44</FMaxDelayBeforeSummon>
+			<AnimLength>0.44</AnimLength>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<RefName>skill_dropfires</RefName>
+		<Psv>adddropfirestatus,status_dropfires</Psv>
+	</Abil>	
+
+	<Abil>
+		<RefName>skill_godfirereact</RefName>
+		<Psv>addgodfirereact,godfirereact</Psv>
+	</Abil>
+
+	<Abil>
+		<RefName>skill_randomlightning3</RefName>
+		<Psv>passivemakelightning3,status_makelightning3</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_passiveshadowhit_name</DName>
+		<RefName>skill_perfectpassiveshadowhit</RefName>
+		<Psv>perfectpassiveshadowproc,status_perfectshadowvulnonhit</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_leap_name</DName>
+		<RefName>skill_simplehop</RefName>
+		<Range>2</Range>
+		<CD>5</CD>
+		<ATags>INSTANT,TARGETED,GROUNDTARGET,EMPTYONLY,NOLOGTEXT</ATags>
+		<ATarg>GROUND</ATarg>
+		<AbilEffectRef>eff_slimehop</AbilEffectRef>
+	</Abil>
+</DOCUMENT>

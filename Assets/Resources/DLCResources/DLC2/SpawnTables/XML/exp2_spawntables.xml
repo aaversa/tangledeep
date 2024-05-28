@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SpawnTable>
+		<RefName>frogdungeon_1</RefName>
+		<mon_swamptoad>9</mon_swamptoad>
+		<mon_fungaltoad>9</mon_fungaltoad>
+		<mon_xp_bouldertoad>22</mon_xp_bouldertoad>
+		<mon_banebite>9</mon_banebite>
+		<mon_poisonelemental>8</mon_poisonelemental>
+		<mon_rockgolem>6</mon_rockgolem>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>frogdungeon_2</RefName>
+		<mon_xp_cheftoad>15</mon_xp_cheftoad>
+		<mon_swamptoad>8</mon_swamptoad>
+		<mon_xp_bouldertoad>22</mon_xp_bouldertoad>
+		<mon_banebite>8</mon_banebite>
+		<mon_poisonelemental>7</mon_poisonelemental>
+		<mon_rockgolem>5</mon_rockgolem>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>frogdungeon_3</RefName>
+		<mon_xp_bladefrog>20</mon_xp_bladefrog>
+		<mon_xp_cheftoad>15</mon_xp_cheftoad>
+		<mon_fungaltoad>3</mon_fungaltoad>
+		<mon_xp_bouldertoad>22</mon_xp_bouldertoad>
+		<mon_banebite>4</mon_banebite>
+		<mon_xp_acidelemental>4</mon_xp_acidelemental>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>robotdungeon_1</RefName>
+		<mon_xp_powerorbiter>10</mon_xp_powerorbiter>
+		<mon_xp_robotmantis>10</mon_xp_robotmantis>
+		<mon_robotsnake>10</mon_robotsnake>
+		<mon_neutralizer>10</mon_neutralizer>
+		<mon_destroyer>10</mon_destroyer>
+		<mon_heavygolem>5</mon_heavygolem>
+		<mon_guardianspider>5</mon_guardianspider>
+		<mon_phasmacannon>10</mon_phasmacannon>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>robotdungeon_2</RefName>
+		<mon_xp_powerorbiter>10</mon_xp_powerorbiter>
+		<mon_xp_robotmantis>10</mon_xp_robotmantis>
+		<mon_destroyer>10</mon_destroyer>
+		<mon_xp_guardianseeker2>10</mon_xp_guardianseeker2>
+		<mon_guardianspider>5</mon_guardianspider>
+		<mon_phasmacannon>10</mon_phasmacannon>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>robotdungeon_ranged</RefName>
+		<mon_phasmacannon>15</mon_phasmacannon>
+		<mon_xp_powerorbiter>10</mon_xp_powerorbiter>
+		<mon_robotsnake>10</mon_robotsnake>
+		<mon_destroyer>5</mon_destroyer>
+		<mon_guardianspider>5</mon_guardianspider>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>banditdungeon_1</RefName>
+		<mon_xp_budoka>100</mon_xp_budoka>
+		<mon_xp_venomancer>125</mon_xp_venomancer>
+		<mon_alchemist>80</mon_alchemist>
+		<mon_xp_axewielder>100</mon_xp_axewielder>
+		<mon_bandithunter>125</mon_bandithunter>
+		<mon_banditbrigand>100</mon_banditbrigand>
+		<mon_xp_banditwrangler>50</mon_xp_banditwrangler>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>banditdungeon_2</RefName>
+		<mon_xp_budoka>100</mon_xp_budoka>
+		<mon_xp_venomancer>125</mon_xp_venomancer>
+		<mon_alchemist>80</mon_alchemist>
+		<mon_xp_axewielder>100</mon_xp_axewielder>
+		<mon_banditsniper>125</mon_banditsniper>
+		<mon_banditbrigand>100</mon_banditbrigand>
+		<mon_xp_banditwrangler>50</mon_xp_banditwrangler>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>beastdungeon_1</RefName>
+		<mon_banebite>100</mon_banebite>
+		<mon_jadesalamander>50</mon_jadesalamander>
+		<mon_komodon>100</mon_komodon>
+		<mon_darkcavelion>50</mon_darkcavelion>
+		<mon_xp_chameleon>75</mon_xp_chameleon>
+		<mon_rockviper>50</mon_rockviper>.
+		<mon_scorpionturtle>80</mon_scorpionturtle>
+		<mon_mossbeast>80</mon_mossbeast>
+		<mon_xp_skysnake>75</mon_xp_skysnake>
+		<mon_xp_verminesper>75</mon_xp_verminesper>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>beastdungeon_2</RefName>
+		<mon_banebite>100</mon_banebite>
+		<mon_jadesalamander>50</mon_jadesalamander>
+		<mon_komodon>100</mon_komodon>
+		<mon_darkcavelion>50</mon_darkcavelion>
+		<mon_xp_chameleon>75</mon_xp_chameleon>
+		<mon_rockviper>50</mon_rockviper>.
+		<mon_iceviper>80</mon_iceviper>
+		<mon_mossbeast>80</mon_mossbeast>
+		<mon_berserker_panthox>60</mon_berserker_panthox>
+		<mon_greenmantis>60</mon_greenmantis>
+		<mon_xp_skysnake>75</mon_xp_skysnake>
+		<mon_xp_verminesper>75</mon_xp_verminesper>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv195</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.7 -->
+			<mon_xp_skysnake>5</mon_xp_skysnake>
+			<!-- CV 1.8 -->
+			<mon_xp_verminesper>12</mon_xp_verminesper>
+			<mon_hornetnest>12</mon_hornetnest>
+			<mon_xp_prismslime>12</mon_xp_prismslime>
+			<!-- CV 1.85 -->
+			<mon_ghostsamurai2>15</mon_ghostsamurai2>
+			<mon_xp_icespirit>15</mon_xp_icespirit>
+			<mon_xp_metalslime>7</mon_xp_metalslime>
+			<mon_xp_acidelemental>15</mon_xp_acidelemental>
+			<mon_xp_banditwrangler>15</mon_xp_banditwrangler>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv200</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.7 -->
+			<mon_xp_skysnake>3</mon_xp_skysnake>
+			<!-- CV 1.8 -->
+			<mon_xp_verminesper>9</mon_xp_verminesper>
+			<mon_hornetnest>9</mon_hornetnest>
+			<mon_xp_prismslime>9</mon_xp_prismslime>
+			<!-- CV 1.85 -->
+			<mon_ghostsamurai2>12</mon_ghostsamurai2>
+			<mon_xp_icespirit>12</mon_xp_icespirit>
+			<mon_xp_metalslime>6</mon_xp_metalslime>
+			<mon_xp_acidelemental>12</mon_xp_acidelemental>
+			<mon_xp_banditwrangler>12</mon_xp_banditwrangler>
+			<!-- CV 1.9 -->
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv205</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.8 -->
+			<mon_xp_verminesper>7</mon_xp_verminesper>
+			<mon_hornetnest>7</mon_hornetnest>
+			<mon_xp_prismslime>7</mon_xp_prismslime>
+			<!-- CV 1.85 -->
+			<mon_ghostsamurai2>12</mon_ghostsamurai2>
+			<mon_xp_icespirit>12</mon_xp_icespirit>
+			<mon_xp_metalslime>6</mon_xp_metalslime>
+			<mon_xp_acidelemental>12</mon_xp_acidelemental>
+			<mon_xp_banditwrangler>12</mon_xp_banditwrangler>
+			<!-- CV 1.9 -->
+			<!-- CV 1.95 -->
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv210</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.8 -->
+			<mon_xp_verminesper>3</mon_xp_verminesper>
+			<mon_hornetnest>3</mon_hornetnest>
+			<mon_xp_prismslime>3</mon_xp_prismslime>
+			<!-- CV 1.85 -->
+			<mon_ghostsamurai2>8</mon_ghostsamurai2>
+			<mon_xp_icespirit>8</mon_xp_icespirit>
+			<mon_xp_metalslime>4</mon_xp_metalslime>
+			<mon_xp_acidelemental>8</mon_xp_acidelemental>
+			<mon_xp_banditwrangler>8</mon_xp_banditwrangler>
+			<!-- CV 1.9 -->
+			<!-- CV 1.95 -->
+			<!-- CV 2.00 -->
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv215</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.85 -->
+			<mon_ghostsamurai2>8</mon_ghostsamurai2>
+			<mon_xp_icespirit>8</mon_xp_icespirit>
+			<mon_xp_metalslime>4</mon_xp_metalslime>
+			<mon_xp_acidelemental>8</mon_xp_acidelemental>
+			<mon_xp_banditwrangler>8</mon_xp_banditwrangler>
+			<!-- CV 1.9 -->
+			<!-- CV 1.95 -->
+			<!-- CV 2.00 -->
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv220</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.85 -->
+			<mon_ghostsamurai2>8</mon_ghostsamurai2>
+			<mon_xp_icespirit>8</mon_xp_icespirit>
+			<mon_xp_metalslime>4</mon_xp_metalslime>
+			<mon_xp_acidelemental>8</mon_xp_acidelemental>
+			<mon_xp_banditwrangler>8</mon_xp_banditwrangler>
+			<!-- CV 1.9 -->
+			<!-- CV 1.95 -->
+			<!-- CV 2.00 -->
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv165</RefName>
+			<MergeWithExisting />
+			<mon_xp_skysnake>4</mon_xp_skysnake>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv170</RefName>
+		<MergeWithExisting />	
+		<mon_xp_skysnake>20</mon_xp_skysnake>	
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv175</RefName>		
+		<MergeWithExisting />
+		<mon_xp_skysnake>15</mon_xp_skysnake>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv180</RefName>
+		<MergeWithExisting />
+		<mon_xp_skysnake>11</mon_xp_skysnake>
+		<mon_xp_verminesper>15</mon_xp_verminesper>
+		<mon_xp_prismslime>12</mon_xp_prismslime>
+		<mon_hornetnest>12</mon_hornetnest>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv185</RefName>
+		<MergeWithExisting />
+		<mon_xp_skysnake>9</mon_xp_skysnake>
+		<mon_xp_verminesper>15</mon_xp_verminesper>
+		<mon_xp_prismslime>12</mon_xp_prismslime>
+		<mon_hornetnest>12</mon_hornetnest>	
+
+		<mon_ghostsamurai2>8</mon_ghostsamurai2>
+		<mon_xp_icespirit>8</mon_xp_icespirit>
+		<mon_xp_metalslime>4</mon_xp_metalslime>
+		<mon_xp_acidelemental>8</mon_xp_acidelemental>
+		<mon_xp_banditwrangler>8</mon_xp_banditwrangler>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv190</RefName>
+		<MergeWithExisting />
+		<mon_xp_skysnake>8</mon_xp_skysnake>
+		<mon_xp_verminesper>15</mon_xp_verminesper>	
+		<mon_xp_prismslime>12</mon_xp_prismslime>
+		<mon_hornetnest>12</mon_hornetnest>	
+
+		<mon_ghostsamurai2>10</mon_ghostsamurai2>
+		<mon_xp_icespirit>10</mon_xp_icespirit>
+		<mon_xp_metalslime>5</mon_xp_metalslime>
+		<mon_xp_acidelemental>10</mon_xp_acidelemental>
+		<mon_xp_banditwrangler>10</mon_xp_banditwrangler>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv190_special_nobots</RefName>
+		<MergeWithExisting />
+		<mon_xp_skysnake>8</mon_xp_skysnake>
+		<mon_xp_verminesper>15</mon_xp_verminesper>	
+		<mon_xp_prismslime>12</mon_xp_prismslime>
+		<mon_hornetnest>12</mon_hornetnest>	
+		<mon_ghostsamurai2>10</mon_ghostsamurai2>
+		<mon_xp_icespirit>10</mon_xp_icespirit>
+		<mon_xp_metalslime>5</mon_xp_metalslime>
+		<mon_xp_acidelemental>10</mon_xp_acidelemental>
+		<mon_xp_banditwrangler>10</mon_xp_banditwrangler>		
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>spiritdungeon_1</RefName>		
+		<mon_xp_boltspirit>100</mon_xp_boltspirit>
+		<mon_shadowelemental>100</mon_shadowelemental>
+		<mon_poisonelemental>100</mon_poisonelemental>
+		<mon_infernospirit>100</mon_infernospirit>
+		<mon_youngwaterelemental>100</mon_youngwaterelemental>
+		<mon_ghostsamurai2>75</mon_ghostsamurai2>
+		<mon_xp_acidelemental>50</mon_xp_acidelemental>
+		<mon_xp_icespirit>50</mon_xp_icespirit>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>spiritdungeon_2</RefName>		
+		<mon_xp_boltspirit>100</mon_xp_boltspirit>
+		<mon_shadowelemental>500</mon_shadowelemental>
+		<mon_poisonelemental>50</mon_poisonelemental>
+		<mon_infernospirit>100</mon_infernospirit>
+		<mon_youngwaterelemental>50</mon_youngwaterelemental>
+		<mon_ghostsamurai2>90</mon_ghostsamurai2>
+		<mon_xp_acidelemental>80</mon_xp_acidelemental>
+		<mon_xp_icespirit>80</mon_xp_icespirit>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>slimedungeon_1</RefName>
+		<mon_xp_toxicslime>100</mon_xp_toxicslime>
+		<mon_xp_cubeslime>60</mon_xp_cubeslime>		
+		<mon_xp_prismslime>50</mon_xp_prismslime>
+		<mon_xp_metalslime>40</mon_xp_metalslime>
+		<mon_firejelly>100</mon_firejelly>
+		<mon_electricjelly>100</mon_electricjelly>
+		<mon_frostedjelly>100</mon_frostedjelly>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>slimedungeon_2</RefName>
+		<mon_xp_toxicslime>40</mon_xp_toxicslime>
+		<mon_xp_cubeslime>100</mon_xp_cubeslime>		
+		<mon_xp_prismslime>100</mon_xp_prismslime>
+		<mon_xp_batslime>50</mon_xp_batslime>
+		<mon_xp_metalslime>75</mon_xp_metalslime>
+		<mon_frostedjelly>80</mon_frostedjelly>
+	</SpawnTable>
+
+	
+</DOCUMENT>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Abil>
+		<DName>skill_expmon_healingwave_name</DName>
+		<RefName>skill_expmon_healingwave</RefName>
+		<Range>4</Range>
+		<TShape>RECT</TShape>
+		<TRange>2</TRange>
+		<CD>12</CD>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,CENTERED,CURSORTARGET,SIMULTANEOUSANIM,LINEOFSIGHTREQ</ATags>
+		<ATarg>ALLY</ATarg>
+		<ABILITYFLAG>HEALHP</ABILITYFLAG>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>chemistheal2</ERef>
+			<Targ>ALL</Targ>
+			<Faction>MYFACTION</Faction>
+			<Anim>FervirRecovery,0.4</Anim>
+			<MaxStat>0.25</MaxStat>
+			<Rnd>3|6</Rnd>
+			<Stat>HEALTH</Stat>
+			<StatData>CUR</StatData>
+			<ChangeSubtypes />
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_fireburst_name</DName>
+		<RefName>skill_expmon_fireburstweaker</RefName>
+		<Range>2</Range>
+		<CD>7</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,HEROAFFECTED,CENTERED,LINEOFSIGHTREQ,PLAYANIMONEMPTY,OVERRIDECHILDSFX,MONSTERFIXEDPOS</ATags>
+		<ChargeTurns>1</ChargeTurns>
+		<Bounds>BURST</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<SFXOverride>ArtillerySFX</SFXOverride>			
+		<AbilEffectRef>fireburstclose</AbilEffectRef>
+	</Abil>			
+</DOCUMENT>

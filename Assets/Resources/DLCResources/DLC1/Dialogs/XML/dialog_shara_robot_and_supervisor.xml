@@ -1,0 +1,214 @@
+
+<DOCUMENT>
+<!-- The Robot and Supervisor Speak -->
+<Dialog>
+	<RefName>dialog_shara_postboss4victory_robot</RefName>
+	<IngameDialogue>1</IngameDialogue>
+	<ForceTypewriter>1</ForceTypewriter>
+	<KeyStory>1</KeyStory>
+	<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+
+	<TextBranch>
+		<BranchName>main</BranchName>
+		<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_1</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main2</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main2</BranchName>
+		<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_2</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main3</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main3</BranchName>
+		<Script_TextBranchStart>PlayBabyRobotTalkSFX</Script_TextBranchStart>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_3</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main4</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main4</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_4</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main5</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main5</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_5</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main6</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<!-- ***************************  -->
+	<TextBranch>
+		<BranchName>main6</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_6</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main7</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main7</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_7</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main8</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<!-- ***************************  -->
+	<TextBranch>
+		<BranchName>main8</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_8</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main9</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main9</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_9</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main12</BranchRef>
+		</Button>
+	</TextBranch>
+	<!-- 10 & 11 were dupes, and cut -->
+	
+	<!-- ***************************  -->
+	<TextBranch>
+		<BranchName>main12</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_10</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main13</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main13</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_11</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main14</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main14</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+		<Text>dialog_shara_postboss4victory_robot_12</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main15</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<!-- ***************************  -->
+	<TextBranch>
+		<BranchName>main15</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_13</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main16</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main16</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_14</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main17</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<!-- ***************************  -->
+	<TextBranch>
+		<BranchName>main17</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_15</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main18</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main18</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_16</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main19</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<!-- ***************************  -->
+	<TextBranch>
+		<BranchName>main19</BranchName>
+		<ShowFace>RobotGolemPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_17</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main20</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main20</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_18</Text>
+		<Button>
+			<Name>(more)</Name>
+			<BranchRef>main21</BranchRef>
+		</Button>
+	</TextBranch>
+
+	<TextBranch>
+		<BranchName>main21</BranchName>
+		<ShowFace>SupervisorPortrait</ShowFace>
+		<Text>dialog_shara_postboss4victory_robot_19</Text>
+		<Button>
+			<Name>(close)</Name>
+			<DialogEventScript>SharaBoss4Victory_Part5</DialogEventScript>
+			<BranchRef>exit</BranchRef>
+		</Button>
+	</TextBranch>
+</Dialog>
+</DOCUMENT>
+

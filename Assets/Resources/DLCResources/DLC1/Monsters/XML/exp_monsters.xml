@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Mon>
+		<Name>mon_voidcrystal_name</Name>
+		<RefName>mon_voidcrystal</RefName>
+		<Faction>PLAYER</Faction>
+		<Family>robots</Family>
+		<AutoSpawn>0</AutoSpawn>
+		<HP>50</HP>
+		<Boss>1</Boss>		
+		<Energy>10</Energy>
+		<Stats>30,25,35,35,30,99,20,99</Stats>
+		<CV>1.5</CV>
+		<LootChance>0</LootChance>
+		<WeaponID>weapon_banditknife</WeaponID>
+		<Prefab>CrystalLaserSummoner</Prefab>
+		<VFX>MetalPoof</VFX>
+		<XPMod>0</XPMod>
+		<Agg>20</Agg>
+		<Attr>LOVESLAVA:1,CANTATTACK:1</Attr>
+		<Lv>1</Lv>
+		<Skl>
+			<Ref>skill_plaser_instant</Ref>
+			<MinRange>1</MinRange>
+			<MaxRange>5</MaxRange>
+		</Skl>
+		<Bore>99</Bore>
+		<Weight>45</Weight>
+	</Mon>
+
+
+
+	<Mon>
+		<Name>exp_mon_scythemantis_name</Name>
+		<Pedia />
+		<Family>insects</Family>
+		<RefName>mon_scythemantis</RefName>
+		
+		<HP>110</HP>
+		<Spawn />
+		<Stats>25,20,12,15,12,95,10,85</Stats>
+		<CV>1</CV>		
+		<WeaponID>exp_weapon_scytheclaws</WeaponID>
+		<OffhandWeaponID>exp_weapon_scytheclaws</OffhandWeaponID>
+		<Prefab>ScytheMantis</Prefab>
+		<XPMod>1.05</XPMod>
+		<Agg>4</Agg>		
+		<MoveBoundary>LIMIT</MoveBoundary>		
+		<MoveRange>1</MoveRange>		
+		<Skl>
+			<Ref>skill_fly</Ref>
+			<ChanceToUse>0.75</ChanceToUse>
+			<MinRange>2</MinRange>
+			<MaxRange>99</MaxRange>
+		</Skl>
+		<Attr>PREDATOR:75</Attr>
+		<Lv>1</Lv>
+		<Bore>14</Bore>
+		<Weight>25</Weight>
+	</Mon>	
+
+	<Mon>
+		<Name>exp_mon_saboteur_name</Name>
+		<Pedia />
+		<RefName>mon_saboteur</RefName>
+		<Family>bandits</Family>
+		
+		<HP>190</HP>
+		<Spawn />
+		<Stats>22,35,20,25,40,95,10,95</Stats>
+		<CV>1.2</CV>
+		<LootChance>1.15</LootChance>
+		<WeaponID>weapon_banditknife</WeaponID>
+		<Prefab>MonsterBanditBrigand_Alt</Prefab>				
+		<Agg>5</Agg>		
+		<MoveRange>1</MoveRange>		
+		<Lv>4</Lv>
+		<Attr>TIMID:30,GREEDY:100,LOVESBATTLES:100,GANGSUP:50,STALKER:100</Attr>
+		<StalkerRange>1</StalkerRange>
+		<Skl>
+			<Ref>skill_expmon_armorbreak</Ref>
+			<MaxRange>1</MaxRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_weaponbreak</Ref>
+			<MaxRange>1</MaxRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_smokebomb</Ref>			
+			<MaxRange>4</MaxRange>	
+			<IgnoreCosts>1</IgnoreCosts>
+			<UseState>FIGHT</UseState>
+		</Skl>			
+		<Bore>25</Bore>
+		<Weight>45</Weight>
+	</Mon>	
+
+	<Mon>
+		<Name>exp_mon_scientist_summoner_name</Name>
+		<Pedia />
+		<RefName>mon_scientist_summoner</RefName>
+		
+		<Family>bandits</Family>
+		<ShowBossHealthBar>1</ShowBossHealthBar>
+		<HP>1000</HP>
+		<Boss>1</Boss>
+		<Stats>45,45,45,45,45,100,13,99</Stats>
+		<MoveRange>1</MoveRange>
+		<CV>1.5</CV>
+		<LootChance>4.5</LootChance>
+		<WeaponID>weapon_slingerstaff</WeaponID>
+		<Prefab>MadderScientist</Prefab>
+		<XPMod>2</XPMod>
+		<Agg>12</Agg>
+		<Attr>LOVESBATTLES:100,LOVESLAVA:100,RONIN:100,HEALER:50,SUPPORTER:3</Attr>
+		<Lv>8</Lv>
+		<Skl>
+			<Ref>skill_expmon_healingwave</Ref>
+			<UseState>FIGHT</UseState>
+		</Skl>
+		<Skl>
+			<Ref>skill_randomresist</Ref>
+			<MinRange>1</MinRange>
+			<MaxRange>4</MaxRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_mutagenself</Ref>
+			<MaxRange>4</MaxRange>
+			<HealthThreshold>0.5</HealthThreshold>
+		</Skl>
+		<Skl>
+			<Ref>skill_neutralize</Ref>
+			<MinRange>1</MinRange>
+			<MaxRange>4</MaxRange>
+		</Skl>		
+		<Bore>9999</Bore>
+		<DefaultActorData>sharamodeonly|1</DefaultActorData>
+	</Mon>	
+
+	<Mon>
+		<Name>exp_mon_scientist_device_name</Name>
+		<Boss>1</Boss>
+		<RefName>mon_scientist_device</RefName>
+		<Family>robots</Family>
+		
+		<HP>600</HP>
+		<NoChampion>1</NoChampion>
+		<Stats>30,30,30,25,25,100,10,95</Stats>
+		<CV>1.4</CV>
+		<LootChance>0</LootChance>
+		<WeaponID>weapon_waterelemshot</WeaponID>		
+		<Prefab>BarrierCrystal</Prefab>
+		<XPMod>0</XPMod>
+		<Attr>NO_KNOCKOUT:100,CANTATTACK:1</Attr>
+		<Lv>8</Lv>
+		<Bore>9999</Bore>
+		<Weight>40</Weight>
+		<DefaultActorData>sharamodeonly|1</DefaultActorData>
+	</Mon>	
+	
+	<Mon>
+		<Name>exp1_mon_metalslime_name</Name>
+		<Family>jelly</Family>
+		<RefName>exp1_metalslime</RefName>
+		
+		<HP>50</HP>
+		<Stats>25,15,12,15,5,75,12,99</Stats>
+		<CV>1</CV>
+
+		<WeaponID>weapon_slimeblub</WeaponID>
+		<Prefab>MonsterMetalSlime</Prefab>
+		<Agg>1</Agg>
+		<MoveRange>1</MoveRange>
+		<Skl>
+			<Ref>skill_slimehop</Ref>
+			<MinRange>2</MinRange>
+		</Skl>
+		<Lv>1</Lv>
+		<Attr>LOVESBATTLES:60,COMBINABLE:100</Attr>
+		<Bore>8</Bore>
+		<Weight>10</Weight>
+	</Mon>
+	
+	<Mon>
+		<Name>exp_mon_shovelgolem_name</Name>
+		<Pedia />
+		<RefName>mon_xp_shovelgolem</RefName>
+		<Family>hybrids</Family>
+		
+		<HP>1050</HP>
+		<Spawn />
+		<Stats>50,36,36,36,36,95,12,90</Stats>
+		<CV>1.8</CV>
+		<WeaponID>exp_weapon_shovel</WeaponID>
+		<ArmorID>armor_rockgolemarmor</ArmorID>
+		<Prefab>MonsterRockGolemShovel</Prefab>
+		<Attr>BERSERKER:15,LOVESMUD:100</Attr>
+		<XPMod>0.5</XPMod>
+		<Agg>8</Agg>
+		<DrunkWalkChance>0.1</DrunkWalkChance>
+		<MoveRange>1</MoveRange>		
+		<Lv>12</Lv>
+		<Skl>
+			<Ref>skill_rocktoss</Ref>
+			<MinRange>3</MinRange>
+			<MaxRange>5</MaxRange>
+		</Skl>	
+		<Skl>
+			<Ref>skill_createrandomrock</Ref>
+			<MinRange>1</MinRange>
+			<MaxRange>6</MaxRange>
+			<UseState>ANY</UseState>
+		</Skl>
+		<Skl>
+			<Ref>skill_rockcircle</Ref>
+			<MaxRange>1</MaxRange>
+			<ChanceToUse>0.5</ChanceToUse>
+		</Skl>
+		<Bore>50</Bore>
+		<Weight>530</Weight>
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_tentacle_name</Name>
+		<Pedia />
+		<Family>beasts</Family>
+		<RefName>mon_xp_watertentacle</RefName>
+		
+		<HP>240</HP>
+		<Spawn />
+		<Stats>26,26,26,26,26,99,10,99</Stats>
+		<CV>1.25</CV>		
+		<WeaponID>weapon_tentaclerock</WeaponID>
+		exp_armor_waterarmor
+		<Prefab>MonsterWaterTentacle</Prefab>
+		<Attr>RONIN:100</Attr>
+		<Agg>5</Agg>		
+		<MoveRange>1</MoveRange>		
+		<Lv>4</Lv>
+		<Bore>25</Bore>
+		<Weight>40</Weight>
+		<Skl>
+			<Ref>skill_expmon_waterfighter</Ref>
+		</Skl>		
+	</Mon>	
+
+	<Mon>
+		<Name>exp_mon_staffbandit_name</Name>
+		<Pedia />
+		<Family>bandits</Family>
+		<RefName>mon_xp_staffbandit</RefName>
+		
+		<HP>1500</HP>
+		<Spawn />
+		<Stats>50,50,50,50,50,99,10,99</Stats>
+		<CV>1.95</CV>		
+		<WeaponID>weapon_cv195blunt</WeaponID>
+		<Prefab>MonsterStaffBandit</Prefab>
+		<Attr>LOVESBATTLES:60,RONIN:100,GREEDY:15</Attr>
+		<Agg>7</Agg>		
+		<MoveRange>1</MoveRange>		
+		<Lv>14</Lv>
+		<Bore>25</Bore>
+		<Weight>40</Weight>
+		<Skl>
+			<Ref>skill_expmon_staffcharge</Ref>
+			<MinRange>1</MinRange>
+			<MaxRange>2</MaxRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_batterup</Ref>
+			<MinRange>3</MinRange>
+			<UseState>FIGHT</UseState>
+		</Skl>		
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_komodon2_name</Name>
+		<Pedia />
+		<Family>beasts</Family>
+		<RefName>mon_xp_komodon2</RefName>
+		
+		<HP>1550</HP>
+		<Spawn />
+		<Stats>50,35,35,35,35,99,10,99</Stats>
+		<CV>1.95</CV>		
+		<WeaponID>weapon_cv195bite</WeaponID>
+		<ArmorID>armor_thickhide</ArmorID>
+		<Prefab>MonsterAncientSalamander_Alt</Prefab>
+		<Agg>7</Agg>		
+		<MoveRange>1</MoveRange>
+		<Lv>14</Lv>
+		<Bore>99</Bore>
+		<Weight>350</Weight>
+		<DrunkWalkChance>0.5</DrunkWalkChance>
+		<Attr>BERSERKER:15,LOVESBATTLES:40,LAZY:35</Attr>		
+		<Skl>
+			<Ref>skill_expmon_resilient</Ref>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_healovertime</Ref>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_multibite</Ref>
+		</Skl>
+	</Mon>	
+
+	<Mon>
+		<Name>exp_mon_xp_heavygolem_name</Name>
+		<Pedia />
+		<RefName>mon_xp_heavygolem</RefName>
+		
+		<Family>robots</Family>
+		<ShowBossHealthBar>1</ShowBossHealthBar>
+		<Boss>1</Boss>
+		<HP>1400</HP>
+		<Stats>45,40,40,40,40,100,10,99</Stats>
+		<MoveRange>1</MoveRange>
+		<CV>1.65</CV>
+		<WeaponID>weapon_robottentacle</WeaponID>
+		<ArmorID>armor_robotarmor</ArmorID>
+		<Prefab>MonsterSteamGolem</Prefab>
+		<Agg>8</Agg>
+		<Attr>CALLFORHELP:75,LOVESBATTLES:75</Attr>
+		<Lv>10</Lv>
+		<Script_TakeAction>TryReviveOtherGolem</Script_TakeAction>
+		<Skl>
+			<Ref>skill_forcefield</Ref>
+			<UseState>FIGHT</UseState>
+		</Skl>
+		<Skl>
+			<Ref>skill_monrocketcharge</Ref>
+			<MinRange>2</MinRange>
+			<MaxRange>4</MaxRange>	
+			<UseState>FIGHT</UseState>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_fireburstweaker</Ref>
+			<IgnoreCosts>1</IgnoreCosts>			
+			<MaxRange>3</MaxRange>	
+		</Skl>
+		<Skl>
+			<Ref>skill_destroyerlaserwall</Ref>
+			<IgnoreCosts>1</IgnoreCosts>
+			<MaxRange>4</MaxRange>
+		</Skl>
+		<Bore>9999</Bore>
+		<Weight>500</Weight>
+		<DefaultActorData>sharamodeonly|1</DefaultActorData>
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_chemist2_name</Name>
+		<Pedia />
+		<Family>bandits</Family>
+		<RefName>mon_xp_chemist2</RefName>
+		
+		<HP>1700</HP>
+		<Spawn />
+		<Stats>53,53,53,53,53,99,10,99</Stats>
+		<CV>2.0</CV>		
+		<WeaponID>weapon_cv200shot</WeaponID>
+		<Prefab>MadderScientist_Alt</Prefab>
+		<Agg>7</Agg>		
+		<MoveRange>1</MoveRange>
+		<Lv>15</Lv>
+		<Bore>99</Bore>
+		<Weight>65</Weight>
+		<DrunkWalkChance>0.5</DrunkWalkChance>
+		<Attr>CALLFORHELP:80,LOVESBATTLES:100</Attr>
+		<Skl>
+			<Ref>skill_expmon_icepotion</Ref>
+			<MaxRange>3</MaxRange>
+		</Skl>	
+		<Skl>
+			<Ref>skill_expmon_burstgas</Ref>
+			<MaxRange>1</MaxRange>
+			<AlwaysUseIfInRange>1</AlwaysUseIfInRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_statusresist50</Ref>
+		</Skl>
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_butterfly_name</Name>
+		<Pedia />
+		<Family>insects</Family>
+		<RefName>mon_xp_butterfly</RefName>
+		
+		<HP>1400</HP>
+		<Spawn />
+		<Stats>47,47,47,47,47,99,10,99</Stats>
+		<CV>1.9</CV>		
+		<WeaponID>weapon_cv190bite</WeaponID>
+		<Prefab>MonsterButterfly</Prefab>
+		<XPMod>1</XPMod>
+		<Agg>8</Agg>		
+		<MoveRange>1</MoveRange>
+		<Attr>RONIN:100,FLYING:100,LOVESMUD:100,LOVESLAVA:100</Attr>
+		<Skl>
+			<Ref>skill_expmon_fly2</Ref>
+			<MinRange>2</MinRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_glitterskin</Ref>
+			<UseState>FIGHT</UseState>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_wingslash</Ref>
+			<MaxRange>1</MaxRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_passive_dodge25</Ref>			
+		</Skl>
+		<Lv>14</Lv>
+		<Bore>99</Bore>
+		<Weight>20</Weight>
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_mimic_name</Name>
+		<Pedia />
+		<RefName>mon_xp_mimic</RefName>
+		
+		<Family>hybrids</Family>
+		<HP>1300</HP>
+		<Spawn />
+		<Stats>43,43,43,43,43,99,12,99</Stats>
+		<CV>1.85</CV>
+		<WeaponID>weapon_cv185bite</WeaponID>
+		<MoveRange>1</MoveRange>
+		<Prefab>MonsterMimic</Prefab>
+		<Agg>8</Agg>
+		<Attr>RONIN:100,LOVESBATTLES:100,GREEDY:25</Attr>
+		<Lv>13</Lv>
+		<Bore>999</Bore>
+		<Weight>200</Weight>
+		<Skl>
+			<Ref>skill_expmon_adhesivetongue</Ref>
+			<MaxRange>1</MaxRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_eatweapon</Ref>
+			<MaxRange>1</MaxRange>
+		</Skl>		
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_chonkfrog_name</Name>
+		<Pedia />
+		<RefName>mon_xp_chonkfrog</RefName>
+		<Family>frogs</Family>
+		
+		<HP>460</HP>
+		<Spawn />
+		<Stats>40,40,40,40,40,100,11,98</Stats>
+		<CV>1.5</CV>		
+		<WeaponID>exp_weapon_chonkfrogpunch</WeaponID>
+		<ArmorID>exp_armor_waterarmor</ArmorID>
+		<Prefab>MonsterChonkFrog</Prefab>
+		<Attr>CALLFORHELP:90,LOVESMUD:100,TIMID:25,RONIN:80</Attr>
+		<DrunkWalkChance>0.25</DrunkWalkChance>
+		<Agg>5</Agg>
+		<MoveRange>1</MoveRange>		
+		<Lv>7</Lv>
+		<Skl>
+			<Ref>skill_froghop</Ref>
+			<MinRange>2</MinRange>						
+		</Skl>		
+		<Skl>
+			<Ref>skill_expmon_passivescare</Ref>			
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_stealandeatfood</Ref>
+			<MaxRange>1</MaxRange>
+		</Skl>
+		<Bore>50</Bore>
+		<Weight>60</Weight>
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_pistolshrimp_name</Name>
+		<Pedia />
+		<Family>insects</Family>
+		<RefName>mon_xp_pistolshrimp</RefName>
+		
+		<HP>280</HP>
+		<Spawn />
+		<Stats>30,35,20,20,25,100,9,90</Stats>
+		<CV>1.3</CV>
+		<LootChance>1</LootChance>
+		<WeaponID>exp_weapon_shrimpshot</WeaponID>
+		<Prefab>MonsterPistolShrimp</Prefab>
+		<Agg>5</Agg>		
+		<MoveRange>1</MoveRange>		
+		<Lv>5</Lv>
+		<Attr>SNIPER:100,STALKER:60</Attr>
+		<StalkerRange>3</StalkerRange>
+		<Bore>25</Bore>
+		<Weight>55</Weight>
+		<Skl>
+			<Ref>skill_expmon_cannonstunner</Ref>
+			<MaxRange>1</MaxRange>
+			<AlwaysUseIfInRange>1</AlwaysUseIfInRange>
+		</Skl>
+	</Mon>
+
+	<Mon>
+		<Name>exp_mon_spiritstag_name</Name>
+		<Pedia />
+		<Family>spirits</Family>
+		<RefName>mon_xp_spiritstag</RefName>
+		
+		<HP>1750</HP>
+		<Spawn />
+		<Stats>53,53,53,53,53,99,10,99</Stats>
+		<CV>2.0</CV>		
+		<WeaponID>weapon_cv200pierce</WeaponID>
+		<Prefab>MonsterSpiritMoose</Prefab>
+		<Agg>6</Agg>		
+		<MoveRange>1</MoveRange>
+		<Lv>15</Lv>
+		<Bore>99</Bore>
+		<Weight>250</Weight>
+		<DrunkWalkChance>0.5</DrunkWalkChance>
+		<Attr>LOVESLAVA:100,LOVESMUD:100,RONIN:100</Attr>		
+		<Skl>
+			<Ref>skill_expmon_stagrush</Ref>
+			<MinRange>2</MinRange>
+			<MaxRange>4</MaxRange>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_holystorm</Ref>
+			<MaxRange>2</MaxRange>
+		</Skl>		
+		<Skl>
+			<Ref>skill_noroot_nostun</Ref>
+		</Skl>
+		<Skl>
+			<Ref>skill_expmon_divinepower</Ref>
+		</Skl>
+	</Mon>
+
+</DOCUMENT>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SpawnTable>
+		<RefName>alternate_start1</RefName>		
+			<mon_scythemantis>10</mon_scythemantis>			
+			<mon_grottoflyer>10</mon_grottoflyer>
+			<mon_slimerat>8</mon_slimerat>					
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>alternate_start2</RefName>					
+			<mon_scythemantis>10</mon_scythemantis>			
+			<mon_grottoflyer>5</mon_grottoflyer>
+			<mon_slimerat>10</mon_slimerat>
+			<mon_scorpionturtle>10</mon_scorpionturtle>
+			<mon_creepingspider>10</mon_creepingspider>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>alternate_start3</RefName>
+		<mon_grottoflyer>3</mon_grottoflyer>
+		<mon_scythemantis>3</mon_scythemantis>
+		<mon_slimerat>5</mon_slimerat>
+		<mon_scorpionturtle>7</mon_scorpionturtle>
+		<mon_cannondrone>10</mon_cannondrone>
+		<mon_fungaltoad>10</mon_fungaltoad>
+		<mon_pirahnas>10</mon_pirahnas>
+		<mon_redcrab>10</mon_redcrab>	
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>alternate_start4</RefName>		
+		<mon_scorpionturtle>7</mon_scorpionturtle>
+		<mon_cannondrone>12</mon_cannondrone>
+		<mon_fungaltoad>12</mon_fungaltoad>
+		<mon_pirahnas>13</mon_pirahnas>
+		<mon_redcrab>13</mon_redcrab>
+		<mon_cavelion>20</mon_cavelion>
+		<mon_xp_watertentacle>10</mon_xp_watertentacle>
+		<mon_jadebeetle>20</mon_jadebeetle>
+		<mon_saboteur>20</mon_saboteur>			
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>alternate_start5</RefName>		
+		<mon_fungaltoad>10</mon_fungaltoad>
+		<mon_cannondrone>10</mon_cannondrone>
+		<mon_pirahnas>11</mon_pirahnas>
+		<mon_redcrab>10</mon_redcrab>
+		<mon_cavelion>20</mon_cavelion>
+		<mon_xp_watertentacle>10</mon_xp_watertentacle>
+		<mon_jadebeetle>20</mon_jadebeetle>
+		<mon_saboteur>20</mon_saboteur>						
+	</SpawnTable>		
+
+	<SpawnTable>
+		<RefName>cv195</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.7 -->
+			<mon_darkcavelion>5</mon_darkcavelion>
+			<mon_mossbeast>5</mon_mossbeast>
+			<mon_frostedjelly>5</mon_frostedjelly>
+			<mon_infernospirit>5</mon_infernospirit>
+			<mon_xp_bladefrog>5</mon_xp_bladefrog>
+			<!-- CV 1.8 -->
+			<mon_destroyer>12</mon_destroyer>
+			<mon_guardianorbiter>12</mon_guardianorbiter>
+			<mon_heavygolem>12</mon_heavygolem>
+			<mon_banditsniper>12</mon_banditsniper>
+			<mon_neutralizer>12</mon_neutralizer>		
+			<mon_xp_shovelgolem>12</mon_xp_shovelgolem>
+			<mon_xp_axewielder>12</mon_xp_axewielder>
+			<mon_xp_venomancer>12</mon_xp_venomancer>
+			<mon_xp_chameleon>12</mon_xp_chameleon>
+			<!-- CV 1.85 -->
+			<mon_xp_boltspirit>15</mon_xp_boltspirit>
+			<mon_xp_mimic>15</mon_xp_mimic>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv200</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.7 -->
+			<mon_darkcavelion>3</mon_darkcavelion>
+			<mon_mossbeast>3</mon_mossbeast>
+			<mon_frostedjelly>3</mon_frostedjelly>
+			<mon_infernospirit>3</mon_infernospirit>
+			<mon_xp_bladefrog>3</mon_xp_bladefrog>
+			<!-- CV 1.8 -->
+			<mon_destroyer>9</mon_destroyer>
+			<mon_guardianorbiter>9</mon_guardianorbiter>
+			<mon_heavygolem>9</mon_heavygolem>
+			<mon_banditsniper>9</mon_banditsniper>
+			<mon_neutralizer>9</mon_neutralizer>		
+			<mon_xp_shovelgolem>9</mon_xp_shovelgolem>
+			<mon_xp_axewielder>9</mon_xp_axewielder>
+			<mon_xp_venomancer>9</mon_xp_venomancer>
+			<mon_xp_chameleon>50</mon_xp_chameleon>
+			<!-- CV 1.85 -->
+			<mon_xp_boltspirit>12</mon_xp_boltspirit>
+			<mon_xp_mimic>12</mon_xp_mimic>
+			<!-- CV 1.9 -->
+			<mon_xp_robotmantis>15</mon_xp_robotmantis>
+			<mon_xp_powerorbiter>11</mon_xp_powerorbiter>
+			<mon_xp_cubeslime>15</mon_xp_cubeslime>
+			<mon_xp_butterfly>15</mon_xp_butterfly>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv205</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.8 -->
+			<mon_destroyer>7</mon_destroyer>
+			<mon_guardianorbiter>7</mon_guardianorbiter>
+			<mon_heavygolem>7</mon_heavygolem>
+			<mon_banditsniper>7</mon_banditsniper>
+			<mon_neutralizer>7</mon_neutralizer>		
+			<mon_xp_shovelgolem>7</mon_xp_shovelgolem>
+			<mon_xp_axewielder>7</mon_xp_axewielder>
+			<mon_xp_venomancer>7</mon_xp_venomancer>
+			<mon_xp_chameleon>7</mon_xp_chameleon>
+			<!-- CV 1.85 -->
+			<mon_xp_boltspirit>12</mon_xp_boltspirit>
+			<mon_xp_mimic>12</mon_xp_mimic>
+			<!-- CV 1.9 -->
+			<mon_xp_robotmantis>15</mon_xp_robotmantis>
+			<mon_xp_powerorbiter>11</mon_xp_powerorbiter>
+			<mon_xp_cubeslime>15</mon_xp_cubeslime>
+			<mon_xp_butterfly>15</mon_xp_butterfly>
+			<!-- CV 1.95 -->
+			<mon_xp_guardianseeker2>24</mon_xp_guardianseeker2>
+			<mon_xp_staffbandit>24</mon_xp_staffbandit>
+			<mon_xp_komodon2>24</mon_xp_komodon2>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv210</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.8 -->
+			<mon_destroyer>3</mon_destroyer>
+			<mon_guardianorbiter>3</mon_guardianorbiter>
+			<mon_heavygolem>3</mon_heavygolem>
+			<mon_banditsniper>3</mon_banditsniper>
+			<mon_neutralizer>3</mon_neutralizer>		
+			<mon_xp_shovelgolem>3</mon_xp_shovelgolem>
+			<mon_xp_axewielder>3</mon_xp_axewielder>
+			<mon_xp_venomancer>3</mon_xp_venomancer>
+			<mon_xp_chameleon>3</mon_xp_chameleon>
+			<!-- CV 1.85 -->
+			<mon_xp_boltspirit>8</mon_xp_boltspirit>
+			<mon_xp_mimic>8</mon_xp_mimic>
+			<!-- CV 1.9 -->
+			<mon_xp_robotmantis>12</mon_xp_robotmantis>
+			<mon_xp_powerorbiter>9</mon_xp_powerorbiter>
+			<mon_xp_cubeslime>12</mon_xp_cubeslime>
+			<mon_xp_butterfly>12</mon_xp_butterfly>
+			<!-- CV 1.95 -->
+			<mon_xp_guardianseeker2>18</mon_xp_guardianseeker2>
+			<mon_xp_staffbandit>18</mon_xp_staffbandit>
+			<mon_xp_komodon2>18</mon_xp_komodon2>
+			<!-- CV 2.00 -->
+			<mon_xp_batslime>25</mon_xp_batslime>
+			<mon_xp_chemist2>25</mon_xp_chemist2>
+			<mon_xp_spiritstag>25</mon_xp_spiritstag>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv215</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.85 -->
+			<mon_xp_boltspirit>8</mon_xp_boltspirit>
+			<mon_xp_mimic>8</mon_xp_mimic>
+			<!-- CV 1.9 -->
+			<mon_xp_robotmantis>10</mon_xp_robotmantis>
+			<mon_xp_powerorbiter>7</mon_xp_powerorbiter>
+			<mon_xp_cubeslime>10</mon_xp_cubeslime>
+			<mon_xp_butterfly>10</mon_xp_butterfly>
+			<!-- CV 1.95 -->
+			<mon_xp_guardianseeker2>18</mon_xp_guardianseeker2>
+			<mon_xp_staffbandit>18</mon_xp_staffbandit>
+			<mon_xp_komodon2>18</mon_xp_komodon2>
+			<!-- CV 2.00 -->
+			<mon_xp_batslime>25</mon_xp_batslime>
+			<mon_xp_chemist2>25</mon_xp_chemist2>
+			<mon_xp_spiritstag>25</mon_xp_spiritstag>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv220</RefName>
+			<MergeWithExisting />
+			<!-- CV 1.85 -->
+			<mon_xp_boltspirit>8</mon_xp_boltspirit>
+			<mon_xp_mimic>8</mon_xp_mimic>
+			<!-- CV 1.9 -->
+			<mon_xp_robotmantis>8</mon_xp_robotmantis>
+			<mon_xp_powerorbiter>6</mon_xp_powerorbiter>
+			<mon_xp_cubeslime>8</mon_xp_cubeslime>
+			<mon_xp_butterfly>8</mon_xp_butterfly>
+			<!-- CV 1.95 -->
+			<mon_xp_guardianseeker2>18</mon_xp_guardianseeker2>
+			<mon_xp_staffbandit>18</mon_xp_staffbandit>
+			<mon_xp_komodon2>18</mon_xp_komodon2>
+			<!-- CV 2.00 -->
+			<mon_xp_batslime>25</mon_xp_batslime>
+			<mon_xp_chemist2>25</mon_xp_chemist2>
+			<mon_xp_spiritstag>25</mon_xp_spiritstag>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>floodedtemple1</RefName>
+			<MergeWithExisting />
+			<mon_scorpionturtle>3</mon_scorpionturtle>		
+			<mon_xp_pistolshrimp>7</mon_xp_pistolshrimp>
+			<mon_xp_watertentacle>10</mon_xp_watertentacle>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>floodedtemple2</RefName>
+			<MergeWithExisting />
+			<mon_iceviper>13</mon_iceviper>			
+			<mon_xp_pistolshrimp>15</mon_xp_pistolshrimp>
+			<mon_xp_watertentacle>10</mon_xp_watertentacle>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv105</RefName>
+			<MergeWithExisting />
+			<mon_scythemantis>5</mon_scythemantis>
+			<mon_scorpionturtle>5</mon_scorpionturtle>		
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv110</RefName>
+			<MergeWithExisting />
+			<mon_scythemantis>2</mon_scythemantis>
+			<mon_scorpionturtle>7</mon_scorpionturtle>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv115</RefName>
+			<MergeWithExisting />
+			<mon_scorpionturtle>6</mon_scorpionturtle>
+			<mon_cannondrone>15</mon_cannondrone>
+			<mon_saboteur>15</mon_saboteur>
+			<mon_xp_watertentacle>8</mon_xp_watertentacle>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv120</RefName>
+			<MergeWithExisting />
+			<mon_cannondrone>18</mon_cannondrone>
+			<mon_saboteur>18</mon_saboteur>	
+			<mon_xp_watertentacle>10</mon_xp_watertentacle>			
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv125</RefName>
+			<MergeWithExisting />
+			<mon_cannondrone>14</mon_cannondrone>
+			<mon_saboteur>14</mon_saboteur>
+			<mon_xp_pistolshrimp>18</mon_xp_pistolshrimp>
+			<mon_xp_watertentacle>7</mon_xp_watertentacle>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv130</RefName>
+			<MergeWithExisting />
+			<mon_cannondrone>14</mon_cannondrone>
+			<mon_saboteur>14</mon_saboteur>
+			<mon_iceviper>7</mon_iceviper>		
+			<mon_xp_pistolshrimp>20</mon_xp_pistolshrimp>
+			<mon_xp_watertentacle>8</mon_xp_watertentacle>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv135</RefName>
+			<MergeWithExisting />
+			<mon_cannondrone>10</mon_cannondrone>
+			<mon_saboteur>10</mon_saboteur>			
+			<mon_iceviper>15</mon_iceviper>	
+			<mon_xp_pistolshrimp>16</mon_xp_pistolshrimp>
+			<mon_xp_watertentacle>5</mon_xp_watertentacle>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv140</RefName>
+			<MergeWithExisting />
+			<mon_cannondrone>5</mon_cannondrone>
+			<mon_saboteur>5</mon_saboteur>		
+			<mon_iceviper>15</mon_iceviper>							
+			<mon_xp_chonkfrog>5</mon_xp_chonkfrog>
+			<mon_xp_pistolshrimp>13</mon_xp_pistolshrimp>
+			<mon_xp_watertentacle>3</mon_xp_watertentacle>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv145</RefName>
+			<MergeWithExisting />
+			<mon_iceviper>15</mon_iceviper>
+			<mon_greenmantis>20</mon_greenmantis>
+			<mon_xp_chonkfrog>20</mon_xp_chonkfrog>	
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv150</RefName>
+			<MergeWithExisting />
+			<mon_iceviper>10</mon_iceviper>
+			<mon_greenmantis>20</mon_greenmantis>
+			<mon_xp_chonkfrog>20</mon_xp_chonkfrog>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv155</RefName>
+			<MergeWithExisting />
+			<mon_iceviper>7</mon_iceviper>
+			<mon_greenmantis>20</mon_greenmantis>
+			<mon_xp_bouldertoad>10</mon_xp_bouldertoad>
+			<mon_xp_chonkfrog>14</mon_xp_chonkfrog>				
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv160</RefName>
+			<MergeWithExisting />
+			<mon_iceviper>4</mon_iceviper>
+			<mon_greenmantis>18</mon_greenmantis>
+			<mon_xp_bouldertoad>20</mon_xp_bouldertoad>
+			<mon_xp_chonkfrog>11</mon_xp_chonkfrog>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv165</RefName>
+			<MergeWithExisting />
+			<mon_greenmantis>13</mon_greenmantis>
+			<mon_xp_bouldertoad>18</mon_xp_bouldertoad>
+			<mon_xp_bladefrog>4</mon_xp_bladefrog>
+			<mon_xp_chonkfrog>4</mon_xp_chonkfrog>	
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>cv170</RefName>
+			<MergeWithExisting />
+			<mon_greenmantis>11</mon_greenmantis>
+			<mon_xp_bouldertoad>16</mon_xp_bouldertoad>
+			<mon_xp_bladefrog>20</mon_xp_bladefrog>
+			<mon_xp_chonkfrog>2</mon_xp_chonkfrog>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv175</RefName>
+			<MergeWithExisting />
+			<mon_greenmantis>10</mon_greenmantis>
+			<mon_xp_bouldertoad>20</mon_xp_bouldertoad>
+			<mon_xp_bladefrog>15</mon_xp_bladefrog>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv180</RefName>
+			<MergeWithExisting />
+			<mon_greenmantis>6</mon_greenmantis>
+			<mon_xp_bouldertoad>8</mon_xp_bouldertoad>
+			<mon_xp_bladefrog>11</mon_xp_bladefrog>
+			<mon_xp_chameleon>15</mon_xp_chameleon>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv185</RefName>
+			<MergeWithExisting />
+			<mon_greenmantis>4</mon_greenmantis>
+			<mon_xp_bouldertoad>6</mon_xp_bouldertoad>
+			<mon_xp_bladefrog>9</mon_xp_bladefrog>
+			<mon_xp_chameleon>15</mon_xp_chameleon>
+			
+			<mon_xp_budoka>3</mon_xp_budoka>
+			<mon_xp_venomancer>3</mon_xp_venomancer>
+			<mon_xp_axewielder>3</mon_xp_axewielder>
+			<mon_xp_shovelgolem>3</mon_xp_shovelgolem>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv190</RefName>
+			<MergeWithExisting />
+			<mon_greenmantis>2</mon_greenmantis>
+			<mon_xp_bouldertoad>5</mon_xp_bouldertoad>
+			<mon_xp_bladefrog>8</mon_xp_bladefrog>
+			<mon_xp_chameleon>15</mon_xp_chameleon>
+			<mon_xp_budoka>8</mon_xp_budoka>
+			<mon_xp_venomancer>8</mon_xp_venomancer>
+			<mon_xp_axewielder>8</mon_xp_axewielder>
+			<mon_xp_shovelgolem>8</mon_xp_shovelgolem>		
+			<mon_xp_boltspirit>8</mon_xp_boltspirit>
+			<mon_xp_mimic>8</mon_xp_mimic>			
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>fungalcaves1</RefName>
+			<MergeWithExisting />
+			<mon_cannondrone>3</mon_cannondrone>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>fungalcaves2</RefName>
+			<MergeWithExisting />
+			<mon_xp_pistolshrimp>5</mon_xp_pistolshrimp>
+	</SpawnTable>		
+
+	<SpawnTable>
+		<RefName>fungalcaves3</RefName>
+			<MergeWithExisting />
+			<mon_iceviper>15</mon_iceviper>	
+			<mon_xp_pistolshrimp>5</mon_xp_pistolshrimp>	
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>fungalcaves4</RefName>
+			<MergeWithExisting />
+			<mon_iceviper>15</mon_iceviper>
+			<mon_xp_pistolshrimp>5</mon_xp_pistolshrimp>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>magmachamber2</RefName>
+			<MergeWithExisting />
+			<mon_greenmantis>10</mon_greenmantis>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>ancientruins2</RefName>
+		<MergeWithExisting />
+			<mon_xp_pistolshrimp>5</mon_xp_pistolshrimp>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>ancientruins2</RefName>
+		<MergeWithExisting />
+			<mon_iceviper>20</mon_iceviper>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>ancientruins3</RefName>
+		<MergeWithExisting />
+			<mon_iceviper>20</mon_iceviper>		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>ancientruins4</RefName>
+		<MergeWithExisting />
+			<mon_iceviper>20</mon_iceviper>		
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>amberstation1</RefName>
+			<MergeWithExisting />
+			<mon_saboteur>17</mon_saboteur>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>amberstation2</RefName>
+		<MergeWithExisting />
+		<mon_saboteur>17</mon_saboteur>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>amberstation3</RefName>
+		<MergeWithExisting />
+		<mon_saboteur>15</mon_saboteur>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>amberstation4</RefName>
+		<MergeWithExisting />
+		<mon_saboteur>10</mon_saboteur>	
+		<mon_xp_pistolshrimp>10</mon_xp_pistolshrimp>
+	</SpawnTable>
+
+
+	<SpawnTable>
+		<RefName>stonehalls1</RefName>
+			<MergeWithExisting />
+			<mon_saboteur>3</mon_saboteur>
+			<mon_iceviper>14</mon_iceviper>
+			<mon_xp_pistolshrimp>3</mon_xp_pistolshrimp>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>stonehalls2</RefName>
+		<MergeWithExisting />
+		<mon_iceviper>12</mon_iceviper>
+		<mon_greenmantis>20</mon_greenmantis>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>stonehalls3</RefName>
+		<MergeWithExisting />
+		<mon_iceviper>10</mon_iceviper>
+		<mon_greenmantis>20</mon_greenmantis>		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>stonehalls4</RefName>
+		<MergeWithExisting />
+		<mon_iceviper>5</mon_iceviper>
+		<mon_greenmantis>20</mon_greenmantis>
+		<mon_xp_bouldertoad>20</mon_xp_bouldertoad>		
+	</SpawnTable>		
+
+	<SpawnTable>
+		<RefName>stonehalls5</RefName>
+		<MergeWithExisting />
+			<mon_greenmantis>18</mon_greenmantis>
+			<mon_xp_bouldertoad>20</mon_xp_bouldertoad>
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>replicator1</RefName>
+		<MergeWithExisting />		
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>replicator2</RefName>
+		<MergeWithExisting />				
+	</SpawnTable>
+	
+	<SpawnTable>
+		<RefName>replicator3</RefName>
+		<MergeWithExisting />
+	</SpawnTable>	
+</DOCUMENT>

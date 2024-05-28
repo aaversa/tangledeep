@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SpawnTable>
+		<RefName>elementals1</RefName>
+		<mon_youngwaterelemental>25</mon_youngwaterelemental>
+		<mon_youngfireelemental>25</mon_youngfireelemental>
+		<mon_younglightningelemental>12</mon_younglightningelemental>			
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>elementals2</RefName>
+		
+			<mon_youngwaterelemental>15</mon_youngwaterelemental>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_poisonelemental>10</mon_poisonelemental>
+			<mon_shadowelemental>3</mon_shadowelemental>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>elementals3</RefName>
+		
+			<mon_youngwaterelemental>5</mon_youngwaterelemental>
+			<mon_youngfireelemental>11</mon_youngfireelemental>
+			<mon_younglightningelemental>18</mon_younglightningelemental>
+			<mon_poisonelemental>20</mon_poisonelemental>
+			<mon_shadowelemental>20</mon_shadowelemental>
+			<mon_rockgolem>20</mon_rockgolem>
+			<mon_infernospirit>4</mon_infernospirit>
+		
+	</SpawnTable>	
+	<SpawnTable>
+		<RefName>floodedtemple1</RefName>
+		
+			<mon_electricjelly>3</mon_electricjelly>
+			<mon_firejelly>3</mon_firejelly>			
+			<mon_creepingspider>4</mon_creepingspider>
+			<mon_toxicurchin>4</mon_toxicurchin>
+			<mon_fungaltoad>10</mon_fungaltoad>
+			<mon_pirahnas>11</mon_pirahnas>
+			<mon_redcrab>10</mon_redcrab>
+			<mon_cavelion>20</mon_cavelion>
+			<mon_jadebeetle>20</mon_jadebeetle>
+			<mon_dijiang>5</mon_dijiang>
+			<mon_plunderer>20</mon_plunderer>
+			<mon_swamptoad>7</mon_swamptoad>
+			<mon_livingvine>5</mon_livingvine>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>floodedtemple2</RefName>
+		
+			<mon_cavelion>10</mon_cavelion>
+			<mon_jadebeetle>10</mon_jadebeetle>
+			<mon_dijiang>2</mon_dijiang>
+			<mon_plunderer>15</mon_plunderer>
+			<mon_swamptoad>15</mon_swamptoad>
+			<mon_alchemist>15</mon_alchemist>
+			<mon_livingvine>15</mon_livingvine>
+			<mon_bandithunter>20</mon_bandithunter>
+			<mon_youngwaterelemental>10</mon_youngwaterelemental>
+			<mon_rockviper>10</mon_rockviper>
+			<mon_mottledsandjaw>10</mon_mottledsandjaw>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>banditenclave1</RefName>		
+			<mon_plunderer>12</mon_plunderer>
+			<mon_dijiang>1</mon_dijiang>
+			<mon_alchemist>14</mon_alchemist>
+			<mon_bandithunter>10</mon_bandithunter>
+			<mon_ghostsamurai>5</mon_ghostsamurai>
+			<mon_banditspellshaper>2</mon_banditspellshaper>				
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>banditenclave2</RefName>
+		
+			<mon_plunderer>12</mon_plunderer>
+			<mon_dijiang>1</mon_dijiang>
+			<mon_alchemist>14</mon_alchemist>
+			<mon_bandithunter>15</mon_bandithunter>
+			<mon_ghostsamurai>7</mon_ghostsamurai>
+			<mon_banditspellshaper>4</mon_banditspellshaper>
+			<mon_banditswordmaster>2</mon_banditswordmaster>
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>banditenclave3</RefName>
+		
+			<mon_plunderer>12</mon_plunderer>
+			<mon_dijiang>1</mon_dijiang>
+			<mon_alchemist>14</mon_alchemist>
+			<mon_bandithunter>17</mon_bandithunter>
+			<mon_ghostsamurai>10</mon_ghostsamurai>
+			<mon_banditspellshaper>8</mon_banditspellshaper>
+			<mon_banditswordmaster>7</mon_banditswordmaster>
+		
+	</SpawnTable>	
+	<SpawnTable>
+		<RefName>jellygrotto</RefName>
+		
+			<mon_mossjelly>6</mon_mossjelly>
+			<mon_slimerat>10</mon_slimerat>
+			<mon_electricjelly>10</mon_electricjelly>
+			<mon_firejelly>10</mon_firejelly>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv100</RefName>
+		
+			<mon_mossjelly>10</mon_mossjelly>
+			<mon_salamander>10</mon_salamander>			
+			<mon_grottoflyer>10</mon_grottoflyer>
+			<mon_slimerat>5</mon_slimerat>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv105</RefName>
+		
+			<mon_salamander>5</mon_salamander>			
+			<mon_grottoflyer>5</mon_grottoflyer>
+			<mon_slimerat>7</mon_slimerat>
+			<mon_electricjelly>6</mon_electricjelly>
+			<mon_firejelly>6</mon_firejelly>
+			<mon_creepingspider>5</mon_creepingspider>
+			<mon_toxicurchin>3</mon_toxicurchin>
+			<mon_fungaltoad>7</mon_fungaltoad>
+			<mon_pirahnas>6</mon_pirahnas>
+			<mon_redcrab>6</mon_redcrab>
+			<mon_bigurchin>3</mon_bigurchin>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv110</RefName>
+		
+			<mon_salamander>2</mon_salamander>			
+			<mon_grottoflyer>3</mon_grottoflyer>
+			<mon_slimerat>5</mon_slimerat>
+			<mon_electricjelly>5</mon_electricjelly>
+			<mon_firejelly>5</mon_firejelly>
+			<mon_creepingspider>7</mon_creepingspider>
+			<mon_toxicurchin>3</mon_toxicurchin>
+			<mon_fungaltoad>10</mon_fungaltoad>
+			<mon_pirahnas>10</mon_pirahnas>
+			<mon_redcrab>10</mon_redcrab>
+			<mon_bigurchin>5</mon_bigurchin>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv115</RefName>
+		
+			<mon_electricjelly>5</mon_electricjelly>
+			<mon_firejelly>5</mon_firejelly>
+			<mon_creepingspider>7</mon_creepingspider>			
+			<mon_fungaltoad>12</mon_fungaltoad>
+			<mon_pirahnas>13</mon_pirahnas>
+			<mon_redcrab>10</mon_redcrab>
+			<mon_bigurchin>5</mon_bigurchin>
+			<mon_cavelion>15</mon_cavelion>
+			<mon_jadebeetle>15</mon_jadebeetle>
+			<mon_dijiang>4</mon_dijiang>
+			<mon_plunderer>6</mon_plunderer>			
+
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv120</RefName>
+		
+			<mon_fungaltoad>10</mon_fungaltoad>
+			<mon_pirahnas>11</mon_pirahnas>
+			<mon_redcrab>10</mon_redcrab>
+			<mon_bigurchin>5</mon_bigurchin>
+			<mon_cavelion>20</mon_cavelion>
+			<mon_jadebeetle>20</mon_jadebeetle>
+			<mon_dijiang>5</mon_dijiang>
+			<mon_plunderer>12</mon_plunderer>				
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv125</RefName>
+		
+			<mon_redcrab>10</mon_redcrab>
+			<mon_bigurchin>5</mon_bigurchin>	
+			<mon_cavelion>14</mon_cavelion>
+			<mon_jadebeetle>14</mon_jadebeetle>
+			<mon_dijiang>4</mon_dijiang>
+			<mon_plunderer>17</mon_plunderer>
+			<mon_swamptoad>18</mon_swamptoad>
+			<mon_alchemist>10</mon_alchemist>
+			<mon_livingvine>10</mon_livingvine>
+			<mon_bandithunter>4</mon_bandithunter>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv130</RefName>
+		
+			<mon_cavelion>14</mon_cavelion>
+			<mon_jadebeetle>14</mon_jadebeetle>
+			<mon_dijiang>4</mon_dijiang>
+			<mon_plunderer>17</mon_plunderer>
+			<mon_swamptoad>20</mon_swamptoad>
+			<mon_alchemist>20</mon_alchemist>
+			<mon_livingvine>20</mon_livingvine>
+			<mon_bandithunter>10</mon_bandithunter>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv135</RefName>
+		
+			<mon_cavelion>10</mon_cavelion>
+			<mon_jadebeetle>10</mon_jadebeetle>
+			<mon_dijiang>2</mon_dijiang>
+			<mon_plunderer>14</mon_plunderer>
+			<mon_swamptoad>16</mon_swamptoad>
+			<mon_alchemist>16</mon_alchemist>
+			<mon_livingvine>15</mon_livingvine>
+			<mon_bandithunter>20</mon_bandithunter>
+			<mon_youngwaterelemental>13</mon_youngwaterelemental>
+			<mon_rockviper>15</mon_rockviper>
+			<mon_mottledsandjaw>15</mon_mottledsandjaw>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv140</RefName>
+		
+			<mon_cavelion>5</mon_cavelion>
+			<mon_jadebeetle>5</mon_jadebeetle>
+			<mon_dijiang>2</mon_dijiang>
+			<mon_plunderer>10</mon_plunderer>
+			<mon_swamptoad>13</mon_swamptoad>
+			<mon_alchemist>13</mon_alchemist>
+			<mon_livingvine>13</mon_livingvine>
+			<mon_bandithunter>20</mon_bandithunter>
+			<mon_youngwaterelemental>20</mon_youngwaterelemental>
+			<mon_rockviper>20</mon_rockviper>
+			<mon_mottledsandjaw>20</mon_mottledsandjaw>
+			<mon_youngfireelemental>5</mon_youngfireelemental>
+			<mon_bifang>2</mon_bifang>
+			<mon_jadesalamander>5</mon_jadesalamander>						
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv145</RefName>
+		
+			<mon_alchemist>6</mon_alchemist>
+			<mon_bandithunter>18</mon_bandithunter>
+			<mon_youngwaterelemental>18</mon_youngwaterelemental>
+			<mon_rockviper>18</mon_rockviper>
+			<mon_mottledsandjaw>18</mon_mottledsandjaw>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+			<mon_jadesalamander>20</mon_jadesalamander>
+			<mon_berserker_panthox>20</mon_berserker_panthox>
+			<mon_guardiansphere>15</mon_guardiansphere>
+			<mon_vinestalker>20</mon_vinestalker>
+			<mon_banditbrigand>20</mon_banditbrigand>
+			<mon_robotsnake>10</mon_robotsnake>
+			<mon_ghostsamurai>10</mon_ghostsamurai>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_guardianseeker>20</mon_guardianseeker>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv150</RefName>
+		
+			<mon_alchemist>3</mon_alchemist>
+			<mon_bandithunter>15</mon_bandithunter>
+			<mon_youngwaterelemental>15</mon_youngwaterelemental>
+			<mon_rockviper>15</mon_rockviper>
+			<mon_mottledsandjaw>15</mon_mottledsandjaw>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+			<mon_jadesalamander>20</mon_jadesalamander>
+			<mon_berserker_panthox>20</mon_berserker_panthox>
+			<mon_guardiansphere>20</mon_guardiansphere>
+			<mon_vinestalker>20</mon_vinestalker>
+			<mon_banditbrigand>20</mon_banditbrigand>
+			<mon_robotsnake>20</mon_robotsnake>
+			<mon_ghostsamurai>20</mon_ghostsamurai>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_guardianseeker>20</mon_guardianseeker>
+			<mon_guardianspider>10</mon_guardianspider>
+			<mon_banditbuffslinger>7</mon_banditbuffslinger>
+			<mon_banditspellshaper>7</mon_banditspellshaper>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv155</RefName>
+		
+			<mon_bandithunter>9</mon_bandithunter>
+			<mon_rockviper>9</mon_rockviper>
+			<mon_mottledsandjaw>9</mon_mottledsandjaw>
+			<mon_youngfireelemental>14</mon_youngfireelemental>
+			<mon_bifang>4</mon_bifang>
+			<mon_jadesalamander>14</mon_jadesalamander>
+			<mon_berserker_panthox>14</mon_berserker_panthox>
+			<mon_guardiansphere>14</mon_guardiansphere>
+			<mon_vinestalker>14</mon_vinestalker>
+			<mon_banditbrigand>14</mon_banditbrigand>
+			<mon_robotsnake>14</mon_robotsnake>
+			<mon_ghostsamurai>20</mon_ghostsamurai>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_guardianseeker>20</mon_guardianseeker>
+			<mon_banditspellshaper>20</mon_banditspellshaper>
+			<mon_guardianspider>20</mon_guardianspider>
+			<mon_banditbuffslinger>20</mon_banditbuffslinger>
+			<mon_banditswordmaster>10</mon_banditswordmaster>
+			<mon_poisonelemental>10</mon_poisonelemental>
+			<mon_shadowelemental>10</mon_shadowelemental>
+			<mon_rockgolem>10</mon_rockgolem>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv160</RefName>
+		
+			<mon_bandithunter>5</mon_bandithunter>
+			<mon_rockviper>5</mon_rockviper>
+			<mon_youngfireelemental>11</mon_youngfireelemental>
+			<mon_bifang>3</mon_bifang>
+			<mon_jadesalamander>11</mon_jadesalamander>
+			<mon_berserker_panthox>11</mon_berserker_panthox>
+			<mon_guardiansphere>11</mon_guardiansphere>
+			<mon_vinestalker>11</mon_vinestalker>
+			<mon_banditbrigand>11</mon_banditbrigand>
+			<mon_robotsnake>11</mon_robotsnake>
+			<mon_ghostsamurai>18</mon_ghostsamurai>
+			<mon_younglightningelemental>18</mon_younglightningelemental>
+			<mon_guardianseeker>18</mon_guardianseeker>
+			<mon_banditspellshaper>18</mon_banditspellshaper>
+			<mon_guardianspider>18</mon_guardianspider>
+			<mon_banditbuffslinger>18</mon_banditbuffslinger>
+			<mon_banditswordmaster>20</mon_banditswordmaster>
+			<mon_poisonelemental>20</mon_poisonelemental>
+			<mon_shadowelemental>20</mon_shadowelemental>
+			<mon_rockgolem>20</mon_rockgolem>
+			<mon_banebite>20</mon_banebite>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv165</RefName>
+		
+			<mon_jadesalamander>4</mon_jadesalamander>
+			<mon_berserker_panthox>4</mon_berserker_panthox>
+			<mon_guardiansphere>6</mon_guardiansphere>
+			<mon_vinestalker>6</mon_vinestalker>
+			<mon_banditbrigand>6</mon_banditbrigand>
+			<mon_robotsnake>6</mon_robotsnake>
+			<mon_ghostsamurai>13</mon_ghostsamurai>
+			<mon_younglightningelemental>13</mon_younglightningelemental>
+			<mon_guardianseeker>13</mon_guardianseeker>
+			<mon_guardianspider>13</mon_guardianspider>
+			<mon_banditbuffslinger>13</mon_banditbuffslinger>			
+			<mon_banditspellshaper>13</mon_banditspellshaper>
+			<mon_banditswordmaster>18</mon_banditswordmaster>
+			<mon_poisonelemental>18</mon_poisonelemental>
+			<mon_shadowelemental>18</mon_shadowelemental>
+			<mon_rockgolem>18</mon_rockgolem>
+			<mon_banebite>18</mon_banebite>
+			<mon_darkcavelion>4</mon_darkcavelion>
+			<mon_mossbeast>4</mon_mossbeast>
+			<mon_frostedjelly>4</mon_frostedjelly>			
+			<mon_infernospirit>4</mon_infernospirit>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv170</RefName>
+		
+			<mon_jadesalamander>2</mon_jadesalamander>
+			<mon_berserker_panthox>2</mon_berserker_panthox>
+			<mon_guardiansphere>3</mon_guardiansphere>
+			<mon_vinestalker>3</mon_vinestalker>
+			<mon_banditbrigand>3</mon_banditbrigand>
+			<mon_robotsnake>3</mon_robotsnake>
+			<mon_ghostsamurai>11</mon_ghostsamurai>
+			<mon_younglightningelemental>11</mon_younglightningelemental>
+			<mon_guardianseeker>11</mon_guardianseeker>
+			<mon_guardianspider>11</mon_guardianspider>
+			<mon_banditbuffslinger>13</mon_banditbuffslinger>			
+			<mon_banditspellshaper>11</mon_banditspellshaper>
+			<mon_banditswordmaster>16</mon_banditswordmaster>
+			<mon_poisonelemental>16</mon_poisonelemental>
+			<mon_shadowelemental>16</mon_shadowelemental>
+			<mon_rockgolem>16</mon_rockgolem>
+			<mon_banebite>16</mon_banebite>
+			<mon_darkcavelion>20</mon_darkcavelion>
+			<mon_mossbeast>20</mon_mossbeast>
+			<mon_frostedjelly>20</mon_frostedjelly>			
+			<mon_infernospirit>20</mon_infernospirit>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv175</RefName>
+		
+			<mon_ghostsamurai>11</mon_ghostsamurai>
+			<mon_younglightningelemental>10</mon_younglightningelemental>
+			<mon_guardianseeker>10</mon_guardianseeker>
+			<mon_guardianspider>11</mon_guardianspider>
+			<mon_banditbuffslinger>15</mon_banditbuffslinger>			
+			<mon_banditspellshaper>14</mon_banditspellshaper>
+			<mon_banditswordmaster>20</mon_banditswordmaster>
+			<mon_poisonelemental>20</mon_poisonelemental>
+			<mon_shadowelemental>20</mon_shadowelemental>
+			<mon_rockgolem>20</mon_rockgolem>
+			<mon_banebite>20</mon_banebite>
+			<mon_darkcavelion>15</mon_darkcavelion>
+			<mon_mossbeast>15</mon_mossbeast>
+			<mon_frostedjelly>15</mon_frostedjelly>			
+			<mon_infernospirit>15</mon_infernospirit>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv180</RefName>
+		
+			<mon_ghostsamurai>6</mon_ghostsamurai>
+			<mon_younglightningelemental>6</mon_younglightningelemental>
+			<mon_banditbuffslinger>6</mon_banditbuffslinger>
+			<mon_banditspellshaper>6</mon_banditspellshaper>
+			<mon_guardianspider>6</mon_guardianspider>
+			
+			<mon_shadowelemental>8</mon_shadowelemental>
+			<mon_banditswordmaster>8</mon_banditswordmaster>
+			<mon_rockgolem>8</mon_rockgolem>
+			<mon_banebite>8</mon_banebite>
+			<mon_poisonelemental>8</mon_poisonelemental>
+
+			<mon_darkcavelion>11</mon_darkcavelion>
+			<mon_mossbeast>11</mon_mossbeast>
+			<mon_frostedjelly>11</mon_frostedjelly>
+			<mon_infernospirit>11</mon_infernospirit>
+
+			<mon_destroyer>15</mon_destroyer>
+			<mon_nian>3</mon_nian>
+			<mon_guardianorbiter>15</mon_guardianorbiter>
+			<mon_heavygolem>15</mon_heavygolem>
+			<mon_banditsniper>15</mon_banditsniper>
+			<mon_neutralizer>15</mon_neutralizer>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv185</RefName>
+		
+			<mon_ghostsamurai>4</mon_ghostsamurai>
+			<mon_younglightningelemental>4</mon_younglightningelemental>
+			<mon_banditbuffslinger>4</mon_banditbuffslinger>
+			<mon_banditspellshaper>4</mon_banditspellshaper>
+			<mon_guardianspider>4</mon_guardianspider>
+			
+			<mon_shadowelemental>6</mon_shadowelemental>
+			<mon_banditswordmaster>6</mon_banditswordmaster>
+			<mon_rockgolem>6</mon_rockgolem>
+			<mon_banebite>6</mon_banebite>
+			<mon_poisonelemental>6</mon_poisonelemental>
+
+			<mon_darkcavelion>9</mon_darkcavelion>
+			<mon_mossbeast>9</mon_mossbeast>
+			<mon_frostedjelly>9</mon_frostedjelly>
+			<mon_infernospirit>9</mon_infernospirit>
+
+			<mon_destroyer>15</mon_destroyer>
+			<mon_nian>3</mon_nian>
+			<mon_guardianorbiter>15</mon_guardianorbiter>
+			<mon_heavygolem>15</mon_heavygolem>
+			<mon_banditsniper>15</mon_banditsniper>
+			<mon_neutralizer>15</mon_neutralizer>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>cv190</RefName>
+		
+			<mon_ghostsamurai>2</mon_ghostsamurai>
+			<mon_younglightningelemental>2</mon_younglightningelemental>
+			<mon_banditbuffslinger>2</mon_banditbuffslinger>
+			<mon_banditspellshaper>2</mon_banditspellshaper>
+			<mon_guardianspider>2</mon_guardianspider>
+			
+			<mon_shadowelemental>5</mon_shadowelemental>
+			<mon_banditswordmaster>5</mon_banditswordmaster>
+			<mon_rockgolem>5</mon_rockgolem>
+			<mon_banebite>5</mon_banebite>
+			<mon_poisonelemental>5</mon_poisonelemental>
+
+			<mon_darkcavelion>8</mon_darkcavelion>
+			<mon_mossbeast>8</mon_mossbeast>
+			<mon_frostedjelly>8</mon_frostedjelly>
+			<mon_infernospirit>8</mon_infernospirit>
+
+			<mon_destroyer>15</mon_destroyer>
+			<mon_nian>3</mon_nian>
+			<mon_guardianorbiter>15</mon_guardianorbiter>
+			<mon_heavygolem>15</mon_heavygolem>
+			<mon_banditsniper>15</mon_banditsniper>
+			<mon_neutralizer>15</mon_neutralizer>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>abandonedfacility1</RefName>
+		
+			<mon_guardianspider>8</mon_guardianspider>
+			<mon_guardianseeker>8</mon_guardianseeker>
+			<mon_guardiansphere>20</mon_guardiansphere>
+			<mon_robotsnake>20</mon_robotsnake>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>abandonedfacility2</RefName>
+		
+			<mon_guardianspider>20</mon_guardianspider>
+			<mon_guardianseeker>20</mon_guardianseeker>
+			<mon_guardiansphere>20</mon_guardiansphere>
+			<mon_robotsnake>20</mon_robotsnake>		
+		
+	</SpawnTable>	
+	<SpawnTable>
+		<RefName>fungalcaves1</RefName>
+		
+			<mon_fungaltoad>3</mon_fungaltoad>
+			<mon_pirahnas>3</mon_pirahnas>
+			<mon_redcrab>4</mon_redcrab>
+			<mon_cavelion>14</mon_cavelion>
+			<mon_jadebeetle>14</mon_jadebeetle>
+			<mon_swamptoad>20</mon_swamptoad>
+			<mon_hoverbot>20</mon_hoverbot>		
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>fungalcaves2</RefName>
+		
+			<mon_cavelion>14</mon_cavelion>
+			<mon_jadebeetle>14</mon_jadebeetle>
+			<mon_swamptoad>20</mon_swamptoad>
+			<mon_hoverbot>20</mon_hoverbot>
+			<mon_livingvine>20</mon_livingvine>		
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>fungalcaves3</RefName>
+		
+			<mon_cavelion>10</mon_cavelion>
+			<mon_jadebeetle>10</mon_jadebeetle>
+			<mon_dijiang>3</mon_dijiang>
+			<mon_swamptoad>15</mon_swamptoad>
+			<mon_livingvine>15</mon_livingvine>
+			<mon_hoverbot>15</mon_hoverbot>			
+			<mon_rockviper>20</mon_rockviper>
+			<mon_mottledsandjaw>20</mon_mottledsandjaw>	
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>fungalcaves4</RefName>
+		
+			<mon_cavelion>5</mon_cavelion>
+			<mon_jadebeetle>5</mon_jadebeetle>
+			<mon_dijiang>1</mon_dijiang>
+			<mon_swamptoad>13</mon_swamptoad>
+			<mon_livingvine>13</mon_livingvine>
+			<mon_hoverbot>13</mon_hoverbot>
+			<mon_youngwaterelemental>20</mon_youngwaterelemental>
+			<mon_rockviper>20</mon_rockviper>
+			<mon_mottledsandjaw>20</mon_mottledsandjaw>
+			<mon_youngfireelemental>5</mon_youngfireelemental>
+			<mon_bifang>2</mon_bifang>
+		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cragganmine</RefName>
+		
+			<mon_plunderer>5</mon_plunderer>
+			<mon_dijiang>1</mon_dijiang>
+			<mon_alchemist>16</mon_alchemist>
+			<mon_bandithunter>20</mon_bandithunter>
+			<mon_youngfireelemental>10</mon_youngfireelemental>
+			<mon_bifang>4</mon_bifang>
+			<mon_rockviper>15</mon_rockviper>
+			<mon_rockviperlava>15</mon_rockviperlava>
+			<mon_banditbrigand>10</mon_banditbrigand>
+			<mon_mottledsandjawlava>15</mon_mottledsandjawlava>	
+		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>magmachamber1</RefName>
+		
+			<mon_guardiansphere>20</mon_guardiansphere>
+			<mon_banditbrigand>20</mon_banditbrigand>
+			<mon_mottledsandjawlava>20</mon_mottledsandjawlava>
+			<mon_rockviperlava>20</mon_rockviperlava>
+			<mon_bandithunter>17</mon_bandithunter>			
+			<mon_youngfireelemental>10</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>magmachamber2</RefName>
+		
+			<mon_guardiansphere>20</mon_guardiansphere>
+			<mon_banditbrigand>20</mon_banditbrigand>
+			<mon_rockviperlava>20</mon_rockviperlava>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_bifang>10</mon_bifang>
+			<mon_bandithunter>14</mon_bandithunter>
+			<mon_mottledsandjawlava>20</mon_mottledsandjawlava>
+			<mon_ghostsamurai>10</mon_ghostsamurai>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>spinymaze</RefName>
+		
+			<mon_toxicurchin>20</mon_toxicurchin>
+			<mon_bigurchin>10</mon_bigurchin>
+		
+	</SpawnTable>	
+	<SpawnTable>
+		<RefName>ancientruins1</RefName>
+		
+			<mon_swamptoad>5</mon_swamptoad>
+			<mon_livingvine>8</mon_livingvine>
+			<mon_youngwaterelemental>17</mon_youngwaterelemental>
+			<mon_rockviper>17</mon_rockviper>
+			<mon_mottledsandjaw>17</mon_mottledsandjaw>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+			<mon_guardiansphere>20</mon_guardiansphere>
+			<mon_robotsnake>20</mon_robotsnake>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>ancientruins2</RefName>
+		
+			<mon_youngwaterelemental>15</mon_youngwaterelemental>
+			<mon_rockviper>15</mon_rockviper>
+			<mon_mottledsandjaw>15</mon_mottledsandjaw>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+			<mon_guardiansphere>20</mon_guardiansphere>
+			<mon_robotsnake>20</mon_robotsnake>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_guardianspider>10</mon_guardianspider>
+			<mon_guardianseeker>10</mon_guardianseeker>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>ancientruins3</RefName>
+		
+			<mon_youngwaterelemental>12</mon_youngwaterelemental>
+			<mon_rockviper>12</mon_rockviper>
+			<mon_mottledsandjaw>12</mon_mottledsandjaw>
+			<mon_youngfireelemental>18</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+			<mon_guardiansphere>18</mon_guardiansphere>
+			<mon_robotsnake>18</mon_robotsnake>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_guardianspider>15</mon_guardianspider>
+			<mon_guardianseeker>15</mon_guardianseeker>		
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>ancientruins4</RefName>
+		
+			<mon_youngwaterelemental>5</mon_youngwaterelemental>
+			<mon_rockviper>7</mon_rockviper>
+			<mon_mottledsandjaw>7</mon_mottledsandjaw>
+			<mon_youngfireelemental>14</mon_youngfireelemental>
+			<mon_bifang>4</mon_bifang>
+			<mon_guardiansphere>14</mon_guardiansphere>
+			<mon_robotsnake>14</mon_robotsnake>
+			<mon_younglightningelemental>20</mon_younglightningelemental>			
+			<mon_guardianspider>20</mon_guardianspider>
+			<mon_guardianseeker>20</mon_guardianseeker>
+			<mon_poisonelemental>17</mon_poisonelemental>
+			<mon_shadowelemental>17</mon_shadowelemental>	
+		
+	</SpawnTable>	
+	<SpawnTable>
+		<RefName>floor1</RefName>
+		
+			<mon_mossjelly>5</mon_mossjelly>
+			<mon_salamander>5</mon_salamander>			
+			<mon_grottoflyer>5</mon_grottoflyer>
+			<mon_slimerat>10</mon_slimerat>
+			<mon_creepingspider>10</mon_creepingspider>
+			<mon_toxicurchin>10</mon_toxicurchin>
+			<mon_electricjelly>5</mon_electricjelly>	
+		
+	</SpawnTable>	
+	<SpawnTable>
+		<RefName>floor2</RefName>
+		
+			<mon_salamander>2</mon_salamander>			
+			<mon_grottoflyer>3</mon_grottoflyer>
+			<mon_slimerat>5</mon_slimerat>
+			<mon_electricjelly>5</mon_electricjelly>
+			<mon_firejelly>5</mon_firejelly>
+			<mon_creepingspider>7</mon_creepingspider>
+			<mon_toxicurchin>7</mon_toxicurchin>
+			<mon_fungaltoad>10</mon_fungaltoad>
+			<mon_pirahnas>10</mon_pirahnas>
+			<mon_redcrab>10</mon_redcrab>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>floor3</RefName>
+		
+			<mon_electricjelly>5</mon_electricjelly>
+			<mon_firejelly>5</mon_firejelly>			
+			<mon_creepingspider>8</mon_creepingspider>
+			<mon_fungaltoad>12</mon_fungaltoad>
+			<mon_pirahnas>13</mon_pirahnas>
+			<mon_redcrab>13</mon_redcrab>
+			<mon_bigurchin>6</mon_bigurchin>
+			<mon_cavelion>20</mon_cavelion>
+			<mon_jadebeetle>20</mon_jadebeetle>			
+			<mon_dijiang>3</mon_dijiang>
+		
+	</SpawnTable>		
+	<SpawnTable>
+		<RefName>amberstation1</RefName>
+		
+			<mon_fungaltoad>3</mon_fungaltoad>
+			<mon_pirahnas>3</mon_pirahnas>
+			<mon_redcrab>4</mon_redcrab>
+			<mon_bigurchin>1</mon_bigurchin>
+			<mon_cavelion>14</mon_cavelion>
+			<mon_jadebeetle>14</mon_jadebeetle>
+			<mon_plunderer>17</mon_plunderer>
+			<mon_alchemist>20</mon_alchemist>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>amberstation2</RefName>
+		
+			<mon_cavelion>14</mon_cavelion>
+			<mon_jadebeetle>14</mon_jadebeetle>
+			<mon_plunderer>17</mon_plunderer>
+			<mon_alchemist>20</mon_alchemist>
+			<mon_bandithunter>10</mon_bandithunter>			
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>amberstation3</RefName>
+		
+			<mon_cavelion>10</mon_cavelion>
+			<mon_jadebeetle>10</mon_jadebeetle>
+			<mon_plunderer>15</mon_plunderer>
+			<mon_alchemist>15</mon_alchemist>
+			<mon_bandithunter>20</mon_bandithunter>
+			<mon_rockviper>20</mon_rockviper>
+			<mon_mottledsandjaw>20</mon_mottledsandjaw>		
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>amberstation4</RefName>
+		
+			<mon_cavelion>5</mon_cavelion>
+			<mon_jadebeetle>5</mon_jadebeetle>
+			<mon_plunderer>10</mon_plunderer>
+			<mon_swamptoad>13</mon_swamptoad>
+			<mon_alchemist>13</mon_alchemist>
+			<mon_bandithunter>20</mon_bandithunter>
+			<mon_rockviper>20</mon_rockviper>
+			<mon_mottledsandjaw>20</mon_mottledsandjaw>
+			<mon_youngfireelemental>5</mon_youngfireelemental>	
+			<mon_bifang>2</mon_bifang>
+		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>stonehalls1</RefName>
+		
+			<mon_plunderer>3</mon_plunderer>
+			<mon_dijiang>1</mon_dijiang>
+			<mon_swamptoad>5</mon_swamptoad>
+			<mon_alchemist>5</mon_alchemist>
+			<mon_livingvine>8</mon_livingvine>
+			<mon_bandithunter>17</mon_bandithunter>
+			<mon_youngwaterelemental>17</mon_youngwaterelemental>
+			<mon_rockviper>17</mon_rockviper>
+			<mon_mottledsandjaw>17</mon_mottledsandjaw>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>stonehalls2</RefName>
+		
+			<mon_alchemist>3</mon_alchemist>
+			<mon_bandithunter>15</mon_bandithunter>
+			<mon_youngwaterelemental>15</mon_youngwaterelemental>
+			<mon_rockviper>15</mon_rockviper>
+			<mon_mottledsandjaw>15</mon_mottledsandjaw>
+			<mon_youngfireelemental>20</mon_youngfireelemental>
+			<mon_bifang>5</mon_bifang>
+			<mon_ghostsamurai>20</mon_ghostsamurai>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_banditbuffslinger>5</mon_banditbuffslinger>			
+			<mon_banditspellshaper>5</mon_banditspellshaper>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>stonehalls3</RefName>
+		
+			<mon_bandithunter>12</mon_bandithunter>
+			<mon_youngwaterelemental>12</mon_youngwaterelemental>
+			<mon_rockviper>12</mon_rockviper>
+			<mon_mottledsandjaw>12</mon_mottledsandjaw>
+			<mon_youngfireelemental>18</mon_youngfireelemental>
+			<mon_bifang>4</mon_bifang>
+			<mon_ghostsamurai>20</mon_ghostsamurai>
+			<mon_banditspellshaper>20</mon_banditspellshaper>
+			<mon_younglightningelemental>20</mon_younglightningelemental>
+			<mon_banditbuffslinger>15</mon_banditbuffslinger>
+			<mon_banditswordmaster>5</mon_banditswordmaster>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>stonehalls4</RefName>
+		
+			<mon_bandithunter>7</mon_bandithunter>
+			<mon_youngwaterelemental>5</mon_youngwaterelemental>
+			<mon_rockviper>7</mon_rockviper>
+			<mon_mottledsandjaw>7</mon_mottledsandjaw>
+			<mon_youngfireelemental>14</mon_youngfireelemental>
+			<mon_bifang>4</mon_bifang>
+			<mon_ghostsamurai>20</mon_ghostsamurai>
+			<mon_younglightningelemental>20</mon_younglightningelemental>			
+			<mon_banditbuffslinger>15</mon_banditbuffslinger>			
+			<mon_banditspellshaper>20</mon_banditspellshaper>
+			<mon_banditswordmaster>20</mon_banditswordmaster>
+			<mon_poisonelemental>20</mon_poisonelemental>
+			<mon_rockgolem>20</mon_rockgolem>
+		
+	</SpawnTable>		
+	<SpawnTable>
+		<RefName>stonehalls5</RefName>
+		
+			<mon_bandithunter>5</mon_bandithunter>
+			<mon_rockviper>5</mon_rockviper>
+			<mon_youngfireelemental>11</mon_youngfireelemental>
+			<mon_bifang>3</mon_bifang>
+			<mon_guardiansphere>11</mon_guardiansphere>
+			<mon_banditbrigand>11</mon_banditbrigand>
+			<mon_robotsnake>11</mon_robotsnake>
+			<mon_ghostsamurai>18</mon_ghostsamurai>
+			<mon_younglightningelemental>18</mon_younglightningelemental>
+			<mon_guardianspider>18</mon_guardianspider>
+			<mon_guardianseeker>18</mon_guardianseeker>
+			<mon_banditbuffslinger>15</mon_banditbuffslinger>			
+			<mon_banditspellshaper>18</mon_banditspellshaper>
+			<mon_banditswordmaster>20</mon_banditswordmaster>
+			<mon_poisonelemental>20</mon_poisonelemental>
+			<mon_shadowelemental>20</mon_shadowelemental>
+			<mon_rockgolem>20</mon_rockgolem>
+			<mon_banebite>20</mon_banebite>
+		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>replicator1</RefName>
+		
+			<mon_guardiansphere>7</mon_guardiansphere>
+			<mon_banditbrigand>7</mon_banditbrigand>
+			<mon_robotsnake>7</mon_robotsnake>
+			<mon_ghostsamurai>14</mon_ghostsamurai>
+			<mon_younglightningelemental>14</mon_younglightningelemental>
+			<mon_guardianspider>14</mon_guardianspider>
+			<mon_guardianseeker>14</mon_guardianseeker>
+			<mon_banditbuffslinger>12</mon_banditbuffslinger>			
+			<mon_banditspellshaper>14</mon_banditspellshaper>
+			<mon_banditswordmaster>20</mon_banditswordmaster>
+			<mon_poisonelemental>20</mon_poisonelemental>
+			<mon_shadowelemental>20</mon_shadowelemental>
+			<mon_rockgolem>20</mon_rockgolem>
+			<mon_banebite>20</mon_banebite>
+			<mon_darkcavelion>20</mon_darkcavelion>
+			<mon_mossbeast>20</mon_mossbeast>
+			<mon_frostedjelly>20</mon_frostedjelly>
+			<mon_infernospirit>15</mon_infernospirit>
+		
+	</SpawnTable>	
+	<SpawnTable>
+		<RefName>replicator2</RefName>
+		
+			<mon_guardiansphere>3</mon_guardiansphere>
+			<mon_banditbrigand>3</mon_banditbrigand>
+			<mon_robotsnake>3</mon_robotsnake>
+			<mon_ghostsamurai>11</mon_ghostsamurai>
+			<mon_younglightningelemental>11</mon_younglightningelemental>
+			<mon_guardianspider>11</mon_guardianspider>
+			<mon_guardianseeker>11</mon_guardianseeker>
+			<mon_banditbuffslinger>11</mon_banditbuffslinger>			
+			<mon_banditspellshaper>11</mon_banditspellshaper>
+			<mon_banditswordmaster>16</mon_banditswordmaster>
+			<mon_poisonelemental>16</mon_poisonelemental>
+			<mon_shadowelemental>16</mon_shadowelemental>
+			<mon_rockgolem>16</mon_rockgolem>
+			<mon_banebite>16</mon_banebite>
+			<mon_darkcavelion>20</mon_darkcavelion>
+			<mon_mossbeast>20</mon_mossbeast>
+			<mon_frostedjelly>20</mon_frostedjelly>
+			<mon_infernospirit>20</mon_infernospirit>
+		
+	</SpawnTable>
+	<SpawnTable>
+		<RefName>replicator3</RefName>
+					
+			<mon_ghostsamurai>6</mon_ghostsamurai>
+			<mon_younglightningelemental>6</mon_younglightningelemental>
+			<mon_banditbuffslinger>6</mon_banditbuffslinger>
+			<mon_banditspellshaper>6</mon_banditspellshaper>
+			<mon_guardianspider>6</mon_guardianspider>
+			
+			<mon_shadowelemental>8</mon_shadowelemental>
+			<mon_banditswordmaster>8</mon_banditswordmaster>
+			<mon_rockgolem>8</mon_rockgolem>
+			<mon_banebite>8</mon_banebite>
+			<mon_poisonelemental>8</mon_poisonelemental>
+
+			<mon_darkcavelion>11</mon_darkcavelion>
+			<mon_mossbeast>11</mon_mossbeast>
+			<mon_frostedjelly>11</mon_frostedjelly>
+			<mon_infernospirit>11</mon_infernospirit>
+
+			<mon_destroyer>15</mon_destroyer>
+			<mon_nian>4</mon_nian>
+			<mon_guardianorbiter>15</mon_guardianorbiter>
+			<mon_heavygolem>15</mon_heavygolem>
+			<mon_banditsniper>15</mon_banditsniper>
+			<mon_neutralizer>15</mon_neutralizer>
+		
+	</SpawnTable>
+	
+	<SpawnTable>
+		<RefName>finalhub_sidearea</RefName>
+		
+			<mon_guardianspider>6</mon_guardianspider>
+			
+			<mon_banditswordmaster>8</mon_banditswordmaster>
+			<mon_rockgolem>8</mon_rockgolem>
+			<mon_banebite>8</mon_banebite>
+
+			<mon_destroyer>15</mon_destroyer>
+			<mon_nian>4</mon_nian>
+			<mon_guardianorbiter>15</mon_guardianorbiter>
+			<mon_heavygolem>15</mon_heavygolem>
+			<mon_banditsniper>15</mon_banditsniper>
+			<mon_neutralizer>15</mon_neutralizer>
+		
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>cv190_special_nobots</RefName>
+		
+			<mon_ghostsamurai>2</mon_ghostsamurai>
+			
+			<mon_shadowelemental>5</mon_shadowelemental>
+			<mon_rockgolem>5</mon_rockgolem>
+			<mon_banebite>5</mon_banebite>
+			<mon_poisonelemental>5</mon_poisonelemental>
+
+			<mon_darkcavelion>8</mon_darkcavelion>
+			<mon_mossbeast>8</mon_mossbeast>
+
+			<mon_banditsniper>15</mon_banditsniper>
+
+			<mon_purplepirahnas>18</mon_purplepirahnas>
+			<mon_purplefrostedjelly>18</mon_purplefrostedjelly>
+			<mon_purplewaterelemental>18</mon_purplewaterelemental>
+			<mon_purplebanditswordmaster>18</mon_purplebanditswordmaster>
+		
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>postdirtbeak_special</RefName>
+		
+			<mon_cavelion>10</mon_cavelion>
+			<mon_swamptoad>15</mon_swamptoad>
+			<mon_alchemist>15</mon_alchemist>
+			<mon_livingvine>15</mon_livingvine>
+		
+	</SpawnTable>	
+
+	<SpawnTable>
+		<RefName>sharafinalboss_table</RefName>
+		<mon_heavygolem>130</mon_heavygolem>
+		<mon_banditsniper>50</mon_banditsniper>
+		<mon_neutralizer>50</mon_neutralizer>		
+		<mon_banditswordmaster>120</mon_banditswordmaster>
+		<mon_sentrybot2>300</mon_sentrybot2>
+		<mon_robotsnake>200</mon_robotsnake>
+		<mon_guardianorbiter>100</mon_guardianorbiter>
+		<mon_banebite>70</mon_banebite>
+	</SpawnTable>
+
+	<SpawnTable>
+		<RefName>lunarnewyear_table</RefName>
+		<mon_dijiang>15</mon_dijiang>
+		<mon_bifang>15</mon_bifang>
+		<mon_nian>15</mon_nian>
+	</SpawnTable>
+</DOCUMENT>

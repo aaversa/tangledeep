@@ -1,0 +1,192 @@
+output
+	[opening_this][tail_end_no_this]
+	[opening_no_this][tail_end_this]
+
+opening_this
+	I found this when [dream_action]
+	This came from [dream_place], where [dream_event]
+	This #item_type, I found it when [dream_action]
+	I remember how I found this, I think [dream_action]
+	[dream_action], then this appeared
+	#item_type_with_article I discovered when [dream_event]
+	This #item_type appeared in [dream_place] while [dream_event]
+
+opening_no_this
+	I dreamed of [dream_noun] and [dream_noun]
+	There was a vision of [dream_noun], then [dream_event]
+	I imagined [dream_noun], then [dream_event]
+	[dream_action]
+	[dream_event], then [dream_event]
+	I have a memory where [dream_event], then [dream_event]
+	I drifted through [dream_place], when [dream_action]
+	
+tail_end_no_this
+	. It was all a blur.
+	. I wonder why?
+	. I woke up with a good feeling!
+	. I felt like I was really there.
+	. Could that happen?
+	, what could that mean?
+	, and I'm not sure why.
+	... or did I get that backwards?
+	... and I forgot the rest.
+	. #item_owner guided me to [dream_place], and I woke up.
+	. Was that real?
+	. What a dream!
+	. What a twist!
+	, but I can't remember the rest.
+	, but it all seemed so far away.
+	, but that just seems silly.
+	, and then I woke up.
+	
+
+tail_end_this
+	, and I woke up holding this.
+	, and I woke up holding #item_type_with_article.
+	. What does #item_type_with_article have to do with that?
+	. This is all that remains.
+	. Does this item make it real?
+	, and this is what was left.
+	. I've never seen a [dream_superlative] #item_type!
+	. Could there be a [dream_superlative] #item_type?
+	. Was this a gift from #item_owner?
+	. Did #item_owner truly wield this?
+	, and I started eating #item_type_with_article.
+	. Does this #item_type have a secret meaning?
+	
+	
+dream_noun
+	a flock of frogs
+	three cats atop each other
+	walking suits of armor
+	an old friend
+	a slime
+	slimes
+	bandits
+	Erin
+	Jorito
+	Nando
+	Katie
+	Shara
+	Jesse
+	#item_owner
+	my parents
+	a school of fish
+	a Grotto Flyer
+	a wheel of finest cheese
+	my shadow
+	a goldfrog
+	a Floraconda
+	Ruby Moon
+	flying metal discs
+	the Dreamcaster
+	a merchant
+	a blacksmith
+	a Moss Beast
+	
+dream_superlative
+	mightier
+	stronger
+	truer
+	fluffier
+	more perfect
+	cheese flavored
+	greater
+	more valuable
+	finer
+	more shiny
+	
+	
+	
+	
+	
+dream_action
+	#item_owner [owner_action] and then [owner_action]
+	I imagined an echo of [dream_noun] in [dream_place]
+	I was with [dream_noun], somewhere in [dream_place]
+	[dream_noun] challenged me with #item_type_with_article
+	#item_owner hurled #item_type_with_article into [dream_place]
+	I stood side by side with #item_owner, facing down [dream_noun]
+	[dream_noun] led me through [dream_place] to meet #item_owner
+	
+dream_event
+	[dream_noun] chased [dream_noun] through [dream_place]
+	I sat down for [dream_thing_i_sit_down_for] with [dream_noun]
+	[dream_noun] showed me a painting of [dream_place]
+	I was [dream_synonyms_for_lost] in [dream_place] and couldn't find a bathroom
+	[dream_noun] seemed [dream_synonyms_for_lost]
+	[dream_noun] took the form of #item_type_with_article
+	I yearned for #item_type_with_article
+	#item_type_with_article spilled from my backpack
+	[dream_noun] wandered [carry_places], whistling [song_type_full]
+	
+dream_place
+	a lake
+	a pantry
+	the forest
+	a river
+	a camp
+	a dungeon
+	a metal hallway
+	a cave
+	the bluest sky
+	the clouds
+	a glade
+	a swamp
+	the mirror
+	
+dream_thing_i_sit_down_for
+	a meal
+	a game of cards
+	a game of chess
+	a nap
+	a while
+	a spell
+	
+dream_synonyms_for_lost
+	lost
+	confused
+	trapped
+	stuck
+	wandering
+	running
+	
+owner_action
+	carried me [carry_places]
+	spoke in a voice like thunder
+	spoke in a whisper
+	sang [song_type_full]
+	stared at me in silence
+	told me a joke
+	shared a meal with me
+	brought me [dream_noun]
+	lectured me about [dream_noun]
+	warned me about [dream_noun]
+	hunted [dream_noun] with me
+	sent me on a quest to journey [carry_places]
+	
+	
+carry_places
+	across a desert
+	across a bridge
+	through a forest
+	for hours
+	to my bed
+	up endless stairs
+	
+song_type_full
+	a mournful [song]
+	a pleasant [song]
+	a [song] about [dream_noun]
+	a [song] about #item_type_with_article
+	a mighty [song]
+	a peaceful [song]
+	a [song] backwards
+	an angry [song]
+		
+song
+	hymn
+	chorus
+	verse
+	rhyme
+	tune

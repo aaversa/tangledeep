@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1219119889398944}
+  m_IsPrefabAsset: 1
+--- !u!1 &1219119889398944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4108509224273110}
+  - component: {fileID: 114460131526153670}
+  m_Layer: 0
+  m_Name: CutsceneCues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4108509224273110
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1219119889398944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114460131526153670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1219119889398944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593ac2f2e80e90f40b31c93905ad67ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cues:
+  - cueName: SupervisorGroan
+    clips:
+    - {fileID: 8300000, guid: 948399504dfd39f4dbc2bec3f06236a5, type: 3}
+    volume: 0
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: SpawnRayOfLight
+    clips:
+    - {fileID: 8300000, guid: e028c1e6541a7df4dabe1b587fe420eb, type: 3}
+    volume: 0
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: RobotWakeup
+    clips:
+    - {fileID: 8300000, guid: a82d4c1cc520a4648938973b7e5c2652, type: 3}
+    volume: 0
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: SharaEnergize
+    clips:
+    - {fileID: 8300000, guid: d39e9c6a23b22fe4c9969d33d723b8e1, type: 3}
+    - {fileID: 8300000, guid: c62f574c9aabc3646a83de20c439c294, type: 3}
+    volume: 0
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 2
+  - cueName: BabySentry
+    clips:
+    - {fileID: 8300000, guid: 97ef3ebee58fe32429be80a43b0f7958, type: 3}
+    volume: 0
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 2

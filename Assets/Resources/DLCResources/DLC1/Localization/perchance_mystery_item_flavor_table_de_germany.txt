@@ -1,0 +1,143 @@
+output
+	[opening_item] [feeling] [story] [ending_item]
+	[opening_dream] [feeling] [story] [ending_dream]
+
+opening_item
+	Ich habe diesen Gegenstand in [dream_place] gefunden.
+	Dieser Gegenstand war auf einmal da.
+	Ich erinnere mich noch, wie ich das hier gefunden habe.
+	Dieses Relikt erschien ganz plötzlich vor mir, als ich in [dream_place] war.
+	Das ist aus [dream_place].
+	Ich habe das in [dream_place] gefunden.
+	Eine Gruppe [monster] hat mich zu [dream_place] gejagt, wo ich das auf dem Boden gefunden habe.
+	Ich habe mich in [dream_place] verlaufen, als ich plötzlich dieses Relikt gefunden habe.
+	Ich hatte eine Vision, in der [female_npc] mir gesagt hat, dass ich diesen Gegenstand unbedingt finden muss.
+
+opening_dream
+	Ich hatte vor kurzem einen ganz merkwürdigen Traum.
+	Ich hatte heute den verrücktesten Traum von [dream_place].
+	Ich bin neulich schweißgebadet von einem Traum aufgewacht; ich glaube, [female_npc] war auch da.
+	Ich hatte einen ganz seltsamen Traum von [dream_place].
+	Ich erinnere mich gerade einen Traum, den ich mal von [dream_place] hatte.
+	Es gibt da diesen Traum, den ich mal hatte.
+	Ich habe ein paarmal davon geträumt, dass ich mich in einem Dungeon verlaufe und mich auf einmal massenweise [monster] umzingeln.
+
+feeling
+	Ich war von [terrain] umgeben.
+	Ich war total [emotion].
+	Mir war so kalt.
+	Alles war voll mit [terrain].
+	Ich hatte ein ganz komisches Gefühl und war gleichzeitig so [emotion].
+	Dort war es ganz ruhig.
+	Ich hatte Gänsehaut.
+	Ich war ganz verwirrt.
+	Es war düster.
+	Die Luft hat nach [home] gerochen.
+
+story
+	Ich habe mich hingesetzt, als auf einmal [dream_noun] aufgetaucht ist und mit mir [thing_to_sit_down_for] wollte.
+	Auf einmal steht da [dream_noun].
+	Plötzlich starrt mir [dream_noun] ins Gesicht.
+	Und dann steht da plötzlich [dream_noun] vor mir.
+	Dann tippt mir jemand auf die Schulter, und als ich mich umdrehe, steht da [dream_noun]!
+	Jemand hat meinen Namen gerufen, und als ich mich umdrehte, kam von oben [dream_noun] auf mich zugeflogen.
+	Und dann hat mich plötzlich [dream_noun] zu einem Kampf herausgefordert!
+	Ein [male_frog] wollte, dass ich ein Bild von ihm male.
+	Ich konnte meine [shoes_word] nicht finden, also habe ich einfach eine Weile nur so dagestanden.
+	Ich hatte furchtbaren Kohldampf, also haben [dream_noun] und ich uns zum Essen hingesetzt.
+	Ich hatte Lust, ein Lied zu singen, aber ich konnte nur an [shoes_word] denken!
+
+ending_item
+	Das ergibt einfach keinen Sinn.
+	Was für ein seltsamer Traum!
+	Sonst kann ich mich an überhaupt nichts erinnern.
+	Diesen Traum hatte ich jetzt schon ein paarmal.
+	Auf solche Träume kann ich wirklich gern verzichten!
+	Na hoffentlich geht dieser Traum niemals in Erfüllung.
+	Es hat sich wirklich gelohnt, denn damit macht das Leben einfach mehr Spaß!
+	Manche Gegenstände machen einfach glücklich!
+	Oder verwechsle ich da etwas?
+
+ending_dream
+	Als ich aufgewacht bin, hatte ich das in den Händen.
+	Dieser Gegenstand ist alles, was davon zurückgeblieben ist.
+	Hat dieser Gegenstand womöglich eine tiefere Bedeutung?
+	Aber was hat dieser Gegenstand bloß damit zu tun?!?
+	Dieser Gegenstand ist alles, was mir davon geblieben ist.
+	Sonst kann ich mich zwar an nichts erinnern, aber immerhin habe ich diesen Gegenstand!
+
+thing_to_sit_down_for
+	zusammen essen
+	Karten spielen
+	Schach spielen
+	streiten
+	über Banditenrechte reden
+	über Froschpolitik diskutieren
+	über Schleimliteratur quatschen
+
+emotion
+	glücklich
+	ängstlich
+	voller Freude
+	voller Vorfreude
+	zufrieden
+	
+terrain
+	Wasser
+	Lava
+	Dornen
+	Bäumen
+	Metall
+
+dream_place
+	einem See
+	einem Wald
+	einem Fluss
+	einem Lager
+	einem Dungeon
+	einer Höhle
+	einem Moor
+
+monster
+	Frösche
+	Insekten
+	Monster
+	Banditen
+	Floracondas
+
+female_npc
+	Erin
+	Julia
+	Katie Twinkles
+	Hildegard
+	Ruby Moon
+
+male_frog
+	Goldfrosch
+	Harmloser Frosch
+	Morastfrosch
+
+shoes_word
+	Schuhe
+	Stiefel
+	Springerstiefel
+	Laufschuhe
+
+dream_noun
+	meine Mutter
+	ein Wolf
+	Erin
+	Jorito
+	Nando
+	Katie
+	Shara
+	Jesse
+	ein riesiger Schleim
+	ein Floracondababy
+
+home
+	dem Windbacher Marktplatz
+	meinem Zuhause
+	dem Windbacher Hain
+
+	

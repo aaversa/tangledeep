@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>
+		<DName>exp_skill_voidshield_displayname</DName>
+		<RefName>status_voidshield</RefName>
+		<Description>exp_status_flowshield_desc</Description>
+		<Icon>SkillIcons_84</Icon>		
+		<ISpr>ShadowAura</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<Script_RunOnAdd>SetVoidShieldHealth</Script_RunOnAdd>
+		<DestroyStatusOnRemove>voidshield_destroy_fx</DestroyStatusOnRemove>		
+		<DestroyStatusOnAdd>exp_dmgup_25</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>status_flowshield</DestroyStatusOnAdd>
+		<ShowIcon />
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AbilEffectRef>flowshield_eff</AbilEffectRef>
+	</SE>
+
+	<SE>
+		<DName>exp_skill_flowshield_displayname</DName>
+		<RefName>status_flowshield</RefName>
+		<Description>exp_status_flowshield_desc</Description>
+		<Icon>SkillIcons_84</Icon>		
+		<ISpr>FlowAura</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<Script_RunOnAdd>SetFlowShieldHealth</Script_RunOnAdd>
+		<DestroyStatusOnRemove>flowshield_destroy_fx</DestroyStatusOnRemove>
+		<DestroyStatusOnAdd>exp_dmgup_25</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>status_voidshield</DestroyStatusOnAdd>
+		<ShowIcon />
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>flowshield_eff</ERef>
+			<Script_Special>FlowShieldAbsorbDamage</Script_Special>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>
+
+	<SE>
+		<RefName>voidshield_destroy_fx</RefName>
+		<Pos />		
+		<Run>
+			<ONREMOVE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>voidshield_destroy_fx</ERef>
+			<Script_Special>VoidShieldDestroyedEffect</Script_Special>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<RefName>flowshield_destroy_fx</RefName>
+		<Pos />		
+		<Run>
+			<ONREMOVE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>flowshield_destroy_fx</ERef>
+			<Script_Special>FlowShieldDestroyedEffect</Script_Special>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>exp_misc_dominated</DName>
+		<RefName>exp_status_dominated</RefName>
+		<Script_RunOnAdd>AddCharmedToSelf</Script_RunOnAdd>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>dominated_transferhealth</ERef>
+			<Disp>exp_skill_dominate_displayname</Disp>
+			<Targ>SELF</Targ>
+			<Script_Special>TransferDominatedHealth</Script_Special>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<RefName>exp_status_truehover</RefName>
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>truehover_reduce_grounddamage</ERef>
+			<Targ>SELF</Targ>
+			<Script_Special>TrueHoverReduceGroundDamage</Script_Special>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>		
+
+	<SE>
+		<RefName>exp_status_improveddominate</RefName>
+		<PermaBuffNoRun />
+	</SE>	
+
+	<SE>
+		<RefName>exp_status_commandingpresence</RefName>		
+		<ATags>PERTARGETANIM</ATags>
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<Script_PreRunConditional>ScaleProcChancePerDominatedCreatures</Script_PreRunConditional>
+			<ERef>procdominate_attack</ERef>
+			<StatusRef>exp_status_dominated</StatusRef>
+			<ProcChance>.04</ProcChance>
+			<Targ>DEFENDER</Targ>
+			<TriggerPerTurns>1</TriggerPerTurns>
+			<Duration>99</Duration>
+		</AEff>	
+	</SE>		
+
+	<SE>
+		<RefName>exp_status_collectivestrength</RefName>		
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>collectivestrength_boost</ERef>
+			<ScriptAttackModifier>CollectiveStrengthBoost</ScriptAttackModifier>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<RefName>exp_status_charisma</RefName>		
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>proc_dominate_onattack</ERef>
+			<Script_TriggerCondition>OnlyAffectBanditAttacker</Script_TriggerCondition>
+			<StatusRef>exp_status_dominated</StatusRef>
+			<ProcChance>.12</ProcChance>
+			<Targ>ATTACKER</Targ>
+			<TriggerPerTurns>3</TriggerPerTurns>
+			<Duration>99</Duration>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<RefName>exp_status_necessarysacrifice</RefName>		
+		<PermaBuffNoRun />
+	</SE>		
+
+	<SE>
+		<DName>exp_skill_voidbolt_displayname</DName>
+		<RefName>exp_status_essencedrain</RefName>
+		<ISpr>HauntedEffect</ISpr>
+		<ShowIcon />
+		<Icon>SkillIcons_32</Icon>
+		
+		<Flag>POISON</Flag>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_voidbolt_displayname</Disp>
+			<ERef>voidbolt_poison_dmg</ERef>
+			<TMaxHP>0.02|2</TMaxHP>
+			<FloorValue>1</FloorValue>
+			<Targ>SELF</Targ>		
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>exp_skill_essencestorm_name</DName>
+		<RefName>exp_status_essencestorm</RefName>
+		<Description>exp_status_essencestorm_desc</Description>
+		<Icon>SkillIcons_84</Icon>	
+		<ISpr>ElectrifiedEffect</ISpr>	
+		
+		<Direction>NORTH</Direction>
+		<ShowIcon />
+		<Pos />
+		<Script_RunOnAdd>SetEssenceStormAmmo</Script_RunOnAdd>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM</ATags>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_essencestorm_name</Disp>
+			<ERef>essencestorm</ERef>
+			<IsProjectile />
+			<Anim>QiStrikeEffect,0.15</Anim>
+			<Script_DamageModifier>ReduceEssenceStormAmmo</Script_DamageModifier>
+			<AtkSp>0.6|2</AtkSp>
+			<Faction>ENEMY</Faction>
+			<Targ>RANDOMNEARBY</Targ>
+			<RandomTargetRange>3</RandomTargetRange>
+			
+			<FloorValue>1</FloorValue>			
+			<CanCrit />
+			<CanBeParriedOrBlocked />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<RefName>exp_status_eshieldpower</RefName>		
+		<Run>
+			<ON_SHIELD_SHATTER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM</ATags>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>proc_add_dmgup_25</ERef>
+			<StatusRef>exp_dmgup_25</StatusRef>
+			<Targ>SELF</Targ>
+			<Duration>11</Duration>
+			<Anim>FervirBuff,0.1</Anim>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>exp_skill_eshieldpower_name</DName>
+		<RefName>exp_dmgup_25</RefName>
+		<Description>exp_status_dmgup_25_desc</Description>
+		<NTag>+25%</NTag>
+		<ISpr>AttackUpEffect</ISpr>
+		<Icon>SkillIcons_143</Icon>
+		<Direction>NORTH</Direction>
+		<Pos />
+		<ShowIcon />
+		
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>dmgup_25</ERef>
+			<ChangePercentAllDamage>0.25</ChangePercentAllDamage>
+			<Targ>SELF</Targ>			
+			<ReverseOnEnd />
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<RefName>status_mmdodge26</RefName>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<StackMultipleEffects />
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>dodge26</ERef>
+			<AlterAccuracyFlat>-26</AlterAccuracyFlat>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<RefName>status_mmdodge27</RefName>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<StackMultipleEffects />
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>dodge27</ERef>
+			<AlterAccuracyFlat>-27</AlterAccuracyFlat>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<RefName>status_mmdodge28</RefName>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<StackMultipleEffects />
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>dodge28</ERef>
+			<AlterAccuracyFlat>-28</AlterAccuracyFlat>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<RefName>status_mmdodge29</RefName>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<StackMultipleEffects />
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>dodge29</ERef>
+			<AlterAccuracyFlat>-29</AlterAccuracyFlat>
+		</AEff>
+	</SE>
+
+	<SE>
+		<RefName>status_mmdodge30</RefName>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<StackMultipleEffects />
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>dodge30</ERef>
+			<AlterAccuracyFlat>-30</AlterAccuracyFlat>
+		</AEff>
+	</SE>
+
+</DOCUMENT>

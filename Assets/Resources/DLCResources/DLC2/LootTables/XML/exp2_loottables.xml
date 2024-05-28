@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<LootTable>
+		<RefName>allitems</RefName>
+		<MergeWithExisting />
+		<weapon_whip1>100</weapon_whip1>
+		<weapon_whip2>100</weapon_whip2>
+		<weapon_whip3>100</weapon_whip3>
+		<weapon_whip4>100</weapon_whip4>
+		<weapon_whip5>100</weapon_whip5>
+		<weapon_whip6>100</weapon_whip6>
+		<weapon_2hwhip4>46</weapon_2hwhip4>
+		<weapon_2hwhip7>46</weapon_2hwhip7>
+		<weapon_2hwhip11>46</weapon_2hwhip11>
+		<budoka_glove1>80</budoka_glove1>
+		<budoka_glove2>80</budoka_glove2>
+		<budoka_glove3>80</budoka_glove3>
+		<budoka_glove4>80</budoka_glove4>
+		<bomb_fire3>100</bomb_fire3>
+		<bomb_ice2>100</bomb_ice2>
+		<bomb_caltrops2>100</bomb_caltrops2>
+		<bomb_lightning3>100</bomb_lightning3>
+	</LootTable>	
+
+	<LootTable>
+		<RefName>weapons</RefName>
+		<MergeWithExisting />
+		<weapon_whip1>100</weapon_whip1>
+		<weapon_whip2>100</weapon_whip2>
+		<weapon_whip3>100</weapon_whip3>
+		<weapon_whip4>100</weapon_whip4>
+		<weapon_whip5>100</weapon_whip5>
+		<weapon_whip6>100</weapon_whip6>
+		<weapon_2hwhip4>46</weapon_2hwhip4>
+		<weapon_2hwhip7>46</weapon_2hwhip7>
+		<weapon_2hwhip11>46</weapon_2hwhip11>		
+		<budoka_glove1>80</budoka_glove1>
+		<budoka_glove2>80</budoka_glove2>
+		<budoka_glove3>80</budoka_glove3>
+		<budoka_glove4>80</budoka_glove4>		
+	</LootTable>
+
+	<LootTable>
+		<RefName>equipment</RefName>
+		<MergeWithExisting />
+		<weapon_whip1>100</weapon_whip1>
+		<weapon_whip2>100</weapon_whip2>
+		<weapon_whip3>100</weapon_whip3>
+		<weapon_whip4>100</weapon_whip4>
+		<weapon_whip5>100</weapon_whip5>
+		<weapon_whip6>100</weapon_whip6>
+		<weapon_2hwhip4>46</weapon_2hwhip4>
+		<weapon_2hwhip7>46</weapon_2hwhip7>
+		<weapon_2hwhip11>46</weapon_2hwhip11>		
+		<budoka_glove1>80</budoka_glove1>
+		<budoka_glove2>80</budoka_glove2>
+		<budoka_glove3>80</budoka_glove3>
+		<budoka_glove4>80</budoka_glove4>		
+	</LootTable>
+
+	<LootTable>
+		<RefName>offense_summon_consumables</RefName>
+		<MergeWithExisting />
+		<bomb_fire3>100</bomb_fire3>
+		<bomb_ice2>100</bomb_ice2>
+		<bomb_lightning3>100</bomb_lightning3>
+		<bomb_caltrops2>75</bomb_caltrops2>
+	</LootTable>
+	<LootTable>
+		<RefName>consumables_plus_eggs</RefName>
+		<MergeWithExisting />
+		<bomb_fire3>100</bomb_fire3>
+		<bomb_ice2>100</bomb_ice2>
+		<bomb_lightning3>100</bomb_lightning3>
+		<bomb_caltrops2>75</bomb_caltrops2>
+	</LootTable>
+	<LootTable>
+		<RefName>consumables</RefName>
+		<MergeWithExisting />
+		<bomb_fire3>100</bomb_fire3>
+		<bomb_ice2>100</bomb_ice2>
+		<bomb_lightning3>100</bomb_lightning3>
+		<bomb_caltrops2>75</bomb_caltrops2>
+	</LootTable>	
+</DOCUMENT>

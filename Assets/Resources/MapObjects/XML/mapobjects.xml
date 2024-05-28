@@ -1,0 +1,3002 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Destructible>
+		<DName>des_powerup_strength_permanent_dname</DName>
+		
+		<RefName>powerup_strength_permanent</RefName>
+		<Prefab>HealthPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_powerup_strength_permanent</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>		
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_powerup_guile_permanent_dname</DName>
+		
+		<RefName>powerup_guile_permanent</RefName>
+		<Prefab>HealthPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_powerup_guile_permanent</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>		
+	</Destructible>
+
+	<Destructible>
+		<DName>des_powerup_spirit_permanent_dname</DName>
+		
+		<RefName>powerup_spirit_permanent</RefName>
+		<Prefab>EnergyPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_powerup_spirit_permanent</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>		
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_powerup_discipline_permanent_dname</DName>
+		
+		<RefName>powerup_discipline_permanent</RefName>
+		<Prefab>HealthPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_powerup_discipline_permanent</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>		
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_powerup_swiftness_permanent_dname</DName>
+		
+		<RefName>powerup_swiftness_permanent</RefName>
+		<Prefab>StaminaPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_powerup_swiftness_permanent</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>		
+	</Destructible>	
+
+
+	<Destructible>
+		<DName>status_status_healthherbpowerup_name</DName>
+		
+		<RefName>powerup_healthherb</RefName>
+		<Prefab>HerbPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_healthherbpowerup</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>		
+		<StepTrigger>HERO</StepTrigger>	
+		<SpecObj>POWERUP</SpecObj>
+	</Destructible>
+	<Destructible>
+		<DName>status_status_energyherbpowerup_name</DName>
+		
+		<RefName>powerup_energyherb</RefName>
+		<Prefab>HerbPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_energyherbpowerup</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>
+		<StepTrigger>HERO</StepTrigger>	
+		<SpecObj>POWERUP</SpecObj>		
+	</Destructible>
+	<Destructible>
+		<DName>status_status_staminaherbpowerup_name</DName>
+		
+		<RefName>powerup_staminaherb</RefName>
+		<Prefab>HerbPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_staminaherbpowerup</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>	
+		<StepTrigger>HERO</StepTrigger>		
+		<SpecObj>POWERUP</SpecObj>
+	</Destructible>
+
+
+	<Destructible>
+		<DName>status_status_healthpowerup_name</DName>
+		
+		<RefName>powerup_health</RefName>
+		<Prefab>HealthPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_healthpowerup</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>	
+		<StepTrigger>HERO</StepTrigger>	
+		<SpecObj>POWERUP</SpecObj>	
+	</Destructible>
+	<Destructible>
+		<DName>status_status_energypowerup_name</DName>
+		
+		<RefName>powerup_energy</RefName>
+		<Prefab>EnergyPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_energypowerup</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>	
+		<StepTrigger>HERO</StepTrigger>	
+		<SpecObj>POWERUP</SpecObj>	
+	</Destructible>
+	<Destructible>
+		<DName>status_status_staminapowerup_name</DName>
+		
+		<RefName>powerup_stamina</RefName>
+		<Prefab>StaminaPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>status_staminapowerup</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>		
+		<StepTrigger>HERO</StepTrigger>	
+		<SpecObj>POWERUP</SpecObj>
+	</Destructible>
+	<Destructible>
+		<DName>status_monsterspirit_name</DName>
+		
+		<RefName>monsterspirit</RefName>
+		<Prefab>SpiritPickup</Prefab>
+		<Faction>PLAYER</Faction>
+		<StatusRef>monsterspirit</StatusRef>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>	
+		<StepTrigger>HERO</StepTrigger>	
+		<SpecObj>POWERUP</SpecObj>	
+	</Destructible>		
+	<Destructible>
+		<DName>abil_skill_blessedhammer_name</DName>
+		
+		<RefName>obj_blessedhammer</RefName>
+		<Prefab>Blessed Hammer</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_blessedhammer</StatusRef>
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<ShowDirection>1</ShowDirection>
+		<Trg>0</Trg>
+		
+		<VFX>MetalPoof</VFX>
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_mudtile_dname</DName>
+		
+		<RefName>obj_mudtile</RefName>
+		<SpecObj>MUD</SpecObj>
+		<Prefab>MudTile</Prefab>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		<Hvr>1</Hvr>
+		<StatusRef>status_mudtile</StatusRef>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>misc_dmg_water</DName>
+		
+		<RefName>obj_rivertile</RefName>
+		<Prefab>TerrainTile</Prefab>
+		<SpecObj>WATER</SpecObj>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		<Hvr>1</Hvr>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_voidtile_dname</DName>
+		
+		<RefName>obj_voidtile</RefName>
+		<Prefab>VoidPoison</Prefab>
+		<SpecObj>ISLANDSWATER</SpecObj>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_electile_dname</DName>
+		
+		<RefName>obj_electile</RefName>
+		<Prefab>ElectricTile</Prefab>
+		<SpecObj>ELECTRIC</SpecObj>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		<Hvr>1</Hvr>
+		<StatusRef>status_electile</StatusRef>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_lavatile_dname</DName>
+		
+		<RefName>obj_lavatile</RefName>
+		<Prefab>TerrainTile</Prefab>
+		<SpecObj>LAVA</SpecObj>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		<Hvr>1</Hvr>
+		<StatusRef>status_lavaburns</StatusRef>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>		
+
+	<Destructible>
+		<DName>abil_skill_lavashield_name</DName>
+		
+		<RefName>obj_phasmashieldtile</RefName>
+		<Prefab>LaserTile</Prefab>		
+		<SpecObj>LASER</SpecObj>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		<Hvr>1</Hvr>
+		<StatusRef>status_phasmaburns</StatusRef>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_playericeblock_dname</DName>
+		<RefName>obj_playericeblock</RefName>
+		<Prefab>SmallIceBlockPlayer</Prefab>
+		<DeathPrefab>IceShatter2x</DeathPrefab>
+		<PCol>0</PCol>
+		<MCol>1</MCol>
+		
+		<Faction>PLAYER</Faction>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Hvr>1</Hvr>
+		<StatusRef>status_iceslow</StatusRef>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_playericeblock_dname</DName>		
+		<RefName>obj_iceblock</RefName>
+		<Prefab>IceBlock</Prefab>
+		<PlayerPrefab>SmallIceBlockPlayer</PlayerPrefab>
+		<DeathPrefab>IceShatter2x</DeathPrefab>
+		
+		<PCol>0</PCol>
+		<MCol>1</MCol>
+		
+		<Faction>PLAYER</Faction>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Hvr>1</Hvr>
+		<StatusRef>status_iceslow</StatusRef>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_playericeblock_dname</DName>		
+		<RefName>obj_monstericeblock</RefName>				
+		<Prefab>SmallIceBlock</Prefab>
+		<DeathPrefab>IceShatter2x</DeathPrefab>		
+		<PCol>1</PCol>
+		<MCol>0</MCol>
+		
+		<Faction>ENEMY</Faction>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Hvr>1</Hvr>
+		<StatusRef>status_frozenbreak</StatusRef>
+		<VFX>IceGrowAttack2x</VFX>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		<RefName>obj_dangersquare</RefName>
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>	
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		<RefName>obj_friendlydangersquare</RefName>
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>	
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_playersquare_dname</DName>
+		
+		<RefName>obj_playersquare</RefName>
+		
+		<Prefab>PlayerMouseTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>		
+		<RefName>obj_lightningstormsummoner</RefName>		
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<RunEffectOnlyOnce>1</RunEffectOnlyOnce>
+		<StatusRef>status_lightningstorm1</StatusRef>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_lightningstormsummonersilent</RefName>
+		
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<RunEffectOnlyOnce>1</RunEffectOnlyOnce>
+		<StatusRef>status_lightningstorm1s</StatusRef>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>	
+	
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>		
+		<RefName>obj_firebreath1summoner</RefName>		
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_firebreath1</StatusRef>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>		
+		<RefName>obj_fireburstsummoner</RefName>
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_fireburst</StatusRef>		
+		<ObjectFlag>FIRE</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>		
+
+	<Destructible>
+		<DName>abil_skill_bedofthorns_name</DName>
+		
+		<RefName>obj_thorntile</RefName>
+		
+		<Prefab>Thorns2</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_bedofthorns</StatusRef>
+		<VFX>LeafPoof</VFX>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>abil_skill_bedofthorns_name</DName>
+		
+		<RefName>obj_thorntile_conda</RefName>
+		
+		<Prefab>Thorns2_Dimmer</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_bedofthorns_conda</StatusRef>
+		<VFX>LeafPoof</VFX>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>status_status_oakspike_thorns_name</DName>
+		
+		<RefName>obj_oakspikes</RefName>
+		
+		<Prefab>Thorns2</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_oakspike_thorns</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>abil_skill_bedofthorns_name</DName>
+		
+		<RefName>obj_thorntile2</RefName>
+		
+		<Prefab>Thorns2</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_bedofthorns2</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_mossthorns_dname</DName>
+		
+		<RefName>obj_mossthorns</RefName>
+		
+		<Prefab>Thorns</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_mossbedofthorns</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>item_bomb_caltrops_name</DName>
+		
+		<RefName>obj_caltropstile</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>Caltrops</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_caltrops</StatusRef>
+		<Hvr>1</Hvr>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_shrapnelbomb_dname</DName>
+		
+		<RefName>obj_shrapnelbomb</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerBomb</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StatusRef>status_fireburst</StatusRef>		
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>MetalPoof</VFX>
+		<SpecObj>BOMB_ATTACK</SpecObj>
+	</Destructible>
+
+	<Destructible>
+		<DName>effect_manabomb_dmg_name</DName>
+		
+		<RefName>obj_manabomb</RefName>
+		<DStep>1</DStep>
+		
+		<Prefab>Manabomb</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StatusRef>status_manabomb</StatusRef>		
+		<DStep>1</DStep>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_enemybomb_dname</DName>
+		
+		<RefName>obj_enemybomb</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>EnemyBomb</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StatusRef>status_champbomb</StatusRef>		
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>MetalPoof</VFX>
+		<SpecObj>BOMB_ATTACK</SpecObj>
+	</Destructible>	
+	<Destructible>
+		<DName>abil_skill_monflameserpent_name</DName>		
+		<RefName>obj_flameserpent</RefName>
+		<Prefab>BurningBlueFireLoop</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_flameserpent</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_fireclaw_dname</DName>
+		
+		<RefName>obj_fireclaw</RefName>
+		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_fireclaw</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_flameslash_dname</DName>
+		
+		<RefName>obj_flameslash</RefName>
+		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_flameslash</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>FireBurst</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_flameslash_dname</DName>
+		
+		<RefName>obj_champfire</RefName>
+		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_champfire</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>	
+
+
+	<Destructible>
+		<DName>des_obj_flameslash_dname</DName>		
+		<RefName>obj_bifangfire</RefName>		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_champfire</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>FireBurst</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_ss_evokefire_dname</DName>
+		
+		<RefName>obj_ss_evokefire</RefName>
+		<ExcludeFromHotbarCheck />
+		
+		<Prefab>BurningBlueFireLoop</Prefab>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		<Faction>PLAYER</Faction>
+		
+		<Hvr>1</Hvr>
+		<StatusRef>status_addfireburn</StatusRef>
+	  <VFX>FireBurstBlue</VFX>
+	  <StepTrigger>NOTMYFACTION</StepTrigger>
+    <ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_ss_evokefire_dname</DName>
+		
+		<RefName>obj_ss_evokefire_moving</RefName>
+		<ExcludeFromHotbarCheck />
+		
+		<Prefab>BurningBlueFireLoop</Prefab>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		<Faction>PLAYER</Faction>
+		
+		<Hvr>1</Hvr>
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<Movement>FORWARD</Movement>		
+		<StatusRef>status_addfireburn</StatusRef>
+	  <VFX>FireBurstBlue</VFX>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>	
+
+	<Destructible>
+		<DName>abil_skill_monflameserpent_name</DName>
+		
+		<RefName>obj_flameserpent_moving</RefName>
+		
+		<Prefab>BurningBlueFireLoop</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<Movement>FORWARD</Movement>				
+		<StatusRef>status_flameserpent</StatusRef>
+		<Hvr>1</Hvr>
+	  <VFX>FlameBurstBlue</VFX>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_inferno_name</DName>
+		
+		<RefName>obj_fireburst_flame</RefName>
+		
+		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		<Faction>MYFACTION</Faction>
+		
+		<Hvr>1</Hvr>
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<Movement>FORWARD</Movement>		
+		<StatusRef>status_inferno</StatusRef>
+		<VFX>FireBurst</VFX>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>		
+
+	<Destructible>
+		<DName>des_obj_ss_evokeice_dname</DName>
+		
+		<RefName>obj_ss_evokeice</RefName>
+		<ExcludeFromHotbarCheck />
+		
+		<Prefab>SmallIceBlockPlayer</Prefab>
+		
+		<PCol>0</PCol>
+		<MCol>1</MCol>
+		
+		<Faction>PLAYER</Faction>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Hvr>1</Hvr>
+		<DeathPrefab>IceShatter2x</DeathPrefab>
+    <VFX>IceGrowAttack2x</VFX>
+    <StatusRef>status_evokeiceslow</StatusRef>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_ss_evokeice_dname</DName>
+		
+		<RefName>obj_ss_evokeice_moving</RefName>
+		<ExcludeFromHotbarCheck />
+		
+		<Prefab>SmallIceBlockPlayer</Prefab>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Faction>PLAYER</Faction>
+		
+		<DestroyOnWallHit>0</DestroyOnWallHit>
+		<DStep>1</DStep>
+		<Movement>FORWARD</Movement>				
+		<Hvr>1</Hvr>
+		<DeathPrefab>IceShatter2x</DeathPrefab>
+		<StatusRef>status_evokeiceslow_local</StatusRef>
+	  <VFX>IceGrowAttack2x</VFX>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>	
+
+
+	<Destructible>
+		<DName>effect_acidpoolgrounddmg_name</DName>
+		
+		<RefName>obj_acidconcoction</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>AcidTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_acidpooldamage</StatusRef>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<VFX>AcidSplash</VFX>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_acidtileground_name</DName>
+		
+		<RefName>obj_ss_evokeacid</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>AcidTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_acidtiledamage</StatusRef>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+    <VFX>AcidSplash</VFX>
+		<ObjectFlag>POISON</ObjectFlag>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>
+
+	<Destructible>
+		<DName>effect_eff_acidtileground_name</DName>
+		
+		<RefName>obj_ss_evokeacid_moving</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>AcidTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_acidtiledamage</StatusRef>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Movement>FORWARD</Movement>
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+    <VFX>AcidSplash</VFX>
+		<ObjectFlag>POISON</ObjectFlag>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_shadowtile_name</DName>
+		
+		<RefName>obj_ss_evokeshadow</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>ShadowTrapPlayer</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_shadowtrap</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+	  	<VFX>ShadowPierceAttack</VFX>
+    	<ObjectFlag>SHADOW</ObjectFlag>
+    	<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_shadowtile_name</DName>
+		
+		<RefName>obj_ss_evokeshadow_mon</RefName>
+		
+		<Prefab>ShadowTrap</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_shadowtrap</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+		<VFX>ShadowSpikeAttack</VFX>
+	</Destructible>		
+
+	<Destructible>
+		<DName>effect_eff_shadowtile_name</DName>
+		
+		<RefName>obj_ss_evokeshadow_moving</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>ShadowTrapPlayer</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_shadowtrap</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Movement>FORWARD</Movement>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+	  <VFX>ShadowSpikeAttack</VFX>
+	  <StepTrigger>NOTMYFACTION</StepTrigger>
+  </Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_shadowtile_name</DName>
+		
+		<RefName>obj_mon_evokeshadow</RefName>
+		
+		<Prefab>ShadowTrap</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_monshadowtrap</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+		<VFX>ShadowSpikeAttack</VFX>
+	</Destructible>	
+
+	<Destructible>
+		<DName>abil_skill_bedofflames_name</DName>
+		<RefName>obj_flametile</RefName>
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_bedofflames</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>FireBurst</VFX>
+	</Destructible>	
+	<Destructible>
+		<DName>effect_alchemyfiredamage_name</DName>
+		
+		<RefName>obj_alchemyfiretile</RefName>
+		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_alchemyfire</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>effect_alchemygas_name</DName>
+		
+		<RefName>obj_alchemygastile</RefName>
+		
+		<Prefab>PoisonCloud</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_alchemygas</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>GreenSmokePoof</VFX>
+	</Destructible>				
+	<Destructible>
+		<DName>des_obj_creepingdeath_dname</DName>
+		
+		<RefName>obj_creepingdeath</RefName>
+		
+		<Prefab>CreepingDeath</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_creepingdeath</StatusRef>
+		<VFX>LeafPoof</VFX>
+		<Spread>FORWARD</Spread>
+		<StopSpreadThreshold>2</StopSpreadThreshold>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>abil_skill_smokecloud_ramirel_name</DName>
+		
+		<RefName>obj_smokecloud</RefName>
+		
+		<Prefab>SmokeCloud</Prefab>
+		<VFX>SmokePoof</VFX>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Spread>ADJACENT</Spread>
+		<StopSpreadThreshold>5</StopSpreadThreshold>
+		<StatusRef>status_smokecloud</StatusRef>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>abil_skill_poisoncloud_name</DName>
+		
+		<RefName>obj_poisoncloud</RefName>
+		
+		<Prefab>PoisonCloud</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Spread>ADJACENT</Spread>
+		<StopSpreadThreshold>4</StopSpreadThreshold>
+		<StatusRef>status_poisoncloud</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>GreenSmokePoof</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_sludge_dname</DName>
+		
+		<RefName>obj_sludge</RefName>
+		
+		<Prefab>AcidTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Spread>ADJACENT</Spread>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_sludgecloud</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>AcidSplash</VFX>
+	</Destructible>	
+	<Destructible>
+		<DName>effect_acidpoolgrounddmg_name</DName>
+		
+		<RefName>obj_droptoxiccloud</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>AcidTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_acidpool</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>		
+
+	<Destructible>
+		<DName>effect_acidpoolgrounddmg_name</DName>
+		
+		<RefName>obj_droptoxiccloud2</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>AcidTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_acidpool2</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_anchorvine_dname</DName>
+		
+		<RefName>obj_anchorvine</RefName>
+		<SpecObj>SWINGINGVINE</SpecObj>
+		
+		
+		<Prefab>SwingingVine</Prefab>
+		<DeathPrefab>LeafPoof</DeathPrefab>
+		
+		<PCol>0</PCol>
+		<MCol>1</MCol>
+		<VFX>LeafPoof</VFX>
+		
+		<Faction>PLAYER</Faction>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<StatusRef>status_thornslow</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_treasuresparkle_dname</DName>
+		
+		<RefName>obj_treasuresparkle</RefName>
+		<SpecObj>TREASURESPARKLE</SpecObj>
+		<LootChance>1</LootChance>
+		<MaxItems>1</MaxItems>
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Prefab>GroundSparkle</Prefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_monsterspawner_dname</DName>
+		
+		<RefName>obj_monsterspawner</RefName>
+		<SpecObj>MONSTERSPAWNER</SpecObj>
+		
+		
+		
+		<Prefab>PandoraChestAnimated</Prefab>
+		<DeathPrefab>PandoraBoxOpen</DeathPrefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_regenfountain_dname</DName>
+		
+		<RefName>obj_regenfountain</RefName>
+		<SpecObj>FOUNTAIN</SpecObj>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Prefab>Fountain</Prefab>
+		
+		<Hvr>1</Hvr>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_itemaltar_dname</DName>
+		
+		<RefName>obj_itemaltar</RefName>
+		<SpecObj>ALTAR</SpecObj>
+		<LootChance>0.5</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<Prefab>SkullAltar</Prefab>
+		<DeathPrefab>Electrocute</DeathPrefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_pathrock_dname</DName>
+		
+		<RefName>obj_pathrock</RefName>
+		<LootChance>0.0</LootChance>
+		
+		
+		<Prefab>PathRock</Prefab>
+		<PCol>1</PCol>
+		<BlocksVision>1</BlocksVision>
+		<MCol>1</MCol>
+		
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_pathrock_dname</DName>
+		<RefName>obj_lavarock</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Prefab>LavaRock</Prefab>
+		<PCol>1</PCol>
+		<BlocksVision>1</BlocksVision>
+		<MCol>1</MCol>
+		
+		<Hvr>1</Hvr>
+	</Destructible>		
+	<Destructible>
+		<DName>des_obj_campfire_dname</DName>
+		
+		<RefName>obj_campfire</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		<Prefab>Campfire</Prefab>
+	</Destructible>
+	<Destructible>
+		
+		<RefName>obj_decorfire</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		
+		<Prefab>CampfireCenter</Prefab>
+	</Destructible>	
+	<Destructible>
+		
+		<RefName>obj_campfirebg</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Prefab>CampfireBG</Prefab>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_campfire_dname</DName>
+		
+		<RefName>obj_blockingcampfire</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<Prefab>Campfire</Prefab>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_barrel_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>		
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>SLATE</Tileset>		
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>		
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_barrel</RefName>
+		<LootChance>0.2</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>SmallBarrel</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_crate_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_crate</RefName>
+		<LootChance>0.2</LootChance>
+		<MaxItems>1</MaxItems>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		
+		<Prefab>SmallCrate</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_bookshelf_dname</DName>
+		
+		<RefName>obj_bookshelf</RefName>
+		<LootChance>1</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>Bookshelf</Prefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_shelves_dname</DName>
+		
+		<RefName>obj_shelves</RefName>
+		<LootChance>0.7</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>Shelves</Prefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_woodtable_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<RefName>obj_woodtable</RefName>
+		<LootChance>0.2</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>WoodTable</Prefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>		
+	<Destructible>
+		<DName>des_obj_pot1_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>		
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>STONE</Tileset>
+		<Tileset>VOID</Tileset>	
+		<DeathPrefab>ShatterBreak</DeathPrefab>	
+		<RefName>obj_pot1</RefName>
+		<LootChance>0.1</LootChance>
+		<MoneyChance>0.5</MoneyChance>
+		<MaxItems>1</MaxItems>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		
+		<Prefab>Pots1</Prefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_pot2_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<DeathPrefab>ShatterBreak</DeathPrefab>	
+		<RefName>obj_pot2</RefName>
+		<LootChance>0.15</LootChance>
+		<MoneyChance>0.85</MoneyChance>
+		<MaxItems>1</MaxItems>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		
+		<Prefab>Pots2</Prefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_pot2_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<DeathPrefab>ShatterBreak</DeathPrefab>	
+		<RefName>obj_pot3</RefName>
+		<LootChance>0.2</LootChance>
+		<MoneyChance>1.0</MoneyChance>
+		<MaxItems>1</MaxItems>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		
+		<Prefab>Pots3</Prefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_cratestack_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_cratestack</RefName>
+		<LootChance>0.33</LootChance>
+		<MaxItems>1</MaxItems>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		
+		<Prefab>CrateStack</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_smallwoodencrate_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_smallwoodencrate</RefName>
+		<LootChance>0.5</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>SmallWoodenCrate</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<DestroyedState>1</DestroyedState>
+		<DestroyedPrefab>DestroyedSmallWoodenCrate</DestroyedPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_mediumwoodencrate_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_mediumwoodencrate</RefName>
+		<LootChance>0.75</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>MediumWoodenCrate</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<DestroyedState>1</DestroyedState>
+		<DestroyedPrefab>DestroyedMediumWoodenCrate</DestroyedPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_largewoodencrate_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_largewoodencrate</RefName>
+		<LootChance>1</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>LargeWoodenCrate</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<DestroyedState>1</DestroyedState>
+		<DestroyedPrefab>DestroyedLargeWoodenCrate</DestroyedPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_smallwoodenchest_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_smallwoodenchest</RefName>
+		<LootChance>1</LootChance>
+		<MaxItems>1</MaxItems>
+		
+		<BonusLootValue>0.1</BonusLootValue>
+		<Prefab>SmallWoodenChest</Prefab>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<DestroyedState>1</DestroyedState>
+		<DestroyedPrefab>DestroyedSmallWoodenChest</DestroyedPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_largewoodenchest_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_largewoodenchest</RefName>		
+		<LootChance>1.5</LootChance>
+		<MaxItems>2</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<BonusLootValue>0.1</BonusLootValue>
+		<Prefab>LargeWoodenChest</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<DestroyedState>1</DestroyedState>
+		<DestroyedPrefab>DestroyedLargeWoodenChest</DestroyedPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>		
+	<Destructible>
+		<DName>des_obj_ornatechest_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>EARTH</Tileset>
+		<Tileset>MOSS</Tileset>
+		<Tileset>COBBLE</Tileset>
+		<Tileset>REINFORCED</Tileset>
+		<Tileset>VOLCANO</Tileset>
+		<Tileset>SLATE</Tileset>
+		<Tileset>TREETOPS</Tileset>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<Tileset>SNOW</Tileset>
+		<Tileset>SAND</Tileset>
+		<Tileset>LUSHGREEN</Tileset>
+		<Tileset>NIGHTMARISH</Tileset>
+		<Tileset>STONE</Tileset>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<Tileset>BLUESTONEDARK</Tileset>		
+		<Tileset>VOID</Tileset>		
+		<RefName>obj_ornatechest</RefName>
+		<LootChance>1</LootChance>
+		<BonusLootValue>0.2</BonusLootValue>
+		<MaxItems>3</MaxItems>
+		
+		<Prefab>OrnateChest</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<DestroyedState>1</DestroyedState>
+		<DestroyedPrefab>DestroyedOrnateChest</DestroyedPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>effect_electrifire_name</DName>
+		
+		<RefName>obj_electricfire</RefName>
+		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_electricfire</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>FireBurst</VFX>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_phoenixwing_dname</DName>
+		<RefName>obj_phoenixwing</RefName>
+		<Prefab>BudokaBuffTile</Prefab>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		<Faction>MYFACTION</Faction>
+		<Hvr>1</Hvr>
+		<StepTrigger>HERO</StepTrigger>
+		<StatusRef>status_phoenixwing</StatusRef>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_groundicetile_dname</DName>
+		<RefName>obj_groundicetile</RefName>
+		<Prefab>IceGroundTile</Prefab>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		<Faction>ENEMY</Faction>
+		
+		<Hvr>1</Hvr>
+		<StatusRef>status_frozenground</StatusRef>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_relentlesscurrentsummoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_rcurrent</StatusRef>
+		<ObjectFlag>WATER</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>		
+		<RefName>obj_playerfirebreathsummoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_playerfirebreath</StatusRef>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_playerclawsummoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_playerclawrake</StatusRef>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+
+	<Destructible>
+		<DName>effect_moonbeam_dmg_name</DName>
+		
+		<RefName>obj_moonbeam_summoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_moonbeam</StatusRef>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_playermortarsummoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_playermortarfire</StatusRef>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_relentlesscurrentsummoner_weaker</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_rcurrent_weaker</StatusRef>
+		<ObjectFlag>WATER</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_arrowsummoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_hailofarrows</StatusRef>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_arrowstormsummoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_arrowstorm_dmg</StatusRef>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_monarrowsummoner</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_hailofarrows</StatusRef>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>status_status_beartrap_name</DName>
+		
+		<RefName>obj_beartrap</RefName>
+		
+		<Prefab>BearTrap</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_beartrap</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<VFX>MetalPoof</VFX>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>
+	<Destructible>
+		<DName>status_status_beartrap_name</DName>
+		
+		<RefName>obj_beartrap_bleeder</RefName>
+		
+		<Prefab>BearTrap</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_beartrap_bleeder</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<VFX>MetalPoof</VFX>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>	
+	<Destructible>
+		<DName>mon_mon_shadowclone_name</DName>
+		
+		<RefName>obj_shadowclone</RefName>
+		
+		<Prefab>ShadowHunter</Prefab>
+		<Faction>MYFACTION</Faction>
+		<PCol>0</PCol>
+		<MCol>1</MCol>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_tbsummon</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_triplebolt</StatusRef>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>		
+	<Destructible>
+		<DName>des_obj_plank_dname</DName>
+		
+		<RefName>obj_plank</RefName>
+		<Prefab>WaterPlank</Prefab>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		<Hvr>1</Hvr>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>status_status_spinblade_name</DName>
+		
+		<RefName>obj_spinblade</RefName>
+		<Prefab>Spin Blade</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_spinblade</StatusRef>
+		
+		<ShowDirection>1</ShowDirection>
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+		<VFX>MetalPoof</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>effect_shadowblade_name</DName>
+		
+		<RefName>obj_shadowblade</RefName>
+		<Prefab>Shadow Bolt</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_shadowblade</StatusRef>
+		
+		<ShowDirection>1</ShowDirection>
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+		<VFX>FervirShadowHit</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>effect_iceshard_name</DName>
+		
+		<RefName>obj_playericeshard</RefName>
+		<Prefab>IceProjectileContinuous</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_playericedagger</StatusRef>
+		
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+		<RotateToMoveDirection>1</RotateToMoveDirection>
+		<PassThroughAnything>1</PassThroughAnything>
+		<DStep>1</DStep>
+		<ObjectFlag>WATER</ObjectFlag>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+		<VFX>IceGrowAttack2x</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>effect_iceshard_name</DName>
+		
+		<RefName>obj_playericeshard_2</RefName>
+		<Prefab>IceProjectileContinuous</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_playericedagger_2</StatusRef>
+		
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+		<Hvr>1</Hvr>
+		<RotateToMoveDirection>1</RotateToMoveDirection>
+		<PassThroughAnything>1</PassThroughAnything>
+		<DStep>1</DStep>
+		<ObjectFlag>WATER</ObjectFlag>
+		<VFX>IceGrowAttack2x</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>effect_iceshard_name</DName>
+		
+		<RefName>obj_iceshard</RefName>
+		<Prefab>IceProjectileContinuous</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_icedaggermonster</StatusRef>
+		
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+		<RotateToMoveDirection>1</RotateToMoveDirection>
+		<PassThroughAnything>1</PassThroughAnything>
+		<DStep>1</DStep>
+		<ObjectFlag>WATER</ObjectFlag>
+		<VFX>IceGrowAttack2x</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>effect_iceshard_name</DName>
+		
+		<RefName>obj_tutblade</RefName>
+		<Prefab>IceProjectileContinuous</Prefab>
+		<Faction>DUNGEON</Faction>
+		<StatusRef>status_iceshard</StatusRef>		
+		
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+		<RotateToMoveDirection>1</RotateToMoveDirection>
+		<ObjectFlag>WATER</ObjectFlag>
+		<VFX>IceGrowAttack2x</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>abil_skill_hotstreak_2_name</DName>
+		
+		<RefName>obj_gamblerflames</RefName>
+		
+		<Prefab>BurningBlueFireLoop</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_hotstreak</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>abil_skill_hotstreak_2_name</DName>
+		
+		<RefName>obj_mongamblerflames</RefName>
+		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_hotstreak</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_breathepillar_dname</DName>
+		
+		<RefName>obj_breathepillar</RefName>
+		<SpecObj>BREATHEPILLAR</SpecObj>
+		
+		
+		<Trg>0</Trg>
+		<Prefab>MagicPillar</Prefab>
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_icetrap_dname</DName>
+		
+		<RefName>obj_icetrap</RefName>
+		
+		<Prefab>IceTrap1</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_icetrap</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<ObjectFlag>WATER</ObjectFlag>
+		<VFX>IceGrowAttack2x</VFX>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_townkitchen_dname</DName>
+		
+		<RefName>obj_townkitchen</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		<Prefab>Kitchen</Prefab>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_unbreakablefrozen_1_dname</DName>
+		<Hvr>1</Hvr>		
+		
+		<RefName>obj_unbreakablefrozen_1</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		<BlocksVision>1</BlocksVision>
+		<Prefab>IceBlock</Prefab>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_unbreakablefrozen_1_dname</DName>
+		<Hvr>1</Hvr>
+		
+		<RefName>obj_unbreakablefrozen_2</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		<BlocksVision>1</BlocksVision>
+		<Prefab>IceBlock</Prefab>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_unbreakablefrozen_1_dname</DName>
+		<Hvr>1</Hvr>		
+		
+		<RefName>obj_unbreakablefrozen_3</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		<BlocksVision>1</BlocksVision>
+		<Prefab>IceBlock</Prefab>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_unbreakablefrozen_1_dname</DName>
+		<Hvr>1</Hvr>		
+		
+		<RefName>obj_unbreakablefrozen_4</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		
+		<BlocksVision>1</BlocksVision>
+		<Prefab>IceBlock</Prefab>
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>obj_firegrate</RefName>
+		<Prefab>Fire Grate</Prefab>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>		
+		
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		
+		
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>status_status_fungaldebuff_name</DName>
+		
+		<RefName>obj_fungalice</RefName>
+		
+		<Prefab>IceTrap1</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_fungaldebuff</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<ObjectFlag>WATER</ObjectFlag>
+		<VFX>IceGrowAttack</VFX>
+	</Destructible>
+	<Destructible>
+		<DName>abil_skill_acidcloud_name</DName>
+		
+		<RefName>obj_acidcloud</RefName>
+		
+		<Prefab>PoisonCloud</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_acidcloud</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>GreenSmokePoof</VFX>
+	</Destructible>		
+
+	<Destructible>
+		<DName>abil_skill_poisoncloud_name</DName>
+		
+		<RefName>obj_evoke_poisoncloud</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>PoisonCloud</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_evokepoisoncloud</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>GreenSmokePoof</VFX>
+	</Destructible>	
+
+	<Destructible>
+		<DName>abil_skill_poisoncloud_name</DName>
+		
+		<RefName>obj_evoke_poisoncloud_moving</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>PoisonCloud</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Movement>FORWARD</Movement>
+		<StatusRef>status_evokepoisoncloud</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>GreenSmokePoof</VFX>
+	</Destructible>	
+
+	<Destructible>
+		<DName>status_status_toxicfumes_name</DName>
+		
+		<RefName>obj_toxicfumes</RefName>
+		
+		<Prefab>PoisonCloud</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_toxicfumes</StatusRef>
+		<Hvr>1</Hvr>
+		<DStep>1</DStep>
+		<ObjectFlag>POISON</ObjectFlag>
+		<VFX>GreenSmokePoof</VFX>
+	</Destructible>				
+	<Destructible>
+		<DName>des_obj_electrictile_dname</DName>
+		
+		<RefName>obj_electrictile</RefName>		
+		
+		<Prefab>ElectricTileSE</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_electile</StatusRef>
+		<Hvr>1</Hvr>
+		<DStep>1</DStep>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>abil_skill_laserfield2_name</DName>
+		
+		<RefName>obj_energyfield</RefName>
+		
+		<Prefab>ElectricTileSE2</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_shockhp</StatusRef>
+		<Hvr>1</Hvr>
+		
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<Movement>FORWARD</Movement>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_sleeptrap_dname</DName>
+		
+		<RefName>obj_sleeptrap</RefName>
+		
+		<Prefab>SleepTrap</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StepTrigger>NOTMYFACTION</StepTrigger>	
+		<Collidable>0</Collidable>
+		<DStep>1</DStep>
+		<Trg>0</Trg>
+		<StatusRef>sleeptile</StatusRef>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>npc_town_tree1_name</DName>
+		
+		<RefName>obj_tree</RefName>
+		
+		
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<Prefab>SmallCrate</Prefab>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		<Hvr>1</Hvr>
+		<ObjectFlag>POISON</ObjectFlag>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_smallmetalchest_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>FUTURE</Tileset>
+		<Tileset>RUINED</Tileset>
+		<RefName>obj_smallmetalchest</RefName>
+		<LootChance>1</LootChance>
+		<MaxItems>2</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<BonusLootValue>0.1</BonusLootValue>
+		<Prefab>SmallMetalChest</Prefab>
+		<DeathPrefab>MetalBreak</DeathPrefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>	
+	<Destructible>
+		<DName>des_obj_largemetalchest_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>FUTURE</Tileset>
+		<Tileset>RUINED</Tileset>
+		<RefName>obj_largemetalchest</RefName>
+		<LootChance>1.5</LootChance>
+		<MaxItems>3</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<BonusLootValue>0.1</BonusLootValue>
+		<Prefab>LargeMetalChest</Prefab>
+		<DeathPrefab>MetalBreak</DeathPrefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>		
+	<Destructible>
+		<DName>des_obj_shinymetalchest_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>FUTURE</Tileset>
+		<Tileset>RUINED</Tileset>
+		<RefName>obj_shinymetalchest</RefName>
+		<LootChance>1</LootChance>
+		<BonusLootValue>0.2</BonusLootValue>
+		<MaxItems>3</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>ShinyMetalChest</Prefab>
+		<DeathPrefab>MetalBreak</DeathPrefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_shinymetalorb_dname</DName>
+		<AutoSpawn>1</AutoSpawn>
+		<Tileset>FUTURE</Tileset>
+		<Tileset>RUINED</Tileset>
+		<RefName>obj_shinymetalorb</RefName>
+		<LootChance>0.8</LootChance>
+		<MaxItems>2</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>ShinyMetalOrb</Prefab>
+		<DeathPrefab>MetalBreak</DeathPrefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_journalpage_dname</DName>
+		<RefName>obj_journalpage</RefName>
+		<SpecObj>STORYOBJECT</SpecObj>
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Prefab>JournalEntry</Prefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_giantchest_dname</DName>
+		
+		<RefName>obj_giantchest</RefName>
+		<LootChance>10</LootChance>
+		<BonusLootValue>0.45</BonusLootValue>
+		<MaxItems>7</MaxItems>
+		<MinItems>5</MinItems>
+		<Prefab>SuperChestClosed</Prefab>
+		<DestroyedState>1</DestroyedState>
+		<ReqDestroyItem>item_goldkey</ReqDestroyItem>
+		<DestroyedPrefab>SuperChestOpen</DestroyedPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_oriore_dname</DName>
+		
+		<RefName>obj_oriore</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>OriOre</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<DialogRef>orichalcumore</DialogRef>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_coins_dname</DName>
+		
+		<RefName>obj_coins</RefName>
+		<SpecObj>MONEY</SpecObj>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>Coins</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_techcube_dname</DName>
+		
+		<RefName>obj_techcube</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TechCube</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<DialogRef>techcube_functionpickup</DialogRef>
+	</Destructible>
+	<Destructible>
+		
+		<RefName>seethroughblocker</RefName>
+		
+		<Prefab>TransparentStairs</Prefab>
+		<Faction>MYFACTION</Faction>
+		
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<SpecObj>BLOCKER</SpecObj>
+		<Trg>0</Trg>
+		
+	</Destructible>
+	<Destructible>
+		<DName>effect_eff_floorspikesdmg_name</DName>
+		
+		<RefName>obj_floorspikes</RefName>
+		<SpecObj>LAVA_LIKE_HAZARD</SpecObj>
+		<Prefab>TransparentStairs</Prefab>
+		<Faction>ENEMY</Faction>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StatusRef>status_floorspikes</StatusRef>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		
+		<RefName>obj_playerlightningsummoner</RefName>
+		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		<StatusRef>status_crystallightningstorm</StatusRef>
+		<ObjectFlag>TARGETING</ObjectFlag>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		
+		<RefName>trigger_fungalcave</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>passage_fungalcaverns</DialogRef>
+	</Destructible>	
+	<Destructible>
+		
+		<RefName>trigger_oldamberstation</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>passage_oldamberstation</DialogRef>
+	</Destructible>
+	<Destructible>
+		
+		<RefName>obj_bossdevice</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>DominatorHead</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		
+		
+	</Destructible>
+	<Destructible>
+		
+		<RefName>trigger_preboss2</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>preboss2trigger</DialogRef>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_superchest_dname</DName>
+		
+		<RefName>obj_superchest</RefName>
+		<LootChance>4</LootChance>
+		<BonusLootValue>0.2</BonusLootValue>
+		<BonusMagicChance>0.15</BonusMagicChance>
+		<BonusLegendaryChance>0.01</BonusLegendaryChance>
+		<MinItems>3</MinItems>
+		<MaxItems>5</MaxItems>
+		<MinMagicItems>1</MinMagicItems>
+		
+		<Prefab>SideAreaChest</Prefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_minisuperchest_dname</DName>
+		
+		<RefName>obj_minisuperchest</RefName>
+		<LootChance>4</LootChance>
+		<BonusLootValue>0.15</BonusLootValue>
+		<BonusMagicChance>0.1</BonusMagicChance>
+		<BonusLegendaryChance>0.008</BonusLegendaryChance>
+		<MinItems>3</MinItems>
+		<MaxItems>5</MaxItems>
+		<MinMagicItems>1</MinMagicItems>
+		
+		<Prefab>SideAreaChest</Prefab>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_regenquestobject_dname</DName>
+		
+		<RefName>obj_regenquestobject</RefName>
+		<LootChance>0.0</LootChance>
+		
+		
+		<Prefab>CrystalLaserSummoner</Prefab>
+		<DeathPrefab>IceShatter2x</DeathPrefab>
+		<PCol>1</PCol>
+		
+		<MCol>1</MCol>
+		
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		
+		<RefName>trigger_finalhubdialog</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>hub_repair_status_dialog</DialogRef>
+	</Destructible>
+	<Destructible>
+		
+		<RefName>trigger_finalhubdialog2</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		
+		
+		<DialogRef>quest_finalhubentry</DialogRef>
+	</Destructible>
+	<Destructible>
+		
+		<RefName>shadowdummy</RefName>
+		
+		<Prefab>TransparentStairs</Prefab>
+		<Faction>MYFACTION</Faction>
+		
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		
+		<Trg>0</Trg>
+		
+	</Destructible>
+	<Destructible>
+		<DName>des_obj_cherrytree_dname</DName>
+		
+		<RefName>obj_cherrytree</RefName>
+		
+		
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<Prefab>CherryTree</Prefab>
+		<Hvr>1</Hvr>
+	</Destructible>
+	<Destructible>
+		<DName>abil_skill_blessedpool_name</DName>
+		
+		<RefName>obj_blessedpool</RefName>
+		<ExcludeFromHotbarCheck />
+		<Prefab>HolyWaterTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_blessedpool</StatusRef>
+		<SpecObj>BLESSEDPOOL</SpecObj>
+		<Spread>ADJACENT</Spread>
+		<StopSpreadThreshold>2</StopSpreadThreshold>
+		<Hvr>1</Hvr>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_frozenflameshard_dname</DName>
+		
+		<RefName>obj_frozenflameshard</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>FlameShard</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<DialogRef>quest_flameshard</DialogRef>
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>trigger_frozenarea</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>frozenarea_observation</DialogRef>
+	</Destructible>		
+
+	<Destructible>
+		
+		<RefName>obj_palmtree1</RefName>
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<BlocksVision>1</BlocksVision>
+		<Prefab>PalmTree1</Prefab>
+		
+	</Destructible>
+
+	<Destructible>
+		
+		<RefName>obj_ruinedtree</RefName>
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<BlocksVision>1</BlocksVision>
+		<Prefab>RuinedTree1</Prefab>
+		
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>obj_palmtree2</RefName>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<Trg>0</Trg>
+		<BlocksVision>1</BlocksVision>
+		<Prefab>PalmTree2</Prefab>
+		
+	</Destructible>		
+
+	<Destructible>
+		<DName>effect_eff_tornadodamage_name</DName>
+		
+		<RefName>obj_mon_whirlwind</RefName>
+		
+		<Prefab>TornadoTile</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Movement>RANDOM</Movement>
+		<StatusRef>status_tornadodamage</StatusRef>
+		<VFX>GreenWindEffect</VFX>
+		<Hvr>1</Hvr>
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>dirtbeak_bottleneck_explainer</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>dialog_bottleneck_angry</DialogRef>
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>obj_sharacallout_vista</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>shara_vista_callout</DialogRef>
+	</Destructible>		
+
+	<Destructible>
+		
+		<RefName>obj_sharacallout2_vista</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>shara_vista_callout2</DialogRef>
+	</Destructible>		
+
+	<Destructible>
+		<DName>des_obj_playertpsquare_dname</DName>
+		
+		<RefName>obj_playertpsquare</RefName>
+		
+		<Prefab>TeleportBook</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+	</Destructible>		
+
+	<Destructible>		
+		<RefName>obj_specialtree1</RefName>			
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<Prefab>SmallCrate</Prefab>
+		<PrefabOption>NPCs/UncommonTreeAdult</PrefabOption>
+		<PrefabOption>NPCs/UncommonTreeAdult2</PrefabOption>
+		<PrefabOption>NPCs/RareTreeAdult</PrefabOption>
+		<PrefabOption>NPCs/RareTreeSapling</PrefabOption>		
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_broken_assembler_dname</DName>
+		
+		<RefName>obj_broken_assembler</RefName>
+		
+		<Prefab>BrokenReplicator</Prefab>
+		<Faction>MYFACTION</Faction>
+		
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<BlocksVision>1</BlocksVision>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_broken_medicbot_dname</DName>
+		
+		<RefName>obj_broken_medicbot</RefName>
+		
+		<Prefab>BrokenMedicBot</Prefab>
+		<Faction>MYFACTION</Faction>
+		
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<BlocksVision>1</BlocksVision>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+	</Destructible>
+
+	<Destructible>
+		<DName>mon_mon_barriercrystal_name</DName>
+		
+		<RefName>obj_barriercrystal</RefName>
+		
+		<Prefab>BarrierCrystal</Prefab>
+		<Faction>MYFACTION</Faction>
+		
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<BlocksVision>1</BlocksVision>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_testtubes_dname</DName>
+		
+		<RefName>obj_testtubes</RefName>
+		
+		<Prefab>FutureBush2</Prefab>
+		<Faction>MYFACTION</Faction>
+		
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<BlocksVision>1</BlocksVision>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+	</Destructible>		
+
+	<Destructible>
+		
+		<RefName>obj_dirtbeakthronetrigger</RefName>
+		<LootChance>0.0</LootChance>
+		
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		
+		<DialogRef>fun_sat_dirtbeakthrone</DialogRef>
+	</Destructible>		
+
+	<Destructible>
+		<DName>des_obj_jobtrial_crystal_dname</DName>
+		
+		<RefName>obj_jobtrial_crystal</RefName>
+		<LootChance>0.0</LootChance>
+		
+		
+		<Prefab>CrystalLaserSummoner</Prefab>
+		<DeathPrefab>IceShatter2x</DeathPrefab>
+		<Faction>ENEMY</Faction>
+		<PCol>1</PCol>
+		
+		<MCol>1</MCol>
+		
+		<Hvr>1</Hvr>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_quest_magical_herb_dname</DName>
+		
+		<RefName>quest_magical_herb</RefName>
+		<Prefab>HerbPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>	
+		<StepTrigger>HERO</StepTrigger>	
+		<DialogRef>found_quest_herb</DialogRef>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_quest_magical_herb2_dname</DName>
+		
+		<RefName>quest_magical_herb2</RefName>
+		<Prefab>HerbPowerup</Prefab>
+		<Faction>PLAYER</Faction>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Trg>0</Trg>
+		
+		<DStep>1</DStep>
+		<StepTrigger>HERO</StepTrigger>	
+		<StatusRef>BoostPlayerCoreStats1</StatusRef>
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>obj_blockingpillar1</RefName>
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<BlocksVision>1</BlocksVision>
+		<Prefab>StonePillar1</Prefab>
+		
+	</Destructible>
+
+	<Destructible>
+		
+		<RefName>obj_blockingpillar2</RefName>
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<BlocksVision>1</BlocksVision>
+		<Prefab>StonePillar2</Prefab>
+		
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>obj_blockingpillar3</RefName>
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<BlocksVision>1</BlocksVision>
+		<Prefab>StonePillar3</Prefab>
+		
+	</Destructible>	
+
+	<Destructible>
+		
+		<RefName>obj_blockingpillar4</RefName>
+		<Trg>0</Trg>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<BlocksVision>1</BlocksVision>
+		<Prefab>StonePillar4</Prefab>
+		
+	</Destructible>	
+
+	<Destructible>
+		<DName>exp_mapobj_letter_name</DName>		
+		<RefName>exp_obj_sharaletter</RefName>		
+		<SpecObj>STORYOBJECT</SpecObj>
+		<Trg>0</Trg>
+		<Faction>DUNGEON</Faction>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		<Prefab>JournalEntry</Prefab>
+		<Hvr>1</Hvr>
+		<DialogRef>dialog_shara_note</DialogRef>
+	</Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_floorspikesdmg_name</DName>
+		<RefName>obj_floorspikes_visible</RefName>
+		<SpecObj>LAVA_LIKE_HAZARD</SpecObj>
+		<Prefab>SpikeTile</Prefab>
+		<Faction>ENEMY</Faction>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StatusRef>status_floorspikes</StatusRef>
+	</Destructible>
+
+	<Destructible>
+		<DName>exp_obj_metalgate_name</DName>
+		<RefName>obj_metalgate</RefName>	
+		
+		<Prefab>GateClosed</Prefab>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<Hvr>1</Hvr>
+		<BlocksVision>1</BlocksVision>
+		<ReqDestroyItem>nothing</ReqDestroyItem>
+		<DestroyedState>1</DestroyedState>
+		<DestroyedPrefab>GateOpen</DestroyedPrefab>
+	</Destructible>
+
+	<Destructible>
+		<DName>exp_mapobj_stump_name</DName>
+		<RefName>obj_stump1</RefName>
+		<LootChance>0.05</LootChance>
+		
+		<Prefab>Stump1</Prefab>
+		<MaxItems>1</MaxItems>
+		<PCol>1</PCol>
+		<BlocksVision>1</BlocksVision>
+		<MCol>1</MCol>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		
+	</Destructible>	
+
+	<Destructible>
+		<DName>exp_mapobj_stump_name</DName>
+		<RefName>obj_stump2</RefName>
+		<LootChance>0.05</LootChance>
+		
+		<Prefab>Stump2</Prefab>
+		<MaxItems>1</MaxItems>
+		<PCol>1</PCol>
+		<BlocksVision>1</BlocksVision>
+		<MCol>1</MCol>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<DeathPrefab>WoodBreak</DeathPrefab>
+		
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_shrapnelbomb_dname</DName>
+		<RefName>obj_weakershrapnelbomb</RefName>
+		<RunEffectOnLastTurn>1</RunEffectOnLastTurn>
+		<Prefab>PlayerBomb</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<StatusRef>status_weakerfireburst</StatusRef>		
+		<ObjectFlag>FIRE</ObjectFlag>
+		<VFX>MetalPoof</VFX>
+		<SpecObj>BOMB_ATTACK</SpecObj>
+	</Destructible>	
+
+	<Destructible>
+		<DName>abil_skill_monflameserpent_name</DName>		
+		<RefName>obj_enemyflameserpent_moving</RefName>		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<ShowDirection>1</ShowDirection>
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<Movement>FORWARD</Movement>				
+		<StatusRef>status_powerflameserpent</StatusRef>
+		<Hvr>1</Hvr>
+	  	<VFX>FireBurst</VFX>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>		
+	
+	<Destructible>
+		<RefName>stb</RefName>
+		<Prefab>TransparentStairs</Prefab>
+		<Faction>MYFACTION</Faction>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		<SpecObj>BLOCKER</SpecObj>
+		<Trg>0</Trg>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>		
+		<RefName>obj_champfiresummoner</RefName>		
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<RunEffectOnlyOnce>1</RunEffectOnlyOnce>
+		<AlwaysRun>1</AlwaysRun>
+		<DieAfterUse>1</DieAfterUse>
+		<Trg>0</Trg>
+		<StatusRef>status_summonchampfire</StatusRef>
+		<ObjectFlag>FIRE</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+	</Destructible>
+
+</DOCUMENT>

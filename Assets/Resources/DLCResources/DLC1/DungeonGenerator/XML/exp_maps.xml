@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Floor>
+		<Level>350</Level>
+		<AltPath>0</AltPath>
+		<EffectiveFloor>0</EffectiveFloor>
+		<ChallengeValue>1.0</ChallengeValue>
+		<LayoutType>STANDARDNOHALLS</LayoutType>	
+		<PriorityMinimum>4</PriorityMinimum>
+		<PriorityRoomTemplate>ExpRoom1</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom6</PriorityRoomTemplate>		
+		<Rivers>2</Rivers>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<Tileset>TREETOPS</Tileset>
+		<AddStumps>0.03</AddStumps>
+		<CustomName>exp_mapname_waterway1</CustomName>
+		<Size>42</Size>
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>9</MaxMonsters>
+		<MinRooms>25</MinRooms>
+		<MaxRooms>28</MaxRooms>		
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<SpawnTable>alternate_start1</SpawnTable>
+		<StairsDownToLevel>351</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MusicCue>waterway</MusicCue>
+	</Floor>
+
+	<Floor>
+		<Level>351</Level>
+		<AltPath>1</AltPath>
+		<EffectiveFloor>1</EffectiveFloor>
+		<ChallengeValue>1.1</ChallengeValue>
+		<LayoutType>STANDARD</LayoutType>
+		<Tileset>TREETOPS</Tileset>
+		<AddStumps>0.03</AddStumps>
+		<Rivers>2</Rivers>
+		<CustomName>exp_mapname_waterway</CustomName>
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>44</Size>
+		<MaxSecretAreas>2</MaxSecretAreas>		
+		<MinRooms>18</MinRooms>
+		<MaxRooms>22</MaxRooms>
+		<MaxCorridors>3</MaxCorridors>
+		<MaxDeadends>15</MaxDeadends>
+		<MaxCorridorLength>5</MaxCorridorLength>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>alternate_start2</SpawnTable>
+		<StairsUpToLevel>350</StairsUpToLevel>
+		<StairsDownToLevel>352</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<MusicCue>waterway</MusicCue>
+	</Floor>	
+
+	<Floor>
+		<Level>352</Level>
+		<AltPath>2</AltPath>
+		<EffectiveFloor>2</EffectiveFloor>
+		<ChallengeValue>1.0</ChallengeValue>
+		<LayoutType>STANDARDNOHALLS</LayoutType>	
+		<PriorityMinimum>5</PriorityMinimum>
+		<PriorityRoomTemplate>ExpRoom1</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpRoom6</PriorityRoomTemplate>		
+		<Rivers>2</Rivers>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<Tileset>TREETOPS</Tileset>
+		<AddStumps>0.03</AddStumps>
+		<CustomName>exp_mapname_waterway</CustomName>
+		<Size>44</Size>
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MinRooms>28</MinRooms>
+		<MaxRooms>31</MaxRooms>		
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<SpawnTable>alternate_start3</SpawnTable>
+		<StairsUpToLevel>351</StairsUpToLevel>
+		<StairsDownToLevel>353</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MusicCue>waterway</MusicCue>
+	</Floor>
+
+	<Floor>
+		<Level>353</Level>
+		<AltPath>3</AltPath>
+		<EffectiveFloor>3</EffectiveFloor>
+		<ChallengeValue>1.2</ChallengeValue>
+		<Tileset>MOSS</Tileset>
+		<AddStumps>0.03</AddStumps>
+		<CustomName>exp_mapname_waterway</CustomName>
+		<LayoutType>HIVES</LayoutType>
+		<PriorityMinimum>3</PriorityMinimum>
+		<MaxLavaPools>4</MaxLavaPools>
+		<PriorityRoomTemplate>ExpHives1</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpHives2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpHives3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpHives4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpHives5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpHives6</PriorityRoomTemplate>
+		<PriorityRoomTemplate>ExpHives7</PriorityRoomTemplate>	
+		<PriorityRoomTemplate>HRoom16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom18</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom19</PriorityRoomTemplate>			
+		<MinRooms>21</MinRooms>
+		<MaxRooms>26</MaxRooms>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>11</MaxCorridorLength>		
+		<MaxDeadends>14</MaxDeadends>
+		<Size>42</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<SpawnTable>alternate_start4</SpawnTable>
+		<StairsUpToLevel>352</StairsUpToLevel>
+		<StairsDownToLevel>354</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MusicCue>waterway</MusicCue>
+	</Floor>
+
+	<Floor>
+		<Level>354</Level>
+		<AltPath>4</AltPath>
+		<EffectiveFloor>4</EffectiveFloor>
+		<ChallengeValue>1.3</ChallengeValue>
+		<Tileset>MOSS</Tileset>
+		<AddStumps>0.03</AddStumps>
+		<CustomName>exp_mapname_waterway</CustomName>
+		<EvenMonsterDistribution />		
+		<Rivers>3</Rivers>
+		<ChanceToOpenWalls>0.26</ChanceToOpenWalls>
+		<LayoutType>BSPROOMS</LayoutType>
+	 	<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<Size>42</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>alternate_start5</SpawnTable>
+		<StairsUpToLevel>353</StairsUpToLevel>
+		<StairsDownToLevel>204</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MusicCue>waterway</MusicCue>
+	</Floor>
+	
+	<!-- Shara's home base campfire floor -->
+	<Floor>
+		<Level>355</Level>
+		<ChallengeValue>1.0</ChallengeValue>
+		<Size>11</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<NoSpawner />
+		<SafeArea />
+		<MusicCue>sharatheme1</MusicCue>
+		<CustomName>exp_map_campfire_shara_name</CustomName>
+		<SpecialRoomTemplate>shara_campfire</SpecialRoomTemplate>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>	
+
+	<Floor>
+		<Level>356</Level>
+		<ChallengeValue>2.0</ChallengeValue>
+		<Size>46</Size>
+		<LayoutType>STANDARD</LayoutType>
+		<ChanceToOpenWalls>0.08</ChanceToOpenWalls>
+		<DontConnectToAnything />
+		<FastTravel />
+		<NoSpawner />
+		<MinRooms>24</MinRooms>
+		<MaxRooms>34</MaxRooms>
+		<MaxCorridors>11</MaxCorridors>
+		<Rivers>2</Rivers>
+		<MaxCorridorLength>9</MaxCorridorLength>
+		<MaxDeadends>6</MaxDeadends>
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Tileset>SNOW</Tileset>
+		<CustomName>exp_superhardarea_name_1</CustomName>
+		<Script_PreBeautify>AddWaterPoolsAndIce</Script_PreBeautify>
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>respawningmonsters|1</MetaData>
+		<MetaData>passday|1</MetaData>
+		<MetaData>noitemdreams|1</MetaData>
+		<EvenMonsterDistribution />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<SpawnTable>cv200</SpawnTable>
+		<StairsDownToLevel>357</StairsDownToLevel>	
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>		
+	</Floor>
+
+	<Floor>
+		<Level>357</Level>
+		<ChallengeValue>2.05</ChallengeValue>
+		<Size>46</Size>
+		<DontConnectToAnything />
+		<NoSpawner />
+		<SpawnRateModifier>0.66</SpawnRateModifier>
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Tileset>TREETOPS</Tileset>
+		<CustomName>exp_superhardarea_name_2</CustomName>
+		<AddStumps>0.015</AddStumps>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CaveFillConverter>0.11</CaveFillConverter>
+		<CellChanceToStartAlive>0.41</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>2</CellSimulationSteps>
+		<CellMinGroundPercent>0.45</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.69</CellMaxGroundPercent>
+		<EvenMonsterDistribution />
+		<MetaData>respawningmonsters|1</MetaData>
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>noitemdreams|1</MetaData>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<SpawnTable>cv205</SpawnTable>
+		<StairsUpToLevel>356</StairsUpToLevel>
+		<StairsDownToLevel>358</StairsDownToLevel>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>		
+	</Floor>
+
+	<Floor>
+		<Level>358</Level>
+		<ChallengeValue>2.1</ChallengeValue>
+		<Size>46</Size>
+		<LayoutType>STANDARD</LayoutType>
+		<ChanceToOpenWalls>0.08</ChanceToOpenWalls>
+		<DontConnectToAnything />
+		<NoSpawner />
+		<MinRooms>24</MinRooms>		
+		<MaxRooms>34</MaxRooms>
+		<MaxCorridors>11</MaxCorridors>
+		<MaxCorridorLength>9</MaxCorridorLength>
+		<MaxDeadends>6</MaxDeadends>
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<RevealAll />
+		<UnbreakableWalls />
+		<CustomName>exp_superhardarea_name_3</CustomName>
+		<Script_PostBuild>ConvertWallsToHolesForMountainGrass</Script_PostBuild>
+		<Script_PreBeautify>InsertSmallDugoutAreas</Script_PreBeautify>
+		<ParallaxBackground>clouds,-0.25,-0.25,50</ParallaxBackground>
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>no_floodfill_check|1</MetaData>	
+		<MetaData>hasholes|1</MetaData>	
+		<MetaData>respawningmonsters|1</MetaData>
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>passday|1</MetaData>
+		<MetaData>noitemdreams|1</MetaData>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<SpawnTable>cv210</SpawnTable>
+		<StairsUpToLevel>357</StairsUpToLevel>
+		<StairsDownToLevel>359</StairsDownToLevel>	
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>	
+		<MusicCue>realmgods</MusicCue>
+		<Script_OnMonsterSpawn>AddJumpToMonstersWithoutIt</Script_OnMonsterSpawn>
+	</Floor>
+
+	<Floor>
+		<Level>359</Level>
+		<ChallengeValue>2.15</ChallengeValue>
+		<Size>42</Size>
+		<LayoutType>MAZE</LayoutType>
+		<DontConnectToAnything />
+		<AllowDiagonals />
+		<NoSpawner />
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<RevealAll />
+		<UnbreakableWalls />
+		<CustomName>exp_superhardarea_name_4</CustomName>
+		<Script_PostBuild>ConvertWallsToHolesForMountainGrass</Script_PostBuild>
+		<ParallaxBackground>clouds,-0.25,-0.25,50</ParallaxBackground>
+		<MetaData>no_floodfill_check|1</MetaData>	
+		<MetaData>hasholes|1</MetaData>	
+		<MetaData>respawningmonsters|1</MetaData>
+		<MetaData>noitemdreams|1</MetaData>
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<SpawnTable>cv215</SpawnTable>
+		<StairsUpToLevel>358</StairsUpToLevel>
+		<StairsDownToLevel>360</StairsDownToLevel>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<MusicCue>realmgods</MusicCue>
+		<Script_OnMonsterSpawn>AddJumpToMonstersWithoutIt</Script_OnMonsterSpawn>
+	</Floor>	
+
+	<Floor>
+		<Level>360</Level>
+		<ChallengeValue>2.2</ChallengeValue>
+		<Size>46</Size>
+		<LayoutType>STANDARD</LayoutType>
+		<DontConnectToAnything />
+		<FastTravel />
+		<RevealAll />
+		<NoSpawner />
+		<MinRooms>17</MinRooms>
+		<MaxRooms>22</MaxRooms>
+		<MaxCorridors>10</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MaxDeadends>3</MaxDeadends>
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<PriorityMinimum>8</PriorityMinimum>
+		<PriorityRoomTemplate>gods1</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods6</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods7</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods8</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods9</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods10</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods11</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods12</PriorityRoomTemplate>
+		<PriorityRoomTemplate>gods13</PriorityRoomTemplate>
+		<Tileset>MOUNTAINGRASS</Tileset>
+		<CustomName>exp_superhardarea_name_5</CustomName>
+		<Script_PostBuild>ConvertWallsToHolesForMountainGrass</Script_PostBuild>
+		<Script_PreBeautify>InsertSmallDugoutAreas</Script_PreBeautify>
+		<ParallaxBackground>clouds,-0.25,-0.25,50</ParallaxBackground>		
+		<EvenMonsterDistribution />
+		<MetaData>nocamerabounds|1</MetaData>
+		<MetaData>maxroomsize|11</MetaData>
+		<MetaData>breakmaxroomsize|1</MetaData>
+		<MetaData>forcepriorityrooms|1</MetaData>
+		<MetaData>no_diagonal_correction|1</MetaData>
+		<MetaData>no_floodfill_check|1</MetaData>
+		<MetaData>hasholes|1</MetaData>
+		<MetaData>respawningmonsters|1</MetaData>
+		<MetaData>passday|1</MetaData>
+		<MetaData>noitemdreams|1</MetaData>
+		<MinSpawnFloor>99</MinSpawnFloor>		
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<SpawnTable>cv220</SpawnTable>
+		<StairsUpToLevel>359</StairsUpToLevel>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<MusicCue>realmgods</MusicCue>
+		<Script_OnMonsterSpawn>AddJumpToMonstersWithoutIt</Script_OnMonsterSpawn>
+	</Floor>	
+</DOCUMENT>

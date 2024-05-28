@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<LootTable>
+		<RefName>runeteachskills</RefName>
+		<MergeWithExisting />
+		<rune_teachskill0>100</rune_teachskill0>
+		<rune_teachskill1>100</rune_teachskill1>
+		<rune_teachskill2>100</rune_teachskill2>
+		<rune_teachskill3>100</rune_teachskill3>
+		<rune_teachskill4>100</rune_teachskill4>
+		<rune_teachskill5>100</rune_teachskill5>
+		<rune_teachskill6>100</rune_teachskill6>
+		<rune_teachskill7>100</rune_teachskill7>
+		<rune_teachskill8>100</rune_teachskill8>
+		<rune_teachskill9>100</rune_teachskill9>
+	</LootTable>		
+
+	<LootTable>
+		<RefName>offense_summon_consumables</RefName>
+		<MergeWithExisting />
+		<bomb_minibombs>80</bomb_minibombs>
+		<bomb_oildrum>60</bomb_oildrum>
+		<bomb_confusetraps>65</bomb_confusetraps>
+	</LootTable>
+
+	<LootTable>
+		<RefName>consumables_plus_eggs</RefName>
+		<MergeWithExisting />
+		<bomb_minibombs>90</bomb_minibombs>
+		<bomb_oildrum>70</bomb_oildrum>
+		<bomb_confusetraps>65</bomb_confusetraps>
+	</LootTable>
+
+	<LootTable>
+		<RefName>consumables</RefName>
+		<MergeWithExisting />
+		<bomb_minibombs>90</bomb_minibombs>
+		<bomb_oildrum>70</bomb_oildrum>	
+		<bomb_confusetraps>65</bomb_confusetraps>	
+	</LootTable>
+
+	<LootTable>
+		<RefName>allitems</RefName>
+		<MergeWithExisting />
+		<bomb_minibombs>90</bomb_minibombs>
+		<bomb_oildrum>70</bomb_oildrum>
+		<weapon_sword6>100</weapon_sword6>
+		<weapon_staff6>100</weapon_staff6>
+		<weapon_axe6>100</weapon_axe6>
+		<weapon_dagger6>100</weapon_dagger6>
+		<weapon_claw6>100</weapon_claw6>
+		<weapon_bow6>100</weapon_bow6>
+		<weapon_mace6>100</weapon_mace6>
+		<weapon_spear6>100</weapon_spear6>
+		<weapon_2hsword6>100</weapon_2hsword6>
+		<armor_heavyarmor5>100</armor_heavyarmor5>
+		<armor_mediumarmor5>100</armor_mediumarmor5>
+		<armor_lightarmor5>100</armor_lightarmor5>
+		<armor_shield6>80</armor_shield6>
+		<item_gem8>70</item_gem8>
+		<item_gem9>60</item_gem9>
+		<bomb_confusetraps>65</bomb_confusetraps>
+	</LootTable>	
+
+	<LootTable>
+		<RefName>weapons</RefName>
+		<MergeWithExisting />
+		<weapon_sword6>100</weapon_sword6>
+		<weapon_staff6>100</weapon_staff6>
+		<weapon_axe6>100</weapon_axe6>
+		<weapon_dagger6>100</weapon_dagger6>
+		<weapon_claw6>100</weapon_claw6>
+		<weapon_bow6>100</weapon_bow6>
+		<weapon_mace6>100</weapon_mace6>
+		<weapon_spear6>100</weapon_spear6>
+		<weapon_2hsword6>100</weapon_2hsword6>
+	</LootTable>
+
+	<LootTable>
+		<RefName>equipment</RefName>
+		<MergeWithExisting />
+		<weapon_sword6>100</weapon_sword6>
+		<weapon_staff6>100</weapon_staff6>
+		<weapon_axe6>100</weapon_axe6>
+		<weapon_dagger6>100</weapon_dagger6>
+		<weapon_claw6>100</weapon_claw6>
+		<weapon_bow6>100</weapon_bow6>
+		<weapon_mace6>100</weapon_mace6>
+		<weapon_spear6>100</weapon_spear6>
+		<weapon_2hsword6>100</weapon_2hsword6>		
+		<armor_heavyarmor5>100</armor_heavyarmor5>
+		<armor_mediumarmor5>100</armor_mediumarmor5>
+		<armor_lightarmor5>100</armor_lightarmor5>
+		<armor_shield6>80</armor_shield6>
+	</LootTable>
+
+	<LootTable>
+		<RefName>bodyarmor</RefName>
+		<MergeWithExisting />
+		<armor_heavyarmor5>100</armor_heavyarmor5>
+		<armor_mediumarmor5>100</armor_mediumarmor5>
+		<armor_lightarmor5>100</armor_lightarmor5>		
+	</LootTable>
+
+	<LootTable>
+		<RefName>armor</RefName>
+		<MergeWithExisting />
+		<armor_heavyarmor5>100</armor_heavyarmor5>
+		<armor_mediumarmor5>100</armor_mediumarmor5>
+		<armor_lightarmor5>100</armor_lightarmor5>	
+		<armor_shield6>80</armor_shield6>			
+	</LootTable>
+
+	<LootTable>
+		<RefName>offhands</RefName>
+		<MergeWithExisting />
+		<armor_shield6>80</armor_shield6>
+	</LootTable>
+
+	<LootTable>
+		<RefName>gems</RefName>
+		<MergeWithExisting />
+		<item_gem8>70</item_gem8>
+		<item_gem9>60</item_gem9>
+	</LootTable>	
+</DOCUMENT>

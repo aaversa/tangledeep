@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Abil>
+		<DName>exp_skill_flowshield_displayname</DName>
+		<RefName>skill_flowshield</RefName>
+		<Icon>SkillIcons_206</Icon>		
+		<Desc>exp_skill_flowshield_description</Desc>
+		<SDesc>exp_skill_flowshield_description</SDesc>
+		<EDesc>exp_skill_flowshield_extradesc</EDesc>
+		<NTag>40%</NTag>
+		<Range>1</Range>
+		<CD>12</CD>
+		<PercentMaxHealthCost>0.1</PercentMaxHealthCost>
+		<ATags>INSTANT,TVISIBLEONLY,HEROAFFECTED,PERTARGETANIM,GROUNDTARGET,SIMULTANEOUSANIM,CENTERED</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<SpritePopInfo>shadow|normal|0</SpritePopInfo>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_flowshield</ERef>
+			<AnimLength>0.25</AnimLength>
+			<SpriteEffectRef>FervirBuff</SpriteEffectRef>
+			<StatusRef>status_flowshield</StatusRef>
+			<Targ>ORIGINATING</Targ>
+			<Duration>99</Duration>
+			<PlayAnimation />
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_dominate_displayname</DName>
+		<RefName>skill_dominate</RefName>
+		<Desc>exp_skill_dominate_description</Desc>
+		<SDesc>exp_skill_dominate_description</SDesc>
+		<EDesc>exp_skill_dominate_extradesc</EDesc>
+		<NTag>110%</NTag>
+		<NTag>35%</NTag>
+		<NTag>15%</NTag>
+		<Icon>SkillIcons_208</Icon>
+		<Range>4</Range>
+		<CD>7</CD>
+		<EnergyCost>20</EnergyCost>
+		<ATags>INSTANT,TARGETED,MONSTERAFFECTED,LINEOFSIGHTREQ,PERTARGETANIM,TVISIBLEONLY,CURSORTARGET,CENTERED</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_dominate_displayname</Disp>
+			<ERef>dominate_damage</ERef>
+			<Targ>SINGLE</Targ>
+			<DamageType>PHYSICAL</DamageType>
+			<AtkSp>1.1</AtkSp>
+			<PlayAnimation />
+			<AnimLength>0.25</AnimLength>
+			<SpriteEffectRef>FervirShadowHit</SpriteEffectRef>			
+			<Faction>NOTMYFACTION</Faction>
+		</AEff>	
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<Script_PreRunConditional>DominateWeakMonsters</Script_PreRunConditional>
+			<ERef>dominate_charm</ERef>
+			<StatusRef>exp_status_dominated</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>999</Duration>
+		</AEff>	
+	</Abil>	
+	<Abil>
+		<DName>exp_skill_booststrength_name</DName>
+		<RefName>exp_skill_booststrength</RefName>
+		<Desc>exp_skill_booststrength_desc</Desc>
+		<EDesc>stat_strength_effects</EDesc>
+		<NTag>4</NTag>		
+		<Icon>SkillIcons_193</Icon>
+		<Passive />
+		<DisplayInList>0</DisplayInList>		
+		<Script_OnLearn>BoostStat,STRENGTH,4</Script_OnLearn>
+	</Abil>
+	<Abil>
+		<DName>exp_skill_boostspirit_name</DName>
+		<RefName>exp_skill_boostspirit</RefName>
+		<Desc>exp_skill_boostspirit_desc</Desc>
+		<EDesc>stat_spirit_effects</EDesc>
+		<NTag>4</NTag>		
+		<Icon>SkillIcons_195</Icon>
+		<Passive />
+		<DisplayInList>0</DisplayInList>
+		<Script_OnLearn>BoostStat,SPIRIT,4</Script_OnLearn>
+	</Abil>
+	<Abil>
+		<DName>exp_skill_boostdiscipline_name</DName>
+		<RefName>exp_skill_boostdiscipline</RefName>
+		<Desc>exp_skill_boostdiscipline_desc</Desc>
+		<EDesc>stat_discipline_effects</EDesc>
+		<NTag>4</NTag>		
+		<Icon>SkillIcons_196</Icon>
+		<Passive />
+		<DisplayInList>0</DisplayInList>
+		
+		
+		<Script_OnLearn>BoostStat,DISCIPLINE,4</Script_OnLearn>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_boostswiftness_name</DName>
+		<RefName>exp_skill_boostswiftness</RefName>
+		<Desc>exp_skill_boostswiftness_desc</Desc>
+		<EDesc>stat_swiftness_effects</EDesc>
+		<NTag>4</NTag>		
+		<Icon>SkillIcons_194</Icon>
+		<Passive />
+		<DisplayInList>0</DisplayInList>
+		
+		
+		<Script_OnLearn>BoostStat,SWIFTNESS,4</Script_OnLearn>
+	</Abil>		
+
+	<Abil>
+		<DName>exp_skill_boostguile_name</DName>
+		<RefName>exp_skill_boostguile</RefName>
+		<Desc>exp_skill_boostguile_desc</Desc>
+		<EDesc>stat_guile_effects</EDesc>
+		<NTag>4</NTag>		
+		<Icon>SkillIcons_197</Icon>
+		<Passive />
+		<DisplayInList>0</DisplayInList>
+		
+		
+		<Script_OnLearn>BoostStat,GUILE,4</Script_OnLearn>
+	</Abil>		
+
+	<Abil>
+		<DName>exp_skill_shockwave_name</DName>
+		<RefName>skill_shockwave</RefName>
+		<Icon>SkillIcons_209</Icon>		
+		<Desc>exp_skill_shockwave_description</Desc>
+		<SDesc>exp_skill_shockwave_description</SDesc>
+		<EDesc>exp_skill_shockwave_extradesc</EDesc>
+		<NTag>135%</NTag>
+		<Range>1</Range>
+		<CD>8</CD>
+		<EnergyCost>25</EnergyCost>
+		<ATags>INSTANT,TVISIBLEONLY,PERTARGETANIM,GROUNDTARGET,SIMULTANEOUSANIM,CENTERED,SHARAPOWER</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<SpritePopInfo>lightning|normal|0</SpritePopInfo>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>summon_shockwave</ERef>	
+			
+			<ARef>obj_shockwave</ARef>
+			<SDur>5</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<SummonOnSummoner />
+			<MaxRandomSummonRange>0</MaxRandomSummonRange>
+		</AEff>		
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_truehover_name</DName>
+		<RefName>skill_truehover</RefName>
+		<Icon>SkillIcons_210</Icon>
+		<Desc>exp_skill_truehover_description</Desc>
+		<NTag>30%</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		
+		<ATags>SHARAPOWER</ATags>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_truehover_status</ERef>
+			<StatusRef>exp_status_truehover</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_improveddominate_name</DName>
+		<RefName>skill_improveddominate</RefName>
+		<Icon>SkillIcons_211</Icon>
+		<Desc>exp_skill_improveddominate_description</Desc>
+		<NTag>50%</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		
+		<ATags>SHARAPOWER</ATags>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_improveddominate_status</ERef>
+			<StatusRef>exp_status_improveddominate</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_banish_displayname</DName>
+		<RefName>exp_skill_banish</RefName>
+		<Desc>exp_skill_banish_description</Desc>
+		<SDesc>exp_skill_banish_description</SDesc>
+		<Icon>SkillIcons_212</Icon>
+		<Range>2</Range>
+		<CD>6</CD>
+		<StM>15</StM>
+		<ATags>INSTANT,TARGETED,LINEOFSIGHTREQ,PERTARGETANIM,TVISIBLEONLY,CURSORTARGET,GROUNDTARGET,CENTERED</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>exp_banish</ERef>
+			<SpriteEffectRef>ShadowReverberateEffect</SpriteEffectRef>
+			<Sscr>TargetMonsterAndDestructibleSummons</Sscr>
+			<PlayAnimation />
+			<AnimLength>0.3</AnimLength>
+		</AEff>	
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_commandingpresence_name</DName>
+		<RefName>skill_commandingpresence</RefName>
+		<Icon>SkillIcons_214</Icon>
+		<Desc>exp_skill_commandingpresence_description</Desc>
+		<EDesc>exp_skill_commandingpresence_extradesc</EDesc>
+		<NTag>4%</NTag>
+		<NTag>16%</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		<ATags>SHARAPOWER</ATags>		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_commandingpresence</ERef>
+			<StatusRef>exp_status_commandingpresence</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_collectivestrength_name</DName>
+		<RefName>skill_collectivestrength</RefName>
+		<Icon>SkillIcons_213</Icon>
+		<Desc>exp_skill_collectivestrength_desc</Desc>
+		<NTag>+8%</NTag>
+		<NTag>40%</NTag>
+		<Passive />
+		<UsePassiveSlot />		
+		<ATags>SHARAPOWER</ATags>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_collectivestrength</ERef>
+			<StatusRef>exp_status_collectivestrength</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_charisma_name</DName>
+		<RefName>skill_charisma</RefName>
+		<Icon>SkillIcons_222</Icon>
+		<Desc>exp_skill_charisma_desc</Desc>
+		<NTag>15%</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		
+		<ATags>SHARAPOWER</ATags>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_charisma</ERef>
+			<StatusRef>exp_status_charisma</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>		
+
+	<Abil>
+		<DName>exp_skill_necessarysacrifice_name</DName>
+		<RefName>skill_necessarysacrifice</RefName>
+		<Icon>SkillIcons_220</Icon>
+		<Desc>exp_skill_necessarysacrifice_desc</Desc>
+		<NTag>10%</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		
+		<ATags>SHARAPOWER</ATags>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_necessarysacrifice</ERef>
+			<StatusRef>exp_status_necessarysacrifice</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_voidshield_displayname</DName>
+		<RefName>skill_voidshield</RefName>
+		<Icon>SkillIcons_207</Icon>		
+		<Desc>exp_skill_voidshield_description</Desc>
+		<SDesc>exp_skill_voidshield_description</SDesc>
+		<EDesc>exp_skill_voidshield_extradesc</EDesc>
+		<NTag>30%</NTag>
+		<NTag>15%</NTag>
+		<Range>1</Range>
+		<CD>12</CD>
+		<PercentMaxHealthCost>0.1</PercentMaxHealthCost>
+		<ATags>INSTANT,TVISIBLEONLY,HEROAFFECTED,PERTARGETANIM,GROUNDTARGET,SIMULTANEOUSANIM,CENTERED,SHARAPOWER</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<SpritePopInfo>shadow|normal|0</SpritePopInfo>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_voidshield</ERef>
+			<AnimLength>0.25</AnimLength>
+			<SpriteEffectRef>FervirBuff</SpriteEffectRef>
+			<StatusRef>status_voidshield</StatusRef>
+			<Targ>ORIGINATING</Targ>
+			<Duration>99</Duration>
+			<PlayAnimation />
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_voidbolt_displayname</DName>
+		<RefName>skill_voidbolt</RefName>
+		<Desc>exp_skill_voidbolt_description</Desc>
+		<SDesc>exp_skill_voidbolt_description</SDesc>
+		<EDesc>exp_skill_voidbolt_extradesc</EDesc>
+		<NTag>100%</NTag>
+		<NTag>100%</NTag>
+		<NTag>3%</NTag>
+		<NTag>5</NTag>
+		<Icon>SkillIcons_215</Icon>
+		<Range>3</Range>
+		<CD>7</CD>
+		<StM>20</StM>
+		<ATags>INSTANT,TARGETED,MONSTERAFFECTED,LINEOFSIGHTREQ,PERTARGETANIM,TVISIBLEONLY,CURSORTARGET,CENTERED,SHARAPOWER</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_voidbolt_displayname</Disp>
+			<ERef>voidbolt_damage</ERef>
+			<CanCrit />
+			<Targ>SINGLE</Targ>
+			<DamageType>PHYSICAL</DamageType>
+			<Eq>$AttackerWeaponPower + $AttackerWeaponPower * (1-$AtkHealthPercent)</Eq>
+			<PlayAnimation />
+			<IsProjectile />
+			<AnimLength>0.2</AnimLength>
+			<SpriteEffectRef>ShadowBolt</SpriteEffectRef>
+			<Faction>NOTMYFACTION</Faction>
+		</AEff>	
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>voidbolt_addstatus</ERef>
+			<StatusRef>exp_status_essencedrain</StatusRef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>5</Duration>
+		</AEff>	
+	</Abil>		
+
+	<Abil>
+		<DName>abil_skill_summonvoidcrystal_name</DName>
+		<RefName>skill_summonvoidcrystal</RefName>
+		<Desc>skill_summonvoidcrystal_desc</Desc>
+		<SDesc>skill_summonvoidcrystal_desc</SDesc>
+		<EDesc>skill_summonvoidcrystal_extradesc</EDesc>
+		<Icon>SkillIcons_216</Icon>	
+		<Range>4</Range>
+		<CD>2</CD>
+		<EnergyCost>25</EnergyCost>
+		<ATags>INSTANT,TARGETED,GROUNDTARGET,TVISIBLEONLY,LINEOFSIGHTREQ,SIMULTANEOUSANIM,CENTERED,EMPTYONLY,GROUNDONLY,CURSORTARGET,SHARAPOWER</ATags>
+		<ATarg>SUMMONGROUND</ATarg>
+		<SpritePopInfo>shadow|normal|1</SpritePopInfo>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_summonvoidcrystal</ERef>
+			<AType>MONSTER</AType>
+			<ARef>mon_voidcrystal</ARef>
+			<ScaleWithLevel />
+			<SDur>6</SDur>
+			<Anchor>ORIGINATING</Anchor>
+			<AnchorRange>2</AnchorRange>
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>abil_skill_plaser_name</DName>
+		<RefName>skill_plaser_instant</RefName>
+		<Range>5</Range>
+		<CD>3</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,MONSTERAFFECTED,PERTARGETANIM,SIMULTANEOUSANIM,LINEOFSIGHTREQ,STACKPROJECTILE,CENTERED,LOCKSQUARETOTARGET</ATags>
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_plaser_name</Disp>
+			<ERef>phasmabeam_single</ERef>
+			<CanCrit />
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>InstantLaserEffect,0.2</Anim>
+			<DamageType>LIGHTNING</DamageType>
+			<AtkWp>1.25|8</AtkWp>
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_phasmashield_name</DName>
+		<RefName>skill_phasmashield</RefName>
+		<Desc>exp_skill_phasmashield_description</Desc>
+		<SDesc>exp_skill_phasmashield_description</SDesc>
+		<EDesc>exp_skill_phasmashield_extradesc</EDesc>
+		<NTag>30%</NTag>
+		<NTag>30%</NTag>
+		<Icon>SkillIcons_150</Icon>		
+		<Range>1</Range>
+		<CD>14</CD>
+		<EnergyCost>20</EnergyCost>
+		<ATags>INSTANT,CENTERED,GROUNDTARGET,TARGETED,SIMULTANEOUSANIM,SHARAPOWER</ATags>
+		<ATarg>SUMMONGROUND</ATarg>
+		
+		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_phasmashield_summon</ERef>
+			
+			<ARef>obj_weakerphasmashieldtile</ARef>
+			<SDur>6</SDur>
+			<Anchor>ORIGINATING</Anchor>			
+			<SummonOnCollidable />
+			<SummonActorPerTile />
+			<SummonNoStacking />
+			<SummonOnCollidable />
+		</AEff>
+	</Abil>		
+
+	<Abil>
+		<DName>exp_skill_phasechange_name</DName>
+		<RefName>skill_phasechange</RefName>
+		<Desc>exp_skill_phasechange_desc</Desc>
+		<SDesc>exp_skill_phasechange_desc</SDesc>
+		<EDesc>exp_skill_phasechange_extradesc</EDesc>
+		<Icon>SkillIcons_217</Icon>
+		<NTag>5</NTag>
+		<Range>4</Range>		
+		<CD>7</CD>
+		<StM>20</StM>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,CURSORTARGET,MONSTERAFFECTED,CENTERED,UNIQUETARGET,SHARAPOWER</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>		
+		<AEff>
+			<Type>MOVEACTOR</Type>
+			<ERef>juxtapose_move</ERef>
+			<Targ>ORIGINATING</Targ>
+			<MoveThroughObstacles />
+			<SwapPlaces />
+			<AnimLength>0.1</AnimLength>
+			<SpriteEffectRef>TeleportUp</SpriteEffectRef>
+			<PlayAnimation />
+			<AnimLength>0.1</AnimLength>
+		</AEff>	
+		<AbilEffectRef>addconfused</AbilEffectRef>
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_lightningflash_name</DName>
+		<RefName>skill_lightningflash</RefName>
+		<Desc>exp_skill_lightningflash_desc</Desc>
+		<SDesc>exp_skill_lightningflash_desc</SDesc>
+		<EDesc>exp_skill_lightningflash_extradesc</EDesc>
+		<Icon>SkillIcons_218</Icon>
+		<NTag>5</NTag>
+		<Range>3</Range>		
+		<CD>8</CD>
+		<StM>20</StM>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,PLAYANIMONEMPTY,GROUNDTARGET,CURSORTARGET,EMPTYONLY,CENTERED,UNIQUETARGET,SHARAPOWER</ATags>
+		
+		
+		
+		
+		<ABILITYFLAG>MOVESELF</ABILITYFLAG>		
+		<AEff>
+			<Type>MOVEACTOR</Type>
+			<ERef>lightningflash_move1</ERef>
+			<Targ>ORIGINATING</Targ>
+			<MoveThroughObstacles />
+			<SpriteEffectRef>LightningStrikeEffect</SpriteEffectRef>
+			<PlayAnimation />
+			<AnimLength>0.1</AnimLength>
+			<Spin />
+			<MoveThroughObstacles />			
+		</AEff>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>summon_elec_tiles</ERef>
+			
+			<ARef>obj_staticparalyzer</ARef>
+			<SDur>4</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>1</AnchorRange>
+			<SummonActorPerTile />			
+			<SummonOnCollidable />
+			<SummonNoStacking />
+			<SummonOnSummoner />
+			<Script_PreSummon>TargetAdjacentTiles</Script_PreSummon>
+			<Silent />
+		</AEff>			
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_essencestorm_name</DName>
+		<RefName>skill_essencestorm</RefName>
+		<Desc>exp_skill_essencestorm_desc</Desc>
+		<SDesc>exp_skill_essencestorm_desc</SDesc>
+		<EDesc>exp_skill_essencestorm_extradesc</EDesc>
+		<NTag>5</NTag>
+		<NTag>60%</NTag>
+		<NTag>3</NTag>
+		<Icon>SkillIcons_219</Icon>		
+		<Range>1</Range>
+		<CD>12</CD>
+		<PercentMaxHealthCost>0.1</PercentMaxHealthCost>
+		<EnergyCost>15</EnergyCost>
+		<ATags>INSTANT,TVISIBLEONLY,HEROAFFECTED,PERTARGETANIM,GROUNDTARGET,SIMULTANEOUSANIM,CENTERED,SHARAPOWER</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		
+		<SpritePopInfo>lightning|normal|0</SpritePopInfo>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_essencestorm</ERef>
+			<AnimLength>0.25</AnimLength>
+			<SpriteEffectRef>FervirBuff</SpriteEffectRef>
+			<StatusRef>exp_status_essencestorm</StatusRef>
+			<Targ>ORIGINATING</Targ>
+			<Duration>99</Duration>
+			<PlayAnimation />
+		</AEff>	
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_eshieldpower_name</DName>
+		<RefName>skill_eshieldpower</RefName>
+		<Icon>SkillIcons_221</Icon>
+		<Desc>exp_skill_eshieldpower_desc</Desc>		
+		<NTag>+25%</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		
+		<ATags>SHARAPOWER</ATags>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_eshieldpower</ERef>
+			<StatusRef>exp_status_eshieldpower</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>	
+	<Abil>
+		<RefName>skill_dualwielderstatbonus</RefName>
+		<Psv>dualwielderstatusbonus,dualwielderstatbonus</Psv>
+	</Abil>	
+	<Abil>
+		<RefName>skill_dualwielderbonus2</RefName>
+		<Psv>dualwielderbonus2,dualwielderbonus2</Psv>
+	</Abil>	
+	<Abil>
+		<RefName>skill_dualwielderbonus3</RefName>
+		<Psv>dualwielderbonus3,dualwielderbonus3</Psv>
+	</Abil>	
+	<Abil>
+		<DName>exp_skill_waterscroll_name</DName>
+		<Desc>exp_skill_waterscroll_desc</Desc>
+		<SDesc>exp_skill_waterscroll_desc</SDesc>
+		<EDesc>exp_skill_waterscroll_extradesc</EDesc>
+		<RefName>skill_waterscroll</RefName>
+		<NTag>50%</NTag>
+		<NTag>50%</NTag>
+		<NTag>15%</NTag>
+		<Icon>SkillIcons_223</Icon>
+		<Range>3</Range>
+		<CD>10</CD>
+		<EnergyCost>16</EnergyCost>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,PLAYANIMONEMPTY,SIMULTANEOUSANIM,MONSTERAFFECTED,CANROTATE</ATags>		
+		<ATarg>GROUND</ATarg>
+		<Bounds>FLEXRECT</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_waterscroll_name</Disp>
+			<ERef>waterscroll_damage</ERef>
+			<SCdm>TryEnhanceCalligrapherScroll</SCdm>
+			<Anim>WaterExplosion,0.35</Anim>
+			<AtkWp>0.5</AtkWp>
+			<AtkSp>0.5</AtkSp>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_waterscrollsummon</ERef>
+			<Script_PostSummon>TryExtendCalligrapherSummon</Script_PostSummon>
+			<ARef>obj_buff_watervapor</ARef>
+			<SummonActorPerTile />
+			<SDur>4</SDur>
+			<Anchor>SELF</Anchor>
+			<SummonNoStacking />
+			<SummonOnCollidable />
+		</AEff>
+	</Abil>		
+
+	<Abil>
+		<DName>exp_skill_lightningscroll_name</DName>
+		<Desc>exp_skill_lightningscroll_desc</Desc>
+		<SDesc>exp_skill_lightningscroll_desc</SDesc>
+		<EDesc>exp_skill_lightningscroll_extradesc</EDesc>
+		<RefName>skill_lightningscroll</RefName>
+		<NTag>60%</NTag>
+		<NTag>60%</NTag>
+		<NTag>+8%</NTag>
+		<Icon>SkillIcons_224</Icon>
+		<Range>2</Range>
+		<CD>10</CD>
+		<EnergyCost>16</EnergyCost>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,PLAYANIMONEMPTY,MONSTERAFFECTED,CANROTATE</ATags>		
+		<ATarg>GROUND</ATarg>
+		<Bounds>FLEXLINE</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_lightningscroll_name</Disp>
+			<ERef>lightningscroll_damage</ERef>
+			<SCdm>TryEnhanceCalligrapherScroll</SCdm>
+			<Anim>LightningStrikeEffect,0.01</Anim>
+			<AtkWp>0.6</AtkWp>
+			<AtkSp>0.6</AtkSp>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_lightningscrollsummon</ERef>
+			
+			<Script_PostSummon>TryExtendCalligrapherSummon</Script_PostSummon>
+			<ARef>obj_buff_sparks</ARef>
+			<SummonActorPerTile />
+			<SDur>5</SDur>
+			<Anchor>SELF</Anchor>
+			<SummonNoStacking />
+			<SummonOnCollidable />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_shadowscroll_name</DName>
+		<Desc>exp_skill_shadowscroll_desc</Desc>
+		<SDesc>exp_skill_shadowscroll_desc</SDesc>
+		<EDesc>exp_skill_shadowscroll_extradesc</EDesc>
+		<RefName>skill_shadowscroll</RefName>
+		<NTag>45%</NTag>
+		<NTag>45%</NTag>
+		<NTag>+10%</NTag>
+		<Icon>SkillIcons_225</Icon>
+		<Range>2</Range>
+		<CD>10</CD>
+		<EnergyCost>20</EnergyCost>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,PLAYANIMONEMPTY,MONSTERAFFECTED,CENTERED,CANROTATE</ATags>		
+		<ATarg>GROUND</ATarg>
+		<Bounds>FLEXCROSS</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_shadowscroll_name</Disp>
+			<ERef>shadowscroll_damage</ERef>
+			<Anim>FervirShadowHit,0.07</Anim>
+			<SCdm>TryEnhanceCalligrapherScroll</SCdm>
+			<AtkWp>0.45</AtkWp>
+			<AtkSp>0.45</AtkSp>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>SHADOW</DamageType>
+			<Trg1 />
+		</AEff>
+		<AbilEffectRef>soulfiredebuff</AbilEffectRef>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_shadowscrollsummon</ERef>
+			
+			<Script_PostSummon>TryExtendCalligrapherSummon</Script_PostSummon>
+			<ARef>obj_buff_shadoworb</ARef>
+			<SummonActorPerTile />
+			<SDur>8</SDur>
+			<Anchor>SELF</Anchor>
+			<SummonNoStacking />
+			<SummonOnCollidable />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_inkstorm_name</DName>
+		<RefName>skill_inkstorm</RefName>
+		<Desc>exp_skill_inkstorm_desc</Desc>
+		<SDesc>exp_skill_inkstorm_desc</SDesc>
+		<EDesc>exp_skill_inkstorm_extradesc</EDesc>
+		<Icon>SkillIcons_228</Icon>
+		<NTag>150%</NTag>
+		<NTag>35%</NTag>
+		<Range>3</Range>
+		<CD>2</CD>
+		<StM>24</StM>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,MONSTERAFFECTED,CENTERED,LINEOFSIGHTREQ,RANDOMTARGET</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<Script_OnPreAbilityUse>RefreshInkstormRepetitions</Script_OnPreAbilityUse>
+		<Script_OnLearn>TeachPlayerAbility,skill_inkcollector</Script_OnLearn>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_inkstorm_name</Disp>
+			<ERef>inkstorm</ERef>
+			<Targ>SINGLE</Targ>
+			<SCdm>InkstormModifyDamage</SCdm>
+			<Faction>NOTMYFACTION</Faction>
+			<WDmt />
+			<CanCrit />
+			<AtkWp>1.5</AtkWp>
+			<Anim>InkBrushSystem,0.15</Anim>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_inkcollector_name</DName>
+		<RefName>skill_inkcollector</RefName>
+		<Icon>SkillIcons_226</Icon>
+		<Desc>exp_skill_inkcollector_desc</Desc>
+		<Psv>addinkcollector,status_inkcollector</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_retort_name</DName>
+		<RefName>skill_retort</RefName>
+		<Icon>SkillIcons_227</Icon>		
+		<Desc>exp_skill_retort_desc</Desc>
+		<SDesc>exp_skill_retort_desc</SDesc>
+		<EDesc>exp_skill_retort_extradesc</EDesc>
+		<NTag>10</NTag>
+		<NTag>3</NTag>
+		<ChargeTime>200</ChargeTime>
+		<StM>16</StM>
+		<CD>12</CD>
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_retort</ERef>
+			<StatusRef>status_retort</StatusRef>
+			<Targ>ORIGINATING</Targ>
+			<Duration>10</Duration>
+			<Anim>FervirBuff,0.35</Anim>
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_vanishingdodge_name</DName>
+		<RefName>skill_vanishingdodge</RefName>
+		<Icon>SkillIcons_229</Icon>
+		<Desc>exp_skill_vanishingdodge_desc</Desc>
+		<NTag>25%</NTag>
+		<NTag>50%</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_vanishingdodge_status</ERef>
+			<StatusRef>status_passivevanishingdodge</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_museofmelee_name</DName>
+		<RefName>skill_museofmelee</RefName>
+		<Icon>SkillIcons_233</Icon>
+		<Desc>exp_skill_museofmelee_desc</Desc>
+		<NTag>15%</NTag>
+		<NTag>-30%</NTag>
+		<NTag>3</NTag>
+		<Passive />
+		<UsePassiveSlot />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_museofmeleestatus</ERef>
+			<StatusRef>status_museofmelee</StatusRef>
+			<Targ>ORIGINATING</Targ>			
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_glide_name</DName>
+		<RefName>skill_glide</RefName>
+		<Desc>exp_skill_glide_desc</Desc>
+		<SDesc>exp_skill_glide_desc</SDesc>
+		<EDesc>exp_skill_glide_extradesc</EDesc>
+		<Icon>SkillIcons_230</Icon>
+		<NTag>3</NTag>
+		<StM>20</StM>
+		<CD>10</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,GROUNDTARGET,CENTERED,CANROTATE</ATags>
+		<Bounds>POINT</Bounds>
+		<TargetOffsetY>3</TargetOffsetY>
+		<ATarg>GROUND</ATarg>
+		<ABILITYFLAG>MOVESELF</ABILITYFLAG>
+		<UseAnimation>Walk</UseAnimation>
+		<Script_OnPreAbilityUse>EnqueueGlideRefreshAtEndOfTurn</Script_OnPreAbilityUse>		
+		<AEff>
+			<Type>MOVEACTOR</Type>
+			<ERef>eff_glidemove</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Anim>WallJump,0.2</Anim>
+			<Script_PostMove>TryAddBrushstrokeFromGlide</Script_PostMove>
+			<MoveThroughObstacles />		
+			<AfterImages />	
+			<Spin />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_combatbiography_name</DName>
+		<RefName>skill_combatbiography</RefName>
+		<Desc>exp_skill_combatbiography_desc</Desc>
+		<SDesc>exp_skill_combatbiography_shortdesc</SDesc>
+		<EDesc>exp_skill_combatbiography_extradesc</EDesc>
+		<Icon>SkillIcons_232</Icon>	
+		<Range>3</Range>
+		<CD>12</CD>
+		<NTag>1</NTag>
+		<NTag>20</NTag>
+		<NTag>+50%</NTag>
+		<NTag>8</NTag>
+		<EnergyCost>12</EnergyCost>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CENTERED,EMPTYONLY,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY</ATags>
+		<ATarg>SUMMONGROUND</ATarg>
+		<SpritePopInfo>shadow|normal|1</SpritePopInfo>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_summoncombatbiography</ERef>
+			
+			<ARef>exp_obj_combatbiography</ARef>	
+			<Script_PreSummon>SummonToRandomNearbyTile</Script_PreSummon>
+			<Script_PostSummon>FillCombatBiography</Script_PostSummon>
+			<SDur>20</SDur>
+			<AnchorRange>2</AnchorRange>
+			<Anchor>SELF</Anchor>
+			<UniqueSummon />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_forbiddance_name</DName>
+		<RefName>skill_forbiddance</RefName>
+		<Icon>SkillIcons_231</Icon>		
+		<Desc>exp_skill_forbiddance_desc</Desc>
+		<SDesc>exp_skill_forbiddance_desc</SDesc>
+		<EDesc>exp_skill_forbiddance_extradesc</EDesc>
+		<NTag>10</NTag>
+		<NTag>3</NTag>		
+		<EnergyCost>20</EnergyCost>
+		<CD>2</CD>
+		<Range>3</Range>
+		<UseAnimation>Attack</UseAnimation>
+		<Bounds>SEMICIRCLE</Bounds>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,MONSTERAFFECTED,LINEOFSIGHTREQ,CANROTATE,RANDOMTARGET</ATags>
+		<ATarg>GROUND</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<Script_OnLearn>TeachPlayerAbility,skill_inkcollector</Script_OnLearn>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>forbiddancesummon</ERef>
+			<Script_PreSummon>PickRandomTilesForForbiddance</Script_PreSummon>
+			
+			<ARef>exp_obj_forbiddance</ARef>
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<NumRandomSummons>1</NumRandomSummons>
+			<SDur>10</SDur>
+			<AnchorRange>3</AnchorRange>
+		</AEff>
+	</Abil>	
+
+	<Abil>
+		<DName>exp_item_runeofknowledge</DName>
+		<RefName>skill_teachskillfromdata</RefName>
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>teachskill_fromdata</ERef>
+			<Sscr>LearnSkillFromItemDataForJP</Sscr>
+		</AEff>	
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_relichunter_name</DName>
+		<RefName>skill_relichunter</RefName>
+		<Desc>exp_skill_relichunter_desc</Desc>		
+		<Icon>SkillIcons_234</Icon>
+		<NTag>+2.5%</NTag>
+		<Psv>addrelichunter,relichunter</Psv>
+		<UsePassiveSlot />
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_menagerie_name</DName>
+		<RefName>skill_menagerie</RefName>
+		<Desc>exp_skill_menagerie_desc</Desc>		
+		<Icon>SkillIcons_235</Icon>
+		<NTag>+4%</NTag>
+		<Psv>addmenagerie,menagerie</Psv>
+		<UsePassiveSlot />
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_treasuretracker_name</DName>
+		<RefName>skill_treasuretracker</RefName>
+		<Desc>exp_skill_treasuretracker_desc</Desc>		
+		<NTag>33%</NTag>
+		<Icon>SkillIcons_236</Icon>
+		<Psv>addtreasuretracker,treasuretracker</Psv>
+		<UsePassiveSlot />
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_scholar_name</DName>
+		<RefName>skill_scholar</RefName>
+		<Desc>exp_skill_scholar_desc</Desc>		
+		<NTag>+20%</NTag>
+		<Icon>SkillIcons_237</Icon>
+		<Psv>addscholar,scholar</Psv>
+		<UsePassiveSlot />
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_dangermagnet_name</DName>
+		<RefName>skill_dangermagnet</RefName>
+		<Desc>exp_skill_dangermagnet_desc</Desc>		
+		<NTag>50%</NTag>
+		<Icon>SkillIcons_238</Icon>
+		<Psv>adddangermagnet,dangermagnet</Psv>
+	</Abil>	
+
+
+	<Abil>
+		<DName>exp_skill_cleanup_name</DName>
+		<RefName>skill_cleanup</RefName>
+		<Desc>exp_skill_cleanup_desc</Desc>
+		<SDesc>exp_skill_cleanup_desc</SDesc>		
+		<Icon>SkillIcons_239</Icon>
+		<StM>10</StM>
+		<CD>4</CD>
+		<ChargeTime>200</ChargeTime>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED</ATags>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>destroyhazard</ERef>
+			<Sscr>DestroyHazardTile</Sscr>
+		</AEff>		
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_subtletap_name</DName>
+		<RefName>skill_subtletap</RefName>
+		<Desc>exp_skill_subtletap_desc</Desc>
+		<SDesc>exp_skill_subtletap_desc</SDesc>
+		<EDesc>exp_skill_subtletap_extradesc</EDesc>		
+		<NTag>100%</NTag>
+		<Icon>SkillIcons_240</Icon>
+		<StM>16</StM>
+		<CD>5</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,CURSORTARGET,CENTERED,MONSTERAFFECTED</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_subtletap_name</Disp>
+			<SCdm>DoNotExceedTargetHealth</SCdm>
+			<ERef>subtletap_damage</ERef>
+			<CanCrit />
+			<Targ>SINGLE</Targ>
+			<AtkWp>1</AtkWp>
+			<WDmt />
+			<Anim>FervirBonkEffect,0.2</Anim>
+			<Faction>NOTMYFACTION</Faction>
+		</AEff>	
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_precisefinish_name</DName>
+		<RefName>skill_precisionfinish</RefName>
+		<Desc>exp_skill_precisefinish_desc</Desc>
+		<SDesc>exp_skill_precisefinish_desc</SDesc>
+		<EDesc>exp_skill_precisefinish_extradesc</EDesc>
+		<NTag>50%</NTag>
+		<NTag>+35%</NTag>				
+		<Icon>SkillIcons_241</Icon>
+		<StM>8</StM>
+		<EnergyCost>8</EnergyCost>
+		<CD>6</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,CURSORTARGET,CENTERED,MONSTERAFFECTED</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_extrarewards</ERef>
+			<Targ>SINGLE</Targ>
+			<StatusRef>extrarewards</StatusRef>
+			<Duration>1</Duration>
+			<Faction>NOTMYFACTION</Faction>
+			<Silent />
+		</AEff>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_precisefinish_name</Disp>
+			<ERef>precisefinish_damage</ERef>
+			<CanCrit />
+			<Targ>SINGLE</Targ>
+			<AtkWp>0.5</AtkWp>
+			<WDmt />			
+			<Anim>FervirUltraPierceEffect,0.2</Anim>
+			<Faction>NOTMYFACTION</Faction>
+		</AEff>	
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_monstertoss_name</DName>
+		<RefName>skill_monstertoss</RefName>
+		<Desc>exp_skill_monstertoss_desc</Desc>
+		<SDesc>exp_skill_monstertoss_desc</SDesc>
+		<EDesc>exp_skill_monstertoss_extradesc</EDesc>
+		<NTag>15%</NTag>		
+		<NTag>15%</NTag>
+		<Icon>SkillIcons_242</Icon>
+		<Range>1</Range>
+		<CD>10</CD>
+		<StM>20</StM>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,MONSTERAFFECTED,CURSORTARGET,CENTERED,MULTITARGET,UNIQUETARGET</ATags>
+		<NumMultiTargets>2</NumMultiTargets>
+		<AbilEffectRef>monstertoss_dummy</AbilEffectRef>
+		<ChangeLogic>
+			<ClearEffects>1</ClearEffects>
+			<TargetChangeCondition>2</TargetChangeCondition>
+			<Range>3</Range>			
+			<AbilEffectRef>monstertossmove</AbilEffectRef>	
+			<AbilEffectRef>monstertoss_dmg2</AbilEffectRef>	
+			<AbilEffectRef>monstertoss_dmg1</AbilEffectRef>				
+		</ChangeLogic>
+	</Abil>	
+
+		<EffectScript>
+			<Type>SPECIAL</Type>
+			<ERef>monstertoss_dummy</ERef>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+		</EffectScript>	
+
+		<EffectScript>
+			<Type>MOVEACTOR</Type>
+			<ERef>monstertossmove</ERef>
+			<Targ>LASTTARGET</Targ>
+			<Anim>WallJump,0.16</Anim>
+			<Spin />
+			<ProcessBufferIndex>1</ProcessBufferIndex>
+			<MoveThroughObstacles />
+		</EffectScript>		
+
+		<EffectScript>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_monstertoss_name</Disp>
+			<ERef>monstertoss_dmg1</ERef>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>			
+			<TCurHP>0|1</TCurHP>
+			<SCdm>DamageBasedOnThrownEnemy</SCdm>
+			<DamageType>PHYSICAL</DamageType>
+			<Anim>GroundStompEffect,0.05</Anim>
+			<ProcessBufferIndex>1</ProcessBufferIndex>
+		</EffectScript>
+
+		<EffectScript>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_monstertoss_name</Disp>
+			<ERef>monstertoss_dmg2</ERef>
+			<Targ>LASTTARGET</Targ>
+			<TCurHP>0|1</TCurHP>
+			<SCdm>DamageBasedOnThrownEnemy</SCdm>
+			<DamageType>PHYSICAL</DamageType>
+			<Anim>GroundStompEffect,0.2</Anim>
+			<ProcessBufferIndex>1</ProcessBufferIndex>
+		</EffectScript>	
+
+	<Abil>
+		<DName>exp_skill_chakrashift_name</DName>
+		<RefName>skill_chakrashift</RefName>
+		<Desc>exp_skill_chakrashift_desc</Desc>
+		<SDesc>exp_skill_chakrashift_desc</SDesc>
+		<NTag>+10%</NTag>
+		<NTag>5</NTag>		
+		<EnergyCost>12</EnergyCost>
+		<CD>8</CD>
+		<Icon>SkillIcons_243</Icon>
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>chakrashift</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Sscr>ChakraShiftConsumeBuffs</Sscr>
+		</AEff>	
+	</Abil>	
+	
+	<Abil>
+		<DName>exp_bomb_minibombs_name</DName>
+		<Desc>exp_bomb_minibombs_effectdesc</Desc>
+		<SDesc>exp_bomb_minibombs_effectdesc</SDesc>
+		<RefName>skill_minibombs</RefName>
+		<Range>4</Range>
+		<NTag>25%</NTag>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,MONSTERAFFECTED,PLAYANIMONEMPTY,PERTARGETANIM,LINEOFSIGHTREQ,CANROTATE,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>		
+		<TShape>FLEXLINE</TShape>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_bomb_minibombs_name</Disp>
+			<ERef>minibombs_dmg</ERef>
+			<CanCrit />
+			<Anim>SmallExplosionEffect,0.1</Anim>
+			<AtkCurHP>0.20|0</AtkCurHP>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>PHYSICAL</DamageType>
+			<DamageItem />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_bomb_oildrum_name</DName>
+		<Desc>exp_bomb_oildrum_effectdesc</Desc>
+		<SDesc>exp_bomb_oildrum_effectdesc</SDesc>
+		<RefName>skill_summonoil</RefName>
+		<NTag>6</NTag>
+		<NTag>+30%</NTag>
+		<NTag>40%</NTag>
+		<Range>3</Range>
+		<CD>10</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,PLAYANIMONEMPTY,SIMULTANEOUSANIM,CANROTATE,GROUNDONLY</ATags>		
+		<ATarg>GROUND</ATarg>
+		<Bounds>FLEXRECT</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>oilslick_summon</ERef>
+			
+			<ARef>obj_oilslick</ARef>
+			<SummonActorPerTile />
+			<SDur>6</SDur>
+			<Anchor>SELF</Anchor>
+			<SummonNoStacking />
+			<SummonOnCollidable />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>item_bomb_confusetraps_name</DName>
+		<Desc>item_bomb_confusetraps_effectdesc</Desc>
+		<SDesc>item_bomb_confusetraps_effectdesc</SDesc>
+		<NTag>8</NTag>
+		<NTag>4</NTag>
+		<RefName>skill_confusetraps</RefName>
+		<Range>2</Range>
+		<ChargeTime>200</ChargeTime>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,CANROTATE,GROUNDONLY</ATags>
+		<Bounds>FLEXCONE</Bounds>
+		<ATarg>GROUND</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_layconfusetrap</ERef>
+			<Anim>SummonVineWallEffect,0.1</Anim>
+			
+			<ARef>obj_confusetrap</ARef>
+			<SDur>12</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />	
+			<SummonOnCollidable />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_glitterskin_name</DName>
+		<Desc>skill_playerglitterskin_desc</Desc>
+		<SDesc>skill_playerglitterskin_desc</SDesc>
+		<EDesc>skill_playerglitterskin_edesc</EDesc>
+		<RefName>skill_playerglitterskin</RefName>
+		<Icon>SkillIcons_244</Icon>
+		<Range>3</Range>
+		<EnergyCost>24</EnergyCost>
+		<CD>14</CD>		
+		<NTag>7</NTag>
+		<NTag>50%</NTag>
+		<NTag>4</NTag>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,HEROAFFECTED,MONSTERAFFECTED,GROUNDTARGET,CENTERED,LINEOFSIGHTREQ</ATags>
+		<ATarg>ALLY</ATarg>
+		<AbilEffectRef>addglitterskin</AbilEffectRef>	
+	</Abil>
+
+	<Abil>
+		<DName>effect_spinblade_name</DName>
+		<RefName>skill_playerspinblade</RefName>
+		<Icon>SkillIcons_245</Icon>
+		<CD>12</CD>
+		<Desc>skill_playerspinblade_desc</Desc>
+		<SDesc>skill_playerspinblade_desc</SDesc>
+		<EDesc>skill_playerspinblade_edesc</EDesc>
+		<NTag>100%</NTag>
+		<NTag>10%</NTag>
+		<NTag>5</NTag>
+		<StM>24</StM>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,GROUNDONLY,PLAYANIMONEMPTY,GROUNDTARGET,CENTERED,UNIQUETARGET</ATags>
+		<ATarg>GROUND</ATarg>
+		<Bounds>CROSS</Bounds>	
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>playerspinblade2</ERef>
+			
+			<ARef>obj_playerspinblade2</ARef>
+			<SDur>8</SDur>
+			<Anchor>SELF</Anchor>
+			<SummonActorPerTile />
+			<SummonOnCollidable />			
+			<AnimLength>0.1</AnimLength>
+			<FMaxDelayBeforeSummon>0.1</FMaxDelayBeforeSummon>
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addweakparrybuff</ERef>
+			<StatusRef>status_spinbladeparry</StatusRef>
+			<Duration>5</Duration>
+			<Targ>SELF</Targ>
+			<BattleText>effect_adddustinthewind_btxt</BattleText>
+			<Anim>FervirBuff,0.35</Anim>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_spitice_name</DName>
+		<RefName>skill_playerspitice</RefName>
+		<Desc>skill_playerspitice_desc</Desc>
+		<SDesc>skill_playerspitice_desc</SDesc>
+		<EDesc>skill_playerspitice_edesc</EDesc>
+		<Icon>SkillIcons_246</Icon>
+		<Range>4</Range>
+		<CD>12</CD>
+		<EnergyCost>20</EnergyCost>
+		<NTag>100%</NTag>
+		<NTag>25%</NTag>
+		<NTag>20%</NTag>
+		<NTag>6</NTag>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ</ATags>				
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_spitice_name</Disp>
+			<ERef>playerspitice_dmg</ERef>			
+			<CanCrit />
+			<IsProjectile />
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>IceProjectileEffect,0.5</Anim>
+			<DamageType>WATER</DamageType>
+			<AtkSp>1.25</AtkSp>
+			<SCdm>SpitIceDamageAndVFX</SCdm>
+	      	<ProjectileMoveType>TOSS</ProjectileMoveType>
+      		<ProjectileTossHeight>1.5</ProjectileTossHeight>
+			<CanBeParriedOrBlocked />
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addspiritpower20boost</ERef>
+			<Target>SELF</Target>
+			<StatusRef>spiritpower20temp</StatusRef>
+			<Duration>6</Duration>
+			<Anim>FervirBuff,0.2</Anim>
+		</AEff>
+	</Abil>	
+</DOCUMENT>

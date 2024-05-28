@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+
+	<ACCESSORY>
+		<DisplayName>My New Accessory</DisplayName>
+		<RefName>accessory_myitem1</RefName>
+		<Description>This is a description for my accessory.</Description>
+		<SpriteRef>MySpriteLoL</SpriteRef>
+		<UniqueEquip>0</UniqueEquip>
+		<ChallengeValue>1.3</ChallengeValue>
+		<DropRate>100</DropRate>
+	</ACCESSORY>
+
+</DOCUMENT>

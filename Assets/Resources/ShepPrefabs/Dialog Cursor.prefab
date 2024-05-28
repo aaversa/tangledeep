@@ -1,0 +1,961 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1085466432803718}
+  m_IsPrefabParent: 1
+--- !u!1 &1085466432803718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224774840265173148}
+  - component: {fileID: 222646166244673296}
+  - component: {fileID: 114187859850470176}
+  - component: {fileID: 114839286830682318}
+  - component: {fileID: 114071770513308242}
+  - component: {fileID: 114395040459365098}
+  - component: {fileID: 114656955860472874}
+  m_Layer: 5
+  m_Name: Dialog Cursor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114071770513308242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085466432803718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 1
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+--- !u!114 &114187859850470176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085466432803718}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: c09cec478839ff4409481efe6bc5bc8d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114395040459365098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085466432803718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6e0f1aa159973b4fa394c355aa9588c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blink: 0
+  bounce: 1
+  blinkCycle: 0.25
+  bounceCycle: 0.15
+--- !u!114 &114656955860472874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085466432803718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08151f98e19a462e9f1bb733aca71cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimations:
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    animName: Default
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300000, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300002, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300004, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300006, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300008, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300010, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300012, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300014, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300016, guid: cc1c696c7713cae4bbd8124ac81dfff4, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  - enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    animName: Shift
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: Loop
+    startScale: 1
+    ignoreScale: 0
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300000, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300002, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300004, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300006, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300008, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300010, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300012, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300014, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300016, guid: e804cba232c171d44925abfad046f58e, type: 3}
+      spriteTime: 0.07
+      scale: 1
+      ignoreScale: 0
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 0
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  speedMultiplier: 1
+  startRotation: 0
+  animPlaying:
+    enableSpeedVariation: 0
+    maxRandomFrame: 0
+    fixedAnimStartTimer: 0
+    animName: 
+    isAttackAnimation: 0
+    animationHandlesOrientation: 0
+    completionLogic: 
+    startScale: 0
+    ignoreScale: 0
+    startOpacity: 0
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites: []
+    gameWaitTime: 0
+    calculatedLength: 0
+    timePassedDuringAnim: 0
+  spriteTimer: 0
+  IsUIElement: 1
+  spriteIndex: 0
+  animComplete: 0
+  defaultDirection: 0
+  rotationAngleOffset: 0
+  allFramePosOffset: {x: 0, y: 0}
+  timeAtFrameStart: 0
+  calcGameWaitTime: 0
+  spriteFacingDirection: 0
+  opacityMod: 0
+  hitOrAttackState: 0
+  directionFlippedFromAnimation: 0
+  curSpriteTime: 0
+--- !u!114 &114839286830682318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085466432803718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593ac2f2e80e90f40b31c93905ad67ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cues:
+  - cueName: Move
+    clips:
+    - {fileID: 8300000, guid: 23d037ccd4c7fe8409774d725f63d7f6, type: 3}
+    volume: 0.25
+    randomVolumeVar: 0
+    pitchMod: 0.11
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 1
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: Select
+    clips:
+    - {fileID: 8300000, guid: 84375328ad481c84198b705e5ff90fc9, type: 3}
+    volume: 0.37
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: Cancel
+    clips:
+    - {fileID: 8300000, guid: 59ce71ae5e444b94c8330797424290df, type: 3}
+    volume: 0.45
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: Tick
+    clips:
+    - {fileID: 8300000, guid: 7791c9a399f87d746a8415eb8dd29b8b, type: 3}
+    volume: 0.83
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: OPSelect
+    clips:
+    - {fileID: 8300000, guid: 36d5e4bdc41935244aa901331981992e, type: 3}
+    volume: 0.49
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: Error
+    clips:
+    - {fileID: 8300000, guid: 55df2bce56035c84c8657c1012460b0f, type: 3}
+    volume: 0.822
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: Skill Learnt
+    clips:
+    - {fileID: 8300000, guid: a16b2eb174c14c94bb0d67cfdc951802, type: 3}
+    volume: 0.496
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: Buy Item
+    clips:
+    - {fileID: 8300000, guid: cbb1ac30b79e2a7468ae937f1fc3f620, type: 3}
+    volume: 0.4
+    randomVolumeVar: 0
+    pitchMod: 0.07
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: CasinoWin
+    clips:
+    - {fileID: 8300000, guid: e3c6675853257954b97dd5ccb3fd3bc3, type: 3}
+    volume: 0.779
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: CasinoLose
+    clips:
+    - {fileID: 8300000, guid: 72f55bcce7f5fba44bf7458d15f4d3cd, type: 3}
+    volume: 0.703
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 4
+  - cueName: ShamanHeal
+    clips:
+    - {fileID: 8300000, guid: ad181060ea00e1a42967c9d8adda6661, type: 3}
+    volume: 0.856
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: AltSelect
+    clips:
+    - {fileID: 8300000, guid: 84375328ad481c84198b705e5ff90fc9, type: 3}
+    volume: 0.438
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: GetMoney
+    clips:
+    - {fileID: 8300000, guid: fb15946a342eb7c42b34dba0357a1735, type: 3}
+    volume: 0.656
+    randomVolumeVar: 0
+    pitchMod: 0.14
+    randomPitchVar: 0.05
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: GetSparkle
+    clips:
+    - {fileID: 8300000, guid: c283dc9cb9361f042b1fb0cdf0c676db, type: 3}
+    volume: 0.898
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Organize
+    clips:
+    - {fileID: 8300000, guid: 582316910a4d63d45b2a628c6c709cea, type: 3}
+    volume: 0.5
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: OpenDialog
+    clips:
+    - {fileID: 8300000, guid: 8cbf9645ea2395146b2cb2c4f4371fe5, type: 3}
+    volume: 0.333
+    randomVolumeVar: 0
+    pitchMod: 0.34
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Typing
+    clips:
+    - {fileID: 8300000, guid: 890f81f59d6decc4298b810d73532670, type: 3}
+    volume: 0.677
+    randomVolumeVar: 0
+    pitchMod: 0.221
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 1
+    mixerGroup: 0
+  - cueName: Splash
+    clips:
+    - {fileID: 8300000, guid: 404bc53a178fc6c4e82275d76639c966, type: 3}
+    volume: 0.863
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 1
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: PositiveAchievement
+    clips:
+    - {fileID: 8300000, guid: ee794c37419969b44a98a1c58b31838e, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: SlotHotbar
+    clips:
+    - {fileID: 8300000, guid: 9815e4acb465e5245adb9cf65f66bffa, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Equip Item
+    clips:
+    - {fileID: 8300000, guid: f8cbede28a9bf1b49828b4636eede323, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Confusion
+    clips:
+    - {fileID: 8300000, guid: 97ef3ebee58fe32429be80a43b0f7958, type: 3}
+    volume: 0.675
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0.107
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Roll Dice
+    clips:
+    - {fileID: 8300000, guid: e6cf04e4eca685e44b8e51da8fe3e629, type: 3}
+    volume: 0.902
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0.047
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Heavy Learn
+    clips:
+    - {fileID: 8300000, guid: 08065a9bb639a2b4ca5e9920fc7b88c9, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Super Select
+    clips:
+    - {fileID: 8300000, guid: f738c42fad74f9048aa2d4a361d00111, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Mirage
+    clips:
+    - {fileID: 8300000, guid: 89efb2bc93e198a47b02beb5eaf367d7, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Ice Shatter
+    clips:
+    - {fileID: 8300000, guid: f8bd39db7335d024f85fe19f2eb7052e, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Massive Buildup
+    clips:
+    - {fileID: 8300000, guid: 227a1b29afa33c444bb479137bd27b1a, type: 3}
+    volume: 0.835
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: SharaDeath
+    clips:
+    - {fileID: 8300000, guid: 3dceaabcfc987024ba6c648ed89628ba, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: UITock
+    clips:
+    - {fileID: 8300000, guid: 2cefbaed05d996a4cb8fa5e04ebb3548, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: StartDrag
+    clips:
+    - {fileID: 8300000, guid: 213e7c9f0e505ed4a8f0e82534537d85, type: 3}
+    volume: 0.535
+    randomVolumeVar: 0
+    pitchMod: 0.29
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Schwing
+    clips:
+    - {fileID: 8300000, guid: facf947ef202f2c4b817978e401dfbf7, type: 3}
+    volume: 0.875
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: UITick
+    clips:
+    - {fileID: 8300000, guid: fb0d28ccb2f000242b70c09afc7c5a71, type: 3}
+    volume: 0.963
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: ChopTreeDown
+    clips:
+    - {fileID: 8300000, guid: 71522305af9535a408172d218d97a840, type: 3}
+    volume: 0.963
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: HarvestAll
+    clips:
+    - {fileID: 8300000, guid: 4caf5b474a084ae468dcf980f3b9269a, type: 3}
+    volume: 0.963
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Ultra Learn
+    clips:
+    - {fileID: 8300000, guid: 4029688366e98204593135ba01cd2510, type: 3}
+    volume: 0.915
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Pickup
+    clips:
+    - {fileID: 8300000, guid: 2576b4054f3a72e4985d5962d3ca85f3, type: 3}
+    volume: 0.517
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0.075
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: CookingSuccess
+    clips:
+    - {fileID: 8300000, guid: 78d8baac9d5b0634e98884065b4cbd8f, type: 3}
+    volume: 0.838
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: CookingFailure
+    clips:
+    - {fileID: 8300000, guid: 46ff0a76ad2ad384b9419ca64441c5c4, type: 3}
+    volume: 0.838
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: PandoraBox
+    clips:
+    - {fileID: 8300000, guid: ef9a6fc92c9204844a10ba7cff282f38, type: 3}
+    volume: 0.938
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Whirlwind
+    clips:
+    - {fileID: 8300000, guid: f13c0991c5ee1fa42a69b8657bdc44a8, type: 3}
+    volume: 0.885
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: MonsterRoar
+    clips:
+    - {fileID: 8300000, guid: edd1bf8af2355ad4f9dfc5efa73fef95, type: 3}
+    volume: 0.838
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: Failure
+    clips:
+    - {fileID: 8300000, guid: 3390f0fe02c9a6a4380aa8303c216846, type: 3}
+    volume: 0.744
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 1
+    loopUntilKilled: 0
+    mixerGroup: 0
+  - cueName: EnterItemWorld
+    clips:
+    - {fileID: 8300000, guid: e9cf6c973ae36cd45a1d0a244e0e23c3, type: 3}
+    volume: 0.86
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0
+    voiceLimit: 0
+    voiceVolumeAdjustment: 1
+    loopUntilKilled: 0
+    mixerGroup: 0
+--- !u!222 &222646166244673296
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085466432803718}
+--- !u!224 &224774840265173148
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085466432803718}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -3.5966797, y: -254}
+  m_SizeDelta: {x: 72, y: 39}
+  m_Pivot: {x: 1, y: 0.5}

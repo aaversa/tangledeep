@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<!-- Played if the device is destroyed during the fight -->
+	<Dialog>
+		<RefName>dialog_shara_boss2_devicedestroyed</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>SharaPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_1</Text>
+			<Button>
+				<Name>(close)</Name>				
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>	
+	</Dialog>
+	
+	<!-- Post Boss 2, Ingersoll's dying words. Two branches that lead to the same place based on the state of the device -->
+	<Dialog>
+		<RefName>dialog_shara_boss2_scientist_defeated</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+
+		<!-- The device was not broken in the fight. -->
+		<TextBranch>
+			<BranchName>device_alive</BranchName>
+			<ShowFace>SharaSmugPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_2</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>device_alive_2</BranchRef>
+			</Button>			
+		</TextBranch>		
+
+		<TextBranch>
+			<BranchName>device_alive_2</BranchName>
+			<ShowFace>MadScientistSurprisedPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_3</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>how_dare_you</BranchRef>
+			</Button>			
+		</TextBranch>	
+		
+		<!-- The device was destroyed in the fight -->
+				<TextBranch>
+			<BranchName>device_destroyed</BranchName>
+			<ShowFace>SharaSmugPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_4</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>device_destroyed_2</BranchRef>
+			</Button>			
+		</TextBranch>		
+
+		<TextBranch>
+			<BranchName>device_destroyed_2</BranchName>
+			<ShowFace>MadScientistSurprisedPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_5</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>how_dare_you</BranchRef>
+			</Button>			
+		</TextBranch>	
+		
+		<!-- Both branches lead here -->
+		
+		<TextBranch>
+			<BranchName>how_dare_you</BranchName>
+			<ShowFace>SharaAngryPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_6</Text>
+			<Button>
+				<Name>(close)</Name>			
+				<DialogEventScript>SharaConditionalOpenBoss2VictoryDialog</DialogEventScript>	
+				<BranchRef>exit</BranchRef>
+			</Button>				
+		</TextBranch>	
+	</Dialog>	
+
+	<!-- After Ingersoll passes, and after the device blows up if need be -->
+	<Dialog>
+		<RefName>dialog_shara_boss2_victory</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+		
+		<TextBranch>
+			<BranchName>device_alive</BranchName>
+			<ShowFace>SharaMoodyPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_7</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main1</BranchRef>
+			</Button>			
+		</TextBranch>		
+
+		<TextBranch>
+			<BranchName>device_destroyed</BranchName>
+			<ShowFace>SharaMoodyPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_8</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main1</BranchRef>
+			</Button>			
+		</TextBranch>		
+
+		<TextBranch>
+			<BranchName>main1</BranchName>
+			<ShowFace>SharaMoodyPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_9</Text>
+			<Button>
+				<Name>(more)</Name>		
+				<BranchRef>main2</BranchRef>
+			</Button>			
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main2</BranchName>
+			<ShowFace>SharaMoodyPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_10</Text>
+			<Button>
+				<Name>(more)</Name>		
+				<BranchRef>main3</BranchRef>
+			</Button>	
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main3</BranchName>
+			<ShowFace>SharaSmugPortrait</ShowFace>
+			<Text>dialog_shara_boss2_devicedestroyed_11</Text>
+			<Button>
+				<Name>(close)</Name>
+				<DialogEventScript>SharaPowerEnhanceNotification</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>	
+	</Dialog>		
+</DOCUMENT>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Destructible>		
+		<RefName>obj_shockwave</RefName>		
+		<Prefab>PlayerTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Spread>ADJACENT</Spread>
+		<DieAfterSpread>1</DieAfterSpread>
+		<ChangeSpreadAfterInitial>FORWARD</ChangeSpreadAfterInitial>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>exp_ground_shockwave</StatusRef>
+		<RunEffectOnlyOnce>1</RunEffectOnlyOnce>
+		<Hvr>1</Hvr>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>	
+		<RefName>obj_weakerphasmashieldtile</RefName>
+		<Prefab>LaserTile</Prefab>		
+		<SpecObj>LASER</SpecObj>
+		<PCol>0</PCol>
+		<MCol>0</MCol>				
+		<Trg>0</Trg>
+		<Faction>CREATOR</Faction>
+		
+		<StatusRef>status_weakerphasmaburns</StatusRef>
+	</Destructible>
+
+	<Destructible>	
+		<DName>xp_obj_staticparalyzer_name</DName>
+		<RefName>obj_staticparalyzer</RefName>
+		<Prefab>ElectricTileSE</Prefab>		
+		<PCol>0</PCol>
+		<MCol>0</MCol>				
+		<Trg>0</Trg>
+		<Faction>CREATOR</Faction>
+		
+		<StatusRef>status_electile_half</StatusRef>
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>		
+
+	<Destructible>		
+		<RefName>trigger_shara_preboss2</RefName>
+		<LootChance>0.0</LootChance>
+		<Trg>0</Trg>
+		<Prefab>TransparentStairs</Prefab>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		<DialogRef>dialog_shara_preboss2_passage</DialogRef>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_shinymetalorb_dname</DName>
+		<RefName>obj_keep_door</RefName>
+		<LootChance>0.8</LootChance>
+		<MaxItems>2</MaxItems>
+		
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Prefab>ShinyMetalOrb</Prefab>
+		<DeathPrefab>MetalBreak</DeathPrefab>
+		<Hvr>1</Hvr>
+	</Destructible>	
+
+	<Destructible>
+		<DName>exp_mapobj_watervapor_name</DName>		
+		<RefName>obj_buff_watervapor</RefName>	
+		<Prefab>WaterVapor</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_addwatervapordodge</StatusRef>
+		<StepTrigger>HERO</StepTrigger>
+		<Hvr>1</Hvr>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>exp_mapobj_sparks_name</DName>		
+		<RefName>obj_buff_sparks</RefName>	
+		<Prefab>LightningCrackles</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_addsparkscrit</StatusRef>
+		<StepTrigger>HERO</StepTrigger>
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+	</Destructible>
+
+	<Destructible>
+		<DName>exp_mapobj_shadoworb_name</DName>		
+		<RefName>obj_buff_shadoworb</RefName>	
+		<Prefab>WeaponShadowOrb</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>status_addorbmeleedamage</StatusRef>
+		<StepTrigger>HERO</StepTrigger>
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+	</Destructible>		
+
+	<Destructible>
+		<DName>exp_skill_combatbiography_name</DName>		
+		<RefName>exp_obj_combatbiography</RefName>	
+		<Prefab>MagicFlamingBook</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Trg>0</Trg>
+		<StatusRef>pickup_combat_biography</StatusRef>
+		<StepTrigger>HERO</StepTrigger>
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+	</Destructible>	
+
+
+	<Destructible>
+		<DName>exp_mapobj_forbiddance_name</DName>
+		<RefName>exp_obj_forbiddance</RefName>
+		<Prefab>RuneSigils</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_sealandroot</StatusRef>
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+		<VFX>InkBrushSystem</VFX>
+	</Destructible>
+
+	<Destructible>
+		<DName>des_obj_pathrock_dname</DName>
+		<RefName>obj_monbreakablelavarock</RefName>
+		<LootChance>0.0</LootChance>
+		<Faction>DUNGEON</Faction>
+		
+		<Prefab>TanLavaRock</Prefab>
+		<VFX>GroundStompEffect</VFX>
+		<PCol>1</PCol>
+		<BlocksVision>1</BlocksVision>
+		<MCol>1</MCol>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Hvr>1</Hvr>
+	</Destructible>		
+
+	<!-- Decorative bookshelves for Shara's camp -->
+	<Destructible>
+		<DName>exp1_decorative_bookshelf_name</DName>
+		<RefName>exp1_decorative_bookshelf</RefName>
+		<Prefab>Bookshelf</Prefab>
+		<Faction>MYFACTION</Faction>
+		
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<Trg>0</Trg>
+	</Destructible>
+
+
+	<Destructible>
+		<DName>exp1_obj_dominator_head_name</DName>
+		<RefName>exp1_obj_dominator_head</RefName>
+		<LootChance>0.0</LootChance>
+		<Trg>0</Trg>
+		<Prefab>DominatorHead</Prefab>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<DStep>1</DStep>
+		<Hvr>1</Hvr>
+	</Destructible>
+	
+	<Destructible>
+		<DName>obj_holyfire_name</DName>		
+		<RefName>obj_holyfire</RefName>		
+		<Prefab>HolyFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<StatusRef>status_holyfire</StatusRef>
+		<Hvr>1</Hvr>
+	  	<VFX>FervirHolyHit</VFX>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>		
+
+	<Destructible>
+		<DName>exp_mapobj_oilslick_name</DName>		
+		<RefName>obj_oilslick</RefName>	
+		<Prefab>OilSlick</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<VFX>MudExplosion</VFX>
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+		<SpecObj>OILSLICK</SpecObj>
+	</Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_inferno_name</DName>		
+		<RefName>obj_oilslickfire</RefName>		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<VFX>FlameBurstBlue</VFX>
+		<StatusRef>status_oilslickfire</StatusRef>
+		<Hvr>1</Hvr>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_confusetrap_dname</DName>
+		<RefName>obj_confusetrap</RefName>
+		<Prefab>SleepTrap</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<StatusRef>confusetrap</StatusRef>
+		<Hvr>1</Hvr>
+		<VFX>MetalPoof</VFX>
+	</Destructible>	
+
+	<Destructible>
+		<DName>des_obj_playericeblock_dname</DName>
+		<RefName>obj_dungeoniceblock</RefName>
+		<Prefab>IceBlock</Prefab>
+		<DeathPrefab>IceShatter2x</DeathPrefab>
+		<PCol>1</PCol>
+		<MCol>1</MCol>
+		
+		<Faction>DUNGEON</Faction>
+		<MonsterDestroyable>1</MonsterDestroyable>
+		<Hvr>1</Hvr>
+		<StatusRef>status_dungeonice</StatusRef>
+		<VFX>IceGrowAttack2x</VFX>
+		<ObjectFlag>WATER</ObjectFlag>
+	</Destructible>	
+
+	<Destructible>
+		<DName>status_status_spinblade_name</DName>
+		<RefName>obj_playerspinblade2</RefName>
+		<Prefab>Spin Blade</Prefab>
+		<PlayerPrefab>Green Spin Blade</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_playerspinblade2</StatusRef>
+		<ShowDirection>1</ShowDirection>
+		<MCol>0</MCol>
+		<PCol>0</PCol>
+		<Trg>0</Trg>
+		
+		<Movement>FORWARD</Movement>
+		<Hvr>1</Hvr>
+		<VFX>MetalPoof</VFX>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>	
+
+	<Destructible>
+		<DName>effect_eff_shadowtile_name</DName>
+		
+		<RefName>obj_godshadowtrap</RefName>
+		
+		<Prefab>ShadowTrap</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_godshadowtrap</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<ObjectFlag>SHADOW</ObjectFlag>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+		<VFX>ShadowSpikeAttack</VFX>
+	</Destructible>		
+
+	<Destructible>
+		<DName>des_obj_dangersquare_dname</DName>
+		<RefName>obj_godlightningsummoner</RefName>
+		<Prefab>EnemyTargeting</Prefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<RunEffectOnlyOnce>1</RunEffectOnlyOnce>
+		<StatusRef>status_godlightning</StatusRef>
+		<ObjectFlag>LIGHTNING</ObjectFlag>
+		<ObjectFlag>TARGETING</ObjectFlag>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>		
+
+	<Destructible>
+		<DName>des_obj_icetrap_dname</DName>
+		
+		<RefName>obj_icetrap2</RefName>
+		
+		<Prefab>IceTrap1</Prefab>
+		<Faction>MYFACTION</Faction>
+		<StatusRef>status_icetrapwithdamage</StatusRef>
+		<DStep>1</DStep>
+		<PCol>0</PCol>
+		<MCol>0</MCol>
+		
+		<Trg>0</Trg>
+		<Hvr>1</Hvr>
+		<ObjectFlag>WATER</ObjectFlag>
+		<VFX>IceGrowAttack2x</VFX>
+		<StepTrigger>NOTMYFACTION</StepTrigger>
+	</Destructible>
+
+	<Destructible>
+		<DName>abil_skill_monflameserpent_name</DName>		
+		<RefName>obj_weakerenemyflameserpent_moving</RefName>		
+		<Prefab>BurningFireLoop</Prefab>
+		<PlayerPrefab>BurningBlueFireLoop</PlayerPrefab>
+		<Faction>MYFACTION</Faction>
+		<Collidable>0</Collidable>
+		<Trg>0</Trg>
+		<ShowDirection>1</ShowDirection>
+		<DestroyOnWallHit>1</DestroyOnWallHit>
+		<Movement>FORWARD</Movement>				
+		<StatusRef>status_50powerflameserpent</StatusRef>
+		<Hvr>1</Hvr>
+	  	<VFX>FireBurst</VFX>
+		<ObjectFlag>FIRE</ObjectFlag>
+	</Destructible>
+</DOCUMENT>

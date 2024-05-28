@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+
+	<OFFHAND>
+		<RefName>exp_shield_prototypehusyn</RefName>
+		<CV>999</CV>
+		<BlockChance>.35</BlockChance>
+		<BlockDamageReduction>0.5</BlockDamageReduction>
+	</OFFHAND>	
+
+	<WEAPON>
+		<RefName>exp_weapon_robomantis</RefName>
+		<WeaponType>SWORD</WeaponType>
+		<CV>999</CV>
+		<Power>100</Power>
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirSwordEffect</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>exp_weapon_shadowshot</RefName>
+		<CV>999</CV>
+		<Power>108</Power>
+		<DamageType>SHADOW</DamageType>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<SwingEffect>ShadowBoltFast</SwingEffect>
+		<ImpactEffect>ProjectileImpactEffect</ImpactEffect>
+		<Ranged />
+		<Range>3</Range>
+	</WEAPON>	
+	<WEAPON>
+		<RefName>weapon_phasmacannonshot</RefName>
+		<CV>999</CV>
+		<Power>110</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<SwingEffect>QiStrikeEffect</SwingEffect>
+		<ImpactEffect>ProjectileImpactEffect</ImpactEffect>
+		<Ranged />
+		<Range>4</Range>
+	</WEAPON>
+
+	<WEAPON>
+		<RefName>exp_weapon_banditaxe</RefName>
+		<WeaponType>AXE</WeaponType>
+		<CV>999</CV>
+		<Power>92</Power>
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirAxeEffect</ImpactEffect>
+	</WEAPON>
+
+	<WEAPON>
+		<RefName>exp_weapon_poisonstaff</RefName>
+		<CV>999</CV>
+		<Power>82</Power>
+		<DamageType>POISON</DamageType>
+		<SwingEffect>PoisonBoltAltSound</SwingEffect>
+		<ImpactEffect>ProjectileImpactEffect</ImpactEffect>
+		<Ranged />
+		<Range>3</Range>
+	</WEAPON>
+
+	<ARMOR>
+		<RefName>exp_armor_poisonarmor</RefName>
+		<ResMsg />
+		<CV>999</CV>
+		<Resist>
+			<ResistDamageType>POISON</ResistDamageType>
+			<ResistAbsorb>1</ResistAbsorb>
+		</Resist>
+		<Resist>
+			<ResistDamageType>FIRE</ResistDamageType>
+			<ResistMultiplier>0.8</ResistMultiplier>
+		</Resist>
+	</ARMOR>
+
+	<WEAPON>
+		<RefName>exp_weapon_budokapunch</RefName>		
+		<ChallengeValue>999</ChallengeValue>
+		<EquipmentSlot>WEAPON</EquipmentSlot>
+		<Power>100</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirPunchEffectSystem</ImpactEffect>
+	</WEAPON>		
+
+	<WEAPON>
+		<RefName>weapon_cv195blunt</RefName>
+		<CV>999</CV>
+		<Power>114</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirBluntEffect</ImpactEffect>
+	</WEAPON>
+
+	<WEAPON>
+		<RefName>weapon_cv180blunt</RefName>
+		<CV>999</CV>
+		<Power>88</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirBluntEffect</ImpactEffect>
+	</WEAPON>
+
+	<WEAPON>
+		<RefName>weapon_cv185blunt</RefName>
+		<CV>999</CV>
+		<Power>90</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirBluntEffect</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>weapon_cv185bite</RefName>
+		<CV>999</CV>
+		<Power>93</Power>
+		<FlavorDamageType>BITE</FlavorDamageType>
+		<ImpactEffect>FervirBiteEffect</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>weapon_cv195pierce</RefName>
+		<CV>999</CV>
+		<Power>110</Power>
+		<FlavorDamageType>PIERCE</FlavorDamageType>
+		<ImpactEffect>FervirPierceEffect</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>weapon_cv200pierce2</RefName>
+		<CV>999</CV>
+		<Power>116</Power>
+		<FlavorDamageType>PIERCE</FlavorDamageType>
+		<ImpactEffect>FervirPierceEffect</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>weapon_cv195bite</RefName>
+		<CV>999</CV>
+		<Power>118</Power>		
+		<FlavorDamageType>BITE</FlavorDamageType>
+		<ImpactEffect>FervirBiteEffect</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>weapon_cv190bite</RefName>
+		<CV>999</CV>
+		<Power>108</Power>
+		<FlavorDamageType>BITE</FlavorDamageType>
+		<ImpactEffect>FervirBiteEffect</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>weapon_cv200slash</RefName>
+		<CV>999</CV>
+		<Power>123</Power>		
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirSwordEffect</ImpactEffect>
+	</WEAPON>	
+
+	<ARMOR>
+		<RefName>armor_elemarmor</RefName>
+		<ResMsg />
+		<CV>999</CV>
+		<Resist>
+			<ResistDamageType>FIRE</ResistDamageType>
+			<ResistMultiplier>0.66</ResistMultiplier>
+		</Resist>
+		<Resist>
+			<ResistDamageType>WATER</ResistDamageType>
+			<ResistMultiplier>0.66</ResistMultiplier>
+		</Resist>
+		<Resist>
+			<ResistDamageType>LIGHTNING</ResistDamageType>
+			<ResistMultiplier>0.66</ResistMultiplier>
+		</Resist>
+		<Resist>
+			<ResistDamageType>SHADOW</ResistDamageType>
+			<ResistMultiplier>0.66</ResistMultiplier>
+		</Resist>
+		<Resist>
+			<ResistDamageType>POISON</ResistDamageType>
+			<ResistMultiplier>0.66</ResistMultiplier>
+		</Resist>
+	</ARMOR>	
+
+	<WEAPON>
+		<RefName>weapon_cv200shot</RefName>
+		<CV>999</CV>
+		<Power>110</Power>	
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>ProjectileImpactEffect</ImpactEffect>
+		<SwingEffect>BasicEnergyProjectile</SwingEffect>
+		<Range>3</Range>
+		<Ranged />		
+	</WEAPON>		
+	
+	<ARMOR>
+		<RefName>exp_armor_toadmail</RefName>		
+		<EquipmentSlot>ARMOR</EquipmentSlot>
+		<ResistMessage>1</ResistMessage>
+		<ChallengeValue>999</ChallengeValue>
+		<Resist>
+			<ResistDamageType>POISON</ResistDamageType>
+			<ResistMultiplier>0.5</ResistMultiplier>
+		</Resist>
+		<Resist>
+			<ResistDamageType>PHYSICAL</ResistDamageType>
+			<ResistMultiplier>0.5</ResistMultiplier>
+		</Resist>
+	</ARMOR>
+
+	<WEAPON>
+		<RefName>exp_weapon_frogpunch</RefName>		
+		<ChallengeValue>999</ChallengeValue>
+		<EquipmentSlot>WEAPON</EquipmentSlot>
+		<Power>58</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirPunchEffectSystem</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>exp_weapon_frogpunch_weaker</RefName>		
+		<ChallengeValue>999</ChallengeValue>
+		<EquipmentSlot>WEAPON</EquipmentSlot>
+		<Power>53</Power>
+		<FlavorDamageType>BLUNT</FlavorDamageType>
+		<ImpactEffect>FervirPunchEffectSystem</ImpactEffect>
+	</WEAPON>	
+
+	<WEAPON>
+		<RefName>exp_weapon_bladefrog</RefName>
+		<WeaponType>SWORD</WeaponType>
+		<CV>999</CV>
+		<Power>67</Power>		
+		<FlavorDamageType>SLASH</FlavorDamageType>
+		<ImpactEffect>FervirSwordEffect</ImpactEffect>
+	</WEAPON>
+
+	<WEAPON>
+		<RefName>exp_weapon_tongueattack</RefName>
+		<CV>999</CV>
+		<Power>82</Power>		
+		<FlavorDamageType>BITE</FlavorDamageType>
+		<ImpactEffect>FervirBiteEffect</ImpactEffect>
+	</WEAPON>	
+
+	<OFFHAND>
+		<RefName>exp_monshield1</RefName>
+		<CV>999</CV>
+		<BlockChance>.2</BlockChance>
+		<BlockDamageReduction>0.65</BlockDamageReduction>
+	</OFFHAND>
+	<OFFHAND>
+		<RefName>exp_monshield2</RefName>
+		<CV>999</CV>
+		<BlockChance>.25</BlockChance>
+		<BlockDamageReduction>0.5</BlockDamageReduction>
+	</OFFHAND>	
+	<OFFHAND>
+		<RefName>exp_monshield3</RefName>
+		<CV>999</CV>
+		<BlockChance>.3</BlockChance>
+		<BlockDamageReduction>0.5</BlockDamageReduction>
+	</OFFHAND>
+	<OFFHAND>
+		<RefName>exp_monshield4</RefName>
+		<CV>999</CV>
+		<BlockChance>.4</BlockChance>
+		<BlockDamageReduction>0.5</BlockDamageReduction>
+	</OFFHAND>
+	<OFFHAND>
+		<RefName>exp_monshield5</RefName>
+		<CV>999</CV>
+		<BlockChance>.5</BlockChance>
+		<BlockDamageReduction>0.5</BlockDamageReduction>
+	</OFFHAND>		
+</DOCUMENT>

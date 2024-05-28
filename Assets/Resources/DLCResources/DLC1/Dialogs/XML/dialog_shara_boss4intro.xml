@@ -1,0 +1,181 @@
+<DOCUMENT>
+
+	<Dialog>
+		<RefName>dialog_shara_boss4intro</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>RobotGolemPortrait</ShowFace>
+			<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+			<Text>dialog_shara_boss4intro_1</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main2</BranchRef>
+			</Button>			
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main2</BranchName>
+			<ShowFace>SharaAngryPortrait</ShowFace>			
+			<Text>dialog_shara_boss4intro_2</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main3</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main3</BranchName>
+			<ShowFace>RobotGolemPortrait</ShowFace>
+			<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+			<Text>dialog_shara_boss4intro_3</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main4</BranchRef>
+			</Button>			
+		</TextBranch>	
+
+		<TextBranch>
+			<BranchName>main4</BranchName>
+			<ShowFace>SharaAngryPortrait</ShowFace>			
+			<Text>dialog_shara_boss4intro_4</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main5</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main5</BranchName>
+			<ShowFace>RobotGolemPortrait</ShowFace>
+			<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+			<Text>dialog_shara_boss4intro_5</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<DialogEventScript>FadeOutMusic</DialogEventScript>
+				<BranchRef>main6</BranchRef>
+			</Button>			
+		</TextBranch>	
+
+		<TextBranch>
+			<BranchName>main6</BranchName>
+			<ShowFace>SharaSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4intro_6</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<DialogEventScript>PlayMusicByRef</DialogEventScript>
+				<DialogEventScriptValue>titlescreen</DialogEventScriptValue>
+				<BranchRef>main6_2</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main6_2</BranchName>
+			<ShowFace>SharaAngryPortrait</ShowFace>			
+			<Text>dialog_shara_boss4intro_7</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main7</BranchRef>
+			</Button>			
+		</TextBranch>	
+		
+		<TextBranch>
+			<BranchName>main7</BranchName>
+			<ShowFace>RobotGolemPortrait</ShowFace>	
+			<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>		
+			<Text>dialog_shara_boss4intro_8</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main8</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main8</BranchName>
+			<ShowFace>SharaSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4intro_9</Text>
+			<Button>
+				<Name>(more)</Name>	
+				<DialogEventScript>PlayMusicByRef</DialogEventScript>
+				<DialogEventScriptValue>sharaserious</DialogEventScriptValue>
+				<BranchRef>main9</BranchRef>
+			</Button>			
+		</TextBranch>	
+
+		<TextBranch>
+			<BranchName>main9</BranchName>
+			<ShowFace>RobotGolemPortrait</ShowFace>		
+			<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>	
+			<Text>dialog_shara_boss4intro_10</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main10</BranchRef>
+			</Button>			
+		</TextBranch>		
+
+		<TextBranch>
+			<BranchName>main10</BranchName>
+			<ShowFace>SharaFuriousPortrait</ShowFace>			
+			<Text>dialog_shara_boss4intro_11</Text>
+			<Button>
+				<Name>(close)</Name>				
+				<DialogEventScript>SharaBeginBossFight4</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>
+	</Dialog>	
+
+	<Dialog>
+		<RefName>dialog_sharafinalboss_phase2begin</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+		<ExtraWaitTime>1</ExtraWaitTime>
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>RobotGolemPortrait</ShowFace>
+			<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+			<Text>exp_sharafinalboss_phase2begin_1</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main2</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main2</BranchName>
+			<ShowFace>SharaSmugPortrait</ShowFace>
+			<Text>exp_sharafinalboss_phase2begin_2</Text>
+			<Button>
+				<Name>(close)</Name>				
+				<DialogEventScript>BeginSharaBoss4Phase2_Part3</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>		
+	</Dialog>
+
+
+	<Dialog>
+		<RefName>dialog_sharafinalboss_phase2end</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+		<ExtraWaitTime>1</ExtraWaitTime>
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>RobotGolemPortrait</ShowFace>
+			<Script_TextBranchStart>PlayRobotTalkSFX</Script_TextBranchStart>
+			<Text>exp_sharafinalboss_phase2end_1</Text>
+			<Button>
+				<Name>(close)</Name>	
+				<DialogEventScript>BeginSharaFinalBossPhase3</DialogEventScript>			
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>
+	</Dialog>
+</DOCUMENT>

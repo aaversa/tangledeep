@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>
+		<DName>exp_skill_flowshield_displayname</DName>
+		<Rf>status_flowshield</Rf>
+		<Description>exp_status_flowshield_desc</Description>
+		<Icon>SkillIcons_206</Icon>		
+		<ISpr>FlowAura</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<Script_RunOnAdd>SetFlowShieldHealth</Script_RunOnAdd>
+		<DestroyStatusOnRemove>flowshield_destroy_fx</DestroyStatusOnRemove>
+		<DestroyStatusOnAdd>exp_dmgup_25</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>status_voidshield</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>bubbleshield</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>voidshieldbolts</DestroyStatusOnAdd>
+		<ShowIcon />
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>flowshield_eff</ERef>
+			<Script_Special>FlowShieldAbsorbDamage</Script_Special>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>overdrive_explode</Rf>
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_overload_dmg_name</Disp>
+			<ERef>overdrive_explodedmg</ERef>		
+			<Anim>BigExplosionEffect,0.25</Anim>
+			<AtkWp>1.5|1</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<CenterSpriteOnOriginatingActor />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>exp_skill_expmon_shielding_name</DName>
+		<Rf>xp_monstershield</Rf>
+		<Description>exp_status_flowshield_desc</Description>
+		<Icon>SkillIcons_84</Icon>
+		<ISpr>FlowAura</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<Script_RunOnAdd>SetFlowShieldHealth</Script_RunOnAdd>
+		<DestroyStatusOnRemove>flowshield_destroy_fx</DestroyStatusOnRemove>
+		<ShowIcon />
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<EffRef>flowshield_eff</EffRef>
+	</SE>
+	
+	<SE>
+		<DName>misc_dmg_poison</DName>
+		<Desc>status_poison1_desc</Desc>
+		<Rf>venomancer_poison</Rf>
+		<ShowIcon />
+		<Icon>SkillIcons_32</Icon>
+		<ISpr>PoisonEffect</ISpr>
+		
+		<Flag>POISON</Flag>		
+		<StackEff />
+		<MaxStacks>5</MaxStacks>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>status_poison1_name</Disp>
+			<ERef>venomancer_poison_dmg</ERef>
+			<NoDodgePossible />
+			<AtkWp>0.1|1</AtkWp>
+			<Targ>SELF</Targ>
+			<DamageType>POISON</DamageType>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>proc_venomancer_poison</Rf>
+		<AnimTags />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_venomancer_poison</ERef>
+			<StatusRef>venomancer_poison</StatusRef>
+			<ProcChance>0.33</ProcChance>
+			<Anim>AcidSplash,0.15</Anim>
+			<Targ>DEFENDER</Targ>
+			<Duration>5</Duration>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>chameleon_copyabilities</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<TURNSTART />
+		</Run>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>copyabil_special</ERef>
+			<Script_Special>ChameleonCopyAbilities</Script_Special>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>exp_status_mudfighter</Rf>
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+			<PROCESSDAMAGE_ATTACKER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>improvecombat_inmud</ERef>
+			<Targ>ORIGINATING</Targ>
+			<Script_Special>ImproveCombatInMud</Script_Special>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>resist_root_stun</Rf>
+		<PermaBuffNoRun />
+		<EffRef>resist_root_100</EffRef>
+		<AEff>
+			<Type>IMMUNESTATUS</Type>
+			<ERef>resist_stun_100_silent</ERef>
+			<ImmuneStatusRef>status_basicstun</ImmuneStatusRef>
+			<ImmuneStatusRef>status_tempstun</ImmuneStatusRef>
+		</AEff>				
+	</SE>	
+
+	<SE>
+		<DName>exp_skill_expmon_overdrive_name</DName>
+		<Rf>status_robo_overdrive</Rf>
+		<ISpr>ExplodeEffect</ISpr>
+		<ShowIcon />
+		
+		<Pos />
+		<ShowIcon />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_status_robo_overdriveattack_name</Disp>
+			<ERef>overdrive_extrattack</ERef>
+			<Targ>DEFENDER</Targ>
+			<CanCrit />
+			<TCon>MELEE</TCon>
+			<AtkWp>0.5|2</AtkWp>
+			<Anim>FervirSwordEffect,0.05</Anim>
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_regenonhit_name</DName>
+		<Rf>status_fungal_regenonhit</Rf>
+		<Icon>SkillIcons_183</Icon>
+		<ISpr>RegenerateEffect</ISpr>
+		<ShowIcon />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />
+		<EffRef>healself5per</EffRef>
+	</SE>	
+
+
+	<SE>
+		<Rf>visible_resistroot100</Rf>
+		<Icon>SkillIcons_177</Icon>
+		<Run>
+			<PERMANENT />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<EffRef>resist_root_100</EffRef>
+		<Pos />
+	</SE>	
+
+	<SE>
+		<Rf>exp_status_absorbpowerups</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<TURNEND />
+		</Run>		
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>destroyabsorbpower</ERef>
+			<Script_Special>AbsorbPowerupsOnTile</Script_Special>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_cubeslimesummonreaction</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_cuboidslimesplitter</ERef>
+			<ProcChance>0.25</ProcChance>			
+			<AType>MONSTER</AType>
+			<ARef>mon_xp_minicubeslime</ARef>			
+			<SDur>25</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>10</AnchorRange>
+			<ScaleWithLevel />
+			<Silent />
+			<MaxRandomSummonRange>1</MaxRandomSummonRange>
+			<SummonNoStacking />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>exp_status_parrydown_name</DName>
+		<Rf>parrydown25</Rf>
+		<Desc>mmod_mm_parry10_desc</Desc>
+		<NTag>-25%</NTag>
+		<Icon>SkillIcons_110</Icon>
+		<ShowIcon />
+		<ISpr>DefenseDownEffect</ISpr>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>		
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>reduceparry25</ERef>
+			<AlterParryFlat>-0.25</AlterParryFlat>			
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>exp_status_attackdown_name</DName>
+		<Rf>attackdown50</Rf>
+		<Desc>mmod_mm_samurai_desc</Desc>
+		<NTag>-50%</NTag>
+		<Icon>SkillIcons_109</Icon>
+		<ISpr>AttackDownEffect</ISpr>
+		<ShowIcon />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Flag>LOWERATTACK</Flag>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>atkdown50</ERef>
+			<ChangePercentAllDamage>-0.5</ChangePercentAllDamage>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>item_bomb_caltrops_name</DName>
+		<Rf>status_enemycaltrops</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>	
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_enemycaltrops_name</Disp>
+			<ERef>enemycaltropsbleed</ERef>
+			<AtkWp>1|10</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<NoDodgePossible />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+		<EffRef>eff_caltropsslow</EffRef>	
+	</SE>		
+</DOCUMENT>

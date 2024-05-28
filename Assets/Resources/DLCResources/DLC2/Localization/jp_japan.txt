@@ -1,0 +1,471 @@
+abil_skill_banditdragonsoul_desc	ドラゴンブレイク: ナイフの息。周囲5x5マスの範囲内の敵に、攻撃力の^number1^の物理ダメージを与える。
+abil_skill_banditdragonsoul_edesc	同時に出血を付与。^number3^ターンの間、攻撃力の^number2^の物理ダメージを毎ターン与える。
+abil_skill_banditdragonsoul_extradesc	同時に出血を付与。^number3^ターンの間、攻撃力の^number2^の物理ダメージを毎ターン与える。
+abil_skill_banditdragonsoul_name	竜の魂: 盗賊
+abil_skill_beastdragonsoul_desc	ドラゴンブレイク: メテオブレス。敵グループに攻撃力の^number1^の炎ダメージを与える。
+abil_skill_beastdragonsoul_edesc	さらにヒットした敵すべてを^number2^ターンの間、失神させる。
+abil_skill_beastdragonsoul_extradesc	さらにヒットした敵すべてを^number2^ターンの間、失神させる。
+abil_skill_beastdragonsoul_name	竜の魂: 獣
+abil_skill_beedeath_name	蜂を放
+abil_skill_beestinger_name	ハチの一刺し
+abil_skill_chillonhit_weak_name	氷の皮
+abil_skill_flank_name	挟み跳び
+abil_skill_frogdragonsoul_desc	ドラゴンブレイク: カエルつぶし。狙った敵に跳びかかり、対象とその周囲の敵に攻撃力の^number1^の物理ダメージを与える。
+abil_skill_frogdragonsoul_edesc	同時に「菌再生」を得て、^number3^ターンの間、最大HPの^number2^が毎ターン回復する。
+abil_skill_frogdragonsoul_extradesc	同時に「菌再生」を得て、^number3^ターンの間、最大HPの^number2^が毎ターン回復する。
+abil_skill_frogdragonsoul_name	竜の魂: カエル
+abil_skill_ghostaura_name	抑圧のオーラ
+abil_skill_icebullrush_name	アイススラム
+abil_skill_lowerdef_onattack_name	酸攻撃
+abil_skill_moldmindcontrol2_name	サイキックドレイン
+abil_skill_parry30_name	上級パリィ
+abil_skill_passivecharm_pets_name	サイキックコントロール
+abil_skill_prismabsorber_name	プリズム吸収
+abil_skill_prismattack_name	プリズムアタック
+abil_skill_randomice_name	ランダム氷塊
+abil_skill_robotdragonsoul_desc	ドラゴンブレイク: フォトンブレス。前方の広範囲に^number1^本のレーザーを吐き、すべての対象に攻撃力の^number2^以上の雷ダメージを与える。
+abil_skill_robotdragonsoul_edesc	レーザーは最大^number4^本までヒットし、各レーザーが^number3^の追加ダメージを与える。
+abil_skill_robotdragonsoul_extradesc	レーザーは最大^number4^本までヒットし、各レーザーが^number3^の追加ダメージを与える。
+abil_skill_robotdragonsoul_name	竜の魂: ロボット
+abil_skill_slimedragonsoul_desc	ドラゴンブレイク: スライム増援。友好的なスライム兵を^number1^体召喚して、^number2^ターンの間、一緒に戦わせる。
+abil_skill_slimedragonsoul_edesc	召喚したスライム兵は押し飛ばされたり、引っぱられたりしない。
+abil_skill_slimedragonsoul_extradesc	召喚したスライム兵は押し飛ばされたり、引っぱられたりしない。
+abil_skill_slimedragonsoul_name	竜の魂: スライム
+abil_skill_sludgedeath2_name	悪疫の死
+abil_skill_snakefly_name	のんき跳び
+abil_skill_spectralcrab_name	亡霊ガニ召喚
+abil_skill_spiritdragonsoul_desc	ドラゴンブレイク: 猛毒の息。3x3マスの範囲内の敵に、攻撃力の^number1^の毒ダメージを与える。同時にガスを発生させ、触れた敵を眠らせる。
+abil_skill_spiritdragonsoul_edesc	ガスに触れた敵を^number2^ターン、眠らせる。
+abil_skill_spiritdragonsoul_extradesc	ガスに触れた敵を^number2^ターン、眠らせる。
+abil_skill_spiritdragonsoul_name	竜の魂: 精霊
+abil_skill_summon_metalslime_red_name	キーバブル生成
+abil_skill_summon_metalslime_red_shortdesc	バリアを破壊できる、便利なキーバブルを召喚する。
+abil_skill_whipmastery1_desc	並んでいる敵を狙い、攻撃力の^number1^の物理ダメージを与える。2マス以内の敵は^number2^ターンの間、しめつけ状態となる。
+abil_skill_whipmastery1_extradesc	しめつけ状態の敵は毎ターン、攻撃力の^number3^の物理ダメージを受ける。
+abil_skill_whipmastery1_name	ラトルスネイク
+abil_skill_whipmastery2_desc	ムチで攻撃時、^number1^の確率で対象を^number2^ターン、マヒさせる。
+abil_skill_whipmastery2_name	絡みムチ
+abil_skill_whipmastery3_desc	敵を攻撃するたび、ムチ攻撃時のクリティカル率が^number1^上昇する。
+abil_skill_whipmastery3_name	ムチの極意
+abil_skill_whipmastery4_desc	敵1体を狙って攻撃力の^number1^の物理ダメージを与え、その場に衝撃波を作り出す。衝撃波は^number2^ターンの間、毎ターン広がっていく。
+abil_skill_whipmastery4_extradesc	衝撃波は各ターンの最後に、攻撃力の^number3^の物理ダメージを与える。
+abil_skill_whipmastery4_name	ソニックブーム
+abil_skill_wranglersummon_name	ペット呼び
+ask_where_dragons	ほかの竜はどこに？
+bandit_dragon_intro_1	あれは#cy#バードボーイズ#ec#に見えない。ちっとも。きっと#cg#竜#ec#だわ！\n\n
+bandit_dragon_intro_2	#cr#ブシュゥゥゥゥゥ#ec#...おまえの#cy#チーズゥゥゥゥゥ#ec#...#cr#死にたくなければァァァァァ#ec#...#cy#我らに...よこセェェェェェッ#ec#！\n\n
+bandit_dragon_intro_3	できればもう何百年か眠っててくれない？それってムリなお願いかしら？\n\nあなたがチーズを愛する気持ちはよーくわかる。誰よりも。けど、他人を脅してチーズを奪うことはできないの。\n\n
+bandit_dragon_intro_4	#cr#ブシュゥゥゥゥゥ！#ec##cy#チーズゥゥゥゥゥ#ec#...食わせろォォォォ...我のモノを...#cy#奪いおってェェェェェェ#ec#！\n\n
+bandit_dragon_intro_response_1	盗賊どもがなんでチーズを？！
+bandit_dragon_intro_response_2	うん、そうね。やっぱりムリなお願いかも。
+bandit_dragon_takeitems_1	無礼な生き物めェェェェェ！今すぐ#cr#貴様の食いモノを奪ってくれるゥゥゥゥゥ#ec#！グハハハハハ...\n\n
+bandit_dragon_takeitems_2	ロープであなたを捕らえたわ。#cy#これでもまだ#ec#、強気なことを言ってられるかしら？私の食べモノは#cg#ちゃーんと、このリュックの中に#ec#...\n\n #cy#って、ええっ...ちょっと待って！#ec#\n\n
+bandit_dragon_takeitems_part2_txt	あの太っちょ盗賊に#cy#食べモノをぜんぶ奪われちゃってる#ec#！やってくれたわね、#cr#もう頭にきた#ec#。食べモノの恨みは恐ろしいんだから、覚悟しておきなさい！絶対に取り返してやる！\n\n
+bandit_dragon_takeitems_response	だったらやってみなさい！
+bandit_dungeon_unlocked_txt	あの#cy#階段#ec#ってどこから現れたの？#cy#バードボーイズ#ec#と戦った時には、なかったはずだけど...\n\nひょっとして、あの先にも#co#竜#ec#のねぐらが？\n\n
+banditdragon_postdefeat_txt	また#co#竜#ec#をやっつけた！だから言ったでしょ、私の#cy#チーズ#ec#には#cr#手を出すな#ec#って。この世には決して触れちゃいけないモノがあるの。\n\n
+banditdungeon_hub_unlock_txt	今のが最後の門番ね！これで中央の門が開いたはず。先へ進む前に、しっかり準備を整えておかなきゃ...\n\n
+battletext_nullify	状態強化を取り払った！
+beast_dungeon_unlocked_txt	うわあ、すごく立派な#cg#ツタ#ec#！これだけ大きければ、私でもよじ登れそう。\n\nこんなに静かな場所の上にも、#co#竜#ec#のねぐらがあるっていうの？\n\n確かめる方法はひとつだけ、ね。\n\n
+beastdungeon_firstwavestart_part2_txt	#cr#魔物たちの大暴走#ec#！逃げないとまずいけど...このままじゃ、#cg#若ツタ#ec#をすべて食い荒らされちゃう！そしたら上の階へ行けなくなるわ。\n\n#cy#若ツタたちを守らなきゃ#ec#。急いで戦いに備えましょう！
+beastdungeon_firstwavestart_txt	この4本の#cg#若ツタ#ec#たちは、今にも大きく成長しそう。感じるの！\n\n...うん、待って。あの音は何？どんどん近づいてくる！\n\n
+bubbleshield_displayname	バブルシールド
+budoka_glove1_desc	素手のように攻撃できる。素手系以外の攻撃力ボーナスをすべて無視。魔法特性（モッド）を^number1^個までセット可能。
+budoka_glove1_name	素人の巻き布
+budoka_glove2_name	徒弟の巻き布
+budoka_glove3_name	達人の巻き布
+budoka_glove4_name	師匠の巻き布
+des_obj_creepingsludge_dname	悪疫の沼
+description_xp2_limitbreak	ダメージを受けると上昇。#cg#100%#ec#に達すると、次の#cy#基本攻撃#ec#時に、強力な#co#ドラゴンブレイク#ec#攻撃を発動できる。攻撃を使用後、または#cy#15#ec#ターン経過後、#co#ドラゴンリミット#ec#はリセットされる。
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_btn_0	#cy#ジョリト#ec#: <#0cffe6>ソニックブーム#ec#を学ぶ前に、利き手に#cy#ムチ#ec#を装備した状態で、#cy#^tag1^体のチャンピオン#ec#を打ち負かす必要がある。また、ランクが「<#79a2ab>いちころ#ec#」の敵はカウントされぬから注意せよ。\n\nそなたは今までに#cy#ムチ#ec#を使って、<#40b843>^tag2^#ec#体のチャンピオンを倒したようだ。修練を続けるがよい。\n
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_txt	ソニックブームを学ぶ（1000 JP）
+dialog_weaponmaster_chat_whip_mastery_ultimate1_txt	#cy#ジョリト#ec#: どうやら#cy#ムチ#ec#を装備して、#cy#^tag2^体のチャンピオン#ec#を打ち負かしたか。今なら<#40b843>究極技#ec#を教えてもよかろう。\n\nそなたが覚えたいのは、この<#40b843>究極技#ec#で#cy#間違いない#ec#か？#cr#別の究極技は二度と学べんぞ#ec#？\n
+dialog_weaponmaster_chat_whipmastery_btn	<#40b843>ムチの奥義#ec#の道
+dialog_weaponmaster_chat_whipmasteryintro_btn_0	絡みムチを学ぶ（700 JP）
+dialog_weaponmaster_chat_whipmasteryintro_txt	#cy#ジョリト#ec#: #cy#ムチ#ec#は敵の群れと戦うのに適した、柔軟な武器だ。ただし、一撃の威力はやや落ちる。その<#40b843>奥義#ec#は複数の敵を一度に攻撃し、#cy#広範囲にダメージ#ec#を与えることに主眼が置かれている。\n\n2つ目の奥義は、パッシブ型の<#0cffe6>絡みムチ#ec#だ。この技を身につければ、ムチの一撃によって時折、敵を#cy#無力化#ec#（マヒ）できよう。\n
+dialog_weaponmaster_chat_whipmasteryintro2_btn_0	ムチの極意を学ぶ（800 JP）
+dialog_weaponmaster_chat_whipmasteryintro2_txt	#cy#ジョリト#ec#: #cy#ムチ#ec#は敵の群れと戦うのに適した、柔軟な武器だ。ただし、一撃の威力はやや落ちる。その<#40b843>奥義#ec#は複数の敵を一度に攻撃し、#cy#広範囲にダメージ#ec#を与えることに主眼が置かれている。\n\n3つ目の奥義は、パッシブ型の<#0cffe6>ムチの極意#ec#だ。複数の敵をヒットした際、ムチの#cy#クリティカル率#ec#が上昇する。\n
+dialog_weaponmaster_chat_whipmasteryintro3_btn_0	決めたわ、<#0cffe6>ソニックブーム#ec#を教えて！
+dialog_weaponmaster_chat_whipmasteryintro3_txt	#cy#ジョリト#ec#: どうやらそなたは、#cy#ムチ#ec#の道に十分熟達したようだ。<#40b843>究極技#ec#を覚える準備はよいか？ただし、よく考えて決断せよ。<#40b843>究極技#ec#は#cy#1つ#ec#しか覚えられんからな。\n\n<#0cffe6>ソニックブーム#ec#は隣接する敵1体を攻撃して、#cy#衝撃波#ec#を作り出す技だ。衝撃波は術者から遠ざかるほど、規模と威力が増してゆく。\n
+dialog_weaponmaster_chat_whipmasteryintro4_btn_0	ラトルスネイクを学ぶ（400 JP）
+dialog_weaponmaster_chat_whipmasteryintro4_txt	#cy#ジョリト#ec#: #cy#ムチ#ec#は敵の群れと戦うのに適した、柔軟な武器だが、一撃の威力はやや落ちる。その<#40b843>奥義#ec#は複数の敵を一度に攻撃し、#cy#広範囲にダメージ#ec#を与えることに主眼が置かれている。\n\n1つ目の奥義は<#0cffe6>ラトルスネイク#ec#だ。並んでいる敵を攻撃し、弾き飛ばして、その場に足止めする。\n
+dragonbreak_bandit_power_desc	敵グループにナイフの息を吐いて、攻撃力の^number1^の物理ダメージを与え、かつ出血させる。
+dragonbreak_beast_power_desc	敵グループに隕石を落として、攻撃力の^number1^の炎ダメージを与え、かつ失神させる。
+dragonbreak_frog_power_desc	優雅に飛び跳ね、対象とその周囲の敵すべてに攻撃力の^number1^の物理ダメージを与える。
+dragonbreak_ready_desc	次の基本攻撃時に、強力な#co#ドラゴンブレイク#ec#攻撃が発動する！
+dragonbreak_ready_name	ドラゴンブレイク発動可！
+dragonbreak_robot_power_desc	敵グループにレーザーを吐き、攻撃力の^number1^の雷ダメージを与える。
+dragonbreak_slime_power_desc	友好的なスライム兵を^number1^体召喚して、一緒に戦わせる。
+dragonbreak_spirit_power_desc	敵グループに毒ガスを吐いて、攻撃力の^number1^の毒ダメージを与え、周囲に催眠ガスを発生させる。
+exp_banditdungeon_cname1	盗賊の水路 1F
+exp_banditdungeon_cname2	盗賊の水路 2F
+exp_banditdungeon_cname3	盗賊の水路 3F
+exp_banditdungeon_cname4	盗賊竜のねぐら
+exp_beastdungeon_cname1	古代の密林 1F
+exp_beastdungeon_cname2	古代の密林 2F
+exp_beastdungeon_cname3	古代の密林 3F
+exp_beastdungeon_cname4	古代の密林 4F
+exp_beastdungeon_cname5	古代の密林 最上階
+exp_crafting_commongearandthreegems_to_randomgear	普通の装備 x1 + 同ランクの宝石 x3 = ランダム装備 x1（伝説級かも！）
+exp_crafting_gemleaves_to_gems	同ランクの宝石の葉 x2 = 同ランクの宝石 x1
+exp_crafting_legendaryandthreegems_to_orbs	伝説級かセットギア x1 + 同ランクの宝石 x3 = 夢見のオーブ x5
+exp_crafting_lucidorbandgem_to_randomlucidorb	明晰のオーブ + 宝石 x1 = 明晰のオーブ x1（ランダム）
+exp_crafting_orbandjobscroll_to_skillorb	夢見のオーブ x1 + 転職の巻物 x1= スキルオーブ x1（ランダム）
+exp_crafting_potions_to_elixir	最高レベルの回復薬 x6（HP、スタミナ、エナジーを各2個） = エリクサー x1
+exp_crafting_sixlucidshards_to_randomlucidorb	明晰のオーブのかけら（どれでも）x6 = 明晰のオーブ x1（ランダム）
+exp_crafting_threecommonarmor_to_randomarmor	普通の防具 x3 = 普通の防具 x1（ランダム）
+exp_crafting_threecommonoffhand_to_randomoffhand	普通の空き手 x3 = 普通の空き手 x1（ランダム）
+exp_crafting_threecommonweapons_to_randomweapon	普通の武器 x3 = 異なるタイプの普通の武器 x1（ランダム）
+exp_crafting_threegems_upgrade	同ランクの宝石 x3 = より高ランクの宝石 x1
+exp_crafting_threelucidorbs_to_oneregular	明晰のオーブ（どれでも）x3 = 夢見のオーブ x1
+exp_crafting_threepotions_upgrade	同じ回復薬かステルス薬 x3 = より高ランクの薬 x1
+exp_crafting_threescrollsandgem_to_randomscroll	巻物（どれでも）x3 + 宝石 x1 = 巻物 x1（ランダム）
+exp_crafting_threeseeds_to_randomseed	木のタネ（どれでも）x3 = タネ（ランダム）x1
+exp_crafting_twoaccessoriesandgem_to_randomaccessory	普通の装飾品 x2 + 宝石 x1= 普通の装飾品 x1（ランダム）
+exp_crafting_tworelics_to_randomrelic	レリック（どれでも）x2 = レリック（ランダム）x1
+exp_crafting_tworelicsanditem_to_specificrelic	レリック（どれでも）x2 + 非レリック系ギア x1 = 所定の装備スロットのレリック x1（ランダム）
+exp_dialog_crafting_recipeintro	我が知っているレシピはこうだ。\n
+exp_dialog_frogking_town_craftinginfo	#cy#ホレイショ:#ec# 貴様にも分かるよう、かみ砕いて説明してやろう。\n\n貴様が正しい#cy#アイテム#ec#をよこせば、我が#cg#強力なカエル魔法#ec#と一緒にモグモグして、別のアイテムを吐き出してやるという寸法だ。\n
+exp_dialog_frogking_town_dragons_1	#cy#ホレイショ:#ec# ほかの#co#古代竜#ec#は我なんぞより、はるかに強いぞ。貴様が勝てる#cr#チャンスなど、万に一つもないわ#ec#！ゆえに居場所を教えてやる。どのみち結果は変わらんからな、#cy#ぐふふふふ#ec#...\n\n
+exp_dialog_frogking_town_dragons_2	#cy#ホレイショ:#ec# 古代竜の一匹は#co#詐称者のアジト#ec#の近くで見つかる。\n一匹は#co#静寂の湖#ec#の上に棲んでいる。\n一匹は#co#夢の国#ec#で見つかる。\n一匹は#co#湿っぽくてベタつく洞#ec#で見つかる。\n\n
+exp_dialog_frogking_town_intro	#cy#ホレイショ:#ec# 我に何の用だ、#cg#ケロケロッ#ec#？今はちょーぜつ忙しいのだ！\n
+exp_enemycaltrops_name	敵のマキビシ
+exp_frogdungeon_cname1	カエルの泥海 1F
+exp_frogdungeon_cname2	カエルの泥海 2F
+exp_frogdungeon_cname3	カエルの泥海 3F
+exp_frogdungeon_cname4	カエル竜のねぐら
+exp_log_eatenwhole	#cr#^tag1^#ec#が#cy#^tag2^#ec#を丸飲みした！
+exp_log_gateopened	#cy#重たい門#ec#が#cy#どこかで#ec#開くのが聞こえる...
+exp_log_ghostaura_wrongtarget	#cy#霊的オーラ#ec#に包まれ、あなたの攻撃は#cy#^tag1^#ec#しか傷つけられない！
+exp_log_item_crafted	アイテムを作成した: #cy#^tag1^#ec#！
+exp_log_monsterhorde_attack	#cr#モンスター#ec#の#cy#群れ#ec#が#cy#現れた！#ec#（ウェーブ#cg#^tag1^#ec#）
+exp_log_monsterhorde_fail	#cy#若ツタ#ec#が#cr#すべて破壊された！#ec#！やり直しだ...
+exp_misc_eatenwhole	丸飲み！
+exp_mon_banditdragon_name	盗賊竜
+exp_mon_beastdragon_name	暴れ竜
+exp_mon_cheftoad_name	シェフガエル
+exp_mon_frogdragon_name	カエル竜のホレイショ
+exp_mon_hornetnest_name	いくさバチの巣
+exp_mon_jellydragon_name	スライム竜“暴君”
+exp_mon_prototype_husyn_name	プロトタイプ
+exp_mon_robotdragon_name	プログラム“竜”
+exp_mon_spiritdragon_name	精霊竜
+exp_mon_warhornet	いくさバチ
+exp_mon_xp_defensecrystal_name	魔法の若ツタ
+exp_npc_realjellydragon_name	スライム竜のジェリ坊
+exp_obj_floorswitch_name	スイッチ
+exp_obj_friendlymonster_egg_name	水晶の牢獄
+exp_obj_metalgate_name	鉄の門
+exp_obj_ruined_future_obstacle_01_name	固い鉄くず
+exp_obj_ruined_robot_scrap_heap_name	鉄くずの山
+exp_popup_dragondefeated	竜を倒した！
+exp_popup_wave	ウェーブ^tag1^！
+exp_robotdungeon_cname1	機械の迷宮 1F
+exp_robotdungeon_cname2	機械の迷宮 2F
+exp_robotdungeon_cname3	機械の迷宮 3F
+exp_robotdungeon_cname4	機械の迷宮 4F
+exp_robotdungeon_cname5	機械の迷宮 最上階
+exp_skill_deeproar_name	原始の咆哮
+exp_skill_dragon_taillash_name	テールラッシュ
+exp_skill_expmon_summonneutralizers_name	援軍生成
+exp_skill_firewave_name	炎波
+exp_skill_gasbreath_name	催眠ガス
+exp_skill_icestrike_name	凍波
+exp_skill_knifebreath_name	ナイフの息
+exp_skill_lightningbreath_name	ボルトブレス
+exp_skill_meteorbreath_name	メテオブレス
+exp_skill_shadowbreath_name	悪夢の息
+exp_skill_skysnakepoison_name	苛烈な毒
+exp_skill_slimebreath_name	ジェリーブレス
+exp_skill_slimedragonbreak_name	スライム増援
+exp_slimedungeon_cname1	スライムが原 1F
+exp_slimedungeon_cname2	スライムが原 2F
+exp_slimedungeon_cname3	スライムが原 3F
+exp_slimedungeon_cname4	スライムが原 最上階
+exp_specialmon_gatekeeper	門番
+exp_spiritdungeon_cname1	精霊の聖域 1F
+exp_spiritdungeon_cname2	精霊の聖域 2F
+exp_spiritdungeon_cname3	精霊の聖域 3F
+exp_spiritdungeon_cname4	精霊の聖域 最上階
+exp_status_enrageattack_name	激怒
+exp_status_physicalform_name	実体モード
+exp_status_spiritform_name	霊体モード
+exp_switch_nothing	#cy#スイッチは動く#ec#が、#cr#何も起きない#ec#。
+exp_ui_boxitemheader	ホレイショのアイテム
+exp_ui_craftheader	ホレイショのお食事
+exp_ui_craftitems	アイテム作成！
+exp_ui_playeritemheader	あなたのアイテム
+exp_wanderer_dungeon11_name	永遠の洞
+final_dragon_callout_part1_1	さーて、#cg#カエルのお友だち#ec#さん。これで全部よ。すべての#co#竜#ec#を穏やかに眠らせたわ。\n\n
+final_dragon_callout_part1_2	#cg#ケロケロケロッ#ec#、あ、あり得んぞ！そんなに強い奴がいるはずない！インチキしたなっ！\n\n
+final_dragon_callout_part1_3	言いがかりはよして、#cg#カエルさん#ec#！あの竜たちは強かったけど、私のほうが一枚上手だったってだけ。\n\nこれでタングルディープの#cy#危機#ec#は去った。ようやくあなたとじっくり話を...\n\n
+final_dragon_callout_part2_1	今のは何？！\n\nねえ、#cg#カエルさん#ec#、今のはあなたの魔法なの？みんなを傷つけようと？だったらオリの中へぶち込むわよ！\n\nさあ、話して。一体何をしたの？\n\n
+final_dragon_callout_part2_2	ちがう、今のは我ではない！#cg#ケロケロッ#ec#！本当だ！というかそうしたくとも、我の#cg#カエル魔法#ec#であんな芸当はできんのだ。\n\n
+final_dragon_callout_part2_3	#heroname#よ、答えの一部なら分かったかもしれんぞ。あの#cr#爆発#ec#が起きた瞬間、#cy#ドリームキャスター#ec#へ流入するエネルギー量が#cy#834パーセント#ec#上昇した。\n\nそれから推察するに、爆発の原因は#cy#機械的#ec#なものである公算が高い。さらに言うなら#cy#ドリームキャスター#ec#や、その原動力たる#cc#古代のキューブ#ec#と同じ、技術的起源を持っていると思われる。\n\nあいにくだが、おまえさんの小さな緑の友人は真実を語っていよう！\n\n
+final_dragon_callout_part2_4	だったら、どこかに#cy#別の#ec#強力なマシンがあるのね。けど、どうして今目覚めたんだろう？\n\n
+final_dragon_callout_part2_5	これは仮説だが、おまえさんが最近#co#竜たち#ec#を倒したことと関係があるのではないか？\n\nこうした古代の遺物の多くは謎に包まれているが、確実に言えることがひとつある。それは我々と同じく#cc#フロウ#ec#とつながっているということだ。\n\nもしや、おまえさんが#co#竜たち#ec#と接触したことで、#cc#フロウ#ec#が大きく変化したのかもしれん。そのせいで#cy#未知の#ec#装置が目覚めたのではないかな！\n\n
+final_dragon_callout_part2_6	うん、それって鋭い読みかも。あなたが正しいなら、発生源はたくさんの#cy#マシン#ec#が集まる場所の近くかもしれない。\n\n手始めに#cc#^$getstring:levelname$^#ec#を調べてみるわ！\n\n
+frog_dragon_defeated_1	#cy#ぬぐわっ！#ec#\n\n#cg#ケロロッ#ec#、我が魔法が解けてしまった。ぜんぶ貴様のせいだぞ。#cr#今すぐ報いを受けるがよい#ec#、ひよっ子ガエルめ！\n\n
+frog_dragon_defeated_2	なら、これが本当のあなたなのね。さっきはえらいイキがってたけど、ホントは#cg#すっごく可愛いカエルさん#ec#だったのね！\n\nさ、そろそろリヴァーストーン村へ帰らなきゃ。あなたも一緒に来る？\n\n
+frog_dragon_defeated_3	ぬぐぐっ、#cr#今すぐ懲らしめてやる#ec#！#cg#ケロケロッ#ec#！心の底で燃え上がる王の魂に触れるがよい！\n\nそんなピカピカの剣など、我が#cg#カエル魔法#ec#でもって一瞬で塵に変えてくれるわ！\n\n
+frog_dragon_defeated_4	#cr#きつい#ec#のと#cg#楽しい#ec#のどっちがいい、カエルさん？楽しいのがいいなら、今から私が#cc#ポータル#ec#を開いて、村へ連れてってあげる。村の一員になって、その“カエル魔法”でみんなの役にも立てるでしょうね。\n\nけどつらいのがお好きなら、巨大なトンカチでぶん殴るしかない。そして#cy#目を覚ました瞬間#ec#、あなたはきっと自分の選択を後悔するわ。\n\n
+frog_dragon_defeated_5	...#cg#ケロケロッ#ec#...\n\nよかろう、我の統治はしばらく中断だ。\n\nだが覚えておけ、ひよっ子ガエルよ。我は想像を絶する力を持つ、5匹の#co#古代竜#ec#の1匹にすぎん。その全員を倒すなど、#cg#ケロケロッ#ec#、貴様には決して叶わぬことよ！\n\n
+frog_dragon_defeated_response_1	うわあー、可愛いカエルさん！
+frog_dragon_defeated_response_2	わかりやすく言うわね。
+frog_dragon_defeated_response_3	それは楽しみね。とにかく出発よ！
+frog_dragon_intro_1	な、なんて大きなカエルなの！きっと、ここの危険なカエルたちのリーダーね。\n\nいくら神々しい生き物でも、#cc#リヴァーストーン#ec#やその先の世界にとっては脅威でしかない。ラングドン、もしこの子があなたの失踪したイトコだったら、ごめんなさい！\n
+frog_dragon_intro_2	#cg#ゲコゲコッ#ec#、カエルの泥海をずかずか踏み荒らす無礼者め！言葉を慎め！我は#co#カエル竜のホレイショ#ec#。敬意を知らんこわっぱめが。\n
+frog_dragon_intro_3	#cy#ええええっ？#ec#\n\nあなたは...えっと、その、#co#竜#ec#なの？！大昔の伝説に出てくるような？\n
+frog_dragon_intro_4	伝説だと？#cg#ゲコゲコゲコッ#ec#。\n\n貴様らはこんなにも早く、自分たちの#cy#王#ec#を忘れてしまったのか？我は長く眠っていたのだ。さあ、いけにえを授けよ。\n
+frog_dragon_intro_5	私たちに王様なんていない。一緒に#cc#リヴァーストーン村#ec#へ来るって言うなら、もちろん歓迎するわ。食べ物だって分けてあげるけど、みんなを脅してモノを奪うことは許さない。\n
+frog_dragon_intro_6	#cr#黙れ、ひよっ子ガエルめ！#ec#\n\n我は王ぞ、“歓迎”などされん。#cr#畏怖され#ec#、#cr#平伏される#ec#のだ。今からリヴァーストーン村へ行って、#cg#ゲコゲコッ#ec#、すべてのカエルは我のしもべだと思い出させてやろう。\n
+frog_dragon_intro_7	だったらあなたはこの場所で、他のカエルさんたちと暮らせばいい。もう二度とジャマもしない。あなたが私たちのジャマをしない限り。\n
+frog_dragon_intro_8	#cg#ゲコゲコゲコッ#ec#。\nカエルの顔も3度まで...お前は今、我の#cr#逆鱗#ec#に触れたのだ。\n\n#cr#カエルどもよ、襲いかかれ！#ec#\n
+frog_dragon_intro_response_1	は、話せるの？
+frog_dragon_intro_response_2	いけにえですって？！お断りだわ。
+frog_dragon_intro_response_3	私たちはカエルじゃない。それにそんなことは許さない。
+frog_dragon_intro_response_4	やっぱり説得は通じないみたいね。
+frog_dungeon_entry_txt	この場所は何かが#cy#ちがう#ec#...土も、空気も、すべてが変。ここの#cc#フロウ#ec#は...どこか#cy#古びてる#ec#。私が今まで冒険してきた、タングルディープのどの場所とも似ていないわ。\n\nここを冒険するだけの力が、今の私にあるのかしら？#cy#しっかり準備#ec#したほうがよさそうね。\n\n
+frog_dungeon_unlock_txt	#cg#ラングドン#ec#の言ったとおり！あの階段から、隙間風が吹き込んでくる。一体どこへ通じてるんだろう？カエルがわんさかいるところ、じゃなきゃいいけど！\n\nその答えを知る方法は...ひとつしかなさそうね。\n\n
+info_weaponproperties_whip	筋力と俊敏に基づくダメージ。対象と隣接する敵にもヒット。\nクリティカル時: 対象が2ターンの間、25%の攻撃力ダメージを毎ターン受ける
+item_bomb_caltrops2_desc	これって私が昔、リヴァーストーン村の外れで拾い集めた、とんがった木の実にそっくり。こっちのほうが痛そうだけど。
+item_bomb_caltrops2_name	星のマキビシ
+item_bomb_fire3_desc	このビンってすっごく熱くて、卵だって焼けちゃいそう。それってたき火をするよりカンタンかも！
+item_bomb_fire3_effectdesc	火ダメージ（Lvl x ^number1^）を与えて敵を炎上させ、^number3^ターンの間、精神力の^number2^のダメージを与える。
+item_bomb_fire3_name	業火のポーション
+item_bomb_ice2_desc	こんなのをリュックに入れてるだけで震えてきちゃう。走って体を温めなきゃ！
+item_bomb_ice2_effectdesc	危険なつららを一帯に放って、水ダメージ（Lvl x ^number1^）を与える。さらに^number2^の確率で足止めとマヒを付与する。
+item_bomb_ice2_name	氷結のグレネード
+item_bomb_lightning3_desc	容器に触れると、髪の毛が逆立っちゃう。ビリっとくるわ！
+item_bomb_lightning3_effectdesc	3x3マスの範囲に稲妻を落とし、雷ダメージ（Lvl x ^number1^）を与える。
+item_bomb_lightning3_name	稲妻のチンキ
+item_dragonsoul_frog_desc	強力な#co#古代竜#ec#のエッセンス。新しいパッシブ型スキル“竜の魂”をアンロックできる。
+item_dragonsoul_generic	竜の魂
+item_egg_metalslime_blue_name	自己組み立て式バブルエッグ（C型）
+item_egg_metalslime_red_name	自己組み立て式バブルエッグ（M型）
+item_egg_metalslime_yellow_name	自己組み立て式バブルエッグ（Y型）
+item_part_metalslime_blue_01_desc	青いドロドロにまみれた鉄くず。ぷるぷる震えてるわ、変なの！
+item_part_metalslime_blue_01_name	ぶくぶくバブルコア（C型）
+item_part_metalslime_blue_02_name	どろどろロボットアイ（C型）
+item_part_metalslime_blue_03_name	ねばねばキーリング（C型）
+item_part_metalslime_red_01_desc	赤いドロドロにまみれた鉄くず。ぷるぷる震えてるわ、変なの！
+item_part_metalslime_red_01_name	ぶくぶくバブルコア（M型）
+item_part_metalslime_red_02_name	どろどろロボットアイ（M型）
+item_part_metalslime_red_03_name	ねばねばキーリング（M型）
+item_part_metalslime_yellow_01_desc	黄色いドロドロにまみれた鉄くず。ぷるぷる震えてるわ、変なの！
+item_part_metalslime_yellow_01_name	ぶくぶくバブルコア（Y型）
+item_part_metalslime_yellow_02_name	どろどろロボットアイ（Y型）
+item_part_metalslime_yellow_03_name	ねばねばキーリング（Y型）
+item_weapon_whip1_desc	子供の頃はよくお店でロープを借りて、“魔物と戦う”ごっこをしたっけ。まさかこうして、ロープで本物の魔物と戦うことになるなんて！
+item_weapon_whip1_name	縄のムチ
+item_weapon_whip2_desc	ジェセが言ってた。野生の魔物ちゃんに乗りたいときは、こういうムチで手なずけるんだって。けど、そんなのムリ。正気とは思えない。
+item_weapon_whip2_name	革のムチ
+item_weapon_whip3_desc	このムチって、振るとびゅんびゅんすごい音がする。つまり一発食らったら、タダじゃすまないってこと。
+item_weapon_whip3_name	ブルウィップ
+item_weapon_whip4_desc	最初は重いと思ったけど、このムチってよくできてる。バランスが完ぺきなの。あとは自分をノックアウトしちゃわないよう注意するだけ。
+item_weapon_whip4_name	鎖のムチ
+item_weapon_whip5_desc	きめ細かい、まっ白な毛皮で覆われてる。この危険な武器を作るために、一匹の美しい獣の命が奪われてないよう願うわ。
+item_weapon_whip5_name	ユニコーンラッシュ
+item_weapon_whip6_desc	このムチって、私の動きと心を読んでるみたい。それってヘンだけど、本当にそう感じるの。決して狙いを外さないんだもの。
+item_weapon_whip6_name	スネークラッシュ
+langdon_dragon_info_button	あの、どこに行きましょうか？
+langdon_start_dragonquest_1	#cy#ラングドン:#ec# #cg#ゲロゲロゲロッ！！！#ec#\n\nこりゃ絶対気のせいじゃないべ、#cg#ゲロゲロッ#ec#。この森の上で#cr#おかしなこと#ec#が起きてんだ。まずいべ、こりゃまずいべ。\n
+langdon_start_dragonquest_2	#cy#ラングドン:#ec# ゲコッ、ちょいと説明が難しいべ。この土は、#cg#ゲロゲロッ#ec#、オラの知ってる土じゃねえだ。何か変だべ。\n\n腐ったリンゴをかじっちまったら、#cg#ゲロゲロッ#ec#、誰だって内心は後悔するもんだべよ？\n
+langdon_start_dragonquest_3	#cy#ラングドン:#ec# いや、さっぱりわかんねーべ。#cg#ゲロゲロッ#ec#。\n\nけど、#cg#タングルディープ#ec#に呼ばれてる#cy#気がすんだ#ec#。抗いがたい力でよお。オラが分別のないカエルだったら、#cg#ゲロゲロッ#ec#、今すぐシャベルをほっぽり出して、そこへ向かってるところだべ！\n
+langdon_start_dragonquest_4	#cy#ラングドン:#ec# んだな、オラの仲間たちが集まるところだべか？色んな#cg#カエルたち#ec#がよ？\n\nま、わかんねーけどな。#cg#ゲロゲロッ#ec#。オラは冒険家ってタイプじゃねえし。んだども、嬢ちゃんが調べてみるって言うんなら、#cy#気をつけるこったべ#ec#。\n\nおっと、そうそう。もしジェリ坊を見かけたら、#cg#ゲロゲロッ#ec#、オラに教えてくれるだべか？また#cy#迷子#ec#になっちまっただ。まったく、世話の焼けるスライムちゃんだべ！\n\n
+langdon_start_dragonquest_response_1	どういうこと？
+langdon_start_dragonquest_response_2	うん...そう思う。なぜ土が変わったの？
+langdon_start_dragonquest_response_3	向かうって、どこへ？
+langdon_start_dragonquest_response_4	わかったわ。ありがとう、ラングドン。
+log_absorbing_negate_crit	<#40b843>盾#ec#を使って#cr#クリティカルヒット#ec#を無効化！
+log_buffstrip	あなたは#cy#^tag1^#ec#の状態強化「#cy#^tag2^#ec#」を無効化した！
+log_frogs_join_battle	#cy#^tag1^#ec#が叫んだ、#cy#「我を助けよ、カエルども！」#ec#
+log_ghost_putatrest	#cy#^tag1^#ec#は#cg#穏やかに消え去った#ec#。
+log_ghost_restless	#cy#^tag2^#ec#の#cr#^tag1^#ec#が現れた！
+log_jellydragon_arrivalturns	#cy#敵のリーダーが到着するまで、残り#ec##cr#^tag1^ターン#ec#！
+log_limitbreak_reached	#co#ドラゴンリミット#ec##cy#が上限に達した！#ec#
+log_player_dragonbreak	#cg#あなた#ec#は#co#ドラゴンブレイク#ec#: #cy#^tag1^#ec#を使った！
+log_ricochet_damage	矢が#cy#^tag1^#ec#に跳ね返って#cy#^tag2^#ec#をヒット！#co#^tag3^#ec#のダメージ！
+log_slimefail	#cy#敵がすべての塔を占領した...いったん退却して再挑戦しよう。#ec#
+misc_dmg_arcane	奥伝の矢
+misc_hit	ヒット！
+misc_log_psychic_charmed	#cy#^tag1^#ec#が#cy#^tag2^#ec#を永久的に魅了した！
+misc_xp2_limitbreak	#co#ドラゴンリミット:#ec# #cy#^tag1^#ec#
+mm_budokatouch1_desc	素手のように攻撃できる。素手系以外の攻撃力ボーナスをすべて無視。魔法特性（モッド）を^number1^個までセット可能。
+mm_xp2_absorbing_desc	^number1^の確率でクリティカルヒットを無効化
+mm_xp2_absorbing_name	吸収
+mm_xp2_arcane_desc	^number1^の確率で、元素系（ランダム）の矢を追加で放ち、精神力に基づくダメージを与える
+mm_xp2_arcane_name	奥伝
+mm_xp2_battlemage_desc	この武器の威力の^number1^が精神力に上乗せされる
+mm_xp2_battlemage_name	闘魔
+mm_xp2_bubble_desc	HPが^number1^以下の時、シールドが発生してダメージを吸収（Lvl x ^number2^）。^number4^ターン持続し、クールダウンに^number3^ターン要する
+mm_xp2_bubble_name	泡護
+mm_xp2_coolfrog_desc	HPが^number1^以下の時、強力なクールフロッグが出現。クールダウンに^number2^ターン要する
+mm_xp2_coolfrog_name	ケロケロ
+mm_xp2_dragons_desc	ドラゴンリミットが^number1^早くたまり、^number2^のダメージを与える
+mm_xp2_dragons_name	竜心
+mm_xp2_echoing_desc	^number1^の確率で基本攻撃を2回行う
+mm_xp2_echoing_name	木霊
+mm_xp2_explosions_desc	アイテムを使うと爆発が起き、隣接する敵に攻撃力の^number1^の物理ダメージを与える
+mm_xp2_explosions_name	暴発
+mm_xp2_grandmaster_desc	クリティカル時のダメージが筋力の^number1^だけ上昇する
+mm_xp2_grandmaster_name	師匠
+mm_xp2_hydrating_desc	回復の小びんが時間と共に^number1^補充される
+mm_xp2_hydrating_name	水和
+mm_xp2_icicles_desc	^number1^回攻撃するたび、3x3マスの範囲に炸裂矢を放って^number2^の水ダメージを与える
+mm_xp2_icicles_name	氷柱
+mm_xp2_legends_desc	^number1^の確率で通常の魔物ではなく、チャンピオンを召喚する
+mm_xp2_legends_name	伝説
+mm_xp2_manaburn_desc	^number2^エナジーを消費して、基本攻撃時のダメージ^number1^
+mm_xp2_manaburn_name	魔燃
+mm_xp2_nullifying_desc	ヒット時、^number1^の確率で対象の状態強化をランダムに取り除く
+mm_xp2_nullifying_name	除去
+mm_xp2_ricochet_desc	クリティカル時に攻撃が別の敵へ跳ね返り、^number1^のダメージを与える
+mm_xp2_ricochet_name	跳弾
+mm_xp2_sapping_desc	クリティカルヒットした敵のダメージが^number2^ターンの間、^number1^減少する
+mm_xp2_sapping_name	搾取
+mm_xp2_scholar_desc	スキルを使うと、別のスキルのクールダウンが^number1^減少する
+mm_xp2_scholar_name	学者
+mm_xp2_serenity_desc	^number2^ CT以上の時に物理耐性 ^number1^
+mm_xp2_serenity_name	静穏
+mm_xp2_sticky_desc	スタミナを自動的に^number1^消費して、マヒを防ぐ
+mm_xp2_sticky_name	粘着
+mm_xp2_thewolf_desc	召喚獣がいない時にダメージ^number1^、防御力^number2^
+mm_xp2_thewolf_name	独狼
+mm_xp2_traps_desc	危険な物体を召喚するアイテムのダメージが^number1^上昇
+mm_xp2_traps_name	罠師
+mm_xp2_vibrating_desc	攻撃を^number1^回ブロックするたび、隣接する敵を攻撃して^number2^の物理ダメージを与える
+mm_xp2_vibrating_name	振動
+mm_xp2_warmth_desc	凍ったりこごえたりしない
+mm_xp2_warmth_name	暖気
+mm_xp2_zookeeper_desc	支配下の召喚獣1体につき、被ダメージが^number1^減少する
+mm_xp2_zookeeper_name	飼育
+mon_mon_ghostsamurai2_name	スペクター
+mon_strongcoolfrog_name	クールフロッグ強
+mon_xp_acidelemental_name	病の精霊
+mon_xp_banditwrangler_name	盗賊のラングラー
+mon_xp_friendly_slime_name	友好的なスライム兵
+mon_xp_genericghost_name	怨霊
+mon_xp_icespirit_name	氷河の精霊
+mon_xp_matterassembler_name	物体アッセンブラ
+mon_xp_metalslime_name	メタルスライム
+mon_xp_prismslime_name	プリズムプリン
+mon_xp_skysnake_name	スカイスリザー
+mon_xp_slimedungeon_enemy_slime_1_name	敵対的なスライム兵
+mon_xp_spectralcrab_name	亡霊ガニ
+mon_xp_treefrog_name	木ガエル
+mon_xp_verminesper_name	ネズエスパー
+obj_ghostaura_cloud_name	霊的オーラ
+popup_jellydragon_arriveturns	ボス戦まで^tag1^ターン！
+popup_slimefail	戦いに敗れた！
+response_craft_items	アイテム作り
+response_recipes_consumables	レシピ: 消耗品
+response_recipes_equipment	レシピ: 装備品
+response_recipes_misc	レシピ: その他
+response_recipes_orbs	レシピ: 明晰のオーブ
+response_what_is_crafting	アイテム作りって何？
+robot_dragon_intro_1	#cy#未知ノ有機体。対話プロトコル不明。#ec#\n\n#co#コミュニケーション用アップリンクを確立シ、新たな指示を待ツ。#ec#\n\n
+robot_dragon_intro_2	...確かにそう。今の暮らしは#cr#ラクじゃない。苦しいわ#ec#。けど、そういった困難を乗り越えた先には、#cy#喜び#ec#が待っている。#cy#知識#ec#を得るために必死でもがいて、己を磨いていく。そうした試練がなければ、#cy#生きる目的#ec#もなくなってしまう。\n\n私たちからそれを奪おうというの？\n
+robot_dragon_intro_3	そうよ。あなたたちの#cy#生きる目的#ec#なんて、どうでもいい。#cg#有機生命体を守れさえ#ec#すればね。今回の矯正によって、最大限の安全性と快適性が保証されるはずなの。\n\n#heroname#、あなたの強さには感服したわ。#co#プログラム“竜”#ec#まで到達してみせた知性や創意にも。けど、矯正はもう始まるの。だからおとなしく武器を収めて。\n\n
+robot_dragon_intro2_1	心を持たない獣となって生き続けるくらいなら、あの#co#怪物#ec#と戦って死んだほうがマシ。#cc#シャラ#ec#がいたら、きっと戦うって言ったはずだもの！\n\n
+robot_dragon_intro2_10	現在の#cg#タングルディープ#ec#で#cy#アバター#ec#が必要になったのは、残念でならないわ。多くの苦しみを生んでしまった。\n\nそんなことは二度と起きない。\n\nだから、あらためてお願い。あなたの破壊は矯正プロセスに不可欠ではないの。できればおとなしく投降して。#co#プログラム“竜”#ec#の戦闘能力はあなたをはるかに凌駕するわ。万に一つの勝ち目もないのよ。\n
+robot_dragon_intro2_11	断るわ、私の全細胞がそう言ってる。\n\n
+robot_dragon_intro2_12	わかった。これ以上の対話は続けるだけ無駄ね。\n\n
+robot_dragon_intro2_13	こんにちは、#cy##heroname##ec#。言葉は通じてる？これで合ってる？理解の食い違いがないよう、あなたに直接語りかけているの。\n
+robot_dragon_intro2_14	ええ、わかるわ。けど、どうやってここへ？なぜ、そんな姿なの？?\n\nあなたがこの#co#マシン竜#ec#を生み出したの？\n\n
+robot_dragon_intro2_15	この姿を選んだのは、あなたが#cg#安心して#ec#話せるように。私たちの肉体がどこにあるかは、今は深く考えないで。#cg#タングルディープ#ec#は混乱していて、修正が必要なの。\n\n私たちは何サイクルもの間、#cy#プログラム“監督者”#ec#からの報告を注視してきた。その中で理解も高まった。そして分かったの。#cg#知的有機体#ec#が目覚めて、#cy#意識#ec#を持ったことを。そうした#cy#意識#ec#が#cr#“恐怖”#ec#や#cr#“苦痛”#ec#を引き起こすことを。\n\nこれって望ましいとは言えないわ。私たちが意図したことじゃない。\n
+robot_dragon_intro2_2	だから改良を行ったの。#cg#タングルディープ#ec#の矯正を迅速に完了すべく、#co#プログラム“竜”#ec#が生み出された。竜の出力が最大に達した時、あらゆる#cg#生命体#ec#は瞬時に矯正されるわ。\n\nこの処理は#cr#恐怖#ec#や#cr#苦痛#ec#を感じる間もなく、速やかに完了される。\n\nそれから私たちで#cg#タングルディープ#ec#を再生する。#cy#意識#ec#が二度と目覚めないようにね。\n
+robot_dragon_intro2_3	私たちを“救う”ために、タングルディープを#cr#滅ぼす#ec#っていうの？！\n
+robot_dragon_intro2_4	それは誤解よ。#cg#タングルディープ#ec#は滅びない。#cy#改良される#ec#だけ。\n\n私たちの使命は#cg#生命体の保護#ec#。それは永遠に変わらない。けど、そうした使命を果たす上で、#cy#自我の目覚め#ec#は相容れないの。今回の矯正によって、その再発を防げる。生命体は平和に暮らせるようになる。\n\n
+robot_dragon_intro2_5	今だって平和に暮らしてる！#cg#知性#ec#があるからこそ、私たちは物語を語り合える。レシピを思いついて、知識を学べる。それを奪うなんて許せない。あなたにそんな権利はないはずよ！
+robot_dragon_intro2_6	それもまた誤解よ。#cg#有機生命体#ec#は私たちの管理下にあるの。ずっと昔からそうだった。\n\n今回の#cg#タングルディープ#ec#は平和的じゃない。#cr#“魔物”#ec#と呼ばれる生命体が安全を脅かし、人々は財産を奪い合っている。#cr#“恐怖”#ec#や#cr#“苦痛”#ec#に駆り立てられている。\n\nあなただってそうでしょう、#heroname#。数えきれないほど戦い、血を流してきた。残念だわ。矯正は避けられない。それですべてが平和になるの。\n
+robot_dragon_intro2_7	思わず我が目を疑っちゃう。あれって機械の...#co#竜#ec#だわ。こんなことってあり得るの？\n\n#cg#ホレイショ#ec#は自分以外に竜は4匹いるって言った。それがウソとは思えない。もっと強い#co#竜#ec#がいるって知ってたら、私がそいつに倒されることを望んだはずだもの。\n\nとりあえず、話しかけてみましょう。\n\n
+robot_dragon_intro2_8	#co#竜さん#ec#、私の言ってることがわかる？\n\nあなたの力のせいで、#cg#タングルディープ#ec#に地震が起きてるの！今すぐやっていることをやめて！\n\n
+robot_dragon_intro2_9	#cy#プログラム“竜”が新たな生命体ヲ検知。スキャンを開始スル。#ec#\n\n
+robot_dungeon_unlocked_txt	あの#cc#階段#ec#から、ものすごいエネルギーが流れてくる。#cc#古代のキューブ#ec#を手にした時と似てるけど、これはもっと...冷たい感じ。私が戦ってきたマシンたちみたいに。\n\n#co#5匹の竜#ec#を倒したとはいえ、本能で感じるの。この先にはもっと恐ろしい何かが待っているって。#cg#しっかり準備をしてから#ec#、先へ進んだほうがよさそうね。\n\n
+robotdragon_defeat_1	#heroname#、あなたは重大な過ちを犯している。#co#プログラム“竜”#ec#を破壊すれば、私たちが#cg#タングルディープ#ec#を改良することも、あなたと対話することもできなくなるわ。\n\n過去のサイクルの膨大なデータが失われてしまう。\n
+robotdragon_defeat_2	かまわない。苦しみなら喜んで背負うわ。それが生きるってことだから。\n\n
+robotdragon_defeat_3	けど私たちがいなければ、多くの真理には永遠に手が届かない。あなたたちの力だけでは、決して見つけられない。#cy#生きる目的#ec#は決して果たされない。\n\n
+robotdragon_defeat_4	... ... ...\n\nだったら、#cy#新しい#ec#目的を見つけるわ。今はもう知ってるもの。#cg#タングルディープ#ec#の先にも世界があって、旅人を待っていることを。それに私はひとりじゃない。冒険中にたくさんの友だちや仲間ができた。彼らとも一緒に歩んでいく。\n\nあなたの使命が何であろうと、#cg#タングルディープ#ec#にとってはもう意味を持たない。私たちはいつだって先へ進めるから。\n
+robotdragon_defeat_5	あり得ない-\n...失敗だ-\n...唯一のチャンスを-\n...傲慢な-\n...よせ-\n...見つけねば-\n
+robotdragon_defeat_6	これからは自分たちの手で、運命を切り開いていくわ。\n\n
+skill_creepingsludge_name	悪疫の波
+skill_encouragepet_name	ペット給餌
+skill_expmon_dragonpoison	猛毒の息
+skill_expmon_frogsquash	カエルつぶし
+skill_expmon_prismblast_name	プリズム爆発
+skill_expmon_spiritsummon_name	精霊増援
+skill_goldpowerhop_name	クールフロッグつぶし
+skill_summonhornet_name	いくさバチ解放
+skill_summonrandombot_name	マシン建造
+slime_dungeon_unlocked_txt	向こうの階段から隙間風が吹いてくる。じめっとして、それにちょっと臭い風が。\n\nひょっとして、あの先にも別の#co#竜#ec#がいるのかも！\n\n
+slime_egg_combined_log	新しい#cy#^tag1^#ec#がインベントリに現れた！
+slime_egg_combined_popup	パーツ合体！
+slime_tutorial_response_1	ばっちりよ、いざ出撃！
+slime_tutorial_response_2	もう一回いい？
+slimeboss_gate_opens	#cr#敵の援軍が現れた！#ec#
+slimedragon_jellyboo_intro_1	#cy#ジェリ坊！？#ec#ここで何やってるの？ここはあなたみたいな、可愛いスライムちゃんが来る場所じゃないわ！さあ、おいで。#cg#ラングドン#ec#のところへ連れてってあげる。\n\n
+slimedragon_jellyboo_intro_2	グブグブグブッ。\n\n#cy##heroname#、よく来てくれたわ！元気してた？そうだといいけど。だってあなたの助けが必要だから。見てのとおり、あたしはただの可愛いピンクスライムじゃない。その正体は...#ec#\n\n...#co#スライム竜#ec#なのー！\n\n
+slimedragon_jellyboo_intro_3	あなたが？#co#竜#ec#ですって？けど、そんなことってありえる？！\n\n訊きたいことが山ほどあるわ！\n\n
+slimedragon_jellyboo_intro_4	グブグブグブッ。\n\n#cy#うんうん、わかるわ。当然よね。説明する。見てのとおり、あたしは元々、このスライムが原で暮らしてたの。何世紀もの間、他のスライムたちを平和的に支配していた。ところが千年くらい前に、敵対するスライム一族が、あたしの仲間たちに戦争を吹っ掛けてきてね。何度も戦いが繰り返されたけど、どっちも相手をやっつけるには至らなかった。そうしてこう着状態が続いたわけ。#ec#\n\n#cy#それが一年前に変わったの。#ec##cc#シャラ#ec##cy#っていう女の人が、敵のリーダーに装置を与えて、あたしの竜の力はぜんぶ奪われてしまった！それから奴は自らが支配者となるべく、あたしをスライムが原から追い出して、入口を封印したってわけ！#ec#\n\n
+slimedragon_jellyboo_intro_5	#cy#スライムの岩屋#ec#の上で、そんなことが起きてたなんて。ちっとも気づかなかった。\n\nそれでこの地を追い出されたあなたは、#cg#ラングドン#ec#の下で、無害なペットの振りをしていたってわけね？\n\n
+slimedragon_jellyboo_intro_6	グブゴブグブ、グブブブブッ！\n\n#cy#そゆことー！竜の力を失ってしまった今、それを取り戻す方法が見つかるまで、じっと潜伏しているのがベストだと思ったわけ。実際のところ、希望は捨てかけてた。竜の領域が再び開かれるまでは、ね。封印が解かれ、あたしはこの世界へ戻ってこれた。だからふたりで玉座を取り返しましょう！#ec#\n\n#cy#助けてくれるわよね？#ec#\n\n
+slimedragon_jellyboo_intro_7	ええと、これってあまりに想定外で...今朝起きた時は、スライムの大戦争に巻き込まれるなんて思いもしなかったけど、この#cy#敵対するスライム一族#ec#ってのは危険な奴らみたい。外へ逃がすわけにはいかない。\n\nわかった、手伝いましょう。作戦はあるの？\n\n
+slimedragon_victory_1	グブグブグブッ。\n\n#cy##heroname#、やったわ！暴君は倒れた。スライムが原に平和が戻ったわ。それと竜の力も戻ってきたみたい。#ec#\n\n#cy#あなたが味方でいてくれて、#ec##cc#リヴァーストーン村#ec##cy#の素敵な人々は運がいいわ。あなたは自然の力そのもの。驚異的な女性だわ！あなたならきっと、立派なスライムになれるでしょうね。#ec#\n\n#cy#ま...最後のはほんの冗談だけど！エヘッ！#ec#
+slimedragon_victory_2	そうね、アハハ...？とにかく、すべてが丸く収まってよかった、#cy#ジェリ坊#ec#。\n\nけど、なぜ今もその姿なの？#co#竜の力#ec#を取り戻したのなら、その、もっと大きくなるはずなんじゃない？\n\n姿が変わったりとか？\n
+slimedragon_victory_3	グブゴブグブブッ。\n\n#cy#あら、気づかない？ゼリーの輝きが増したでしょ？粘り気が増えたでしょ？美しい楕円になったでしょ？崇高なるドロドロとか、神々しいピンクのオーラとか？#ec#\n\n#cy#それって一目瞭然だし。今のあたしはまったく別のスライムよ。姿も音もぜんぜんちがうでしょ、おバカな#heroname#さん！あなたは強い戦士かもしれないけど、スライムについてはまだまだたーくさん学ぶことがありそうね。#ec#\n
+slimedragon_victory_4	あ、そうね。もちろんよ。\n\n...\n\nそれじゃ... 私はそろそろ失礼するわ。\n
+slimedragon_victory_5	グブブ！\n\n#cy#グブブ！#ec#\n\n
+slimedungeon_dragon_arrives_1	グブッ！ゴブッ！ゲブッ！\n\n#cy#ついにお出ましね、この#ec##cr#暴君#ec#！\n\n#cy#今からだって遅くはないわ。私の力を奪ったことを謝って。赦しを乞うて。じゃないと、私の#ec##cg#とっても強いお友だち#ec##cy#が、あなたにお灸を据えてあげるって言ってるわ。#ec#\n
+slimedungeon_dragon_arrives_2	#cy#グブッグブッグブゥ。#ec#\n\n#cr#グブグブブブッ！#ec#\n\n#co#グブグブゴブゥゥゥゥッ！#ec#\n
+slimedungeon_dragon_arrives_3	えっと、ジェリ坊。カレ今何て言ったの？よくわかんなくて。\n
+slimedungeon_dragon_arrives_4	#cr#！！！！！グブブッ！#ec#\n\n#cy#あいつはこう言ったの。あなたをけちょんけちょんにぶっ潰ぶして、それからあたしをコップで飲み干してやるって。#ec#\n\n#cr#ホントにもう#ec##cy#、とーんでもない性悪スライムね！覚悟なさい！#heroname#、あいつをとっちめてやって！#ec#\n
+slimedungeon_dragon_arrives_5	（なんで私、頭にリボンをつけたスライムに命令されてるんだろ...）\n\nいいでしょう、#cy#暴君さん#ec#。私が相手よ！\n\n
+slimedungeon_finalarea_intro_1	グブゴブグブ。\n\n#cy##heroname#、ここがスライムが原の最後の戦場よ！ここを敵から奪え返せば...#ec#\n\n#cy#けど待って、#ec##cr#あたしの力を奪った#ec##cy#スライムはどこにいるの？自軍が敗色濃厚なこの局面で、あいつが逃げるとは思えない。#ec#\n\n#cy#きっと最後の決戦へ向けて、兵を集結させてるのね。あいつが現れるまでに、#ec##cg#できるだけ多くの塔を占領しておく#ec##cy#のがよさそう！#ec#\n
+slimedungeon_tutorial_part1_1	これは#cy#スライムの塔#ec#っていうの。#cy#味方のスライム軍#ec#がこの塔をすべて占領できるよう、手を貸してあげて。スライム兵たちは勝手に塔のほうへ進んでいくわ。\n\nスライム兵が塔に触れると、#cg#占領が始まる#ec#。占領が済んだら、そのスライムの塔からより多くの兵を送り込めるってわけ。#cg#すべての塔#ec#を占領したら、次の戦場へ向かいましょう！\n\nただ、用心して。敵軍も同じことを狙ってくる。奴らにすべての塔を奪われたら、最初から戦いをやり直さないといけなくなるわ。\n\n
+slimedungeon_tutorial_part1_2	それともうひとつ重要なのが、#cg#色のついた領土#ec#ね。塔を占領すると、こうした領土がゆっくりと広がっていくの。\n\n味方が敵の領土へ入れば、#cg#その一部#ec#を我が軍の領土へひっくり返せる。敵軍もまったく同じことを、我が軍の領土に対してできるわ。 \n\n戦場はたちまち、こうした領土で覆われていく。そこであなたの出番よ、#heroname#！\n\n
+slimedungeon_tutorial_part1_3	あなたが足を踏み入れると、#cy#その領土は消えてなくなる#ec#の。それからあなたがダメージを与えるたび、敵は#cy#ターンを失う#ec#わ。正しい戦略を用いれば、あなたが戦いの流れを変えられる。我が軍を助けて、敵を叩き潰せるってわけ！\n\nけど、敵も強力な兵士を注ぎ込んでくる。#cr#スライムの将校たち#ec#が襲ってくるから、できるだけそいつらに対処して。\n\n
+slimedungeon_tutorial_part1_4	ルールはわかった？もう一回説明する？\n\n
+slimedungeon_tutorial_part1_5	よかった！あなたを信じるわ、#cg##heroname##ec#。あたしはポッケに入ってるわね。竜の力がなければ、ろくにお役には立てないし。\n\nそれじゃ、幸運を祈るわ！\n\n
+slimedungeon_victory_txt	グブゴブグブブッ。\n\n#cy#やったわ、#heroname#！お見事よ！この土地はもう奪い返したから、次のエリアへ向かいましょう。#ec#\n\n必要とあれば、#cg#物資や装備#ec##cy#のチェックも怠りなくね！#ec#\n
+spirit_dragon_defeated_1	ありがとう、#cg#若き戦士#ec#よ。おまえのおかげで、ようやく我が魂は自由になれた。\n\n我はもうすぐこの領域から滅するが...おまえとはまた別の世界で、再会できるかもしれんな。\n\n
+spirit_dragon_defeated_2	私もそう願うわ、#co#竜さん#ec#。ゆっくり休んで。\n\n
+spirit_dragon_intro_1	あれがきっと#co#こだま竜#ec#の肉体ね！あとは#cc#聖なる池#ec#の上で、やっつければいいだけ...\n\n聞こえてる、#co#竜さん#ec#？今からあなたをぶちのめしちゃうけど、先に謝っておくわ！ごめんなさい！\n\n
+spirit_dragon_intro_2	ここまでやって来るとは、おまえの勇気は底が知れぬな...こうする以外に方法がなく、我も残念でならんよ...\n\n
+spirit_dungeon_intro_1	なぜここへ来た、生者よ？ここは#co#精霊の聖域#ec#。おまえのような者が来るべき場所ではない。\n\n
+spirit_dungeon_intro_10	#cc#聖なる池#ec#の中で魔物を倒せばいいのね？わかった、何とかなりそう。待ってて、#co#竜さん#ec#。すぐに上まで登ってみせるわ。\n\n
+spirit_dungeon_intro_2	#cy#（今のは誰の#cy#声#ec#なの？頭の中で鳴っているけど、姿が見えないわ。）#ec#\n\nこんにちは、ええと、#cg#頭の中に鳴りひびく声#ec#さん。どこにいるの？あなたの名前は？\n\nここは一体どういう場所なの？\n\n
+spirit_dungeon_intro_3	我は#co#こだま竜#ec#。この#co#領域#ec#の頂にいる。おまえがこの中にいる限りは、こうして会話を交わせよう。\n\nもう一度訊く。なぜ、ここへ来た？ここは#cy#眠らない魂たち#ec#、飽かず戦いを求める#cr#魔物たち#ec#のこだまが彷徨い歩く牢獄だ。我がその入口を#cy#生者の世界#ec#から封じてやったのだ。\n\n
+spirit_dungeon_intro_4	そうだったのね。私は#cy#生者の世界#ec#から入り込んだわけじゃないけど...話すと長くなって。ざっくり言うと、#cc#夢#ec#の中から入り込んだの。行き方なんて見当もつかなかったけど、とある#co#小さな竜さん#ec#がヒントをくれて。\n\n#cg#ホレイショ#ec#って言うんだけど、知り合い？\n\n
+spirit_dungeon_intro_5	#cg#ホレイショ#ec#だと？！あのバカもんが！我らの居場所をバラしてしまうとは...こうして道が開かれてしまった今、おまえたちの世界は深刻な危機にあるぞ。\n\n#cy#眠らない魂#ec#たちは、我の支配下にはない。奴らは永遠に戦いを求める。我に奴らは止められぬ。死にたくなければ奴らに襲われる前に、ここを立ち去ることだ。\n\n
+spirit_dungeon_intro_6	知らなかったわ、私のせいでそんなことになってたなんて。本当にごめんなさい！あなたって#cr#凶暴な獣#ec#かと思った。私がきっついお灸をすえてやる前の、#cg#ホレイショ#ec#みたいな。\n\nけど、待って。あなたは#co#無敵の竜さん#ec#なのよね？なぜ、この魔物たちを止められないの？\n\n
+spirit_dungeon_intro_7	残念ながら、そう簡単にはいかぬのだ。この領域を#cy#封印#ec#した時、無理がたたって、肉体から精神が切り離されてしまった。\n\nおまえとは念の力で話している。今もそうだ。だが、我の肉体は#cy#心を持たぬ獣#ec#となって、この#co#領域#ec#の頂を永遠に彷徨い歩いている。同時に我が精神もこの地に#cy#囚われ#ec#、抜け出すことができぬのだ。\n\nおまえが万が一、我が抜け殻の肉体に出会ってしまえば、容赦なく#cr#襲われ#ec#、ずたずたに引き裂かれるだろう。悲しいかな、それが我が運命なのだよ。\n\n
+spirit_dungeon_intro_8	それってひどい！けど決めたわ、#co#竜さん#ec#。私があなたを救ってあげる。眠らない魂たちに安息を与えてあげる。この問題を解決するまで、ここを立ち去る気はないわ。\n\nだから何をすればいいか教えて！\n\n
+spirit_dungeon_intro_9	なんと勇敢な娘だ。#cg#ホレイショ#ec#を倒したのも不思議はない。わかった、説明しよう。\n\n#cg#魔物たちを眠らせる#ec#には、奴らが#cc#聖なる池#ec#に触れている間に倒さなければならん。その外側でとどめを刺せば、#cr#怨霊#ec#が出現してしまうぞ。よって慎重に戦わなければ、おまえはたちまち怨霊に取り囲まれてしまうだろう！\n\n亡霊たちを眠らせてやれば、この#co#領域#ec#の上階へと進んでいける。我が肉体も同じように倒せば、我もまた安息を取り戻せよう。\n\n
+spirit_dungeon_unlocked_txt	すっごい、#cy#夢の中にも夢#ec#が！ホレイショの話が本当なら、ここにもきっと別の#co#竜#ec#がいるはずよ。\n\n
+status_all_elem_debuff_name	対元素弱体化
+tutorial_dragonsoul_learned_txt	#co#ドラゴンブレイク#ec#を習得しました！この特殊な#cc#パッシブ型スキル#ec#はスキルスロットを使いませんが、一度に1つの#co#ドラゴンブレイク#ec#しか装備できません。\n\n装備中はキャラクターアイコンの横に、#co#ドラゴンリミット#ec#ゲージが表示され、ダメージを受けると貯まっていきます。上限に達するとキャラクターが光るので、強力な#co#ドラゴンブレイク#ec#攻撃を解き放ちましょう！\n\n発動方法は#cg#敵を攻撃する#ec#だけ。すると#co#ドラゴンブレイク#ec#スキルの照準モードに入ります。ただし、フルチャージ状態のまま#cy#15ターン#ec#が経過すると、#co#ドラゴンリミット#ec#はリセットされてしまうのでご注意ください。\n\n
+tyrant_dragon_defeated_1	貴様は強すぎる。我々の負けだ。\n\nリーダーは我だ。我だけを罰せよ。ほかの者は見逃してやれ。\n\n
+tyrant_dragon_defeated_2	私は誰も罰したりしない！さっきも言ったけど、#cg#一緒に新しいおうちを探してあげる#ec#。\n\nそこならきっと、みんなで好きなように#cy#駆け回れる#ec#し、誰も傷つかなくて済む。\n\nまあ、#cy#バードボーイズ#ec#と出くわしちゃうかもだけど、彼らもいちおう戦えるしね。\n\n
+tyrant_dragon_defeated_3	貴様は真実を語っていると？だとしたら驚きだ！\n\n貴様は強く、しかも優しい。こんな生き物がいるとは知らなかったぞ。\n\n
+tyrant_dragon_defeated_4	あなたもすごく強かったわ、#co#竜さん#ec#！\n\nいつかまた、どこかで再会しましょう。\n\n
+tyrant_dragon_enrage_txt	さっきもヤバい竜だったけど。守りを固めないと、黒焦げにされちゃう！\n\n
+tyrant_dragon_intro_1	でっかい獣！ベルデグリズリーがぬいぐるみに見えちゃう！別の#cg#竜#ec#に違いないわ。\n\n魔物たちがパニックを起こすのも当然かも。あんな怪物がこのジャングルの外へ出たら、どれだけの被害が生じるか想像もつかない...#cy#今この場所でやっつける#ec#しかないわ！\n\n
+tyrant_dragon_intro_2	目障りなこわっぱめ。なにゆえ我が森に足を踏み入れ、我らを襲うか？\n\n
+tyrant_dragon_intro_3	ふーん、この竜もしゃべるんだ。\n\n今はもう驚かないけど。\n\nとにかくその、あなたの魔物たちが暴れまわって、タングルディープを脅かしているの。彼らが外へ逃げたら、村の人たちが怪我をしちゃう。そんなことは許せない！\n\n
+tyrant_dragon_intro_4	我が子たちは逃げているのではない。新しいねぐらを探しているのだ。ここは狭すぎる。もっと動けて、草を食める場所が必要だ。\n\nわかったら去れ。我らのジャマをするな。\n\n
+tyrant_dragon_intro_5	ちょっと待って、要は新しいおうちが欲しいってこと？だったら力になれるかも。タングルディープの中には、すっごく広い場所もあるわ！\n\nよかったら案内してあげるけど...\n\n
+tyrant_dragon_intro_6	勝手に押しかけてきて、我が子たちを襲うような奴を、どうして信じられよう？\n\nどこへ行くかは我々が決める。昔からそうしてきたようにな。\n\nさあ、そこをどけ。\n\n
+tyrant_dragon_intro_7	第一印象がサイアクだったのは認める。けど、本当に力になってあげたいの！\n\nお願いだから案内させて。そうすれば誰も傷つかないし...\n\n
+tyrant_dragon_intro_8	黙れ、こわっぱめ！\n\n貴様は傍若無人な、イラつくウソつきだ！\n\n貴様がそこをどかぬなら、#cr#力ずくで追い払うまでよ#ec#。\n\n
+tyrant_dragon_intro_9	...そっか、わかった。だったらあとはこの#cy#拳#ec#で話すしかなさそう！\n\n
+ui_dragonsoul_slot	ドラゴンリミットが上限に達すると発動。ドラゴンリミットはダメージを受けると上昇する。一度に1つの「竜の魂」しか装備できない。
+ui_misc_result	結果:
+weapontype_whip	ムチ
+xp2_find_frogbog_txt	#cy#ヒント:#ec# #cy#^$getstring:frogbognearby$^#ec#の近くで#cg#^$getstring:bogname$^#ec#を探そう！\n\n
+xp2_obj_robotbomb_name	謎の爆薬
+xp2_slime_lieutenant_name	スライム将校
+exp2_slime_tower_name	スライムの塔
+exp1_mon_metalslime_blue_name	キーバブル（C型）
+exp1_mon_metalslime_red_name	キーバブル（M型）
+exp1_mon_metalslime_yellow_name	キーバブル（Y型）

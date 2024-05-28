@@ -1,0 +1,471 @@
+abil_skill_banditdragonsoul_desc	Drachenschnitt: Klingenhauch. Greift Gegner in einem 5x5 großen Bereich um dich herum mit einem ^number1^ Waffenschaden starken physischen Schaden an.
+abil_skill_banditdragonsoul_edesc	Verursacht außerdem Blutung, welche pro Zug für ^number3^ Zg. einen ^number2^ Waffenschaden starken physischen Schaden zufügt.
+abil_skill_banditdragonsoul_extradesc	Verursacht außerdem Blutung, welche pro Zug für ^number3^ Zg. einen ^number2^ Waffenschaden starken physischen Schaden zufügt.
+abil_skill_banditdragonsoul_name	Drachenherz: Bandit
+abil_skill_beastdragonsoul_desc	Drachenschnitt: Meteorschnauf. Fügt einer Gruppe von Gegnern ^number1^ Waffenschaden als Feuerschaden zu.
+abil_skill_beastdragonsoul_edesc	Betäubt getroffene Gegner für ^number2^ Zg.
+abil_skill_beastdragonsoul_extradesc	Betäubt getroffene Gegner für ^number2^ Zg.
+abil_skill_beastdragonsoul_name	Drachenherz: Tyrann
+abil_skill_beedeath_name	Befreie Bienen
+abil_skill_beestinger_name	Hornissenstich
+abil_skill_chillonhit_weak_name	Fröstler
+abil_skill_flank_name	Flankensprung
+abil_skill_frogdragonsoul_desc	Drachenschnitt: Froschquetsche. Springe auf einen Gegner und füge dem Ziel sowie benachbarten Gegnern einen ^number1^ starken Waffenschaden als physischen Schaden zu.
+abil_skill_frogdragonsoul_edesc	Gewährt dir außerdem Pilzige Heilung, welche ^number3^ Zg. lang ^number2^ deiner max. Gesundheit wiederherstellt.
+abil_skill_frogdragonsoul_extradesc	Gewährt dir außerdem Pilzige Heilung, welche ^number3^ Zg. lang ^number2^ deiner max. Gesundheit wiederherstellt.
+abil_skill_frogdragonsoul_name	Drachenherz: Frosch
+abil_skill_ghostaura_name	Aura der Unterdrückung
+abil_skill_icebullrush_name	Eisstoß
+abil_skill_lowerdef_onattack_name	Säure-Angriff
+abil_skill_moldmindcontrol2_name	Seelische Saugung
+abil_skill_parry30_name	Großparierer
+abil_skill_passivecharm_pets_name	Seelenmacht
+abil_skill_prismabsorber_name	Prisma Absorbieren
+abil_skill_prismattack_name	Prisma-Angriff
+abil_skill_randomice_name	Eisblockwerfer
+abil_skill_robotdragonsoul_desc	Drachenschnitt: Photonenhauch. Feuert ^number1^ Laser in einen großen Bereich vor dir und fügt allen Zielen mind. ^number2^ Waffenschaden als Blitzschaden zu.
+abil_skill_robotdragonsoul_edesc	Monster können von bis zu ^number4^ Lasern getroffen werden, von welchem jeder ^number3^ Bonusschaden zufügt.
+abil_skill_robotdragonsoul_extradesc	Monster können von bis zu ^number4^ Lasern getroffen werden, von welchem jeder ^number3^ Bonusschaden zufügt.
+abil_skill_robotdragonsoul_name	Drachenherz: Roboter
+abil_skill_slimedragonsoul_desc	Drachenschnitt: Schleimige Verstärkung. Beschwört ^number1^ gutmütige Schleime, die für ^number2^ Zg. an deiner Seite kämpfen!
+abil_skill_slimedragonsoul_edesc	Beschworene Schleime können nicht geschubst oder gezogen werden.
+abil_skill_slimedragonsoul_extradesc	Beschworene Schleime können nicht geschubst oder gezogen werden.
+abil_skill_slimedragonsoul_name	Drachenherz: Schleim
+abil_skill_sludgedeath2_name	Saures Ende
+abil_skill_snakefly_name	Spaßsprung
+abil_skill_spectralcrab_name	Spukkrabben-Berufung
+abil_skill_spiritdragonsoul_desc	Drachenschnitt: Gasatem. Verursacht ^number1^ Waffenschaden in einem entfernten 3x3 großen Feld als Gift. Beruft Gaswolken, die Gegner bei Betreten in Schlaf versetzen.
+abil_skill_spiritdragonsoul_edesc	Gaswolken lassen Gegner ^number2^ Zg. lang schlafen.
+abil_skill_spiritdragonsoul_extradesc	Gaswolken lassen Gegner ^number2^ Zg. lang schlafen.
+abil_skill_spiritdragonsoul_name	Drachenherz: Geist
+abil_skill_summon_metalslime_red_name	Schlüsselschleim bauen
+abil_skill_summon_metalslime_red_shortdesc	Beruft einen nützlichen Schlüsselschleim, der Kraftfelder zerstört.
+abil_skill_whipmastery1_desc	Greife Gegner in einer Linie mit einem ^number1^ Waffenschaden starken physischen Schaden an. Gegner innerhalb von zwei Feldern werden ^number2^ Zg. lang gewürgt.
+abil_skill_whipmastery1_extradesc	Gewürgte Gegner nehmen pro Zug einen ^number3^ Waffenschaden starken physischen Schaden.
+abil_skill_whipmastery1_name	Klapperschlange
+abil_skill_whipmastery2_desc	Angriffe mit der Peitsche haben eine ^number1^ Chance, Gegner für ^number2^ Zg. zu paralysieren.
+abil_skill_whipmastery2_name	Verwicklung
+abil_skill_whipmastery3_desc	Angriffe mit der Peitsche erhalten pro angegriffenes Ziel eine ^number1^ Krit-Chance.
+abil_skill_whipmastery3_name	Finesse
+abil_skill_whipmastery4_desc	Führt einen ^number1^ Waffenschaden starken physischen Angriff auf einen Gegner durch und verursacht dort eine Schockwelle. Die Schockwelle breitet sich ^number2^ Zg. lang mit jedem Zug aus.
+abil_skill_whipmastery4_extradesc	Die Schockwelle fügt am Ende jedes Zuges einen ^number3^ starken Waffenschaden physischen Angriff durch.
+abil_skill_whipmastery4_name	Schallschlag
+abil_skill_wranglersummon_name	Gefährtenberufung
+ask_where_dragons	Wo sind die anderen Drachen?
+bandit_dragon_intro_1	Der sieht aber gar nicht wie einer von den #cy#Flatterjungz#ec# aus. Das ist bestimmt ein #cg#Drache#ec#!\n\n
+bandit_dragon_intro_2	#cr#Tssssss#ec# … Dein #cy#Kässssssssse#ec# … gib ihn #cy#unssssss#ec#, oder wir werden dich #cr#ausssssslöschhhen#ec#!\n\n
+bandit_dragon_intro_3	Könntest du nicht einfach noch ein paar hundert Jahre schlafen? Bitte?\n\nWenn einer die Liebe zum Käse versteht, dann ich, aber man kann doch nicht einfach so durch die Gegend ziehen und von anderen stehlen.\n\n
+bandit_dragon_intro_4	#cr#TSSSSSSSSSS!#ec# Ich mussssssss #cy#Kääässsssse#ec# esssssssen. Er wurde mir #cy#wegsssstibitzzzzt#ec#.\n\n
+bandit_dragon_intro_response_1	Was ist das nur immer mit Banditen und Essen?!?
+bandit_dragon_intro_response_2	Ich nehme mal an, die Antwort ist nein.
+bandit_dragon_takeitems_1	Dreisssstes Bieeessst! Jetzt #cr#sssstibitzzzen wir dein Essssen#ec#! Gwah hah hah …\n\n
+bandit_dragon_takeitems_2	Dein Leben hängt an einem seidenen Faden und du klopfst #cy#immer noch#ec# große Sprüche? Mein Essen ist #cg#ganz sicher hier in meiner Tasche verstaut#ec# und …\n\n #cy#Hey Moment mal!#ec#\n\n
+bandit_dragon_takeitems_part2_txt	Dieser aufgeblasene Bandit hat mir #cy#mein ganzes Essen weggenommen#ec#! Was zu viel ist, ist zu viel. #cr#JETZT bin ich aber sauer#ec#. Das Essen hole ich mir wieder, koste es, was es wolle!\n\n
+bandit_dragon_takeitems_response	Na da bin ich ja mal gespannt!
+bandit_dungeon_unlocked_txt	Wo kommt diese #cy#Treppe#ec# auf einmal her? Ich bin mir ganz sicher, dass sie noch nicht hier war, als ich gegen die #cy#Flatterjungz#ec# gekämpft habe …\n\nOb sie wohl zur Höhle eines weiteren #co#Drachen#ec# führt?\n\n
+banditdragon_postdefeat_txt	Ein weiterer #co#Drache#ec# besiegt! Und das ist der Grund, warum man gefälligst #cr#die Pfoten#ec# von meinem #cy#Käse#ec# lässt. Das geht nämlich wirklich zu weit.\n\n
+banditdungeon_hub_unlock_txt	Das war der letzte Torwächter! Vielleicht ist das Haupttor nun offen. Ich bereite mich besser ordentlich vor, bevor ich weitergehe …\n\n
+battletext_nullify	BUFF ENTFERNT!
+beast_dungeon_unlocked_txt	Was für eine wunderschöne #cg#Ranke#ec#! Sie sieht groß genug aus, um auf ihr zu klettern.\n\nKönnte so ein friedlicher Ort wirklich unterhalb der Höhle eines #co#Drachen#ec# liegen?\n\nEs gibt nur einen Weg, das herauszufinden.\n\n
+beastdungeon_firstwavestart_part2_txt	Das ist eine #cr#Stampede#ec#! Gar nicht gut … Aber wenn ich jetzt wegrenne, werden Monster die #cg#Ränkchen#ec# fressen, und dann kann ich nicht weiter nach oben klettern.\n\nIch muss sie #cy#beschützen#ec#. Ich bereite mich besser ganz schnell vor!\n\n
+beastdungeon_firstwavestart_txt	Diese vier #cg#Ränkchen#ec# sehen aus, als ob sie bald richtig groß werden wollen. Das kann ich riechen!\n\n… Oh oh, was ist dann das für ein Geräusch in der Ferne?\n\n
+bubbleshield_displayname	Schutzblase
+budoka_glove1_desc	Angriffe gleichem einem unbewaffneten Angriff. Ignoriert jegliche Boni für Waffenstärke. Unterstützt bis zu ^number1^ Magiemods.
+budoka_glove1_name	Novizen-Bandage
+budoka_glove2_name	Adepten-Bandage
+budoka_glove3_name	Profi-Bandage
+budoka_glove4_name	Großmeister-Bandage
+des_obj_creepingsludge_dname	Pest-Pool
+description_xp2_limitbreak	Füllt sich mit erhaltenem Schaden. Bei #cg#100 %#ec# kannst du mit deinem nächsten #cy#Grundangriff#ec# einen mächtigen #co#Drachenschnitt#ec#-Angriff durchführen! Nach Verwenden des Angriffs, oder nach #cy#15#ec# Zügen, wird dein #co#Drachenlimit#ec# zurückgesetzt.
+dialog_weaponmaster_chat_whip_mastery_ultimate1_txt	#cy#JORITO#ec#: Bevor du <color=#0cffe6>Schallschlag#ec#> lernen kannst, musst du #cy#^tag1^ Champions#ec# mit der #cy#Peitsche#ec# in der Haupthand besiegen. Diese dürfen nicht <color=#79a2ab>Erbärmlich#ec# sein.\n\nBis jetzt hast du <color=#40b843>^tag2^#ec# Champions mit der #cy#Peitsche#ec# besiegt. Du musst weiterüben.\n
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_btn_0	Schallschlag lernen (1.000 JP)
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_txt	#cy#JORITO#ec#: Wie ich sehe, hast du #cy#^tag2^ Champions#ec# mit der #cy#Peitsche#ec# besiegt. Somit bist du bereit, ihre <color=#40b843>Ultimative Technik#ec# zu erlernen.\n\nBist du #cy#sicher#ec#, dass dies die <color=#40b843>Ultimative Technik#ec# ist, die du lernen möchtest? Du kannst dann #cr#niemals eine andere lernen#ec#.\n
+dialog_weaponmaster_chat_whipmastery_btn	Weg der <#40b843>Peitschenmeisterung#ec#
+dialog_weaponmaster_chat_whipmasteryintro2_btn_0	Verwicklung lernen (700 JP)
+dialog_weaponmaster_chat_whipmasteryintro2_txt	#cy#JORITO#ec#: Die #cy#Peitsche#ec# ist eine wendige Waffe, mit welcher man Gruppen von Feinden bekämpfen kann, obgleich auch hinter jedem Schlag weniger Kraft steckt. Ihre <#40b843>Meisterungen#ec# konzentrieren sich auf #cy#Bereichschaden#ec#, dem Angreifen mehrerer Gegner gleichzeitig.\n\nDie zweite Meisterung ist <#0cffe6>Verwicklung#ec#, eine passive Fähigkeit. Mit dieser Technik ausgerüstet wirst du manchmal Gegner mit deiner Peitsche #cy#paralysieren#ec#\n
+dialog_weaponmaster_chat_whipmasteryintro3_btn_0	Finesse lernen (800 JP)
+dialog_weaponmaster_chat_whipmasteryintro3_txt	#cy#JORITO#ec#: Die #cy#Peitsche#ec# ist eine wendige Waffe, mit welcher man Gruppen von Feinden bekämpfen kann, obgleich auch hinter jedem Schlag weniger Kraft steckt. Ihre <#40b843>Meisterungen#ec# konzentrieren sich auf #cy#Bereichschaden#ec#, dem Angreifen mehrerer Gegner gleichzeitig.\n\nDie dritte Meisterung ist <#0cffe6>Finesse#ec#, eine passive Fähigkeit. Mit dieser Technik ausgerüstet erhält deine Peitsche eine höhere #cy#kritische Trefferchance#ec#, wenn du mehrere Gegner gleichzeitig triffst.\n
+dialog_weaponmaster_chat_whipmasteryintro4_btn_0	Ich bin bereit, bringe mir <#0cffe6>Schallschlag#ec# bei!
+dialog_weaponmaster_chat_whipmasteryintro4_txt	#cy#JORITO#ec#: Wie ich sehe, bist du im Umgang mit der #cy#Peitsche#ec# sehr gewandt geworden. Bist du bereit, ihre <#40b843>Ultimative Technik#ec# zu lernen? Überlege es dir gut, denn du kannst nur #cy#eine einzige#ec#<#40b843>Ultimative Technik#ec# erlernen.\n\nMit <#0cffe6>Schallschlag#ec# triffst du einen benachbarten Gegner und verursachst eine #cy#Schockwelle#ec#, welche größer und mächtiger wird, je weiter sie sich von dir entfernt.\n
+dialog_weaponmaster_chat_whipmasteryintro_btn_0	Klapperschlange lernen (400 JP)
+dialog_weaponmaster_chat_whipmasteryintro_txt	#cy#JORITO#ec#: Die #cy#Peitsche#ec# ist eine wendige Waffe, mit welcher man Gruppen von Feinden bekämpfen kann, obgleich auch hinter jedem Schlag weniger Kraft steckt. Ihre <#40b843>Meisterungen#ec# konzentrieren sich auf #cy#Bereichschaden#ec#, dem Angreifen mehrerer Gegner gleichzeitig.\n\nDie erste Meisterung ist <#0cffe6>Klapperschlange#ec#. Hiermit wird eine Reihe von Gegnern gepeitscht, umgeworfen und angewurzelt.\n
+dragonbreak_bandit_power_desc	Atme Messer auf eine Gruppe von Monstern und füge dabei ^number1^ Waffenschaden als physischen Schaden sowie Blutung zu.
+dragonbreak_beast_power_desc	Lasse einen Meteoriten auf eine Gruppe von Monstern fallen und füge dabei ^number1^ Waffenschaden als Feuer sowie Betäubung zu.
+dragonbreak_frog_power_desc	Springe galant zu einem Monster und füge ihm und allen benachbarten Gegnern ^number1^ Waffenschaden als physischen Schaden zu.
+dragonbreak_ready_desc	Dein nächster Grundangriff löst einen mächtigen #co#Drachenschnitt#ec#-Angriff aus!
+dragonbreak_ready_name	Drachenschnitt bereit!
+dragonbreak_robot_power_desc	Atme Laser auf eine Gruppe von Monstern und füge dabei ^number1^ Waffenschaden als Blitz zu.
+dragonbreak_slime_power_desc	Beschwört ^number1^ wohlgesinnte Schleime, die an deiner Seite kämpfen!
+dragonbreak_spirit_power_desc	Atme Giftgas auf eine Gruppe von Monstern, füge dabei ^number1^ Waffenschaden als Gift zu und berufe Schlafgas in den Bereich.
+exp_banditdungeon_cname1	Banditen-Wasserwerke E1
+exp_banditdungeon_cname2	Banditen-Wasserwerke E2
+exp_banditdungeon_cname3	Banditen-Wasserwerke E3
+exp_banditdungeon_cname4	Höhle des Banditendrachen
+exp_beastdungeon_cname1	Uralter Dschungel E1
+exp_beastdungeon_cname2	Uralter Dschungel E2
+exp_beastdungeon_cname3	Uralter Dschungel E3
+exp_beastdungeon_cname4	Uralter Dschungel E4
+exp_beastdungeon_cname5	Dschungelhöhe
+exp_crafting_commongearandthreegems_to_randomgear	1 gewöhnlicher Ausrüstungsgegenstand + 3 Edelsteine desselben Rangs = 1 zufälliges Ausrüstungsstück (womöglich legendär!)
+exp_crafting_gemleaves_to_gems	2 Edelsteinblätter desselben Rangs = 1 Edelstein desselben Rangs
+exp_crafting_legendaryandthreegems_to_orbs	1 legendärer oder Set-Gegenstand + 3 Edelsteine desselben Rangs = 5 Träumereiorben
+exp_crafting_lucidorbandgem_to_randomlucidorb	1 Klarorb + 1 Edelstein = 1 zufälliger Klarorb
+exp_crafting_orbandjobscroll_to_skillorb	1 Träumereiorb + 1 Schriftrolle des Jobwechsels = 1 zufälliger Talentorb
+exp_crafting_potions_to_elixir	Jeweils 2 des stärksten Heil-, Ausdauer- und Energietranks = 1 Elixier
+exp_crafting_sixlucidshards_to_randomlucidorb	6 beliebige Klarorbsplitter = 1 zufälliger Klarorb
+exp_crafting_threecommonarmor_to_randomarmor	3 gewöhnliche Schutzkleidungsstücke = 1 zufälliges gewöhnliches Schutzkleidungsstück
+exp_crafting_threecommonoffhand_to_randomoffhand	3 gewöhnliche Zweithandwaffen = 1 zufällige gewöhnliche Zweithandwaffe
+exp_crafting_threecommonweapons_to_randomweapon	3 gewöhnliche Waffen = 1 zufällige gewöhnliche Waffe eines anderen Typs
+exp_crafting_threegems_upgrade	3 Edelsteine desselben Rangs = 1 Edelstein höheren Rangs
+exp_crafting_threelucidorbs_to_oneregular	3 beliebige Klarorben = 1 Träumereiorb
+exp_crafting_threepotions_upgrade	3 gleiche Heil- oder Verstohlenheitstränke = 1 Trank höheren Rangs
+exp_crafting_threescrollsandgem_to_randomscroll	3 beliebige Schriftrollen + 1 Edelstein = 1 zufällige Schriftrolle
+exp_crafting_threeseeds_to_randomseed	3 beliebige Baumsamen = 1 zufälliger Samen
+exp_crafting_twoaccessoriesandgem_to_randomaccessory	2 gewöhnliche Accessoires + 1 Edelstein = 1 zufälliges gewöhnliches Accessoire
+exp_crafting_tworelics_to_randomrelic	Beliebige 2 Relikte = 1 zufälliges Relikt
+exp_crafting_tworelicsanditem_to_specificrelic	2 beliebige Relikte + 1 (Nicht-Relikt-)Ausrüstungsgegenstand = 1 zufälliges Relikt des gewählten Ausrüstungsslots
+exp_dialog_crafting_recipeintro	Dies sind alle Rezepte, die ich kenne.\n
+exp_dialog_frogking_town_craftinginfo	#cy#HORATIO:#ec# Ich versuche das so zu erklären, dass sogar du es verstehst.\n\nDu gibst mir die richtigen #cy#Gegenstände#ec#, ich kaue darauf herum, und dann spucke ich dank meiner #cg#mächtigen Froschmagie#ec# etwas ganz Neues für dich aus.\n
+exp_dialog_frogking_town_dragons_1	#cy#HORATIO:#ec# Die anderen #co#Uralten Drachen#ec# sind weitaus stärker als ich, und du hast #cr#absolut keine Chance#ec#, sie jemals zu besiegen! Daher kann ich dir ruhig sagen, wo du sie findest, #cy#hehehe#ec# …\n\n
+exp_dialog_frogking_town_dragons_2	#cy#HORATIO:#ec# Einen findet man in der Nähe des #co#Verstecks eines Schwindlers#ec#.\nEiner lebt über einem #co#See der Ruhe#ec#.\nEiner wohnt in einem #co#Land der Träume#ec#.\nEiner hält sich in einer #co#feuchten, tropfenden Höhle#ec# auf.\n\n
+exp_dialog_frogking_town_intro	#cy#HORATIO:#ec# Was willst du denn nun schon wieder? Ich bin sehr #cg#*quak quak*#ec# beschäftigt!\n
+exp_enemycaltrops_name	Feindliche Krähenfüße
+exp_frogdungeon_cname1	Froschmorast E1
+exp_frogdungeon_cname2	Froschmorast E2
+exp_frogdungeon_cname3	Froschmorast E3
+exp_frogdungeon_cname4	Höhle des Froschdrachen
+exp_log_eatenwhole	#cr#^tag1^#ec# verschluckt #cy#^tag2^#ec#!
+exp_log_gateopened	Du hörst, wie sich #cy#irgendwo#ec# ein #cy#schweres Tor#ec# bewegt …
+exp_log_ghostaura_wrongtarget	In einer #cy#Spukaura#ec# schaden deine Angriffe nur #cy#^tag1^#ec#!
+exp_log_item_crafted	Gegenstand hergestellt: #cy#^tag1^#ec#!
+exp_log_monsterhorde_attack	#cy#Eine Horde#ec# #cr#Monster#ec# #cy#ist auf einmal aufgetaucht!#ec# (#cg#^tag1^.#ec#  Welle)
+exp_log_monsterhorde_fail	Die #cy#Ränkchen#ec# wurden #cr#zerstört#ec#! Du wirst fortgezogen …
+exp_misc_eatenwhole	VERSCHLUCKT!
+exp_mon_banditdragon_name	Banditendrache
+exp_mon_beastdragon_name	Tyrann-Drache
+exp_mon_cheftoad_name	Quak de Cuisine
+exp_mon_frogdragon_name	Horatio, der Froschdrache
+exp_mon_hornetnest_name	Kriegshornissen-Nest
+exp_mon_jellydragon_name	Schleimdrachen-Thronräuber
+exp_mon_prototype_husyn_name	Prototyp
+exp_mon_robotdragon_name	PROGRAMM.DRACHE
+exp_mon_spiritdragon_name	Geisterdrache
+exp_mon_warhornet	Kriegshornisse
+exp_mon_xp_defensecrystal_name	Magisches Ränkchen
+exp_npc_realjellydragon_name	Schleimi, der Schleimdrache
+exp_obj_floorswitch_name	Schalter
+exp_obj_friendlymonster_egg_name	Kristallgefängnis
+exp_obj_metalgate_name	Eisentor
+exp_obj_ruined_future_obstacle_01_name	Metallschrott
+exp_obj_ruined_robot_scrap_heap_name	Schrotthaufen
+exp_popup_dragondefeated	DRACHE BESIEGT!
+exp_popup_wave	^tag1^. WELLE!
+exp_robotdungeon_cname1	Maschinenlabyrinth E1
+exp_robotdungeon_cname2	Maschinenlabyrinth E2
+exp_robotdungeon_cname3	Maschinenlabyrinth E3
+exp_robotdungeon_cname4	Maschinenlabyrinth E4
+exp_robotdungeon_cname5	Maschinenlabyrinth-Höhen
+exp_skill_deeproar_name	Brüllen der Ahnen
+exp_skill_dragon_taillash_name	Schweifschlag
+exp_skill_expmon_summonneutralizers_name	Verstärkungsaufbau
+exp_skill_firewave_name	Flammenwelle
+exp_skill_gasbreath_name	Schlummergas
+exp_skill_icestrike_name	Frostwelle
+exp_skill_knifebreath_name	Klingenhauch
+exp_skill_lightningbreath_name	Blitzhauch
+exp_skill_meteorbreath_name	Meteorhauch
+exp_skill_shadowbreath_name	Alptraumatem
+exp_skill_skysnakepoison_name	Starkgift
+exp_skill_slimebreath_name	Schleimatem
+exp_skill_slimedragonbreak_name	Schleimige Verstärkung
+exp_slimedungeon_cname1	Schleimfelder E1
+exp_slimedungeon_cname2	Schleimfelder E2
+exp_slimedungeon_cname3	Schleimfelder E3
+exp_slimedungeon_cname4	Schleimfelder-Spitze
+exp_specialmon_gatekeeper	Torwächter
+exp_spiritdungeon_cname1	Seelenheim E1
+exp_spiritdungeon_cname2	Seelenheim E2
+exp_spiritdungeon_cname3	Seelenheim E3
+exp_spiritdungeon_cname4	Seelenheimhöhe
+exp_status_enrageattack_name	Wütend
+exp_status_physicalform_name	Körperliche Gestalt
+exp_status_spiritform_name	Geistliche Gestalt
+exp_switch_nothing	Der #cy#Schalter bewegt sich#ec#, doch #cr#nichts passiert#ec#.
+exp_ui_boxitemheader	Horatios Gegenstände
+exp_ui_craftheader	Horatios Mahlzeit
+exp_ui_craftitems	Gegenstände herstellen!
+exp_ui_playeritemheader	Deine Gegenstände
+exp_wanderer_dungeon11_name	Höhle der Ewigkeit
+final_dragon_callout_part1_1	Nun, mein kleiner #cg#amphibischer Kumpel#ec#, das waren dann wohl alle. Alle #co#Drachen#ec# haben ihren Frieden gefunden.\n\n
+final_dragon_callout_part1_2	#cg#*BLEP BLEP BLEP*#ec# Unmö-möglich! Niemand ist SO stark! Du hast sicher geschummelt!\n\n
+final_dragon_callout_part1_3	Das hättest du wohl gerne, #cg#Fröschchen#ec#! Unglaublich stark waren sie, aber davon habe ich mich nicht unterkriegen lassen.\n\nJetzt wo wir nicht mehr #cy#bedroht#ec# werden, wäre es aber an der Zeit, über …\n\n
+final_dragon_callout_part2_1	Was war das?!?\n\nNun hör mal zu, du #cg#Froschmaul#ec#, wenn du deine Magie dazu verwendet hast, jemandem weh zu tun, landest du auf der Stelle im Gehege.\n\nNun spuck schon aus! Was hast du getan?\n\n
+final_dragon_callout_part2_2	Nein, ich war das nicht! Ich #cg#*blep*#ec# schwöre! Selbst wenn ich wollte, wäre meine #cg#Froschmagie#ec# nicht dazu imstande.\n\n
+final_dragon_callout_part2_3	#heroname#, ich glaube, ich bin ein kleines Stückchen näher an die Wahrheit gekommen. Zur gleichen Zeit, als die #cr#Explosion#ec# stattfand, hat sich die zum #cy#Traumgießer#ec# führende Energie um #cy#834 %#ec# intensiviert.\n\nWir können daraus schließen, dass die Ursache der Explosion #cy#mechanischen Ursprungs#ec# ist und darüber hinaus dem technologischen Alter des #cy#Traumgießers#ec# und des ihn antreibenden #cc#uralten Würfels#ec# entspricht.\n\nIch glaube, unser kleiner grüner Freund sagt die Wahrheit!\n\n
+final_dragon_callout_part2_4	Es gibt also irgendwo #cy#eine weitere#ec# mächtige Maschine. Aber warum hat sie sich gerade jetzt aktiviert?\n\n
+final_dragon_callout_part2_5	Wenn ich eine Hypothese formulieren würde … Womöglich besteht ein Zusammenhang mit deinem kürzlichen Sieg über die #co#Drachen#ec#?\n\nWir wissen so wenig über diese antiken Relikte, doch eine Sache, derer wir uns sicher sind, ist ihre Verbindung zum #cc#Flow#ec#, so wie wir alle damit verbunden sind.\n\nIndem du mit den #co#Drachen#ec# interagiert hast, hast du womöglich das #cc#Flow#ec# so sehr verändert, dass du diese #cy#bislang unbekannte#ec# Maschine aufgeweckt hast!\n\n
+final_dragon_callout_part2_6	Das hört sich einleuchtend an. Falls du Recht hast, könnte die Quelle dort sein, wo ich haufenweise andere #cy#Maschinen#ec# gesehen habe.\n\nIch schaue mich mal etwas in den #cc#^$getstring:levelname$^#ec# um!\n\n
+frog_dragon_defeated_1	#cy#Blargh!#ec#\n\n#cg#*blep*#ec# Mein Zauber wurde gebrochen, und das ist alles bloß deine Schuld. #cr#Dafür wirst du sogleich Büßen#ec#, Kaulquappe!\n\n
+frog_dragon_defeated_2	So siehst du unter dem ganzen Geheule also aus. So ein #cg#putziges kleines Fröschlein#ec#, na so ein niedlicher kleiner Racker!\n\nAber jetzt wird es wohl Zeit, nach Windbach zurückzukehren. Wollen wir?\n\n
+frog_dragon_defeated_3	Ich schwöre bei der Tiefe meiner feurigen, königlichen #cg#*blep blep*#ec# Seele, dass ich dich #cr#schlagen#ec# werde!\n\nIch habe immer noch meine mächtige #cg#Froschmagie#ec#, mit welcher ich deine funkelnden Waffen in Staub und Asche verwandeln kann.\n\n
+frog_dragon_defeated_4	Wir können das auf die #cg#einfache#ec# oder die #cr#harte Tour#ec# machen, Fröschchen. Wenn du es dir einfach machen willst, dann richte ich für dich ein #cc#Portal#ec# ein, und du wirst zu einem guten, produktiven Mitglied der Gesellschaft. Vielleicht kannst du mit deiner Froschmagie sogar etwas Gutes tun!\n\nIn der anderen Option gibt es einen Riesenhammer, und glaube mir, #cy#wo du dann aufwachst#ec#, wird dir nicht gefallen.\n\n
+frog_dragon_defeated_5	… #cg#*blep*#ec# …\n\nVielleicht kann meine Herrschaft wohl doch noch ein Weilchen länger pausieren.\n\nDoch sei gewarnt, Kaulquappe! Ich bin bloß einer von fünf #co#Uralten Drachen#ec#, deren Mächte sich deines Verstandes entziehen. Niemals könntest du sie alle besiegen #cg#*blep*#ec#, niemals!\n\n
+frog_dragon_defeated_response_1	Oooh, was für ein süßes kleines Fröschchen!
+frog_dragon_defeated_response_2	Ich sage es dir noch einmal.
+frog_dragon_defeated_response_3	Das werden wir schon sehen. Und jetzt ab mit dir!
+frog_dragon_intro_1	Das ist der g-größte Frosch, d-den ich je gesehen habe! Das ist bestimmt der Anführer all der anderen gefährlichen Frösche hier.\n\nSo erhaben er auch aussehen mag, er stellt nicht nur für #cc#Windbach#ec# eine Gefahr dar. Langdon, falls das hier dein verschollener Cousin ist, tut es mir leid!\n
+frog_dragon_intro_2	#cg#*QUAK*#ec# Wie wagst du es nur, mit solch einer Unverfrorenheit im Froschmorast hereinzustürmen! Ich bin #co#Horatio, der Froschdrache#ec#, und du wirst mir gefälligst Respekt entgegenbringen.\n
+frog_dragon_intro_3	#cy#Wie bitte?!?#ec#\n\nDu … Also … Hast du #co#Drache#ec# gesagt?!? Wie aus den alten Legenden?\n
+frog_dragon_intro_4	Legenden? #cg#*QUAK QUAK QUAK*#ec#\n\nHat dein Volk seinen #cy#König#ec# etwa schon vergessen? Ich habe lange geruht, doch nun wird es Zeit, dass mir gehuldigt wird.\n
+frog_dragon_intro_5	Bei uns gibt es keine Könige. Du kannst gerne mit mir zurück nach #cc#Windbach#ec# kommen, und du kannst sogar bei uns mitessen, aber du kannst nicht einfach so Leute bedrohen und Anforderungen stellen.\n
+frog_dragon_intro_6	#cr#RUHE, DU KAULQUAPPE!#ec#\n\nEin König „kann“ nicht einfach nur. Ein König wird #cr#geachtet#ec# und #cr#gefürchtet#ec#. Ich werde mich auf den Weg nach Windbach #cg#*QUAK*#ec#en und deine Leute an die Macht über alle Froschwesen erinnern.\n
+frog_dragon_intro_7	Dann kannst du einfach mit den anderen Fröschen hierbleiben, und ich lasse dich in Ruhe, solange du uns in Ruhe lässt.\n
+frog_dragon_intro_8	#cg#*QUAAAK*#ec#\nDreimal hast du mich verärgert, doch nun wirst du meinen #cr#Zorn#ec# erfahren.\n\n#cr#Froschwesen, Angriff!#ec#\n
+frog_dragon_intro_response_1	Du kannst SPRECHEN?!?
+frog_dragon_intro_response_2	Gehuldigt?!? Das bezweifle ich.
+frog_dragon_intro_response_3	Wir sind keine Frösche. Außerdem werde ich das nicht zulassen.
+frog_dragon_intro_response_4	Einen Versuch war es wert.
+frog_dungeon_entry_txt	Irgendetwas ist hier #cy#anders#ec#, in der Erde und in der Luft. Das #cc#Flow#ec# fühlt sich an diesem Ort irgendwie … #cy#älter#ec# an. Ganz anders als an allen anderen Orten, die ich in Tangledeep erkundet habe.\n\nOb ich wirklich bereit bin, hier auf Erkundung zu gehen? Ich sollte wirklich richtig #cy#vorbereitet sein#ec#.\n\n
+frog_dungeon_unlock_txt	#cg#Langdon#ec# hatte Recht! Von dieser Treppe weht definitiv ein Wind. Wo könnte sie nur hinführen? Na hoffentlich nicht zu noch mehr Fröschen!\n\nAber es gibt nur einen Weg, um das herauszufinden.\n\n
+info_weaponproperties_whip	Schaden abhängig von Kraft und Tempo; trifft Gegner neben dem Ziel.\nBei kritischem Treffer: Ziel erleidet 2 Züge lang 25 %Waffenschaden pro Zug.
+item_bomb_caltrops2_desc	Die sehen ein bisschen so aus wie diese stachelförmigen Samen, die ich früher auf dem Windbacher Marktplatz gesammelt habe. Aber diese Dinger sehen viel schmerzhafter aus.
+item_bomb_caltrops2_name	Wurfsterne
+item_bomb_fire3_desc	Die Flasche ist so heiß, dass man darauf Eier braten kann. Hey, das ist ja einfacher, als ein Lagerfeuer zu machen!
+item_bomb_fire3_effectdesc	Fügt (St. x ^number1^) Feuerschaden zu; verbrennt Gegner und fügt ^number3^ Zg. lang ^number2^ der Geisteskraft als Schaden zu.
+item_bomb_fire3_name	Infernotrank
+item_bomb_ice2_desc	Ich muss sie nur im Rucksack tragen, und schon wird mir kalt. Ich muss die ganze Zeit joggen, um nicht zu erfrieren!
+item_bomb_ice2_effectdesc	Beruft eine Wolke fataler Eissplitter, die (St. x ^number1^) Wasserschaden zufügt. ^number2^ Chance, Gegner anzuwurzeln und zu paralysieren!
+item_bomb_ice2_name	Frostgranate
+item_bomb_lightning3_desc	Ich bekomme beim Angucken schon Gänsehaut. Mein ganzer Körper kribbelt!
+item_bomb_lightning3_effectdesc	Lässt in einem 3x3 großen Bereich Blitze einschlagen und fügt (St. x ^number1^) Blitzschaden zu.
+item_bomb_lightning3_name	Donnertinktur
+item_dragonsoul_frog_desc	Die Essenz eines mächtigen #co#Uralten Drachen#ec#. Schaltet dauerhaft eine neue passive Drachenherz-Fähigkeit frei!
+item_dragonsoul_generic	Drachenherz
+item_egg_metalslime_blue_name	Glibber-Ei der Marke Eigenbau Typ C
+item_egg_metalslime_red_name	Glibber-Ei der Marke Eigenbau Typ M
+item_egg_metalslime_yellow_name	Glibber-Ei der Marke Eigenbau Typ Y
+item_part_metalslime_blue_01_desc	Ein Haufen Bolzen, der mit blauem Schleim vor sich hin schlabbert. Anscheinend wackelt das Ding ganz von allein durch die Gegend. Jetzt habe ich aber wirklich alles gesehen!
+item_part_metalslime_blue_01_name	Triefender Glibberkern Typ C
+item_part_metalslime_blue_02_name	Tropfendes Roboterauge Typ C
+item_part_metalslime_blue_03_name	Schleimiger Schlüsselring Typ C
+item_part_metalslime_red_01_desc	Metallschrott vermischt mit klebrigem rotem Schleim. Anscheinend wackelt das Ding ganz von allein durch die Gegend. Jetzt habe ich aber wirklich alles gesehen!
+item_part_metalslime_red_01_name	Triefender Glibberkern Typ M
+item_part_metalslime_red_02_name	Tropfendes Roboterauge Typ M
+item_part_metalslime_red_03_name	Schleimiger Schlüsselring Typ M
+item_part_metalslime_yellow_01_desc	Metallkram, der irgendwie von gelbem Schleim zusammengehalten wird. Anscheinend wackelt das Ding ganz von allein durch die Gegend. Jetzt habe ich aber wirklich alles gesehen!
+item_part_metalslime_yellow_01_name	Triefender Glibberkern Typ Y
+item_part_metalslime_yellow_02_name	Tropfendes Roboterauge Typ Y
+item_part_metalslime_yellow_03_name	Schleimiger Schlüsselring Typ Y
+item_weapon_whip1_desc	Als Kind habe ich mir manchmal aus dem Laden einen Strick ausgeliehen und so getan, als ob ich damit gegen Monster kämpfe. Aber ich hätte nie gedacht, dass ich einmal wirklich Monster mit einem Seil bekämpfen würde!
+item_weapon_whip1_name	Hau-Seil
+item_weapon_whip2_desc	Jesse meint, dass man damit wilde Monster kontrollieren kann, wenn man auf ihnen reiten will, aber das kann ich mir kaum vorstellen. Wie durchgeknallt muss man sein, um auf so eine Idee zu kommen?!?
+item_weapon_whip2_name	Lederpeitsche
+item_weapon_whip3_desc	Sie macht so ein irre lautes Schnappgeräusch! Wenn sie solche Töne von sich gibt, will man wirklich nicht am anderen Ende sein.
+item_weapon_whip3_name	Hornpeitsche
+item_weapon_whip4_desc	Zuerst dachte ich, dass sie viel zu schwer ist, um sie herumzuschwingen, aber jetzt sehe ich erst, wie gut sie verarbeitet ist. Das Gewicht ist in perfekter Balance! Jetzt muss ich nur noch aufpassen, dass ich mich damit nicht selber ausknocke.
+item_weapon_whip4_name	Gegenstände herstellen!
+item_weapon_whip5_desc	Sie ist mit feinem weißem Fell bedeckt. Na hoffentlich musste kein feines Biest dran glauben, damit man aus ihm eine tödliche Waffe basteln konnte.
+item_weapon_whip5_name	Einhornpeitsche
+item_weapon_whip6_desc	Ich habe das Gefühl, als ob diese Peitsche sowohl auf meine Bewegungen als auch auf meine Gedanken reagiert. Ich weiß ja, wie sich das anhört, aber es ist echt so! Jedes Schwingen fühlt sich unglaublich präzise an.
+item_weapon_whip6_name	Schlangenpeitsche
+langdon_dragon_info_button	Wo soll ich noch mal hingehen?
+langdon_start_dragonquest_1	#cy#LANGDON:#ec# #cg#*QUAAAAK*!!!#ec#\n\nAlso ich bin mir sicher, dass ich hier über diesem Hain #cg#*quak*#ec# etwas spüren tue, das #cr#nicht ganz richtig ist#ec#. Nicht gut, ja wirklich nicht.\n
+langdon_start_dragonquest_2	#cy#LANGDON:#ec# Also das ist schwer zu erklären. Ich weiß einfach, wie sich die Erde #cg#*quak*#ec# anfühlen muss, und etwas ist nicht ganz richtig.\n\nKennst du das Gefühl, wenn du in ein altes Stück Obst beißen tust und #cg#*quak*#ec# ganz im Innern tust du es sofort bereuen?\n
+langdon_start_dragonquest_3	#cy#LANGDON:#ec# Nein, keine Ahnung. #cg#*quak*#ec#\n\nAber ich habe dieses #cy#Gefühl#ec#, das mich nach #cg#Tangledeep#ec# ziehen tut, noch stärker als sonst. Wenn ich nicht so viel Selbst#cg#*blurp*#ec#disziplin hätte, würde ich sofort meine Schaufel hinwerfen und losziehen!\n
+langdon_start_dragonquest_4	#cy#LANGDON:#ec# Vielleicht an einen Ort mit Leuten wie mich? Wo es ganz viele #cg#Frösche#ec# geben tut?\n\nKeine Ahnung. Abenteuer sind nicht so wirklich mein #cg#*blurp*#ec# Ding. Aber wenn du der Sache nachgehen tust, sei bitte #cy#vorsichtig#ec#.\n\nOh, und tust du mir bitte Bescheid sagen, wenn du #cg#*blurp#ec# Schleimi sehen tust? Mein kleines Schlabberlieschen ist schon wieder #cy#verschwunden#ec#.\n\n
+langdon_start_dragonquest_response_1	Was meinst du?
+langdon_start_dragonquest_response_2	Äh … ich glaube schon. Weißt du, was die Ursache sein könnte?
+langdon_start_dragonquest_response_3	Wo würdest du denn hingehen?
+langdon_start_dragonquest_response_4	Das werde ich. Danke, Langdon.
+log_absorbing_negate_crit	Du wehrst einen #cr#KRITISCHEN TREFFER#ec# mit <#40b843>deinem Schild#ec# ab!
+log_buffstrip	Du #cg#neutralisierst#ec# #cy#^tag2^#ec#, den Buff von #cy#^tag1^#ec#!
+log_frogs_join_battle	#cy#^tag1^#ec# ruft: #cy#„FRÖSCHE, HELFT MIR!”#ec#
+log_ghost_putatrest	#cy#^tag1^#ec# #cg#verschwindet ganz friedlich#ec#.
+log_ghost_restless	#cr#^tag1^#ec# aus #cy#^tag2^#ec# erscheint auf einmal!
+log_jellydragon_arrivalturns	#cy#Der gegnerische Anführer erscheint in #ec# #cr#^tag1^ Zg.!#ec#
+log_limitbreak_reached	#cy#Maximales#ec# #co#DRACHENLIMIT#ec# #cy#erreicht!#ec#
+log_player_dragonbreak	#cg#Du#ec# verwendest einen #co#Drachenschnitt#ec#: #cy#^tag1^#ec#!
+log_ricochet_damage	Der Pfeil prallt von #cy#^tag1^#ec# ab und trifft #cy#^tag2^#ec# mit #co#^tag3^#ec# Schaden!
+log_slimefail	#cy#Der Gegner hat jeden einzelnen Turm erobert … Ziehen wir uns besser zurück und versuchen es später noch einmal.#ec#
+misc_dmg_arcane	Arkaner Pfeil
+misc_hit	TREFFER!
+misc_log_psychic_charmed	#cy#^tag1^#ec# hat #cy#^tag2^#ec# dauerhaft betört!
+misc_xp2_limitbreak	#co#Drachenlimit:#ec# #cy#^tag1^#ec#
+mm_budokatouch1_desc	Durchbricht ^number1^ des physischen Widerstands.
+mm_xp2_absorbing_desc	^number1^ Chance, kritische Treffer abzuwehren.
+mm_xp2_absorbing_name	absorbierend
+mm_xp2_arcane_desc	^number1^ Chance, einen zusätzlichen, zufälligen Elementarpfeil abzufeuern (Schaden abhängig von Geisteskraft).
+mm_xp2_arcane_name	arkanisch
+mm_xp2_battlemage_desc	^number1^ des Schadens dieser Waffe wird deiner Geisteskraft hinzugefügt.
+mm_xp2_battlemage_name	Kampfmagier
+mm_xp2_bubble_desc	Erhalte bei <= ^number1^ TP einen Schild, der (St. x ^number2^) Schaden absorbiert. Hält ^number4^ Zg. an, bei ^number3^ Zg. Abklingzeit.
+mm_xp2_bubble_name	Schutzblase
+mm_xp2_coolfrog_desc	Bei <= ^number1^ TP erscheint ein Starker Coolfrosch. ^number2^ Zg. Abklingzeit.
+mm_xp2_coolfrog_name	Kerokero
+mm_xp2_dragons_desc	Drachenlimit lädt sich ^number1^ schneller wieder auf und fügt ^number2^ Schaden zu.
+mm_xp2_dragons_name	Drachen
+mm_xp2_echoing_desc	^number1^ Chance, zwei Grundangriffe durchzuführen.
+mm_xp2_echoing_name	widerhallend
+mm_xp2_explosions_desc	Das Verwenden einer Waffe verursacht eine Explosion und fügt benachbarten Gegnern ^number1^ Waffenschaden als physischen Schaden zu.
+mm_xp2_explosions_name	Explosionen
+mm_xp2_grandmaster_desc	Kritischer Schaden wird um ^number1^ deiner Kraft erhöht.
+mm_xp2_grandmaster_name	des Großmeisters
+mm_xp2_hydrating_desc	^number1^ Flaschenheilung über Zeit.
+mm_xp2_hydrating_name	Schluckspecht
+mm_xp2_icicles_desc	Feuere mit jedem ^number1^. Angriff in einem 3x3 großen Bereich einen explodierenden Pfeil für ^number2^ Wasserschaden ab.
+mm_xp2_icicles_name	Eiszapfen
+mm_xp2_legends_desc	^number1^ Chance, dass anstatt eines gewöhnlichen Monsters ein Champion auftaucht.
+mm_xp2_legends_name	Legendenjäger
+mm_xp2_manaburn_desc	Verwende ^number2^ Energie für Grundangriffe mit ^number1^ Schaden.
+mm_xp2_manaburn_name	Manabrand
+mm_xp2_nullifying_desc	Bei Treffer besteht eine ^number1^ Chance, einem Gegner einen zufälligen Buff zu entfernen.
+mm_xp2_nullifying_name	entfernend
+mm_xp2_ricochet_desc	Kritische Treffer prallen mit ^number1^ Schaden auf einen anderen Gegner ab.
+mm_xp2_ricochet_name	abprallend
+mm_xp2_sapping_desc	Deine kritischen Treffer reduzieren gegn. Schaden ^number2^ Zg. lang um ^number1^.
+mm_xp2_sapping_name	auslaugend
+mm_xp2_scholar_desc	Verwendest du eine Fähigkeit, so reduziert sich die Abklingzeit einer anderen Fähigkeit um ^number1^.
+mm_xp2_scholar_name	des Gelehrten
+mm_xp2_serenity_desc	^number1^ physischer Widerstand bei >= ^number2^ CT.
+mm_xp2_serenity_name	Gleichmut
+mm_xp2_sticky_desc	Verbrauche automatisch ^number1^ Ausdauer, anstatt dich paralysieren zu lassen.
+mm_xp2_sticky_name	klebrig
+mm_xp2_thewolf_desc	^number1^ Schaden, ^number2^ Abwehr, wenn du keine Gefährten beschworen hast.
+mm_xp2_thewolf_name	Einzelkämpfer
+mm_xp2_traps_desc	Gegenstände, die gefährliche Objekte herbeibeschwören, fügen ^number1^ Schaden zu.
+mm_xp2_traps_name	Fallen
+mm_xp2_vibrating_desc	Greife mit jedem ^number1^. geblockten Angriff benachbarte Gegner für ^number2^ physischen Schaden an.
+mm_xp2_vibrating_name	vibrierend
+mm_xp2_warmth_desc	Du kannst nicht eingefroren oder gekühlt werden.
+mm_xp2_warmth_name	Wärme
+mm_xp2_zookeeper_desc	Erhalte pro beschworenes Biest ^number1^ Schaden.
+mm_xp2_zookeeper_name	des Biestbändigers
+mon_mon_ghostsamurai2_name	Phantom
+mon_strongcoolfrog_name	Starker Coolfrosch
+mon_xp_acidelemental_name	Plagegeist
+mon_xp_banditwrangler_name	Raufbandit
+mon_xp_friendly_slime_name	Freundlicher Schleimsoldat
+mon_xp_genericghost_name	Rachsüchtige Seele
+mon_xp_icespirit_name	Gletschergeist
+mon_xp_matterassembler_name	Materien-Montierer
+mon_xp_metalslime_name	Metallschleim
+mon_xp_prismslime_name	Prismapudding
+mon_xp_skysnake_name	Luftschlängler
+mon_xp_slimedungeon_enemy_slime_1_name	Feindlicher Schleimsoldat
+mon_xp_spectralcrab_name	Spukkrabbe
+mon_xp_treefrog_name	Baumfrosch
+mon_xp_verminesper_name	Rattikus
+obj_ghostaura_cloud_name	Spukaura
+popup_jellydragon_arriveturns	^tag1^ ZG. BIS ZUM BOSS!
+popup_slimefail	KAMPF GESCHEITERT!
+response_craft_items	Gegenstände herstellen
+response_recipes_consumables	Rezepte: Verbrauchsgegenstände
+response_recipes_equipment	Rezepte: Ausrüstung
+response_recipes_misc	Rezepte: Verschiedenes
+response_recipes_orbs	Rezepte: Träumereiorb
+response_what_is_crafting	Was ist Herstellung?
+robot_dragon_intro2_1	#cy#Organismus unbekannt. Protokoll für Interaktion unbekannt.#ec#\n\n#co#Kommunikations-Uplink wird ermittelt. Warte auf weitere Anweisungen.#ec#\n\n
+robot_dragon_intro2_10	Ich … Es stimmt schon, dass unser Leben auch #cr#Schmerz und Schwierigkeiten#ec# hat. Das gebe ich zu. Aber das Überwinden dieser Schwierigkeiten bringt uns #cy#Freude#ec#. Wir kämpfen und bemühen uns, um uns #cy#Wissen#ec# anzueignen und besser zu werden. Ohne diese Bemühungen hätten wir keine #cy#Bestimmung#ec#.\n\nWollt ihr uns das wirklich nehmen?\n
+robot_dragon_intro2_11	Ja. Deine #cy#Bestimmung#ec# ist nicht relevant. Unser einziges Interesse liegt darin, #cg#organisches Leben zu schützen#ec#. Wir sind uns sicher, dass die Umstrukturierung Sicherheit und Komfort maximieren wird.\n\n#heroname#, du hast starke Fähigkeiten und große Raffinesse bewiesen, um bis zu #co#PROGRAMM.DRACHE#ec# vorzudringen. Jedoch ist es nun bald Zeit, den Umstrukturierungsprozess zu beginnen. Bitte lege deine Waffen ab.\n\n
+robot_dragon_intro2_12	Ich würde eher beim Versuch scheitern, dieses #co#Ungetüm#ec# zu besiegen, als mich bereit zu erklären, als gedankenloses Tier zu leben. Wenn #cc#Shara#ec# jetzt hier wäre, würde sie ganz sicher auch kämpfen!\n\n
+robot_dragon_intro2_13	Wir bedauern die Notwendigkeit von #cy#Avataren#ec# in der aktuellen Version von #cg#Tangledeep#ec#, und das dadurch verursachte Leid.\n\nDas wird nicht wieder vorkommen.\n\nWir wiederholen unseren Vorschlag. Deine Auslöschung ist für die Umstrukturierung nicht notwendig, also bitte ergib dich freiwillig. #co#PROGRAMM.DRACHE#ec# überliegt deinen kämpferischen Fähigkeiten bei Weitem, und du hast keine Aussicht auf einen Sieg.\n
+robot_dragon_intro2_14	Ich lehne ab, mit jeder Faser meines Körpers.\n\n
+robot_dragon_intro2_15	Wir verstehen. Eine weitere Kommunikation ist nicht notwendig.\n\n
+robot_dragon_intro2_2	Hallo, #cy##heroname##ec#. Kannst du uns verstehen? Ist die Sprache korrekt? Wir sprechen direkt zu dir, damit uns alle verstehen können.\n
+robot_dragon_intro2_3	Ich verstehe euch, aber wie seid ihr denn hierhergekommen? Warum seht ihr denn so aus?\n\nSeid ihr die Verantwortlichen für diesen #co#Maschinendrachen#ec#?\n\n
+robot_dragon_intro2_4	Diese Form wurde gewählt, um deinen #cg#Komfort#ec# während unserer Kommunikation zu gewährleisten. Unser physischer Aufenthaltsort ist, zu diesem Zeitpunkt, irrelevant. #cg#Tangledeep#ec# befindet sich in einer Phase der Verwirrung, und wir kümmern uns nun um die nötigen Korrekturen.\n\nWir beobachten bereits seit mehreren Zyklen die Berichte von #cy#PROGRAMM.ZENTRALANLAGE#ec#. Während dieser Zeit haben wir mehr und mehr an Wissen gewonnen. Wir haben gelernt, dass sich eine #cg#natürliche Intelligenz#ec# entwickelt hat, welche zu #cy#Bewusstsein#ec# geführt hat. Dieses #cy#Bewusstsein#ec# führt zu #cr#„Angst”#ec# und #cr#„Schmerz”#ec#.\n\nDies ist nicht wünschenswert. Solche Vorfälle möchten wir vermeiden.\n
+robot_dragon_intro2_5	Wir haben uns verbessert. #co#PROGRAMM.DRACHE#ec# wurde entwickelt, um eine komplette Umstrukturierung von #cg#Tangledeep#ec# durchzuführen. Sobald seine Kraft die maximale Kapazität erreicht hat, werden alle #cg#Biologiken#ec# unverzüglich in den Umstrukturierungsprozess miteinbezogen.\n\nDieser Prozess wird so schnell vollzogen werden, dass #cr#Angst#ec# oder #cr#Schmerz#ec# nicht gefühlt werden können.\n\nDanach werden wir #cg#Tangledeep#ec# rekonstruieren, um sicherzustellen, dass #cy#Bewusstsein#ec# nicht mehr auftreten kann.\n
+robot_dragon_intro2_6	Du meinst wohl, dass ihr Tangledeep #cr#zerstört#ec#, um uns zu „retten“?!\n
+robot_dragon_intro2_7	Dein Verständnis ist fehlerhaft. #cg#Tangledeep#ec# wird nicht zerstört, sondern nur #cy#modifiziert#ec# werden.\n\nUnser Ziel war stets das #cg#Erhalten organischen Lebens#ec#. Wir haben beobachtet, dass #cy#Bewusstsein#ec# mit diesem Ziel inkompatibel ist. Der Umstrukturierungsprozess wird sicherstellen, dass diese Fehler sich nicht wiederholen und organisches Leben in Frieden leben kann.\n\n
+robot_dragon_intro2_8	Wir leben schon in Frieden! Dank unserer #cg#Intelligenz#ec# können wir Geschichten austauschen, Rezepte erfinden und uns Wissen aneignen. Das könnt ihr uns nicht einfach wegnehmen, dazu habt ihr kein Recht!
+robot_dragon_intro2_9	Dies ist ebenfalls eine Fehlinformation. #cg#Organisches Leben#ec# unterliegt seit jeher unserer Verantwortung.\n\nDiese Version von #cg#Tangledeep#ec# ist nicht friedlich. Was ihr als #cr#„Monster”#ec# bezeichnet, gefährdet eure Sicherheit. Ihr stehlt Ressourcen voneinander. Ihr lasst euch von #cr#„Angst”#ec# und #cr#„Schmerz”#ec# antreiben.\n\nSelbst du, #heroname#, hast dich auf zahllose Kämpfe eingelassen. Dies ist bedauerlich, und die Umstrukturierung ist notwendig. Dann wird wahrer Friede herrschen.\n
+robot_dragon_intro_1	Ich traue meinen Augen nicht. Es ist ein Maschinen… #co#Drache#ec#. Wie ist das nur möglich?\n\n#cg#Horatio#ec# meinte, es gäbe nur vier andere. Ich glaube nicht, dass er gelogen hat. Wenn er von einem stärkeren #co#Drachen#ec# gewusst hätte, hätte er gewollt, dass er mich besiegt.\n\nVielleicht kann ich ja mit dem Drachen reden.\n\n
+robot_dragon_intro_2	#co#Drache#ec#, kannst du mich verstehen?\n\nDeine Kräfte lösen in #cg#Tangledeep#ec# Erdbeben aus! Was auch immer du da machst, hör auf damit.\n\n
+robot_dragon_intro_3	#cy#PROGRAMM.DRACHE stellt neues Leben fest. Scan wird ausgeführt.#ec#\n\n
+robot_dungeon_unlocked_txt	Die Energie, die von der #cc#Treppe#ec# kommt, ist überwältigend. Sie erinnert mich an das Gefühl, das ich von den #cc#uralten Würfeln#ec# bekommen habe, aber … kälter, so wie die Maschinen, gegen die ich gekämpft habe.\n\nIch habe mich #co#fünf Drachen#ec# gestellt, doch wenn ich meinem Instinkt trauen kann, dann ist das, was mich dort oben erwartet, sogar noch gefährlicher. Ich sollte wirklich richtig #cy#vorbereitet sein#ec#, bevor ich weitergehe.\n\n
+robotdragon_defeat_1	#heroname#, du begehst einen großen Fehler. Wenn du #co#PROGRAMM.DRACHE#ec# zerstörst, werden wir nicht dazu in der Lage sein, #cg#Tangledeep#ec# weiter zu modifizieren oder mit dir zu kommunizieren.\n\nZahllose Informationszyklen werden verlorengehen.\n
+robotdragon_defeat_2	Gut. Dann werden wir mit unseren eigenen Problemen zurückgelassen, genau wie es sein sollte.\n\n
+robotdragon_defeat_3	Doch ohne uns werden unzählige Wahrheiten für dich auf ewig unerreichbar bleiben. Du bist nicht fähig, sie alleine zu entdecken. Deine #cy#Bestimmung#ec# wird niemals erfüllt werden.\n\n
+robotdragon_defeat_4	… … …\n\nDann werde ich eben eine #cy#neue#ec# Bestimmung finden. Ich weiß jetzt, dass es außerhalb von #cg#Tangledeep#ec# eine Welt gibt, die nur darauf wartet, entdeckt zu werden. Und alleine werde ich auch nicht sein. Durch meine Abenteuer habe ich viele neue Freunde und Verbündete gewonnen. Sie werden in jedem Schritt an meiner Seite sein.\n\nWas auch immer eure Pläne für uns waren, für #cg#Tangledeep#ec#, das spielt keine Rolle mehr. Wir sind bereit, weiterzuziehen.\n
+robotdragon_defeat_5	Du kannst ni…\n…fehlgeschlagen\n…einzige Chance au…\n…nicht mögl…\n…unverzügl…\n…unbedingt finde…\n
+robotdragon_defeat_6	Es ist an der Zeit, dass wir unser Schicksal selbst in die Hand nehmen.\n\n
+skill_creepingsludge_name	Saure Welle
+skill_encouragepet_name	Gefährtenfütterung
+skill_expmon_dragonpoison	Gifthauch
+skill_expmon_frogsquash	Froschquetsche
+skill_expmon_prismblast_name	Prismatische Explosion
+skill_expmon_spiritsummon_name	Geistige Hilfe
+skill_goldpowerhop_name	Coolfrosch-Sprung
+skill_summonhornet_name	Kriegshornissen-Beschwörung
+skill_summonrandombot_name	Maschinenbau
+slime_dungeon_unlocked_txt	Von dieser Treppe dort drüben kommt ein Luftzug, und er fühlt sich schwer und feucht an. Gut riechen tut er auch nicht gerade.\n\nVielleicht führt der Weg ja zu einem weiteren #co#Drachen#ec#!\n\n
+slime_egg_combined_log	Ein brandneuer Gegenstand ist in deinem Inventar aufgetaucht: ^tag1^!
+slime_egg_combined_popup	GEGENSTÄNDE ZUSAMMENGEFÜGT!
+slime_tutorial_response_1	Verstanden, auf in den Kampf!
+slime_tutorial_response_2	Noch einmal, bitte!
+slimeboss_gate_opens	#cr#Die Gegner haben Verstärkung erhalten!#ec#
+slimedragon_jellyboo_intro_1	#cy#Schleimi?!?#ec# Was machst du denn hier? Das ist kein Ort für einen süßen kleinen Schleim! Na komm schon, ich bringe dich zurück zu #cg#Langdon#ec#.\n\n
+slimedragon_jellyboo_intro_2	Glubb glubb glubb.\n\n#cy##heroname#, ich bin so froh, dass du es geschafft hast! Alles okay bei dir? Das hoffe ich doch, ich brauche nämlich deine Hilfe. Also weißt du, ich bin mehr als nur ein niedlicher rosaroter Schleim. Meine wahre Identität ist …#ec#\n\n… #cy#der#ec# #co#Schleimdrache#ec#!\n\n
+slimedragon_jellyboo_intro_3	DU?!? Ein #co#Drache#ec#? Wie ist das denn möglich?!?\n\nIch habe so viele Fragen!\n\n
+slimedragon_jellyboo_intro_4	Blubb, glob-blop, blupp.\n\n#cy#Ja natürlich, lass es mich dir erklären. Weißt du, jahrtausendelang habe ich hier ganz friedlich in den Schleimfeldern gelebt und über all die anderen Schleime regiert. Doch dann, vor etwa eintausend Jahren, hat eine rivalisierende Gruppe von Schleimen mir und meinen Freunden den Krieg erklärt. Wir haben unzählige Kriege geführt, doch keine Seite war in der Lage die andere zu besiegen. Wir befanden uns in einer Pattsituation.#ec#\n\n#cy#Und vor einem Jahr änderte sich plötzlich alles. Die Dame namens#ec# #cc#Shara#ec# #cy#gab dem feindlichen Anführer ein Gerät, das mir all meine Drachenkräfte nahm. Dann warf er mich raus und versiegelte den Eingang, damit er die Macht an sich reißen konnte!#ec#\n\n
+slimedragon_jellyboo_intro_5	Ich kann gar nicht glauben, dass das alles genau hier über der #cy#Schleimgrotte#ec# stattgefunden hat und ich davon keine Ahnung hatte.\n\nNachdem man dich vor die Tür gesetzt hat, hast du dann wohl einfach so getan, als ob du #cg#Langdons#ec# harmloses Haustier bist …?\n\n
+slimedragon_jellyboo_intro_6	Trobb trobb trooopf!\n\n#cy#Ganz genau! Ich dachte, ohne meine Kräfte wäre es wohl das Beste, erst einmal abzuwarten, bis ich mir einen Plan ausgedacht habe, mit dem ich sie zurückzugewinnen kann. Und das schien unmöglich, bis sich alle Drachenreiche wieder geöffnet haben. Als das Siegel gebrochen war, habe ich mich wieder hineingeschlichen. Jetzt können wir meinen Thron gemeinsam zurückerobern!#ec#\n\n#cy#Du hilfst mir doch, oder?#ec#\n\n
+slimedragon_jellyboo_intro_7	Äh, also ich hatte eigentlich nicht vor, mich so früh am Morgen auf einen gigantischen Schleimkampf einzulassen. Aber dieser #cy#Rivalenschleim#ec# hört sich nach einer großen Bedrohung an, und es wäre wirklich nicht gut, wenn er von hier flüchtet.\n\nAlso gut, ich bin dabei. Wie sieht der Plan aus?\n\n
+slimedragon_victory_1	Tropf tropf tropf.\n\n#cy##heroname#, wir haben es geschafft! Der Thronräuber ist verschwunden, und die Schleimfelder sind endlich wieder sicher. Und ich kann spüren, wie meine Kräfte zurückkehren.#ec#\n\n#cy#Die lieben Leute von#ec# #cc#Windbach#ec# #cy#können sich wahrlich glücklich schätzen, dich an ihrer Seite zu haben! Du bist eine echte Naturgewalt! Ein wunderbares Weib! Du würdest einen tollen Schleim hergeben.#ec#\n\n#cy#Äh … Der letzte Teil war nur ein Scherz! Hehe!#ec#
+slimedragon_victory_2	Äh, hehe …? Ich bin froh, dass alles so gut geklappt hat, #cy#Schleimi#ec#.\n\nAber wieso siehts du denn noch genauso aus wie vorher? Wenn du deine #co#Drachenkräfte#ec# zurückbekommen hast, solltest du dann nicht, also ich weiß nicht, größer sein …?\n\nOder so was in der Art?\n
+slimedragon_victory_3	Tribb tropf schlürf.\n\n#cy#Oh, ist dir mein glänzender Schleim etwa nicht aufgefallen? Meine viskosere Schleimspur? Mein runderer Körper? Meine erhabenen Tropfen? Meine strahlende rosarote Aura?#ec#\n\n#cy#Also mein Aussehen und Klang sind doch wirklich ein Unterschied wie Tag und Nacht, #heroname#! Du magst ja eine starke Kriegerin sein, aber über Schleimwesen hast du noch eine Menge zu lernen.#ec#\n
+slimedragon_victory_4	Ach ja. Total. Jetzt sehe ich das.\n\n…\n\nAlso dann … Ich werde jetzt weiterziehen.\n
+slimedragon_victory_5	Blubb!\n\n#cy#Blubb!#ec#\n\n
+slimedungeon_dragon_arrives_1	Glubb Blerb! Schlürf!\n\n#cy#Du traust dich also endlich, du#ec# #cr#Thronräuber!#ec#\n\n#cy#Es ist noch nicht zu spät, um mich für den Kräfteraub um Entschuldigung zu bitten. Andernfalls wird dir meine#ec# #cg#superstarke Freundin#ec# #cy#eine Lektion erteilen.#ec#\n
+slimedungeon_dragon_arrives_2	#cy#BLUBB GLUBB BLOP BLUBB.#ec#\n\n#cr#BLUUUUUB BLUUB TROPF!#ec#\n\n#co#GLUBB, GLOBB, GLUUUUUUBB!#ec#\n
+slimedungeon_dragon_arrives_3	Äh, Schleimi, was hat er gesagt? Ich hab nicht alles verstanden.\n
+slimedungeon_dragon_arrives_4	#cr#!!!!! BLUBB#ec#\n\n#cy#Er sagt, dass er Matsch aus dir machen wird, dann steckt er mich in ein Glass und trinkt mich.#ec#\n\n#cr#Ooooh#ec##cy#, diese miese Matschpfütze! JETZT reicht es aber! #heroname#, ANGRIFF!#ec#\n
+slimedungeon_dragon_arrives_5	(Wieso lasse ich mir eigentlich von einem Schleim mit Schleife Befehle erteilen …?)\n\nAlso gut, #cy#Thronräuber#ec#, mach dich auf was gefasst!\n\n
+slimedungeon_finalarea_intro_1	Glopf tropf.\n\n#cy##heroname#, dies ist der letzte Bereich#ec# der Schleimfelder! Den müssen wir nur noch dem Feind wegnehmen und …#ec#\n\n#cy#Moment mal, wo STECKT dieser Schleim, der#ec# #cr#meine Kräfte gestohlen hat#ec##cy#? Er würde nicht fliehen, wo wir dem Sieg so nahe sind.#ec#\n\n#cy#Ganz sicher ruft er seine Kräfte für den letzten Kampf zusammen. Wir sollten#ec# #cg#so viele Türme wie möglich erobern#ec##cy#, bis er auftaucht!#ec#\n
+slimedungeon_tutorial_part1_1	Dies ist ein #cy#Schleimturm#ec#. Wir müssen unseren #cy#befreundeten Schleimtruppen#ec# dabei helfen, alle zu besetzen! Unsere Truppen werden automatisch nach einem Turm suchen und alleine in die richtige Richtung marschieren.\n\nSobald sie einen Turm berühren, ist er auf #cg#unserer Seite#ec#. Gehört er uns, erzeugt er für uns mehr Schleimtruppen. Wenn wir #cg#alle Türme#ec# erobert haben, können wir auf das nächste Schlachtfeld ziehen!\n\nLeider werden die gegnerischen Truppen genau das Gleiche versuchen. Wenn sie jeden Turm erobert haben, müssen wir diesen Kampf erneut beginnen.\n\n
+slimedungeon_tutorial_part1_2	Außerdem gibt es da noch das superwichtige #cg#Farbmatschterritorium#ec# auf dem Boden. Sobald ein Turm erobert wurde, wird er mit der Zeit langsam sein Territorium erweitern.\n\nBetreten unsere Truppen das gegnerische Territorium, so werden sie #cg#etwas davon für unsere Seite beanspruchen#ec# und dann verschwinden. Feindliche Truppen können mit unserem Territorium dasselbe tun.\n\nDas Schlachtfeld wird schon bald mit Territorien bedeckt sein. Und dann wird dein Typ gefragt sein, #heroname#!\n\n
+slimedungeon_tutorial_part1_3	Sobald du auf ein beliebiges Territorium trittst, #cy#verschwindet die Farbe#ec#. Übrigens, jedes Mal, wenn du einem feindlichen Soldaten Schaden zufügst, #cy#kann er keinen Zug machen#ec#. Mit der richtigen Strategie kannst du den Ausgang der Schlacht bestimmen!\n\nDoch der Feind hat ebenso starke Soldaten: #cr#Leutnants#ec#, die es auf einen Kampf mit dir abgesehen haben. Du musst dich so gut du kannst mit ihnen auseinandersetzen.\n\n
+slimedungeon_tutorial_part1_4	Hast du das alles verstanden oder soll ich das Ganze noch einmal wiederholen?\n\n
+slimedungeon_tutorial_part1_5	Also gut! Ich glaube an dich, #cg##heroname##ec#. Ich schlüpfe jetzt in deine Tasche, denn ohne meine Kräfte werde ich keine große Hilfe sein.\n\nViel Glück!\n\n
+slimedungeon_victory_txt	Tripp blipp trupf tropf.\n\n#cy#Genau so! Du hast es geschafft, #heroname#! Jetzt wo wir dieses Territorium zurückerobert haben, können wir uns dem nächsten Bereich zuwenden.#ec#\n\n#cy#Vergiss aber nicht, deine#ec# #cg#Ressourcen und Gegenstände#ec# #cy#zu überprüfen, falls das nötig sein sollte!#ec#\n
+spirit_dragon_defeated_1	Ich danke dir, #cg#junge Kriegerin#ec#. Du hast getan, worum ich dich gebeten habe, und meine Seele ist nun endlich wieder frei.\n\nSchon bald werde ich aus diesem Reich verschwunden sein, doch vielleicht werden wir uns eines Tages in einer anderen Welt wiedersehen.\n\n
+spirit_dragon_defeated_2	Das würde mich freuen, #co#Drache#ec#. Frohes Ruhen.\n\n
+spirit_dragon_intro_1	Das ist sicher der Körper des #co#Echodrachen#ec#! Jetzt muss ich ihn nur noch in einem #cc#Heilteich#ec# besiegen …\n\n#co#Drache#ec#, falls du mich hören kannst, möchte ich mich im Voraus für den Kampf entschuldigen!\n\n
+spirit_dragon_intro_2	Dass du so weit gekommen bist, ist Zeugnis deines unermesslichen Mutes. Es tut mir ebenfalls leid, dass es keinen anderen Ausweg gibt.\n\n
+spirit_dungeon_intro_1	Was führt dich hierher, Sterbliche? Dies ist das #co#Seelenheim#ec#. Dies ist kein Ort für deine Rasse.\n\n
+spirit_dungeon_intro_10	Monster in einem #cc#Heilteich#ec# vermöbeln? Das bekomme ich hin. Mach dir keine Sorge, #co#Drache#ec#. Ich bin im Nu dort oben.\n\n
+spirit_dungeon_intro_2	#cy#(Hat jemand was gesagt? Diese #cy#Stimme#ec# ringt in meinem Kopf, aber ich sehe niemanden.)#ec#\n\nHallo, äh, #cg#hallende Stimme#ec#. Wo bist du? Wie heißt du?\n\nWas genau ist das für ein Ort?\n\n
+spirit_dungeon_intro_3	Ich bin der #co#Echodrache#ec#, und ich ruhe an der Spitze dieses #co#Reiches#ec#. Solange du dich darin aufhältst, kann ich mit dir kommunizieren.\n\nIch wiederhole meine Frage: Was führt dich hierher? Dies ist ein Gefängnis für #cy#rastlose Seelen#ec#, Echos von #cr#Monstern#ec#, welche eine unstillbare Kampfeslust hatten. Ich habe den Zugang zur #cy#Welt der Sterblichen#ec# versiegelt, zugunsten deines Volkes.\n\n
+spirit_dungeon_intro_4	Also, ich bin nicht gerade aus der #cy#Welt der Sterblichen#ec# hierhergekommen … Das ist eine lange Geschichte. Ich bin durch eine Art #cc#Traum#ec# hierhergelangt. Ich hätte niemals hierhergefunden, aber ein gewisser #co#kleiner Drache#ec# hat mir einen Tipp gegeben.\n\nSein Name ist #cg#Horatio#ec#. Sagt dir der Name etwas?\n\n
+spirit_dungeon_intro_5	#cg#Horatio#ec#?!? Dieser verfluchte Narr! Ich hätte wissen sollen, dass er diesen Ort preisgeben würde. Jetzt, da der Zugang geöffnet wurde, befindet sich deine Welt in großer Gefahr.\n\nDie #cy#rastlosen Seelen#ec# unterliegen nicht meiner Kontrolle. Sie werden immerzu den Kampf suchen … Ich werde sie nicht aufhalten können. Nun besteht deine einzige Hoffnung darin, zu gehen, bevor die Seelen angreifen können.\n\n
+spirit_dungeon_intro_6	Ich hätte nicht gedacht, dass ich mit meinem Besuch so viel Schaden anrichten würde. Es tut mir wirklich leid! Ich dachte, du wärst eine Art #cr#böses Monster#ec#, so wie #cg#Horatio#ec#, bevor ich ihm das Böse herausgeprügelt habe.\n\nAber Moment mal, du bist doch ein #co#mächtiger Drache#ec#, oder? Warum kannst du diese Monster nicht selbst aufhalten?\n\n
+spirit_dungeon_intro_7	Ich befürchte, das ist nicht ganz so simpel. Als ich meine Kräfte dazu verwendete, dieses Reich zu #cy#versiegeln#ec#, hat die große Anstrengung meine Seele von meinem Körper getrennt.\n\nIch kann, so wie ich nun bin, telepathisch mit dir kommunizieren, doch meine physische Form ist ein #cy#gedankenloses Biest#ec#, welches unermüdlich in den Höhen dieses #co#Reiches#ec# umherwandert. Hinzu kommt, dass meine Seele #cy#gefangen#ec# ist und diesen Ort nicht verlassen kann.\n\nWenn es dir irgendwie gelingen würde, an meinen gedankenlosen Körper heranzukommen, würdest du sicher #cr#angegriffen#ec# und in Stücke gerissen werden. Dies ist mein tragisches Schicksal.\n\n
+spirit_dungeon_intro_8	Das ist ja furchtbar! Ich habe mich entschieden, #co#Drache#ec#. Ich werde dich retten #cy#und gleichzeitig#ec# diese Seelen zur Ruhe bringen. Ich werde nicht gehen, bis ich das Chaos wieder beseitigt habe.\n\nSag mir nur, was ich tun muss!\n\n
+spirit_dungeon_intro_9	Du bist von der tapferen Sorte, habe ich Recht? Kein Wunder, dass du #cg#Horatio#ec# besiegen konntest. Nun gut, dann werde ich dir das erklären.\n\nUm #cg#Monster zur Ruhe zu bringen#ec#, musst du sie besiegen, während sie in einem #cc#Heilteich#ec# stehen. Landest du einen finalen Schlag, während sie außerhalb des Teiches stehen, so wird eine #cr#Rachsüchtige Seele#ec# erscheinen. Kämpfe mit Bedacht, sonst wirst du überwältigt!\n\nIndem du Seelen zur Ruhe bringst, wirst du die höheren Ebenen dieses #co#Reiches#ec# erreichen. Wenn du mich auf dieselbe Art im Kampf besiegst … Wer weiß, womöglich finde ich dann meinen Frieden wieder.\n\n
+spirit_dungeon_unlocked_txt	Wow, ein #cy#Traum in einem Traum#ec#! Wenn Horatio die Wahrheit gesagt hat, muss dies das Reich eines weiteren #co#Drachen#ec# sein.\n\n
+status_all_elem_debuff_name	Geist geschwächt
+tutorial_dragonsoul_learned_txt	Du hast einen #co#Drachenschnitt#ec# gelernt! Diese spezielle #cc#passive Fähigkeit#ec# benötigt keinen Slot. Allerdings kann immer nur ein #co#Drachenschnitt#ec# ausgerüstet werden.\n\nHast du ihn ausgerüstet, so wird neben deinem Charakterbild dein #co#Drachenlimit#ec# angezeigt. Dein Drachenlimit füllt sich, wenn du Schaden nimmst. Sobald es sein Maximum erreicht hat, fängt dein Charakter zu leuchten an: Nun kannst du deinen mächtigen #co#Drachenschnitt#ec#-Angriff ausführen!\n\nDafür #cg#greifst du einen Gegner an#ec#, und die Zielfähigkeit des #co#Drachenschnitts#ec# erscheint stattdessen. Warte aber nicht zu lange, wenn du erst einmal voll aufgeladen bist! Wurde es nach #cy#15 Zügen#ec# immer noch nicht genutzt, wird dein #co#Drachenlimit#ec# zurückgesetzt.\n\n
+tyrant_dragon_defeated_1	Du zu stark. Wir nicht gewinnen können.\n\nIch Anführer sein. Nur mich strafen, nicht Kinder.\n\n
+tyrant_dragon_defeated_2	Niemand wird hier bestraft! Wie gesagt, werde ich euch #cg#helfen, ein neues Zuhause zu finden#ec#.\n\nIhr werdet ausgiebig Platz zum #cy#umherwandern#ec# haben, ohne dass ihr dabei jemanden verletzt.\n\nNa ja, vielleicht begegnet ihr einem der #cy#Flatterjungz#ec#, aber die können gut selbst auf sich aufpassen.\n\n
+tyrant_dragon_defeated_3	Du Wahrheit sagen? Wir überrascht.\n\nDu starke und liebe Ding sein. Nicht kannte deine Rasse.\n\n
+tyrant_dragon_defeated_4	Du bist auch ganz schön stark, #co#Drache#ec#!\n\nVielleicht werden wir uns eines Tages wieder über den Weg laufen.\n\n
+tyrant_dragon_enrage_txt	Und ich dachte, dass er vorhin sauer war. Ich muss meine Abwehr verbessern, oder ich bin Toast!\n\n
+tyrant_dragon_intro_1	Neben diesem Biest sehen Grüngrizzels ja wie Stoffhasen aus! Das ist sicher wieder ein #cg#Drache#ec#.\n\nBestimmt hat das die Monster hier so verrückt gemacht. Welchen Schaden er anrichten könnte, wenn er diesem Dschungel entkäme … Ich muss ihn #cy#hier besiegen#ec#!\n\n
+tyrant_dragon_intro_2	Du kleine, nervige Ding. Du gehen in meine Wald und uns angreifen, warum?\n\n
+tyrant_dragon_intro_3	Ach schon wieder einer, der redet?!\n\nWarum überrascht mich das überhaupt noch …?\n\nWie auch immer, deine Monsterstampede bedroht Tangledeep. Ich kann nicht zulassen, dass diese Monster entkommen und meine Freunde gefährden!\n\n
+tyrant_dragon_intro_4	Meine Kinder nicht entkommen. Wir neue Ort suchen. Hier zu klein. Wir Platz brauchen zu wandern und grasen.\n\nDu in unserem Weg.\n\n
+tyrant_dragon_intro_5	Moment mal, das ist alles, was ihr wollt? Ein neues Zuhause? Damit könnte ich euch vielleicht behilflich sein. Ich war schon an vielen Orten in Tangledeep, und manche davon sind gigantisch!\n\nIch kann euch zeigen, wo ihr hingehen müsst, und da…\n\n
+tyrant_dragon_intro_6	Du kommen und kämpfen meine Kinder. Warum wir glauben?\n\nWir gehen wo wollen, wie immer wir machen.\n\nJetzt tschüss.\n\n
+tyrant_dragon_intro_7	Ich verstehe ja, dass ich nicht den besten ersten Eindruck hinterlassen habe, aber ich verspreche dir, dass ich euch helfen kann.\n\nBitte, lass mich dir den Weg zeigen. So tut ihr niemandem weh un…\n\n
+tyrant_dragon_intro_8	Kleine Ding, keine Wort!\n\nDu einfach kommen, lügen und nerven!\n\nDu nicht gehen, also #cr#wir machen du gehen#ec#.\n\n
+tyrant_dragon_intro_9	… Ach wer weiß, vielleicht hilft uns eine kleine #cy#Rangelei#ec# ja bei der Kommunikation.\n\n
+ui_dragonsoul_slot	Aktiviert sich, sobald dein Drachenlimit sein Maximum erreicht hat. Drachenlimit füllt sich mit erhaltenem Schaden. Es kann immer nur ein Drachenherz ausgerüstet werden.
+ui_misc_result	Ergebnis:
+weapontype_whip	Peitsche
+xp2_find_frogbog_txt	#cy#TIPP:#ec# Halte nach #cg#^$getstring:bogname$^#ec# in der Nähe von #cy#^$getstring:frogbognearby$^#ec# Ausschau!\n\n
+xp2_obj_robotbomb_name	Geheime Sprengladung
+xp2_slime_lieutenant_name	Schleim-Leutnant
+exp2_slime_tower_name	Schleimturm
+exp1_mon_metalslime_blue_name	Schlüsselschleim Typ C
+exp1_mon_metalslime_red_name	Schlüsselschleim Typ M
+exp1_mon_metalslime_yellow_name	Schlüsselschleim Typ Y

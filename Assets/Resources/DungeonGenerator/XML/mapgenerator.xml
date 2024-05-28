@@ -1,0 +1,3811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Floor>
+		<Level>101</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<Size>10</Size>
+		<FastTravel />
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>EARTH</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>merchantzone1</SpecialRoomTemplate>
+		<RevealAll />
+		<MusicCue>funmerchant</MusicCue>
+		<CustomName>floor_101_cname</CustomName>
+		<MinSpawnFloor>1</MinSpawnFloor>
+		<MaxSpawnFloor>12</MaxSpawnFloor>		
+	</Floor>
+	<Floor>
+		<Level>104</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<Size>10</Size>
+		<NoSpawner />
+		<FastTravel />
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>COBBLE</Tileset>
+		<SpecialRoomTemplate>storeroom</SpecialRoomTemplate>
+		<MusicCue>funmerchant</MusicCue>
+		<CustomName>floor_104_cname</CustomName>
+		<MinSpawnFloor>1</MinSpawnFloor>
+		<MaxSpawnFloor>9</MaxSpawnFloor>
+	</Floor>	
+	<Floor>
+		<Level>102</Level>
+		<SideArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Size>16</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>EARTH</Tileset>
+		<NoSpawner />
+		<FastTravel />
+		<SpecialRoomTemplate>frogswamp</SpecialRoomTemplate>
+		<CustomName>floor_102_cname</CustomName>
+		<ClearReward>obj_minisuperchest</ClearReward>
+		<MinSpawnFloor>4</MinSpawnFloor>
+		<MaxSpawnFloor>11</MaxSpawnFloor>
+		<SpawnTable>jellygrotto</SpawnTable>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_pettrainer</RefName>			
+			<MinDistanceFromStairsUp>1</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>3</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>
+		<Script_OnTurnEnd>EvaluateFrogDragonQuestLine</Script_OnTurnEnd>
+	</Floor>
+	<Floor>
+		<Level>103</Level>
+		<SideArea />
+		<NoRewardPopup />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Size>16</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>VOLCANO</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>lavapit</SpecialRoomTemplate>
+		<CustomName>floor_103_cname</CustomName>
+		<MinSpawnFloor>3</MinSpawnFloor>
+		<MaxSpawnFloor>10</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>105</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Size>10</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<FastTravel />
+		<Tileset>EARTH</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>mapmerchant</SpecialRoomTemplate>
+		<RevealAll />
+		<CustomName>floor_105_cname</CustomName>
+		<MusicCue>funmerchant</MusicCue>		
+		<MinSpawnFloor>0</MinSpawnFloor>
+		<MaxSpawnFloor>14</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>106</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<FastTravel />
+		<Size>10</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>EARTH</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>slimemerchant</SpecialRoomTemplate>
+		<RevealAll />
+		<CustomName>floor_106_cname</CustomName>
+		<MusicCue>funmerchant</MusicCue>		
+		<MinSpawnFloor>1</MinSpawnFloor>
+		<MaxSpawnFloor>15</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>107</Level>
+		<SideArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<FastTravel />
+		<Size>12</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<NoSpawner />
+		<NoRewardPopup />
+		<SpecialRoomTemplate>potionmerchant1</SpecialRoomTemplate>
+		<CustomName>floor_107_cname</CustomName>
+		<MinSpawnFloor>1</MinSpawnFloor>
+		<MaxSpawnFloor>15</MaxSpawnFloor>
+		<SpawnTable>jellygrotto</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>108</Level>
+		<SideArea />
+		<NoRewardPopup />
+		<ChallengeValue>1.4</ChallengeValue>
+		<StairsDownToLevel>120</StairsDownToLevel>
+		<Tileset>MOSS</Tileset>
+		<CustomName>floor_108_cname</CustomName>
+		<HasFungus />
+		<MinSpawnFloor>8</MinSpawnFloor>
+		<MaxSpawnFloor>16</MaxSpawnFloor>
+		<NoSpawner />
+		<LayoutType>HIVES</LayoutType>
+		<PriorityMinimum>3</PriorityMinimum>
+		<PriorityRoomTemplate>HRoom11</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom12</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom18</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom19</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom20</PriorityRoomTemplate>
+		<ChanceToOpenWalls>0.05</ChanceToOpenWalls>
+		<MinRooms>15</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<MinMonsters>6</MinMonsters>
+		<MaxMonsters>9</MaxMonsters>
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>11</MaxCorridorLength>		
+		<Size>36</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>elementals1</SpawnTable>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_armormaster</RefName>			
+			<MinDistanceFromStairsUp>1</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>2</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>
+	</Floor>
+	<Floor>
+		<Level>120</Level>
+		<SideArea />
+		<NoRewardPopup />
+		<ChallengeValue>1.5</ChallengeValue>
+		<StairsDownToLevel>109</StairsDownToLevel>
+		<StairsUpToLevel>108</StairsUpToLevel>
+		<Tileset>MOSS</Tileset>
+		<CustomName>floor_120_cname</CustomName>
+		<DeepSideAreaFloor />
+		<NoSpawner />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<ChanceToOpenWalls>0.25</ChanceToOpenWalls>
+		<MinRooms>13</MinRooms>
+		<MaxRooms>17</MaxRooms>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<MaxLavaPools>3</MaxLavaPools>
+		<MinMonsters>6</MinMonsters>
+		<MaxMonsters>9</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>7</MaxCorridorLength>		
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>elementals2</SpawnTable>		
+	</Floor>
+	<Floor>
+		<Level>109</Level>
+		<SideArea />
+		<ChallengeValue>1.6</ChallengeValue>
+		<StairsUpToLevel>120</StairsUpToLevel>
+		<Tileset>MOSS</Tileset>
+		<CustomName>floor_109_cname</CustomName>
+		<DeepSideAreaFloor />
+		<NoSpawner />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<ChanceToOpenWalls>0.25</ChanceToOpenWalls>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<MaxLavaPools>4</MaxLavaPools>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MinRooms>11</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<ClearReward>obj_superchest</ClearReward>
+		<ClearReward>obj_superchest</ClearReward>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>6</MaxCorridorLength>
+		<Size>30</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>		
+		<SpawnTable>elementals3</SpawnTable>		
+	</Floor>
+	<Floor>
+		<Level>110</Level>
+		<NoRewardPopup />
+		<ShowRewardSymbol>0</ShowRewardSymbol>
+		<ChallengeValue>1.3</ChallengeValue>
+		<Size>12</Size>
+		<NoSpawner />
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<RevealAll />
+		<UnbreakableWalls />
+		<SpecialRoomTemplate>casino</SpecialRoomTemplate>
+		<FastTravel />
+		<CustomName>floor_110_cname</CustomName>
+		<ImageOverlay>casino</ImageOverlay>
+		<MusicCue>casino</MusicCue>
+		<SafeArea />
+		<MinSpawnFloor>3</MinSpawnFloor>
+		<MaxSpawnFloor>9</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>111</Level>
+		<SideArea />
+		<NoRewardPopup />
+		<ChallengeValue>1.2</ChallengeValue>
+		<Size>36</Size>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<Tileset>EARTH</Tileset>
+		<Rivers>4</Rivers>
+		<AllowPlanks />
+		<NoSpawner />
+		<CustomName>floor_111_cname</CustomName>
+		<StairsDownToLevel>112</StairsDownToLevel>
+		<ChanceToOpenWalls>0.5</ChanceToOpenWalls>
+		<MinRooms>12</MinRooms>
+		<MaxRooms>19</MaxRooms>
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>9</MaxCorridorLength>	
+		<MinMonsters>6</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MinSpawnFloor>5</MinSpawnFloor>
+		<MaxSpawnFloor>8</MaxSpawnFloor>
+		<MaxChampions>1</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>4</ExpectedPlayerLevel>
+		<SpawnTable>floodedtemple1</SpawnTable>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_herbalist</RefName>			
+			<MinDistanceFromStairsUp>2</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>5</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>
+	</Floor>
+	<Floor>
+		<Level>112</Level>
+		<SideArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Size>20</Size>
+		<HasFungus />
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<NoSpawner />
+		<StairsUpToLevel>111</StairsUpToLevel>
+		<CustomName>floor_112_cname</CustomName>
+		<DeepSideAreaFloor />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ClearReward>obj_superchest</ClearReward>
+		<SpecialRoomTemplate>floodedtemple2f</SpecialRoomTemplate>
+		<MinMonsters>6</MinMonsters>
+		<MaxMonsters>9</MaxMonsters>
+		<MaxChampions>1</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>6</ExpectedPlayerLevel>
+		<SpawnTable>floodedtemple2</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>113</Level>
+		<SideArea />
+		<NoRewardPopup />
+		<ChallengeValue>1.4</ChallengeValue>
+		<Size>36</Size>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<Tileset>REINFORCED</Tileset>
+		<NoSpawner />
+		<CustomName>floor_113_cname</CustomName>
+		<StairsDownToLevel>114</StairsDownToLevel>
+		<MinRooms>14</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>4</MaxCorridorLength>	
+		<MaxDeadends>0</MaxDeadends>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>9</MaxMonsters>
+		<MinSpawnFloor>10</MinSpawnFloor>
+		<MaxSpawnFloor>16</MaxSpawnFloor>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>banditenclave1</SpawnTable>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_friendlybandit1</RefName>			
+			<MinDistanceFromStairsUp>1</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>1</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>
+	</Floor>
+	<Floor>
+		<Level>114</Level>
+		<SideArea />
+		<NoRewardPopup />
+		<ChallengeValue>1.5</ChallengeValue>
+		<Size>32</Size>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<Tileset>REINFORCED</Tileset>
+		<NoSpawner />
+		<CustomName>floor_114_cname</CustomName>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>113</StairsUpToLevel>
+		<StairsDownToLevel>115</StairsDownToLevel>
+		<MinRooms>12</MinRooms>
+		<MaxRooms>17</MaxRooms>
+		<MaxCorridors>10</MaxCorridors>
+		<MaxCorridorLength>4</MaxCorridorLength>	
+		<MaxDeadends>0</MaxDeadends>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>banditenclave2</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>115</Level>
+		<SideArea />
+		<ChallengeValue>1.55</ChallengeValue>
+		<Size>28</Size>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<MaxSecretAreas>1</MaxSecretAreas>
+		<Tileset>REINFORCED</Tileset>
+		<NoSpawner />
+		<CustomName>floor_115_cname</CustomName>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>114</StairsUpToLevel>
+		<MinRooms>10</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<MaxCorridors>6</MaxCorridors>
+		<MaxCorridorLength>4</MaxCorridorLength>	
+		<MaxDeadends>10</MaxDeadends>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ClearReward>obj_superchest</ClearReward>
+		<ClearReward>obj_superchest</ClearReward>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<SpawnTable>banditenclave3</SpawnTable>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_katybanditquest</RefName>			
+			<MinDistanceFromStairsUp>8</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>99</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>			
+	</Floor>
+	<Floor>
+		<Level>116</Level>
+		<SideArea />
+		<ChallengeValue>1.1</ChallengeValue>
+		<Size>26</Size>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<Rivers>2</Rivers>
+		<CellChanceToStartAlive>0.5</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.3</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>
+		<Tileset>EARTH</Tileset>
+		<NoSpawner />
+		<CustomName>floor_116_cname</CustomName>
+		<MusicCue>easydungeon</MusicCue>
+		<ClearReward>obj_minisuperchest</ClearReward>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>9</MaxMonsters>
+		<MinSpawnFloor>0</MinSpawnFloor>
+		<MaxSpawnFloor>2</MaxSpawnFloor>
+		<MaxChampions>1</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<SpawnTable>jellygrotto</SpawnTable>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_pinkslimepet</RefName>			
+			<MinDistanceFromStairsUp>15</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>99</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_farmergrotto</RefName>			
+			<MinDistanceFromStairsUp>1</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>2</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>	
+	</Floor>
+	
+	<Floor>
+		<Level>117</Level>
+		<SideArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Size>15</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<NoSpawner />
+		<CustomName>floor_117_cname</CustomName>
+		<MusicCue>easydungeon</MusicCue>
+		<SpecialRoomTemplate>treegrove</SpecialRoomTemplate>
+		<MinSpawnFloor>0</MinSpawnFloor>
+		<MaxSpawnFloor>2</MaxSpawnFloor>
+		<SpawnTable>jellygrotto</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>118</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<FastTravel />
+		<Size>13</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<SpecialRoomTemplate>petshoppe</SpecialRoomTemplate>
+		<CustomName>floor_118_cname</CustomName>		
+		<MusicCue>funmerchant</MusicCue>
+		<MinSpawnFloor>2</MinSpawnFloor>
+		<MaxSpawnFloor>10</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>119</Level>
+		<SideArea />
+		<ChallengeValue>1.5</ChallengeValue>
+		<Size>28</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>REINFORCED</Tileset>
+		<NoSpawner />
+		<ClearReward>obj_superchest</ClearReward>
+		<SpecialRoomTemplate>banditlibrary</SpecialRoomTemplate>
+		<CustomName>floor_119_cname</CustomName>
+		<MinSpawnFloor>9</MinSpawnFloor>
+		<MaxSpawnFloor>18</MaxSpawnFloor>
+		<SpawnTable>jellygrotto</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>121</Level>
+		<SideArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<NoSpawner />
+		<MinRooms>12</MinRooms>
+		<MaxRooms>14</MaxRooms>
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MaxCorridors>3</MaxCorridors>
+		<MaxCorridorLength>6</MaxCorridorLength>		
+		<Size>28</Size>
+		<MaxChampions>1</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>1</ExpectedPlayerLevel>
+		<SpawnTable>cv100</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>165</Level>
+		<SideArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CaveFillConverter>0.11</CaveFillConverter>
+		<CellChanceToStartAlive>0.45</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.45</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.69</CellMaxGroundPercent>
+		<ItemWorld />
+		<NoSpawner />
+		<MinRooms>12</MinRooms>
+		<MaxRooms>14</MaxRooms>
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>28</Size>
+		<MaxChampions>1</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>1</ExpectedPlayerLevel>
+		<SpawnTable>cv100</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>166</Level>
+		<SideArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARD</LayoutType>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<ChanceToOpenWalls>0.08</ChanceToOpenWalls>
+		<MaxSecretAreas>0</MaxSecretAreas>		
+		<MinRooms>7</MinRooms>
+		<MaxRooms>10</MaxRooms>
+		<MaxCorridors>14</MaxCorridors>
+		<MaxDeadends>13</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<ItemWorld />
+		<NoSpawner />
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>28</Size>
+		<MaxChampions>1</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>1</ExpectedPlayerLevel>
+		<SpawnTable>cv100</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>155</Level>
+		<SideArea />
+		<ChallengeValue>1.05</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<NoSpawner />
+		<MinRooms>12</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MaxCorridors>3</MaxCorridors>
+		<MaxCorridorLength>6</MaxCorridorLength>		
+		<Size>29</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>2</ExpectedPlayerLevel>
+		<SpawnTable>cv105</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>167</Level>
+		<SideArea />
+		<ChallengeValue>1.05</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<ItemWorld />
+		<NoSpawner />
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CaveFillConverter>0.06</CaveFillConverter>
+		<CellChanceToStartAlive>0.42</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.40</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>		
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>29</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>2</ExpectedPlayerLevel>
+		<SpawnTable>cv105</SpawnTable>
+	</Floor>	
+	<Floor>
+		<Level>168</Level>
+		<SideArea />
+		<ChallengeValue>1.05</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<ItemWorld />
+		<NoSpawner />
+		<LayoutType>STANDARD</LayoutType>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<ChanceToOpenWalls>0.05</ChanceToOpenWalls>
+		<MaxSecretAreas>0</MaxSecretAreas>		
+		<MinRooms>8</MinRooms>
+		<MaxRooms>11</MaxRooms>
+		<MaxCorridors>14</MaxCorridors>
+		<MaxDeadends>13</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>29</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>2</ExpectedPlayerLevel>
+		<SpawnTable>cv105</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>122</Level>
+		<SideArea />
+		<ChallengeValue>1.1</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>13</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<NoSpawner />
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MaxCorridors>4</MaxCorridors>
+		<MaxCorridorLength>6</MaxCorridorLength>		
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>3</ExpectedPlayerLevel>
+		<SpawnTable>cv110</SpawnTable>		
+	</Floor>
+	<Floor>
+		<Level>169</Level>
+		<SideArea />
+		<ChallengeValue>1.1</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>FUTURENOHALLS</LayoutType>
+		<ItemWorld />
+		<MinRooms>13</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<NoSpawner />
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>3</ExpectedPlayerLevel>
+		<SpawnTable>cv110</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>170</Level>
+		<SideArea />
+		<ChallengeValue>1.1</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>MAZEROOMS</LayoutType>
+		<EvenMonsterDistribution />
+		<ChanceToOpenWalls>0.03</ChanceToOpenWalls>		
+		<MinRooms>5</MinRooms>
+		<MaxRooms>8</MaxRooms>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MaxDeadends>5</MaxDeadends>			
+		<NoSpawner />
+		<ItemWorld />		
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>3</ExpectedPlayerLevel>
+		<SpawnTable>cv110</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>232</Level>
+		<SideArea />
+		<ChallengeValue>1.1</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>BSPROOMS</LayoutType>
+		<EvenMonsterDistribution />
+		<ChanceToOpenWalls>0.1</ChanceToOpenWalls>		
+		<Rivers>1</Rivers>
+		<NoSpawner />
+		<ItemWorld />		
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>3</ExpectedPlayerLevel>
+		<SpawnTable>cv110</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>156</Level>
+		<SideArea />
+		<ChallengeValue>1.15</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>13</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<NoSpawner />
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<MaxCorridors>4</MaxCorridors>
+		<MaxCorridorLength>7</MaxCorridorLength>		
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>4</ExpectedPlayerLevel>
+		<SpawnTable>cv115</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>171</Level>
+		<SideArea />
+		<ChallengeValue>1.15</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<ItemWorld />
+		<NoSpawner />
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<ChanceToOpenWalls>0.02</ChanceToOpenWalls>
+		<MinRooms>19</MinRooms>
+		<MaxRooms>23</MaxRooms>
+		<MaxCorridors>15</MaxCorridors>
+		<MaxCorridorLength>20</MaxCorridorLength>
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>4</ExpectedPlayerLevel>
+		<SpawnTable>cv115</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>172</Level>
+		<SideArea />
+		<ChallengeValue>1.15</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARD</LayoutType>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<ItemWorld />
+		<NoSpawner />
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<ChanceToOpenWalls>0.15</ChanceToOpenWalls>
+		<MinRooms>10</MinRooms>
+		<MaxRooms>14</MaxRooms>
+		<MaxCorridors>15</MaxCorridors>
+		<MaxCorridorLength>20</MaxCorridorLength>
+		<MaxDeadends>2</MaxDeadends>
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>4</ExpectedPlayerLevel>
+		<SpawnTable>cv115</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>123</Level>
+		<SideArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>13</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<NoSpawner />
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<MaxCorridors>4</MaxCorridors>
+		<MaxCorridorLength>7</MaxCorridorLength>		
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>4</ExpectedPlayerLevel>
+		<SpawnTable>cv120</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>173</Level>
+		<SideArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>VOLCANO</LayoutType>
+		<MaxLavaPools>7</MaxLavaPools>
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>1</CellMaxNeighbors>
+		<CellMinNeighbors>5</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>		
+		<CellMinGroundPercent>0.34</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.41</CellMaxGroundPercent>
+		<ItemWorld />
+		<NoSpawner />
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>4</ExpectedPlayerLevel>
+		<SpawnTable>cv120</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>174</Level>
+		<SideArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARD</LayoutType>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<MaxLavaPools>4</MaxLavaPools>
+		<ItemWorld />
+		<NoSpawner />
+		<ChanceToOpenWalls>0.03</ChanceToOpenWalls>
+		<MinRooms>9</MinRooms>
+		<MaxRooms>15</MaxRooms>
+		<MaxCorridors>10</MaxCorridors>
+		<MaxDeadends>5</MaxDeadends>
+		<MaxCorridorLength>30</MaxCorridorLength>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<Size>30</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>4</ExpectedPlayerLevel>
+		<SpawnTable>cv120</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>157</Level>
+		<SideArea />
+		<ChallengeValue>1.25</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>14</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<MaxCorridors>4</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>5</ExpectedPlayerLevel>
+		<SpawnTable>cv125</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>175</Level>
+		<SideArea />
+		<ChallengeValue>1.25</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<Rivers>2</Rivers>
+		<CellChanceToStartAlive>0.5</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.3</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>		
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>5</ExpectedPlayerLevel>
+		<SpawnTable>cv125</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>176</Level>
+		<SideArea />
+		<ChallengeValue>1.25</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<MaxLavaPools>4</MaxLavaPools>
+		<CaveFillConverter>0.15</CaveFillConverter>
+		<CellChanceToStartAlive>0.5</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.3</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>		
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>5</ExpectedPlayerLevel>
+		<SpawnTable>cv125</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>233</Level>
+		<SideArea />
+		<ChallengeValue>1.25</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>BSPROOMS</LayoutType>
+		<MaxLavaPools>4</MaxLavaPools>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<ChanceToOpenWalls>0.05</ChanceToOpenWalls>
+		<EvenMonsterDistribution />
+		<MaxMonsters>12</MaxMonsters>
+		<Size>36</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>5</ExpectedPlayerLevel>
+		<SpawnTable>cv125</SpawnTable>		
+	</Floor>		
+
+	<Floor>
+		<Level>124</Level>
+		<SideArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>14</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxCorridors>4</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>5</ExpectedPlayerLevel>
+		<SpawnTable>cv130</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>177</Level>
+		<SideArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<ChanceToOpenWalls>0.45</ChanceToOpenWalls>
+		<MinRooms>13</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<MaxCorridors>6</MaxCorridors>
+		<MaxDeadends>4</MaxDeadends>
+		<MaxCorridorLength>3</MaxCorridorLength>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>5</ExpectedPlayerLevel>
+		<SpawnTable>cv130</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>178</Level>
+		<SideArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>CAVE</LayoutType>
+		<MinRooms>12</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<PriorityMinimum>3</PriorityMinimum>
+		<CaveFillConverter>0.055</CaveFillConverter>
+		<PriorityRoomTemplate>cave_chunks4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks6</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks7</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks4</PriorityRoomTemplate>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>5</ExpectedPlayerLevel>
+		<SpawnTable>cv130</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>158</Level>
+		<SideArea />
+		<ChallengeValue>1.35</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>14</MinRooms>
+		<MaxRooms>17</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxCorridors>4</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>6</ExpectedPlayerLevel>
+		<SpawnTable>cv135</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>179</Level>
+		<SideArea />
+		<ChallengeValue>1.35</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>CAVE</LayoutType>
+		<ItemWorld />	
+		<MinRooms>12</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<MaxLavaPools>2</MaxLavaPools>
+		<PriorityMinimum>3</PriorityMinimum>
+		<CaveFillConverter>0.085</CaveFillConverter>
+		<PriorityRoomTemplate>cave_chunks4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks6</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks7</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks4</PriorityRoomTemplate>
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>6</ExpectedPlayerLevel>
+		<SpawnTable>cv135</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>180</Level>
+		<SideArea />
+		<ChallengeValue>1.35</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>CAVEROOMS</LayoutType>
+		<RandomWaterPools>12</RandomWaterPools>
+		<ItemWorld />	
+		<PriorityMinimum>2</PriorityMinimum>
+		<MinRooms>5</MinRooms>
+		<MaxRooms>8</MaxRooms>	
+		<CaveFillConverter>0.1</CaveFillConverter>
+		<PriorityRoomTemplate>CR13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR18</PriorityRoomTemplate>
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>6</ExpectedPlayerLevel>
+		<SpawnTable>cv135</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>181</Level>
+		<SideArea />
+		<ChallengeValue>1.35</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>MAZE</LayoutType>
+		<EvenMonsterDistribution />
+		<ItemWorld />	
+		<ChanceToOpenWalls>0.05</ChanceToOpenWalls>
+		<AllowDiagonals />
+		<NoSpawner />		
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<ExpectedPlayerLevel>6</ExpectedPlayerLevel>
+		<SpawnTable>cv135</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>125</Level>
+		<SideArea />
+		<ChallengeValue>1.4</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>14</MinRooms>
+		<MaxRooms>17</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxCorridors>4</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>7</ExpectedPlayerLevel>
+		<SpawnTable>cv140</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>182</Level>
+		<SideArea />
+		<ChallengeValue>1.4</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARD</LayoutType>
+		<MaxSecretAreas>2</MaxSecretAreas>
+	    <ChanceToOpenWalls>0.01</ChanceToOpenWalls>
+		<MinRooms>7</MinRooms>
+		<MaxRooms>10</MaxRooms>
+		<MaxCorridors>2</MaxCorridors>
+		<MaxDeadends>25</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>7</ExpectedPlayerLevel>
+		<SpawnTable>cv140</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>183</Level>
+		<SideArea />
+		<ChallengeValue>1.4</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<ConvertCenterMapToWater />
+		<CaveFillConverter>0.06</CaveFillConverter>
+		<CellChanceToStartAlive>0.61</CellChanceToStartAlive>
+		<CellMaxNeighbors>6</CellMaxNeighbors>
+		<CellMinNeighbors>4</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>
+		<CellMinGroundPercent>0.1</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.9</CellMaxGroundPercent>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>32</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>7</ExpectedPlayerLevel>
+		<SpawnTable>cv140</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>234</Level>
+		<SideArea />
+		<ChallengeValue>1.4</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>BSPROOMS</LayoutType>
+		<EvenMonsterDistribution />
+		<ChanceToOpenWalls>0.12</ChanceToOpenWalls>
+		<AddStumps>0.03</AddStumps>		
+		<Rivers>2</Rivers>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>38</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>7</ExpectedPlayerLevel>
+		<SpawnTable>cv140</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>159</Level>
+		<SideArea />
+		<ChallengeValue>1.45</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>15</MinRooms>
+		<MaxRooms>18</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>8</ExpectedPlayerLevel>
+		<SpawnTable>cv145</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>184</Level>
+		<SideArea />
+		<ChallengeValue>1.45</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>VOLCANO</LayoutType>
+		<ItemWorld />
+		<MaxLavaPools>7</MaxLavaPools>
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>1</CellMaxNeighbors>
+		<CellMinNeighbors>5</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>		
+		<CellMinGroundPercent>0.34</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.41</CellMaxGroundPercent>	
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>8</ExpectedPlayerLevel>
+		<SpawnTable>cv145</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>185</Level>
+		<SideArea />
+		<ChallengeValue>1.45</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<LayoutType>HIVES</LayoutType>
+		<PriorityMinimum>3</PriorityMinimum>
+		<PriorityRoomTemplate>HRoom11</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom12</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom18</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom19</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom20</PriorityRoomTemplate>
+		<ChanceToOpenWalls>0.1</ChanceToOpenWalls>
+		<MaxCorridors>14</MaxCorridors>
+		<MaxCorridorLength>14</MaxCorridorLength>
+		<MinRooms>14</MinRooms>
+		<MaxRooms>19</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>8</ExpectedPlayerLevel>
+		<SpawnTable>cv145</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>126</Level>
+		<SideArea />
+		<ChallengeValue>1.5</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>15</MinRooms>
+		<MaxRooms>18</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>8</ExpectedPlayerLevel>
+		<SpawnTable>cv150</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>186</Level>
+		<SideArea />
+		<ChallengeValue>1.5</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />
+		<LayoutType>CAVEROOMS</LayoutType>
+		<PriorityMinimum>2</PriorityMinimum>
+		<MinRooms>9</MinRooms>
+		<MaxRooms>12</MaxRooms>	
+		<CaveFillConverter>0.1</CaveFillConverter>
+		<PriorityRoomTemplate>CR13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR18</PriorityRoomTemplate>
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>8</ExpectedPlayerLevel>
+		<SpawnTable>cv150</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>187</Level>
+		<SideArea />
+		<ChallengeValue>1.5</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />
+		<LayoutType>AUTOCAVE</LayoutType>
+		<Rivers>1</Rivers>
+		<CaveFillConverter>0.11</CaveFillConverter>
+		<CellChanceToStartAlive>0.45</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.45</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.69</CellMaxGroundPercent>
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>8</ExpectedPlayerLevel>
+		<SpawnTable>cv150</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>160</Level>
+		<SideArea />
+		<ChallengeValue>1.55</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>16</MinRooms>
+		<MaxRooms>18</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>34</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>9</ExpectedPlayerLevel>
+		<SpawnTable>cv155</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>188</Level>
+		<SideArea />
+		<ChallengeValue>1.55</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<ItemWorld />
+		<LayoutType>MAZEROOMS</LayoutType>
+		<ChanceToOpenWalls>0.06</ChanceToOpenWalls>		
+		<EvenMonsterDistribution />
+		<MinRooms>7</MinRooms>
+		<MaxRooms>10</MaxRooms>
+		<NoSpawner />
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MaxDeadends>5</MaxDeadends>			
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>9</ExpectedPlayerLevel>
+		<SpawnTable>cv155</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>189</Level>
+		<SideArea />
+		<ChallengeValue>1.55</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<ItemWorld />
+		<LayoutType>CAVE</LayoutType>
+		<MaxLavaPools>3</MaxLavaPools>
+		<MinRooms>14</MinRooms>
+		<MaxRooms>17</MaxRooms>
+		<PriorityMinimum>3</PriorityMinimum>
+		<CaveFillConverter>0.055</CaveFillConverter>
+		<PriorityRoomTemplate>cave_chunks4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks6</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks7</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks4</PriorityRoomTemplate>
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>9</ExpectedPlayerLevel>
+		<SpawnTable>cv155</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>235</Level>
+		<SideArea />
+		<ChallengeValue>1.55</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<ItemWorld />
+		<LayoutType>BSPROOMS</LayoutType>
+		<ChanceToOpenWalls>0.1</ChanceToOpenWalls>		
+		<EvenMonsterDistribution />
+		<MinRooms>7</MinRooms>
+		<MaxRooms>10</MaxRooms>
+		<NoSpawner />
+		<Size>38</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>9</ExpectedPlayerLevel>
+		<SpawnTable>cv155</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>127</Level>
+		<SideArea />
+		<ChallengeValue>1.6</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>16</MinRooms>
+		<MaxRooms>18</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>34</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>9</ExpectedPlayerLevel>
+		<SpawnTable>cv160</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>190</Level>
+		<SideArea />
+		<ChallengeValue>1.6</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<MinRooms>14</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>6</MaxCorridorLength>	
+		<MaxDeadends>6</MaxDeadends>		
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>9</ExpectedPlayerLevel>
+		<SpawnTable>cv160</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>191</Level>
+		<SideArea />
+		<ChallengeValue>1.6</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>2</CellMaxNeighbors>
+		<CellMinNeighbors>6</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>		
+		<CellMinGroundPercent>0.25</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.99</CellMaxGroundPercent>	
+		<NoSpawner />		
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<Size>34</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>9</ExpectedPlayerLevel>
+		<SpawnTable>cv160</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>161</Level>
+		<SideArea />
+		<ChallengeValue>1.65</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>17</MinRooms>
+		<MaxRooms>19</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>14</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>36</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>10</ExpectedPlayerLevel>
+		<SpawnTable>cv165</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>192</Level>
+		<SideArea />
+		<ChallengeValue>1.65</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<NoSpawner />
+		<ItemWorld />
+		<LayoutType>AUTOCAVE</LayoutType>
+		<ConvertCenterMapToWater />
+		<CaveFillConverter>0.06</CaveFillConverter>
+		<CellChanceToStartAlive>0.61</CellChanceToStartAlive>
+		<CellMaxNeighbors>6</CellMaxNeighbors>
+		<CellMinNeighbors>4</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>
+		<CellMinGroundPercent>0.1</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.9</CellMaxGroundPercent>
+		<MinMonsters>14</MinMonsters>
+		<MaxMonsters>16</MaxMonsters>
+		<Size>36</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>10</ExpectedPlayerLevel>
+		<SpawnTable>cv165</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>128</Level>
+		<SideArea />
+		<ChallengeValue>1.7</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>17</MinRooms>
+		<MaxRooms>19</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>14</MinMonsters>
+		<MaxMonsters>17</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>36</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>11</ExpectedPlayerLevel>
+		<SpawnTable>cv170</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>193</Level>
+		<SideArea />
+		<ChallengeValue>1.7</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />
+		<LayoutType>STANDARD</LayoutType>		
+		<ChanceToOpenWalls>0.03</ChanceToOpenWalls>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<MinRooms>18</MinRooms>
+		<MaxRooms>24</MaxRooms>
+		<MaxCorridors>25</MaxCorridors>
+		<MaxDeadends>5</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>		
+		<MinMonsters>14</MinMonsters>
+		<MaxMonsters>17</MaxMonsters>
+		<Size>36</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>11</ExpectedPlayerLevel>
+		<SpawnTable>cv170</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>194</Level>
+		<SideArea />
+		<ChallengeValue>1.7</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />
+		<LayoutType>FUTURENOHALLS</LayoutType>		
+		<MinRooms>16</MinRooms>
+		<MaxRooms>19</MaxRooms>
+		<MaxCorridors>25</MaxCorridors>
+		<MaxDeadends>5</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MinMonsters>14</MinMonsters>
+		<MaxMonsters>17</MaxMonsters>
+		<Size>36</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>11</ExpectedPlayerLevel>
+		<SpawnTable>cv170</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>236</Level>
+		<SideArea />
+		<ChallengeValue>1.7</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />
+		<LayoutType>BSPROOMS</LayoutType>		
+		<Rivers>1</Rivers>
+		<ChanceToOpenWalls>0.04</ChanceToOpenWalls>
+		<EvenMonsterDistribution />
+		<MinMonsters>14</MinMonsters>
+		<MaxMonsters>17</MaxMonsters>
+		<Size>40</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>11</ExpectedPlayerLevel>
+		<SpawnTable>cv170</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>129</Level>
+		<SideArea />
+		<ChallengeValue>1.5</ChallengeValue>
+		<Size>20</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>EARTH</Tileset>
+		<NoSpawner />
+		<ClearReward>obj_superchest</ClearReward>
+		<SpecialRoomTemplate>spiderlair</SpecialRoomTemplate>
+		<CustomName>floor_129_cname</CustomName>
+		<MinSpawnFloor>8</MinSpawnFloor>
+		<MaxSpawnFloor>16</MaxSpawnFloor>
+		<SpawnTable>jellygrotto</SpawnTable>
+	</Floor>
+
+	<Floor>
+		<Level>162</Level>
+		<SideArea />
+		<ChallengeValue>1.75</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>18</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>17</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>39</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>12</ExpectedPlayerLevel>
+		<SpawnTable>cv175</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>195</Level>
+		<SideArea />
+		<ChallengeValue>1.75</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>17</MaxMonsters>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CellChanceToStartAlive>0.5</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.3</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.75</CellMaxGroundPercent>
+		<Size>39</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>12</ExpectedPlayerLevel>
+		<SpawnTable>cv175</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>196</Level>
+		<SideArea />
+		<ChallengeValue>1.75</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>17</MaxMonsters>
+		<LayoutType>VOLCANO</LayoutType>
+		<MaxLavaPools>7</MaxLavaPools>
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>1</CellMaxNeighbors>
+		<CellMinNeighbors>5</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>		
+		<CellMinGroundPercent>0.34</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.41</CellMaxGroundPercent>
+		<Size>39</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>12</ExpectedPlayerLevel>
+		<SpawnTable>cv175</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>130</Level>
+		<SideArea />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>18</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>39</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<SpawnTable>cv180</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>197</Level>
+		<SideArea />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<Rivers>2</Rivers>		
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<LayoutType>CAVE</LayoutType>
+		<MinRooms>17</MinRooms>
+		<MaxRooms>19</MaxRooms>
+		<PriorityMinimum>4</PriorityMinimum>
+		<CaveFillConverter>0.09</CaveFillConverter>
+		<PriorityRoomTemplate>cave_chunks4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks6</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks7</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks4</PriorityRoomTemplate>
+		<Size>39</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<SpawnTable>cv180</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>198</Level>
+		<SideArea />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<Rivers>1</Rivers>		
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<LayoutType>MAZEROOMS</LayoutType>
+		<EvenMonsterDistribution />
+		<ChanceToOpenWalls>0.1</ChanceToOpenWalls>
+		<MinRooms>9</MinRooms>
+		<MaxRooms>14</MaxRooms>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MaxDeadends>5</MaxDeadends>		
+		<Size>39</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<SpawnTable>cv180</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>163</Level>
+		<SideArea />
+		<ChallengeValue>1.85</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>18</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>40</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>14</ExpectedPlayerLevel>
+		<SpawnTable>cv185</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>199</Level>
+		<SideArea />
+		<ChallengeValue>1.85</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<ChanceToOpenWalls>0.2</ChanceToOpenWalls>
+		<MinRooms>25</MinRooms>
+		<MaxRooms>28</MaxRooms>
+		<MaxCorridors>8</MaxCorridors>
+		<MaxCorridorLength>9</MaxCorridorLength>
+		<Size>40</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>14</ExpectedPlayerLevel>
+		<SpawnTable>cv185</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>201</Level>
+		<SideArea />
+		<ChallengeValue>1.85</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CaveFillConverter>0.11</CaveFillConverter>
+		<CellChanceToStartAlive>0.45</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.45</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.69</CellMaxGroundPercent>
+		<Size>40</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>14</ExpectedPlayerLevel>
+		<SpawnTable>cv185</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>237</Level>
+		<SideArea />
+		<ChallengeValue>1.85</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<LayoutType>BSPROOMS</LayoutType>
+		<ChanceToOpenWalls>0.2</ChanceToOpenWalls>
+		<EvenMonsterDistribution />
+		<Size>42</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>14</ExpectedPlayerLevel>
+		<SpawnTable>cv185</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>164</Level>
+		<SideArea />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>ISLANDS</LayoutType>
+		<ItemWorld />
+		<MinRooms>18</MinRooms>
+		<MaxRooms>21</MaxRooms>
+		<NoSpawner />		
+		<MinMonsters>16</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>8</MaxCorridorLength>		
+		<Size>41</Size>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>15</ExpectedPlayerLevel>
+		<SpawnTable>cv190</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>202</Level>
+		<SideArea />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>16</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<LayoutType>HIVES</LayoutType>
+		<PriorityMinimum>3</PriorityMinimum>
+		<PriorityRoomTemplate>HRoom11</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom12</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom18</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom19</PriorityRoomTemplate>
+		<PriorityRoomTemplate>HRoom20</PriorityRoomTemplate>
+		<ChanceToOpenWalls>0.15</ChanceToOpenWalls>
+		<MaxCorridors>19</MaxCorridors>
+		<MaxCorridorLength>19</MaxCorridorLength>
+		<MinRooms>17</MinRooms>
+		<MaxRooms>22</MaxRooms>
+		<Size>41</Size>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>15</ExpectedPlayerLevel>
+		<SpawnTable>cv190</SpawnTable>		
+	</Floor>
+
+	<Floor>
+		<Level>203</Level>
+		<SideArea />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>VOID</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<NoSpawner />		
+		<MinMonsters>16</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<LayoutType>MAZEROOMS</LayoutType>
+		<ChanceToOpenWalls>0.16</ChanceToOpenWalls>		
+		<EvenMonsterDistribution />
+		<MinRooms>14</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MaxDeadends>5</MaxDeadends>		
+		<Size>41</Size>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>15</ExpectedPlayerLevel>
+		<SpawnTable>cv190</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>131</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<FastTravel />		
+		<Size>12</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>COBBLE</Tileset>
+		<SpecialRoomTemplate>magicmerchant1</SpecialRoomTemplate>
+		<CustomName>floor_131_cname</CustomName>
+		<MinSpawnFloor>3</MinSpawnFloor>
+		<MaxSpawnFloor>12</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>132</Level>
+		<SideArea />
+		<NoRewardPopup />
+		<ChallengeValue>1.5</ChallengeValue>
+		<StairsDownToLevel>133</StairsDownToLevel>
+		<Tileset>RUINED</Tileset>
+		<LayoutType>FUTURENOHALLS</LayoutType>
+		<CustomName>floor_132_cname</CustomName>
+		<NoSpawner />
+		<ChanceToOpenWalls>0</ChanceToOpenWalls>
+		<MinRooms>17</MinRooms>
+		<MaxRooms>23</MaxRooms>
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<MinSpawnFloor>11</MinSpawnFloor>
+		<MaxSpawnFloor>18</MaxSpawnFloor>		
+		<Size>32</Size>
+		<SpawnTable>abandonedfacility1</SpawnTable>	
+	</Floor>
+	<Floor>
+		<Level>133</Level>
+		<SideArea />
+		<ChallengeValue>1.6</ChallengeValue>
+		<StairsUpToLevel>132</StairsUpToLevel>
+		<Tileset>RUINED</Tileset>
+		<LayoutType>FUTURENOHALLS</LayoutType>
+		<CustomName>floor_133_cname</CustomName>
+		<DeepSideAreaFloor />
+		<NoSpawner />
+		<ChanceToOpenWalls>0</ChanceToOpenWalls>
+		<MinRooms>19</MinRooms>
+		<MaxRooms>25</MaxRooms>
+		<ClearReward>obj_superchest</ClearReward>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>14</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<Size>36</Size>
+		<SpawnTable>abandonedfacility2</SpawnTable>	
+	</Floor>
+	<Floor>
+		<Level>134</Level>
+		<ChallengeValue>1.3</ChallengeValue>
+		<UnbreakableWalls />
+		<Size>33</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<SpecialRoomTemplate>postgolembranch</SpecialRoomTemplate>
+		<RevealAll />
+		<SafeArea />
+		<ImageOverlay>branch-1</ImageOverlay>
+		<ExtraOverlay>Branch1RiverAnimBottom</ExtraOverlay>
+		<ExtraOverlay>Branch1RiverAnimTop</ExtraOverlay>
+		<ImageOverlayOffsetX>0.1</ImageOverlayOffsetX>
+		<FastTravel />
+		<CustomName>floor_134_cname</CustomName>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<MusicCue>postboss</MusicCue>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>135</Level>
+		<TextOverlay>
+			<RefName>entertext_fungalcaves</RefName>
+			<Name>floor_135_oname</Name>
+			<Text>floor_135_otxt</Text>
+		</TextOverlay>			
+		<ChallengeValue>1.3</ChallengeValue>
+		<AltPath>6</AltPath>
+		<CustomName>floor_135_cname</CustomName>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<Rivers>1</Rivers>
+		<SpawnRateModifier>0.4</SpawnRateModifier>
+		<ConvertCenterMapToWater />
+		<CaveFillConverter>0.03</CaveFillConverter>
+		<CellChanceToStartAlive>0.61</CellChanceToStartAlive>
+		<CellMaxNeighbors>6</CellMaxNeighbors>
+		<CellMinNeighbors>4</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>
+		<CellMinGroundPercent>0.1</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.9</CellMaxGroundPercent>
+		<StairsUpToLevel>134</StairsUpToLevel>
+		<StairsDownToLevel>136</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<Tileset>MOSS</Tileset>
+		<HasFungus />
+		<MusicCue>passageway</MusicCue>
+		<MinMonsters>6</MinMonsters>
+		<MaxMonsters>6</MaxMonsters>
+		<Size>36</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>fungalcaves1</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>136</Level>
+		<ChallengeValue>1.3</ChallengeValue>
+		<AltPath>7</AltPath>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<Rivers>1</Rivers>
+		<StairsUpToLevel>135</StairsUpToLevel>
+		<StairsDownToLevel>137</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<Tileset>MOSS</Tileset>
+		<CustomName>floor_135_cname</CustomName>
+		<MusicCue>passageway</MusicCue>
+		<SpawnRateModifier>0.5</SpawnRateModifier>
+		<HasFungus />
+		<ConvertCenterMapToWater />
+		<CaveFillConverter>0.06</CaveFillConverter>
+		<CellChanceToStartAlive>0.61</CellChanceToStartAlive>
+		<CellMaxNeighbors>6</CellMaxNeighbors>
+		<CellMinNeighbors>4</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>
+		<CellMinGroundPercent>0.1</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.9</CellMaxGroundPercent>
+		<StairsUpToLevel>135</StairsUpToLevel>
+		<StairsDownToLevel>137</StairsDownToLevel>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>7</MaxMonsters>
+		<Size>38</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>fungalcaves2</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>137</Level>
+		<ChallengeValue>1.4</ChallengeValue>
+		<AltPath>8</AltPath>
+		<LayoutType>CAVE</LayoutType>
+		<PriorityMinimum>4</PriorityMinimum>
+		<CaveFillConverter>0.055</CaveFillConverter>
+		<PriorityRoomTemplate>cave_bigchunks</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks6</PriorityRoomTemplate>
+		<MinRooms>16</MinRooms>
+		<MaxRooms>19</MaxRooms>
+		<SpawnRateModifier>0.65</SpawnRateModifier>
+		<Rivers>4</Rivers>
+		<StairsUpToLevel>136</StairsUpToLevel>
+		<StairsDownToLevel>138</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<Tileset>MOSS</Tileset>
+		<CustomName>floor_135_cname</CustomName>
+		<MusicCue>passageway</MusicCue>
+		<HasFungus />
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>7</MaxMonsters>
+		<Size>42</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>fungalcaves3</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>138</Level>
+		<ChallengeValue>1.4</ChallengeValue>
+		<AltPath>9</AltPath>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<Rivers>2</Rivers>
+		<Tileset>EARTH</Tileset>
+		<CustomName>floor_135_cname</CustomName>
+		<MusicCue>passageway</MusicCue>
+		<HasFungus />
+		<SpawnRateModifier>0.5</SpawnRateModifier>
+		<StairsUpToLevel>137</StairsUpToLevel>
+		<StairsDownToLevel>205</StairsDownToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>2</CellMaxNeighbors>
+		<CellMinNeighbors>6</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>		
+		<CellMinGroundPercent>0.25</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.99</CellMaxGroundPercent>
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>8</MaxMonsters>
+		<Size>44</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>		
+		<SpawnTable>fungalcaves4</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>139</Level>
+		<SideArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<Size>18</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>EARTH</Tileset>
+		<SpecialRoomTemplate>buriedloot</SpecialRoomTemplate>
+		<CustomName>floor_139_cname</CustomName>
+		<MusicCue>funmerchant</MusicCue>
+		<MinSpawnFloor>5</MinSpawnFloor>
+		<MaxSpawnFloor>14</MaxSpawnFloor>
+		<SpawnTable>jellygrotto</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>213</Level>
+		<SideArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Size>16</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<NoSpawner />
+		<MusicCue>easydungeon</MusicCue>
+		<CustomName>floor_213_cname</CustomName>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<UnbreakableWalls />
+		<RevealAll />
+		<ImageOverlay>love-garden</ImageOverlay>
+		<SpecialRoomTemplate>romanceroom</SpecialRoomTemplate>
+		<MinSpawnFloor>3</MinSpawnFloor>
+		<MaxSpawnFloor>3</MaxSpawnFloor>
+		<SpawnTable>jellygrotto</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>140</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Size>10</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<NoSpawner />		
+		<MusicCue>funmerchant</MusicCue>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<CustomName>floor_140_cname</CustomName>
+		<ImageOverlay>carrot-patch</ImageOverlay>
+		<SpecialRoomTemplate>carrotpatch</SpecialRoomTemplate>
+		<RevealAll />
+		<MinSpawnFloor>0</MinSpawnFloor>
+		<MaxSpawnFloor>4</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>141</Level>
+		<ChallengeValue>1.4</ChallengeValue>
+		<LayoutType>VOLCANO</LayoutType>
+		<Tileset>VOLCANO</Tileset>
+		<SideArea />
+		<CustomName>floor_141_cname</CustomName>
+		<StairsDownToLevel>142</StairsDownToLevel>
+		<MaxLavaPools>11</MaxLavaPools>
+		<MinSpawnFloor>7</MinSpawnFloor>
+		<MaxSpawnFloor>15</MaxSpawnFloor>		
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>1</CellMaxNeighbors>
+		<CellMinNeighbors>5</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>		
+		<CellMinGroundPercent>0.34</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.41</CellMaxGroundPercent>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<Size>44</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>		
+		<SpawnTable>magmachamber1</SpawnTable>
+		<SpawnActor>
+			<ActorType>NPC</ActorType>
+			<RefName>npc_milbereth</RefName>			
+			<MinDistanceFromStairsUp>1</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>1</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>
+	</Floor>
+	<Floor>
+		<Level>142</Level>
+		<ChallengeValue>1.5</ChallengeValue>
+		<LayoutType>VOLCANO</LayoutType>
+		<Tileset>VOLCANO</Tileset>
+		<StairsUpToLevel>141</StairsUpToLevel>
+		<SideArea />
+		<CustomName>floor_142_cname</CustomName>
+		<DeepSideAreaFloor />
+		<MaxLavaPools>12</MaxLavaPools>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>1</CellMaxNeighbors>
+		<CellMinNeighbors>5</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>		
+		<CellMinGroundPercent>0.34</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.41</CellMaxGroundPercent>
+		<ClearReward>obj_superchest</ClearReward>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>14</MaxMonsters>
+		<Size>46</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>		
+		<SpawnTable>magmachamber2</SpawnTable>
+		<SpawnActor>
+			<ActorType>DESTRUCTIBLE</ActorType>
+			<RefName>obj_oriore</RefName>			
+			<MinDistanceFromStairsUp>8</MinDistanceFromStairsUp>
+			<MaxDistanceFromStairsUp>99</MaxDistanceFromStairsUp>
+			<SpawnChance>1.0</SpawnChance>
+		</SpawnActor>		
+	</Floor>
+	<Floor>
+		<Level>143</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Size>10</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>VOLCANO</Tileset>
+		<NoSpawner />		
+		<CustomName>floor_143_cname</CustomName>
+		<SpecialRoomTemplate>moonrabbit</SpecialRoomTemplate>
+		<MinSpawnFloor>2</MinSpawnFloor>
+		<MaxSpawnFloor>18</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>144</Level>
+		<SideArea />
+		<ChallengeValue>1.0</ChallengeValue>
+		<Size>10</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<NoSpawner />
+		<SafeArea />
+		<MusicCue>grovetheme</MusicCue>
+		<CustomName>des_obj_campfire_dname</CustomName>
+		<SpecialRoomTemplate>campfire</SpecialRoomTemplate>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>145</Level>
+		<ChallengeValue>1.2</ChallengeValue>
+		<Tileset>STONE</Tileset>
+		<SideArea />
+		<BonusSparkles>6</BonusSparkles>
+		<EvenMonsterDistribution />
+		<NoSpawner />
+		<AllowDiagonals />
+		<LayoutType>MAZE</LayoutType>
+		<CustomName>floor_145_cname</CustomName>
+		<ClearReward>obj_minisuperchest</ClearReward>
+		<MinMonsters>21</MinMonsters>
+		<MaxMonsters>25</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<MinSpawnFloor>1</MinSpawnFloor>
+		<MaxSpawnFloor>3</MaxSpawnFloor>		
+		<Size>36</Size>
+		<SpawnTable>spinymaze</SpawnTable>		
+	</Floor>
+	<Floor>
+		<Level>146</Level>
+		<ChallengeValue>1.5</ChallengeValue>
+		<UnbreakableWalls />
+		<Size>26</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<SpecialRoomTemplate>postspiritsbranch</SpecialRoomTemplate>
+		<SafeArea />
+		<CustomName>floor_146_cname</CustomName>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<ImageOverlay>Passage2-BG1</ImageOverlay>
+		<ImageOverlayOffsetX>-0.5</ImageOverlayOffsetX>
+		<ImageOverlayOffsetY>0.5</ImageOverlayOffsetY>	
+		<ExtraOverlay>Passage2-FarBG</ExtraOverlay>
+		<FastTravel />
+		<MusicCue>sharatheme1</MusicCue>
+		<RevealAll />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>151</Level>
+		<AltPath>11</AltPath>
+		<ChallengeValue>1.5</ChallengeValue>
+		<Tileset>RUINED</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_151_cname</CustomName>
+		<ChanceToOpenWalls>0.07</ChanceToOpenWalls>
+		<SpawnRateModifier>0.5</SpawnRateModifier>
+		<LayoutType>MAZE</LayoutType>
+		<EvenMonsterDistribution />
+		<AllowDiagonals />
+		<MinMonsters>18</MinMonsters>
+		<MaxMonsters>21</MaxMonsters>
+		<Size>40</Size>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>	
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<StairsUpToLevel>146</StairsUpToLevel>
+		<StairsDownToLevel>152</StairsDownToLevel>
+		<SpawnTable>ancientruins1</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>152</Level>
+		<AltPath>12</AltPath>
+		<ChallengeValue>1.5</ChallengeValue>
+		<Tileset>RUINED</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_151_cname</CustomName>
+		<ChanceToOpenWalls>0.04</ChanceToOpenWalls>
+		<SpawnRateModifier>0.5</SpawnRateModifier>
+		<LayoutType>MAZE</LayoutType>
+		<AllowDiagonals />
+		<MinMonsters>19</MinMonsters>
+		<MaxMonsters>24</MaxMonsters>
+		<Size>40</Size>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<StairsUpToLevel>151</StairsUpToLevel>
+		<StairsDownToLevel>153</StairsDownToLevel>
+		<SpawnTable>ancientruins2</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>153</Level>
+		<AltPath>13</AltPath>
+		<ChallengeValue>1.6</ChallengeValue>		
+		<Tileset>RUINED</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_151_cname</CustomName>
+		<EvenMonsterDistribution />
+		<LayoutType>MAZEROOMS</LayoutType>
+		<ChanceToOpenWalls>0.03</ChanceToOpenWalls>
+		<SpawnRateModifier>0.5</SpawnRateModifier>
+		<Size>42</Size>
+		<MinMonsters>21</MinMonsters>
+		<MaxMonsters>24</MaxMonsters>		
+		<MinRooms>9</MinRooms>
+		<MaxRooms>13</MaxRooms>	
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MaxDeadends>5</MaxDeadends>			
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<StairsUpToLevel>152</StairsUpToLevel>
+		<StairsDownToLevel>154</StairsDownToLevel>		
+		<SpawnTable>ancientruins3</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>154</Level>
+		<AltPath>14</AltPath>
+		<ChallengeValue>1.6</ChallengeValue>
+		<CustomName>floor_151_cname</CustomName>
+		<Tileset>RUINED</Tileset>
+		<LayoutType>MAZEROOMS</LayoutType>
+		<ChanceToOpenWalls>0.015</ChanceToOpenWalls>
+		<SpawnRateModifier>0.5</SpawnRateModifier>
+		<Size>42</Size>
+		<EvenMonsterDistribution />
+		<MinMonsters>20</MinMonsters>
+		<MaxMonsters>23</MaxMonsters>		
+		<MinRooms>8</MinRooms>
+		<MaxRooms>13</MaxRooms>		
+		<MaxCorridors>5</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MaxDeadends>5</MaxDeadends>	
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<StairsUpToLevel>153</StairsUpToLevel>
+		<StairsDownToLevel>228</StairsDownToLevel>
+		<SpawnTable>ancientruins4</SpawnTable>
+	</Floor>	
+	<Floor>
+		<Level>200</Level>
+		<ChallengeValue>1.0</ChallengeValue>
+		<UnbreakableWalls />
+		<ExcludeFromRumors />
+		<Size>20</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<SpecialRoomTemplate>tutorial1</SpecialRoomTemplate>
+		<CustomName>floor_200_cname</CustomName>
+		<MusicCue>easydungeon</MusicCue>
+	</Floor>
+	<Floor>
+		<Level>100</Level>
+		<TextOverlay>
+			<RefName>intro_custom</RefName>
+			<Name>floor_100_oname</Name>
+			<Text>floor_100_otxt</Text>
+		</TextOverlay>				
+		<ChallengeValue>1.0</ChallengeValue>
+		<UnbreakableWalls />
+		<Size>32</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>EARTH</Tileset>
+		<MusicCue>towntheme1</MusicCue>
+		<Tileset>SPECIAL</Tileset>
+		<SafeArea />
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<SpecialRoomTemplate>town1hub</SpecialRoomTemplate>
+		<ImageOverlay>TownScene</ImageOverlay>
+		<AlternateMusicCue>
+			<Season>LUNAR_NEW_YEAR</Season>
+			<CueName>lunartown</CueName>
+		</AlternateMusicCue>	
+		<SeasonalOverlay>
+			<Season>HALLOWEEN</Season>
+			<ReplaceNormalOverlay />
+			<SeasonalImage>camp_halloween</SeasonalImage>
+		</SeasonalOverlay>
+		<SeasonalOverlay>
+			<Season>LUNAR_NEW_YEAR</Season>
+			<ReplaceNormalOverlay />
+			<SeasonalImage>camp_lunarnewyear_bottom</SeasonalImage>
+		</SeasonalOverlay>
+		<SeasonalOverlay>
+			<Season>LUNAR_NEW_YEAR</Season>
+			<SeasonalImage>camp_lunarnewyear_top_prefab</SeasonalImage>
+		</SeasonalOverlay>		
+		<ExtraOverlay>TownSceneWaterfall</ExtraOverlay>
+		<ExtraOverlay>TownSceneDoubleWaterfall</ExtraOverlay>
+		<ExtraOverlay>TownSceneRiverBottom</ExtraOverlay>
+		<RevealAll />
+		<CustomName>floor_100_cname</CustomName>
+	</Floor>
+	<Floor>
+		<Level>150</Level>
+		<ChallengeValue>1.0</ChallengeValue>
+		<UnbreakableWalls />
+		<Size>46</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>EARTH</Tileset>
+		<MusicCue>grovetheme</MusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>begin_frog_event_grove</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<ReqPlayerFlagMeta>1</ReqPlayerFlagMeta>
+			<CueName>grovethemeredux</CueName>
+		</AlternateMusicCue>		
+		<Tileset>SPECIAL</Tileset>
+		<SafeArea />
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<SpecialRoomTemplate>town1expansion</SpecialRoomTemplate>
+		<ExtraOverlay>GroveSceneRiver</ExtraOverlay>
+		<ExtraOverlay>GroveSceneBarrel</ExtraOverlay>
+		<ImageOverlay>TownScene2</ImageOverlay>
+		<RevealAll />
+		<CustomName>floor_150_cname</CustomName>
+	</Floor>
+	<Floor>
+		<Level>0</Level>
+		<TextOverlay>
+			<RefName>entertext_follies</RefName>
+			<Name>floor_0_oname</Name>
+			<Text>floor_0_otxt</Text>
+		</TextOverlay>		
+		<ChallengeValue>1.00</ChallengeValue>
+		<LayoutType>AUTOCAVE</LayoutType>	
+		<NoSpawner />	
+		<Rivers>1</Rivers>
+		<AllowPlanks />
+		<CaveFillConverter>0.11</CaveFillConverter>
+		<CellChanceToStartAlive>0.45</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.45</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.69</CellMaxGroundPercent>
+		<CustomName>floor_0_cname</CustomName>
+		<Tileset>LUSHGREEN</Tileset>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>8</MaxMonsters>
+		<MaxChampions>0</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<Size>30</Size>
+		<SpawnTable>cv100</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>1</Level>
+		<ChallengeValue>1.1</ChallengeValue>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<NoSpawner />
+		<Rivers>2</Rivers>
+		<AllowPlanks />
+		<CaveFillConverter>0.11</CaveFillConverter>
+		<CellChanceToStartAlive>0.45</CellChanceToStartAlive>
+		<CellMaxNeighbors>4</CellMaxNeighbors>
+		<CellMinNeighbors>3</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>
+		<CellMinGroundPercent>0.45</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.69</CellMaxGroundPercent>
+		<CustomName>floor_0_cname</CustomName>		
+		<Tileset>LUSHGREEN</Tileset>
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>10</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<Size>32</Size>
+		<SpawnTable>floor1</SpawnTable>
+	</Floor>	
+	<Floor>
+		<Level>2</Level>
+		<ChallengeValue>1.1</ChallengeValue>
+		<LayoutType>CAVE</LayoutType>
+		<Size>34</Size>
+		<Tileset>LUSHGREEN</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_0_cname</CustomName>
+		<MaxLavaPools>5</MaxLavaPools>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<MinRooms>12</MinRooms>
+		<MaxRooms>16</MaxRooms>
+		<PriorityMinimum>3</PriorityMinimum>
+		<CaveFillConverter>0.055</CaveFillConverter>
+		<PriorityRoomTemplate>cave_chunks4</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks5</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks6</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_chunks7</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>cave_bigchunks4</PriorityRoomTemplate>				
+		<SpawnTable>floor2</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>3</Level>
+		<ChallengeValue>1.20</ChallengeValue>
+		<LayoutType>LAKE</LayoutType>	
+		<Tileset>SLATE</Tileset>
+		<SpawnRateModifier>0.75</SpawnRateModifier>
+		<CaveFillConverter>0.07</CaveFillConverter>
+		<CellChanceToStartAlive>0.6</CellChanceToStartAlive>
+		<CellMaxNeighbors>5</CellMaxNeighbors>
+		<CellMinNeighbors>5</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>
+		<CellMinGroundPercent>0.1</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.9</CellMaxGroundPercent>		
+		<PriorityMinimum>2</PriorityMinimum>
+		<PriorityRoomTemplate>lake1</PriorityRoomTemplate>
+		<PriorityRoomTemplate>lake12</PriorityRoomTemplate>
+		<PriorityRoomTemplate>lake14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>lake15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>lake18</PriorityRoomTemplate>
+		<MinRooms>8</MinRooms>
+		<MaxRooms>10</MaxRooms>
+		<CustomName>floor_0_cname</CustomName>
+		<Size>40</Size>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<SpawnTable>floor3</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>4</Level>
+		<ChallengeValue>1.20</ChallengeValue>
+		<LayoutType>STANDARDNOHALLS</LayoutType>	
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<ChanceToOpenWalls>0.2</ChanceToOpenWalls>
+		<Tileset>SLATE</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_0_cname</CustomName>
+		<Size>40</Size>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>8</MaxMonsters>
+		<MinRooms>16</MinRooms>
+		<MaxRooms>19</MaxRooms>		
+		<MaxCorridors>7</MaxCorridors>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>1</MaxChampionMods>
+		<SpawnTable>cv120</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>5</Level>
+		<ChallengeValue>1.3</ChallengeValue>
+		<UnbreakableWalls />
+		<Size>22</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<SpecialRoomTemplate>banditbossfight</SpecialRoomTemplate>
+		<MusicCue>villainous_intro</MusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>boss1fight</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>bosstheme1</CueName>
+		</AlternateMusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>boss1fight</ReqPlayerFlag>
+			<ReqPlayerFlagValue>3</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>		
+		<BossArea />	
+		<RevealAll />
+		<ImageOverlay>boss-room-2B</ImageOverlay>		
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<CustomName>floor_5_cname</CustomName>
+		<Script_OnTurnEnd>EvaluateBanditDragonQuestLine</Script_OnTurnEnd>
+	</Floor>	
+	<Floor>
+		<Level>6</Level>	
+		<ChallengeValue>1.3</ChallengeValue>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<Tileset>STONE</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_6_cname</CustomName>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>7</MaxMonsters>
+		<ChanceToOpenWalls>0.45</ChanceToOpenWalls>
+		<MinRooms>17</MinRooms>
+		<MaxRooms>20</MaxRooms>
+		<MaxCorridors>6</MaxCorridors>
+		<MaxDeadends>4</MaxDeadends>
+		<MaxCorridorLength>3</MaxCorridorLength>
+		<Size>42</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>amberstation1</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>7</Level>
+		<ChallengeValue>1.3</ChallengeValue>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<Tileset>STONE</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_6_cname</CustomName>
+		<MaxSecretAreas>2</MaxSecretAreas>
+		<MaxLavaPools>2</MaxLavaPools>
+		<ChanceToOpenWalls>0.12</ChanceToOpenWalls>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>7</MaxMonsters>
+		<Size>42</Size>
+		<MinRooms>18</MinRooms>
+		<MaxRooms>23</MaxRooms>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxDeadends>5</MaxDeadends>
+		<MaxCorridorLength>6</MaxCorridorLength>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>amberstation2</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>8</Level>
+		<ChallengeValue>1.4</ChallengeValue>
+		<LayoutType>STANDARD</LayoutType>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_6_cname</CustomName>
+		<MaxLavaPools>2</MaxLavaPools>
+		<MinMonsters>7</MinMonsters>
+		<MaxMonsters>7</MaxMonsters>
+		<Size>42</Size>
+		<ChanceToOpenWalls>0.03</ChanceToOpenWalls>
+		<MaxSecretAreas>2</MaxSecretAreas>		
+		<MinRooms>21</MinRooms>
+		<MaxRooms>25</MaxRooms>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxDeadends>5</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<SpawnTable>amberstation3</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>9</Level>
+		<ChallengeValue>1.4</ChallengeValue>
+		<LayoutType>STANDARD</LayoutType>
+		<Tileset>BLUESTONELIGHT</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_6_cname</CustomName>
+		<ChanceToOpenWalls>0.02</ChanceToOpenWalls>
+		<MaxSecretAreas>3</MaxSecretAreas>
+		<MaxLavaPools>4</MaxLavaPools>
+		<MinMonsters>8</MinMonsters>
+		<MaxMonsters>8</MaxMonsters>
+		<Size>44</Size>
+		<MinRooms>17</MinRooms>
+		<MaxRooms>23</MaxRooms>
+		<MaxCorridors>5</MaxCorridors>
+		<MaxDeadends>4</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>		
+		<SpawnTable>amberstation4</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>10</Level>
+		<ChallengeValue>1.5</ChallengeValue>
+		<Size>18</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<SpecialRoomTemplate>spiritsbossfight</SpecialRoomTemplate>
+		<MusicCue>bosstheme1</MusicCue>
+		<BossArea />
+		<CustomName>floor_10_cname</CustomName>
+		<PoisonAir />
+	</Floor>
+	<Floor>
+		<Level>11</Level>
+		<ChallengeValue>1.5</ChallengeValue>
+		<LayoutType>STANDARDNOHALLS</LayoutType>
+		<Tileset>COBBLE</Tileset>		
+		<CustomName>floor_11_cname</CustomName>
+		<Size>40</Size>		
+		<AllowPlanks />
+		<ChanceToOpenWalls>0.03</ChanceToOpenWalls>
+		<MaxSecretAreas>3</MaxSecretAreas>
+		<MaxLavaPools>0</MaxLavaPools>
+		<MinRooms>25</MinRooms>
+		<MaxRooms>29</MaxRooms>
+		<ChanceToOpenWalls>0.14</ChanceToOpenWalls>
+		<MaxCorridors>12</MaxCorridors>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>15</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>		
+		<SpawnTable>stonehalls1</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>12</Level>
+		<ChallengeValue>1.5</ChallengeValue>		
+		<Tileset>COBBLE</Tileset>
+		<CustomName>floor_11_cname</CustomName>
+		<LayoutType>STANDARD</LayoutType>
+		<AllowPlanks />
+		<ChanceToOpenWalls>0.04</ChanceToOpenWalls>
+		<MaxSecretAreas>3</MaxSecretAreas>
+		<MaxLavaPools>0</MaxLavaPools>
+		<Size>46</Size>
+		<MinRooms>24</MinRooms>
+		<MaxRooms>28</MaxRooms>
+		<MaxCorridors>7</MaxCorridors>
+		<MaxDeadends>2</MaxDeadends>
+		<MaxCorridorLength>10</MaxCorridorLength>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<SpawnTable>stonehalls2</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>13</Level>
+		<ChallengeValue>1.6</ChallengeValue>		
+		<CustomName>floor_11_cname</CustomName>
+		<Tileset>COBBLE</Tileset>
+		<LayoutType>CAVEROOMS</LayoutType>
+		<RandomWaterPools>12</RandomWaterPools>
+		<SpawnRateModifier>0.5</SpawnRateModifier>
+		<AllowPlanks />
+		<MaxLavaPools>6</MaxLavaPools>
+		<PriorityMinimum>2</PriorityMinimum>
+		<MinRooms>9</MinRooms>
+		<MaxRooms>13</MaxRooms>	
+		<CaveFillConverter>0.1</CaveFillConverter>
+		<PriorityRoomTemplate>CR13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR18</PriorityRoomTemplate>
+		<Size>48</Size>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<SpawnTable>stonehalls3</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>14</Level>
+		<ChallengeValue>1.6</ChallengeValue>
+		<Tileset>COBBLE</Tileset>
+		<CustomName>floor_11_cname</CustomName>
+		<LayoutType>CAVEROOMS</LayoutType>
+		<RandomWaterPools>12</RandomWaterPools>
+		<Rivers>3</Rivers>
+		<MinRooms>9</MinRooms>
+		<MaxRooms>13</MaxRooms>	
+		<SpawnRateModifier>0.33</SpawnRateModifier>
+		<PriorityMinimum>2</PriorityMinimum>
+		<MaxChampions>3</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<CaveFillConverter>0.1</CaveFillConverter>
+		<PriorityRoomTemplate>CR13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR18</PriorityRoomTemplate>
+		<Size>48</Size>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>12</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>		
+		<SpawnTable>stonehalls4</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>15</Level>
+		<ChallengeValue>1.6</ChallengeValue>
+		<UnbreakableWalls />
+		<Size>20</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SPECIAL</Tileset>
+		<SpecialRoomTemplate>steamgolembossfight</SpecialRoomTemplate>
+		<MusicCue>bosstheme2</MusicCue>
+		<BossArea />		
+		<ImageOverlay>Boss1Scene</ImageOverlay>
+		<CustomName>floor_15_cname</CustomName>
+	</Floor>
+	<Floor>
+		<Level>16</Level>
+		<ChallengeValue>1.6</ChallengeValue>
+		<LayoutType>STANDARD</LayoutType>
+		<Tileset>RUINED</Tileset>
+		<AllowPlanks />
+		<CustomName>floor_11_cname</CustomName>
+		<ChanceToOpenWalls>0</ChanceToOpenWalls>
+		<SpawnRateModifier>0.6</SpawnRateModifier>
+		<MaxSecretAreas>3</MaxSecretAreas>
+		<MinMonsters>12</MinMonsters>
+		<MaxMonsters>14</MaxMonsters>
+		<Size>48</Size>
+		<MinRooms>23</MinRooms>
+		<MaxRooms>28</MaxRooms>
+		<MaxCorridors>10</MaxCorridors>
+		<MaxDeadends>9</MaxDeadends>
+		<MaxCorridorLength>11</MaxCorridorLength>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<SpawnTable>stonehalls5</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>17</Level>
+		<TextOverlay>
+			<RefName>entertext_replicator52</RefName>
+			<Name>floor_17_oname</Name>
+			<Text>floor_17_otxt</Text>
+		</TextOverlay>			
+		<ChallengeValue>1.7</ChallengeValue>
+		<Tileset>RUINED</Tileset>
+		<AllowPlanks />
+		<LayoutType>CAVEROOMS</LayoutType>
+		<RandomWaterPools>12</RandomWaterPools>
+		<CustomName>floor_17_cname</CustomName>
+		<MinMonsters>15</MinMonsters>
+		<MaxMonsters>18</MaxMonsters>
+		<SpawnRateModifier>0.66</SpawnRateModifier>
+		<MaxChampions>4</MaxChampions>
+		<MinRooms>12</MinRooms>
+		<MaxRooms>17</MaxRooms>	
+		<MaxChampionMods>4</MaxChampionMods>	
+		<PriorityMinimum>3</PriorityMinimum>	
+		<Size>38</Size>		
+		<CaveFillConverter>0.15</CaveFillConverter>
+		<PriorityRoomTemplate>CR13</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR14</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR15</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR16</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR17</PriorityRoomTemplate>
+		<PriorityRoomTemplate>CR18</PriorityRoomTemplate>		
+		<SpawnTable>replicator1</SpawnTable>	
+	</Floor>
+	<Floor>
+		<Level>18</Level>
+		<ChallengeValue>1.7</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<LayoutType>AUTOCAVE</LayoutType>
+		<CustomName>floor_17_cname</CustomName>
+		<SpawnRateModifier>0.66</SpawnRateModifier>
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>2</CellMaxNeighbors>
+		<CellMinNeighbors>6</CellMinNeighbors>
+		<CellSimulationSteps>3</CellSimulationSteps>		
+		<CellMinGroundPercent>0.25</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.99</CellMaxGroundPercent>
+		<MinMonsters>16</MinMonsters>
+		<MaxMonsters>19</MaxMonsters>
+		<MaxChampions>5</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>		
+		<Size>52</Size>
+		<SpawnTable>replicator2</SpawnTable>		
+	</Floor>
+	<Floor>
+		<Level>19</Level>
+		<ChallengeValue>1.7</ChallengeValue>
+		<Size>16</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<SpecialRoomTemplate>finalbossfight</SpecialRoomTemplate>
+		<ImageOverlay>FinalBossPhase1</ImageOverlay>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<RevealAll />		
+		<MusicCue>sharaserious</MusicCue>
+		<BossArea />
+		<UnbreakableWalls />
+	    <AlternateMusicCue>
+				<ReqPlayerFlag>finalboss1</ReqPlayerFlag>
+				<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+				<CueName>bosstheme2</CueName>    	
+	    </AlternateMusicCue>		
+		<CustomName>floor_19_cname</CustomName>
+		<ImageOverlayOffsetX>0.5</ImageOverlayOffsetX>
+	</Floor>
+	<Floor>
+		<Level>299</Level>
+		<ChallengeValue>1.8</ChallengeValue>
+		<Size>14</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<SpecialRoomTemplate>finalbossfight2</SpecialRoomTemplate>
+		<MusicCue>finalboss_phase2</MusicCue>
+		<DontConnectToAnything />
+		<AlternateMusicCue>
+			<ReqPlayerFlag>boss4fight_phase2</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>		
+		<BossArea />
+		<CustomName>floor_299_cname</CustomName>
+	</Floor>	
+	<Floor>
+		<Level>20</Level>
+		<ChallengeValue>1.0</ChallengeValue>
+		<ExcludeFromRumors />
+		<Tileset>LUSHGREEN</Tileset>
+		<LayoutType>SPECIAL</LayoutType>
+		<CustomName>floor_20_cname</CustomName>		
+		<SpecialRoomTemplate>tutorial_2</SpecialRoomTemplate>
+		<Size>40</Size>
+		<UnbreakableWalls />
+		<MusicCue>easydungeon</MusicCue>
+	</Floor>
+	<Floor>
+		<Level>21</Level>
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<AllowDiagonals />
+		<EvenMonsterDistribution />
+		<LayoutType>SPECIAL</LayoutType>
+		<CustomName>floor_145_cname</CustomName>
+		<SpecialRoomTemplate>empty40</SpecialRoomTemplate>
+		<MusicCue>easydungeon</MusicCue>
+		<MinMonsters>1</MinMonsters>
+		<MaxMonsters>1</MaxMonsters>
+		<MaxChampions>0</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<Size>40</Size>
+		<SpawnTable>cv100</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>22</Level>
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<AllowDiagonals />
+		<EvenMonsterDistribution />
+		<LayoutType>SPECIAL</LayoutType>
+		<SpecialRoomTemplate>empty40</SpecialRoomTemplate>
+		<CustomName>floor_145_cname</CustomName>
+		<MinMonsters>1</MinMonsters>
+		<MaxMonsters>2</MaxMonsters>
+		<MaxChampions>0</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<Size>40</Size>
+		<SpawnTable>cv100</SpawnTable>		
+	</Floor>
+	<Floor>
+		<Level>23</Level>
+		<ChallengeValue>1.8</ChallengeValue>
+		<Tileset>FUTURE</Tileset>
+		<AllowDiagonals />
+		<EvenMonsterDistribution />
+		<LayoutType>SPECIAL</LayoutType>
+		<SpecialRoomTemplate>empty40</SpecialRoomTemplate>
+		<CustomName>floor_145_cname</CustomName>
+		<MinMonsters>0</MinMonsters>
+		<MaxMonsters>0</MaxMonsters>
+		<MaxChampions>0</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<Size>40</Size>
+		<SpawnTable>cv100</SpawnTable>
+	</Floor>
+	<Floor>
+		<Level>24</Level>
+		<ChallengeValue>1.0</ChallengeValue>
+		<ExcludeFromRumors />
+		<DontConnectToAnything />
+		<Tileset>LUSHGREEN</Tileset>
+		<AllowDiagonals />
+		<SafeArea />
+		<NoRewardPopup />
+		<EffectiveFloor>1</EffectiveFloor>
+		<EvenMonsterDistribution />
+		<LayoutType>SPECIAL</LayoutType>
+		<SpecialRoomTemplate>forest_of_dreams</SpecialRoomTemplate>
+		<MusicCue>sadness</MusicCue>
+		<CustomName>exp_sharaforest_levelname</CustomName>
+		<MinMonsters>0</MinMonsters>
+		<MaxMonsters>0</MaxMonsters>
+		<MaxChampions>0</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<Size>40</Size>
+		<SpawnTable>cv100</SpawnTable>	
+	</Floor>
+	<Floor>
+		<Level>204</Level>
+		<ChallengeValue>1.3</ChallengeValue>
+		<UnbreakableWalls />
+		<Size>16</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<SpecialRoomTemplate>preboss1</SpecialRoomTemplate>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<RevealAll />
+		<ImageOverlay>pre-boss</ImageOverlay>
+		<CustomName>floor_204_cname</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>
+	<Floor>
+		<Level>205</Level>
+		<ChallengeValue>1.5</ChallengeValue>		
+		<UnbreakableWalls />
+		<Size>24</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SLATE</Tileset>
+		<SpecialRoomTemplate>preboss2</SpecialRoomTemplate>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<RevealAll />
+		<ImageOverlay>boss-3a</ImageOverlay>
+		<CustomName>floor_205_cname</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>	
+	<Floor>
+		<Level>206</Level>
+		<ChallengeValue>1.5</ChallengeValue>		
+		<UnbreakableWalls />
+		<AltPath>11</AltPath>
+		<EffectiveFloor>10</EffectiveFloor>
+		<Size>35</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<SpecialRoomTemplate>boss2</SpecialRoomTemplate>
+		<MusicCue>villainous_intro</MusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>boss2fight</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>bosstheme1</CueName>
+		</AlternateMusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>secondbossdefeated</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<RevealAll />
+		<BossArea />
+		<ImageOverlay>boss-3</ImageOverlay>
+		<ImageOverlayOffsetY>0.5</ImageOverlayOffsetY>
+		<CustomName>floor_206_cname</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<MetaData>nocamerabounds|1</MetaData>	
+		<Script_OnTurnEnd>CheckBoss2ClearOnTurnEnd</Script_OnTurnEnd>	
+	</Floor>
+	<Floor>
+		<Level>207</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.2</ChallengeValue>
+		<FastTravel />
+		<Size>25</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>LUSHGREEN</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>monstervalley</SpecialRoomTemplate>
+		<RevealAll />
+		<MusicCue>funmerchant</MusicCue>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<CustomName>floor_207_cname</CustomName>		
+		<MinSpawnFloor>5</MinSpawnFloor>
+		<MaxSpawnFloor>14</MaxSpawnFloor>
+		<Script_OnTurnEnd>EvaluateBeastDragonQuestLine</Script_OnTurnEnd>		
+		<MetaData>nocamerabounds|1</MetaData>
+	</Floor>
+	<Floor>
+		<Level>208</Level>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<EffectiveFloor>19</EffectiveFloor>
+		<ChallengeValue>1.8</ChallengeValue>
+		<Size>41</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>barricade</SpecialRoomTemplate>
+		<MusicCue>finallevels</MusicCue>
+		<CustomName>floor_208_cname</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+	</Floor>
+	<Floor>
+		<Level>209</Level>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<EffectiveFloor>19</EffectiveFloor>
+		<ChallengeValue>1.8</ChallengeValue>
+		<Size>45</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>regenerator</SpecialRoomTemplate>
+		<MusicCue>finallevels</MusicCue>
+		<CustomName>mon_mon_medicrobotspawner_name</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+	</Floor>
+	<Floor>
+		<Level>210</Level>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<EffectiveFloor>19</EffectiveFloor>
+		<ChallengeValue>1.8</ChallengeValue>
+		<Size>37</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>sciencelab</SpecialRoomTemplate>
+		<MusicCue>finallevels</MusicCue>
+		<CustomName>floor_210_cname</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+	</Floor>
+	<Floor>
+		<Level>211</Level>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<EffectiveFloor>19</EffectiveFloor>
+    	<ChallengeValue>1.8</ChallengeValue>
+		<Size>42</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<NoSpawner />
+		<SpecialRoomTemplate>fabricator</SpecialRoomTemplate>
+		<MusicCue>finallevels</MusicCue>
+		<CustomName>floor_211_cname</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+	</Floor>
+	<Floor>
+		<Level>212</Level>
+		<ShowRewardSymbol>0</ShowRewardSymbol>
+		<ExpectedPlayerLevel>13</ExpectedPlayerLevel>
+		<EffectiveFloor>19</EffectiveFloor>
+		<SideArea />
+		<ChallengeValue>1.8</ChallengeValue>
+		<Size>38</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<NoSpawner />
+		<MusicCue>finallevels</MusicCue>
+		<SpecialRoomTemplate>final_hub</SpecialRoomTemplate>
+		<FastTravel />
+		<CustomName>floor_212_cname</CustomName>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+	</Floor>
+	<Floor>
+		<Level>214</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>99.00</ChallengeValue>
+		<LayoutType>CIRCLES</LayoutType>	
+		<ItemWorld />
+		<EvenMonsterDistribution />
+		<SideArea />		
+		<CustomName>floor_214_cname</CustomName>
+		<Tileset>NIGHTMARISH</Tileset>
+		<MinMonsters>10</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<NumCircles>4</NumCircles>
+		<MinCircleDigs>1</MinCircleDigs>
+		<MaxCircleDigs>2</MaxCircleDigs>
+		<CircleRadiusInterval>5</CircleRadiusInterval>
+		<CorrectDiagonalChance>0.18</CorrectDiagonalChance>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<NoSpawner />
+		<Size>38</Size>
+		<SpawnTable>cv100</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>
+
+	<Floor>
+		<Level>215</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.6</ChallengeValue>
+		<UnbreakableWalls />
+		<EffectiveFloor>15</EffectiveFloor>
+		<Size>20</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SPECIAL</Tileset>
+		<SpecialRoomTemplate>golemboss_revise</SpecialRoomTemplate>
+		<ImageOverlayOffsetY>0.5</ImageOverlayOffsetY>
+		<ImageOverlayOffsetY>-0.5</ImageOverlayOffsetY>
+
+		<MusicCue>sharatheme1</MusicCue>
+		<AlternateMusicCue>
+			<ReqPlayerFlag>boss3fight</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<CueName>bosstheme2</CueName>
+		</AlternateMusicCue>		
+		<AlternateMusicCue>
+			<ReqPlayerFlag>boss3fight</ReqPlayerFlag>
+			<ReqPlayerFlagValue>2</ReqPlayerFlagValue>
+			<CueName>postboss</CueName>
+		</AlternateMusicCue>	
+		<BossArea />		
+		<RevealAll />
+		<ImageOverlay>boss4</ImageOverlay>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<CustomName>floor_215_cname</CustomName>
+	</Floor>
+
+	<Floor>
+		<Level>216</Level>
+		<SideArea />
+		<ChallengeValue>1.45</ChallengeValue>
+		<Tileset>NIGHTMARISH</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ItemWorld />
+		<LayoutType>HIVES</LayoutType>
+		<PriorityMinimum>1</PriorityMinimum>
+		<PriorityRoomTemplate>shadowking_layout1</PriorityRoomTemplate>
+		<PriorityRoomTemplate>shadowking_layout2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>shadowking_layout3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>shadowking_layout4</PriorityRoomTemplate>		
+		<ChanceToOpenWalls>0</ChanceToOpenWalls>
+		<MaxCorridors>8</MaxCorridors>
+		<MaxCorridorLength>26</MaxCorridorLength>
+		<MinRooms>11</MinRooms>
+		<MaxRooms>11</MaxRooms>
+		<NoSpawner />	
+		<MaxDeadends>6</MaxDeadends>	
+		<MinMonsters>5</MinMonsters>
+		<MaxMonsters>7</MaxMonsters>
+		<Size>36</Size>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>
+		<ExpectedPlayerLevel>8</ExpectedPlayerLevel>
+		<SpawnTable>cv145</SpawnTable>		
+	</Floor>	
+
+	<Floor>
+		<Level>217</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>99.00</ChallengeValue>
+		<LayoutType>CIRCLES</LayoutType>	
+		<EvenMonsterDistribution />
+		<SideArea />
+		<CustomName>floor_217_cname</CustomName>
+		<ItemWorld />
+		<Tileset>NIGHTMARISH</Tileset>
+		<MaxLavaPools>6</MaxLavaPools>
+		<MinMonsters>9</MinMonsters>
+		<MaxMonsters>11</MaxMonsters>
+		<NumCircles>3</NumCircles>
+		<MinCircleDigs>3</MinCircleDigs>
+		<MaxCircleDigs>3</MaxCircleDigs>
+		<CircleRadiusInterval>6</CircleRadiusInterval>
+		<CorrectDiagonalChance>0.25</CorrectDiagonalChance>
+		<NoSpawner />
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<Size>36</Size>
+		<SpawnTable>cv100</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>
+
+	<Floor>
+		<Level>218</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>99.00</ChallengeValue>
+		<LayoutType>CIRCLES</LayoutType>	
+		<EvenMonsterDistribution />
+		<SideArea />
+		<ItemWorld />
+		<CustomName>floor_218_cname</CustomName>
+		<Tileset>NIGHTMARISH</Tileset>
+		<MinMonsters>8</MinMonsters>
+		<NoSpawner />
+		<MaxMonsters>11</MaxMonsters>
+		<NumCircles>2</NumCircles>
+		<MinCircleDigs>5</MinCircleDigs>
+		<MaxCircleDigs>5</MaxCircleDigs>
+		<CircleRadiusInterval>3</CircleRadiusInterval>
+		<AddCentralRoom />
+		<CorrectDiagonalChance>0.05</CorrectDiagonalChance>
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>2</MaxChampionMods>
+		<Size>36</Size>
+		<SpawnTable>cv100</SpawnTable>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+	</Floor>	
+
+	<Floor>
+		<Level>219</Level>
+		<SideArea />
+		<SafeArea />
+		<ChallengeValue>1.3</ChallengeValue>
+		<Size>17</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SPECIAL</Tileset>
+		<NoSpawner />		
+		<SpecialRoomTemplate>cavein_1</SpecialRoomTemplate>
+		<ImageOverlay>cave-in</ImageOverlay>
+		<UnbreakableWalls />
+		<RevealAll />
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<CustomName>floor_219_cname</CustomName>
+		<MinSpawnFloor>5</MinSpawnFloor>
+		<MaxSpawnFloor>12</MaxSpawnFloor>		
+	</Floor>
+	<Floor>
+		<Level>220</Level>
+		<ChallengeValue>1.35</ChallengeValue>
+		<LayoutType>VOLCANO</LayoutType>
+		<Tileset>VOLCANO</Tileset>
+		<SideArea />
+		<LavaRivers>3</LavaRivers>
+		<Size>40</Size>
+		<NoSpawner />
+		<CustomName>floor_220_cname</CustomName>
+		<ExtraCrackedRockPercent>1.00</ExtraCrackedRockPercent>
+		<StairsUpToLevel>219</StairsUpToLevel>
+		<StairsDownToLevel>221</StairsDownToLevel>
+		<MaxLavaPools>5</MaxLavaPools>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<CellChanceToStartAlive>0.3</CellChanceToStartAlive>
+		<CellMaxNeighbors>1</CellMaxNeighbors>
+		<CellMinNeighbors>5</CellMinNeighbors>
+		<CellSimulationSteps>1</CellSimulationSteps>		
+		<CellMinGroundPercent>0.23</CellMinGroundPercent>
+		<CellMaxGroundPercent>0.43</CellMaxGroundPercent>
+		<MinMonsters>11</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>		
+		<MaxChampions>2</MaxChampions>
+		<MaxChampionMods>3</MaxChampionMods>		
+		<SpawnTable>cragganmine</SpawnTable>
+		<DeepSideAreaFloor />
+	</Floor>
+	<Floor>
+		<Level>221</Level>
+		<SideArea />
+		<ChallengeValue>1.4</ChallengeValue>
+		<Size>19</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>VOLCANO</Tileset>
+		<SideArea />
+		<NoSpawner />
+		<SpecialRoomTemplate>cavein_3</SpecialRoomTemplate>
+		<CustomName>floor_221_cname</CustomName>
+		<StairsUpToLevel>220</StairsUpToLevel>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<SpawnTable>jellygrotto</SpawnTable>
+		<DeepSideAreaFloor />
+	</Floor>
+
+	<Floor>
+		<Level>222</Level>
+		<ChallengeValue>1.8</ChallengeValue>
+		<SideArea />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<UnbreakableWalls />
+		<Size>22</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>FUTURE</Tileset>
+		<SpecialRoomTemplate>finalboss_2</SpecialRoomTemplate>
+		<DontConnectToAnything />
+	  <RevealAll />
+    <MusicCue>finalboss_phase2</MusicCue>
+		<BossArea />
+		<CustomName>floor_222_cname</CustomName>
+	</Floor>
+
+	<Floor>
+		<Level>223</Level>
+		<ChallengeValue>1.4</ChallengeValue>		
+		<SideArea />
+		<SafeArea />
+		<MinSpawnFloor>6</MinSpawnFloor>
+		<MaxSpawnFloor>13</MaxSpawnFloor>
+		<UnbreakableWalls />		
+		<Size>39</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SPECIAL</Tileset>
+		<ImageOverlay>snow-area-snowy</ImageOverlay>
+		<SpecialRoomTemplate>snowhouse_1</SpecialRoomTemplate>
+		<MusicCue>passageway</MusicCue>
+		<CustomName>floor_223_cname</CustomName>
+	</Floor>
+
+	<Floor>
+		<Level>224</Level>
+		<ChallengeValue>1.4</ChallengeValue>
+		<ExcludeFromRumors />
+		<SideArea />
+		<SafeArea />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>		
+		<RevealAll />
+		<UnbreakableWalls />
+		<Size>39</Size>
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SPECIAL</Tileset>
+		<FastTravel />
+		<ImageOverlay>snow-area-spring</ImageOverlay>
+		<SpecialRoomTemplate>snowhouse_2</SpecialRoomTemplate>
+		<MusicCue>easydungeon</MusicCue>
+		<CustomName>floor_224_cname</CustomName>
+	</Floor>
+
+	<Floor>
+		<Level>225</Level>
+		<ChallengeValue>1.5</ChallengeValue>
+		<SideArea />		
+		<MinSpawnFloor>8</MinSpawnFloor>
+		<MaxSpawnFloor>15</MaxSpawnFloor>		
+		<UnbreakableWalls />
+		<Size>41</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>SAND</Tileset>
+		<MusicCue>deserttheme</MusicCue>
+		<NoSpawner />
+		<FastTravel />
+		<CameraBGColor>SIDEAREAS</CameraBGColor>
+		<ImageOverlayOffsetX>-0.5</ImageOverlayOffsetX>
+		<ImageOverlayOffsetY>0.5</ImageOverlayOffsetY>			
+		<ImageOverlay>desert-side-area-base</ImageOverlay>
+		<SpecialRoomTemplate>desert_paradise</SpecialRoomTemplate>
+		<CustomName>floor_225_cname</CustomName>
+		<SpawnTable>banditenclave1</SpawnTable>
+
+	</Floor>		
+
+	<Floor>
+		<Level>226</Level>
+		<SideArea />
+		<ChallengeValue>1.4</ChallengeValue>
+		<UnbreakableWalls />
+		<ExcludeFromRumors />
+		<Size>28</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>BLUESTONEDARK</Tileset>
+		<NoSpawner />
+		<CustomName>floor_226_cname</CustomName>
+		<ClearReward>obj_superchest</ClearReward>
+		<DeepSideAreaFloor />
+		<StairsUpToLevel>110</StairsUpToLevel>
+		<SpecialRoomTemplate>casino_basement</SpecialRoomTemplate>
+		<SpawnTable>banditenclave1</SpawnTable>
+	</Floor>	
+
+	<Floor>
+		<Level>227</Level>
+		<CustomName>floor_227_cname</CustomName>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.9</ChallengeValue>
+		<Tileset>NIGHTMARISH</Tileset>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<LayoutType>STANDARD</LayoutType>
+		<NoSpawner />		
+		<EvenMonsterDistribution />
+		<ChanceToOpenWalls>0.03</ChanceToOpenWalls>		
+		<MinRooms>21</MinRooms>
+		<MaxRooms>21</MaxRooms>
+		<MaxCorridors>14</MaxCorridors>
+		<MaxCorridorLength>15</MaxCorridorLength>
+		<MusicCue>dimriftlevel</MusicCue>
+		<MaxDeadends>10</MaxDeadends>
+		<Size>46</Size>
+		<MinMonsters>13</MinMonsters>
+		<MaxMonsters>13</MaxMonsters>
+		<MaxChampions>4</MaxChampions>
+		<MaxChampionMods>4</MaxChampionMods>
+		<ExpectedPlayerLevel>15</ExpectedPlayerLevel>
+		<SpawnTable>cv190_special_nobots</SpawnTable>			
+		<DontConnectToAnything />
+		<PriorityRoomTemplate>DimRift1</PriorityRoomTemplate>
+		<PriorityRoomTemplate>DimRift2</PriorityRoomTemplate>
+		<PriorityRoomTemplate>DimRift3</PriorityRoomTemplate>
+		<PriorityRoomTemplate>DimRift4</PriorityRoomTemplate>
+		<PriorityMinimum>3</PriorityMinimum>
+	</Floor>	
+
+	<Floor>
+		<Level>228</Level>
+		<AltPath>15</AltPath>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.6</ChallengeValue>
+		<UnbreakableWalls />
+		<EffectiveFloor>15</EffectiveFloor>
+		<Size>16</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>RUINED</Tileset>
+		<SpecialRoomTemplate>pre_boss3_encounter</SpecialRoomTemplate>
+		<MusicCue>sharatheme1</MusicCue>
+		<RevealAll />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<CustomName>floor_228_cname</CustomName>
+	</Floor>
+
+	<Floor>
+		<Level>229</Level>
+		<ExcludeFromRumors />
+		<ChallengeValue>1.6</ChallengeValue>
+		<UnbreakableWalls />
+		<EffectiveFloor>15</EffectiveFloor>
+		<Size>47</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>RUINED</Tileset>
+		<SpecialRoomTemplate>pre_boss3_encounter2</SpecialRoomTemplate>
+		<MusicCue>sharatheme1</MusicCue>
+		<RevealAll />
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<CustomName>floor_229_cname</CustomName>
+	</Floor>
+
+
+	<Floor>
+		<Level>230</Level>
+		<ExcludeFromRumors />
+		<DontConnectToAnything />
+		<ChallengeValue>1.0</ChallengeValue>
+		<UnbreakableWalls />
+		<EffectiveFloor>15</EffectiveFloor>
+		<Size>38</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<MusicCue>jobtrial</MusicCue>
+		<SpecialRoomTemplate>arena_trials1</SpecialRoomTemplate>
+		<ImageOverlay>TrialArena1-Background</ImageOverlay>
+		<EffectiveFloor>5</EffectiveFloor>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<ImageOverlayOffsetX>-0.5</ImageOverlayOffsetX>
+		<ImageOverlayOffsetY>-0.5</ImageOverlayOffsetY>
+		<CustomName>floor_230_cname</CustomName>
+		<MetaData>no_initial_monster_seed|1</MetaData>
+	</Floor>
+
+	<Floor>
+		<Level>231</Level>
+		<ExcludeFromRumors />
+		<DontConnectToAnything />
+		<ChallengeValue>1.0</ChallengeValue>
+		<UnbreakableWalls />
+		<EffectiveFloor>15</EffectiveFloor>
+		<Size>38</Size>
+		<LayoutType>SPECIAL</LayoutType>
+		<Tileset>STONE</Tileset>
+		<MusicCue>jobtrial</MusicCue>
+		<SpecialRoomTemplate>arena_trials2</SpecialRoomTemplate>
+		<EffectiveFloor>10</EffectiveFloor>
+		<MinSpawnFloor>99</MinSpawnFloor>
+		<MaxSpawnFloor>99</MaxSpawnFloor>
+		<CustomName>floor_231_cname</CustomName>
+		<MetaData>no_initial_monster_seed|1</MetaData>
+	</Floor>	
+
+  <Floor>
+    <Level>314</Level>    
+    <ChallengeValue>1.7</ChallengeValue>
+    <Size>16</Size>
+    <LayoutType>SPECIAL</LayoutType>
+    <Tileset>FUTURE</Tileset>
+    <SpecialRoomTemplate>sharafinalbossfight</SpecialRoomTemplate>
+    <ImageOverlay>FinalBossPhase1</ImageOverlay>
+    <CameraBGColor>SIDEAREAS</CameraBGColor>
+    <RevealAll />
+    <MusicCue>finallevels</MusicCue>
+    <UnbreakableWalls />
+    <AlternateMusicCue>
+			<ReqPlayerFlag>finalboss1</ReqPlayerFlag>
+			<ReqPlayerFlagValue>1</ReqPlayerFlagValue>
+			<CueName>finalboss_phase2</CueName>    	
+    </AlternateMusicCue> 
+    <BossArea />
+    <CustomName>floor_19_cname</CustomName>
+    <ImageOverlayOffsetX>0.5</ImageOverlayOffsetX>
+    <DontConnectToAnything />
+    <Script_OnTurnEnd>ProcessRobotWaves</Script_OnTurnEnd>
+    <SpawnTable>sharafinalboss_table</SpawnTable>
+  </Floor>
+
+
+</DOCUMENT>

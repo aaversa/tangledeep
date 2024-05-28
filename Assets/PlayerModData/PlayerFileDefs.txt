@@ -1,0 +1,2 @@
+myStatusMod.xml		STATUSEFFECTS
+myItems.xml		ITEMS

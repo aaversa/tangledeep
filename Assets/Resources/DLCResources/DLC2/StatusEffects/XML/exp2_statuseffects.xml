@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>	
+		<Rf>prototype_husyn_stasis_tick</Rf>
+
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+
+		<AEff>
+			<Type>SPECIAL</Type>
+			<Sscr>PrototypeHusynStasisTick</Sscr>
+			<ERef>prototype_husyn_stasis_tick</ERef>
+			<Targ>SELF</Targ>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>counter_swallow</Rf>		
+		<AnimTags />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>proc_swallow_onattack</ERef>
+			<TCon>ATTACKER_ISMONSTER_NOTPET</TCon>
+			<Sscr>EatAttackerWhole</Sscr>
+			
+			<Targ>ATTACKER</Targ>
+			<Anim>FervirLargeBiteEffect,0.5</Anim>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>exp_status_enrageattack_name</DName>
+		<Rf>status_enrageattack</Rf>
+		<ISpr>AttackUpEffect</ISpr>
+		
+		<Pos />
+		<ShowIcon />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<EffRef>dmgup_25</EffRef>
+	</SE>	
+
+	<SE>
+		<Rf>status_planeshift</Rf>
+		<NoRemovalOrImmunity />
+		<Pos />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>	
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>check_plane_shift</ERef>
+			<Sscr>CheckForPlaneShift</Sscr>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>exp_status_physicalform_name</DName>
+		<Rf>spiritdragon_physical</Rf>
+		<ShowIcon />
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>elemallresist</ERef>
+			<IceRes>-0.3</IceRes>
+			<FireRes>-0.3</FireRes>
+			<DarkRes>-0.3</DarkRes>
+			<AcidRes>-0.3</AcidRes>
+			<BoltRes>-0.3</BoltRes>
+		</AEff>			
+	</SE>
+
+	<SE>
+		<DName>exp_status_spiritform_name</DName>
+		<Rf>spiritdragon_spirit</Rf>
+		<ShowIcon />
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>physical100resist</ERef>
+			<PhysRes>-1</PhysRes>
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<Rf>elementaldebuffattack</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>elemdebuff_stackable</ERef>
+			<Targ>DEFENDER</Targ>
+			<TCon>MELEE</TCon>			
+			<Duration>6</Duration>
+			<StatusRef>status_elemdebuff10_stackable</StatusRef>
+			<BattleText>effect_elemdebuff_btxt</BattleText>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_status_elemdebuff1_name</DName>
+		<Desc>status_status_elemdebuff1_desc</Desc>
+		<Rf>status_elemdebuff10_stackable</Rf>
+		<ISpr>DefenseDownEffect</ISpr>
+		<Icon>SkillIcons_147</Icon>
+		<Flag>LOWERDEFENSE</Flag>
+		<ShowIcon />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>		
+		<StackEff />
+		<RefreshDuration>1</RefreshDuration>
+		<MaxStacks>5</MaxStacks>
+		<EffRef>elemdebuff10</EffRef>
+	</SE>	
+
+	<SE>
+		<Rf>passivecharm_pets</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ATTACKED />
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<Sscr>TryCharmCombatCreature</Sscr>
+			<ERef>trycharm_pets</ERef>
+			<Targ>ATTACKER</Targ>
+		</AEff>			
+	</SE>	
+
+
+	<SE>
+		<Rf>proc_skysnake_poison</Rf>
+		<AnimTags />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_skysnake_poison</ERef>
+			<StatusRef>skysnake_poison</StatusRef>
+			
+			<Anim>AcidSplash,0.15</Anim>
+			<Targ>DEFENDER</Targ>
+			<Duration>2</Duration>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>misc_dmg_poison</DName>
+		<Desc>status_poison1_desc</Desc>
+		<Rf>skysnake_poison</Rf>
+		<ShowIcon />
+		<Icon>SkillIcons_32</Icon>
+		<ISpr>PoisonEffect</ISpr>
+		
+		<Flag>POISON</Flag>		
+		<RefreshDontStack />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>status_poison1_name</Disp>
+			<ERef>skysnake_poison_dmg</ERef>
+			<NoDodgePossible />
+			<AtkWp>0.2|1</AtkWp>
+			<Targ>SELF</Targ>
+			<DamageType>POISON</DamageType>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>status_parry30</Rf>		
+		<Icon>SkillIcons_59</Icon>
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ATTACKREACTION</Type>
+			<ERef>parry30</ERef>
+			<Eq>0.3</Eq>
+			<AlterParryFlat>0.30</AlterParryFlat>
+			<Silent />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>obj_ghostaura_cloud_name</DName>
+		<Rf>ghostaura_reduce_dmg</Rf>		
+		<Icon>SkillIcons_202</Icon>
+		<ShowIcon />
+		<NoRemovalOrImmunity />
+		<RefreshDontStack />
+		<Run>
+			<PROCESSDAMAGE_ATTACKER />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>ghostaura_reduce_damage</ERef>	
+			<Sscr>GhostAuraReduceDamage</Sscr>
+			<Targ>SELF</Targ>		
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_makerandomice</Rf>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>summonrandomice</ERef>
+			
+			<ARef>obj_monstericeblock</ARef>
+			<Script_PreSummon>ChangeIceBlockByFaction</Script_PreSummon>
+			<SDur>6</SDur>			
+			<Anchor>SELF</Anchor>
+			<AnchorRange>4</AnchorRange>
+			<SummonOnCollidable />
+			<SummonNoStacking />
+			<MaxRandomSummonRange>4</MaxRandomSummonRange>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>status_slowonhit_weak</Rf>
+		<Run>
+			<ATTACK />
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<NoRemovalOrImmunity />
+		<Pos />
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>attackerslow_wk</ERef>
+			<AtkWp>0|-25</AtkWp>
+			<Targ>ATTACKER</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>CUR</StatData>
+			<TCon>MELEE</TCon>
+			<Trg1 />
+			<BattleText>exp_misc_slowed</BattleText>
+		</AEff>	
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>defenderslow_wk</ERef>
+			<AtkWp>0|-50</AtkWp>
+			<Targ>DEFENDER</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>CUR</StatData>
+			<Trg1 />
+			<BattleText>exp_misc_slowed</BattleText>
+		</AEff>			
+	</SE>	
+
+	<SE>
+		<Rf>status_prismattack</Rf>
+		<NoRemovalOrImmunity />
+		<Pos />
+		<ShowIcon />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AnimTags />
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>weaken_attack_50</ERef>
+			<ScriptAttackModifier>ReduceDamage50</ScriptAttackModifier>
+			<AtkWp>0|1</AtkWp>
+			<FloorValue>-9999</FloorValue>
+			<Targ>SELF</Targ>
+			<Silent />
+		</AEff>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_prismattack_name</Disp>
+			<ERef>prism_fire</ERef>
+			<Targ>DEFENDER</Targ>
+			<CanCrit />
+			<TCon>MELEE</TCon>
+			<AtkWp>0.25|1</AtkWp>
+			<ProcChance>0.25</ProcChance>
+			<Anim>FireBurst,0.05</Anim>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_prismattack_name</Disp>
+			<ERef>prism_water</ERef>
+			<Targ>DEFENDER</Targ>
+			<CanCrit />
+			<TCon>MELEE</TCon>
+			<AtkWp>0.25|1</AtkWp>
+			<ProcChance>0.25</ProcChance>
+			<Anim>WaterExplosion,0.05</Anim>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_prismattack_name</Disp>
+			<ERef>prism_lightning</ERef>
+			<Targ>DEFENDER</Targ>
+			<CanCrit />
+			<TCon>MELEE</TCon>
+			<AtkWp>0.25|1</AtkWp>
+			<ProcChance>0.25</ProcChance>
+			<Anim>LightningStrikeEffect,0.05</Anim>
+			<DamageType>LIGHTNING</DamageType>
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_prismattack_name</Disp>
+			<ERef>prism_poison</ERef>
+			<Targ>DEFENDER</Targ>
+			<CanCrit />
+			<TCon>MELEE</TCon>
+			<AtkWp>0.25|1</AtkWp>
+			<ProcChance>0.25</ProcChance>
+			<Anim>AcidExplosion,0.05</Anim>
+			<DamageType>POISON</DamageType>
+			<Trg1 />			
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>status_prismabsorber</Rf>		
+		<NoRemovalOrImmunity />
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>prismtrackdamage</ERef>	
+			<Sscr>TrackPrismDamage</Sscr>
+			<Targ>SELF</Targ>
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>status_beesondeath</Rf>
+		<ATags>SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<Range>2</Range>
+		<Bounds>RECT</Bounds>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>beesondeath</ERef>	
+			<AType>MONSTER</AType>
+			<ARef>mon_warhornet</ARef>
+			<SDur>99</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<NumRandomSummons>2</NumRandomSummons>
+			<MaxRandomSummonRange>3</MaxRandomSummonRange>
+			<SummonActorPerTile />
+			<SummonOnSummoner />
+			<ScaleWithLevel />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_sludgedeath2</Rf>
+		<ATags>SIMULTANEOUSANIM,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<Range>2</Range>
+		<Bounds>RECT</Bounds>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>summonsludgedeath2</ERef>	
+			
+			<ARef>obj_sludge_nonmoving</ARef>
+			<SDur>7</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<SummonOnSummoner />
+			<Script_PreSummon>SetSludgeDeath2Tiles</Script_PreSummon>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_lowerdefonatk</Rf>
+		<StackDur />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_defdown15</ERef>
+			<StatusRef>defdown15_stacking</StatusRef>
+			<Targ>DEFENDER</Targ>
+			<Duration>5</Duration>
+			<BattleText>status_defdownns_name</BattleText>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_defdownns_name</DName>
+		<Rf>defdown15_stacking</Rf>
+		<NTag>-15%</NTag>
+		<Desc>status_defdownns_desc</Desc>
+		<ISpr>DefenseDownEffect</ISpr>
+		<Icon>SkillIcons_110</Icon>
+		<Flag>LOWERDEFENSE</Flag>
+		<StackEff />
+		<MaxStacks>4</MaxStacks>		
+		<ShowIcon />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		
+		
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>aciddebuff15</ERef>
+			<PhysRes>0.15</PhysRes>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<DName>status_status_constricted_name</DName>
+		<Rf>status_whipconstrict</Rf>
+		<ShowIcon />
+		<ISpr>ConstrictEffect</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<RefreshDontStack />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>status_status_constricted_name</Disp>
+			<ERef>whipcrack_dmg</ERef>
+			<NoDodgePossible />
+			<AtkWp>0.25|1</AtkWp>
+			<Targ>SELF</Targ>
+			<DamageType>PHYSICAL</DamageType>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_beestinger_name</DName>
+		<Rf>superweak_beepoison</Rf>
+		<Desc>status_poison3_desc</Desc>
+		<ISpr>PoisonEffect</ISpr>
+		<ShowIcon />
+		<Icon>SkillIcons_32</Icon>		
+		<Flag>POISON</Flag>
+		<StackEff />
+		<MaxStacks>10</MaxStacks>		
+		<ShowIcon />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_beestinger_name</Disp>
+			<ERef>beesting_poison_dmg</ERef>
+			<NoDodgePossible />
+			<AtkWp>0.05|1</AtkWp>
+			<Targ>SELF</Targ>
+			<DamageType>POISON</DamageType>
+		</AEff>	
+	</SE>
+
+	<SE>
+		<DName>status_status_fungalregen_name</DName>
+		<Rf>status_fungalregen2</Rf>
+		<ISpr>RegenerateEffect</ISpr>
+		<ShowIcon />
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<Pos />
+		<EffRef>healself10per</EffRef>
+	</SE>
+
+	<SE>
+		<Rf>whipmastery2</Rf>
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />	
+		<NoRemovalOrImmunity />
+		<ReqWeaponType>WHIP</ReqWeaponType>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>paralyze20p</ERef>
+			<StatusRef>status_paralyzed</StatusRef>
+			<Duration>3</Duration>
+			<ProcChance>0.2</ProcChance>
+			<Targ>DEFENDER</Targ>
+		</AEff>	
+	</SE>
+
+	<SE>
+		<Rf>xp2_warmth</Rf>		
+		<PermaBuffNoRun />
+		<AEff>
+			<Type>IMMUNESTATUS</Type>
+			<ERef>immunefreeze</ERef>
+			<ChanceToResist>1.0</ChanceToResist>
+			<ImmuneStatusFlag>FREEZING</ImmuneStatusFlag>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>xp2_traps</Rf>
+		<StackEff />
+		<Run>
+			<PROCESSDAMAGE_ATTACKER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>enhancegrounddmg</ERef>	
+			<Sscr>EnhanceItemBasedGroundDamage</Sscr>
+			<Targ>SELF</Targ>		
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_sapping</Rf>
+		<StackEff />
+		<Run>
+			<ONCRIT />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_dmg_debuff</ERef>
+			<Targ>DEFENDER</Targ>
+			<TCon>MELEE</TCon>			
+			<Duration>4</Duration>
+			<StatusRef>sap_dmgdown20</StatusRef>
+			<BattleText>status_status_holdthemoondebuff_name</BattleText>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>status_status_holdthemoondebuff_name</DName>
+		<Rf>sap_dmgdown20</Rf>
+		<NTag>-15%</NTag>
+		<Icon>SkillIcons_109</Icon>
+		<ISpr>AttackDownEffect</ISpr>
+		<RefreshDontStack />
+		<ShowIcon />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>		
+		<Flag>LOWERATTACK</Flag>		
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>sapping_dmgdown</ERef>
+			<ChangePercentAllDamage>-0.2</ChangePercentAllDamage>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>xp2_icicles</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<AnimTags />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>mm_xp2_icicles_name</Disp>
+			<ERef>icicles_dmg</ERef>
+			<NoDodgePossible />
+			<CanCrit />
+			<AtkWp>0.5|1</AtkWp>
+			<Faction>NOTMYFACTION</Faction>
+			<Targ>DEFENDER_AND_ADJACENT</Targ>
+			<DamageType>WATER</DamageType>
+			<Anim>IceGrowAttackOld,0.1</Anim>
+			<Script_TriggerCondition>MModIcicleTriggerCondition</Script_TriggerCondition>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_vibrating</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<AnimTags />
+		<Run>
+			<ATTACKBLOCK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_whipmastery4_name</Disp>
+			<ERef>vibrating_dmg</ERef>
+			<NoDodgePossible />
+			<CanCrit />
+			<AtkWp>0.5|1</AtkWp>
+			<Targ>ADJACENT_ORIGINATING</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>PHYSICAL</DamageType>
+			<Anim>FervirHolyHit,0.1</Anim>
+			<Script_TriggerCondition>MModVibratingTriggerCondition</Script_TriggerCondition>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_zookeeper</Rf>		
+		<NoRemovalOrImmunity />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>zookeeper_reduce_dmg</ERef>	
+			<Sscr>ZookeeperReduceDamage</Sscr>
+			<Targ>SELF</Targ>	
+			<DontTouchAffectedList />	
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_serenity</Rf>		
+		<NoRemovalOrImmunity />
+		<Dur>
+			<PERMANENT />
+		</Dur>
+	</SE>	
+
+	<SE>
+		<Rf>serenitybuff</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ONADD />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>physical25</ERef>
+			<PhysRes>-0.25</PhysRes>
+		</AEff>	
+	</SE>
+
+	<SE>
+		<Rf>xp2_sticky</Rf>		
+		<PermaBuffNoRun />
+		<AEff>
+			<Type>IMMUNESTATUS</Type>
+			<ERef>stickyresist</ERef>
+			<ImmuneStatusRef>status_paralyzed</ImmuneStatusRef>
+			<ImmuneStatusRef>status_bigfreeze</ImmuneStatusRef>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>xp2_bubblearmor</Rf>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AnimTags />
+		<Pos />
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>add_bubbleshield</ERef>
+			<Targ>SELF</Targ>
+			<TCon>ORIG_BELOWHEALTH</TCon>
+			<OrigBelowHealth>0.5</OrigBelowHealth>
+			<Duration>20</Duration>
+			<Anim>ForceFieldEffect,0.1</Anim>
+			<StatusRef>bubbleshield</StatusRef>
+			<TPT>50</TPT>
+			<EnforceTPT />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>bubbleshield_displayname</DName>
+		<Rf>bubbleshield</Rf>
+		<Description>exp_status_flowshield_desc</Description>
+		<Icon>SkillIcons_206</Icon>		
+		<ISpr>FlowAura</ISpr>
+		<Direction>TRUENEUTRAL</Direction>
+		<Script_RunOnAdd>SetFlowShieldHealth</Script_RunOnAdd>
+		<Script_RunOnRemove>RemoveShieldBar</Script_RunOnRemove>
+		<DestroyStatusOnRemove>flowshield_destroy_fx</DestroyStatusOnRemove>
+		<DestroyStatusOnAdd>exp_dmgup_25</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>status_voidshield</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>status_flowshield</DestroyStatusOnAdd>
+		<DestroyStatusOnAdd>voidshieldbolts</DestroyStatusOnAdd>
+		<ShowIcon />
+		<Pos />
+		<Run>
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<TURNEND />
+		</Dur>
+		<EffRef>flowshield_eff</EffRef>
+	</SE>
+
+	<SE>
+		<Rf>xp2_thewolf</Rf>		
+		<StackEff />
+		<Run>
+			<PROCESSDAMAGE_ATTACKER />
+			<PROCESSDAMAGE_DEFENDER />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>lonewolf_enhance_dmg</ERef>	
+			<Sscr>LoneWolfEnhanceDmg</Sscr>
+			<Targ>SELF</Targ>		
+			<DontTouchAffectedList />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>status_undead</Rf>
+		<PermaBuffNoRun />		
+	</SE>
+
+	<SE>
+		<Rf>dragon_soul_frog</Rf>
+		<PermaBuffNoRun />
+	</SE>
+	<SE>
+		<Rf>dragon_soul_bandit</Rf>
+		<PermaBuffNoRun />
+	</SE>
+
+	<SE>
+		<DName>dragonbreak_ready_name</DName>
+		<Rf>dragonbreak_icon</Rf>
+		<Direction>TRUENEUTRAL</Direction>
+		<Description>dragonbreak_ready_desc</Description>
+		<Icon>SkillIcons_206</Icon>		
+		<ShowIcon />
+		<ISpr>DragonAura</ISpr>
+		<Pos />
+		<Script_RunOnRemove>ResetLimitBreak</Script_RunOnRemove>
+		<Dur>
+			<TURNEND />
+		</Dur>
+	</SE>
+
+	<SE>
+		<Rf>dieonlyinblessedpool</Rf>		
+		<NoRemovalOrImmunity />
+		<Pos />
+		<Run>
+			<DAMAGE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>dieonly_inblessedpool</ERef>	
+			<Sscr>DieOnlyInBlessedPool</Sscr>
+			<Targ>SELF</Targ>		
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>playeratk_loseturn</Rf>
+		<NoRemovalOrImmunity />
+		<Run>
+			<ATTACKED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>changectzero</ERef>
+			<Targ>SELF</Targ>
+			<Stat>CHARGETIME</Stat>
+			<StatData>ALL</StatData>
+			<AtkWp>0|-100</AtkWp>
+			<TCon>ATTACKER_ISHERO</TCon>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>xp2_manaburn</Rf>
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<StackEff />
+		<AEff>
+			<Type>EMPOWERATTACK</Type>
+			<ERef>manaburn</ERef>
+			<Script_TriggerCondition>HasMinimum3Energy</Script_TriggerCondition>
+			<Targ>SELF</Targ>
+			<AtkWp>0.2|0</AtkWp>			
+		</AEff>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>manaburn_loseen</ERef>
+			<Script_TriggerCondition>HasMinimum3Energy</Script_TriggerCondition>
+			<Targ>SELF</Targ>
+			<AtkWp>0|-3</AtkWp>			
+			<Stat>ENERGY</Stat>
+			<StatType>CUR</StatType>
+		</AEff>		
+	</SE>	
+
+	<SE>
+		<Rf>xp2_scholar</Rf>		
+		<StackDur />
+		<Run>
+			<USEABILITY />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>scholar_reducecd</ERef>
+			<Sscr>ReduceRandomCooldownByOne</Sscr>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_coolfrog</Rf>
+		<Run>
+			<TURNEND />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AnimTags />
+		<Pos />
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>coolfrogemergency</ERef>	
+			<AType>MONSTER</AType>
+			<ARef>mon_strongcoolfrog</ARef>
+			<SDur>15</SDur>
+			<TCon>ORIG_BELOWHEALTH</TCon>
+			<OrigBelowHealth>0.35</OrigBelowHealth>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<NumRandomSummons>1</NumRandomSummons>
+			<DetachFromSummoner />
+			<MaxRandomSummonRange>1</MaxRandomSummonRange>
+			<ScaleWithLevel />
+			<TPT>30</TPT>
+			<EnforceTPT />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_nullifying</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>nullifybuff</ERef>
+			<Targ>DEFENDER</Targ>
+			<Sscr>StripRandomBuffFromDefender</Sscr>
+			<ProcChance>0.5</ProcChance>
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_arcane</Rf>
+		<Pos />
+		<NoRemovalOrImmunity />
+		<AnimTags />
+		<Run>
+			<ATTACK />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>misc_dmg_arcane</Disp>
+			<ERef>arcanearrow</ERef>
+			<SCdm>ArcaneArrow</SCdm>
+			<CanCrit />
+			<Anim>FervirLargeBiteEffect,0.2</Anim>
+			<AtkSp>1|0</AtkSp>
+			<ProcChance>0.25</ProcChance>
+			<Targ>DEFENDER</Targ>
+			<DamageType>POISON</DamageType>
+			<IsProjectile />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>xp2_explosions</Rf>		
+		<StackDur />
+		<ATags>SIMULTANEOUSANIM</ATags>
+		<Run>
+			<USEABILITY />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Pos />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<ERef>item_explosion</ERef>
+			<Disp>effect_reactiveexplosion_name</Disp>
+			<Script_TriggerCondition>AllowOnlyIfUsingItem</Script_TriggerCondition>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<AtkWp>0.3|1</AtkWp>
+			<Anim>BigExplosionEffect,0.08</Anim>
+			<CenterSpriteOnOriginatingActor />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>item_bomb_caltrops2_name</DName>
+		<Rf>status_caltrops2</Rf>
+		<Flag>BLEED</Flag>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>	
+		<SGrnd />
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>item_bomb_caltrops2_name</Disp>
+			<ERef>caltropsbleed2</ERef>
+			<AtkLv>9|20</AtkLv>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />
+			<DamageItem />
+			<Anim>SpikeEffect,0.05</Anim>
+		</AEff>
+		<EffRef>eff_caltropsslow</EffRef>	
+	</SE>
+
+	<SE>
+		<Rf>physpen10</Rf>	
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>physpen10</ERef>
+			<PiercePhysical>0.9</PiercePhysical>
+			<Silent />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>physpen15</Rf>	
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>physpen15</ERef>
+			<PiercePhysical>0.85</PiercePhysical>
+			<Silent />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>physpen20</Rf>	
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>physpen20</ERef>
+			<PiercePhysical>0.8</PiercePhysical>
+			<Silent />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>physpen25</Rf>	
+		<PermaBuff />
+		<StackEff />
+		<AEff>
+			<Type>ALTERBATTLEDATA</Type>
+			<ERef>physpen25</ERef>
+			<PiercePhysical>0.75</PiercePhysical>
+			<Silent />
+		</AEff>
+	</SE>
+</DOCUMENT>

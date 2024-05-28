@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Abil>
+		<DName>exp_skill_inkstorm_name</DName>
+		<RefName>skill_inkstorm_2</RefName>
+		<Desc>exp_skill_inkstorm_desc</Desc>
+		<SDesc>exp_skill_inkstorm_desc</SDesc>
+		<EDesc>exp_skill_inkstorm_extradesc</EDesc>
+		<Icon>SkillIcons_53</Icon>
+		<NTag>175%</NTag>
+		<NTag>35%</NTag>
+		<Range>2</Range>
+		<CD>2</CD>
+		<StM>24</StM>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,MONSTERAFFECTED,CENTERED,LINEOFSIGHTREQ,RANDOMTARGET</ATags>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<Script_OnPreAbilityUse>RefreshInkstormRepetitions</Script_OnPreAbilityUse>
+		<Script_OnLearn>TeachPlayerAbility,skill_inkcollector</Script_OnLearn>
+		<DisplayInList>0</DisplayInList>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_inkstorm_name</Disp>
+			<ERef>inkstormskillorb</ERef>
+			<Targ>SINGLE</Targ>
+			<SCdm>InkstormModifyDamage</SCdm>
+			<Faction>NOTMYFACTION</Faction>
+			<WDmt />
+			<CanCrit />
+			<AtkWp>1.75</AtkWp>
+			<Anim>InkBrushSystem,0.15</Anim>
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_waterscroll_name</DName>
+		<Desc>exp_skill_waterscroll_desc</Desc>
+		<SDesc>exp_skill_waterscroll_desc</SDesc>
+		<EDesc>exp_skill_waterscroll_extradesc</EDesc>
+		<RefName>skill_waterscroll_2</RefName>
+		<NTag>30%</NTag>
+		<NTag>30%</NTag>
+		<NTag>15%</NTag>
+		<Icon>SkillIcons_16</Icon>
+		<Range>4</Range>
+		<CD>10</CD>
+		<EnC>16</EnC>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,PLAYANIMONEMPTY,SIMULTANEOUSANIM,MONSTERAFFECTED,CANROTATE</ATags>		
+		<ATarg>GROUND</ATarg>
+		<Bounds>FLEXRECT</Bounds>
+		<ATarg>ENEMY</ATarg>
+		<UseAnimation>Attack</UseAnimation>
+		<DisplayInList>0</DisplayInList>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_waterscroll_name</Disp>
+			<ERef>waterscroll_damage_2</ERef>
+			<SCdm>TryEnhanceCalligrapherScroll</SCdm>
+			<Anim>WaterExplosion,0.35</Anim>
+			<AtkWp>0.3</AtkWp>
+			<AtkSp>0.3</AtkSp>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<Trg1 />
+		</AEff>
+		<AbilEffectRef>eff_waterscrollsummon</AbilEffectRef>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_glide_name</DName>
+		<RefName>skill_glide_2</RefName>
+		<Desc>exp_skill_glide_desc</Desc>
+		<NTag>3</NTag>
+		<SDesc>exp_skill_glide_desc</SDesc>
+		<Icon>SkillIcons_78</Icon>
+		<StM>20</StM>
+		<CD>8</CD>
+		<DisplayInList>0</DisplayInList>
+		<Range>3</Range>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,GROUNDTARGET,CENTERED,CANROTATE</ATags>
+		<Bounds>POINT</Bounds>
+		<TargetOffsetY>3</TargetOffsetY>
+		<ATarg>GROUND</ATarg>
+		<ABILITYFLAG>MOVESELF</ABILITYFLAG>
+		<UseAnimation>Walk</UseAnimation>
+		<AbilEffectRef>eff_glidemove</AbilEffectRef>
+	</Abil>			
+</DOCUMENT>

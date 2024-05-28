@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 3415009808
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6046c6e942abe93593398a60971205c9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 835ce58ae5c997f0c657e7aff4cae416
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6852f3cc0f78fb841ad1a7850a8e7756, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Art/UI/tutorial_analog_movement.png
+- Assets/Resources/ShepPrefabs/prefab_tutorial_showstickmoveimage.prefab
+- Assets/Resources/Art/UI/tutorial_movement_main.png
+Dependencies: []

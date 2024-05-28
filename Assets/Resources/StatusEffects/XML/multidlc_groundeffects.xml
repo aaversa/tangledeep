@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+
+	<SE>
+		<DName>exp_obj_blackhole_name</DName>
+		<Rf>status_blackhole</Rf>
+		<AnimTags />
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_obj_blackhole_name</Disp>
+			<ERef>eff_blackholedamage</ERef>
+			<SCdm>BlackHoleExtraEffect</SCdm>	
+			<AtkWp>0.4|1</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>SHADOW</DamageType>
+			<Trg1 />
+			<NoDodgePossible />
+			<Anim>BlackHoleHit,0.1</Anim>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>abil_skill_flameslash_name</DName>
+		<Rf>status_axeflameslash</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_flameslash_name</Disp>
+			<ERef>eff_axeflameslashdmg</ERef>
+			<AtkWp>1.3|3</AtkWp>
+			<Targ>SINGLE</Targ>
+			<NoDodgePossible />
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+	
+	<SE>
+		<DName>effect_eff_inferno_name</DName>
+		<Rf>status_tyrantinferno</Rf>
+		<ATags>GROUNDBASEDEFFECT,PLAYANIMONEMPTY</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_inferno_name</Disp>
+			<ERef>eff_tyrantinferno</ERef>					
+			<AtkWp>1|3</AtkWp>			
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>	
+</DOCUMENT>

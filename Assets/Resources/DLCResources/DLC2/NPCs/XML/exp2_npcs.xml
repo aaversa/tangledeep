@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>	
+	<NPC>
+		<DisplayName>exp_mon_frogdragon_name</DisplayName>		
+		<RefName>npc_babyfrogking</RefName>
+		<Prefab>BabyFrogDragon</Prefab>
+		<DialogRef>exp_dialog_frogking_town</DialogRef>
+		<PlayerCollidable>1</PlayerCollidable>
+		<Interactable>1</Interactable>
+	</NPC>
+
+	<NPC>
+		<DisplayName>npc_npc_pinkslimepet_name</DisplayName>		
+		<RefName>npc_jellyboo_introdragon</RefName>
+		<Prefab>PinkSlime</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+	</NPC>
+
+	<NPC>
+		<DisplayName>exp_npc_realjellydragon_name</DisplayName>		
+		<RefName>npc_jellyboo_beatdragon</RefName>
+		<Prefab>PinkSlime</Prefab>
+		<DialogRef>slimedragon_postvictory</DialogRef>
+		<Interactable>1</Interactable>
+		<PlayerCollidable>1</PlayerCollidable>
+	</NPC>	
+
+	<NPC>
+		<DisplayName>????</DisplayName>		
+		<RefName>npc_hologram</RefName>
+		<Prefab>MiraiHologram</Prefab>
+		<PlayerCollidable>1</PlayerCollidable>
+	</NPC>	
+</DOCUMENT>

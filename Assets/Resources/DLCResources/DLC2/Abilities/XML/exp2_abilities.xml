@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<Abil>
+		<DName>abil_skill_whipmastery1_name</DName>
+		<RefName>skill_whipmastery1</RefName>
+		<Icon>SkillIcons_253</Icon>
+		<StDsc />
+		<SDesc>abil_skill_whipmastery1_desc</SDesc>
+		<StEdsc />
+		<NTag>100%</NTag>
+		<NTag>3</NTag>
+		<NTag>25%</NTag>
+		<Range>2</Range>
+		<CD>8</CD>
+		<StM>20</StM>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,ONHITPROPERTIES,CANROTATE</ATags>
+		<Bounds>FLEXLINE</Bounds>		
+		<ATarg>ENEMY</ATarg>
+		<ReqWeaponType>WHIP</ReqWeaponType>
+		<InstantDirectionalAnimationRef>RapidProjectiles</InstantDirectionalAnimationRef>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_whipmastery1_name</Disp>
+			<ERef>eff_rattlesnake</ERef>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<CanCrit />
+			<AtkWp>1.0|1</AtkWp>
+			<Anim>FervirWhipEffect,0.2,1</Anim>
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addwhipconstrict</ERef>
+			<StatusRef>status_whipconstrict</StatusRef>
+			<TCon>TARGET_WITHIN_TWOTILES</TCon>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Duration>3</Duration>			
+		</AEff>				
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_whipmastery2_name</DName>
+		<RefName>skill_whipmastery2</RefName>
+		<NTag>20%</NTag>
+		<NTag>3</NTag>
+		<Icon>SkillIcons_254</Icon>
+		<StDsc />
+		<Psv>whipmastery2add,whipmastery2</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_whipmastery3_name</DName>
+		<RefName>skill_whipmastery3</RefName>
+		<Icon>SkillIcons_255</Icon>
+		<StDsc />
+		<NTag>+3%</NTag>
+		<Psv>whipmastery3add,whipmastery3</Psv>
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_whipmastery4_name</DName>
+		<RefName>skill_whipmastery4</RefName>
+		<Icon>SkillIcons_256</Icon>
+		<StDsc />
+		<SDesc>abil_skill_whipmastery4_desc</SDesc>
+		<StEdsc />
+		<NTag>150%</NTag>
+		<NTag>3</NTag>
+		<NTag>150%</NTag>
+		<Range>3</Range>
+		<CD>25</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,GROUNDONLY,COOLDOWN_ONLY_REQWEAPON</ATags>
+		<ATarg>ENEMY</ATarg>
+		<ReqWeaponType>WHIP</ReqWeaponType>
+		<UseAnimation>Attack</UseAnimation>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_whipmastery4_name</Disp>
+			<ERef>eff_shockwave</ERef>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<CanCrit />
+			<AtkWp>1.5|1</AtkWp>
+			<Anim>FervirWhipEffect,0.2,1</Anim>
+		</AEff>		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>summonsonicboom</ERef>	
+			
+			<ARef>obj_sonicboom</ARef>
+			<SDur>4</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<MaxRandomSummonRange>0</MaxRandomSummonRange>
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_banditdragonsoul_name</DName>
+		<RefName>skill_banditdragonsoul</RefName>
+		<Icon>SkillIcons_251</Icon>
+		<StDsc />
+		<StEdsc />
+		<NTag>250%</NTag>
+		<NTag>35%</NTag>
+		<NTag>5</NTag>
+		<ATags>DRAGONSOUL</ATags>
+		<Passive />
+		<UsePassiveSlot />
+	</Abil>	
+
+	<Abil>
+		<DName>abil_skill_frogdragonsoul_name</DName>
+		<RefName>skill_frogdragonsoul</RefName>
+		<Icon>SkillIcons_250</Icon>
+		<StDsc />
+		<StEdsc />
+		<NTag>300%</NTag>
+		<NTag>5%</NTag>
+		<NTag>5</NTag>
+		<ATags>DRAGONSOUL</ATags>
+		<Passive />
+		<UsePassiveSlot />
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_beastdragonsoul_name</DName>
+		<RefName>skill_beastdragonsoul</RefName>
+		<Icon>SkillIcons_252</Icon>
+		<StDsc />
+		<StEdsc />
+		<NTag>350%</NTag>
+		<NTag>1</NTag>
+		<ATags>DRAGONSOUL</ATags>
+		<Passive />
+		<UsePassiveSlot />
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_slimedragonsoul_name</DName>
+		<RefName>skill_slimedragonsoul</RefName>
+		<Icon>SkillIcons_248</Icon>
+		<StDsc />
+		<StEdsc />
+		<NTag>4</NTag>
+		<NTag>12</NTag>
+		<ATags>DRAGONSOUL</ATags>
+		<Passive />
+		<UsePassiveSlot />
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_spiritdragonsoul_name</DName>
+		<RefName>skill_spiritdragonsoul</RefName>
+		<Icon>SkillIcons_247</Icon>
+		<StDsc />
+		<StEdsc />
+		<NTag>175%</NTag>
+		<NTag>5</NTag>
+		<ATags>DRAGONSOUL</ATags>
+		<Passive />
+		<UsePassiveSlot />
+	</Abil>
+
+	<Abil>
+		<DName>abil_skill_robotdragonsoul_name</DName>
+		<RefName>skill_robotdragonsoul</RefName>
+		<Icon>SkillIcons_249</Icon>
+		<StDsc />
+		<StEdsc />
+		<NTag>20</NTag>
+		<NTag>150%</NTag>
+		<NTag>+75%</NTag>
+		<NTag>3</NTag>
+		<NTag>8</NTag>
+		<ATags>DRAGONSOUL</ATags>
+		<Passive />
+		<UsePassiveSlot />
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_expmon_photonbreath_name</DName>
+		<RefName>dragonbreak_robot_power</RefName>
+		<Range>5</Range>
+		<Desc>dragonbreak_robot_power_desc</Desc>
+		<SDesc>dragonbreak_robot_power_desc</SDesc>		
+		<Script_OnPreAbilityUse>ResetLimitBreak</Script_OnPreAbilityUse>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,MONSTERAFFECTED,CENTERED,CANROTATE,LINEOFSIGHTREQ,PLAYANIMONEMPTY,STACKPROJECTILE</ATags>
+		<Bounds>FLEXCONE</Bounds>
+		<EffRef>random_photonbolts</EffRef>
+	</Abil>
+
+	<EffectScript>
+		<Type>DAMAGE</Type>
+		<Disp>exp_skill_expmon_randomphoton_name</Disp>
+		<ERef>photonstormdamage_player</ERef>
+		<Targ>ALL</Targ>
+		<Faction>NOTMYFACTION</Faction>
+		<SCdm>ScaleDamageToNumberOfPhotonBolts</SCdm>
+		<AtkWp>1.5|0</AtkWp>
+		<DamageType>LIGHTNING</DamageType>
+	</EffectScript>
+
+	<Abil>
+		<DName>exp_skill_gasbreath_name</DName>
+		<RefName>dragonbreak_spirit_power</RefName>
+		<Desc>dragonbreak_spirit_power_desc</Desc>
+		<SDesc>dragonbreak_spirit_power_desc</SDesc>		
+		<Range>5</Range>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,GROUNDTARGET,CENTERED,CURSORTARGET,LINEOFSIGHTREQ,PLAYANIMONEMPTY</ATags>
+		<TRange>1</TRange>
+		<TShape>RECT</TShape>
+		<Script_OnPreAbilityUse>ResetLimitBreak</Script_OnPreAbilityUse>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_gasbreath_name</Disp>
+			<ERef>gasbreath_dmg_player</ERef>
+			<Anim>AcidSplash,0.028</Anim>
+			<SCdm>DragonLimitDamageEnhance</SCdm>
+			<AtkWp>1.75|6</AtkWp>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>POISON</DamageType>	
+		</AEff>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_sleepgassummon_player</ERef>
+			
+			<ARef>obj_playersleepgastile</ARef>
+			<SDur>5</SDur>
+			<Anchor>SELF</Anchor>
+			<SummonOnCollidable />
+			<SummonActorPerTile />
+			<SummonOnSummoner />
+			<FMaxDelayBeforeSummon>0.05</FMaxDelayBeforeSummon>
+			<AnimLength>0.02</AnimLength>
+		</AEff>		
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_slimedragonbreak_name</DName>
+		<RefName>dragonbreak_slime_power</RefName>
+		<Desc>dragonbreak_slime_power_desc</Desc>
+		<SDesc>dragonbreak_slime_power_desc</SDesc>
+		<NTag>4</NTag>
+		<Range>2</Range>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,GROUNDTARGET,CENTERED,LINEOFSIGHTREQ,PLAYANIMONEMPTY,EMPTYONLY,GROUNDONLY</ATags>
+		<Script_OnPreAbilityUse>ResetLimitBreak</Script_OnPreAbilityUse>
+		<Bounds>CIRCLECORNERS</Bounds>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>playerslimesummon</ERef>
+			<AnimLength>0.3</AnimLength>
+			<AType>MONSTER</AType>
+			<ARef>mon_xp_friendly_slime_summonable</ARef>
+			<SDur>12</SDur>
+			<ScaleWithLevel />
+			<SummonActorPerTile />
+			<AnchorRange>2</AnchorRange>
+			<DetachFromSummoner />
+		</AEff>	
+	</Abil>
+
+	<Abil>
+		<DName>skill_expmon_frogsquash</DName>
+		<RefName>dragonbreak_frog_power</RefName>
+		<Desc>dragonbreak_frog_power_desc</Desc>
+		<SDesc>dragonbreak_frog_power_desc</SDesc>
+		<NTag>250%</NTag>
+		<NTag>5%</NTag>
+		<NTag>5</NTag>		
+		<ATags>INSTANT,TARGETED,CENTERED,CURSORTARGET,LINEOFSIGHTREQ,PLAYANIMONEMPTY,TVISIBLEONLY,MONSTERAFFECTED,PERTARGETANIM</ATags>
+		<Range>5</Range>
+		<Script_OnPreAbilityUse>ResetLimitBreak</Script_OnPreAbilityUse>
+		<EffRef>bigfroggojump</EffRef>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_expmon_frogsquash</Disp>
+			<ERef>frogsquash_player</ERef>
+			<SCdm>DragonLimitDamageEnhance</SCdm>
+			<CanCrit />
+			<Targ>ADJACENT</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>GroundStompEffect2x,0.5</Anim>
+			<DelayBeforeAnimStart>1.55</DelayBeforeAnimStart>
+			<AtkWp>2.5|6</AtkWp>
+		</AEff>	
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addself_fungal</ERef>
+			<Targ>ORIGINATING</Targ>
+			<StatusRef>status_fungalregen</StatusRef>
+			<Duration>5</Duration>
+		</AEff>		
+	</Abil>	
+
+	<Abil>
+		<DName>exp_skill_knifebreath_name</DName>
+		<RefName>dragonbreak_bandit_power</RefName>
+		<Desc>dragonbreak_bandit_power_desc</Desc>
+		<SDesc>dragonbreak_bandit_power_desc</SDesc>
+		<Script_OnPreAbilityUse>ResetLimitBreak</Script_OnPreAbilityUse>
+		<NTag>300%</NTag>
+		<Range>2</Range>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,GROUNDTARGET,CENTERED,LINEOFSIGHTREQ,PLAYANIMONEMPTY</ATags>
+		<ChargeTurns>1</ChargeTurns>
+		<ATarg>ENEMY</ATarg>
+		<InstantDirectionalAnimationRef>RapidProjectiles</InstantDirectionalAnimationRef>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_knifebreath_name</Disp>
+			<ERef>kunaibreathdamage_player</ERef>
+			<SCdm>DragonLimitDamageEnhance</SCdm>
+			<CanCrit />
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Anim>KunaiImpactSystem,0.025,1</Anim>
+			<AtkWp>3.0|3</AtkWp>
+			<CanBeParriedOrBlocked />
+		</AEff>
+		<EffRef>knifebreath_bleed</EffRef>
+	</Abil>
+
+	<Abil>
+		<DName>exp_skill_meteorbreath_name</DName>
+		<RefName>dragonbreak_beast_power</RefName>
+		<Desc>dragonbreak_beast_power_desc</Desc>
+		<SDesc>dragonbreak_beast_power_desc</SDesc>		
+		<Script_OnPreAbilityUse>ResetLimitBreak</Script_OnPreAbilityUse>
+		<Range>4</Range>
+		<NTag>350%</NTag>
+		<TShape>RECT</TShape>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,PERTARGETANIM,MONSTERAFFECTED,CURSORTARGET,CENTERED,LINEOFSIGHTREQ,PLAYANIMONEMPTY</ATags>		
+		<ATarg>ENEMY</ATarg>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<ERef>fakemeteor</ERef>
+			<AtkWp>0|1</AtkWp>
+			<Targ>SINGLE</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<SCdm>PlayMeteorAnimation</SCdm>			
+			<Silent />
+		</AEff>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_meteorbreath_name</Disp>
+			<ERef>beastbreak</ERef>
+			<Anim>FireBurst,0.014,1</Anim>
+			<SCdm>DragonLimitDamageEnhance</SCdm>
+			<AtkWp>3.5|1</AtkWp>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>
+		</AEff>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>addstun_all</ERef>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_basicstun</StatusRef>
+			<Duration>1</Duration>
+		</AEff>	
+	</Abil>
+
+	<Abil>
+		<DName>item_dragonsoul_generic</DName>
+		<RefName>skill_teachskillfromdata_nojp</RefName>
+		<ATags>INSTANT,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,HEROAFFECTED,CENTERED,SIMULTANEOUSANIM</ATags>
+		<Bounds>POINT</Bounds>
+		<ATarg>SELF</ATarg>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>teachskill_fromdata_free</ERef>
+			<Sscr>LearnSkillFromItemDataForFree</Sscr>
+		</AEff>	
+	</Abil>
+
+	<Abil>
+		<DName>item_bomb_ice2_name</DName>
+		<Desc>item_bomb_ice2_effectdesc</Desc>
+		<SDesc>item_bomb_ice2_effectdesc</SDesc>
+		<NTag>30</NTag>
+		<NTag>33%</NTag>
+		<RefName>skill_freezevial2</RefName>
+		<Range>2</Range>
+		<CD>8</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,MONSTERAFFECTED,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,CANROTATE,PLAYANIMONEMPTY</ATags>	
+		
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>item_bomb_ice2_name</Disp>
+			<ERef>freezevialdamage2</ERef>
+			<CanCrit />
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>WATER</DamageType>
+			<AtkLv>30|30</AtkLv>
+			<Anim>IceGrowAttack2x,0.03</Anim>
+			<DamageItem />
+		</AEff>		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>icebomb_freeze</ERef>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_bigfreeze</StatusRef>
+			<Duration>2</Duration>
+			<TPT>5</TPT>
+		</AEff>
+
+	</Abil>
+
+	<Abil>
+		<DName>item_bomb_fire3_name</DName>
+		<Desc>item_bomb_fire3_effectdesc</Desc>
+		<SDesc>item_bomb_fire3_effectdesc</SDesc>
+		<RefName>skill_flamecocktail3</RefName>
+		<Range>4</Range>
+		<CD>10</CD>
+		<NTag>30</NTag>
+		<NTag>25%</NTag>
+		<NTag>4</NTag>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,PERTARGETANIM,MONSTERAFFECTED,CENTERED,SIMULTANEOUSANIM,CANROTATE,GROUNDONLY,PLAYANIMONEMPTY,OVERRIDECHILDSFX</ATags>
+		<SFXOverride>FireBreathSFX</SFXOverride>
+		<ATarg>GROUND</ATarg>
+		<Bounds>CONE</Bounds>
+		
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>item_bomb_fire3_name</Disp>
+			<ERef>molotovdmg_2</ERef>
+			<CanCrit />
+			<Anim>SimpleFireEffect,0.13</Anim>
+			<AtkLv>30|30</AtkLv>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>FIRE</DamageType>			
+			<DamageItem />
+		</AEff>
+		<EffRef>molotovburns</EffRef>	
+	</Abil>	
+
+	<Abil>
+		<DName>item_bomb_lightning3_name</DName>
+		<Desc>item_bomb_lightning3_effectdesc</Desc>
+		<SDesc>item_bomb_lightning3_effectdesc</SDesc>		
+		<RefName>skill_lightningbrew3</RefName>
+		<Range>3</Range>
+		<NTag>35</NTag>
+		<CD>10</CD>
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,MONSTERAFFECTED,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,GROUNDONLY,OVERRIDECHILDSFX</ATags>
+		<ATarg>GROUND</ATarg>
+		<TShape>RECT</TShape>		
+		<ATarg>ENEMY</ATarg>
+		<SFXOverride>LightningStormSFX</SFXOverride>		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>item_bomb_lightning3_name</Disp>
+			<ERef>shockbrew2</ERef>
+			<CanCrit />
+			<Anim>LightningStrikeEffectBig,0.08</Anim>
+			<AtkLv>35|30</AtkLv>
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>LIGHTNING</DamageType>
+			<DamageItem />
+		</AEff>
+	</Abil>
+
+	<Abil>
+		<DName>item_bomb_caltrops2_name</DName>
+		<Desc>abil_skill_caltrops2_shortdesc</Desc>
+		<SDesc>abil_skill_caltrops2_shortdesc</SDesc>
+		<RefName>skill_caltrops2</RefName>
+		<Range>4</Range>
+		<CD>10</CD>		
+		<ATags>INSTANT,TARGETED,TVISIBLEONLY,GROUNDTARGET,CURSORTARGET,CENTERED,SIMULTANEOUSANIM,LINEOFSIGHTREQ,CANROTATE,GROUNDONLY</ATags>
+		<ATarg>GROUND</ATarg>
+		
+		<TShape>BURST</TShape>
+		<TRange>2</TRange>		
+		<ATarg>ENEMY</ATarg>
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_caltropssummon2</ERef>
+			<ARef>obj_caltropstile2</ARef>
+			<SDur>14</SDur>
+			<Anchor>SELF</Anchor>
+			<AnchorRange>3</AnchorRange>
+			<SummonActorPerTile />
+			<SummonOnCollidable />
+			<SummonOnSummoner />
+		</AEff>
+	</Abil>
+</DOCUMENT>

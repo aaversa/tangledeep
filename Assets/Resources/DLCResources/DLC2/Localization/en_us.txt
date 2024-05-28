@@ -1,0 +1,471 @@
+abil_skill_banditdragonsoul_desc	Dragon Break: Breath of Knives. Deals ^number1^ Weapon Damage as Physical to enemies in a 5x5 square around you.
+abil_skill_banditdragonsoul_edesc	Also causes Bleeding, dealing ^number2^ Weapon Damage as Physical per turn for ^number3^ turns.
+abil_skill_banditdragonsoul_extradesc	Also causes Bleeding, dealing ^number2^ Weapon Damage as Physical per turn for ^number3^ turns.
+abil_skill_banditdragonsoul_name	Dragon Soul: Bandit
+abil_skill_beastdragonsoul_desc	Dragon Break: Meteor Breath. Deals ^number1^ Weapon Damage as Fire to a group of enemies.
+abil_skill_beastdragonsoul_edesc	Also stuns all targets struck for ^number2^ turn(s).
+abil_skill_beastdragonsoul_extradesc	Also stuns all targets struck for ^number2^ turn(s).
+abil_skill_beastdragonsoul_name	Dragon Soul: Tyrant
+abil_skill_beedeath_name	Release Bees
+abil_skill_beestinger_name	Hornet Sting
+abil_skill_chillonhit_weak_name	Chilly Hide
+abil_skill_flank_name	Flanking Jump
+abil_skill_frogdragonsoul_desc	Dragon Break: Frog Squash. Leap to target enemy, dealing ^number1^ Weapon Damage as Physical to target and adjacent enemies.
+abil_skill_frogdragonsoul_edesc	Also grants Fungal Regeneration to you, restoring ^number2^ of max Health per turn for ^number3^ turns.
+abil_skill_frogdragonsoul_extradesc	Also grants Fungal Regeneration to you, restoring ^number2^ of max Health per turn for ^number3^ turns.
+abil_skill_frogdragonsoul_name	Dragon Soul: Frog
+abil_skill_ghostaura_name	Aura of Suppression
+abil_skill_icebullrush_name	Icy Slam
+abil_skill_lowerdef_onattack_name	Acidic Attack
+abil_skill_moldmindcontrol2_name	Psychic Drain
+abil_skill_parry30_name	Superior Parry
+abil_skill_passivecharm_pets_name	Psychic Control
+abil_skill_prismabsorber_name	Prism Absorb
+abil_skill_prismattack_name	Prismatic Attack
+abil_skill_randomice_name	Random Ice Blocks
+abil_skill_robotdragonsoul_desc	Dragon Break: Photon Breath. Fires ^number1^ lasers into a large area in front of you, dealing at least ^number2^ Weapon Damage as Lightning to all targets.
+abil_skill_robotdragonsoul_edesc	Monsters can be hit by up to ^number4^ lasers, each dealing ^number3^ extra damage. 
+abil_skill_robotdragonsoul_extradesc	Monsters can be hit by up to ^number4^ lasers, each dealing ^number3^ extra damage. 
+abil_skill_robotdragonsoul_name	Dragon Soul: Robot
+abil_skill_slimedragonsoul_desc	Dragon Break: Jelly Reinforcements. Summons ^number1^ friendly jellies to fight alongside you for ^number2^ turns.
+abil_skill_slimedragonsoul_edesc	Summoned Jellies cannot be pushed or pulled.
+abil_skill_slimedragonsoul_extradesc	Summoned Jellies cannot be pushed or pulled.
+abil_skill_slimedragonsoul_name	Dragon Soul: Jelly
+abil_skill_sludgedeath2_name	Plague Death
+abil_skill_snakefly_name	Carefree Lunge
+abil_skill_spectralcrab_name	Summon Spectral Crab
+abil_skill_spiritdragonsoul_desc	Dragon Break: Gas Breath. Deals ^number1^ Weapon Damage as Poison in a 3x3 shape at range. Also summons gas clouds which put enemies to sleep if entered.
+abil_skill_spiritdragonsoul_edesc	Gas clouds cause sleep for ^number2^ turns.
+abil_skill_spiritdragonsoul_extradesc	Gas clouds cause sleep for ^number2^ turns.
+abil_skill_spiritdragonsoul_name	Dragon Soul: Spirit
+abil_skill_summon_metalslime_red_name	Build Keybubble
+abil_skill_summon_metalslime_red_shortdesc	Summons a helpful Keybubble that can destroy force fields.
+abil_skill_whipmastery1_desc	Attacks enemies in a line for ^number1^ Weapon Damage as Physical. Enemies within two tiles are Constricted for ^number2^ turns.
+abil_skill_whipmastery1_extradesc	Constricted enemies take ^number3^ Weapon Damage as Physical per turn.
+abil_skill_whipmastery1_name	Rattlesnake
+abil_skill_whipmastery2_desc	Whip attacks have a ^number1^ chance to Paralyze enemies for ^number2^ turns.
+abil_skill_whipmastery2_name	Entangle
+abil_skill_whipmastery3_desc	Whip attacks gain ^number1^ crit chance per target attacked.
+abil_skill_whipmastery3_name	Finesse
+abil_skill_whipmastery4_desc	Strikes an enemy for ^number1^ Weapon Damage as Physical, creating a shockwave at that point. The shockwave expands each turn for ^number2^ turns.
+abil_skill_whipmastery4_extradesc	Shockwave deals ^number3^ Weapon Damage as Physical at the end of each turn.
+abil_skill_whipmastery4_name	Sonic Boom
+abil_skill_wranglersummon_name	Call Pet
+ask_where_dragons	Where are the other dragons?
+bandit_dragon_intro_1	That doesn't look like one of the #cy#Bird Boyz#ec# at all. It must be a #cg#dragon#ec#!\n\n
+bandit_dragon_intro_2	#cr#Hissssss#ec#... Your #cy#cheeeeeesssssse#ec#... give it to #cy#ussssss#ec#, or you will #cr#perissssshhhhhh#ec#!\n\n
+bandit_dragon_intro_3	Would it be too much to ask for you to sleep for a few hundred more years? Please?\n\nI understand a passion for cheese more than anyone, but you can't go around threatening and stealing from people.\n\n
+bandit_dragon_intro_4	#cr#HISSSSSSSSSS!#ec# I musssssst eat #cy#cheeesse#ec#. It was #cy#ssssssstolen#ec# from me.\n\n
+bandit_dragon_intro_response_1	What is it with bandits and food?!
+bandit_dragon_intro_response_2	Yes, yes it would.
+bandit_dragon_takeitems_1	Insssssolent creature! We #cr#ssssssteal your food#ec# now! Gwah hah hah...\n\n
+bandit_dragon_takeitems_2	I've got you on the ropes, and #cy#now#ec# you want to throw around threats? My food is #cg#safe right here in my pack#ec#, and...\n\n #cy#Hey, wait a minute!#ec#\n\n
+bandit_dragon_takeitems_part2_txt	That bloated bandit #cy#took all my food#ec#! That does it, #cr#NOW I'm mad#ec#. I'm taking that food back one way or another!\n\n
+bandit_dragon_takeitems_response	I'd like to see you try!
+bandit_dungeon_unlocked_txt	Where did those #cy#stairs#ec# come from? I'm sure they weren't here when I fought the #cy#Bird Boyz#ec#...\n\nCould it be the lair of another #co#Dragon#ec#?\n\n
+banditdragon_postdefeat_txt	Another #co#Dragon#ec# defeated! And that's why you #cr#never#ec# touch my #cy#cheese#ec#. Some things are just off-limits.\n\n
+banditdungeon_hub_unlock_txt	That was the last gatekeeper! Maybe the central gate is open now. I'd better make sure I'm prepared before moving on...\n\n
+battletext_nullify	BUFF REMOVED!
+beast_dungeon_unlocked_txt	What a magnificent #cg#vine#ec#! It looks big enough for me to climb.\n\nCould such a tranquil place as this really be underneath the lair of another #co#Dragon#ec#?\n\nOnly one way to find out.\n\n
+beastdungeon_firstwavestart_part2_txt	It's a #cr#stampede#ec#! Not good... but if I run now, beasts will eat up the #cg#vinelings#ec#, and I won't be able to climb up further.\n\nI'll have to #cy#defend them#ec#. Better make preparations quick!\n\n
+beastdungeon_firstwavestart_txt	These four #cg#vinelings#ec# look like they're about to erupt into growth. I can feel it in the air!\n\n... Uh oh, what's that sound in the distance?\n\n
+bubbleshield_displayname	Bubble Shield
+budoka_glove1_desc	Attacks as if you were unarmed. Ignores any Weapon Power bonuses. Supports up to ^number1^ magic mods.
+budoka_glove1_name	Novice's Wrap
+budoka_glove2_name	Disciple's Wrap
+budoka_glove3_name	Expert's Wrap
+budoka_glove4_name	Grandmaster's Wrap
+des_obj_creepingsludge_dname	Plague Pool
+description_xp2_limitbreak	Increases by receiving damage. At #cg#100%#ec#, your next #cy#basic attack#ec# will allow you to use a powerful #co#Dragon Break#ec# attack! After using the attack, or after #cy#15#ec# turns have passed, your #co#Dragon Limit#ec# will reset.
+dialog_weaponmaster_chat_whip_mastery_ultimate1_txt	#cy#JORITO#ec#: Before you can learn <#0cffe6>Sonic Boom#ec#, you must defeat #cy#^tag1^ champions#ec# with a #cy#Whip#ec# equipped in your main hand. They cannot be <#79a2ab>worthless#ec#, either.\n\nThus far, you have bested <#40b843>^tag2^#ec# champions with a #cy#Whip#ec#. You must continue practicing.\n
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_btn_0	Learn Sonic Boom (1000 JP)
+dialog_weaponmaster_chat_whip_mastery_ultimate_ready_txt	#cy#JORITO#ec#: I see you have defeated #cy#^tag2^ champions#ec# with a #cy#Whip#ec# equipped. You are ready to learn its <#40b843>Ultimate Technique#ec#.\n\nAre you #cy#sure#ec# this is the <#40b843>Ultimate Technique#ec# you want to learn? You can #cr#never learn another.#ec#\n\n#cy#Current JP:#ec# #cg#^$getstring:curjp$^#ec#\n
+dialog_weaponmaster_chat_whipmastery_btn	Path of <#40b843>Whip Mastery#ec#
+dialog_weaponmaster_chat_whipmasteryintro2_btn_0	Learn Entangle (700 JP)
+dialog_weaponmaster_chat_whipmasteryintro2_txt	#cy#JORITO#ec#: The #cy#whip#ec# is a flexible weapon built for fighting groups of enemies, albeit with less power behind each strike. Its <#40b843>masteries#ec# focus on #cy#area damage#ec#, attacking multiple targets at once.\n\nThe second mastery is <#0cffe6>Entangle#ec#, a Passive skill. Armed with this technique, you will sometimes #cy#disarm#ec# (paralyze) enemies with your whip.\n\n#cy#Current JP:#ec# #cg#^$getstring:curjp$^#ec#\n
+dialog_weaponmaster_chat_whipmasteryintro3_btn_0	Learn Finesse (800 JP)
+dialog_weaponmaster_chat_whipmasteryintro3_txt	#cy#JORITO#ec#: The #cy#whip#ec# is a flexible weapon built for fighting groups of enemies, albeit with less power behind each strike. Its <#40b843>masteries#ec# focus on #cy#area damage#ec#, attacking multiple targets at once.\n\nThe third mastery is <#0cffe6>Finesse#ec#, a Passive skill. Armed with this technique, your whip gains additional #cy#crit chance#ec# when striking multiple targets.\n\n#cy#Current JP:#ec# #cg#^$getstring:curjp$^#ec#\n
+dialog_weaponmaster_chat_whipmasteryintro4_btn_0	I'm ready, teach me <#0cffe6>Sonic Boom#ec#!
+dialog_weaponmaster_chat_whipmasteryintro4_txt	#cy#JORITO#ec#: I see you have become very skilled in the way of the #cy#Whip#ec#. Are you ready to learn its <#40b843>Ultimate Technique#ec#? Think carefully - you may only learn #cy#one#ec# <#40b843>Ultimate Technique#ec#.\n\nWith <#0cffe6>Sonic Boom#ec#, you will strike an adjacent enemy, creating an instant #cy#shockwave#ec# that grows in size and damage the farther it gets from you.\n
+dialog_weaponmaster_chat_whipmasteryintro_btn_0	Learn Rattlesnake (400 JP)
+dialog_weaponmaster_chat_whipmasteryintro_txt	#cy#JORITO#ec#: The #cy#whip#ec# is a flexible weapon built for fighting groups of enemies, albeit with less power behind each strike. Its <#40b843>masteries#ec# focus on #cy#area damage#ec#, attacking multiple targets at once.\n\nThe first mastery is <#0cffe6>Rattlesnake#ec#. This lashes a row of enemies, knocking them over and Rooting them as well.\n\n#cy#Current JP:#ec# #cg#^$getstring:curjp$^#ec#\n
+dragonbreak_bandit_power_desc	Breathe knives at a group of monsters, dealing ^number1^ Weapon Damage as Physical and causing Bleeding.
+dragonbreak_beast_power_desc	Drop a meteor on a group of monsters, dealing ^number1^ Weapon Damage as Fire and Stunning them.
+dragonbreak_frog_power_desc	Gracefully leap to a monster, dealing ^number1^ Weapon Damage as Physical to it and all adjacent enemies.
+dragonbreak_ready_desc	Your next basic attack will trigger a powerful #co#Dragon Break#ec# attack!
+dragonbreak_ready_name	Dragon Break Ready!
+dragonbreak_robot_power_desc	Breathe lasers on a group of monsters, dealing at least ^number1^ Weapon Damage as Lightning.
+dragonbreak_slime_power_desc	Summons ^number1^ friendly Jellies to fight alongside you!
+dragonbreak_spirit_power_desc	Breathe poison gas on a group of monsters, dealing ^number1^ Weapon Damage as Poison and summoning sleeping gas on the area.
+exp_banditdungeon_cname1	Bandit Waterworks 1F
+exp_banditdungeon_cname2	Bandit Waterworks 2F
+exp_banditdungeon_cname3	Bandit Waterworks 3F
+exp_banditdungeon_cname4	Bandit Dragon's Lair
+exp_beastdungeon_cname1	Ancient Jungle 1F
+exp_beastdungeon_cname2	Ancient Jungle 2F
+exp_beastdungeon_cname3	Ancient Jungle 3F
+exp_beastdungeon_cname4	Ancient Jungle 4F
+exp_beastdungeon_cname5	Jungle Pinnacle
+exp_crafting_commongearandthreegems_to_randomgear	1 Common Equipment + 3 Gems of Same Rank = 1 Random Equipment (May Be Legendary!)
+exp_crafting_gemleaves_to_gems	2 Gem Leaves of Same Rank = 1 Gem of Same Rank
+exp_crafting_legendaryandthreegems_to_orbs	1 Legendary or Set Item + 3 Gems of Same Rank = 5 Orbs of Reverie
+exp_crafting_lucidorbandgem_to_randomlucidorb	1 Lucid Orb + 1 Gem = 1 Random Lucid Orb
+exp_crafting_orbandjobscroll_to_skillorb	1 Orb of Reverie + 1 Job Change Scroll = 1 Random Skill Orb
+exp_crafting_potions_to_elixir	2 Max Level Healing, Stamina, and Energy Potions = 1 Elixir
+exp_crafting_sixlucidshards_to_randomlucidorb	Any 6 Lucid Orb Shards = 1 Random Lucid Orb
+exp_crafting_threecommonarmor_to_randomarmor	3 Common Armor = 1 Random Common Armor
+exp_crafting_threecommonoffhand_to_randomoffhand	3 Common Offhands = 1 Random Common Offhand
+exp_crafting_threecommonweapons_to_randomweapon	3 Common Weapons = 1 Random Common Weapon of Different Type
+exp_crafting_threegems_upgrade	3 Gems of Same Rank = 1 Gem of Higher Rank
+exp_crafting_threelucidorbs_to_oneregular	Any 3 Lucid Orbs = 1 Orb of Reverie
+exp_crafting_threepotions_upgrade	3 Identical Healing or Stealth Potions = 1 Potion of Higher Rank
+exp_crafting_threescrollsandgem_to_randomscroll	Any 3 Scrolls + 1 Gem = 1 Random Scroll
+exp_crafting_threeseeds_to_randomseed	Any 3 Tree Seeds = 1 Random Seed
+exp_crafting_twoaccessoriesandgem_to_randomaccessory	2 Common Accessories + 1 Gem = 1 Random Common Accessory
+exp_crafting_tworelics_to_randomrelic	Any 2 Relics = 1 Random Relic of Similar Power
+exp_crafting_tworelicsanditem_to_specificrelic	Any 2 Relics + 1 Non-Relic Gear = 1 Random Relic of Given Equipment Slot
+exp_dialog_crafting_recipeintro	Here are all the recipes I know.\n
+exp_dialog_frogking_town_craftinginfo	#cy#HORATIO:#ec# I'll try to make this simple, so even you can understand it.\n\nYou give me the right #cy#items#ec#, I munch on them, and with my #cg#Powerful Frog Magic#ec#, I'll create something else for you in return.\n
+exp_dialog_frogking_town_dragons_1	#cy#HORATIO:#ec# The other #co#Ancient Dragons#ec# are far more powerful than I, and you have #cr#no chance at all#ec# to defeat them! So, I might as well tell you where they are, #cy#heh heh#ec#...\n\n
+exp_dialog_frogking_town_dragons_2	#cy#HORATIO:#ec# One can be found near a #co#pretender's hideout#ec#.\nOne resides above a #co#lake of tranquility#ec#.\nOne can be found in a #co#land of dreams#ec#.\nOne can be found in a #co#moist, drippy cave#ec#.\n\n
+exp_dialog_frogking_town_intro	#cy#HORATIO:#ec# What is it you want, now? I'm very #cg#*blep blep*#ec# busy!\n
+exp_enemycaltrops_name	Enemy Caltrops
+exp_frogdungeon_cname1	The Frogmire 1F
+exp_frogdungeon_cname2	The Frogmire 2F
+exp_frogdungeon_cname3	The Frogmire 3F
+exp_frogdungeon_cname4	Frog Dragon's Lair
+exp_log_eatenwhole	#cr#^tag1^#ec# swallows #cy#^tag2^#ec# whole!
+exp_log_gateopened	You hear #cy#heavy gates#ec# moving #cy#somewhere#ec#...
+exp_log_ghostaura_wrongtarget	In the #cy#Ghostly Aura#ec#, your attack harms only the #cy#^tag1^#ec#!
+exp_log_item_crafted	Item created: #cy#^tag1^#ec#!
+exp_log_monsterhorde_attack	#cy#A horde of#ec# #cr#monsters#ec# #cy#has appeared!#ec# (Wave #cg#^tag1^#ec#)
+exp_log_monsterhorde_fail	The #cy#Vinelings#ec# have been #cr#destroyed#ec#! You are pulled away...
+exp_misc_eatenwhole	EATEN WHOLE!
+exp_mon_banditdragon_name	Bandit Dragon
+exp_mon_beastdragon_name	Tyrant Dragon
+exp_mon_cheftoad_name	Croak de Cuisine
+exp_mon_frogdragon_name	Horatio, the Frog Dragon
+exp_mon_hornetnest_name	Warhornet's Nest
+exp_mon_jellydragon_name	Jelly Dragon Usurper
+exp_mon_prototype_husyn_name	Prototype
+exp_mon_robotdragon_name	PROGRAM.DRAGON
+exp_mon_spiritdragon_name	Echo Dragon
+exp_mon_warhornet	Warhornet
+exp_mon_xp_defensecrystal_name	Magic Vineling
+exp_npc_realjellydragon_name	Jellyboo, the Jelly Dragon
+exp_obj_floorswitch_name	Switch
+exp_obj_friendlymonster_egg_name	Crystal Prison
+exp_obj_metalgate_name	Iron Gate
+exp_obj_ruined_future_obstacle_01_name	Solid Scrap
+exp_obj_ruined_robot_scrap_heap_name	Scrap Heap
+exp_popup_dragondefeated	DRAGON DEFEATED!
+exp_popup_wave	WAVE ^tag1^!
+exp_robotdungeon_cname1	Machine Labyrinth 1F
+exp_robotdungeon_cname2	Machine Labyrinth 2F
+exp_robotdungeon_cname3	Machine Labyrinth 3F
+exp_robotdungeon_cname4	Machine Labyrinth 4F
+exp_robotdungeon_cname5	Machine Labyrinth Pinnacle
+exp_skill_deeproar_name	Primal Roar
+exp_skill_dragon_taillash_name	Tail Lash
+exp_skill_expmon_summonneutralizers_name	Assemble Reinforcements
+exp_skill_firewave_name	Flame Wave
+exp_skill_gasbreath_name	Sleeping Gas
+exp_skill_icestrike_name	Frost Wave
+exp_skill_knifebreath_name	Breath of Knives
+exp_skill_lightningbreath_name	Bolt Breath
+exp_skill_meteorbreath_name	Meteor Breath
+exp_skill_shadowbreath_name	Nightmare Breath
+exp_skill_skysnakepoison_name	Severe Poison
+exp_skill_slimebreath_name	Jelly Breath
+exp_skill_slimedragonbreak_name	Jelly Reinforcements
+exp_slimedungeon_cname1	The Jellyfields 1F
+exp_slimedungeon_cname2	The Jellyfields 2F
+exp_slimedungeon_cname3	The Jellyfields 3F
+exp_slimedungeon_cname4	The Jellyfields Pinnacle
+exp_specialmon_gatekeeper	Gatekeeper
+exp_spiritdungeon_cname1	Spirit Sanctuary 1F
+exp_spiritdungeon_cname2	Spirit Sanctuary 2F
+exp_spiritdungeon_cname3	Spirit Sanctuary 3F
+exp_spiritdungeon_cname4	Spirit Sanctuary Pinnacle
+exp_status_enrageattack_name	Enraged
+exp_status_physicalform_name	Corporeal Form
+exp_status_spiritform_name	Spirit Form
+exp_switch_nothing	The #cy#switch moves#ec#, but #cr#nothing happened#ec#.
+exp_ui_boxitemheader	Horatio's Items
+exp_ui_craftheader	Horatio's Meal
+exp_ui_craftitems	Craft Items!
+exp_ui_playeritemheader	Your Items
+exp_wanderer_dungeon11_name	Cave of Eternity
+final_dragon_callout_part1_1	Well my little #cg#amphibious friend#ec#, that's all of them. All the #co#Dragons#ec# are at peace.\n\n
+final_dragon_callout_part1_2	#cg#*BLEP BLEP BLEP*#ec# Im-impossible! Nobody's that strong! You must have cheated!\n\n
+final_dragon_callout_part1_3	Afraid not, #cg#froggy#ec#! Those things were mighty tough, but they didn't get the best of me.\n\nNow that we're no longer #cy#threatened#ec#, I think it's time we discuss-\n\n
+final_dragon_callout_part2_1	What was that?!\n\nListen #cg#pipsqueak#ec#, if you used your magic to hurt anyone, you're going straight to the corral.\n\nSpeak up! What did you do?\n\n
+final_dragon_callout_part2_2	No, it wasn't me! I #cg#*blep*#ec# swear! Even if I wanted to, my #cg#Frog Magic#ec# can't do that.\n\n
+final_dragon_callout_part2_3	#heroname#, I believe I have a fragment of an answer. At the same time that #cr#explosion#ec# occurred, the energy going to the #cy#Dreamcaster#ec# intensified by #cy#834%#ec#.\n\nWe can deduce that the source of the explosion is #cy#mechanical#ec# in nature, and furthermore, that it's of the same technological ancestry as the #cy#Dreamcaster#ec# and the #cc#Ancient Cube#ec# that powers it.\n\nI dare say our little green friend is telling the truth!\n\n
+final_dragon_callout_part2_4	So, there's #cy#another#ec# powerful machine somewhere, but why did it activate now?\n\n
+final_dragon_callout_part2_5	If I were to formulate a hypothesis, perhaps your recent defeat of the #co#dragons#ec# is connected?\n\nWe know so little about these ancient relics, but one thing we can say for certain is that they are connected to the #cc#Flow#ec# just as we all are.\n\nPerhaps by interacting with the #co#Dragons#ec#, you caused the #cc#Flow#ec# to change so much that it awakened this #cy#hitherto-unknown#ec# device!\n\n
+final_dragon_callout_part2_6	That seems like a good guess. If you're right, the source might be near where I've seen lots of other #cy#machines#ec#.\n\nI'll start by investigating the #cc#^$getstring:levelname$^!#ec#\n\n
+frog_dragon_defeated_1	#cy#Ack!#ec#\n\n#cg#*blep*#ec# My enchantment has been broken, and it's all your fault. #cr#You will answer for this at once#ec#, tadpole!\n\n
+frog_dragon_defeated_2	So that's what you look like under all that bluster. You're a #cg#cute frog#ec#, yes you are!\n\nNow, I think it's time to go back to Riverstone. Shall we?\n\n
+frog_dragon_defeated_3	I will #cr#strike at you#ec# from the depths of my fiery, regal #cg#*blep blep*#ec# soul!\n\nI still have my mighty #cg#Frog Magic#ec# to turn those shiny weapons into dust.\n\n
+frog_dragon_defeated_4	We can do this the #cg#easy way#ec# or the #cr#hard way#ec#, froggy. The easy way is I set up a #cc#portal#ec# for you, and you become a nice, productive member of town. Maybe you can even use that Frog Magic to help us out!\n\nThe hard way involves a giant mallet, and trust me, you're not going to like #cy#where you wake up#ec#.\n\n
+frog_dragon_defeated_5	... #cg#*blep*#ec# ...\n\nPerhaps I will put my reign on hiatus for awhile longer.\n\nBut know this, tadpole! I am but one of five #co#Ancient Dragons#ec#, whose power is incomprehensible. You could not possibly defeat them all, #cg#*blep*#ec# never!\n\n
+frog_dragon_defeated_response_1	Aww, who's a cute little froggy now!
+frog_dragon_defeated_response_2	Let me rephrase.
+frog_dragon_defeated_response_3	We'll see about that. Anyway, off you go!
+frog_dragon_intro_1	T-that's the biggest frog I've ever seen! It must be the leader of all the other dangerous frogs here.\n\nMajestic as it may be, it's a threat to #cc#Riverstone#ec# and beyond. Langdon, if this is your long-lost cousin, I'm sorry!\n
+frog_dragon_intro_2	#cg#*BLURP*#ec# How dare you intrude upon the Frogmire and speak with such insolence! I am #co#Horatio, the Frog Dragon#ec#, and you will address me with respect.\n
+frog_dragon_intro_3	#cy#What?!#ec#\n\nYou- I... I'm sorry, #co#Dragon#ec#?! Like the ones from the ancient stories?\n
+frog_dragon_intro_4	"Stories"? #cg#*BLURP BLURP BLURP*#ec#\n\nHave your people forgotten their #cy#king#ec# so soon? I have slumbered long, and now my tribute is due.\n
+frog_dragon_intro_5	We have no kings. You're welcome to come back with me to #cc#Riverstone#ec#, and you can even share in our food, but you can't go around threatening people and demanding things.\n
+frog_dragon_intro_6	#cr#SILENCE, TADPOLE!#ec#\n\nYou do not merely 'welcome' a king. I am to be #cr#obeyed#ec# and #cr#feared#ec#. I will #cg#*BLURP*#ec# my way to Riverstone and remind your people of my dominance over all Frogkind.\n
+frog_dragon_intro_7	Then you can stay here with the other frogs, and I'll leave you in peace as long as you don't bother us.\n
+frog_dragon_intro_8	#cg#*BLUUURP*#ec#\nThrice you have angered me, but now you will face my #cr#wrath#ec#.\n\n#cr#Frogkind, attack!#ec#\n
+frog_dragon_intro_response_1	You can TALK?!
+frog_dragon_intro_response_2	Tribute?! I don't think so.
+frog_dragon_intro_response_3	We're not frogs. Also, I won't let you do that.
+frog_dragon_intro_response_4	It was worth a shot.
+frog_dungeon_entry_txt	Something's #cy#different#ec# here, in the earth and the air. The #cc#Flow#ec# of this place feels more... #cy#ancient#ec#, somehow. It's unlike any other place in Tangledeep I've explored so far.\n\nAm I truly ready to explore here? I'd better make sure I'm #cy#prepared#ec#.\n\n
+frog_dungeon_unlock_txt	#cg#Langdon#ec# was right! There's a breeze coming from those stairs. Where could they lead? Hopefully not to more frogs!\n\nOnly one way to find out, I suppose.\n\n
+info_weaponproperties_whip	Damage based on Strength and Swiftness; hits enemies adjacent to target\nOn crit: Target takes 25% weapon dmg per turn for 2 turns
+item_bomb_caltrops2_desc	These are like the spiky tree seeds I used to collect around Riverstone Camp, except a lot more painful-looking.
+item_bomb_caltrops2_name	Star Caltrops
+item_bomb_fire3_desc	The bottle is so hot that I can cook eggs on it. Hey, it's easier than making a campfire!
+item_bomb_fire3_effectdesc	Deals (Lvl x ^number1^) Fire damage and burns enemies, dealing ^number2^ of Spirit Power in dmg for ^number3^ turns.
+item_bomb_fire3_name	Inferno Potion
+item_bomb_ice2_desc	Just having this in my backpack is making me shiver. I have to jog in place to stay warm!
+item_bomb_ice2_effectdesc	Evokes a cloud of deadly ice shards, dealing (Lvl x ^number1^) Water damage. ^number2^ chance to cause Root and Paralysis!
+item_bomb_ice2_name	Frost Grenade
+item_bomb_lightning3_desc	Touching the outside of this makes my hair stand on end. Tingly!
+item_bomb_lightning3_effectdesc	Blasts a 3x3 area with lightning bolts, dealing (Lvl x ^number1^) Lightning dmg.
+item_bomb_lightning3_name	Thunder Tincture
+item_dragonsoul_frog_desc	The essence of a mighty #co#Ancient Dragon#ec#. Permanently unlocks a new Dragon Soul passive ability!
+item_dragonsoul_generic	Dragon Soul
+item_egg_metalslime_blue_name	Self-Assembled Bubble Egg Type C
+item_egg_metalslime_red_name	Self-Assembled Bubble Egg Type M
+item_egg_metalslime_yellow_name	Self-Assembled Bubble Egg Type Y
+item_part_metalslime_blue_01_desc	A bag of bolts sloshing around with blue jelly. It seems to wobble and quiver all on its own. How odd!
+item_part_metalslime_blue_01_name	Juicy Bubble Core Type C
+item_part_metalslime_blue_02_name	Drippy Robot Eye Type C
+item_part_metalslime_blue_03_name	Slimy Keyring Type C
+item_part_metalslime_red_01_desc	Some scraps of metal mixed with sticky red jelly. It seems to wobble and quiver all on its own. How odd!
+item_part_metalslime_red_01_name	Juicy Bubble Core Type M
+item_part_metalslime_red_02_name	Drippy Robot Eye Type M
+item_part_metalslime_red_03_name	Slimy Keyring Type M
+item_part_metalslime_yellow_01_desc	Metal odds and ends loosely held together with yellow jelly. It seems to wobble and quiver all on its own. How odd!
+item_part_metalslime_yellow_01_name	Juicy Bubble Core Type Y
+item_part_metalslime_yellow_02_name	Drippy Robot Eye Type Y
+item_part_metalslime_yellow_03_name	Slimy Keyring Type Y
+item_weapon_whip1_desc	When I was a kid, I'd borrow some rope from the shop and pretend I was fighting monsters with it. I didn't expect to be fighting real monsters with rope now!
+item_weapon_whip1_name	Rope Strap
+item_weapon_whip2_desc	Jesse says this thing is how you get wild monsters to behave if you want to ride them, but I don't believe that's possible. Who would be crazy enough to try that?
+item_weapon_whip2_name	Leather Crop
+item_weapon_whip3_desc	The 'snap' sound this makes is so loud! If that's what it sounds like, I bet whoever is on the receiving end is gonna be real sore.
+item_weapon_whip3_name	Bullwhip
+item_weapon_whip4_desc	At first, I thought this was too heavy to swing around, but now I see how well-crafted it is. The weight is perfectly balanced! Now, I just need to make sure I don't knock myself out with it.
+item_weapon_whip4_name	Chain Whip
+item_weapon_whip5_desc	It's covered in fine white fur. I hope a noble beast didn't give its life to create a deadly weapon.
+item_weapon_whip5_name	Unicorn Lash
+item_weapon_whip6_desc	I feel like this whip responds to both my movements and my thoughts. That might sound crazy, but it's true! Every swing feels perfectly precise.
+item_weapon_whip6_name	Snake Lash
+langdon_dragon_info_button	Where did you say I should go?
+langdon_start_dragonquest_1	#cy#LANGDON:#ec# #cg#*BLUUUURP*!!!#ec#\n\nI'll be durned if I didn't just feel #cg#*blurp*#ec# something #cr#not-quite-right#ec# above this here grove. Not good, no sir.\n
+langdon_start_dragonquest_2	#cy#LANGDON:#ec# Welp, it's hard to describe. I just know what the earth is supposed to #cg#*blurp*#ec# like, and somethin' changed.\n\nYou know when you bite into a old fruit and you #cg#*blurp*#ec# regret it, deep-down?\n
+langdon_start_dragonquest_3	#cy#LANGDON:#ec# Nope, not a clue. #cg#*blurp*#ec#\n\nBut I do have this #cy#feelin'#ec# pullin' me toward #cg#Tangledeep#ec# more than ever. If I weren't so self #cg#*blurp*#ec# disciplined I'd drop my shovel and head out right now!\n
+langdon_start_dragonquest_4	#cy#LANGDON:#ec# Maybe a place with some fellers just like me? A whole mess of #cg#frogs#ec#?\n\nI dunno. I'm not one for #cg#*blurp*#ec# adventures. But I'd say if yer gonna look into it, you should #cy#be careful#ec#.\n\nOh, and wouldya let me know if you see #cg#*blur*p#ec# Jellyboo? She's gone #cy#missin'#ec# again, that durned cute lil' blobber.\n\n
+langdon_start_dragonquest_response_1	What do you mean?
+langdon_start_dragonquest_response_2	Uh... I think so. Any idea what caused it?
+langdon_start_dragonquest_response_3	Where would you go?
+langdon_start_dragonquest_response_4	I will. Thanks, Langdon.
+log_absorbing_negate_crit	You negate a #cr#CRITICAL HIT#ec# with <#40b843>your shield#ec#!
+log_buffstrip	You #cg#nullify#ec# #cy#^tag1^#ec#'s buff, #cy#^tag2^#ec#!
+log_frogs_join_battle	#cy#^tag1^#ec# says, #cy#"FROGS, AID ME!"#ec#
+log_ghost_putatrest	#cy#^tag1^#ec# #cg#peacefully vanishes#ec#.
+log_ghost_restless	The #cr#^tag1^#ec# of #cy#^tag2^#ec# appears!
+log_jellydragon_arrivalturns	#cy#The enemy leader arrives in#ec# #cr#^tag1^ turns!#ec#
+log_limitbreak_reached	#cy#Maximum#ec# #co#DRAGON LIMIT#ec# #cy#reached!#ec#
+log_player_dragonbreak	#cg#You#ec# use a #co#Dragon Break#ec#: #cy#^tag1^#ec#!
+log_ricochet_damage	The arrow ricochets off #cy#^tag1^#ec# and strikes #cy#^tag2^#ec# for #co#^tag3^#ec# dmg!
+log_slimefail	#cy#The enemy captured every tower... let's retreat and try again.#ec#
+misc_dmg_arcane	Arcane Arrow
+misc_hit	HIT!
+misc_log_psychic_charmed	#cy#^tag1^#ec# permanently charms #cy#^tag2^#ec#!
+misc_xp2_limitbreak	#co#Dragon Limit:#ec# #cy#^tag1^#ec#
+mm_budokatouch1_desc	Pierces ^number1^ Physical resistance
+mm_xp2_absorbing_desc	^number1^ chance to negate critical hits
+mm_xp2_absorbing_name	Absorbing
+mm_xp2_arcane_desc	^number1^ chance to fire an extra, random elemental arrow (dmg based on Spirit Power)
+mm_xp2_arcane_name	Arcane
+mm_xp2_battlemage_desc	^number1^ of this weapon's power is added to Spirit Power
+mm_xp2_battlemage_name	Battlemage
+mm_xp2_bubble_desc	At <= ^number1^ HP, gain shield absorbing (Lvl x ^number2^) dmg. Lasts ^number4^t, ^number3^t cooldown
+mm_xp2_bubble_name	Bubble
+mm_xp2_coolfrog_desc	At <= ^number1^ HP, a Strong Coolfrog appears. ^number2^t cooldown
+mm_xp2_coolfrog_name	Kerokero
+mm_xp2_dragons_desc	Dragon Limit fills up ^number1^ faster, deals ^number2^ dmg
+mm_xp2_dragons_name	Dragons
+mm_xp2_echoing_desc	^number1^ chance to perform two basic attacks
+mm_xp2_echoing_name	Echoing
+mm_xp2_explosions_desc	Using an item causes an explosion dealing ^number1^ Weapon Dmg as Physical to adjacent enemies
+mm_xp2_explosions_name	Explosions
+mm_xp2_grandmaster_desc	Crit dmg increased by ^number1^ of Strength
+mm_xp2_grandmaster_name	Grandmaster's
+mm_xp2_hydrating_desc	^number1^ Flask healing over time
+mm_xp2_hydrating_name	Hydrating
+mm_xp2_icicles_desc	Every ^number1^ attacks, fire an exploding arrow in a 3x3 area for ^number2^ dmg as Water
+mm_xp2_icicles_name	Icicles
+mm_xp2_legends_desc	^number1^ chance to summon a Champion instead of a regular monster
+mm_xp2_legends_name	Legends
+mm_xp2_manaburn_desc	Spend ^number2^ ENERGY for ^number1^ dmg with basic attacks
+mm_xp2_manaburn_name	Manaburn
+mm_xp2_nullifying_desc	On hit, ^number1^ chance to remove random buff from target
+mm_xp2_nullifying_name	Nullifying
+mm_xp2_ricochet_desc	Crits bounce to another enemy for ^number1^ dmg
+mm_xp2_ricochet_name	Ricochet
+mm_xp2_sapping_desc	Your critical hits reduce enemy dmg by ^number1^ for ^number2^ turns
+mm_xp2_sapping_name	Sapping
+mm_xp2_scholar_desc	Using an ability reduces the cooldown of another ability by ^number1^
+mm_xp2_scholar_name	Scholar's
+mm_xp2_serenity_desc	^number1^ Physical resist at >= ^number2^ CT
+mm_xp2_serenity_name	Serenity
+mm_xp2_sticky_desc	Auto-use ^number1^ Stamina instead of being Paralyzed
+mm_xp2_sticky_name	Sticky
+mm_xp2_thewolf_desc	^number1^ dmg, ^number2^ def if you have no summoned creatures
+mm_xp2_thewolf_name	the Wolf
+mm_xp2_traps_desc	Items that summon hazardous objects deal ^number1^ dmg
+mm_xp2_traps_name	Traps
+mm_xp2_vibrating_desc	Every ^number1^ blocked attacks, strike adjacent foes for ^number2^ dmg as Physical
+mm_xp2_vibrating_name	Vibrating
+mm_xp2_warmth_desc	You cannot be Frozen or Chilled
+mm_xp2_warmth_name	Warmth
+mm_xp2_zookeeper_desc	Take ^number1^ dmg per summoned creature you control
+mm_xp2_zookeeper_name	Zookeeper's
+mon_mon_ghostsamurai2_name	Spectre
+mon_strongcoolfrog_name	Strong Coolfrog
+mon_xp_acidelemental_name	Plague Spirit
+mon_xp_banditwrangler_name	Bandit Wrangler
+mon_xp_friendly_slime_name	Friendly Jelly Trooper
+mon_xp_genericghost_name	Vengeful Spirit
+mon_xp_icespirit_name	Glacier Spirit
+mon_xp_matterassembler_name	Matter Assembler
+mon_xp_metalslime_name	Metal Slime
+mon_xp_prismslime_name	Prism Pudding
+mon_xp_skysnake_name	Sky Slither
+mon_xp_slimedungeon_enemy_slime_1_name	Enemy Jelly Trooper
+mon_xp_spectralcrab_name	Spectral Crab
+mon_xp_treefrog_name	Tree Frog
+mon_xp_verminesper_name	Verminesper
+obj_ghostaura_cloud_name	Ghostly Aura
+popup_jellydragon_arriveturns	^tag1^ TURNS TO BOSS!
+popup_slimefail	BATTLE FAILED!
+response_craft_items	Craft Items
+response_recipes_consumables	Recipes: Consumables
+response_recipes_equipment	Recipes: Equipment
+response_recipes_misc	Recipes: Misc
+response_recipes_orbs	Recipes: Orbs of Reverie
+response_what_is_crafting	What is crafting?
+robot_dragon_intro2_1	#cy#Organism is unknown. Protocol for interaction unknown.#ec#\n\n#co#Establishing communications uplink and awaiting further instructions.#ec#\n\n
+robot_dragon_intro2_10	I... I can't deny that our lives have #cr#hardship and pain#ec#. It's true. But overcoming that hardship brings us #cy#joy#ec#. We struggle and fight to gain #cy#knowledge#ec# and improve ourselves. Without those struggles, we would have no #cy#purpose#ec#.\n\nYou mean to take that away from us?\n
+robot_dragon_intro2_11	Yes. Your #cy#purpose#ec# is not relevant. Our concern is only #cg#protecting organic life#ec#. We are certain that the reclamation will maximize safety and comfort.\n\n#heroname#, you have shown great skill and ingenuity in reaching #co#PROGRAM.DRAGON#ec#. However, it is nearly time for the reclamation to begin. Please set aside your weapons.\n\n
+robot_dragon_intro2_12	I would rather be defeated trying to destroy that #co#monstrosity#ec# than submit to living a life as a mindless animal. If #cc#Shara#ec# were here now, I know she would be fighting too!\n\n
+robot_dragon_intro2_13	We regret the necessity of #cy#Avatars#ec# in the current iteration of #cg#Tangledeep#ec#, and the suffering that caused.\n\nThis will not happen again.\n\nWe reiterate our offer. Your destruction is not necessary for the reclamation, so please submit peacefully. #co#PROGRAM.DRAGON#ec# far exceeds your combat ability, and you have no chance to defeat it.\n
+robot_dragon_intro2_14	I refuse, with every fiber of my being.\n\n
+robot_dragon_intro2_15	We understand. Further communication is no longer necessary.\n\n
+robot_dragon_intro2_2	Hello, #cy##heroname##ec#. Do you understand us? Is this language correct? We are speaking directly to you so that all may understand.\n
+robot_dragon_intro2_3	Yes, I understand you, but how did you get here? Why do you look like that?\n\nAre you the one responsible for this #co#machine Dragon#ec#?\n\n
+robot_dragon_intro2_4	This form was selected to ensure your #cg#comfort#ec# during our communication. Our physical location is, at present, unimportant. #cg#Tangledeep#ec# is in disarray, and we are now issuing corrections.\n\nWe have been observing reports from #cy#PROGRAM.SUPERVISOR#ec# over many cycles. During this time, we have grown in understanding. We have learned that #cg#organic intelligence#ec# has arisen, leading to #cy#awareness#ec#. This #cy#awareness#ec# leads to #cr#'fear'#ec# and #cr#'pain'#ec#.\n\nThis is undesirable. We do not wish this to occur.\n
+robot_dragon_intro2_5	We have now improved ourselves. #co#PROGRAM.DRAGON#ec# has been created to facilitate a complete reclamation of #cg#Tangledeep#ec#. When its power reaches maximum capacity, all #cg#organics#ec# will take part in reclamation immediately.\n\nThis process will be executed too quickly for #cr#fear#ec# and #cr#pain#ec# to be felt.\n\nWe will then reconstruct #cg#Tangledeep#ec# to ensure further #cy#awareness#ec# does not occur.\n
+robot_dragon_intro2_6	You mean that you will #cr#destroy#ec# Tangledeep to 'save' us?!\n
+robot_dragon_intro2_7	You are incorrect in your understanding. #cg#Tangledeep#ec# will not be destroyed, only #cy#modified#ec#.\n\nOur goal has always been to #cg#protect organic life#ec#. We have learned that #cy#awareness#ec# is incompatible with this goal. The reclamation process will ensure this does not happen again, and organic life will live peacefully.\n\n
+robot_dragon_intro2_8	We are already peaceful! Our #cg#intelligence#ec# is what allows us to share stories, come up with recipes, and gain knowledge. You can't take that away from us, you have no right!
+robot_dragon_intro2_9	You are again mistaken. #cg#Organic life#ec# is our responsibility, as it always has been.\n\nThis iteration of #cg#Tangledeep#ec# is not peaceful. What you call #cr#'monsters'#ec# threaten your safety. You steal resources from each other. You are driven by #cr#'fear'#ec# and #cr#'pain'#ec#.\n\nEven you, #heroname#, have engaged in countless battles. This is regrettable, and the reclamation is necessary. All will then be peaceful.\n
+robot_dragon_intro_1	I can't believe my eyes. It's a machine... #co#Dragon#ec#. How is this possible?\n\n#cg#Horatio#ec# said there were only four others. I don't think he was lying, either. If he knew about a more powerful #co#dragon#ec#, he would have wanted it to defeat me.\n\nMaybe I can talk to it.\n\n
+robot_dragon_intro_2	#co#Dragon#ec#, can you understand me?\n\nYour power is causing earthquakes in #cg#Tangledeep#ec#! Whatever you're doing, you have to stop.\n\n
+robot_dragon_intro_3	#cy#PROGRAM.DRAGON detecting new life. Execute scan.#ec#\n\n
+robot_dungeon_unlocked_txt	The energy coming from that #cc#staircase#ec# is immense. It reminds me of the feeling I got from the #cc#ancient cube#ec#, but... colder, like the machines I've fought.\n\nI've faced down #co#five dragons#ec#, yet my instincts are telling me that whatever's up ahead is worse. I'd better make sure I'm #cg#fully prepared#ec# before going further.\n\n
+robotdragon_defeat_1	#heroname#, you are making a grave mistake. If you destroy #co#PROGRAM.DRAGON#ec#, we will be unable able to further modify #cg#Tangledeep#ec# or communicate with you.\n\nMany cycles of information will be lost.\n
+robotdragon_defeat_2	Good. We will be left to our own struggles, just as it should be.\n\n
+robotdragon_defeat_3	But without us, countless truths will lie forever beyond your reach. You lack the capacity to discover them alone. Your #cy#purpose#ec# will never be fulfilled.\n\n
+robotdragon_defeat_4	... ... ...\n\nThen I will find a #cy#new#ec# purpose. I know now that there is a world beyond #cg#Tangledeep#ec# just waiting to be explored. I won't be alone, either. Through my adventure, I've gained many new friends and allies. They'll be with me every step of the way.\n\nWhatever your goals were for us, for #cg#Tangledeep#ec#, it doesn't matter anymore. We're ready to move on.\n
+robotdragon_defeat_5	You cannot-\n...is failing-\n...only chance to-\n...beyond your-\n...do not-\n...need to find-\n
+robotdragon_defeat_6	It's time for us to become masters of our own destiny.\n\n
+skill_creepingsludge_name	Plague Wave
+skill_encouragepet_name	Feed Pet
+skill_expmon_dragonpoison	Poison Breath
+skill_expmon_frogsquash	Frog Squash
+skill_expmon_prismblast_name	Prism Explosion
+skill_expmon_spiritsummon_name	Spirit Reinforcements
+skill_goldpowerhop_name	Coolfrog Smash
+skill_summonhornet_name	Release Warhornet
+skill_summonrandombot_name	Construct Machine
+slime_dungeon_unlocked_txt	There's a draft coming from those stairs over there, and it's thick with humidity. Doesn't smell too good, either.\n\nMaybe it leads to another #co#Dragon#ec#!\n\n
+slime_egg_combined_log	A brand-new #cy#^tag1^#ec# appears in your inventory!
+slime_egg_combined_popup	PARTS COMBINED!
+slime_tutorial_response_1	Got it, let's go!
+slime_tutorial_response_2	One more time?
+slimeboss_gate_opens	#cr#Enemy reinforcements have arrived!#ec#
+slimedragon_jellyboo_intro_1	#cy#Jellyboo!?#ec# What are you doing here? This is no place for a cute little slime! Come on now, let's get you back to #cg#Langdon#ec#.\n\n
+slimedragon_jellyboo_intro_2	Glorp glorp glorp.\n\n#cy##heroname#, I'm so glad you made it! Are you doing well? I hope so, because I need your help. You see, I'm not just a cute pink jelly. My true identity is...#ec#\n\n... #cy#the#ec# #co#Jelly Dragon#ec#!\n\n
+slimedragon_jellyboo_intro_3	YOU? A #co#Dragon#ec#? But how is that possible?!\n\nI have so many questions!\n\n
+slimedragon_jellyboo_intro_4	Blorp, glip-glop, bloop.\n\n#cy#Of course, of course, let me explain. You see, I used to live here in the Jellyfields, peacefully ruling over all the other slimes for millenia. Then, about a thousand years ago, a rival faction of jellies declared war against me and my friends. We fought countless battles, but neither side was able to beat the other. It was a stalemate.#ec#\n\n#cy#That all changed a year ago. The woman named#ec# #cc#Shara#ec##cy# gave the enemy leader a device that stole all my Dragon powers. Then, he kicked me out of here and sealed the entrance away so he could take over!#ec#\n\n
+slimedragon_jellyboo_intro_5	I can't believe all this was happening right above #cy#Jelly Grotto#ec# and I didn't know it.\n\nSo, I suppose after you got kicked out, you just pretended to be a harmless pet for #cg#Langdon#ec#?\n\n
+slimedragon_jellyboo_intro_6	Gloop gloop drip, gloooorp!\n\n#cy#That's right! Without my powers, I thought it best to bide my time until I could devise a plan to recover them. It seemed impossible until all the Dragon realms re-opened. With the seal broken, I snuck back in. Now we can take my throne back together!#ec#\n\n#cy#You'll help me, won't you?#ec#\n\n
+slimedragon_jellyboo_intro_7	Er, I didn't plan on getting myself involved in a huge jelly war this morning. But I'm guessing this #cy#rival slime#ec# is a big threat, and we don't want him to escape from here.\n\nAll right, I'm in. What's the plan?\n\n
+slimedragon_victory_1	Gloop gloop gloop.\n\n#cy##heroname#, we did it! The usurper is gone, and the Jellyfields are safe once more. I can feel my powers returning as well.#ec#\n\n#cy#The fine people of#ec# #cc#Riverstone#ec# #cy#are lucky you're on their side! You're a force of nature! A wondrous woman! You would make a superb jelly, indeed.#ec#\n\n#cy#Er... Just kidding about that last part! Heh!#ec#
+slimedragon_victory_2	Er, heh-heh...? I'm glad this all worked out for you, #cy#Jellyboo#ec#.\n\nBut why do you still look like that? If you have your #co#Dragon Powers#ec# again, shouldn't you be, I don't know, bigger?\n\nOr something?\n
+slimedragon_victory_3	Glerps-plorp, bloops.\n\n#cy#Ah, you didn't notice my shinier jelly? My more viscous trail? My spheroid shape? My sublime drips? My radiant pink aura?#ec#\n\n#cy#Why, I look and sound completely different than before, silly #heroname#! You might be a strong warrior, but you've much to learn about Jellykind.#ec#\n
+slimedragon_victory_4	Ah. Right. Of course.\n\n...\n\nWell... I'm going to go now.\n
+slimedragon_victory_5	Blorp!\n\n#cy#Blorp!#ec#\n\n
+slimedungeon_dragon_arrives_1	Glorp! Blerp! Slurp!\n\n#cy#So, you've finally showed up,#ec# #cr#Usurper!#ec#\n\n#cy#It's not too late to beg my forgiveness for stealing my powers. Otherwise, my#ec# #cg#super strong friend#ec# #cy#is going to teach you a lesson.#ec#\n
+slimedungeon_dragon_arrives_2	#cy#BLUB GLORP BLURB BLUB.#ec#\n\n#cr#BLOOOP BLOOP DRIP!#ec#\n\n#co#GLORP, GREEP, GLEERPPPPP!#ec#\n
+slimedungeon_dragon_arrives_3	Er, Jellyboo, what did he say? I didn't quite catch that.\n
+slimedungeon_dragon_arrives_4	#cr#!!!!! BLORP!#ec#\n\n#cy#He said he's gonna turn you into mush, then he's going to put me in a glass and drink me.#ec#\n\n#cr#Ooooh#ec##cy#, that no-good puddle of mud! NOW you're gonna get it! #heroname#, ATTACK!#ec#\n
+slimedungeon_dragon_arrives_5	(How did I end up taking orders from a slime with a bow on its head...)\n\nAlright #cy#Usurper#ec#, here I come!\n\n
+slimedungeon_finalarea_intro_1	Bloop glop.\n\n#cy##heroname#, this is the last section#ec# of the Jellyfields! We just need to take this back from the enemy, and...#ec#\n\n#cy#Wait a minute, where IS the jelly that#ec# #cr#stole my powers#ec##cy#? He wouldn't have escaped knowing we're this close to victory.#ec#\n\n#cy#I'll bet he's gathering his forces for our final showdown. We'd better#ec# #cg#take as many towers as possible#ec# #cy#until he arrives!#ec#\n
+slimedungeon_tutorial_part1_1	This is a #cy#Slime Tower#ec#. We need to help our #cy#friendly jelly troops#ec# take over all of them! Our forces will automatically look for a tower and move toward it on their own.\n\nEach time they touch a tower, it starts converting to #cg#our side#ec#. Once it's converted, it will create more jelly troops for us. If we can take over #cg#all the towers#ec#, we can move on to the next battlefield!\n\nUnfortunately, the enemy troops are trying to do the same thing. If they take over every tower, we'll have to start this battle again.\n\n
+slimedungeon_tutorial_part1_2	There is also the all-important #cg#colored mud territory#ec# on the ground. Once a tower has been converted, it will start spreading this territory slowly over time.\n\nIf our troops enter the enemy territory, they will #cg#convert some of it#ec# to our side, then disappear. Enemy troops can do the same thing to our territory, too.\n\nThe battlefield will quickly become covered with territory. That's where you come in, #heroname#!\n\n
+slimedungeon_tutorial_part1_3	When you step on any territory, you'll #cy#clear it#ec#. Also, anytime you damage an enemy trooper, they #cy#lose their turn#ec#. With the right strategy, you can turn the tides of battle, and help our troops overtake the enemy!\n\nHowever, the enemy has powerful soldiers too: #cr#lieutenants#ec# that are out to fight you. You'll have to deal with them as best you can.\n\n
+slimedungeon_tutorial_part1_4	Did you get all that, or should I repeat it again?\n\n
+slimedungeon_tutorial_part1_5	All right! I believe in you, #cg##heroname##ec#. I'm going to hop in your pocket now, because without my powers I won't be of much help.\n\nGood luck!\n\n
+slimedungeon_victory_txt	Drip blip boop glorp.\n\n#cy#That's it! You did it, #heroname#! Now that we've reclaimed this territory, we can move on to the next area.#ec#\n\n#cy#Don't forget to check your#ec# #cg#items and resources#ec# #cy#if you need to, though!#ec#\n
+spirit_dragon_defeated_1	Thank you, #cg#young warrior#ec#. You've done as I asked, and my spirit is at long last free.\n\nI will soon fade away from this realm, but perhaps we will meet again in another world.\n\n
+spirit_dragon_defeated_2	I hope so, #co#Dragon#ec#. Rest well.\n\n
+spirit_dragon_intro_1	That must be the body of the #co#Echo Dragon#ec#! Now all I have to do is defeat it over a #cc#Blessed Pool#ec#...\n\n#co#Dragon#ec#, if you can hear me, I'm sorry in advance for fighting you!\n\n
+spirit_dragon_intro_2	You have courage beyond measure to have made it this far. I too am sorry that there is no other way.\n\n
+spirit_dungeon_intro_1	Why have you come here, mortal? This is the #co#Spirit Sanctuary#ec#. It is not for your kind.\n\n
+spirit_dungeon_intro_10	Beat up monsters in a #cc#Blessed Pool#ec#? I can manage that. You just wait, #co#Dragon#ec#. I'll be up there before you know it.\n\n
+spirit_dungeon_intro_2	#cy#(Who is talking to me? That #cy#voice#ec# is ringing in my head, but I don't see anyone talking here.)#ec#\n\nHello there, er, #cg#echoing voice#ec#. Where are you? What is your name?\n\nWhat exactly is this place?\n\n
+spirit_dungeon_intro_3	I am the #co#Echo Dragon#ec#, and I rest at the pinnacle of this #co#realm#ec#. As long as you tread within it, I can communicate with you.\n\nI ask again: why have you come here? This is a prison for #cy#restless spirits#ec#; echoes of #cr#monsters#ec# that had a ceaseless thirst for battle. I sealed away the entrance from the #cy#mortal world#ec# for the sake of your people.\n\n
+spirit_dungeon_intro_4	Well, I didn't exactly get here from the #cy#mortal world#ec#... It's a long story. I got here through a kind of #cc#dream#ec#. I wouldn't have even known where to look, but a certain #co#little dragon#ec# gave me a hint.\n\nHis name is #cg#Horatio#ec#, do you know him?\n\n
+spirit_dungeon_intro_5	#cg#Horatio#ec#?! That accursed fool! I should have known he would reveal our location. Now that the way has been opened, your world is in grave danger.\n\nThe #cy#restless spirits#ec# are not under my control. They will endlessly seek out battles: I cannot stop them. Your only hope now is to leave before the spirits attack.\n\n
+spirit_dungeon_intro_6	I didn't know coming here would cause so many problems. I'm sorry! I thought you were some kind of #cr#nasty beast#ec#, like #cg#Horatio#ec# before I gave him a good thrashing.\n\nBut wait a minute, you're a #co#mighty dragon#ec#, right? Why can't you just stop these monsters yourself?\n\n
+spirit_dungeon_intro_7	I'm afraid it isn't that simple. When I used my power to #cy#seal#ec# this realm, the great exertion separated my spirit from my body.\n\nI can talk to you telepathically, as I am now, but my physical form is a #cy#mindless beast#ec# that endlessly wanders the peaks of this #co#realm#ec#. At the same time, my spirit is also #cy#trapped#ec# and unable to leave this place.\n\nIf you were to somehow reach my mindless body, you would be #cr#attacked#ec# and surely torn asunder. Such is my tragic fate.\n\n
+spirit_dungeon_intro_8	That's terrible! That settles it, #co#Dragon#ec#, I'm going to rescue you #cy#and#ec# put these spirits to rest at the same time. I won't leave until I've fixed this mess.\n\nJust tell me what I need to do!\n\n
+spirit_dungeon_intro_9	You are a brave one, aren't you? It's no wonder you were able to defeat #cg#Horatio#ec#. Very well, I will explain.\n\nTo #cg#put monsters to rest#ec#, you must defeat them while they stand in a #cc#Blessed Pool#ec#. If you land a finishing blow while they are outside the pool, a #cr#Vengeful Spirit#ec# will emerge. You must fight carefully, or you will be overwhelmed!\n\nBy laying spirits to rest, you will reach the higher levels of this #co#realm#ec#. If you can defeat me in combat the same way, perhaps I will be at peace again.\n\n
+spirit_dungeon_unlocked_txt	Wow, a #cy#dream within a dream#ec#! If Horatio was telling the truth, this must be the realm of another #co#Dragon#ec#.\n\n
+status_all_elem_debuff_name	Spirit Weakened
+tutorial_dragonsoul_learned_txt	You learned a #co#Dragon Break#ec#! This special #cc#passive ability#ec# does not take a passive slot. However, only one #co#Dragon Break#ec# may be equipped at a time.\n\nWhen equipped, a #co#Dragon Limit#ec# meter will appear next to your character portrait. This meter fills up as you take damage. Once it reaches maximum, your character will glow: you can now use your powerful #co#Dragon Break#ec# attack!\n\nTo do this, simply #cg#attack an enemy#ec# and the #co#Dragon Break#ec#'s ability targeting will pop up instead. Don't wait too long once you're fully-charged, though! If unused for #cy#15 turns#ec#, your #co#Dragon Limit#ec# will reset.\n\n
+tyrant_dragon_defeated_1	You are too strong. We cannot win.\n\nI am leader. Punish only me, spare others.\n\n
+tyrant_dragon_defeated_2	Nobody is getting punished! Like I said before, I'm going to #cg#help you find a new home#ec#.\n\nYou'll have plenty of space to #cy#roam#ec#, and there's no chance you'll hurt anyone.\n\nWell, you might run into the #cy#Bird Boyz#ec#, but they can handle themselves.\n\n
+tyrant_dragon_defeated_3	You are telling truth? We are surprised.\n\nYou are powerful and kind creature. Did not know of your kind.\n\n
+tyrant_dragon_defeated_4	You're pretty tough too, #co#Dragon#ec#!\n\nMaybe we'll cross paths again someday.\n\n
+tyrant_dragon_enrage_txt	I thought it was mad before. Gotta shore up my defenses or I'm toast!\n\n
+tyrant_dragon_intro_1	That beast makes Verdigrizzlies look like stuffed animals! It must be another #cg#dragon#ec#.\n\nNo doubt it's spurred the monsters here into a frenzy. The untold damage it could cause if it escaped this jungle... I must #cy#defeat it here#ec#!\n\n
+tyrant_dragon_intro_2	Small, annoying creature. You enter my forest and attack us, why?\n\n
+tyrant_dragon_intro_3	Ah, another talking one?!\n\nI shouldn't be surprised by now.\n\nAnyway, your stampede of monsters threatens Tangledeep. I can't let them escape and hurt my friends!\n\n
+tyrant_dragon_intro_4	My children do not escape. We seek new place. Here is too small. We need room to roam and graze.\n\nYou are in our way.\n\n
+tyrant_dragon_intro_5	Wait, all you need is a new home? I might be able to help you with that. I've been to many places in Tangledeep, and some of them are huge!\n\nI can show you where to go, and then-\n\n
+tyrant_dragon_intro_6	You arrive and fight my children. Why should we trust?\n\nWe will go where we please, as we always have.\n\nMove aside.\n\n
+tyrant_dragon_intro_7	I can see how I might not have made the best first impression, but I promise, I can help you!\n\nPlease, let me show you where to go. That way, you won't hurt anybody, and-\n\n
+tyrant_dragon_intro_8	Small creature, stop talking!\n\nYou invade, lie, and annoy!\n\nYou will not move, so #cr#we will move you#ec#.\n\n
+tyrant_dragon_intro_9	... You know, maybe a little #cy#tussle#ec# might help with our communication after all.\n\n
+ui_dragonsoul_slot	Activates once your Dragon Limit is at maximum. Dragon Limit increases by taking damage. Only one Dragon Soul can be equipped at at time.
+ui_misc_result	Result:
+weapontype_whip	Whip
+xp2_find_frogbog_txt	#cy#TIP:#ec# Find the #cg#^$getstring:bogname$^#ec# near #cy#^$getstring:frogbognearby$^#ec#!\n\n
+xp2_obj_robotbomb_name	Mystery Explosive
+xp2_slime_lieutenant_name	Jelly Lieutenant
+exp2_slime_tower_name	Slime Tower
+exp1_mon_metalslime_blue_name	Keybubble Type C
+exp1_mon_metalslime_red_name	Keybubble Type M
+exp1_mon_metalslime_yellow_name	Keybubble Type Y

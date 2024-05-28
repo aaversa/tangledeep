@@ -1,0 +1,542 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &173782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 464968}
+  - component: {fileID: 21268844}
+  - component: {fileID: 11450398}
+  - component: {fileID: 11437078}
+  - component: {fileID: 11435610}
+  - component: {fileID: 114000012426573088}
+  m_Layer: 0
+  m_Name: BluntEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464968
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.64519, y: 32.51801, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11435610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593ac2f2e80e90f40b31c93905ad67ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cues:
+  - cueName: Awake
+    clips:
+    - {fileID: 8300000, guid: 540190bda6a3d9842ab7c6028948e813, type: 3}
+    volume: 0.543
+    randomVolumeVar: 0
+    pitchMod: 0
+    randomPitchVar: 0.158
+    voiceVolumeAdjustment: 0
+    loopUntilKilled: 0
+    mixerGroup: 3
+--- !u!114 &11437078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08151f98e19a462e9f1bb733aca71cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimations:
+  - fixedAnimStartTimer: 0
+    animName: Default
+    completionLogic: Stop
+    startScale: 1
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300020, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300018, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 0.75
+      opacity: 0.9
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300018, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1.25
+      opacity: 0
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300018, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.5
+      scale: 1.25
+      opacity: 0
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+  startRotation: 0
+  animPlaying:
+    fixedAnimStartTimer: 0
+    animName: Default
+    completionLogic: Stop
+    startScale: 1
+    startOpacity: 1
+    startRotation: 0
+    startOffsetX: 0
+    startOffsetY: 0
+    chanceToFlipX: 0
+    xVariance: 0
+    yVariance: 0
+    chanceToFlipY: 0
+    smoothStepMovement: 0
+    mySprites:
+    - mySprite: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: -0.3
+      offsetY: 0.6
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0.4
+      offsetY: 0
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300024, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      opacity: 1
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: -0.25
+      offsetY: -0.5
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300024, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      opacity: 0.5
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0.7
+      offsetY: 0.6
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    - mySprite: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75, type: 3}
+      spriteTime: 0.06
+      scale: 1
+      opacity: 0
+      rotation: 0
+      flipX: 0
+      flipY: 0
+      offsetX: 0
+      offsetY: 0
+      offsetOnFramesOnly: 1
+      staticSprite: 0
+      pivotOffsetX: 0
+      pivotOffsetY: 0
+    gameWaitTime: 0
+  spriteTimer: 0
+  IsUIElement: 0
+  spriteIndex: 0
+  animComplete: 0
+  defaultDirection: 0
+  rotationAngleOffset: 0
+  allFramePosOffset: {x: 0, y: 0}
+  timeAtFrameStart: 0
+  calcGameWaitTime: 0
+  spriteFacingDirection: 0
+  opacityMod: 0
+  curSpriteTime: 0
+--- !u!114 &11450398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e5f8a0fae7a4945a2eee39c62daf62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  refName: BluntEffect
+  spriteParent: {fileID: 0}
+  followObject: {fileID: 0}
+  onlyExtDestroy: 0
+  animInitialized: 0
+  offset: {x: 0, y: 0}
+  baseRotation: 0
+  randomColor: 0
+--- !u!212 &21268844
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173782}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f07a62206409bc14699ab079f2e97a22, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 865565775
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animPlaying.mySprites.Array.data[0].spriteTime
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animPlaying.mySprites.Array.data[1].spriteTime
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animPlaying.mySprites.Array.data[2].spriteTime
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animPlaying.mySprites.Array.data[3].spriteTime
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animPlaying.mySprites.Array.data[4].spriteTime
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].animName
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].completionLogic
+      value: Stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].startScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].startOpacity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[0].scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[0].opacity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[1].scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[1].opacity
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[2].scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[2].opacity
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[3].scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[3].opacity
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[4].scale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[4].opacity
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[0].spriteTime
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[1].spriteTime
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[2].spriteTime
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[3].spriteTime
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[4].spriteTime
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[5].opacity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[5].spriteTime
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[0].mySprite
+      value: 
+      objectReference: {fileID: 21300020, guid: eb3474e534cd8fa44bbb7ac49eaaaa75,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[1].mySprite
+      value: 
+      objectReference: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[2].mySprite
+      value: 
+      objectReference: {fileID: 21300024, guid: eb3474e534cd8fa44bbb7ac49eaaaa75,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[3].mySprite
+      value: 
+      objectReference: {fileID: 21300018, guid: eb3474e534cd8fa44bbb7ac49eaaaa75,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[4].mySprite
+      value: 
+      objectReference: {fileID: 21300026, guid: eb3474e534cd8fa44bbb7ac49eaaaa75,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[5].mySprite
+      value: 
+      objectReference: {fileID: 21300020, guid: eb3474e534cd8fa44bbb7ac49eaaaa75,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[0].offsetX
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[0].offsetY
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[1].offsetX
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[1].offsetY
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[2].offsetX
+      value: -0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[2].offsetY
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[3].offsetX
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[3].offsetY
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[4].offsetX
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[4].offsetY
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24390848, guid: a02cd7a733cf90f43b2d7eae588304d9,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c7f9e670964c2d84d80233695daf525c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: myAnimations.Array.data[0].mySprites.Array.data[5].offsetOnFramesOnly
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 173782}
+  m_IsPrefabParent: 1
+--- !u!114 &114000012426573088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fcd24bcc410456d85817e2bb82a4da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
+  sortOrderOffset: 0
+  permanentYOffset: 0
+  spriteHeight: 0
+  spriteWidth: 0
+  fadingOut: 0
+  fadingIn: 0
+  debugRevealData: 0
+  defaultCollidable: 0
+  remember: 0
+  rememberTurns: 0
+  turnsSinceLastSeen: 0
+  inSight: 0
+  dirFacing: {x: 0, y: 0}
+  destructible: 0
+  footstepSounds: []
+  shouldBeVisible: 1
+  extraHeightTiles: 0
+  diagonalBlock: 0
+  diagonalLBlock: 0
+  sr: {fileID: 0}
+  visible: 0
+  spriteEffect: 0
+  rotateStatusOverlayCounter: 0
+  statusOverlayIndex: 0
+  forceColor: {r: 0, g: 0, b: 0, a: 0}
+  terrainTile: 0
+  overlappingTransparentObject: 0

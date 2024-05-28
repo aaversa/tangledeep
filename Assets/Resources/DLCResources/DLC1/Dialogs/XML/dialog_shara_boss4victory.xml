@@ -1,0 +1,141 @@
+<DOCUMENT>
+	<!-- The boss is defeated! -->
+	<Dialog>
+		<RefName>dialog_shara_boss4victory</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>SharaFuriousPortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_1</Text>
+			<Button>
+				<Name>(close)</Name>				
+				<DialogEventScript>SharaBoss4Victory_Part2</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>		
+	</Dialog>
+
+	<!-- Dirtbeak shows up -->
+	<Dialog>
+		<RefName>dialog_shara_postboss4victory_convo</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>DirtbeakPortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_2</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main2</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main2</BranchName>
+			<ShowFace>SharaSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_3</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main3</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main3</BranchName>
+			<ShowFace>DirtbeakSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_4</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main3_2</BranchRef>
+			</Button>			
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main3_2</BranchName>
+			<ShowFace>DirtbeakPortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_5</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main4</BranchRef>
+			</Button>			
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main4</BranchName>
+			<ShowFace>SharaPortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_6</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main5</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main5</BranchName>
+			<ShowFace>DirtbeakSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_7</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main5_rug</BranchRef>
+			</Button>			
+		</TextBranch>
+		
+		<TextBranch>
+			<BranchName>main5_rug</BranchName>
+			<ShowFace>DirtbeakSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_8</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main6</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main6</BranchName>
+			<ShowFace>SharaSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_9</Text>
+			<Button>
+				<Name>(more)</Name>				
+				<BranchRef>main7</BranchRef>
+			</Button>			
+		</TextBranch>
+
+		<TextBranch>
+			<BranchName>main7</BranchName>
+			<ShowFace>SharaPortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_10</Text>
+			<Button>
+				<Name>(close)</Name>				
+				<DialogEventScript>SharaBoss4Victory_Part3</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>		
+	</Dialog>
+	
+	<!-- Dirtbeak contemplates squiggly lines on paper -->
+	<Dialog>
+		<RefName>dialog_shara_postboss4victory_dirtbeak</RefName>
+		<IngameDialogue>1</IngameDialogue>
+		<ForceTypewriter>1</ForceTypewriter>
+		<KeyStory>1</KeyStory>
+		<StopAnimationAndUnlockInput>1</StopAnimationAndUnlockInput>
+
+		<TextBranch>
+			<BranchName>main</BranchName>
+			<ShowFace>DirtbeakSurprisePortrait</ShowFace>			
+			<Text>dialog_shara_boss4victory_11</Text>
+			<Button>
+				<Name>(close)</Name>	
+				<DialogEventScript>SharaBoss4Victory_Part4</DialogEventScript>
+				<BranchRef>exit</BranchRef>
+			</Button>			
+		</TextBranch>	
+	</Dialog>
+</DOCUMENT>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<SE>
+		<Rf>status_enter_mudteleport_tile</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>entermudteleporttile</ERef>
+			<Sscr>TeleportHeroViaTeleporter</Sscr>
+			<Targ>LOCAL</Targ>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<Rf>status_enter_teleport_tile</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>enterteleporttile</ERef>
+			<Sscr>TeleportHeroViaTeleporter</Sscr>
+			<Targ>LOCAL</Targ>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>unlockgatesbyswitch</Rf>
+		<SGrnd />
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>unlock_gates_by_switch</ERef>
+			<Sscr>UnlockGatesBySwitch</Sscr>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<Rf>release_friendlymonster</Rf>
+		<Run>
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>releasefriendly</ERef>
+			<Sscr>SummonRandomFriendlyMonster</Sscr>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<Rf>summon_tyrantflame</Rf>
+		<ATags>PLAYANIMONEMPTY,PERTARGETANIM,SIMULTANEOUSANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+		</Run>
+		<AEff>
+			<Type>SPECIAL</Type>
+			<ERef>meteor_anim</ERef>
+			<Sscr>MeteorConditionalAnimation</Sscr>
+		</AEff>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>exp_skill_meteorbreath_name</Disp>
+			<ERef>meteorimpact_damage</ERef>					
+			<AtkWp>2.75|3</AtkWp>			
+			<Targ>ALL</Targ>
+			<Faction>NOTMYFACTION</Faction>			
+			<DamageType>PHYSICAL</DamageType>
+			<Trg1 />
+		</AEff>		
+		<AEff>
+			<Type>SUMMONACTOR</Type>
+			<ERef>eff_tyrantinfernosummon</ERef>
+			<FMaxDelayBeforeSummon>0.04</FMaxDelayBeforeSummon>
+			
+			<ARef>obj_tyrant_staticflame</ARef>
+			<SummonActorPerTile />
+			<SDur>5</SDur>
+			<SummonOnCollidable />
+			<Anchor>SELF</Anchor>
+		</AEff>
+	</SE>	
+
+	<SE>
+		<DName>status_sleeptile_name</DName>
+		<Rf>status_dragon_sleepgas</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+			<STARTTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>sleepmon_fromgas</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION_NOHERO</Faction>
+			<StatusRef>status_asleep</StatusRef>
+			<Duration>5</Duration>
+			<TriggerPerTurns>3</TriggerPerTurns>
+			<Script_ExtraPerActorFunction>PlaySmokeSpewEffect</Script_ExtraPerActorFunction>
+		</AEff>		
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>sealplayer_fromgas</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>HERO_ONLY</Faction>
+			<StatusRef>status_sealed</StatusRef>
+			<Duration>5</Duration>
+			<TriggerPerTurns>3</TriggerPerTurns>
+			<Script_ExtraPerActorFunction>PlaySmokeSpewEffect</Script_ExtraPerActorFunction>
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>status_sleeptile_name</DName>
+		<Rf>status_player_sleepgas</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>sleepmonstersfrom_playergas</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>status_asleep</StatusRef>
+			<Duration>5</Duration>
+			<TriggerPerTurns>3</TriggerPerTurns>
+			<Script_ExtraPerActorFunction>PlaySmokeSpewEffect</Script_ExtraPerActorFunction>
+		</AEff>			
+	</SE>	
+
+	<SE>
+		<Rf>status_ghost_auratile</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>ADDSTATUS</Type>
+			<ERef>ghostileadder</ERef>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<StatusRef>ghostaura_reduce_dmg</StatusRef>
+			<Duration>2</Duration>
+			<Silent />
+		</AEff>	
+	</SE>	
+
+	<SE>
+		<Rf>status_creepingsludge</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>	
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>skill_creepingsludge_name</Disp>
+			<ERef>creepingsludge</ERef>
+			<Anim>FervirShadowHit,0.1</Anim>
+			<AtkWp>1.0|5</AtkWp>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<DamageType>SHADOW</DamageType>
+			<TriggerPerTurns>0</TriggerPerTurns>
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>abil_skill_whipmastery4_name</DName>
+		<Rf>exp_ground_sonicboom</Rf>
+		<ATags>GROUNDBASEDEFFECT,PERTARGETANIM,SIMULTANEOUSANIM</ATags>		
+		<Run>
+			<ENTERTILE />
+			<ENDTURNINTILE />
+			<STARTTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_whipmastery4_name</Disp>
+			<ERef>sonicboom</ERef>
+			<DamageType>PHYSICAL</DamageType>
+			<AtkSp>1.5|1</AtkSp>
+			<Anim>FervirHolyHit,0.01</Anim>
+			<Targ>LOCAL</Targ>
+			<Faction>NOTMYFACTION</Faction>
+			<Trg1 />	
+		</AEff>		
+	</SE>
+
+	<SE>
+		<DName>abil_skill_bedofflames_name</DName>
+		<Rf>spiritdungeon_firetrap</Rf>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<SGrnd />
+		
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>abil_skill_bedofflames_name</Disp>
+			<ERef>spiritdungeonfire2</ERef>			
+			<TMaxHP>0.4|20</TMaxHP>
+			<Targ>SINGLE</Targ>
+			<Faction>PLAYER</Faction>
+			<DamageType>FIRE</DamageType>
+			<Trg1 />
+		</AEff>
+	</SE>
+
+	<SE>
+		<DName>effect_eff_acidtileground_name</DName>
+		<Rf>spiritdungeon_acidtrap</Rf>
+		<Flag>POISON</Flag>
+		<ATags>GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_acidtileground_name</Disp>
+			<ERef>eff_acidtileground_weaker</ERef>
+			<DamageType>POISON</DamageType>
+			<TMaxHP>0.3|15</TMaxHP>
+			<Targ>LOCAL</Targ>
+			<Faction>PLAYER</Faction>
+			<Trg1 />		
+		</AEff>
+		<EffRef>eff_aciddebuffadder</EffRef>
+	</SE>
+
+	<SE>
+		<DName>effect_eff_shadowtile_name</DName>
+		<Rf>spiritdungeon_shadowtrap</Rf>
+		<ATags>PERTARGETANIM,SIMULTANEOUSANIM,GROUNDBASEDEFFECT</ATags>
+		<Run>
+			<STARTTURNINTILE />
+			<ENDTURNINTILE />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_shadowtile_name</Disp>
+			<ERef>eff_shadowtile_spirit</ERef>
+			<DamageType>SHADOW</DamageType>
+			<TMaxHP>0.2|15</TMaxHP>
+			<Targ>LOCAL</Targ>
+			<Faction>PLAYER</Faction>
+			<Trg1 />
+			<Anim>ShadowSpikeAttack,0.1</Anim>
+		</AEff>
+		<EffRef>eff_shadowtrapaddroot</EffRef>
+	</SE>	
+
+	<SE>
+		<Rf>spiritdungeon_icetrap</Rf>
+		<Desc>status_status_icechill2_desc</Desc>
+		<ISpr>FrozenEffect</ISpr>		
+		<ShowIcon />
+		<Run>
+			<DESTROYED />
+		</Run>
+		<Dur>
+			<PERMANENT />
+		</Dur>
+		<Flag>FREEZING</Flag>
+		<AEff>
+			<Type>CHANGESTAT</Type>
+			<ERef>eff_frozengroundslow_spirit</ERef>
+			<AtkWp>0|-50</AtkWp>
+			<Targ>ADJACENT</Targ>
+			<Faction>PLAYER</Faction>
+			<Stat>CHARGETIME</Stat>
+			<StatData>ALL</StatData>						
+			<Trg1 />
+		</AEff>
+		<AEff>
+			<Type>DAMAGE</Type>
+			<Disp>effect_eff_evokeiceshards1_name</Disp>
+			<ERef>eff_evokeiceshards2_spirit</ERef>
+			<TMaxHP>0.6|10</TMaxHP>
+			<Targ>ADJACENT</Targ>
+			<Faction>PLAYER</Faction>
+			<DamageType>WATER</DamageType>
+						
+			<Trg1 />
+		</AEff>		
+	</SE>
+</DOCUMENT>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT>
+	<ChampionMod>
+		<ModName>exp_monmod_shadowgod</ModName>
+		<RefName>monmod_god_shadow</RefName>
+		<ChallengeValue>999</ChallengeValue>
+		<ElementalAura>SHADOW</ElementalAura>
+		<ChampionItem>acc_shadowabsorb</ChampionItem>
+		<MonsterPower>
+			<SkillRef>skill_nightmaresquare</SkillRef>
+			<MinRange>0</MinRange>
+			<MaxRange>99</MaxRange>			
+		</MonsterPower>
+		<MonsterPower>
+			<SkillRef>skill_perfectpassiveshadowhit</SkillRef>
+		</MonsterPower>
+	</ChampionMod>
+
+	<ChampionMod>
+		<ModName>exp_monmod_lightninggod</ModName>
+		<RefName>monmod_god_lightning</RefName>
+		<ChallengeValue>999</ChallengeValue>
+		<ElementalAura>LIGHTNING</ElementalAura>
+		<ChampionItem>acc_lightningabsorb</ChampionItem>
+		<MonsterPower>
+			<SkillRef>skill_shocktouch2</SkillRef>
+			<MinRange>0</MinRange>
+			<MaxRange>5</MaxRange>			
+		</MonsterPower>	
+		<MonsterPower>
+			<SkillRef>skill_randomlightning3</SkillRef>
+			<MinRange>0</MinRange>
+			<MaxRange>5</MaxRange>			
+		</MonsterPower>
+	</ChampionMod>
+
+	<ChampionMod>
+		<ModName>exp_monmod_poisongod</ModName>
+		<RefName>monmod_god_poison</RefName>
+		<ChallengeValue>999</ChallengeValue>
+		<ElementalAura>POISON</ElementalAura>
+		<ChampionItem>acc_poisonabsorb</ChampionItem>
+		<MonsterPower>
+			<SkillRef>skill_poisoncloud</SkillRef>
+			<MinRange>0</MinRange>
+			<MaxRange>5</MaxRange>
+		</MonsterPower>
+		<MonsterPower>
+			<SkillRef>skill_acidburstranged</SkillRef>
+			<MinRange>2</MinRange>
+			<MaxRange>99</MaxRange>
+			<HealthThreshold>1.0</HealthThreshold>
+		</MonsterPower>			
+	</ChampionMod>
+
+	<ChampionMod>
+		<ModName>exp_monmod_firegod</ModName>
+		<RefName>monmod_god_fire</RefName>
+		<ChallengeValue>999</ChallengeValue>
+		<ElementalAura>FIRE</ElementalAura>
+		<ChampionItem>acc_fireabsorb</ChampionItem>
+		<MonsterPower>
+			<SkillRef>skill_godfirereact</SkillRef>
+		</MonsterPower>		
+		<MonsterPower>
+			<SkillRef>skill_fireburst_passive</SkillRef>
+		</MonsterPower>
+		<MonsterPower>
+			<SkillRef>skill_dropfires</SkillRef>
+		</MonsterPower>
+
+	</ChampionMod>
+
+	<ChampionMod>
+		<ModName>exp_monmod_watergod</ModName>
+		<RefName>monmod_god_water</RefName>
+		<ChallengeValue>999</ChallengeValue>
+		<ElementalAura>WATER</ElementalAura>
+		<ChampionItem>acc_waterabsorb</ChampionItem>
+		<MonsterPower>
+			<SkillRef>skill_chillonhits</SkillRef>
+		</MonsterPower>		
+		<MonsterPower>
+			<SkillRef>skill_icearmor</SkillRef>
+		</MonsterPower>		
+		<MonsterPower>
+			<SkillRef>skill_godiceprison</SkillRef>
+			<MinRange>1</MinRange>
+			<MaxRange>4</MaxRange>
+		</MonsterPower>
+	</ChampionMod>
+
+	<ChampionMod>
+		<ModName>exp_monmod_physicalgod</ModName>
+		<RefName>monmod_god_physical</RefName>
+		<ChallengeValue>999</ChallengeValue>
+		<ChampionItem>acc_physicalabsorb</ChampionItem>
+		<MonsterPower>
+			<SkillRef>skill_bladewall5</SkillRef>
+			<MinRange>0</MinRange>
+			<MaxRange>1</MaxRange>			
+		</MonsterPower>
+	</ChampionMod>
+
+
+</DOCUMENT>

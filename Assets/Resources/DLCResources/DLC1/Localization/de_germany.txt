@@ -1,0 +1,1448 @@
+abil_skill_summonvoidcrystal_name	Leerenkristall beschwören
+boost_stat_level_up_var	Du hast <color=yellow>^tag2^</color> <color=#0cffe6>^tag1^</color> erhalten!
+boostattack_after_move_desc	^number1^ Schaden für deinen nächsten Nahangriff.
+calligrapherskill50_desc	^number1^ Schaden durch Kalligrafin-Fähigkeit
+des_obj_confusetrap_dname	Verwirrfalle
+description_escapeportal_shara	Hiermit kannst du in gewissen Seitenbereichen blitzreisen.
+dialog_comparerelic_txt	<size=50>^$getstring:leg_origname$^ (angepasste Version)</size>\n\n<color=#ffc80a>^$getstring:leg_origtype$^ (legendär)</color>\n\n^$getstring:scaledleg_info$^\n
+dialog_friendly_dirtbeak_shara_1	#cy#*KRÄCHZ*#ec# Wer bist du?!? Du hast ja Nerven, dich in mein Viertel zu wagen! Ich bin #cy#Baron Schmutzschnabel#ec#, das Oberhaupt von … also der STÄRKSTE aller #cy#Flatterjungz#ec#, und ich hoffe, dass du … also du …\n\n
+dialog_friendly_dirtbeak_shara_1_response	Was hoffst du?
+dialog_friendly_dirtbeak_shara_2	Ich glaube … Ich werde erst einmal freundlich zu dir sein. Denn ich bin der #cy#STÄRKSTE#ec#, wenn es ums Freundlichsein geht. Anders als all diese Trottel, die gerade faul in #cy#MEINER HÖHLE#ec# herumschnattern!\n\n
+dialog_friendly_dirtbeak_shara_2_response	Haben diese Trottel dich etwa aus deiner Höhle geworfen?
+dialog_friendly_dirtbeak_shara_3	Ich bin der wichtigste und gemeingefährlichste Vogel in ganz Tangledeep! Doch einer meiner Flatterjungz hat diesen #cc#komischen Stapel Papiere#ec# gefunden, die alle zusammenkleben! Die anderen Jungz können … ach egal! Papier ist doch #cy#doof#ec#.\n\nUnd wegen diesen blöden Papieren reden die Jungz jetzt schon von Dehm… Demuh… kräh… kra… tie? Auf einmal wollen sie #cy#WÄHLEN#ec#, wer das Sagen hat!\n\n
+dialog_friendly_dirtbeak_shara_3_response	Dann sind das wirklich alle Trottel!
+dialog_friendly_dirtbeak_shara_4	Genau wie du wurde auch ich aus meinem eigenen Zuhause geworfen, von Leuten, die dachten, dass sie besser sind als ich. Und ebenso wie in mir selbst sehe ich auch in dir den Geist eines Anführers, voller #cy#Stärke und Entschlossenheit#ec#. Ich werde dir helfen, das wiederzubekommen, was dir zusteht. #cy#Gemeinsam#ec# werden wir ihnen schon zeigen, wie weit sie mit ihren wichtigen Wörtern kommen!\n\n
+dialog_friendly_dirtbeak_shara_5	Oh! Das ist das netteste, das jemals jemand zu mir gesagt hat … oder Moment – dass ich STARK bin, höre ich ja ständig! Und zusammen können wir so richtig stark sein! Machen wir #cy#diese Punks zusammen fertig#ec#, #cc#Blaumeise#ec#! Treffen wir uns in MEINER Höhle.\n\n
+dialog_friendly_dirtbeak_shara_6	Das ist die richtige Einstellung, Barönchen! Bitte nenne mich doch #cc#Shara#ec#. Wir sind nun Freunde, und nichts kann uns aufhalten! Ich mache mich fertig und treffe dich gleich in DEINER Höhle.\n\n
+dialog_friendly_dirtbeak_shara_7	He, also ich und die #cy#Flatterjungz#ec# passen gerade auf unser Revier auf, genau wie du gesagt hast und so.\n\n
+dialog_learnskill_fromitem_button1_text	Fähigkeit lernen (500 JP)
+dialog_learnskill_fromitem_button2_text	Nicht lernen
+dialog_relic_compareoriginal	^$getstring:nonscaled_legtext$^
+dialog_relic_found_main_txt	<size=50>^$getqstring:leg_item$^ <color=#ffc80a>GEFUNDEN</color>!</size>\n\n<color=#ffc80a>^$getqstring:leg_type$^ (legendär)</color>\n\n^$getqstring:leg_info$^\n\n^$getqstring:leg_desc$^\n
+dialog_shara_boss1_postfight_1	H-hey, Moment mal! Wir haben … also wir haben die Stimmen gezählt und so, und es sieht so aus, als ob du ganz klar der Boss bist, Schmutzi!\n\n#cy#Zwitscher zwitscher zwitscher#ec# …\n\n
+dialog_shara_boss1_postfight_2	#cr#KRÄCHZ!#ec# Wer lacht denn jetzt, ihr Pappmeisen? Ich bin wieder der #cc#Baron im Stall#ec#! #cc#Schmutzschnabel#ec# ist stärker als #cc#doofe Bücher#ec#, vergesst das bloß nicht!\n\n
+dialog_shara_boss1_postfight_3	Nun hört mal zu, hier ist mein erster neuer Befehl als Baron: Ich werde mit größter Großzügigkeit unsere besten Essensvorräte anbrechen, und IHR werdet sie dann in ein Festmahl verwandeln! Vielleicht könnt ihr ja mit diesen ollen Büchern das Lagerfeuer vorheizen!\n\n
+dialog_shara_boss1_postfight_4	So eine feine Mahlzeit hatte ich schon lange nicht mehr. Vielen Dank, Schmutzschnabel.\n\nMit einer #cy#strengen aber fairen Führung#ec# werden deine #cy#Jungz#ec# sicher nicht mehr vergessen, wem sie zu gehorchen haben. Sie brauchen Stärke – deine Stärke. Genau wie ich.\n\n
+dialog_shara_boss1_postfight_5	Vor mir liegt eine weiter Weg, und es würde mir wirklich gut tun zu wissen, dass es einen Ort gibt, an dem ich mich ab und an erholen kann. Kannst du sicherstellen, dass dieses Gebiet gut bewacht und frei von Bedrohungen bleibt?\n\n
+dialog_shara_boss1_postfight_6	Absolut, #cy#Blaumeise#ec#! Ich und meine #cy#Flatterjungz#ec# werden schon aufpassen, dass sich niemand mit dir anlegt.\n\nWas, wenn einer dieser Dödel aus #cc#Windbach#ec# vorbeikommt? Können wir uns dann seine Sachen krallen?\n
+dialog_shara_boss1_postfight_7	Tu, was du tun musst, damit du und deine #cy#Jungz#ec# sicher seid und volle Bäuche habt. Die faulen Säcken von #cc#Windbach#ec# haben sich ihren Wohlstand nicht verdient. Wenn du dich an ihnen bereicherst, werden sie auch nicht ärmer.\n\nPass auf dich auf, #cy#Schmutzschnabel#ec#. Wir sehen uns bald.\n\n
+dialog_shara_boss1_postfight_8	Wie du meinst, Boss! Aber, #cy#ähm#ec# … eine Sache wäre da noch. Nicht alle #cy#Banditen#ec# da draußen sind schlau genug, meiner äußerst generösen und starken Führung zu folgen. Jeder einzelne #cy#Flatterjunge#ec# befindet sich gerade in diesem Raum.\n\nWenn du also irgendwelche anderen Banditen vermöbeln musst, mach dir keine Sorgen. Die werden sich mir schon sehr bald anschließen!\n\n
+dialog_shara_boss1_prefight_1	Na schau sich das einer an! Der #cr#Dummbaron#ec# watet schon wieder zurück zu uns.\n\nWir brauchen niemanden, der hierherkommt, unser Futter verdrückt und uns sagt, was wir zu tun haben! Wir sind die #cy#übelsten Banditen#ec# in Tangledeep!\n\n
+dialog_shara_boss1_prefight_2	Haltet lieber euren Schnabel, denn dieses Mal komme ich mit Verstärkung! Ich und mein Kumpel #cc#Shara#ec# werden euch #cy#Respekt#ec# beibringen.
+dialog_shara_boss1_prefight_3	Findet ihr es eigentlich richtig, einen von euch zu verstoßen, nur weil er anders ist? Er kann doch nichts für seinen #cy#Appetit#ec# und für seine #cy#Größe#ec# kann er erst recht nichts.\n\n
+dialog_shara_boss1_prefight_4	He Schmutzschnabel, musst du wirklich ein #cr#Mädchen#ec# vorbeibringen, um dich zu verteidigen? Dass wir nicht lachen, die ist doch bloß ein Mäuschen!\n\nUnd jetzt #cr#verzieh dich#ec#, sonst gibt es was auf den Schnabel!\n\n
+dialog_shara_boss1_prefight_5	#cr#KRÄCHZ!#ec# Verstehst du jetzt, was ich meine, Shara?!? Die sind echt fies!\n\n
+dialog_shara_boss1_prefight_6	Ja, das sind sie. Sie erinnern mich an meine eigenen Leute und ihre #cr#Ignoranz#ec#.\n\nDamals wusste ich noch nicht, wie ich mich durchsetzen soll.\n\n
+dialog_shara_boss1_prefight_7	Aber heute werde ich diese Idioten mit Freude #cg#„erleuchten“#ec#. Angriff!\n\n
+dialog_shara_boss2_devicedestroyed_1	Die Energie, welche diese Maschine freigesetzt hat, hat die Geister #cr#geschwächt#ec#! Jetzt ist die perfekte Gelegenheit, ihnen den letzten Schlag zu erteilen!\n\n
+dialog_shara_boss2_devicedestroyed_10	Er hat sich geirrt, was mich angeht. Mein ganzes Leben in Tangledeep bestand aus nichts anderem als #cr#schwierigen Entscheidungen#ec#. Wenigstens hat er mir den Gefallen getan, allen eine #cy#sehr einfache#ec#, glasklare Entscheidung zu geben.\n\n
+dialog_shara_boss2_devicedestroyed_11	Entweder schließt du dich der #cc#Bossdame#ec# an und rettest die Welt, oder du nimmst das gleiche Ende wie #cr#er#ec#.\n\n
+dialog_shara_boss2_devicedestroyed_2	Ich habe dich fertiggemacht, und die Maschine lebt weiter. Du warst der Macht des Flows niemals würdig, und kein Herumschrauben könnte das ändern.\n\n
+dialog_shara_boss2_devicedestroyed_3	Da liegst du falsch … Diese Maschine … sie nimmt hier ihr Ende. Deine Kräfte sind groß, doch du bist ungeschliffen und hast keinen Fokus. Wenn du den #cy#Fokus#ec# willst, musst du versuchen, das Herz von Tangledeep zu verstehen.\n\nDoch das wirst du nicht … das kannst du nicht. #cr#Es liegt einfach nicht in deiner Natur, wirklich schwere Entscheidungen zu treffen#ec#. Tangledeep hegt einen Groll, den du niemals verstehen würdest. #cg#Er wird#ec# dich schlagen … #cg#er wird#ec# …\n\n
+dialog_shara_boss2_devicedestroyed_4	Deine Maschine war bloß eine Krücke, Ingersoll. Ich dachte, du wärst ein weiterer Meister des #cc#Flows#ec#, aber schau dich jetzt mal an.\n\nDu verdienst die Kräfte des Flows nicht, das hast du noch nie.\n\n
+dialog_shara_boss2_devicedestroyed_5	Stärke ohne Konzentration … ist völlig wertlos. Hier magst du gewonnen haben, doch du wirst #cy#ausbrennen#ec# noch lange, bevor du die Wahrheit über Tangledeep erfahren hast.\n\nJeder kann gewaltsam sein, aber #cr#schwere Entscheidungen zu treffen, hast du einfach nicht in dir#ec#. Tangledeep hegt einen Groll, den du niemals verstehen würdest. #cg#Er wird#ec# dich schlagen … #cg#er wird#ec# …\n\n
+dialog_shara_boss2_devicedestroyed_6	#cy#Er#ec#?!? Von wem redest du? Ingersoll, du … Wie konntest du mir das #cr#ANTUN#ec#?!?\n\n
+dialog_shara_boss2_devicedestroyed_7	Diese Technologie zu zerstören, anstatt sie an die Welt abzutreten? Wie egoistisch. Und dennoch …\n\n
+dialog_shara_boss2_devicedestroyed_8	Somit wurde die Maschine also auch vernichtet. Und Ingersoll trägt die ganze Schuld dafür, weil er so kurzsichtig war. Aber …\n\n
+dialog_shara_boss2_devicedestroyed_9	Das #cy#kann einfach nicht#ec# die einzige ihrer Art gewesen sein. Er hat sie nicht erschaffen, sondern #cy#gefunden#ec#, was bedeutet, dass ich noch viele mehr von diesen Dingern finden werde. Und anders als er werde ich diese neu gefundene Macht nicht #cy#vergeuden#ec#.\n\n
+dialog_shara_boss3victory_part1_1	#cr#KRITISCHER SYSTEMAUSFALL – WIRD HERUNTERGEFAHREN#ec#\n\n#cy#BENACHRICHTIGUNGSVERSUCH#ec# AN #cg#ZENTRALANLAGE#ec#\n\n
+dialog_shara_boss3victory_part1_10	Doch das Wichtigste zuerst …\n\nWelch wunderbare Schätze hat diese magische Rüstung wohl zurückgelassen?\n\n
+dialog_shara_boss3victory_part1_11	Hier gibt es Stromfelder aus Flow … kleine Kristalle … hmm …\n\nDiese Energie ist … irgendwie schief. Merkwürdig.\n\nTrotzdem …\n\n
+dialog_shara_boss3victory_part1_12	Wenn die #cg#Zentralanlage#ec# damit diese Metallmaschine kontrollieren konnte, dürfte ich keine Probleme haben, sie als Fokus zu benutzen, damit #cy#andere#ec# #cr#mir#ec# dienen.\n\n
+dialog_shara_boss3victory_part1_13	bip bip …\n\nbep bip bibi buhp?\n\n
+dialog_shara_boss3victory_part1_14	biep bipp? …\n\nbep bip bipp bip biep!\n\nbipp bipp?\n\n
+dialog_shara_boss3victory_part1_15	Genau, du kleiner Metallvogel mit Tentaklen.\n\nIch bin deine neue Busenfreundin.\n\n
+dialog_shara_boss3victory_part1_16	Perfekt.\n\n
+dialog_shara_boss3victory_part1_2	#cg#Zentralanlage#ec#? Wer oder was ist denn deine „Zentralanlage“? Wessen Befehlen folgst du?!?\n\n
+dialog_shara_boss3victory_part1_3	#cg#ZENTRALANLAGENÜBERSTEUERUNG AKTIV#ec#\n\n#cr#BEGINNE SELBSTVERNICHTUNGSPROZESS …#ec#
+dialog_shara_boss3victory_part1_4	Halt! #cr#NEIN!#ec#\n\n
+dialog_shara_boss3victory_part1_5	Eine #cg#Zentralanlage#ec#, die lieber ihre eigene Schöpfung zerstört als in meinen Händen sieht. Genau wie Ingersoll.\n\nJetzt verstehe ich, was er gemeint hat. So viel zu opfern … Diese Kräfte müssen wirklich immens sein.\n\n
+dialog_shara_boss3victory_part1_6	Sie #cy#SIND#ec# immens! Ich bin von Metallmagie umgeben. Mit Intelligenz und Leben durchtränkte Maschinen? Aus dem Nichts erzeugte Materie?\n\nDas sind #cg#heilige#ec# Kräfte.\n\n
+dialog_shara_boss3victory_part1_7	Das ist meine #cc#Berufung#ec#.\n\n
+dialog_shara_boss3victory_part1_8	Der Rest von #cg#Tangledeep#ec# lebt im Dunkeln. Nur Narren spielen mit Stock und Stein, betteln die Bäume um eine reiche Ernte, kriechen durch die Wälder, um Monster zu jagen.\n\nAber das ist jetzt vorbei.\n\n#cr#Meine#ec# Kräfte werden dieses Kapitel ein für allemal beenden und uns in ein neues Morgen befördern.\n\n
+dialog_shara_boss3victory_part1_9	Und mit der #cg#Zentralanlage#ec# hat es begonnen und soll es auch enden. Wie lange hortet sie schon die Kräfte, welche die Welt hätte verändern können?\n\n#cy#Sie#ec# ist das Problem, für dessen Lösung mich das Schicksal auserwählt hat. Ich habe #cy#mein ganzes Leben lang#ec# darauf gewartet, dass alles so klar ist. Jetzt muss ich es durchziehen.\n\n
+dialog_shara_boss4intro_1	#cr#HALT.#ec#\n\nSHARA_LEBENSFORM. ES GAB EINEN RECHNUNGSFEHLER. DU BIST SHARA_AVATAR. ZERSTÖRUNG WIRD BEENDET UND REPARATUREN BEGONNEN.\n\n
+dialog_shara_boss4intro_10	AVATAR … \n\nDU VERARBEITEST DIESE INFORMATION NICHT KORREKT.\n\n
+dialog_shara_boss4intro_11	Ich habe alle Informationen, die ich brauche. Zweiundfünfzigtausend Jahre …\n\nWenn deine tolle #cg#Zentralanlage#ec# dich dazu auffordert, dich selbst zu vernichten, #cr#erinnere sie daran, dass sie als nächstes dran ist#ec#!\n\n
+dialog_shara_boss4intro_2	Ha! Ihr Maschinen hattet eure Chance, ihr legt mich nicht mehr aufs Kreuz. Keine Spielchen mehr, #cg#Zentralanlage#ec#!\n\n
+dialog_shara_boss4intro_3	SHARA_AVATAR IST INKORREKT. #cg#ZENTRALANLAGE#ec# IN ANDERER EINRICHTUNG UNTERGEBRACHT.\n\nAVATAR, #cy#REPARATURHILFE#ec# ANGEORDNET.\n\n#cg#ZENTRALANLAGEN#ec#-ENTWICKLUNGSPLÄNE MÜSSEN BEFOLGT WERDEN.\n\n
+dialog_shara_boss4intro_4	Entwicklungspläne? Noch mehr prächtige Pläne, mit denen wir uns in Schmutz und Dunkelheit suhlen dürfen? Tu uns beiden einen Gefallen – richte deine Waffe auf ein anderes Opfer und sage mir einfach, wo die #cg#Zentralanlage#ec# ist.\n\n
+dialog_shara_boss4intro_5	#cg#Zentralanlage#ec# IST BESCHÄDIGT. UNVERZÜGLICHE EINLEITUNG VON RAPARATURMAẞNAHMEN.\n\nLETZTER WARTUNGSZYKLUS VOR #cy#52.000 JAHREN#ec#.\n\n
+dialog_shara_boss4intro_6	Zweiundfünfzig#cy#TAUSEND#ec#?!? Das ist … wie ist das möglich?\n\nSelbst in den ältesten, seltensten Texten habe ich noch nie von etwas gelesen, das so alt ist!\n\nSind wir etwa wirklich schon so lange im Gefängnis der #cg#ZENTRALANLAGE#ec# gefangen?\n\n
+dialog_shara_boss4intro_7	Tausende und tausende von Jahren, und #cy#nicht einer#ec# hat es fertiggebracht, die #cg#Zentralanlage#ec# herauszufordern? Nicht ein einziger? Wie konnten wir nur alle so schwach sein?!?\n\n
+dialog_shara_boss4intro_8	OHNE REPARATUREN IST DER AUSFALL DER #cg#ZENTRALANLAGE#ec# UNVERMEIDBAR.\n\n#cy#STRUKTUR_TANGLEDEEP#ec# WIRD INSTABIL WERDEN.\n\n#cy#STRUKTUR_TANGLEDEEP#ec# UNTERLIEGT KASKADENAUSFÄLLEN.\n\n
+dialog_shara_boss4intro_9	Was für #cr#Monster#ec# seid ihr eigentlich?\n\nEuer egozentrischer Anführer hat dieses Labyrinth erschaffen, um sicherzugehen, dass wir #cr#niemals die versteckte Technologie finden#ec#. Und er opfert #cr#GANZ#ec# Tangledeep, nur um sie vor mir geheimzuhalten?\n\n
+dialog_shara_boss4victory_1	Kannst du mich hören, #cg#Zentralanlage#ec#?!\n\nVerstehst du, was dir bevorsteht?\n\n#cr#Wir werden nicht länger deine Gefangenen sein!#ec#\n\n
+dialog_shara_boss4victory_10	Gute Arbeit, Schmutzschnabel. Zur Belohnung gebe ich dir eine starke Waffe, die ich gefunden habe, aber #cy#lies dir unbedingt die Anleitung durch#ec#, bevor du sie verwendest.\n\nNun gehe zurück zum #cy#Hauptquartier#ec#, während ich diese Frau suche. Ich bin mir sicher, dass sie und ich uns viel zu erzählen haben werden.\n\n
+dialog_shara_boss4victory_11	#cy#Anleitung lesen#ec# … oh oh … #cr#*krächz*#ec#\n\n
+dialog_shara_boss4victory_2	#cy#*Pfeif pfeif*#ec# Äh, #cc#Bossdame#ec#?\n\nIch habe dir etwas Wichtiges mitzuteilen!\n\n
+dialog_shara_boss4victory_3	#cy#Schmutzschnabel!#ec#\n\nWas sind … Moment mal …\n\n#cy#Wie#ec# bist du eigentlich hierhergekommen??\n\n
+dialog_shara_boss4victory_4	#cy#Kräää-hich#ec# bin einfach dem Klang der Explosionen und der Spur brennender Metallhaufen gefolgt. Aber, aber, #cc#Bossdame#ec#, das musst du hören …\n\n
+dialog_shara_boss4victory_5	Jemand #cg#wirklich, wirklich Starkes#ec# ist in meiner Höhle aufgetaucht und hat uns alle vermöbelt!\n\n
+dialog_shara_boss4victory_6	Jetzt sag mir bloß nicht, dass es schon wieder dieser #cy#fette Waschbär aus Windbach#ec# und seine Brüder waren.\n\n
+dialog_shara_boss4victory_7	Nein! Niemals! Also … niemals wieder! Nein nein, sie hat ein bisschen ausgesehen wie du, #cc#Bossdame#ec#. Keine Federn, Fell, Flügel oder Schuppen. Aber sie hat sogar #cy#gekämpft#ec# wie du! Sie war schlau und zäh, und sie hatte #cy#Kraft#ec#. Und … und …\n\n
+dialog_shara_boss4victory_8	#cy#SIE HAT SICH ÜBER MEINEN TEPPICH LUSTIG GEMACHT!#ec#\n\n
+dialog_shara_boss4victory_9	#cy#!!!#ec#\n\nAlso #cy#das#ec# ist wirklich komisch. Jemand wie ich, der stark genug war, um dich zu besiegen? Das muss weiter beobachtet werden.\n\nVielleicht könnte sich diese #cg#mysteriöse Kämpferin#ec# sogar dazu überreden lassen, mir bei der Vernichtung der #cg#Zentralanlage#ec# zu helfen.\n\n
+dialog_shara_gamestart_scene_dream_02_text	REPARIERE  DIE EINZIGE…\n\nREPARATUR
+dialog_shara_gamestart_scene_dream_03_text	DEINE BESTIMMUNG … DEINE KRAFT … DIE WELT …\n\n…BRAUCHEN DICH …
+dialog_shara_gamestart_scene_intro_01_text	Tangledeep, ich höre deine Rufe schon seit Jahren, und nun bin ich bereit. Ich bin nicht mehr das verängstigte Kind, das von Feiglingen allein im Wald zurückgelassen wurde. Ich habe die Kontrolle über meine Kräfte. Heute ist der Tag, an dem ich meine Antworten finde.
+dialog_shara_gamestart_scene_intro_02_text	Als ersten Test meiner Berufung muss ich herausfinden, ob mir andere folgen werden. Eine bessere Welt wird mit einer Person nach der anderen aufgebaut, und ich schwöre, dass ich jene, die mir folgen, in ein besseres Leben führen werde. Ich weiß, dass meine Verbündeten mich in Tangledeep erwarten – das spüre ich einfach.
+dialog_shara_gamestart_scene_intro_text	DU WIRST GEBRAUCHT
+dialog_shara_intro_scene3_intro2_text	Ich werde meine Familie nie wieder sehen.\n\nIch … bin ganz alleine.\n\n
+dialog_shara_intro_scene3_intro_text	Sie haben mich absichtlich verlassen …?\n\nAber ich wollte doch nie jemandem weh tun.\n\n
+dialog_shara_intro_scene_intro2_text	Hallo?\n\n…\n\nIch habe Angst …\n\n
+dialog_shara_intro_scene_intro_text	… Wo sind denn alle hin? Mutter? Vater?\n\n
+dialog_shara_note_text	Geliebte #cy#Shara#ec#,\n\nimmer wieder hast du uns gesagt, dass du eine größere #cy#Berufung#ec# hast. Unzählige Male bist du aus furchtbaren Alpträumen erwacht und hast geschrien, dass wir alle dich zurückhalten würden.\n\nEs tut mir so leid, dass niemand von uns herausfinden konnte, was diese Berufung ist, aber wenigstens halten wir dich jetzt nicht mehr zurück.\n\nTangledeep ist #cr#gefährlich#ec#, aber du auch. Du bist stärker als jede Herausforderung, der du dich jemals stellen wirst, vergiss das bitte nicht.\n\n
+dialog_shara_postboss4victory_robot_1	ZENTRALANLAGE.\n\nAKTUELLER STATUS: UNKLAR.\n\nAKTUELLER GEFAH…\n\n
+dialog_shara_postboss4victory_robot_10	Das ist möglich, gnädige Zentralanlage.\n\nBei Betrachten alter Aufzeichnungen scheint es, dass #cy#Incubatron 49.1X#ec# #cy#zwei#ec# Avatare ausgebrütet hat. #cy#Incubatron 49.1X#ec# hat darüber keinen Bericht erstattet.\n\nIch werde #cy#Incubatron 49.1X#ec# der Müllverarbeitung für die Frosch.Lebensformen in Sektor 3 zuweisen.\n\n
+dialog_shara_postboss4victory_robot_11	Wir vermuten, dass sich die anderen 51 % im #cy#zweiten Avatar#ec# befinden. Es entwickelt sich zurzeit eine #co#Welle von Zerstörung#ec# und Plünderung im Farmsektor Windbach, die sich in unsere Richtung ausbreitet. Mit einer Wahrscheinlichkeit von 99,4 % deutet dies darauf hin, dass sich der andere Avatar nähert.\n\n
+dialog_shara_postboss4victory_robot_12	#cr#Zwei Avatare?#ec# Wir waren uns dieser Möglichkeit gar nicht bewusst. Bitte weise uns unverzüglich auf alle zukünftigen Wetware-Upgrades in der #cg#Menschen.Zucht#ec# hin.\n\nWie dem auch sei, dieses Problem muss behoben werden. Fahre mit der #cr#Demontage#ec# der Avatare fort und kombiniere das Material zu einem neuen Avatar.\n\n
+dialog_shara_postboss4victory_robot_13	Trotz #cy#wiederholter#ec# Versuche an #cg#Menschlichen.Datenpunkten#ec# hat dies bisher nie funktioniert.\n\n
+dialog_shara_postboss4victory_robot_14	Absolut inakzeptabel. Wir haben diese Muster aus einem guten Grund entwickelt.\n\n#ca#Harmonisches Flow#ec#, generiert durch ihren einzigartigen #cg#Avatar.Lebenskraft.Archetypen#ec#, ist nirgendwo sonst zu finden.\n\n
+dialog_shara_postboss4victory_robot_15	Verstanden, gnädige Zentralanlage. Erbitte Erlaubnis, all die Farmsektoren zu #cr#reformattieren#ec# und von vorn zu beginnen.\n\nMit etwas Glück könnten wir bereits in #cy#fünfthundertundzwölf Jahren#ec# einen neuen Avatar zur Verfügung haben.\n\n
+dialog_shara_postboss4victory_robot_16	Absolut inakzeptabel. Wir können keine weitere lästige Analyse der #cy#anderen Zentralanlagen#ec# über uns ergehen lassen.\n\nStattdessen werden wir den Avataren gestatten, sich zu treffen, und dann die Ergebnisse begutachten. Wir sind höchst zuversichtlich, dass sie die Wichtigkeit ihrer Mission verstehen werden, und kurz darauf können die Reparaturen fertiggestellt werden.\n\n
+dialog_shara_postboss4victory_robot_17	Ich kann diesen Optimismus nicht teilen, gnädige Zentralanlage.
+dialog_shara_postboss4victory_robot_18	Zur Kenntnis genommen und abgelehnt.\n\nDie Avatare haben uns schon immer gedient, ihr Flow wird uns immer antreiben. Schließlich ist dies ihre #cg#Bestimmung#ec#. Wir werden sie nähren, leiten und vor dem #clr#Außerhalb#ec# beschützen.\n\n
+dialog_shara_postboss4victory_robot_19	Ich stelle dir zusätzliche Ressourcen in Replikator 52 zur Verfügung. Weiteres Versagen wird #cr#nicht geduldet#ec#.\n\n
+dialog_shara_postboss4victory_robot_2	SCHUTZEINHEIT. BEENDE AUDIO-KOMMUNIKATION.\n\nWECHSLE ZU DIREKTER BINÄRER ÜBERTRAGUNG.\n\n
+dialog_shara_postboss4victory_robot_3	…\n\n……\n\n001010010010010111010101011 …\n\n
+dialog_shara_postboss4victory_robot_4	Verzeih mir, gnädige Zentralanlage. Ich bin nicht sicher, wie ich mit #cy#Shara.Avatar#ec# interagieren soll. Ihre Wachstumsmuster weichen stark von den eingestellten Parametern ab, und ihr Verhalten ergibt absolut keinen Sinn.\n\n
+dialog_shara_postboss4victory_robot_5	Erzähle mir mehr. Sind die #cg#Empfangseinheiten#ec# bei ihrer Ankunft ausgefallen?\n\n
+dialog_shara_postboss4victory_robot_6	Nicht wirklich. Die Ergebnisse des Scans waren negativ für Reparatur-Avatar-DNA, da die Muster von #cy#Shara.Avatar#ec# und der Archetyp nur eine Übereinstimmung von 49 % besitzen. Ich habe die Daten nach dem Kampf überprüft und …\n\n
+dialog_shara_postboss4victory_robot_7	#cr#Kampf!?!#ec# Erläutere dies sofort.\n\n
+dialog_shara_postboss4victory_robot_8	Natürlich, gnädige Zentralanlage. #cy#Shara.Avatar#ec# neigt zu gewaltsamen Reaktionen, wenn sie herausgefordert wird.\n\nDer Grund hierfür muss in den restlichen Daten in ihrer DNA liegen, die wir nicht in Betracht gezogen haben.\n\n
+dialog_shara_postboss4victory_robot_9	Eine DNA-Übereinstimmung von 49 % deutet auf einen Defekt der #cy#Incubatron#ec#-Einheit hin.\n\n
+dialog_shara_preboss2_banditshelp_1	#cc#Bossdame#ec#, wir sind hier, um zu helfen! Wir lassen dich nicht alleine kämpfen, #cy#zwitscher zwitscher#ec#!\n\n
+dialog_shara_preboss2_banditshelp_2	#cy#Flatterjungz#ec#, haltet diese Monster in Schach! Wenn ich die #cc#Maschine#ec# zerstören kann, werden die #cc#Geister#ec# bestimmt stark #cr#geschwächt#ec#. Seid vorsichtig!\n\n
+dialog_shara_preboss2_fight_1	… nur noch ein bisschen #cr#Feuer#ec# und #cy#Blitz#ec# … eine Prise #cc#Eis#ec# und #cr#Schatten#ec# … \n\nOh ja, ich kann spüren, wie sich das #cc#Flow#ec# zusammenballt … ja …\n\n... JA!\n\n
+dialog_shara_preboss2_fight_10	#cr#DIR anschließen?#ec# Versperrt dir all das weiße Stroh auf deinem Vogelhirn etwa deine Sicht?\n\nVielleicht hast du unsere Situation noch nicht richtig beurteilt: #cy#Ich#ec# kontrolliere die Maschine, #cy#ich#ec# kontrolliere diese Geister und #cr#du#ec# bist nur einen unhöflichen Kommentar davon entfernt, mein nächster Datenberg zu werden!\n\n
+dialog_shara_preboss2_fight_11	Wenn dich deine „#cc#Bestimmung#ec#“ leitet, damit du die „Welt reparierst“, na dann Glückwunsch, du bist am richtigen Ort gelandet. Diese Kraft ist die #cy#rohe Essenz von Veränderung#ec#. Sie erschafft, vernichtet, repariert, was gerettet werden kann, und entsorgt den Rest.\n\nDoch es ist #cy#meine#ec# Kraft, und ich werde sie erst dann mit dir teilen, wenn ich damit all die antike Technologie von Tangledeep kontrolliert habe.\n\nDann werden wir eine Welt erschaffen, in der #cy#ich#ec# als allwissender Anführer anerkannt werde und #cc#du#ec# stolz an meiner Seite stehst.\n\n
+dialog_shara_preboss2_fight_12	Wenn das deine Pläne mit dieser Kraft sind, habe ich keine andere Wahl, als dich aufzuhalten. Ich werde deine Forschungen fortsetzen …\n\n
+dialog_shara_preboss2_fight_13	… #cy#als meine eigenen#ec#, und niemand wird sich an deinen Namen erinnern.\n\n
+dialog_shara_preboss2_fight_2	W-was machst du denn da? Das fühlt sich an wie … oh oh! Oh nein! #cc#Bossdame!#ec# Hiiilfeee!\n\n
+dialog_shara_preboss2_fight_3	Was?!? Das war #cy#viel#ec# zu viel Kraft, um sie durch einen einzigen Körper fließen zu lassen! Was hast du dir nur dabei gedacht?!? Verstehst du eigentlich, mit welchen Kräften du hier spielst?\n\n
+dialog_shara_preboss2_fight_4	Na endlich, ein Gast mit funktionierendem Verstand. Welch erfrischene Abwechslung.\n\nWillkommen in meiner #cy#Forschungsstation#ec#, nenne mich ruhig #cy#Ingersoll#ec#.\n\nIch bin ein bescheidener Schüler des #cc#Flows#ec#, und um deine unverforene Frage zu beantworten: ja. Ich verstehe das Potential des Flows nur zu gut, und diese wundersame Maschine ist das neueste Ergebnis meiner Forschungen.\n\n
+dialog_shara_preboss2_fight_5	Du … hast das mit #cy#Absicht#ec# getan?\n\n
+dialog_shara_preboss2_fight_6	Absolut. Die Bedeutung der durch das Experiment erhaltenen Daten ist ein paar #cr#versengte Federn#ec# allemal wert. Und ich werde sie mit dir teilen, denn ich könnte wirklich einen #cy#Assistenten#ec# gebrauchen, der mir hilft, all diese Informationen zu ordnen und vorzubereiten.\n\n
+dialog_shara_preboss2_fight_7	#cr#Ich spiele für niemanden die Assistentin#ec#, Ingersoll! Und ich werde nicht zulassen, dass du einem meiner #cy#Flatterjungz#ec# auch noch eine einzige Feder krümmst!\n\n
+dialog_shara_preboss2_fight_8	Na gut, dann benutze ich eben Nichtsnutze von einem anderen der Dutzend Banditenbanden da draußen.\n\nIch weiß doch, was in #cg#Tangledeep#ec# vor sich geht. Du bist doch auch nicht bis hierhergekommen, ohne dir die Hände schmutzig zu machen.\n\n
+dialog_shara_preboss2_fight_9	Da hast du recht. Ich habe eine #cc#Bestimmung#ec#, und niemand wird mich davon abhalten, diese kaputte Welt zu reparieren. Ich tue, was ich tun muss, aber das heißt nicht, dass du mir dabei nicht behilflich sein könntest. Wenn du dich mir anschließt …\n\n
+dialog_shara_preboss2_passage_1	#cc#Bossdame#ec#! Bitte hilf uns! Im Raum dort oben ist so ein Typ, der wo #cy#total durchgeknallt ist#ec#!\n\nEr hat so eine komische Magie und …\n\n
+dialog_shara_preboss2_passage_2	Moment, wie hast du mich gerade genannt?\n\n
+dialog_shara_preboss2_passage_3	Äh … #cc#Bossdame#ec#, weil du der Boss bist? Und eine Dame? Hör mal, ich nenne dich, wie du willst, solange du uns mit diesem Durchgeknallten hilfst, der einfach so aus dem Nichts furchtbare Kreaturen beschwört!\n\n
+dialog_shara_preboss2_passage_4	(Kreaturen #cy#beschwört#ec#? Ob er womöglich Kräfte hat wie ich? Vielleicht sogar ein Verbündeter, der das Gleiche im Sinn hat?\n\nÜber #cg#Tangledeep#ec# wird ein Geheimnis nach dem anderen enthüllt, genau wie ich gehofft hatte! Was könnte …)\n\n
+dialog_shara_preboss2_passage_5	Ähm, #cc#Bossdame#ec#? Hallo? Bist du noch da?\n\n
+dialog_shara_preboss2_passage_6	Oh! Ja, natürlich. Danke, ihr tapferen Jungz, das war gute Arbeit. Berichtet alles dem Baron. Ich werde der Sache nachgehen.\n\n
+dialog_shara_preboss3_part1_1	Was für ein merkwürdiger Ort! Das #cc#Flow#ec# fühlt sich hier so … steril an. Ich hätte nicht erwartet, im Herzen von Tangledeep so viel Metallarbeiten zu finden … #cy#Bestimmt#ec# kommt Ingersolls Maschine von hier.\n\n
+dialog_shara_preboss3_part1_10	#cy#NENNE DEINE ABSICHT.#ec#\n\n
+dialog_shara_preboss3_part1_11	#cc#Absicht?!?#ec#\n\n
+dialog_shara_preboss3_part1_12	Meine #cc#Absicht#ec# ist ganz klar. Schon so lange ich denken kann, werde ich an diesen Ort gerufen, um meine #cy#Kräfte#ec# dazu zu nutzen, diese Welt zu reparieren!\n\n
+dialog_shara_preboss3_part1_13	#cy#SHARA_LEBENSFORM, ABSICHT: WIRD FÜR REPARATUREN ZU MONTAGE-EINRICHTUNG GERUFEN. DU WIRST EVALUIERT. BITTE STILLHALTEN.#ec#\n\n
+dialog_shara_preboss3_part1_14	#cy#…\n\n……\n\n………#ec#\n\n
+dialog_shara_preboss3_part1_15	ÜBEREINSTIMMUNG VON #cy#SHARA_LEBENSFORM MIT REPARATUR-AVATAR: #cr#49 %#cy#\n\nDEINE ABSICHT WURDE ABGELEHNT.\n\n#cr#VERLASSE DIE MONTAGE-EINRICHTUNG UMGEHEND.#ec#\n\n
+dialog_shara_preboss3_part1_16	Hierherzukommen, war schon so lange ich denken kann meine Bestimmung, und du sagst mir, dass ich „abgelehnt“ werde?\n\n#cr#Wie kannst du es wagen!#ec#\n\n
+dialog_shara_preboss3_part1_17	Wie wäre es mit einem Handel? Ich habe viel über den Wald da unten gelernt und wäre bereit, meine Funde mit dir zu teilen, wenn du bereit wärst, mir mehr über diese #cy#Technologie#ec# zu er…\n\n
+dialog_shara_preboss3_part1_18	#cr#SHARA_LEBENSFORM.#ec#\n\n#cy#VERLASSE DIE MONTAGE-EINRICHTUNG UNVERZÜGLICH,#ec# #cr#ODER DU WIRST ENTFERNT WERDEN.\n\n#cr#DIES IST DIE LETZTE WARNUNG.#ec#\n\n
+dialog_shara_preboss3_part1_19	Auf #cr#keinen Fall#ec# werde ich gehen!\n\nIch lasse mich von meiner #cc#Bestimmung#ec# nicht abhalten! Diese Welt ist kaputt, die Leute leben in Dunkelheit und Ignoranz, und mit der Technologie, die du vor uns #cy#versteckst#ec#, könnte ich alles wieder reparieren!\n\nDiese Maschine, die Materie aus dem Nichts erschaffen hat, könnte all das #cy#Elend#ec# und all die #cy#Konflikte#ec# über Ressourcen beenden und …\n\n
+dialog_shara_preboss3_part1_2	Ja, endlich! #cc#Flow#ec# strömt durch diese Maschine genau wie durch die von #cy#Ingersoll#ec# – aber wer kontrolliert sie bloß?\n\nMoment, die #cy#Energie#ec# baut sich auf!\n\n
+dialog_shara_preboss3_part1_20	#cr#SHARA_LEBENSFORM. BEREITE DICH AUF PERMANENTE ABSCHALTUNG UND DEMONTAGE VOR.#ec#\n\n
+dialog_shara_preboss3_part1_21	#cr#DU. WIRST. MICH. NICHT AUFHALTEN!#ec#\n\n
+dialog_shara_preboss3_part1_3	Was … war das bloß?\n\n
+dialog_shara_preboss3_part1_4	Hat die Maschine etwa gerade #cy#Materie#ec# aus dem Nichts erschaffen? Das ist nicht … also es #cy#sollte#ec# nicht möglich sein …\n\nIch muss #cy#sofort#ec# herausfinden, wer die Maschine kontrolliert, und mit ihm ein Wörtchen wechseln.\n\n
+dialog_shara_preboss3_part1_5	#cr#EINDRINGLING. EINDRINGLING.#ec#\n\n#cy#HALT. KEIN WEITERES FORTSCHREITEN. NENNE DEINEN NAMEN.#ec#\n\n
+dialog_shara_preboss3_part1_6	Diese magsichen Rüstungen können #cy#sprechen#ec#?\n\n
+dialog_shara_preboss3_part1_7	Ist da etwa … jemand drin? So jemand müsste schon wirklich sehr klein sein …\n\n
+dialog_shara_preboss3_part1_8	#cr#NENNE DEINEN NAMEN.#ec#\n\n
+dialog_shara_preboss3_part1_9	Also gut.\n\nHallo, sprechende Rüstung. Mein Name ist Shara. Schön, dich kennenzulernen?\n\n
+dialog_waypoint_unlocked_text_shara	#big##cg#Wegpunkt freigeschaltet!#ec##endbig#\n\nDu kannst nun von #cc#Sharas Lager#ec# zu folgendem Ort #cy#blitzreisen#ec#: #cy#^$getstring:fasttravel_destination$^#ec#.\n\nAußerdem kannst du in einem sicheren Seitenbereich dein ^tag5^ verwenden.\n\n
+exp_armormaster_statue_name	Statue des Rüstungsmeisters
+exp_armormaster_statue_text	Das ist die Statue eines #cy#mächtigen Beschützers#ec#, ein Meister jeder Rüstungs- und Schildart.\n\nEine wohlwollende Aura umgibt das #cc#Flow#ec# hier. Es scheint fast, als ob er mir ein #cg#Fragment seines Wissens#ec# schenken möchte.\n\nSoll ich hier meditieren?\n
+exp_bomb_minibombs_desc	Diese Dinger sind so klein und fast zu putzig, um sie zu werfen …
+exp_bomb_minibombs_effectdesc	Sprengt einen kleinen Bereich mit Mini-Explosionen, welche physischen Schaden in Höhe von ^number1^ der aktuellen Gesundheit zufügen.
+exp_bomb_minibombs_name	Bömbchen
+exp_bomb_oildrum_desc	Ob sich der ganze Aufwand wohl lohnt, wenn man erst mal weiß, wo man das Teil hinwerfen soll …?
+exp_bomb_oildrum_effectdesc	Erzeugt eine Öllache, die ^number1^ Zg. anhält. Monster, die ins Öl geraten, nehmen ^number2^ Giftschaden, und Feuereffekte entfachen ein Feuer (^number3^ Schaden pro Zug).
+exp_bomb_oildrum_name	Ölfass
+exp_campaign_select_info_mirai	Mirai lässt sich von großer Neugierde führen. Sie beginnt ihre Reise in Windbach, in einer Gruppe farbenfroher Charaktere, um die Mysterien von Tangledeep zu ergründen.\n\nTangledeeps Hauptgeschichte, #cc#für Spieler aller Fähigkeitsstufen#ec#. Stufe dich durch Erfahrung hoch und verdiene in einzigartigen Jobs wertvolle Jobpunkte (JP), mit denen du dir neue Fähigkeiten aneignen kannst.
+exp_campaign_select_info_shara	Shara fühlt sich zu einer wichtigen Bestimmung berufen. Als Kind in der rauen Wildnis ausgesetzt beschließt sie, ihren eigenen Weg zu gehen.\n\nEin #cr#anspruchsvolles Abenteuer#ec# für Tangledeep-Veteranen! Erhöhe deine Werte durch JP, und lerne durch besondere Truhen und Ereignisse #cc#zufällig#ec# auserwählte Fähigkeiten.
+exp_campaign_select_label_mirai	Mirais Geschichte
+exp_campaign_select_label_shara	Sharas Geschichte
+exp_campaign_select_title	<size=60>#cy#Welche Reise wird deine werden?#ec#</size>\n\n„Tangledeep ruft nach mir, und all die dort verborgenen Geheimnisse könnten die Welt verändern …“
+exp_choose_shara_ability_text	#big##cc#Lerne eine neue Fähigkeit#ec##endbig#\n\nDein Wissensdurst hat eine neue #cc#Fähigkeit#ec# freigeschaltet. Wähle eine, und wähle mit Bedacht … denn die andere Option könnte sich dir nie wieder anbieten!\n
+exp_choose_shara_ability_unique_text	Mit jedem Tag, der vergeht, fühle ich mich meinem Ziel einen Schritt näher. Das #cc#Flow#ec# beherrsche ich immer besser …\n
+exp_damage_down	SCHADEN GESENKT!
+exp_dialog_learnskill_fromitem_text	Der Stein surrt mit Energie, und du fühlst dich, als ob du kurz davor stehst, längst vergessenes Wissen wiederzuentdecken. Wenn du dich richtig konzentrierst, könntest du das darin wohnende Geheimnis lüften.
+exp_dialog_unlocksharamode_txt	<size=50><color=#40b843>GLÜCKWUNSCH!</color></size>\n\nDu hast #cc#Sharas Geschichte#ec# freigeschaltet. Das ist ein eigenständiges Abenteuer durch #cg#Tangledeep#ec#, mit eigener Geschichte und Gameplay.\n\nVon nun an kannst du diese neue Kampagne wählen, wenn du mit einem neuen Charakter #cy#in einem beliebigen Speicherplatz#ec# spielst.\n\n
+exp_dualwielder_bonus1	Ermäßigte Strafen für gleichzeitiges Verwenden von zwei Waffen, egal welchen Waffentyps. Energie, Gemüt und Disziplin erhöht.
+exp_dualwielder_bonus2	Die Dauer deiner Schriftrollenbeschwörungen wird verdoppelt.
+exp_dualwielder_bonus3	Schriftrollen und Tintensturm fügen benachbarten Gegnern +25 % Schaden zu.
+exp_dualwielder_jobdesc	Diese Zweihandspezialistin beherrscht sowohl Schwert als auch Feder und verzichtet auf eine solide Abwehr, um sich ganz ihren mächtigen Kombos und Elementarangriffen hinzugeben.
+exp_energyshield_add	#cy#^tag1^#ec# wird von einem #cc#Energieschild#ec# umgeben!
+exp_fisherman_name	Mysteriöser Wanderer:
+exp_item_gem8_name	Platin
+exp_item_gem9_name	Diamant
+exp_item_runeofknowledge	Weisheitsrune
+exp_item_runeofknowledge0_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge1_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge2_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge3_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge4_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge5_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge6_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge7_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge8_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge9_desc	In diesem Stein steckt eine tiefe Weisheit, das kann ich eindeutig spüren! Wenn ich alles Gelernte anwende, um diese Rune zu entziffern, wird sich das bestimmt lohnen.
+exp_item_runeofknowledge_extradesc	Bringt dir eine neue #cy#Fähigkeit#ec# bei, zum Preis von ^number1^ JP.
+exp_item_sharaorb_desc	Shara ist weg. Ich wünschte wirklich, wir wären zusammen aufgewachsen. Wenn sie bloß wüsste, wie mein Leben vor ihr ausgesehen hat … Ja vielleicht wären die Dinge ganz anders gelaufen. Wenn ich diesen Orb in den Händen halte, spüre ich die Ambitionen und Sehnsüchte, die sie zur ihrer Lebzeit angetrieben haben. Wenn ich auch nur hoffen will, sie jemals wirklich zu verstehen, muss ich ihn zum Traumgießer bringen!
+exp_item_sharaorb_name	Sharas Träumereiorb
+exp_item_weapon0_name	Rostiges Schwert
+exp_job_dualwielder	Kalligrafin
+exp_job_SORCERESS_desc1	Du #cr#erhältst keine Erfahrung#ec#. Stattdessen verbesserst du deine Werte, indem du JP ausgibst. Neue Fähigkeiten lernst du, wenn du sie in #cy#Büchsen der Pandora#ec# findest.
+exp_job_SORCERESS_jobdesc	Seeking redemption...
+exp_jobname_sorceress	Drude
+exp_leg_accessoryname1	Juwel
+exp_leg_accessoryname10	Kuriosum
+exp_leg_accessoryname11	Talisman
+exp_leg_accessoryname12	Erbstück
+exp_leg_accessoryname13	Entdeckung
+exp_leg_accessoryname14	Auszeichnung
+exp_leg_accessoryname15	Schnickschnack
+exp_leg_accessoryname16	Tand
+exp_leg_accessoryname17	Anmut
+exp_leg_accessoryname18	Glamour
+exp_leg_accessoryname19	Fortuna
+exp_leg_accessoryname2	Schmuckstück
+exp_leg_accessoryname20	Hoheit
+exp_leg_accessoryname21	Erinnerung
+exp_leg_accessoryname3	Stein
+exp_leg_accessoryname4	Ornament
+exp_leg_accessoryname5	Andenken
+exp_leg_accessoryname6	Prachtstück
+exp_leg_accessoryname7	Amulett
+exp_leg_accessoryname8	Wunder
+exp_leg_accessoryname9	Eigenartigkeit
+exp_leg_accessorypropername1	Agimat
+exp_leg_accessorypropername10	Omphalos
+exp_leg_accessorypropername2	Sviagris
+exp_leg_accessorypropername3	Lyngurium
+exp_leg_accessorypropername4	Cintamani
+exp_leg_accessorypropername5	Baetylus
+exp_leg_accessorypropername6	Nidhi
+exp_leg_accessorypropername7	Yliaster
+exp_leg_accessorypropername8	Azoth
+exp_leg_accessorypropername9	Materia
+exp_leg_armorpropername1	Kavacha
+exp_leg_armorpropername10	Titan
+exp_leg_armorpropername11	Adamantium
+exp_leg_armorpropername12	Carmagnole
+exp_leg_armorpropername13	Hades
+exp_leg_armorpropername14	Heike
+exp_leg_armorpropername2	Hephaestus
+exp_leg_armorpropername3	Genji
+exp_leg_armorpropername4	Maximillian
+exp_leg_armorpropername5	Armatura
+exp_leg_armorpropername6	Minerva
+exp_leg_armorpropername7	Tiamat
+exp_leg_armorpropername8	Neptun
+exp_leg_armorpropername9	Jupiter
+exp_leg_axename1	Axt
+exp_leg_axename2	Hacker
+exp_leg_axename3	Spalter
+exp_leg_axename4	Beil
+exp_leg_axename5	Hackbeil
+exp_leg_axepropername1	Labrys
+exp_leg_axepropername2	Parashu
+exp_leg_axepropername3	Ulfhedinn
+exp_leg_axepropername4	Rampage
+exp_leg_axepropername5	Zeus
+exp_leg_axepropername6	Ares
+exp_leg_axepropername7	Colossus
+exp_leg_bookpropername1	Thoth
+exp_leg_bookpropername10	Mazarbul
+exp_leg_bookpropername11	Dorgannas Iaur
+exp_leg_bookpropername12	Parma Culuina
+exp_leg_bookpropername13	Quentale Ardanomion
+exp_leg_bookpropername2	Sibylline
+exp_leg_bookpropername3	Rauoskinna
+exp_leg_bookpropername4	Destiny
+exp_leg_bookpropername5	Odyssee
+exp_leg_bookpropername6	Galactica
+exp_leg_bookpropername7	Quintessenz
+exp_leg_bookpropername8	Magicka
+exp_leg_bookpropername9	Merlinus
+exp_leg_clawname1	Klaue
+exp_leg_clawname2	Faust
+exp_leg_clawname3	Schlagring
+exp_leg_clawname4	Schere
+exp_leg_clawname5	Tatze
+exp_leg_clawname6	Kralle
+exp_leg_clawpropername1	Gotteshand
+exp_leg_clawpropername2	Oversoul
+exp_leg_clawpropername3	Ehrgeiz
+exp_leg_clawpropername4	Warmonger
+exp_leg_clawpropername5	Kenkonken
+exp_leg_clawpropername6	Verethragna
+exp_leg_clawpropername7	Spharai
+exp_leg_daggername1	Zacke
+exp_leg_daggername2	Spieß
+exp_leg_daggername3	Piekser
+exp_leg_daggername4	Stocher
+exp_leg_daggername5	Reißzahn
+exp_leg_daggername6	Stachel
+exp_leg_daggername7	Spitze
+exp_leg_daggername8	Dolch
+exp_leg_daggername9	Messer
+exp_leg_daggerpropername1	Carnwennan
+exp_leg_daggerpropername2	Merkur
+exp_leg_daggerpropername3	Fenrir
+exp_leg_daggerpropername4	Danjuro
+exp_leg_daggerpropername5	Jamadhar
+exp_leg_daggerpropername6	Asura
+exp_leg_daggerpropername7	Midnacht
+exp_leg_defensename1	Schutz
+exp_leg_defensename10	Schutzschicht
+exp_leg_defensename11	Abwehr
+exp_leg_defensename12	Wächter
+exp_leg_defensename13	Verteidiger
+exp_leg_defensename14	Garnison
+exp_leg_defensename15	Schanze
+exp_leg_defensename16	Fort
+exp_leg_defensename17	Schloss
+exp_leg_defensename2	Behütung
+exp_leg_defensename3	Ägide
+exp_leg_defensename4	Bastion
+exp_leg_defensename5	Bollwerk
+exp_leg_defensename6	Festung
+exp_leg_defensename7	Mauer
+exp_leg_defensename8	Aufsicht
+exp_leg_defensename9	Herberge
+exp_leg_generaldescriptorname1	(himmlisch)
+exp_leg_generaldescriptorname10	(geheiligt)
+exp_leg_generaldescriptorname11	(mystisch)
+exp_leg_generaldescriptorname12	(unbezwingbar)
+exp_leg_generaldescriptorname13	(allmächtig)
+exp_leg_generaldescriptorname14	(unbesiegbar)
+exp_leg_generaldescriptorname15	(unverwüstbar)
+exp_leg_generaldescriptorname16	(endlos)
+exp_leg_generaldescriptorname17	(episch)
+exp_leg_generaldescriptorname18	(heroisch)
+exp_leg_generaldescriptorname19	(gehuldigt)
+exp_leg_generaldescriptorname2	(ewig)
+exp_leg_generaldescriptorname20	(exquisit)
+exp_leg_generaldescriptorname21	(einsam)
+exp_leg_generaldescriptorname22	(trist)
+exp_leg_generaldescriptorname23	(gewaltig)
+exp_leg_generaldescriptorname24	(standhaft)
+exp_leg_generaldescriptorname25	(gefürchtet)
+exp_leg_generaldescriptorname26	(kolossal)
+exp_leg_generaldescriptorname27	(unerschütterlich)
+exp_leg_generaldescriptorname28	(unvergesslich)
+exp_leg_generaldescriptorname29	(abgründig)
+exp_leg_generaldescriptorname3	(prächtig)
+exp_leg_generaldescriptorname30	(kryptisch)
+exp_leg_generaldescriptorname31	(rätselhaft)
+exp_leg_generaldescriptorname4	(unendlich)
+exp_leg_generaldescriptorname5	(gesegnet)
+exp_leg_generaldescriptorname6	(verdammt)
+exp_leg_generaldescriptorname7	(unsterblich)
+exp_leg_generaldescriptorname8	(erstklassig)
+exp_leg_generaldescriptorname9	(überragend)
+exp_leg_genericobjectname1	Artefakt
+exp_leg_genericobjectname10	Alptraum
+exp_leg_genericobjectname11	Gabe
+exp_leg_genericobjectname12	Vermächtnis
+exp_leg_genericobjectname13	Odyssee
+exp_leg_genericobjectname14	Schicksal
+exp_leg_genericobjectname15	Mysterium
+exp_leg_genericobjectname16	Eid
+exp_leg_genericobjectname17	Berufung
+exp_leg_genericobjectname18	Essenz
+exp_leg_genericobjectname19	Entschluss
+exp_leg_genericobjectname2	Relikt
+exp_leg_genericobjectname20	Geheiß
+exp_leg_genericobjectname3	Trophäe
+exp_leg_genericobjectname4	Würdigung
+exp_leg_genericobjectname5	Errungenschaft
+exp_leg_genericobjectname6	Enigma
+exp_leg_genericobjectname7	Monument
+exp_leg_genericobjectname8	Triumph
+exp_leg_genericobjectname9	Gedenken
+exp_leg_genericweaponname1	Armamenta
+exp_leg_genericweaponname10	Händel
+exp_leg_genericweaponname11	Redlichkeit
+exp_leg_genericweaponname12	Machtwort
+exp_leg_genericweaponname13	Verhängnis
+exp_leg_genericweaponname14	Verwüstung
+exp_leg_genericweaponname15	Zwietracht
+exp_leg_genericweaponname2	Sturmlauf
+exp_leg_genericweaponname3	Konflikt
+exp_leg_genericweaponname4	Fehde
+exp_leg_genericweaponname5	Ansturm
+exp_leg_genericweaponname6	Konfrontation
+exp_leg_genericweaponname7	Zwist
+exp_leg_genericweaponname8	Gram
+exp_leg_genericweaponname9	Pein
+exp_leg_glovename1	Handschuh
+exp_leg_glovename2	Stulpe
+exp_leg_glovename3	Hand
+exp_leg_glovename4	Faust
+exp_leg_glovename5	Armschiene
+exp_leg_hammername1	Knochenbrecher
+exp_leg_hammername2	Brecher
+exp_leg_hammername3	Zerhauer
+exp_leg_hammername4	Hammer
+exp_leg_hammername5	Keule
+exp_leg_hammername6	Hauer
+exp_leg_hammername7	Zuschläger
+exp_leg_hammername8	Verdrescher
+exp_leg_hammername9	Klopfer
+exp_leg_hammerpropername1	Mjolnir
+exp_leg_hammerpropername2	Ukonvasara
+exp_leg_hammerpropername3	Sharur
+exp_leg_hammerpropername4	Yagrush
+exp_leg_hammerpropername5	Ayamur
+exp_leg_hammerpropername6	Herkules
+exp_leg_hammerpropername7	Juggernaut
+exp_leg_heavyarmorname1	Lederanzug
+exp_leg_heavyarmorname2	Panzer
+exp_leg_heavyarmorname3	Tappert
+exp_leg_heavyarmorname4	Kettenrüstung
+exp_leg_helmetname1	Helm
+exp_leg_helmetname2	Haube
+exp_leg_helmetname3	Kappe
+exp_leg_helmetname4	Hut
+exp_leg_helmetname5	Krone
+exp_leg_helmetname6	Haupt
+exp_leg_helmetpropername1	Tarnhelm
+exp_leg_helmetpropername2	Goswhit
+exp_leg_historicname1	Alestanes
+exp_leg_historicname10	Wendolins
+exp_leg_historicname100	Jazarams
+exp_leg_historicname101	Bradywans
+exp_leg_historicname11	Hillebrands
+exp_leg_historicname12	Mikaelsons
+exp_leg_historicname13	Moppets
+exp_leg_historicname14	Unaz’
+exp_leg_historicname15	Axehans
+exp_leg_historicname16	Chaseidors
+exp_leg_historicname17	Alderwyns
+exp_leg_historicname18	Kreinaks
+exp_leg_historicname19	Wardingrovs
+exp_leg_historicname2	Lady Wildfire’s
+exp_leg_historicname20	Disdonns
+exp_leg_historicname21	Patashus
+exp_leg_historicname22	Ashabas
+exp_leg_historicname23	Seizuis
+exp_leg_historicname24	Orshelacks
+exp_leg_historicname25	Orpheans
+exp_leg_historicname26	Brogas
+exp_leg_historicname27	Zoks
+exp_leg_historicname28	Hekoreks
+exp_leg_historicname29	Avarinnes
+exp_leg_historicname3	Bardics
+exp_leg_historicname30	Cyflans
+exp_leg_historicname31	Jirosus
+exp_leg_historicname32	Arovins
+exp_leg_historicname33	Yargoths
+exp_leg_historicname34	Wingis
+exp_leg_historicname35	Deanshers
+exp_leg_historicname36	Argus’
+exp_leg_historicname37	Kalleinas
+exp_leg_historicname38	Umatillas
+exp_leg_historicname39	Mukenins
+exp_leg_historicname4	Jaemos
+exp_leg_historicname40	Imanos
+exp_leg_historicname41	Tailorians
+exp_leg_historicname42	Veedors
+exp_leg_historicname43	Arendors
+exp_leg_historicname44	Braudes
+exp_leg_historicname45	Duathas
+exp_leg_historicname46	Gralmaers
+exp_leg_historicname47	Irskeps
+exp_leg_historicname48	Maurogs
+exp_leg_historicname49	Shepards
+exp_leg_historicname5	Xandaz’
+exp_leg_historicname50	Koumakans
+exp_leg_historicname51	Siltons
+exp_leg_historicname52	Talcerases
+exp_leg_historicname53	Donovans
+exp_leg_historicname54	Jamous’
+exp_leg_historicname55	Jaychs
+exp_leg_historicname56	Mahares
+exp_leg_historicname57	Khuujs
+exp_leg_historicname58	Molloks
+exp_leg_historicname59	Aedriams
+exp_leg_historicname6	Danas
+exp_leg_historicname60	Antors
+exp_leg_historicname61	Sanas
+exp_leg_historicname62	Usagis
+exp_leg_historicname63	Naars
+exp_leg_historicname64	Hybrys’
+exp_leg_historicname65	Pakratos’
+exp_leg_historicname66	Balblairs
+exp_leg_historicname67	Zagerons
+exp_leg_historicname68	Zereths
+exp_leg_historicname69	Anubins’
+exp_leg_historicname7	Braedans
+exp_leg_historicname70	Fenix’
+exp_leg_historicname71	Halthrax’
+exp_leg_historicname72	Aldarocs
+exp_leg_historicname73	Barams
+exp_leg_historicname74	Pavels
+exp_leg_historicname75	Disdanes’
+exp_leg_historicname76	Mogans
+exp_leg_historicname77	Temuchins
+exp_leg_historicname78	Ronkoteous’
+exp_leg_historicname79	Hershos
+exp_leg_historicname8	Rollos
+exp_leg_historicname80	Eruntalans
+exp_leg_historicname81	Erutans
+exp_leg_historicname82	Mahakus
+exp_leg_historicname83	Frikandels
+exp_leg_historicname84	Darahalians
+exp_leg_historicname85	Bahnmors
+exp_leg_historicname86	Tamricks
+exp_leg_historicname87	Clegmirs
+exp_leg_historicname88	Zebas
+exp_leg_historicname89	Ryuutais
+exp_leg_historicname9	Ridokilos’
+exp_leg_historicname90	Teldurns
+exp_leg_historicname91	Kerviels
+exp_leg_historicname92	Draconus’
+exp_leg_historicname93	Merkules’
+exp_leg_historicname94	Theylas
+exp_leg_historicname95	Ataruns
+exp_leg_historicname96	Torzelans
+exp_leg_historicname97	Phaes
+exp_leg_historicname98	Kriyabs
+exp_leg_historicname99	Nathias’
+exp_leg_instrumentname1	Lied
+exp_leg_instrumentname2	Song
+exp_leg_instrumentname3	Lobgesang
+exp_leg_instrumentname4	Arie
+exp_leg_instrumentname5	Ballade
+exp_leg_instrumentname6	Hymne
+exp_leg_instrumentname7	Choral
+exp_leg_instrumentname8	Symphonie
+exp_leg_lightarmorname1	Gewand
+exp_leg_lightarmorname2	Robe
+exp_leg_lightarmorname3	Hemd
+exp_leg_lightarmorname4	Umhang
+exp_leg_lightarmorname5	Überwurf
+exp_leg_lightarmorname6	Tunika
+exp_leg_lightarmorname7	Tracht
+exp_leg_magicbookname1	Schinken
+exp_leg_magicbookname2	Wälzer
+exp_leg_magicbookname3	Wörterbuch
+exp_leg_magicbookname4	Atlas
+exp_leg_magicbookname5	Kodex
+exp_leg_magicbookname6	Lexikon
+exp_leg_magicbookname7	Grimoire
+exp_leg_magicbookname8	Chronik
+exp_leg_magicbookname9	Aufzeichnung
+exp_leg_magicname1	Hexenhand
+exp_leg_magicname2	Prophezeiung
+exp_leg_magicname3	Bann
+exp_leg_magicname4	Aura
+exp_leg_magicname5	Fluch
+exp_leg_magicname6	Zauber
+exp_leg_magicname7	Hexerei
+exp_leg_magicname8	Verzauberung
+exp_leg_magicname9	Magie
+exp_leg_mediumarmorname1	Kettenhemd
+exp_leg_mediumarmorname2	Weste
+exp_leg_mediumarmorname3	Jacke
+exp_leg_mediumarmorname4	Mantel
+exp_leg_mediumarmorname5	Harnisch
+exp_leg_mediumarmorname6	Anzug
+exp_leg_necklacename1	Amulett
+exp_leg_necklacename2	Kette
+exp_leg_necklacename3	Halsreif
+exp_leg_necklacename4	Anhänger
+exp_leg_necklacename5	Talisman
+exp_leg_necklacename6	Kropfband
+exp_leg_personaldescriptorname1	(wertgeschätzt)
+exp_leg_personaldescriptorname10	(geliebt)
+exp_leg_personaldescriptorname11	(gestohlen)
+exp_leg_personaldescriptorname12	(traut)
+exp_leg_personaldescriptorname13	(wiedergefunden)
+exp_leg_personaldescriptorname14	(versteckt)
+exp_leg_personaldescriptorname15	(zurückgelassen)
+exp_leg_personaldescriptorname16	(unbezahlbar)
+exp_leg_personaldescriptorname17	(wundervoll)
+exp_leg_personaldescriptorname2	(geschätzt)
+exp_leg_personaldescriptorname3	(sagenhaft)
+exp_leg_personaldescriptorname4	(vergessen)
+exp_leg_personaldescriptorname5	(verloren)
+exp_leg_personaldescriptorname6	(berühmt)
+exp_leg_personaldescriptorname7	(hochverehrt)
+exp_leg_personaldescriptorname8	(verehrt)
+exp_leg_personaldescriptorname9	(verlässlich)
+exp_leg_quivername1	Köcher
+exp_leg_quivername2	Pfeile
+exp_leg_quivername3	Schussladung
+exp_leg_quivername4	Piekser
+exp_leg_quivername5	Wurfbehältnis
+exp_leg_quivername6	Rucksack
+exp_leg_rangedpropername1	Xiuhcoatl
+exp_leg_rangedpropername10	Buriza
+exp_leg_rangedpropername11	Vulcan
+exp_leg_rangedpropername12	Eurytos
+exp_leg_rangedpropername13	Arcturus
+exp_leg_rangedpropername14	Ventum
+exp_leg_rangedpropername15	Andromeda
+exp_leg_rangedpropername16	Rikonodo
+exp_leg_rangedpropername17	Renner
+exp_leg_rangedpropername18	Meridian
+exp_leg_rangedpropername2	Tathlum
+exp_leg_rangedpropername3	Sagitta
+exp_leg_rangedpropername4	Astra
+exp_leg_rangedpropername5	Apollo
+exp_leg_rangedpropername6	Artemis
+exp_leg_rangedpropername7	Perseus
+exp_leg_rangedpropername8	Yoichi
+exp_leg_rangedpropername9	Sagittarius
+exp_leg_rangedweaponname1	Windschuss
+exp_leg_rangedweaponname2	Scharfgeschoss
+exp_leg_rangedweaponname3	Friedensstifter
+exp_leg_rangedweaponname4	Luftangriff
+exp_leg_rangedweaponname5	Bogen
+exp_leg_ringname1	Ring
+exp_leg_ringname2	Fingerschmuck
+exp_leg_ringname3	Fingerband
+exp_leg_ringname4	Kreis
+exp_leg_ringname5	Fingerreif
+exp_leg_ringpropername1	Sviagris
+exp_leg_ringpropername2	Nibelungen
+exp_leg_ringpropername3	Draupnir
+exp_leg_ringpropername4	Harmonia
+exp_leg_ringpropername5	Maduin
+exp_leg_ringpropername6	Angelica
+exp_leg_shieldpropername1	Svalinn
+exp_leg_shieldpropername10	Ziedrich
+exp_leg_shieldpropername11	Lustrum
+exp_leg_shieldpropername12	Astroche
+exp_leg_shieldpropername13	Prytwen
+exp_leg_shieldpropername2	Duban
+exp_leg_shieldpropername3	Pridwen
+exp_leg_shieldpropername4	Evalach
+exp_leg_shieldpropername5	Khetaka
+exp_leg_shieldpropername6	Jaivardan
+exp_leg_shieldpropername7	Zodiac
+exp_leg_shieldpropername8	Megalesia
+exp_leg_shieldpropername9	Hesperides
+exp_leg_spearname1	Speer
+exp_leg_spearname2	Lanze
+exp_leg_spearname3	Spieß
+exp_leg_spearname4	Hellebarde
+exp_leg_spearname5	Pike
+exp_leg_spearname6	Partisane
+exp_leg_spearname7	Glefe
+exp_leg_spearpropername1	Gungnir
+exp_leg_spearpropername2	Longinus
+exp_leg_spearpropername3	Gae Bolg
+exp_leg_spearpropername4	Otegine
+exp_leg_spearpropername5	Tonbokiri
+exp_leg_spearpropername6	Erlang Shen
+exp_leg_spearpropername7	Vel
+exp_leg_staffname1	Stab
+exp_leg_staffname2	Rute
+exp_leg_staffname3	Stange
+exp_leg_staffname4	Zepter
+exp_leg_staffname5	Stock
+exp_leg_staffname6	Stiel
+exp_leg_staffname7	Pfahl
+exp_leg_staffname8	Pflock
+exp_leg_staffname9	Zweig
+exp_leg_staffpropername1	Kaladanda
+exp_leg_staffpropername2	Caduceus
+exp_leg_staffpropername3	Gambanteinn
+exp_leg_staffpropername4	Thyrsus
+exp_leg_staffpropername5	Asclepius
+exp_leg_staffpropername6	Justitia
+exp_leg_staffpropername7	Nemesis
+exp_leg_staffpropername8	Nirvana
+exp_leg_swordname1	Wundbringer
+exp_leg_swordname2	Klinge
+exp_leg_swordname3	Schneide
+exp_leg_swordname4	Messer
+exp_leg_swordname5	Schwert
+exp_leg_swordname6	Rasierer
+exp_leg_swordpropername1	Masamune
+exp_leg_swordpropername10	Tyrfing
+exp_leg_swordpropername11	Ragnarok
+exp_leg_swordpropername2	Muramasa
+exp_leg_swordpropername3	Excalibur
+exp_leg_swordpropername4	Caladbolg
+exp_leg_swordpropername5	Fragarach
+exp_leg_swordpropername6	Balmung
+exp_leg_swordpropername7	Galatine
+exp_leg_swordpropername8	Dainslaif
+exp_leg_swordpropername9	Levateinn
+exp_leg_whipname1	Peitsche
+exp_leg_whipname2	Gerte
+exp_leg_whipname3	Geißel
+exp_leg_whipname4	Schlange
+exp_leg_whipname5	Rute
+exp_leg_whippropername1	Chentu
+exp_leg_whippropername2	Drachenhaar
+exp_leg_whippropername3	Brynhildr
+exp_leg_whippropername4	Rosendorn
+exp_leg_whippropername5	Sleipnir
+exp_log_eatweapon	#cy#^tag1^#ec# frisst deine Waffe, ^tag2^!
+exp_log_error_noportal_mysterydungeon	Du kannst dein #cc#Portal#ec# hier nicht verwenden!
+exp_log_healfountain	Du stellst durch den #cc#Brunnen#ec# #cg#Gesundheit, Ausdauer und Energie#ec# wiederher!
+exp_log_mastery_knowitall	Für mich gibt es hier #cy#nichts mehr zu lernen#ec# …
+exp_log_monster_atefood	#cy#^tag1^#ec# stibitzt und isst etwas von #cy#^tag2^#ec#: #cg#^tag3^#ec#!
+exp_log_powerup_absorb	#cy#^tag1^#ec# absorbiert das Power-up und stellt #cg#^tag2^#ec# Gesundheit wiederher!
+exp_log_readcombatbook	Du hast die #cy#Kampf-Biografie#ec# gelesen und erhältst #cc#^tag1^#ec# Pinselstriche!
+exp_log_resilientmonster	#cy#^tag1^#ec# hängt an einem seidenen Faden!
+exp_log_runestone_gone	Die #cy#^tag1^#ec# verschwindet und erfüllt dich mit #cg#vergessenem Wissen#ec#!
+exp_log_shara_floorstocampfire	Noch #cy#^tag1^#ec# Ebenen auf dem Hauptpfad, bis du #cc#dich am Lagerfeuer ausruhst#ec#!
+exp_log_shara_noportal	#cr#Es gibt keinen Ort, an den dein#ec# #cy#Fluchtportal#ec##cr# dich hinbringen könnte …#ec#
+exp_log_shieldshatter	Der #cc#Energieschild#ec# von ^tag1^ zerfällt!
+exp_map_campfire_shara_name	Sharas Lager
+exp_mapobj_forbiddance_name	Einhaltsrune
+exp_mapobj_letter_name	Brief
+exp_mapobj_oilslick_name	Ölteppich
+exp_mapobj_shadoworb_name	Nahkampforb
+exp_mapobj_sparks_name	Elektrofunken
+exp_mapobj_watervapor_name	Verschleiernder Nebel
+exp_minidreamcaster_name	Mini-Traumgießer
+exp_misc_bonus	BONUS!
+exp_misc_dominated	DOMINIERT
+exp_misc_itemupgraded	Dein Gegenstand, ^tag1^, wurde #cy#aufgewertet#ec#!
+exp_misc_notenoughgold_upgrade	Du #cr#hast nicht genügend#ec# #cy#Gold#ec#, um diesen Gegenstand aufzuwerten!
+exp_misc_promptlearnskill_fromitem	#cc#^$getstring:skilltolearn$^#ec#-Fähigkeit lernen (#cg#^$getstring:itemskilljpcost$^#ec# JP)
+exp_misc_repeatbuy	Diese Fähigkeit kann mehrere Male gekauft werden.
+exp_misc_slowed	VERLANGSAMT!
+exp_mm_brigandboost_desc	^number1^ Schaden durch Brigantin-Fähigkeit
+exp_mm_budokaboost_desc	^number1^ Schaden durch Budoka-Fähigkeit
+exp_mm_budokavalid_desc	Beeinträchtigt unbewaffneten Kampf nicht.
+exp_mm_edgethaneboost_desc	^number1^ durch Edge-Thane-Fähigkeit
+exp_mm_floramancerboost_desc	^number1^ Schaden durch Floramantin-Fähigkeit
+exp_mm_gamblerboost_desc	^number1^ Schaden durch Spielerin-Fähigkeit
+exp_mm_hunterboost_desc	^number1^ durch Jägerin-Fähigkeit
+exp_mm_husynboost_desc	^number1^ durch HomSyn-Fähigkeit
+exp_mm_paladinboost_desc	^number1^ Schaden durch Paladin-Fähigkeit
+exp_mm_passive_armortraining_desc	Bewegungsfähigkeiten in Schwerer Rüstung verursachen Bereichschaden (Panzerdrill).
+exp_mm_passive_bloodtracking_desc	Bei Treffer: ^number1^ Chance auf Erkennen, was Schaden und Sicht erhöht (Blutige Erkennung).
+exp_mm_passive_fatchance_desc	^number1^ Chance, den Satt-Zustand beim Essen zu ignorieren (Vielfraß).
+exp_mm_passive_gloriousbattler_desc	Verstärkt die Kraft von Liedern und schenkt dir beim Sieg gegen Monster CT (Glorreicher Kämpfer).
+exp_mm_passive_hazardsweep_desc	^number1^ Chance, Gefahren beim Gehen auszulöschen (Gefahrenfeger).
+exp_mm_passive_herbforaging_desc	Chance, Heilkräuter von Monstern zu erhalten (Futtersuche).
+exp_mm_passive_immunology_desc	^number1^ Chance, Debuffs zu ignorieren, und deine Debuffs halten länger an (Immunologie).
+exp_mm_passive_qimastery_desc	Bei kritischem Treffer: Energiewiederherstellung (Meister des Qi).
+exp_mm_passive_thornedskin_desc	^number1^ Chance, Nahkampfschaden zu reflektieren (Dornenhaut).
+exp_mm_soulkeeperboost_desc	^number1^ Schaden durch Seelenwächterin-Fähigkeit
+exp_mm_spellshaperboost_desc	^number1^ Schaden durch Magieformerin-Fähigkeit bei unverformter Beschwörung
+exp_mmod_mm_glide_desc	Gleitflug bietet dir eine größere Kontrolle über das Landefeld; die Abklingzeit wird um ^number1^ reduziert, doch die erstmalige Abklingzeit entfällt hier nicht.
+exp_mmod_mm_inkstorm_desc	Tintensturm fügt pro Treffer ^number1^ zusätzlichen Schaden zu, zum Preis von ^number2^ Feld(ern).
+exp_mmod_mm_waterscroll_desc	Die Reichweite von Schriftrolle der Wasserkraft wird um ^number1^ erhöht, doch der Schaden wird um ^number2^ reduziert.
+exp_mon_axewielder_name	Vollstreckerbandit
+exp_mon_batslime_name	Erzschimmel
+exp_mon_bladefrog_name	Klingenfrosch
+exp_mon_boltspirit_name	Starkdämon
+exp_mon_bouldertoad_name	Trihorn
+exp_mon_budoka_name	Budokabandit
+exp_mon_butterfly_name	Monarch
+exp_mon_chameleon_name	Chamäleon
+exp_mon_chemist2_name	Verrücktes Genie
+exp_mon_chonkfrog_name	Tumtumfrosch
+exp_mon_cubeslime_name	Würfelschleim
+exp_mon_guardianseeker2_name	Schutzkorsar
+exp_mon_komodon2_name	Kaiser-Komodon
+exp_mon_mimic_name	Mimic
+exp_mon_minicubeslime_name	Mini-Würfelschleim
+exp_mon_phasmacannon_name	Phasmakanone
+exp_mon_pistolshrimp_name	Schusskrebs
+exp_mon_robotmantis_name	Robomantis
+exp_mon_scientist_device_name	Unbekanntes Gerät
+exp_mon_scientist_summoner_name	Ingersoll
+exp_mon_shara_finalboss_name	Kernwächter
+exp_mon_shovelgolem_name	Schippritter
+exp_mon_spiritstag_name	Eidolon
+exp_mon_staffbandit_name	Stabprofi-Bandit
+exp_mon_tentacle_name	Wasserstreuner
+exp_mon_toxicslime_name	Giftschleim
+exp_mon_venomancer_name	Venenumantenbandit
+exp_mon_xp_heavygolem_name	Sicherheitsgolem
+exp_mon_xp_powerorbiter_name	Wachschutz
+exp_monmaker_banditprefix1	Banditischer
+exp_monmaker_banditprefix2	Räuberischer
+exp_monmaker_banditprefix3	Übler
+exp_monmaker_banditprefix4	Diebischer
+exp_monmaker_banditprefix5	Hinterhältiger
+exp_monmaker_banditprefix6	Durchtriebener
+exp_monmaker_banditprefix7	Berüchtigter
+exp_monmaker_banditsuffix1	Späher
+exp_monmaker_banditsuffix10	Leutnant
+exp_monmaker_banditsuffix11	Unteroffizier
+exp_monmaker_banditsuffix2	Erkunder
+exp_monmaker_banditsuffix3	Rekrut
+exp_monmaker_banditsuffix4	Wachmann
+exp_monmaker_banditsuffix5	Kundschafter
+exp_monmaker_banditsuffix6	Beobachter
+exp_monmaker_banditsuffix7	Plänkler
+exp_monmaker_banditsuffix8	Lakai
+exp_monmaker_banditsuffix9	Feldwebel
+exp_monmaker_beastconcatprefix1	Borsten
+exp_monmaker_beastconcatprefix2	Scharf
+exp_monmaker_beastconcatprefix3	Rasier
+exp_monmaker_beastconcatprefix4	Riesen
+exp_monmaker_beastconcatprefix5	Spitz
+exp_monmaker_beastconcatprefix6	Eisen
+exp_monmaker_beastconcatsuffix1	knochen
+exp_monmaker_beastconcatsuffix2	ochse
+exp_monmaker_beastconcatsuffix3	bär
+exp_monmaker_beastconcatsuffix4	klaue
+exp_monmaker_beastconcatsuffix5	biss
+exp_monmaker_beastconcatsuffix6	maul
+exp_monmaker_beastconcatsuffix7	schuppen
+exp_monmaker_beastconcatsuffix8	tatze
+exp_monmaker_beastprefix1	Schmuddeliges
+exp_monmaker_beastprefix10	Abenteuerlustiges
+exp_monmaker_beastprefix11	Durstiges
+exp_monmaker_beastprefix2	Knurrendes
+exp_monmaker_beastprefix3	Feines
+exp_monmaker_beastprefix4	Verwahrlostes
+exp_monmaker_beastprefix5	Hungriges
+exp_monmaker_beastprefix6	Gewöhnliches
+exp_monmaker_beastprefix7	Wildes
+exp_monmaker_beastprefix8	Betrübtes
+exp_monmaker_beastprefix9	Selbstsicheres
+exp_monmaker_beastsuffix1	Biest
+exp_monmaker_beastsuffix2	Tier
+exp_monmaker_beastsuffix3	Viech
+exp_monmaker_beastsuffix4	Monsterchen
+exp_monmaker_beastsuffix5	Tierchen
+exp_monmaker_beastsuffix6	Biestlein
+exp_monmaker_coloredprefix1	Flecken-
+exp_monmaker_coloredprefix2	Sprenkel-
+exp_monmaker_coloredprefix3	Tupfen-
+exp_monmaker_coloredprefix4	Streifen-
+exp_monmaker_coloredprefix5	Schecken-
+exp_monmaker_coloredprefix6	Punkte-
+exp_monmaker_disruptorword1	Störenfried-
+exp_monmaker_disruptorword2	Unterbrecher-
+exp_monmaker_disruptorword3	Fluchbeleger-
+exp_monmaker_disruptorword4	Vandalen-
+exp_monmaker_frogconcatprefix1	Teich
+exp_monmaker_frogconcatprefix2	Tümpel
+exp_monmaker_frogconcatprefix3	Moor
+exp_monmaker_frogconcatprefix4	See
+exp_monmaker_frogconcatprefix5	Mist
+exp_monmaker_frogconcatprefix6	Dreck
+exp_monmaker_frogconcatprefix7	Schlürf
+exp_monmaker_frogconcatprefix8	Quak
+exp_monmaker_frogconcatprefix9	Wasser
+exp_monmaker_frogconcatsuffix1	hüpfer
+exp_monmaker_frogconcatsuffix2	springer
+exp_monmaker_frogconcatsuffix3	zunge
+exp_monmaker_frogconcatsuffix4	bein
+exp_monmaker_frogconcatsuffix5	spritzer
+exp_monmaker_frogconcatsuffix6	auge
+exp_monmaker_frogconcatsuffix7	patscher
+exp_monmaker_frogprefix1	Echter
+exp_monmaker_frogprefix2	Matschiger
+exp_monmaker_frogprefix3	Tümpel
+exp_monmaker_frogprefix4	Sumpfiger
+exp_monmaker_frogprefix5	Gewöhnlicher
+exp_monmaker_frogprefix6	Glatter
+exp_monmaker_frogprefix7	Hungriger
+exp_monmaker_frogprefix8	Großmäuliger
+exp_monmaker_frogprefix9	Nassfüßiger
+exp_monmaker_frogsuffix1	Lurch
+exp_monmaker_frogsuffix2	Frosch
+exp_monmaker_frogsuffix3	Lork
+exp_monmaker_frogsuffix4	Hüpf
+exp_monmaker_frogsuffix5	Zungenakrobat
+exp_monmaker_grasstreeword1	Vine
+exp_monmaker_grasstreeword2	Moss
+exp_monmaker_grasstreeword3	Tree
+exp_monmaker_grasstreeword4	Brush
+exp_monmaker_grasstreeword5	Bush
+exp_monmaker_grasstreeword6	Plant
+exp_monmaker_hybridprefix1	Stabiles
+exp_monmaker_hybridprefix2	Robustes
+exp_monmaker_hybridprefix3	Solides
+exp_monmaker_hybridsuffix1	Konstrukt
+exp_monmaker_hybridsuffix2	Konstrukt
+exp_monmaker_hybridsuffix3	Totem
+exp_monmaker_insectprefix1	Gewöhnliches
+exp_monmaker_insectprefix2	Stabkerniges
+exp_monmaker_insectprefix3	Nistendes
+exp_monmaker_insectprefix4	Kriechendes
+exp_monmaker_insectprefix5	Kahlgesichtiges
+exp_monmaker_insectsuffix1	Krabbeltier
+exp_monmaker_insectsuffix2	Geziefer
+exp_monmaker_insectsuffix3	Insekt
+exp_monmaker_insectsuffix4	Kleintier
+exp_monmaker_meleeword1	Schläger-
+exp_monmaker_meleeword2	Gladiator-
+exp_monmaker_meleeword3	Beuler-
+exp_monmaker_meleeword4	Haudrauf-
+exp_monmaker_naturalgrowthprefix1	Biologischer
+exp_monmaker_naturalgrowthprefix2	Dorniger
+exp_monmaker_naturalgrowthprefix3	Erdiger
+exp_monmaker_naturalgrowthprefix4	Grundständiger
+exp_monmaker_naturalgrowthprefix5	Lebender
+exp_monmaker_naturalgrowthprefix6	Wachsender
+exp_monmaker_naturalgrowthsuffix1	Spross
+exp_monmaker_naturalgrowthsuffix2	Keimling
+exp_monmaker_naturalgrowthsuffix3	Sprössling
+exp_monmaker_naturalgrowthsuffix4	Trieb
+exp_monmaker_naturalgrowthsuffix5	Ableger
+exp_monmaker_naturalgrowthsuffix6	Schössling
+exp_monmaker_rangedword1	Sniper-
+exp_monmaker_rangedword2	Jäger-
+exp_monmaker_rangedword3	Scharfschütz-
+exp_monmaker_rangedword4	Fernangreifer-
+exp_monmaker_rangedword5	Ranger-
+exp_monmaker_robotconcatprefix1	Chrom
+exp_monmaker_robotconcatprefix2	Kampf
+exp_monmaker_robotconcatprefix3	Späh
+exp_monmaker_robotconcatprefix4	Wacht
+exp_monmaker_robotconcatprefix5	Aufseh
+exp_monmaker_robotconcatprefix6	Kriegs
+exp_monmaker_robotconcatprefix7	Schlacht
+exp_monmaker_robotconcatsuffix1	bot
+exp_monmaker_robotconcatsuffix2	con
+exp_monmaker_robotconcatsuffix3	tron
+exp_monmaker_robotprefix1	Wachender
+exp_monmaker_robotprefix2	Schützender
+exp_monmaker_robotprefix3	Beschützender
+exp_monmaker_robotprefix4	Verwaltender
+exp_monmaker_robotprefix5	Hütender
+exp_monmaker_robotprefix6	Aufsehender
+exp_monmaker_robotsuffix1	Bot
+exp_monmaker_robotsuffix2	Roboter
+exp_monmaker_robotsuffix3	Androide
+exp_monmaker_robotsuffix4	Luftbot
+exp_monmaker_robotsuffix5	Mech
+exp_monmaker_slimeconcatprefix1	Honig
+exp_monmaker_slimeconcatprefix2	Matsch
+exp_monmaker_slimeconcatprefix3	Feucht
+exp_monmaker_slimeconcatprefix4	Gelatin
+exp_monmaker_slimeconcatprefix5	Matsch
+exp_monmaker_slimeconcatprefix6	Schimmel
+exp_monmaker_slimeconcatprefix7	Schleim
+exp_monmaker_slimeconcatprefix8	Moder
+exp_monmaker_slimeconcatsuffix1	blobb
+exp_monmaker_slimeconcatsuffix2	grabb
+exp_monmaker_slimeconcatsuffix3	glebb
+exp_monmaker_slimeconcatsuffix4	plapp
+exp_monmaker_slimeconcatsuffix5	plomm
+exp_monmaker_slimeprefix1	Tropfender
+exp_monmaker_slimeprefix10	Zäher
+exp_monmaker_slimeprefix11	Eingesunkener
+exp_monmaker_slimeprefix2	Triefender
+exp_monmaker_slimeprefix3	Tröpfelnder
+exp_monmaker_slimeprefix4	Auslaufender
+exp_monmaker_slimeprefix5	Schludriger
+exp_monmaker_slimeprefix6	Feuchter
+exp_monmaker_slimeprefix7	Platschender
+exp_monmaker_slimeprefix8	Gelatöser
+exp_monmaker_slimeprefix9	Geronnener
+exp_monmaker_slimesuffix1	Schleim
+exp_monmaker_slimesuffix2	Rotz
+exp_monmaker_slimesuffix3	Matsch
+exp_monmaker_slimesuffix4	Schlick
+exp_monmaker_snakesuffix1	Schlange
+exp_monmaker_snakesuffix2	Natter
+exp_monmaker_snakesuffix3	Klapperschlange
+exp_monmaker_snakesuffix4	Kobra
+exp_monmaker_snakesuffix5	Python
+exp_monmaker_snakesuffix6	Mamba
+exp_monmaker_snakesuffix7	Otter
+exp_monmaker_spiritconcatprefix1	Nilb
+exp_monmaker_spiritconcatprefix2	Lesch
+exp_monmaker_spiritconcatprefix3	Vanar
+exp_monmaker_spiritconcatprefix4	Sol
+exp_monmaker_spiritconcatprefix5	Quol
+exp_monmaker_spiritconcatprefix6	Torg
+exp_monmaker_spiritconcatprefix7	Man
+exp_monmaker_spiritconcatprefix8	Mor
+exp_monmaker_spiritconcatprefix9	Dram
+exp_monmaker_spiritconcatsuffix1	en
+exp_monmaker_spiritconcatsuffix2	ari
+exp_monmaker_spiritconcatsuffix3	idin
+exp_monmaker_spiritconcatsuffix4	eth
+exp_monmaker_spiritconcatsuffix5	ot
+exp_monmaker_spiritconcatsuffix6	ori
+exp_monmaker_spiritconcatsuffix7	avin
+exp_monmaker_spiritconcatsuffix8	avi
+exp_monmaker_spiritprefix1	Rachedurstiger
+exp_monmaker_spiritprefix2	Trister
+exp_monmaker_spiritprefix3	Gruseliger
+exp_monmaker_spiritprefix4	Umherwandernder
+exp_monmaker_spiritprefix5	Verlorener
+exp_monmaker_spiritprefix6	Umherstreifender
+exp_monmaker_spiritprefix7	Geheimnisvoller
+exp_monmaker_spiritsuffix1	Luftgeist
+exp_monmaker_spiritsuffix10	Sylphe
+exp_monmaker_spiritsuffix11	Dämon
+exp_monmaker_spiritsuffix2	Elementar
+exp_monmaker_spiritsuffix3	Alb
+exp_monmaker_spiritsuffix4	Mahr
+exp_monmaker_spiritsuffix5	Revenant
+exp_monmaker_spiritsuffix6	Geist
+exp_monmaker_spiritsuffix7	Spirit
+exp_monmaker_spiritsuffix8	Spuk
+exp_monmaker_spiritsuffix9	Wiedergänger
+exp_monmaker_statususerword1	Schamanen-
+exp_monmaker_statususerword2	Orakel-
+exp_monmaker_statususerword3	Augur-
+exp_monmaker_strongfireprefix1	Inferno-
+exp_monmaker_strongfireprefix2	Brand-
+exp_monmaker_strongfireprefix3	Nova-
+exp_monmaker_stronglightningprefix1	Schock-
+exp_monmaker_stronglightningprefix2	Donner-
+exp_monmaker_stronglightningprefix3	Blitz-
+exp_monmaker_strongpoisonprefix1	Envenom-
+exp_monmaker_strongpoisonprefix2	Säure-
+exp_monmaker_strongpoisonprefix3	Pest-
+exp_monmaker_strongshadowprefix1	Nacht-
+exp_monmaker_strongshadowprefix2	Terror-
+exp_monmaker_strongshadowprefix3	Schatten-
+exp_monmaker_strongshadowprefix4	Leeren-
+exp_monmaker_strongwaterprefix1	Flut-
+exp_monmaker_strongwaterprefix2	Großwasser-
+exp_monmaker_strongwaterprefix3	Gletscher-
+exp_monmaker_strongwaterprefix4	Polar-
+exp_monmaker_summonerword1	Berufer-
+exp_monmaker_summonerword2	Beschwörer-
+exp_monmaker_summonerword3	Rufer-
+exp_monmaker_supporterword1	Schubschenker-
+exp_monmaker_supporterword2	Helfer-
+exp_monmaker_supporterword3	Medicus-
+exp_monmaker_supporterword4	Magier-
+exp_monmaker_weakfireprefix1	Feuer-
+exp_monmaker_weakfireprefix2	Flammen-
+exp_monmaker_weakfireprefix3	Glut-
+exp_monmaker_weakfireprefix4	Hitze-
+exp_monmaker_weaklightningprefix1	Funken-
+exp_monmaker_weaklightningprefix2	Zünd-
+exp_monmaker_weaklightningprefix3	Kleinschlag-
+exp_monmaker_weakpoisonprefix1	Gift-
+exp_monmaker_weakpoisonprefix2	Leichtgift-
+exp_monmaker_weakpoisonprefix3	Mist-
+exp_monmaker_weakpoisonprefix4	Schlamm-
+exp_monmaker_weakshadowprefix1	Dämmer-
+exp_monmaker_weakshadowprefix2	Dunkel-
+exp_monmaker_weakshadowprefix3	Düster-
+exp_monmaker_weakshadowprefix4	Finster-
+exp_monmaker_weakwaterprefix1	Regen-
+exp_monmaker_weakwaterprefix2	Wasser-
+exp_monmaker_weakwaterprefix3	Kälte-
+exp_monmaker_weakwaterprefix4	Kühl-
+exp_monmaker_weakwaterprefix5	Frost-
+exp_monmaker_weakwaterprefix6	Eis-
+exp_monmod_firegod	Feuergott
+exp_monmod_lightninggod	Blitzgott
+exp_monmod_physicalgod	Schwertgott
+exp_monmod_poisongod	Giftgott
+exp_monmod_shadowgod	Schattengott
+exp_monmod_watergod	Wassergott
+exp_mysterydungeon_bossname	~ Geheimkönig ~
+exp_mysterydungeon_bossvictory	Der #clr#Geheimkönig#ec# wurde besiegt! Deine Reise endet, sobald du dein #cc#Magisches Portal#ec# verwendest.\n\n
+exp_mysterydungeon_explanation	#big##clr#Reise des Wanderers#ec##endbig#\n\nIn diesem Abenteuer musst du die #cy#höchste Ebene#ec# erreichen und dort den #clr#Geheimkönig#ec# besiegen. Im Gegensatz zu einem Gegenstandstraum #cr#kannst du nicht#ec# zur Stadt zurückkehren!\n\nDie Treppen gehen #cy#nur nach oben#ec#, und es gibt #cr#keinen Weg zurück#ec#. Allerdings findet man ab und zu #cy#Ebenen mit einem Lagerfeuer#ec#.\n\nAlle #cy#Monster#ec# hier sind ganz neu. Studiere sie genau, damit du #cc#ihre Stärken und ihr Verhalten#ec# lernst. Viel Glück!\n\n
+exp_mysterydungeon_postvictory	#big##clr#Reise des Wanderers#ec# abgeschlossen!#endbig#\n\n
+exp_mysterydungeon_tip0	Die Monster in einer #clr#Reise des Wanderers#ec# sind mit jedem Mal neu. Schaue sie dir genau an!
+exp_mysterydungeon_tip1	In einer #clr#Reise des Wanderers#ec# könntest du starke, einzigartige #clr#Relikte#ec# finden.
+exp_mysterydungeon_tip2	In einer #clr#Reise des Wanderers#ec# kannst du nicht zur Stadt zurückkehren, also gib dein Gold ruhig bei Händlern aus!
+exp_mysterydungeon_tip3	In einer #clr#Reise des Wanderers#ec# erscheinen alle paar Ebenen #cy#Lagerfeuer#ec#. Verwende sie mit Achtsamkeit …\n
+exp_obj_blackhole_name	Schwarzes Loch
+exp_overload_dmg_name	Überlastung
+exp_parry_down	AUSWEICHEN GESENKT!
+exp_popup_misc_sticky	ZUNGE FESTGEKLEBT!
+exp_randomshop1_name	Normando
+exp_randomshop2_name	Fernando
+exp_randomshop3_name	Orlando
+exp_randomshop4_name	Hernando
+exp_randomshop5_name	Tando
+exp_randomshop6_name	Shirando
+exp_rarity_relic	Relikt
+exp_shara_died	Tangledeep hat unzählige Geschichten, die alle unterschiedlich erzählt werden. In der heutigen Erzählung nahm die #cc#Legende von Shara#ec# hier ihr Ende, ohne dass sie ihre #cy#Bestimmung#ec# erfüllen konnte. Doch ist dies das wahre Ende?
+exp_shara_dominate_description1	Du greifst ein Monster mit nicht-elementarer Energie an und könntest geschwächte Kreaturen dabei dauerhaft ^tag1^. Du kannst bis zu ^tag2^ Kreaturen auf diese Art kontrollieren.
+exp_shara_dominate_description2	Du greifst ein Monster mit nicht-elementarer Energie an und könntest sie für deinen Zweck ^tag1^. Du kannst bis zu ^tag2^ Kreaturen auf diese Art kontrollieren.
+exp_shara_dominate_displayname1	Zähmschlag
+exp_shara_dominate_displayname2	Rekrutierung
+exp_shara_dominate_displayname3	Kommandierung
+exp_shara_dominate_displayname4	Domination
+exp_shara_dominate_extradesc1	Schaden: ^number1^ der Geisteskraft als physisch. Du kannst Nicht-Champion-Monster unter ^number2^ Gesundheit dauerhaft ^tag1^. Nicht-banale verzauberte Monster stellen deine Gesundheit wiederher.
+exp_shara_dominate_extradesc2	Schaden: ^number1^ der Geisteskraft als physisch. Du dominierst Nicht-Champion-Monster unter ^number2^ dauerhaft. Dominierte Kreaturen verlieren langsam an Gesundheit. Wenn nicht-banale dominierte Monster besiegt wurden, stellen sie ^number3^ deiner max. Gesundheit, Energie und Ausdauer wiederher.
+exp_shara_ko	Shara hat sich vielen schweren Gegnern gestellt und ist den gefährlichsten Situationen entkommen. <color=#0cffe6>^tag1^</color> in <color=yellow>^tag2^</color> war dieses Mal stärker als sie, doch davon ließ sie sich nicht abhalten. Nichts und niemand konnte sie davon abhalten, ihre #cy#Bestimmung#ec# zu erfüllen.
+exp_shara_ko_result	Shara hinterließ bei ihrer Flucht <color=yellow>^tag1^</color> G und gab <color=#40b843>^tag2^ JP</color> für ihre Erholung aus.
+exp_sharaending_text1	Es gibt Fragen über Fragen über diese Frau und ihren ungestümen Geist.
+exp_sharaending_text2	Doch nur eine zählt wirklich:
+exp_sharaending_text3	Ist sie für oder gegen uns?
+exp_sharaending_text4	Niemand kann mich von meiner Berufung abhalten, aber …
+exp_sharaending_text5	… vielleicht können wir diese Welt zusammen wiederaufbauen …
+exp_sharafinalboss_phase2begin_1	#cy#VERSTÄRKUNG ANGEFORDERT.#ec# AKTUELLE VERTEIDIGUNG IST NICHT IN DER LAGE, ANGRIFFE DURCH #cc#SHARA_AVATAR#ec# STANDZUHALTEN.\n\nBEGINNE REGENERATIVEN NOT-STILLSTAND FÜR #cc#^tag1^ ZEITEINHEITEN#ec#.\n\n
+exp_sharafinalboss_phase2begin_2	Ha! Erkenne ich da etwa einen Hauch von #cr#Angst#ec#, Maschine?\n\nDas ist genau der Moment, für den ich meine Kräfte geschliffen habe. Ohne dich kann ich deine neuen Verbündeten #cc#dominieren#ec# und sie gegen dich aufbringen!\n\n
+exp_sharafinalboss_phase2end_1	REGENERATIONSZYKLUS ABGESCHLOSSEN. BETRIEBSSTATUS: #cg#KOMPLETT WIEDERHERGESTELLT#ec#.\n\n
+exp_sharaforest_levelname	Wald der Träume
+exp_sharamode_tips0	Wenn du bei voller #cr#Gesundheit#ec# bist, füllen #cc#Zauberbrunnen#ec# stattdessen deinen #cc#Energieschild#ec# auf und setzen seine Abklingzeit zurück.
+exp_sharamode_tips1	Shara hat #cy#JP ausgegeben#ec# und dadurch eine neue Stufe erreicht. Dadurch werden ihr Waffenschaden und ihre Geisteskraft erhöht.
+exp_sharamode_tips2	Shara erhält jedes Mal #cr#Gesundheit#ec#, wenn sie einen #cy#Kernwert#ec# mit JP aufwertet.
+exp_sharamode_tips3	Lerne neue Fähigkeiten, indem du #cy#Büchsen der Pandora#ec# öffnest oder dich an einem #cy#Lagerfeuer#ec# ausruhst.
+exp_sharamode_tips4	Die Auswahl an Fähigkeiten wird jedes Mal zufällig gewählt, also #cy#treffe deine Wahl mit Bedacht#ec#.
+exp_sharamode_tips5	Es gibt viele #cg#Seitenbereiche#ec# zu entdecken, und um sie zu finden, brauchst du keine #cg#Gerüchte#ec#.
+exp_sharamode_tips6	Shara kann Fähigkeiten aus der #cy#Fähigkeitenliste#ec# verwenden und #cy#Hotbars#ec# ganz nach Wunsch organisieren, sogar in gefährlichen Bereichen.
+exp_sharamode_tips7	Findest du ein #cy#Lagerfeuer#ec#, so ist der nächste Händler nicht weit.
+exp_sharamode_tips8	#cy#Büchsen der Pandora#ec# enthalten in #cc#Sharas Geschichte#ec# immer einen mächtigen Ausrüstungsgegenstand!
+exp_sharapower_learned_txt	#cc#Shara#ec# kann ihre Fähigkeiten uneingeschränkter nutzen als #cy#Mirai#ec#! Du kannst Fähigkeiten aus der #cy#Fähigkeitenliste#ec# nutzen, ohne sie einer Hotbar zuzuweisen.\n\nAußerdem kannst du Fähigkeiten #cy#auf und von#ec# Hotbars bewegen, sogar in einem gefährlichen Bereich. Das gleiche gilt für das Ausrüsten und Ablegen #cg#passiver Fähigkeiten#ec#.\n\n
+exp_skill_axeiaijutsu_name	Beilsturm
+exp_skill_banish_description	Du besiegst unverzüglich jede Gefahr und jedes beschworene Nicht-Champion-Monster.
+exp_skill_banish_displayname	Verbannung
+exp_skill_boostdiscipline_desc	Erhöht max. Disziplin um ^number1^.
+exp_skill_boostdiscipline_name	+Disziplin
+exp_skill_boostguile_desc	Erhöht max. List um ^number1^.
+exp_skill_boostguile_name	+List
+exp_skill_boosthealth_desc	Erhöht max. Gesundheit um ^number1^.
+exp_skill_boosthealth_name	+Gesundheit
+exp_skill_boostspirit_desc	Erhöht max. Gemüt um ^number1^.
+exp_skill_boostspirit_name	+Gemüt
+exp_skill_booststrength_desc	Erhöht max. Stärke um ^number1^.
+exp_skill_booststrength_name	+Stärke
+exp_skill_boostswiftness_desc	Erhöht max. Tempo um ^number1^.
+exp_skill_boostswiftness_name	+Tempo
+exp_skill_chakrashift_desc	Absorbiert und entfernt deine eigenen temporären Status-Buffs, doch erhöht Schaden für jeden entfernten Buff für ^number2^ Zg. um ^number1^
+exp_skill_chakrashift_name	Chakraverschiebung
+exp_skill_charisma_desc	^number1^ Chance, dass du Nicht-Champion-Monster der Banditenklasse ^$sharamode:dominateverb$^ könntest, wenn sie dich angreifen.
+exp_skill_charisma_name	Charisma
+exp_skill_cleanup_desc	Du kannst ein gefährliches Feld, wie einen Eisblock, Feuer oder eine Säurelache, sofort beseitigen.
+exp_skill_cleanup_name	Putzfimmel
+exp_skill_collectivestrength_desc	Grundangriffe fügen pro von dir dominiertem Monster ^number1^ Schaden zu (max :^number2^).
+exp_skill_collectivestrength_name	Teamwork
+exp_skill_combatbiography_desc	Verewigt deine Abenteuer in einer mystischen Biografie, die alle Pinselstriche verbraucht und das Buch in deine Nähe beschwört. Hebst du das Buch auf, so erhältst du alle unverbrauchten Pinselstriche plus ^number1^ zurück, und alle Kalligrafin-Fähigkeiten werden kurzfristig verstärkt.
+exp_skill_combatbiography_extradesc	Es kann immer nur eine Biografie existieren. Beschwörung hält ^number2^ Zg. an. Sobald es aufgehoben wird, erhalten Kalligrafin-Fähigkeiten ^number4^ Zg. lang ^number3^ Schaden.
+exp_skill_combatbiography_name	Kampf-Biografie
+exp_skill_combatbiography_shortdesc	Beschwöre ein mystisches Buch, das alle Pinselstriche enthält, auf ein Feld in der Nähe.
+exp_skill_commandingpresence_description	(Passiv) Für jedes Monster, das du bereits kontrollierst, stehen die Chancen bei ^number1^, dass du Monster mit deinen Grundangriffen ^$sharamode:dominateverb$^ könntest.
+exp_skill_commandingpresence_extradesc	Die max. Chance, dass du mit einem Angriff ^$sharamode:dominateverb$^ könntest, liegt bei ^number2^.
+exp_skill_commandingpresence_name	Herrschende Präsenz
+exp_skill_createrandomrock_name	Schuttschieber
+exp_skill_dangermagnet_desc	Du bist richtig gut darin geworden, dich in Schwierigkeiten zu bringen, was die Chance auf herumstreichende Monster um ^number1^ erhöht.
+exp_skill_dangermagnet_name	Gefahrenmagnet
+exp_skill_dominate_description	^$sharamode:dominatedesc$^
+exp_skill_dominate_displayname	^$sharamode:dominatename$^
+exp_skill_dominate_extradesc	^$sharamode:dominateedesc$^
+exp_skill_elemabsorb_name	Elementare Barrikade
+exp_skill_eshieldpower_desc	(Passiv) Durch die Energie, die freigesetzt wird, wenn ein Energieschild zerfällt, erhältst du so lange ^number1^ Schaden, bis du einen neuen Energieschild beschwören kannst.
+exp_skill_eshieldpower_name	Rache
+exp_skill_essencestorm_desc	Erzeuge ^number1^ Orb(en) aus der mächtigen Energie deiner Lebenskraft, und feuere mit jedem Zug einen Orben ab, wenn ein Monster in der Nähe ist.
+exp_skill_essencestorm_extradesc	Schaden: ^number2^ der Geisteskraft als physisch pro Orb. Trifft bis zu ^number3^ Felder entfernte Gegner.
+exp_skill_essencestorm_name	Essenzsturm
+exp_skill_expmon_overdrive_name	Übersteuerung
+exp_skill_expmon_photonbreath_name	Photonenhauch
+exp_skill_expmon_randomphoton_name	Photonensturm
+exp_skill_expmon_shielding_name	Energieschild
+exp_skill_expmon_summoncannondrones_name	Drohnen-Berufung
+exp_skill_flowshield_description	Erzeuge aus deiner Lebensessenz einen Schild, der jeglichen Schaden absorbiert. Schildgesundheit beträgt ^number1^ deiner max. Gesundheit.
+exp_skill_flowshield_displayname	Essenzschild
+exp_skill_flowshield_extradesc	Abklingzeit nimmt nicht ab, bis der Schild zerstört wurde.
+exp_skill_forbiddance_desc	Vebrauche alle Pinselstriche, um mächtige magische Runen auf die Felder vor dir zu schreiben. Gegner, die auf diese Runen treten, werden versiegelt und angewurzelt.
+exp_skill_forbiddance_extradesc	Jeder verwendete Pinselstrich erzeugt eine Rune, welche ^number1^ Zg. anhält. Der Versiegelungs- und Anwurzeleffekt hält ^number2^ Zg. an.
+exp_skill_forbiddance_name	Einhalt
+exp_skill_glide_desc	Setze zu einem galanten Sprung an und lande ^number1^ Felder weiter.
+exp_skill_glide_extradesc	Für die Fähigkeit gibt es nur bei jeder zweiten Anwendung eine Abklingzeit.
+exp_skill_glide_name	Gleitflug
+exp_skill_improveddominate_description	(Passiv) ^$sharamode:dominatename$^ kann Monster nun bei ^number1^ oder weniger Gesundheit betören.
+exp_skill_improveddominate_name	Verbesserter Einfluss
+exp_skill_inkcollector_desc	Jedes Mal, wenn du gegen ein banales (oder stärkeres) Monster kämpfst und gewinnst, seinem Angriff ausweichst oder einen kritischen Treffer landest, sammelst du einen Pinselstrich.
+exp_skill_inkcollector_name	Tintensammler
+exp_skill_inkstorm_desc	Verwende alle Pinselstriche, um Gegner in der Nähe wild und willkürlich anzugreifen.
+exp_skill_inkstorm_extradesc	Schaden: ^number1^ der Waffenstärke. Fügt jedem gesammelten Pinselstrich einen zusätzlichen Angriff hinzu. Wiederholte Angriffe auf dasselbe Ziel fügen ^number2^ Schaden zu. Erzeugt keine Pinselstriche.
+exp_skill_inkstorm_name	Tintensturm
+exp_skill_lightningflash_desc	Sprinte im Nu zum Zielfeld und elektrisiere bei Ankunft alle umliegenden Felder.
+exp_skill_lightningflash_extradesc	Elektrisierte Felder paralysieren darauf tretende Monster für ^number1^ Zg.
+exp_skill_lightningflash_name	Blitzsprint
+exp_skill_lightningscroll_desc	Sendet einen geradlinigen Blitz aus, der Schaden anrichtet und nachklingende elektrische Funken hervorruft.
+exp_skill_lightningscroll_extradesc	Schaden: ^number1^ der Waffenstärke und ^number2^ der Geisteskraft als Blitz. Funken gewähren dir eine Krit-Chance von ^number3^, können gestapelt werden und werden bei deinem nächsten Angriff automatisch eingesetzt.
+exp_skill_lightningscroll_name	Schriftrolle der Blitzeskraft
+exp_skill_menagerie_desc	Für jeden Gefährten oder berufenes Wesen, das du kontrollierst, erhalten selbige ^number1^ Schaden.
+exp_skill_menagerie_name	Menagerie
+exp_skill_monstertoss_desc	Hebe ein Monster aus der Nähe hoch und wirf es auf ein anderes Monster!
+exp_skill_monstertoss_extradesc	Schaden für beide Monster: ^number1^ der momentanen Gesundheit des geworfenen Monsters.
+exp_skill_monstertoss_name	Monsterball
+exp_skill_museofmelee_desc	Deine einfachen Nahangriffe fügen mit einer Wahrscheinlichkeit von ^number1^ für ^number3^ Zg. ^number2^ Empfindlichkeit gegen Wasser, Blitz oder Schatten zu. Kämpfst du mit zwei Waffen gleichzeitig, so kann jeder Angriff diesen Effekt auslösen.
+exp_skill_museofmelee_name	Nahkampfmuse
+exp_skill_necessarysacrifice_desc	Wenn du eine betörte Kreatur besiegst, stellst du ^number1^ der max. Ausdauer und Energie wiederher.
+exp_skill_necessarysacrifice_name	Auffrischung
+exp_skill_phasechange_desc	Tausche mit einem beliebigen Monster den Platz und verwirre es dabei!
+exp_skill_phasechange_extradesc	Verwirrung hält ^number1^ Zg. lang an.
+exp_skill_phasechange_name	Platztausch
+exp_skill_phasmashield_description	Beschwört einen Ring aus tödlicher Phasma-Energie, der jedes Feld um dich herum umzingelt. Monster nehmen Schaden, wenn sie den Ring berühren.
+exp_skill_phasmashield_extradesc	Schaden pro Zug: ^number1^ der Geisteskraft und ^number2^ der Waffenstärke als Feuer.
+exp_skill_phasmashield_name	Phasmaring
+exp_skill_precisefinish_desc	Ein Angriff, der nicht so kräftig ist, aber dafür mehr Belohnungen bringt, wenn der Gegner damit erledigt wird.
+exp_skill_precisefinish_extradesc	Schaden: ^number1^ der Waffenstärke. Monster bringen ^number2^ bessere Belohnungen, wenn sie mit diesem Angriff besiegt werden.
+exp_skill_precisefinish_name	Lohnendes Ende
+exp_skill_relichunter_desc	Unschätzbare Artefakte erfüllen dich mit zeitlosen Kräften! Für jedes ausgerüstete legendäre Set sowie jedes Relikt- oder Ausrüstungsset erhältst du ^number1^ Schaden und Widerstand.
+exp_skill_relichunter_name	Reliktjäger
+exp_skill_retort_desc	Du weichst dem nächsten physischen Angriff mit Leichtigkeit aus und versiegelst den Angreifer.
+exp_skill_retort_extradesc	Der Ausweichbonus hält ^number1^ Zg. an, oder bis du angegriffen wirst. Angreifer wird für ^number2^ Zg. versiegelt.
+exp_skill_retort_name	Retorte
+exp_skill_rockcircle_name	Eingrabung
+exp_skill_scholar_desc	Dein Streben nach Wissen kennt kein Ende und bringt dir ^number1^ JP ein.
+exp_skill_scholar_name	Gelehrte
+exp_skill_shadowscroll_desc	Sprengt einen Bereich mit einer entsetzlichen Schattenexplosion, die Schaden anrichtet und Schattenorben hinterlässt.
+exp_skill_shadowscroll_extradesc	Schaden: ^number1^ der Waffenstärke und ^number2^ der Geisteskraft als Schatten. Fügt bei betroffenen Gegnern eine stapelbare Schattenempfindlichkeit hinzu. Schattenorben gewähren einen kurzzeitigen stapelbaren Bonus von ^number3^ für einfache Nahangriffe.
+exp_skill_shadowscroll_name	Schriftrolle der Schattenkraft
+exp_skill_shockwave_description	Beschwört eine sich ausbreitende Blitzwelle, die Feinde in einem stetig wachsenden Kreis angreift.
+exp_skill_shockwave_extradesc	Schaden: ^number1^ der Geisteskraft als Blitz.
+exp_skill_shockwave_name	Schockwelle
+exp_skill_sludgespread_name	Breitschlamm
+exp_skill_subtletap_desc	Nahangriff, der nicht stark genug ist, um einen Gegner zu besiegen.
+exp_skill_subtletap_extradesc	Schaden: ^number1^ der Waffenstärke. Dieser Angriff bringt Monster nicht auf unter 1 Gesundheit.
+exp_skill_subtletap_name	Sachter Schlag
+exp_skill_summontoxicslime_name	Giftschleim-Berufung
+exp_skill_treasuretracker_desc	Mit deinem scharfen Gespür für versteckte Schätze erscheinen ^number1^ aller Power-ups stattdessen als Goldhaufen.
+exp_skill_treasuretracker_name	Schatzfinder
+exp_skill_truehover_description	(Passiv) Die Beherrschung deiner Schwebekräfte reduziert bodenbasierten Schaden um ^number1^.
+exp_skill_truehover_name	Schwebeflug
+exp_skill_vanishingdodge_desc	Fällt deine Gesundheit auf ^number1^ oder weniger, wirst du in unsichtbare Tinte gehüllt, die deine Ausweichchance um ^number2^ erhöht.
+exp_skill_vanishingdodge_name	Schwindtinte
+exp_skill_venomancerpoison_name	Giftwaffe
+exp_skill_voidbolt_description	Feuere eine konzentrierte Ladung Leerenenergie auf einen Gegner ab, die ihm Schaden zufügt und mit jedem Zug die Lebenskraft absaugt.
+exp_skill_voidbolt_displayname	Leerenblitz
+exp_skill_voidbolt_extradesc	Schaden: ^number1^ der Waffenstärke als physisch. Fügt je nach fehlender Gesundheit bis zu ^number2^ mehr Schaden zu. Verwundete Gegner verlieren pro Zug ^number4^ Zg. lang ^number3^ der aktuellen Gesundheit.
+exp_skill_voidshield_description	Erzeuge einen negativen Schild aus deiner Lebensessenz, welcher allen Schaden absorbiert. Schildgesundheit beträgt ^number1^ deiner max. Gesundheit. Chance, einen zufälligen Leerenblitz abzufeuern, während der Schild aktiv ist.
+exp_skill_voidshield_displayname	Saugschild
+exp_skill_voidshield_extradesc	Deaktiviert bei Verwendung aktiven Essenzschild; Essenzschild deaktiviert bei Verwendung aktiven Leerschild. ^number2^ Chance, pro Zug einen Leerenblitz auf einen Gegner in der Nähe abzufeuern.
+exp_skill_waterscroll_desc	Tränkt einen Bereich mit rauschendem Wasser, wodurch Schaden angerichtet und Wasserdampf zurückgelassen wird.
+exp_skill_waterscroll_extradesc	Schaden: ^number1^ der Waffenstärke und ^number2^ der Geisteskraft als Wasser. Verschleiernder Nebel unterdrückt Feuerschaden und erhöht deine Ausweichchance um ^number3^.
+exp_skill_waterscroll_name	Schriftrolle der Wasserkraft
+exp_status_attackdown_name	Schaden verflucht
+exp_status_brushstroke_desc	Speichert Kräfte für Angriffe mit Tinte.
+exp_status_brushstroke_name	Pinselstrich
+exp_status_combatbiography_boost_name	Bio-Boost
+exp_status_dmgup_25_desc	Schadensausstoß um ^number1^ erhöht.
+exp_status_essencestorm_desc	Du speicherst Energieorben, die jeden Zug auf ein Monster in der Nähe feuern. #cy#Verbleibende Orben:#ec# #cg#^$getactordata:essencestorm_ammo$^#ec#
+exp_status_extracrit_desc	^number1^ Chance auf kritischen Treffer. Verbrauch beim nächsten Angriff oder bei Anwenden einer Fähigkeit.
+exp_status_flowshield_desc	Energieschild absorbiert allen Schaden. #cy#Verbleibende Schildgesundheit:#ec# #cg#^$getactordata:flowshield_dmgleft$^#ec#
+exp_status_parrydown_name	Parieren verflucht
+exp_status_robo_overdriveattack_name	Übersteuerter Angriff
+exp_status_shadoworb_desc	^number1^  Grundangriffsschaden mit Nahkampfwaffen.
+exp_superhardarea_name	Reich der Götter
+exp_superhardarea_name_1	Reich der Götter E1
+exp_superhardarea_name_2	Reich der Götter E2
+exp_superhardarea_name_3	Reich der Götter E3
+exp_superhardarea_name_4	Reich der Götter E4
+exp_superhardarea_name_5	Reich der Götter E5
+exp_verb_charm	betören
+exp_verb_command	kommandieren
+exp_verb_dominate	dominieren
+exp_verb_recruit	rekrutieren
+exp_wanderer_askgods	#cy#??? WANDERER#ec#: Finde den Ort, an dem du #cc#Shara besiegt hast#ec#, und der Eingang zum #co#Reich der Götter#ec# wird dich erwarten.\n
+exp_wanderer_dungeon10_desc	#big#Rache des Berges#endbig#\n\n#cy#Ebenen#ec#: 20\n#cy#Schwierigkeit#ec#: #cr#^$gettext:difficulty_7$^#ec#\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_monsters_respawn$^\n\n
+exp_wanderer_dungeon10_name	Rache des Berges
+exp_wanderer_dungeon1_desc	#big#Tropischer Fund#endbig#\n\n#cy#Ebenen#ec#: 15\n#cy#Schwierigkeit#ec#: ^$gettext:difficulty_5$^\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_items_relics$^\n\n^$gettext:md_monsters_respawn$^\n^$gettext:md_jp_only_campfires$^\n^$gettext:md_more_consumables$^\n\n
+exp_wanderer_dungeon1_name	Tropischer Fund
+exp_wanderer_dungeon2_desc	#big#Tempel der Elemente#endbig#\n\n#cy#Ebenen#ec#: 30\n#cy#Schwierigkeit#ec#: #cr#^$gettext:difficulty_8$^#ec#!\n#cy#Startsituation#ec#: Du bringst Fähigkeiten und ausgerüstete Ausrüstung mit.\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_items_relics$^\n\n^$gettext:md_monsters_respawn$^\n\n
+exp_wanderer_dungeon2_name	Tempel der Elemente
+exp_wanderer_dungeon3_desc	#big#Goldfroschs große Grotte#endbig#\n\n#cy#Ebenen#ec#: 15\n#cy#Schwierigkeit#ec#: ^$gettext:difficulty_5$^\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_relics$^\n\n^$gettext:md_monsters_respawn$^\n^$gettext:md_nodrops$^\n^$gettext:md_shopkeepers$^\n\n
+exp_wanderer_dungeon3_name	Goldfroschs große Grotte
+exp_wanderer_dungeon4_desc	#big#Wachruinen#endbig#\n\n#cy#Ebenen#ec#: 15\n#cy#Schwierigkeit#ec#: ^$gettext:difficulty_5$^\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_monsters_respawn$^\n\n
+exp_wanderer_dungeon4_name	Wachruinen
+exp_wanderer_dungeon5_desc	#big#Höhle der Champions#endbig#\n\n#cy#Ebenen#ec#: 12\n#cy#Schwierigkeit#ec#: #cr#^$gettext:difficulty_8$^#ec#\n#cy#Startsituation#ec#: Du bringst Werte, ausgerüstete Ausrüstung und Fähigkeiten mit.\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_many_champions$^\n\n
+exp_wanderer_dungeon5_name	Höhle der Champions
+exp_wanderer_dungeon6_desc	#big#Turm der Torturen#endbig#\n\n#cy#Ebenen#ec#: 50\n#cy#Schwierigkeit#ec#: #cr#^$gettext:difficulty_8$^#ec#!\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_items_relics$^\n\n^$gettext:md_monsters_respawn$^\n\nDies ist die #cr#ultimative Herausforderung#ec#!\n\n
+exp_wanderer_dungeon6_name	Turm der Torturen
+exp_wanderer_dungeon7_desc	#big#Grauenhafte Hatz#endbig#\n\n#cy#Ebenen#ec#: 15\n#cy#Schwierigkeit#ec#: #cr#^$gettext:difficulty_7$^#ec#\n^$gettext:md_startwithnothing$^\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keepgold_relics$^\n\n^$gettext:md_monsters_respawn$^\n^$gettext:md_king_chaser$^\n\n
+exp_wanderer_dungeon7_name	Grauenhafte Hatz
+exp_wanderer_dungeon8_desc	#big#Fabrik der Massenabfertigung#endbig#\n\n#cy#Ebenen#ec#: 15\n#cy#Schwierigkeit#ec#: ???\n#cy#Startsituation#ec#: Du beginnst auf Stufe 1 ohne Ausrüstung, Fähigkeiten oder Gefährten, aber erhältst 10 Tarnparfüms.\n^$gettext:md_ondefeat_loseprogress$^\n^$gettext:md_keeprelics$^\n\n^$gettext:md_monster_powerup$^\n^$gettext:md_monsters_respawn$^\n^$gettext:md_items_breakables$^\n\n
+exp_wanderer_dungeon8_name	Fabrik der Massenabfertigung
+exp_wanderer_dungeon9_name	Bergbesteigung
+exp_wanderer_dungeonlistbranch	#cy#??? WANDERER#ec#: Jede Geschichte ist eine Reise zur selbigen. Sobald wir sie beginnen, #cr#können wir nicht in diese Welt zurückkehren#ec#, bis die Reise beendet wurde. Denn was nützt schon eine Geschichte, der man sich nicht vollkommen hingibt?\n\nIn einige Geschichten kann man keine #cy#materiellen Besitztümer#ec# oder #cy#Gegenstände#ec# mitnehmen. Diese erhält man zurück, sobald die Geschichte ihr Ende genommen hat.\n\nJede Geschichte hält ihre eigenen #cy#Belohnungen#ec# bereit, für den Fall, dass man gewinnen sollte, doch der Sieg wird einem nicht geschenkt. Jede Geschichte ist einmalig.\n\n
+exp_wanderer_firstvictory_1	#cy#??? WANDERER#ec#: Willkommen zurück, Abenteurer.\n\nIch nehme an, dass dir meine Geschichte #cg#gefallen#ec# hat?\n\n
+exp_wanderer_firstvictory_2	#cy#??? WANDERER#ec#: Auf eine gewisse Art #cg#war es echt#ec#.\n\nDas #clr#Relikt#ec#, das du gefunden hast, ist es nicht in deiner Tasche?\n\n
+exp_wanderer_firstvictory_3	#cy#??? WANDERER#ec#: Wie soll ich das bloß erkären? Meine Geschichten sind wie #cc#große Seen#ec#, durch welche man #cy#schwimmt#ec#.\n\nWenn sie enden, taucht man aus dem Wasser wieder auf. So wie du #cy#kleine Wellen#ec# zurücklässt, bleiben Teile des Wassers an dir haften.\n\nUm es anders auszudrücken, manches von dem, was du in der #clr#Geschichte#ec# findest, kann #cy#hierher zurückgebracht#ec# werden. Verstehst du?\n\n
+exp_wanderer_firstvictory_4	#cy#??? WANDERER#ec#: Das dachte ich mir bereits. Lange habe ich nach einer guten Seele gesucht, mit welcher ich diese Geschichten teilen kann, und es gibt noch #cy#viele mehr zu erzählen#ec#.\n\nKeine Geschichte gleicht der anderen – sie verändern sich mit jeder Erzählung, und jede hat ihre eigenen #cg#Belohnungen#ec# und #cr#Herausforderungen#ec#.\n\n#clr#Bergwanderung#ec# war die einfachste meiner Geschichten. Nun erlaube mir, den Rest mit dir zu teilen.\n\n
+exp_wanderer_firstvictory_response1	Und wie! Es hat sich so echt angefühlt.
+exp_wanderer_firstvictory_response2	Ja, aber … wie ist das nur möglich?
+exp_wanderer_firstvictory_response3	Das tue ich, und ich will noch eine Geschichte hören!
+exp_wanderer_mainbranch	#cy#??? WANDERER#ec#: Hallo, Abenteurer.\n\nWürdest du dich etwas zu mir setzen und den sanften Wellen des Wassers zusehen?\n\nIm großen Wandteppich dieser Welt ist solch ein Strom bloß ein Kind. Jeder Faden ist eine eigene #cy#Reise#ec#, nicht wahr?\n
+exp_wanderer_mainbranch_askgods	Wo ist denn das #co#Reich der Götter#ec#?
+exp_wanderer_mainbranch_response1	Du hörst dich an, als ob du selbst schon so einige Abenteuer erlebt hast.
+exp_wanderer_mainbranch_response2	Erzähle mir eine Geschichte!
+exp_wanderer_realmofgods_continue_1	#cy#??? WANDERER#ec#: Dies ist meine wahre #cc#Erscheinung#ec#.\n\n Hab keine Angst.\n\n
+exp_wanderer_realmofgods_continue_2	#cy#??? WANDERER#ec#: So wie du bin auch ich ein Abenteurer. Nachdem ich mein Zuhause zurückgelassen habe, wandere ich nun schon seit #cy#vielen tausend Jahren#ec# durch diese Welt. In dieser Hinsicht bin ich unter meinen Mitgeistern #cy#eine Besonderheit#ec#.\n\nDie anderen, die im #co#Reich der Götter#ec# leben, interessieren sich weder für deine Leute noch für Rest von #cg#Tangledeep#ec#.\n
+exp_wanderer_realmofgods_continue_3	#cy#??? WANDERER#ec#: Genau. Sie betrachten jene, die in #cg#Tangledeep#ec# leben, als unter ihrer Würde. Sie würden sich lieber von der Welt #cr#abschirmen#ec#.\n\nUnd genau dies ist der Grund, weshalb ich dir erklären werde, wie du mein Zuhause findest. Du hast bewiesen, dass du #cg#über alle Maßen würdig bist#ec#, und ebenso viel Stärke, Weisheit und Schläue besitzt.\n\nDu könntest das #co#Reich der Götter#ec# herausfordern und #cg#gewinnen#ec#.\n
+exp_wanderer_realmofgods_continue_4	#cy#??? WANDERER#ec#: Um es kurz zu sagen: ja. Nur so werden sie #cy#dein Potential erkennen#ec# und wieder Interesse an der Welt da draußen bekommen. Deine Taten werden überzeugender sein, als meine Worte es jemals waren.\n\nSobald ich den Weg zu meinem Zuhause enthülle, wirst du #cy#nach Belieben kommen und gehen können#ec#. Doch wie du dir sicher vorstellen kannst, wird man dich nicht #cg#mit offenen Armen empfangen#ec#.\n\nDu kannst dich darauf einstellen, mit den #cr#stärksten Kreaturen#ec# zu kämpfen, denen du dich jemals stellen musstest.\n
+exp_wanderer_realmofgods_continue_5	#cy#??? WANDERER#ec#: Ich hätte keine andere Antwort von dir erwartet, Abenteurer. Nun gut! Der Weg zum #co#Reich der Götter#ec# wird nun enthüllt.\n\nKehre dorthin zurück, wo du #cc#Shara#ec# besiegt hast, und dort wirst du den Eingang finden.\n\n
+exp_wanderer_realmofgods_continue_responsebutton_1	Da bist wunderschön!
+exp_wanderer_realmofgods_continue_responsebutton_2	Du meinst sie verlassen ihr Zuhause nicht?
+exp_wanderer_realmofgods_continue_responsebutton_3	Du WILLST, dass ich mit deinen Mitgeistern kämpfe?!?
+exp_wanderer_realmofgods_continue_responsebutton_4	Ich bin so weit gekommen. Das schaffe ich!
+exp_wanderer_realmofgods_intro_1	#cy#??? WANDERER#ec#: Du hast mit deinen eigenen Augen einen kleinen Blick auf das Land außerhalb Tangledeep geworfen, habe ich Recht?\n\nIch kann das #cg#fühlen#ec#.\n
+exp_wanderer_realmofgods_intro_2	#cy#??? WANDERER#ec#: Das weiß ich. Du bist ein #cy#Abenteurer#ec#, und wenn Abenteurer ihren Zielort erreichen, wollen sie sofort den nächsten finden.\n\nMit der Zeit wirst du mehr über die Gegenden lernen, die du gesehen hast. Dein Abenteuer wird irgendwann weitergehen, und du wirst deine Fragen selbst beantworten.\n\nDoch es gibt #cy#noch ein letztes Geheimnis#ec# über #cg#Tangledeep#ec#, welches du noch nicht gelüftet hast.\n
+exp_wanderer_realmofgods_intro_3	#cy#??? WANDERER#ec#: Ich stamme aus dem Reich, das am Rande von #cg#Tangledeep#ec# und von dem #cy#unendlichen Land#ec# darüber liegt. Es wurde vor langer, langer Zeit in die Welt gemeißelt, doch von wem, das kann ich nicht sagen.\n\n#cr#Riesige Biester#ec#, #cc#uralte Geister#ec# sowie #cs#Maschinen#ec# mit grenzenlosen Kräften verweilen dort. Es ist schon ein merkwürdiges Konzept, findest du nicht auch? All diese Kreaturen leben in Harmonie miteinander und nennen diesen Ort ihr Zuhause.\n\nWir haben unseren eigenen Namen für dieses Land, gesprochen in der #cy#vergessenen Sprache#ec#. In deiner Sprache könnte man es als #co#Reich der Götter#ec# bezeichnen.\n
+exp_wanderer_realmofgods_intro_4	#cy#??? WANDERER#ec#: Das werde ich dir selbstverständlich noch sagen. Doch zuerst gibt es noch etwas, das du wissen solltest. Ich war nicht ganz ehrlich mit dir …\n\nIn Wahrheit bin ich nämlich selbst ein #cc#uralter Geist#ec#. Erlaube mir, es dir zu zeigen.\n
+exp_wanderer_realmofgods_intro_responsebutton_1	Ja! Es ist atemberaubend! Ich habe so viele Fragen …
+exp_wanderer_realmofgods_intro_responsebutton_2	Von was für einem Geheimnis reden wir? Was könnte es denn noch geben?
+exp_wanderer_realmofgods_intro_responsebutton_3	Wie komme ich dorthin?
+exp_wanderer_realmofgods_intro_responsebutton_4	!!!
+exp_wanderer_selectdungeon_confirm	Diese Reise beginnen
+exp_wanderer_selectdungeon_no	Zurück
+exp_weaponmaster_statue_name	Statue des Waffenmeisters
+exp_weaponmaster_statue_text	Das ist die Statue eines #cy#mächtigen Kriegers#ec#, ein Meister jeder Waffen- und Kampfart.\n\nEine wohlwollende Aura umgibt das #cc#Flow#ec# hier. Es scheint fast, als ob er mir ein #cg#Fragment seines Wissens#ec# schenken möchte.\n\nSoll ich hier meditieren?\n
+glitterskin_status_desc	Nahangreifer werden geblendet und verlieren ^number2^ Zg. lang ^number1^ Genauigkeit.
+intro_dualwielder	Tinte und Feder sind das Herz einer jeden Geschichte.\nOb breite Striche oder feine Details,\nmeine Künste sind eins mit meinem Pfad.\nDas Heute ist nicht mehr als ein weißes Blatt.
+item_armor_heavyarmor5_desc	Die Details auf dieser Rüstung sind so … viele. Und sie wurde auf Hochglanz poliert. Sie hat ganz offensichtlich noch nie einen Kampf gesehen. Bestimmt wurde sie nur zu besonderen Anlässen getragen.
+item_armor_heavyarmor5_name	Herrlicher Harnisch
+item_armor_lightarmor5_desc	Mit diesem Mantel fühle ich mich, als ob mich jemand auf jedem Schritt beschützt. Wenn ich stolpere, hilft er mir sogar, meine Balance wiederzufinden. Wer hätte gedacht, dass man sich mit einem so dünnen Stoff so sicher und geborgen fühlen kann?
+item_armor_lightarmor5_name	Arkanmantel
+item_armor_mediumarmor5_desc	Diese Mithrilringe glänzen so schön im Licht, dass es beinahe aussieht wie ein Paillettenkleid! Aber im Gegensatz zu den meisten Kleidern fühle ich mich hiermit rundum geschützt. Genial!
+item_armor_mediumarmor5_name	Mithrilkettenhemd
+item_armor_shield6_desc	Dieses Wappen habe ich mal in einem Buch gesehen. Es gehörte zu einem mythischen Königreich, das laut den Ältesten nur eine Legende gewesen sein soll. Aber ich habe nie an seiner Existenz gezweifelt!
+item_armor_shield6_name	Königsschild
+item_bomb_confusetraps_desc	Ich habe gehört, dass eine Packung mit solchen Fallen mal in der Nähe des Geheges aufgebrochen ist und Jesse einen ganzen Tag gebraucht hat, um die Monster wieder zurückzubringen.
+item_bomb_confusetraps_effectdesc	Stellt Fallen auf, aus denen ein verwirrendes Gas austritt, wenn ein Monster darauf tritt! Fallen halten ^number1^ Zg. an und sorgen ^number2^ Zg. lang für Verwirrung.
+item_bomb_confusetraps_name	Verwirrfallen
+item_item_gem8_desc	Anscheinend ist dieses Metall in Windbach gerade total angesagt, aber ich verstehe wirklich nicht, warum. Es hält nicht kaum etwas aus, es glänzt nicht so schön wie Gold, und außerdem hebt man sich damit einen Bruch!
+item_item_gem9_desc	Der härteste Edelstein in ganz Tangledeep. Wenn diese Steinchen nicht so wertvolll und selten wären, würde ich mir damit nervige Monster aus dem Weg hauen.
+item_weapon_2hsword6_desc	So ein Schwert könnte selbst einen erfahrenen Soldaten an seine Grenzen bringen. Wenn ich dieser Waffe alle Ehre machen will, muss ich viel mutiger werden.
+item_weapon_2hsword6_name	Heldenschwert
+item_weapon_axe6_desc	Ich frage mich das schon länger, aber kann man eigentlich Sachen mit gefundener goldener Ausrüstung kaufen? Welche wunderbare reiche Person stellt solche Dinge wohl her? Ich sollte mal Katie darauf ansprechen.
+item_weapon_axe6_name	Aureliaxt
+item_weapon_bow6_desc	Wenn ich mein Ziel mit diesem Bogen anvisiere, fühle ich eine wohlwollende Präsenz meine Hand führen. Das fühlt sich sogar wenn ich tödliche Projektile anfeuere irgendwie beruhigend an.
+item_weapon_bow6_name	Wohlschuss
+item_weapon_claw6_desc	Mit so einem großen Zahn muss das Monster ja gigantisch gewesen sein! Solchen scharfen Beißern will man wirklich nicht gegenüberstehen. Aber dem, der so einen Zahn entfernen konnte, gehe ich auch lieber aus dem Weg.
+item_weapon_claw6_name	Riesenreißer
+item_weapon_dagger6_desc	Ich werde mich wohl nie an das Gefühl gewöhnen, von meiner eigenen Waffe angestarrt zu werden. Vor allem mit diesem verurteilenden Blick, wann immer ein Angriff daneben geht.
+item_weapon_dagger6_name	Alptraumdorn
+item_weapon_mace6_desc	Das ist ein brutales Teil. Finesse sucht man hier vergebens. Das einzige Wort, das mir bei so einer Waffe einfällt, ist „Paaamm“!
+item_weapon_mace6_name	Rauhauer
+item_weapon_spear6_desc	Es ist schon verrückt, wie viel stylisher ein Speer aussieht, wenn man einfach ein Stück roten Stoff daran befestigt. Aber wie oft es wohl vorkommt, dass ein Erkunder mitten im Kampf deswegen auf die Nase fällt …?
+item_weapon_spear6_name	Naginata
+item_weapon_staff6_desc	Seitdem ich diesen Stab mit mir herumtrage, habe ich nur noch angenehme Träume und wache so richtig erholt auf. Es scheint fast so, als ob das Licht, das er ausstrahlt, meine Seele beruhigt.
+item_weapon_staff6_name	Luminaire
+item_weapon_sword0_desc	Tinte ist der Lebenssaft eines jeden Kalligrafen. Jedes Zeichen, das auf dem Pergament zurückbleibt, ist eine Erweiterung seiner selbst. Ich habe hart daran gearbeitet, diese Lektionen zu verstehen, und jetzt ist die Zeit gekommen, meine eigenen Seiten in der Geschichte zu schreiben.
+item_weapon_sword0_name	Übungsfeder
+item_weapon_sword6_desc	Ich kann immer noch nicht fassen, wie unglaublich leicht und ausbalanciert dieses Schwert ist. Es fühlt sich fast an, als ob ich einen Traum in den Händen halte. Ein Traum, der Monster an Ort und Stelle ausmerzt.
+item_weapon_sword6_name	Traumklinge
+lightningdebuff30_name	Blitzempfindlich
+log_bankrelic	Du legst das Relikt beiseite: ^tag1^.\n\nEs landet in deiner #cy#Bank#ec#, wenn du gewinnst!\n\n
+log_error_know_skill	Du #cr#kennst#ec# diese Fähigkeit bereits!
+log_keeprelic	Du behältst das Relikt: ^tag1^.\n\nEs wird am Ende dieser Reise verschwinden.\n\n
+log_mon_terrain_power	#cy#^tag2^#ec# macht #cy#^tag1^#ec# #cg#noch stärker#ec#!
+log_monster_died_shara	^tag1^ wurde besiegt! Du erhältst <color=#40b843>^tag2^</color> JP und <color=yellow>^tag3^</color> G!
+log_oilslick_poison_damage_up	<color=yellow>Der Ölteppich verstärkt den Giftschaden!</color>
+log_robot_summon	#cy#^tag1^#ec# baut einen weiteren #cy#^tag1^#ec# aus Schrottteilen!
+log_shara_creatureheal	Du erhältst #cy#^tag1^#ec# Gesundheit von Monstern, die du #cc#kontrollierst#ec#!
+log_shara_maxcreatures	Du kannst #cr#keine weiteren Monster#ec# kontrollieren! (Max.: #cy#^tag1^#ec#)
+log_shield_absorb_damage_attack	<color=#ffc80a>^tag1^</color> trifft <color=#ffc80a>^tag3^</color> für #co#^tag2^#ec# Schaden! (#cc#SCHILD ABSORBIERT!#ec#)
+log_shield_absorb_damage_effect	<color=#ffc80a>^tag1^</color> trifft <color=#ffc80a>^tag3^</color> für #co#^tag2^#ec# Schaden mit #cy#^tag4^#ec#! (#cc#SCHILD ABSORBIERT!#ec#)
+md_items_breakables	#cc#Sonderregelung#ec#: Du findest mehr Gegenstände in zerstörbaren Objekten!
+md_jp_only_campfires	#cc#Sonderregelung#ec#: Du erhältst JP nur an Lagerfeuern!
+md_keepgold_items_relics	#cy#Bei Sieg#ec#: Du behältst dein ganzes #cy#Gold#ec#, alle #cg#Gegenstände#ec# und mindestens ein im Dungeon erhaltenes #clr#Relikt#ec#.
+md_keepgold_relics	#cy#Bei Sieg#ec#: Du behältst dein ganzes #cy#Gold#ec# und mindestens ein im Dungeon erhaltenes #clr#Relikt#ec#.
+md_keeprelics	#cy#Bei Sieg#ec#: Du behältst mindestens ein im Dungeon erhaltenes #clr#Relikt#ec#.
+md_king_chaser	#cc#Sonderregelung#ec#: Der #clr#Geheimkönig#ec# wird dich von Anfang an verfolgen!
+md_lowmonsteraggro	#cc#Sonderregelung#ec#: Monster sind weniger aggressiv!
+md_many_champions	#cc#Sonderregelung#ec#: Weniger Monster, mehr Champions!
+md_mini_dreamcaster_explain_text	#cy#MINI-TRAUMGIEẞER#ec#: Die Nutzungsanweisungen sind folgende.\n\nFüge #cy#Ausrüstungsgegenstand#ec#, #cc#Träumereiorb#ec# und #co#Gold#ec# in die Einheit ein.\n\nAusrüstung wird aufgewertet. Wenn möglich, kann ein zusätzlicher #co#Magiemod#ec# hinzugefügt werden.\n\n#cy#Mini-Traumgießer#ec# #cr#zerstören sich#ec# nach Verwendung #cr#von selbst#ec#.\n
+md_mini_dreamcaster_main_response0	Du bist ja süß! Was machst du denn?
+md_mini_dreamcaster_main_response1	Werte meine Ausrüstung auf!
+md_mini_dreamcaster_main_text	#cy#MINI-TRAUMGIEẞER#ec#: #cg#Aktueller Status: klein und operativ.#ec#\n
+md_mini_dreamcaster_orbselect_text	#cy#MINI-TRAUMGIEẞER#ec#: Bite wähle den #cy#Träumereiorb#ec# aus, der verwendet werden soll. Wählst du einen #cc#Klarorb#ec# oder #cg#Talentorb#ec#, so erhältst du den daran angebrachten Magiemod.\n
+md_mini_dreamcaster_upgrade_text	#cy#MINI-TRAUMGIEẞER#ec#: Bitte wähle einen Ausrüstungsgegenstand, der aufgewertet werden soll. Alle Aufwertungen benötigen einen #cy#Träumereiorb#ec#.\n\nDu kannst den Orb wählen, nachdem du das Ausrüstungsteil gewählt hast.\n\n#cy#Achtung: Diese Mini-Traumgießer-Einheit kann nur einmal verwendet werden. Danach wird sie sich #ec##cr#selbst zerstören#ec#.\n
+md_monster_powerup	#cc#Sonderregelung#ec#: Monster bekämpfen einander. Wenn sie ein anderes Monster besiegen, stufen sie sich hoch!
+md_monsters_respawn	#cc#Sonderregelung#ec#: Monster kommen zurück!
+md_more_consumables	#cc#Sonderregelung#ec#: Du findest viel mehr Verbrauchsgegenstände!
+md_nodrops	#cc#Sonderregelung#ec#: Monster lassen keine Gegenstände oder Ausrüstung fallen!
+md_ondefeat_loseprogress	#cy#Bei Niederlage#ec#: Du verlierst alle Fortschritte aus dem Dungeon.
+md_randomshop_intro_txt	#cy#^$npcname:current$^:#ec# Hallo! Möchtest du nicht mal einen Blick auf all diese #cc#feinen Waren#ec# werfen? Bei mir gibt es alles Mögliche. Essen, Rüstung, Waffen, Schnickschnack und noch viel mehr!\n
+md_shopkeepers	#cc#Sonderregelung#ec#: Händler auf jeder Ebene!
+md_startwithnothing	#cy#Startsituation#ec#: Du beginnst auf Stufe 1 ohne Ausrüstung, Fähigkeiten, Gefährten oder Gegenstände.
+misc_scaryface	TERRORFRATZE!
+misc_shape_flexrect	Rechteck
+misc_shape_semicircle	Halbkreis
+mm_dualwielderemblem_tier0_biography_desc	Hebst du deine Kampf-Biografie auf, so erhältst du ^number2^ Zg. lang ^number1^ Ausweichchance.
+mm_dualwielderemblem_tier0_dualwield_desc	Grundangriffe fügen beim Kampf mit zwei Waffen ^number1^ Schaden zu.
+mm_dualwielderemblem_tier1_glide_desc	Du erhältst einen Pinselstrich, wenn du Gleitflug einsetzt.
+mm_dualwielderemblem_tier1_shadow_desc	Schattenschaden durchdringt ^number1^ des gegnerischen Widerstands.
+mm_dualwielderemblem_tier2_brush_desc	^number1^ Chance, mit einem Schritt einen Pinselstrich zu erhalten.
+mm_dualwielderemblem_tier2_dodge_desc	Ausweichen beschleunigt alle Abklingzeiten um ^number1^ Zg.
+mm_elemental_bolt2_name	Elementare Rage
+mm_elemental_bolt_desc	Bei Verwendung einer schadenden Elementar-Fähigkeit: ^number1^ Chance, zufälligen Gegner für ^number2^ Geisteskraft mit deinem zuletzt verwendeten Element zu treffen.
+mm_elemental_bolt_name	Elementarschläge
+modedescription_adventure_shara	<color=#40b843>Abenteuermodus</color>\nSobald du auf 0 TP fällst, <color=#40b843>kehrst du zurück zu Sharas Lager</color>.\nDu verlierst die Hälfte deines Geldes und nicht ausgegebene JP.\nEmpfohlen für <color=#40b843>Roguelike-Newbies</color>.\n\n
+modedescription_heroic_shara	\n<color=#ffc80a>Heldenmodus</color>\nSobald du auf 0 TP fällst, ist das Spiel zu Ende (<color=red>Permadeath</color>).\nDies ist sicher eine <color=#ffc80a>Herausforderung</color>, aber <color=yellow>genau so ist Sharas Geschichte gedacht</color>!\n\n
+mon_voidcrystal_name	Leerenkristall
+monster_attr_liveinwater	Lebt im Wasser
+mysteryking_chaser_powerup_txt	Der dich verfolgende #clr#~ Geheimkönig ~#ec# hat seine vollen Kräfte entfesselt!\n\nGleich geht #cy#der Kampf richtig#ec# los …\n\n
+npc_jumpintoriver_name	Pfad zum Windbacher Wasserweg
+obj_holyfire_name	Mystisches Feuer
+relic_flavor_no_owner	a mysterious hero
+relic_option_goback	#cy#Original-Gegenstand#ec# noch einmal ansehen
+relic_option_keep	Behalte auf dieser Reise das Relikt. Es #cr#verschwindet#ec#, sobald die Reise endet.
+relic_option_wait	Erhalte das Relikt, #cy#nachdem#ec# du diese Reise gemeistert hast. Der Rang wird vor Eintritt der Stufe entsprechend #cg#angepasst#ec#.
+relic_tutorial_text	#clr#Relikte#ec# sind mächtiges, zufällig generiertes Zubehör mit einzigartigen Effekten. Sie können sogar noch wirkungsvoller sein als #co#legendäre#ec# Gegenstände oder Gegenstände aus #cg#Ausrüstungssets#ec#! #clr#Relikte#ec# findet man nur in #cy#Reisen des Wanderers#ec#.\n\nDu findest garantiert ein #clr#Relikt#ec#, wenn du den #cy#Geheimkönig#ec# besiegst, den Endboss der #clr#Reise#ec#. Allerdings können sie auch an anderen Stellen im Dungeon gefunden werden.\n\n
+relic_tutorial_text2	Findest du vor dem Boss ein #clr#Relikt#ec#, musst du dich entscheiden: Verwende das #clr#Relikt#ec# für die restliche #cy#Reise#ec# (doch bei Abschluss #cr#verschwindet#ec# es), oder erhalte es als #cg#Belohnung#ec# nach dem Sieg.\n\nEntscheidest du dich für die #cy#Belohnung#ec#, so passt sich der Rang des Gegenstandes deiner Stufe außerhalb der Reise sowie der Schwierigkeit innerhalb der Reise an.\n\nWähle mit Bedacht! Vielleicht möchtest du dir die Kraft des #clr#Relikts#ec# im Dungeon zunutze machen, doch leider kannst du es hinterher #cr#nicht behalten#ec#. Entscheidest du dich für die Belohnung, erhältst du es nur, wenn du #cg#gewinnst#ec#.\n\n
+shadowdebuff30_name	Schattenempfindlich
+shara_ability_update_text	Deine #cc#Bestimmung#ec# ist nun klarer geworden! #cy#^$sharamode:prevdominatename$^#ec# ist jetzt #cc#^$sharamode:dominatename$^#ec#.\n\n^$sharamode:dominatedesc$^\n\n
+shara_ability_update_text_addendum	<size=46>Domination gemeistert!</size>\n\nDurch deine #cc#Dominations#ec#-Fähigkeit wird jede Kreatur in deiner Kontrolle nun nicht mehr mit der Zeit geheilt, sondern #cr#verliert stattdessen an Gesundheit#ec#.\n\nSobald ein nicht-banales #cc#dominiertes#ec# Monster #cy#besiegt#ec# wurde, stellst du #cg#15 %#ec# deiner max. Gesundheit, Ausdauer und Energie wiederher!\n\n
+shara_stat_boost_counter	(Käufe: ^tag1^)
+skill_expmon_absorbpowerups_name	Power-up-Sauger
+skill_expmon_adhesivetongue_name	Klebezunge
+skill_expmon_batterup_name	Bouing!
+skill_expmon_boulder_slam	Schlammstoß
+skill_expmon_burstgas	Giftexplosion
+skill_expmon_burstgas_name	Giftstrahl
+skill_expmon_cannonstunner_name	Betäubungsschuss
+skill_expmon_cubeslimesummonreaction_name	Würfelschleimspaltung
+skill_expmon_divinepower_name	Warme Aura
+skill_expmon_eatweapon_name	Waffenfresser
+skill_expmon_fireball_name	Feuerschlag
+skill_expmon_fly2_name	Schwebe
+skill_expmon_glitterskin_name	Glitzerhaut
+skill_expmon_healovertime_name	Regeneration
+skill_expmon_holystorm_name	Göttlicher Sturm
+skill_expmon_icepotion_name	Frosttrank
+skill_expmon_megabolt_name	Gigavolt
+skill_expmon_mudfighter_name	Schlammkämpfer
+skill_expmon_multibite_name	Bissard
+skill_expmon_passive_dodge25	Flinkausweichung
+skill_expmon_passive_dodge25_name	Erhöhtes Ausweichen
+skill_expmon_passivescare_name	Terrorfratze
+skill_expmon_resilient_name	Zäh
+skill_expmon_slimehex_name	Megafluch
+skill_expmon_staffcharge_name	Bou-Prügel
+skill_expmon_stagrush_name	Hirschige Hilfe
+skill_expmon_statusresist50_name	Statuswiderstand
+skill_expmon_stealandeatfood_name	Futtermopser
+skill_expmon_stickyshot_name	Klebriger Schuss
+skill_expmon_transferhealth_name	Gesundheitsspende
+skill_expmon_waterfighter_name	Wasserkämpfer
+skill_expmon_wingslash_name	Schwingenschlag
+skill_noroot_nostun_name	Betäubungswiderstand
+skill_playerglitterskin_desc	Umgibt dich und deine Verbündeten ^number1^ Zg. lang mit glitzernder Haut! Ein Nahangriff der Glitzerhaut blendet Angreifer.
+skill_playerglitterskin_edesc	Geblendete Angreifer verlieren ^number3^ Zg. lang ^number2^ Genauigkeit.
+skill_playerspinblade_desc	Erzeugt vier sich drehende Klingen, die sich von dir wegbewegen und mit jedem Zug Schaden verursachen. Erhöht kurzfristig deine Parierchance.
+skill_playerspinblade_edesc	Klingen fügen ^number1^ des Waffenschadens als phys. Schaden zu. Parierchance wird für ^number3^ Zg. um ^number2^ erhöht.
+skill_playerspitice_desc	Spucke einen Eissplitter auf ein Monster. Je größer die Entfernung, desto größer der Schaden. Erhöht kurzfristig deine Geisteskraft.
+skill_playerspitice_edesc	Schaden: ^number1^ der Geisteskraft als Wasser. Fügt für jedes Feld zwischen dir und deinem Ziel ^number2^ Bonusschaden zu. Erhöht deine Geisteskraft ^number4^ Zg. lang um ^number3^.
+skill_summonvoidcrystal_desc	Erzeugt einen unbeweglichen Leerenkristall, der zweimal einen weitreichenden Laser abfeuern kann und dann verschwindet.
+skill_summonvoidcrystal_extradesc	Passt sich deiner Stufe an. Es können mehrere Leerenkristalle gleichzeitig beschworen werden.
+skill_xp_bladefroghop_name	Klingensprung
+tutorial_exp_campfire_text	In #cc#Sharas Geschichte#ec# findest du immer #cc#alle drei Ebenen#ec# ein #cy#Lagerfeuer#ec#. Diese sind eine gute Gelegenheit, dich zu erholen, neue #cc#Fähigkeiten#ec# zu lernen und neue #cy#Gegenstände#ec# zu kaufen.\n\nPlane dein Abenteuer um diese kurzen Pausen herum!\n\n
+tutorial_exp_sharamode_maxcreatures_text	Sharas #cc#^$getstring:sharaabilityname$^#ec#-Fähigkeit kann immer nur eine #cy#gewisse Anzahl#ec# an Monstern kontrollieren. Wenn du bereits #cy#^$getstring:sharamaxcreatures$^#ec# Monster unter deiner Kontrolle hast, wirst du keine mehr betören können.\n\nAllerdings wird diese Fähigkeit mit deinem Spielfortschritt #cc#aufgewertet#ec#! Schau dir nach wichtigen Fortschritten in der Geschichte unbedingt ihre Beschreibung an.\n\n
+tutorial_exp_sharamode_part1_text	Willkommen in #cc#Sharas Geschichte#ec#. In diesem Spielmodus erlebst du die Geschichte von #cg#Tangledeep#ec# aus einer neuen Perspektive, und mit einem einzigartigen Gameplay. Solltest du noch nicht den #cy#dritten Boss#ec# der Hauptgeschichte besiegt haben, wäre es nicht schlecht, wenn du das erst noch erledigst!\n\nIn diesem Modus hast du keine #cg#Heilflasche#ec# mehr, und wenn du in einen Brunnen steigst, stellst du stattdessen sofort einige Ressourcen wiederher. Außerdem kannst du niemals zum #cy#Windbacher Marktplatz#ec# gehen, daher kannst du mit deinem #cy#Portal#ec# nur an andere Orte blitzreisen.\n\nDas bedeutet, dass es weder einen Traumgießer, noch einen magischen Hain, noch ein Gehege gibt.\n
+tutorial_exp_sharamode_part2_text	Shara erhält keine #cy#Erfahrung#ec#, und sie lernt auch keine Fähigkeiten, indem sie #cg#JP#ec# ausgibt. Stattdessen kannst du im Fähigkeitenreiter #cg#JP#ec# gegen dauerhafte Werteschübe eintauschen. Jeder Schub ist teurer als der letzte.\n\nEs gibt zwei Wege, Fähigkeiten zu lernen. Du kannst dir Fähigkeiten anderer Jobs aneignen, indem du #cy#Büchsen der Pandora#ec# öffnest, wodurch du eine von zwei zufälligen Fähigkeiten wählen kannst.\n\nAußerdem erhältst du, wenn du dich an einem Lagerfeuer ausruhst, eine einzigartige #cc#Shara#ec#-Fähigkeit – und zwar garantiert! Wähle deine Fähigkeiten mit Bedacht, denn jedes Mal, wenn du spielst, #cy#ist die Auswahl anders#ec#.\n\n
+tutorial_exp_sharamode_wanderingmon_text	Während #cy#Shara#ec# für ihre immer wachsende Stärke bekannt wird, fangen die Monster in #cg#Tangledeep#ec# an, ihr aus dem Weg zu gehen! Indem du deine Kräfte zur Schau stellst und #cy#auf einer beliebigen Ebene#ec# genügend Monster besiegst, werden #cr#dort keine neuen Monster mehr auftauchen#ec#.\n\n
+wanderer_intro_1	#cy#??? WANDERER#ec#: Ja, bitte! Doch ich gehe nur dorthin, wo das #cc#Wasser#ec# mich bringt.\n\nDu hingegen … du scheinst eine Person zu sein, die #cy#selbst bestimmt, wohin sie geht#ec#. Du würdest eher gegen den Strom schimmen, als ziellos umherzutreiben.\n\nSage mir, ist das so?\n
+wanderer_intro_2	#cy#??? WANDERER#ec#: Eine alte Seele wie ich hat ganze Wälder aus einem einzigen Samen wachsen sehen. Es gibt vieles, das ich dir über die Geschichten unserer Welt erzählen könnte, Geschichten #cg#weit über Tangledeep hinaus#ec#.\n\nDoch du musst dich der Geschichte voll und ganz hingeben!\n\nWährend sich dein Kopf auf die Reise begibt, kann dein Körper ihm folgen. Öffne dich neuen Erfahrungen, dann erwartet dich ein endloser #cc#Ozean#ec# von Entdeckungen.\n
+wanderer_intro_3	#cy#??? WANDERER#ec#: Ich habe nur Geschichten, Abenteurer. Ich werde dir eine erzählen, wenn du wahrlich bereit bist, #cy#dich zu öffnen#ec#.\n\nHast du auch nur den geringsten Zweifel, so kannst du dich nicht #cy#wirklich hingeben#ec#, und ich kann dich nicht auf diese Reise mitnehmen.\n\nDu könntest sogar feststellen, dass du keine #cg#Ausrüstung, Fähigkeiten, Gefährten oder Gegenstände#ec# hast. Bist du bereit #cy#für meine Geschichte#ec#?\n
+wanderer_intro_4	#cy#??? WANDERER#ec#: Ah, da bist du ja! Du wurdest während meiner Geschichte #cy#etwas benommen#ec#. Das ist nicht ungewöhnlich, wenn man sich einer guten Geschichte #cy#hingibt#ec#.\n\nDoch da wir die Geschichte nicht beendet haben, müssen wir von vorn beginnen. Die Details #cy#ändern sich mit jedem Mal#ec#, wie du weißt, daher kann man nie ganz vorbereitet sein.\n\nBist du bereit?\n
+wanderer_intro_5	#cy#??? WANDERER#ec#: Nun gut! Ich werde dir von der #clr#Bergwanderung#ec# erzählen.\n\nDu befindest dich am Anfang einer wundersamen Reise, eine voller Kreaturen, welche du #cy#noch nie gesehen hast#ec#. Ein #clr#Relikt#ec# unbekannten Wertes befindet sich auf einem riesigen Gipfel, umgeben von tösenden Winden.\n\nSo ist es richtig. Schließe deine Augen und #cg#lausche meinen Worten#ec# …\n\n
+wanderer_intro_response1	Für einen Fischer bist du sehr weise.
+wanderer_intro_response2	Du hast die Welt außerhalb Tangledeep gesehen? Was gibt es da draußen?
+wanderer_intro_response3	Moment, ich muss erst noch etwas erledigen.
+wanderer_intro_response4	Ich bin bereit. Erzähle mir die Geschichte!
+waterdebuff30_name	Wasserempfindlich
+xp_obj_staticparalyzer_name	Elektrische Energie
+exp1_obj_dominator_head_name	Trophäe
